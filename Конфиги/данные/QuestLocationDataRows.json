@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "QuestLocationDataRows",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable Asteria_TerrainManualQuestTagToLocationTable",
+          "ObjectPath": "/Game/Quests/QuestTagLocations/Asteria_TerrainManualQuestTagToLocationTable.0"
+        },
+        {
+          "ObjectName": "DataTable Asteria_TerrainQuestTagToLocationDataRows",
+          "ObjectPath": "/Game/Quests/QuestTagLocations/Asteria_TerrainQuestTagToLocationDataRows.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class FortQuestTagToLocationDataRow",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Athena.Location.POI.FortaniumQuarry": {
+        "WorldLocation": {
+          "X": -17556.0,
+          "Y": -83340.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Location.POI.IndustrialTown": {
+        "WorldLocation": {
+          "X": 19468.0,
+          "Y": 62984.0,
+          "Z": -12.0
+        }
+      },
+      "Athena.Location.POI.SplitTown": {
+        "WorldLocation": {
+          "X": -23944.0,
+          "Y": 13524.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Location.POI.RealityFortress": {
+        "WorldLocation": {
+          "X": 61856.0,
+          "Y": 32312.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Location.POI.LightCastle": {
+        "WorldLocation": {
+          "X": 48704.0,
+          "Y": -73144.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Location.POI.MedievalTown": {
+        "WorldLocation": {
+          "X": 30040.0,
+          "Y": -34920.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01": {
+        "WorldLocation": {
+          "X": -57948.242,
+          "Y": -27952.686,
+          "Z": 1393.6156
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.05": {
+        "WorldLocation": {
+          "X": -58729.445,
+          "Y": -36227.855,
+          "Z": 1838.1437
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q2.01": {
+        "WorldLocation": {
+          "X": -23255.328,
+          "Y": -93587.99,
+          "Z": 2675.7485
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_0": {
+        "WorldLocation": {
+          "X": -13341.755,
+          "Y": -83450.28,
+          "Z": 3071.545
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.02": {
+        "WorldLocation": {
+          "X": -16837.451,
+          "Y": -80100.016,
+          "Z": 2058.3281
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q2.01_0": {
+        "WorldLocation": {
+          "X": -11702.057,
+          "Y": -76761.14,
+          "Z": 2687.7217
+        }
+      },
+      "Athena.Quest.S23.RefinedMaterial.Place": {
+        "WorldLocation": {
+          "X": -12608.4375,
+          "Y": -87102.82,
+          "Z": 1150.7726
+        }
+      },
+      "Athena.Quest.S23.RefinedMaterial.Collect": {
+        "WorldLocation": {
+          "X": -9911.853,
+          "Y": -41524.57,
+          "Z": 3456.238
+        }
+      },
+      "Athena.Quest.S23.ParadigmTerminal": {
+        "WorldLocation": {
+          "X": -10053.552,
+          "Y": -41113.25,
+          "Z": 3468.0
+        }
+      },
+      "Athena.Quest.S23.RefinedMaterial.Collect_0": {
+        "WorldLocation": {
+          "X": 38727.926,
+          "Y": -88475.67,
+          "Z": 4620.146
+        }
+      },
+      "Athena.Quest.S23.ParadigmTerminal_0": {
+        "WorldLocation": {
+          "X": 38588.57,
+          "Y": -88166.19,
+          "Z": 4625.881
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_1": {
+        "WorldLocation": {
+          "X": 32928.984,
+          "Y": -72660.43,
+          "Z": 4236.0
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q4.01": {
+        "WorldLocation": {
+          "X": 37588.58,
+          "Y": -73217.43,
+          "Z": 4238.185
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_2": {
+        "WorldLocation": {
+          "X": 32928.984,
+          "Y": -72660.43,
+          "Z": 4236.0
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.03": {
+        "WorldLocation": {
+          "X": 49916.457,
+          "Y": -68068.17,
+          "Z": 6167.7383
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_3": {
+        "WorldLocation": {
+          "X": 29612.428,
+          "Y": -42363.31,
+          "Z": 1926.8346
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.04": {
+        "WorldLocation": {
+          "X": 33293.203,
+          "Y": -27388.182,
+          "Z": 3073.6616
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q3.01": {
+        "WorldLocation": {
+          "X": 29929.025,
+          "Y": -22266.951,
+          "Z": 2315.0427
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q4.01_0": {
+        "WorldLocation": {
+          "X": 52626.176,
+          "Y": -80311.02,
+          "Z": 6145.418
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.08": {
+        "WorldLocation": {
+          "X": 92970.4,
+          "Y": -55538.855,
+          "Z": 2708.854
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.07": {
+        "WorldLocation": {
+          "X": 101039.21,
+          "Y": -18224.643,
+          "Z": 2881.263
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_4": {
+        "WorldLocation": {
+          "X": -33958.16,
+          "Y": 5351.1274,
+          "Z": 3060.674
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q3.01_0": {
+        "WorldLocation": {
+          "X": -22494.084,
+          "Y": 16490.494,
+          "Z": 3920.806
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.01": {
+        "WorldLocation": {
+          "X": -21372.047,
+          "Y": 22932.37,
+          "Z": 3817.479
+        }
+      },
+      "Athena.Quest.S23.DataBeacon.06": {
+        "WorldLocation": {
+          "X": 20890.984,
+          "Y": 59765.117,
+          "Z": 1163.7383
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_5": {
+        "WorldLocation": {
+          "X": 13879.713,
+          "Y": 64503.055,
+          "Z": 1162.5612
+        }
+      },
+      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_6": {
+        "WorldLocation": {
+          "X": 70141.73,
+          "Y": 23454.469,
+          "Z": 7681.891
+        }
+      },
+      "Athena.Quest.S23.ParadigmTerminal_1": {
+        "WorldLocation": {
+          "X": 66386.836,
+          "Y": 32513.166,
+          "Z": 5016.1543
+        }
+      },
+      "Athena.Quest.S23.RefinedMaterial.Collect_1": {
+        "WorldLocation": {
+          "X": 67213.51,
+          "Y": 30629.07,
+          "Z": 5000.0
+        }
+      }
+    }
+  }
+]
