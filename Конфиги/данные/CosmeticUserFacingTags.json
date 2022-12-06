@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CosmeticUserFacingTags",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class CosmeticMarkupTagDataRow",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Cosmetics.UserFacingFlags.Emote.Traversal": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Emote.Traversal"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Emote.Traversal_DisplayName",
+          "SourceString": "Передвижение"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Emote.Traversal_HelpText",
+          "SourceString": "[ph]"
+        }
+      },
+      "Cosmetics.UserFacingFlags.HasUpgradeQuests": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.HasUpgradeQuests"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.HasUpgradeQuests_DisplayName",
+          "SourceString": "Дополнительные стили"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.HasUpgradeQuests_HelpText",
+          "SourceString": "Этот предмет включает задания, позволяющие открыть дополнительные стили."
+        }
+      },
+      "Cosmetics.UserFacingFlags.HasVariants": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.HasVariants"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.HasVariants_DisplayName",
+          "SourceString": "Стили на выбор"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.HasVariants_HelpText",
+          "SourceString": "У этого предмета есть варианты на выбор."
+        }
+      },
+      "Cosmetics.UserFacingFlags.Reactive": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Reactive"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Reactive_DisplayName",
+          "SourceString": "Меняет внешний вид"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Reactive_HelpText",
+          "SourceString": "Этот предмет меняет внешний вид по ходу игры в зависимости от ваших успехов."
+        }
+      },
+      "Cosmetics.UserFacingFlags.LoadingScreen.Animated": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.LoadingScreen.Animated"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.LoadingScreen.Animated_DisplayName",
+          "SourceString": "С анимацией"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.LoadingScreen.Animated_HelpText",
+          "SourceString": "Этот предмет использует анимацию при показе"
+        }
+      },
+      "Cosmetics.UserFacingFlags.Spray.Animated": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Spray.Animated"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Spray.Animated_DisplayName",
+          "SourceString": "С анимацией"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Spray.Animated_HelpText",
+          "SourceString": "Этот предмет использует анимацию при показе"
+        }
+      },
+      "Cosmetics.UserFacingFlags.Wrap.Animated": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Wrap.Animated"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Wrap.Animated_DisplayName",
+          "SourceString": "С анимацией"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Wrap.Animated_HelpText",
+          "SourceString": "Этот предмет использует анимацию при показе"
+        }
+      },
+      "Cosmetics.UserFacingFlags.Emoticon.Animated": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Emoticon.Animated"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Emoticon.Animated_DisplayName",
+          "SourceString": "С анимацией"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Emoticon.Animated_HelpText",
+          "SourceString": "Этот предмет использует анимацию при показе"
+        }
+      },
+      "Cosmetics.UserFacingFlags.Enlightened": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Enlightened"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Enlightened_DisplayName",
+          "SourceString": "Вариативно"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Enlightened_HelpText",
+          "SourceString": "У этого предмета есть стиль, чей внешний вид зависит от уровня боевого пропуска того сезона, в котором этот предмет был выпущен."
+        }
+      },
+      "Cosmetics.UserFacingFlags.GearUp": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.GearUp"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.GearUp_DisplayName",
+          "SourceString": "Кованый"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.GearUp_HelpText",
+          "SourceString": "У этого предмета есть дополнительные настройки персонализации"
+        }
+      },
+      "Cosmetics.UserFacingFlags.BuiltInEmote": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.BuiltInEmote"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.BuiltInEmote_DisplayName",
+          "SourceString": "С бонусом"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.BuiltInEmote_HelpText",
+          "SourceString": "Используя этот предмет, вы получаете доступ к особому косметическому контенту"
+        }
+      },
+      "Cosmetics.UserFacingFlags.Synced": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Synced"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Synced_DisplayName",
+          "SourceString": "Общая эмоция"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Synced_HelpText",
+          "SourceString": "Могут использовать одновременно несколько игроков."
+        }
+      },
+      "Cosmetics.UserFacingFlags.Transform": {
+        "tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Transform"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Transform_DisplayName",
+          "SourceString": "Преобразование"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Transform_HelpText",
+          "SourceString": "Этот предмет идёт в комплекте с эмоцией, которая меняет экипировку"
+        }
+      }
+    }
+  }
+]

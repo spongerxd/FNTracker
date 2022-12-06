@@ -1,0 +1,1698 @@
+[
+  {
+    "Type": "FortQuestIndicatorData",
+    "Name": "QuestIndicatorData",
+    "Properties": {
+      "QuestTagToLocationDataTable": {
+        "ObjectName": "CompositeDataTable QuestLocationDataRows",
+        "ObjectPath": "/Game/Quests/QuestLocationDataRows.0"
+      },
+      "DefaultQuestIcon": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Replay/T-Icon-Replay-Exclamation-L.T-Icon-Replay-Exclamation-L",
+        "SubPathString": ""
+      },
+      "QuestTagToIconDataTable": {
+        "ObjectName": "DataTable QuestTagToIconDataRows",
+        "ObjectPath": "/Game/Quests/QuestTagToIconDataRows.0"
+      },
+      "QuestOjectiveTypeToIconMap": {
+        "EFortQuestObjectiveStatEvent::Kill": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Elim.UI_ChallengeIcon_Elim",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Damage": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Damage.UI_ChallengeIcon_Damage",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Visit": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Visit.UI_ChallengeIcon_Visit",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Land": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Land.UI_ChallengeIcon_Land",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Emote": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Emote.UI_ChallengeIcon_Emote",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Collect": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Collect.UI_ChallengeIcon_Collect",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Destroy": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Destroy.UI_ChallengeIcon_Destroy",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Heal": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Heal.UI_ChallengeIcon_Heal",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Interact": {
+          "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Replay/T-Icon-Replay-Exclamation-L.T-Icon-Replay-Exclamation-L",
+          "SubPathString": ""
+        },
+        "EFortQuestObjectiveStatEvent::Spray": {
+          "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Mark.UI_ChallengeIcon_Mark",
+          "SubPathString": ""
+        }
+      },
+      "QuestTagToCategoryDataTable": {
+        "ObjectName": "DataTable QuestTagToCategoryDataRows",
+        "ObjectPath": "/Game/Quests/QuestTagToCategoryDataRows.0"
+      },
+      "ChallengeMapPoiData": [
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_HiddenRuin",
+            "SourceString": "Лесной алтарь"
+          },
+          "WorldLocation": {
+            "X": 304.0,
+            "Y": -104.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.HiddenRuin"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_HiddenRuin",
+          "ActiveDiscoverableBlodIds": [
+            225
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandTower",
+            "SourceString": "Прибрежный оплот"
+          },
+          "WorldLocation": {
+            "X": -16700.0,
+            "Y": -110452.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IslandTower"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IslandTower",
+          "ActiveDiscoverableBlodIds": [
+            215
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SlapStation",
+            "SourceString": "Нектарная забегаловка"
+          },
+          "WorldLocation": {
+            "X": 4168.0,
+            "Y": 16704.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SlapStation"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SlapStation",
+          "ActiveDiscoverableBlodIds": [
+            125
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CastleTower_2",
+            "SourceString": "Восточная башня"
+          },
+          "WorldLocation": {
+            "X": 56580.0,
+            "Y": -59828.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CastleTower.2"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CastleTower2",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CuddleTrack",
+            "SourceString": "Остов Обнимашки "
+          },
+          "WorldLocation": {
+            "X": -50588.0,
+            "Y": 48256.0,
+            "Z": 4812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CuddleTrack"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CuddleTrack",
+          "ActiveDiscoverableBlodIds": [
+            135
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallFarm",
+            "SourceString": "Просторные пастбища"
+          },
+          "WorldLocation": {
+            "X": -77696.0,
+            "Y": -22196.0,
+            "Z": 1764.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SmallFarm"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SmallFarm",
+          "ActiveDiscoverableBlodIds": [
+            132
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IODrill",
+            "SourceString": "Брошенный бур"
+          },
+          "WorldLocation": {
+            "X": 7720.0,
+            "Y": 80180.0,
+            "Z": -1376.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IODrill"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IODrill",
+          "ActiveDiscoverableBlodIds": [
+            105
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_FortaniumQuarry",
+            "SourceString": "КАМЕННЫЙ КАРЬЕР"
+          },
+          "WorldLocation": {
+            "X": -17556.0,
+            "Y": -83340.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.FortaniumQuarry"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_FortaniumQuarry",
+          "ActiveDiscoverableBlodIds": [
+            60
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GuardedVillage",
+            "SourceString": "Приятное пристанище"
+          },
+          "WorldLocation": {
+            "X": -7888.0,
+            "Y": -40440.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GuardedVillage"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_GuardedVillage",
+          "ActiveDiscoverableBlodIds": [
+            5
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FrozenWaterfall",
+            "SourceString": "Морозные водопады"
+          },
+          "WorldLocation": {
+            "X": 49416.0,
+            "Y": 34884.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.FrozenWaterfall"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_FrozenWaterfall",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_AmberForest",
+            "SourceString": "Янтарный лес"
+          },
+          "WorldLocation": {
+            "X": 7204.0,
+            "Y": -55068.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.AmberForest"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_AmberForest",
+          "ActiveDiscoverableBlodIds": [
+            185
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Battlements",
+            "SourceString": "Береговая крепость"
+          },
+          "WorldLocation": {
+            "X": 112076.0,
+            "Y": -71460.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Battlements"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_Battlements",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_HillHouse",
+            "SourceString": "Особняк на отмели"
+          },
+          "WorldLocation": {
+            "X": -52812.0,
+            "Y": -96308.0,
+            "Z": 2940.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.HillHouse"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_HillHouse",
+          "ActiveDiscoverableBlodIds": [
+            85
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FishyIceberg",
+            "SourceString": "Рыбацкая глыба"
+          },
+          "WorldLocation": {
+            "X": 115708.0,
+            "Y": 71092.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.FishyIceberg"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_FishyIceberg",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WindyCanyon",
+            "SourceString": "Вьюжная впадина"
+          },
+          "WorldLocation": {
+            "X": 44752.0,
+            "Y": 25616.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.WindyCanyon"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_WindyCanyon",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BigIceLake",
+            "SourceString": "Ледовитая лагуна"
+          },
+          "WorldLocation": {
+            "X": 52780.0,
+            "Y": -3000.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.BigIceLake"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BigIceLake",
+          "ActiveDiscoverableBlodIds": [
+            12
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_IndustrialTown",
+            "SourceString": "НОВЫЙ НЕКТАРГОРОД"
+          },
+          "WorldLocation": {
+            "X": 19468.0,
+            "Y": 62984.0,
+            "Z": -12.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.IndustrialTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Visit_Location_Ch4_IndustrialTown",
+          "ActiveDiscoverableBlodIds": [
+            20
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_4",
+            "SourceString": "Беззвучный зал"
+          },
+          "WorldLocation": {
+            "X": 29252.0,
+            "Y": 18428.0,
+            "Z": 3496.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TempleOutpost.4"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TempleOutpost4",
+          "ActiveDiscoverableBlodIds": [
+            55
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandHomes",
+            "SourceString": "Пляжный посёлок"
+          },
+          "WorldLocation": {
+            "X": -18932.0,
+            "Y": 65316.0,
+            "Z": -1376.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IslandHomes"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IslandHomes",
+          "ActiveDiscoverableBlodIds": [
+            115
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IceBarge",
+            "SourceString": "Бухта с баржей"
+          },
+          "WorldLocation": {
+            "X": 118500.0,
+            "Y": -19536.0,
+            "Z": 688.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IceBarge"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IceBarge",
+          "ActiveDiscoverableBlodIds": [
+            120
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CastleTower_1",
+            "SourceString": "Западная башня"
+          },
+          "WorldLocation": {
+            "X": 38116.0,
+            "Y": -88856.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CastleTower.1"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CastleTower1",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_2",
+            "SourceString": "Каменная башня"
+          },
+          "WorldLocation": {
+            "X": 94060.0,
+            "Y": 10700.0,
+            "Z": 4484.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TempleOutpost.2"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TempleOutpost2",
+          "ActiveDiscoverableBlodIds": [
+            230
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IsolatedKnightTower",
+            "SourceString": "Одинокий оплот"
+          },
+          "WorldLocation": {
+            "X": 3836.0,
+            "Y": 33568.0,
+            "Z": -192.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IsolatedKnightTower"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IsolatedKnightTower",
+          "ActiveDiscoverableBlodIds": [
+            235
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_RiftGateTower",
+            "SourceString": "Башня хранителя"
+          },
+          "WorldLocation": {
+            "X": 69132.0,
+            "Y": -79760.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.RiftGateTower"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_RiftGateTower",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Village",
+            "SourceString": "Золотистые кроны"
+          },
+          "WorldLocation": {
+            "X": 93132.0,
+            "Y": -58576.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Village"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_Village",
+          "ActiveDiscoverableBlodIds": [
+            245
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalGas",
+            "SourceString": "Королевский уголок"
+          },
+          "WorldLocation": {
+            "X": 65404.0,
+            "Y": -105484.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CoastalGas"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CoastalGas",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_SplitTown",
+            "SourceString": "ПОЛОВИННЫЙ ПОСЁЛОК"
+          },
+          "WorldLocation": {
+            "X": -23944.0,
+            "Y": 13524.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SplitTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_SplitTown",
+          "ActiveDiscoverableBlodIds": [
+            40
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_MountainSummit",
+            "SourceString": "Пик Бури"
+          },
+          "WorldLocation": {
+            "X": 79448.0,
+            "Y": 37312.0,
+            "Z": 12696.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.MountainSummit"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_MountainSummit",
+          "ActiveDiscoverableBlodIds": [
+            110
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TowerPoint",
+            "SourceString": "Надводный надзор"
+          },
+          "WorldLocation": {
+            "X": -76104.0,
+            "Y": -97092.0,
+            "Z": 1856.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TowerPoint"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TowerPoint",
+          "ActiveDiscoverableBlodIds": [
+            45
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_IcebergStation",
+            "SourceString": "ЛЕДОВАЯ ЛАБОРАТОРИЯ"
+          },
+          "WorldLocation": {
+            "X": 79412.0,
+            "Y": 66412.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.IcebergStation"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_ResearchStation",
+          "ActiveDiscoverableBlodIds": [
+            170
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_3",
+            "SourceString": "Холодный храм"
+          },
+          "WorldLocation": {
+            "X": 78524.0,
+            "Y": -12336.0,
+            "Z": 3664.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TempleOutpost.3"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TempleOutpost3",
+          "ActiveDiscoverableBlodIds": [
+            205
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BlacksmithSpring",
+            "SourceString": "Осенняя обитель"
+          },
+          "WorldLocation": {
+            "X": 2708.0,
+            "Y": -96692.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.BlacksmithSpring"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BlacksmithSpring",
+          "ActiveDiscoverableBlodIds": [
+            70
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SouthernIsle",
+            "SourceString": "Добрые домики"
+          },
+          "WorldLocation": {
+            "X": -74088.0,
+            "Y": 6352.0,
+            "Z": 1764.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SouthernIsle"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SouthernIsle",
+          "ActiveDiscoverableBlodIds": [
+            160
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FrozenFrog",
+            "SourceString": "Ледяная лягушка"
+          },
+          "WorldLocation": {
+            "X": 99616.0,
+            "Y": 60924.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.FrozenFrog"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_FrozenFrog",
+          "ActiveDiscoverableBlodIds": [
+            210
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BuriedVillage",
+            "SourceString": "Морозная деревушка"
+          },
+          "WorldLocation": {
+            "X": 51804.0,
+            "Y": -20636.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.BuriedVillage"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BuriedVillage",
+          "ActiveDiscoverableBlodIds": [
+            150
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrailerPark",
+            "SourceString": "Стоянка фургонов"
+          },
+          "WorldLocation": {
+            "X": -22664.0,
+            "Y": -21184.0,
+            "Z": 768.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TrailerPark"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TrailerPark",
+          "ActiveDiscoverableBlodIds": [
+            130
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_NorthHarbor",
+            "SourceString": "БУХТА БЫВАЛЫХ"
+          },
+          "WorldLocation": {
+            "X": 87688.0,
+            "Y": -88244.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.NorthHarbor"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_NorthHarbor",
+          "ActiveDiscoverableBlodIds": [
+            15
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_RealityFortress",
+            "SourceString": "БРУТАЛЬНЫЙ БАСТИОН"
+          },
+          "WorldLocation": {
+            "X": 61856.0,
+            "Y": 32312.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.RealityFortress"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_RealityFortress",
+          "ActiveDiscoverableBlodIds": [
+            200
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SnowShelter",
+            "SourceString": "Снежная нора"
+          },
+          "WorldLocation": {
+            "X": 35328.0,
+            "Y": 27792.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SnowShelter"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SnowShelter",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_1",
+            "SourceString": "Крепость хранителей"
+          },
+          "WorldLocation": {
+            "X": 97216.0,
+            "Y": 43752.0,
+            "Z": 3204.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TempleOutpost.1"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TempleOutpost1",
+          "ActiveDiscoverableBlodIds": [
+            25
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GreenGas",
+            "SourceString": "Прибрежный пит-стоп"
+          },
+          "WorldLocation": {
+            "X": 112280.0,
+            "Y": 6372.0,
+            "Z": 4484.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GreenGas"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_GreenGas",
+          "ActiveDiscoverableBlodIds": [
+            75
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Mansion",
+            "SourceString": "Полевое поместье"
+          },
+          "WorldLocation": {
+            "X": -58032.0,
+            "Y": -63236.0,
+            "Z": 852.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Mansion"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_Mansion",
+          "ActiveDiscoverableBlodIds": [
+            175
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_KnightFuel",
+            "SourceString": "Заправка-загон"
+          },
+          "WorldLocation": {
+            "X": 71228.0,
+            "Y": -49828.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.KnightFuel"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_KnightFuel",
+          "ActiveDiscoverableBlodIds": [
+            100
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_DenseForest",
+            "SourceString": "Продрогший перелесок"
+          },
+          "WorldLocation": {
+            "X": 92292.0,
+            "Y": 5948.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.DenseForest"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_DenseForest",
+          "ActiveDiscoverableBlodIds": [
+            155
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TinyTown",
+            "SourceString": "Душевная деревушка"
+          },
+          "WorldLocation": {
+            "X": -57388.0,
+            "Y": 10652.0,
+            "Z": 1764.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TinyTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TinyTown",
+          "ActiveDiscoverableBlodIds": [
+            8
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IceCaverns",
+            "SourceString": "Ледяная ложбина"
+          },
+          "WorldLocation": {
+            "X": 92812.0,
+            "Y": -19696.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.IceCaverns"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_IceCaverns",
+          "ActiveDiscoverableBlodIds": [
+            10
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallQuarryDock",
+            "SourceString": "Скалистый док"
+          },
+          "WorldLocation": {
+            "X": -26004.0,
+            "Y": -111480.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SmallQuarryDock"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SmallQuarryDock",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Farm",
+            "SourceString": "ПОЛЯ ПОМЕШАТЕЛЬСТВА"
+          },
+          "WorldLocation": {
+            "X": -52584.0,
+            "Y": -33532.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Farm"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_Farm",
+          "ActiveDiscoverableBlodIds": [
+            240
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallFarm2",
+            "SourceString": "Фермерское угодье"
+          },
+          "WorldLocation": {
+            "X": -86972.0,
+            "Y": -55104.0,
+            "Z": 852.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.SmallFarm2"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_SmallFarm2",
+          "ActiveDiscoverableBlodIds": [
+            35
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_EyeLake",
+            "SourceString": "Загадочное озеро"
+          },
+          "WorldLocation": {
+            "X": -34984.0,
+            "Y": 34168.0,
+            "Z": -192.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.EyeLake"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_EyeLake",
+          "ActiveDiscoverableBlodIds": [
+            250
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalTower",
+            "SourceString": "Береговая башня"
+          },
+          "WorldLocation": {
+            "X": 39536.0,
+            "Y": -113980.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CoastalTower"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CoastalTower",
+          "ActiveDiscoverableBlodIds": [
+            145
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalContainers",
+            "SourceString": "Ледяное побережье"
+          },
+          "WorldLocation": {
+            "X": 52356.0,
+            "Y": 80792.0,
+            "Z": 1108.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.CoastalContainers"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CoastalContainers",
+          "ActiveDiscoverableBlodIds": [
+            65
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_LightCastle",
+            "SourceString": "ЦИТАДЕЛЬ"
+          },
+          "WorldLocation": {
+            "X": 48704.0,
+            "Y": -73144.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LightCastle"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_LightCastle",
+          "ActiveDiscoverableBlodIds": [
+            220
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FuelDocks",
+            "SourceString": "Зимний затон"
+          },
+          "WorldLocation": {
+            "X": 116052.0,
+            "Y": 22236.0,
+            "Z": 3204.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.FuelDocks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_FuelDocks",
+          "ActiveDiscoverableBlodIds": [
+            90
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_MedievalTown",
+            "SourceString": "ЗОЛОТОЙ ЗАМОК"
+          },
+          "WorldLocation": {
+            "X": 30040.0,
+            "Y": -34920.0,
+            "Z": 1964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.MedievalTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_NamedLocations.Quest_C4_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_NamedLocations_MedievalTown",
+          "ActiveDiscoverableBlodIds": [
+            80
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TreeFragment",
+            "SourceString": "Древо Вестницы"
+          },
+          "WorldLocation": {
+            "X": 27184.0,
+            "Y": -7212.0,
+            "Z": 1992.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.TreeFragment"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_TreeFragment",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_POI_Papaya_MainStage",
+            "SourceString": "Главная сцена"
+          },
+          "WorldLocation": {
+            "X": -1024.0,
+            "Y": 24064.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Papaya.MainStage"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_mainstage",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_PirateCove",
+            "SourceString": "Пиратский пляж"
+          },
+          "WorldLocation": {
+            "X": 32768.0,
+            "Y": -7680.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.PirateCove"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_piratecove",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_POI_Papaya_Theater",
+            "SourceString": "Мегаэкран"
+          },
+          "WorldLocation": {
+            "X": 6144.0,
+            "Y": -21504.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Papaya.Theater"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_theater",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_POI_Papaya_TheHub",
+            "SourceString": "Площадь"
+          },
+          "WorldLocation": {
+            "X": -512.0,
+            "Y": 2048.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Papaya.TheHub"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_thehub",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRace2",
+            "SourceString": "Гонка Карася"
+          },
+          "WorldLocation": {
+            "X": -32768.0,
+            "Y": 12288.0,
+            "Z": -2895.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.BoatRace2"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_boatracesouth",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRace1",
+            "SourceString": "Гонка Карася"
+          },
+          "WorldLocation": {
+            "X": 8192.0,
+            "Y": 26112.0,
+            "Z": -2560.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.BoatRace1"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_boatraceeast",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRamps",
+            "SourceString": "Летучий атолл"
+          },
+          "WorldLocation": {
+            "X": -35223.0,
+            "Y": -37801.0,
+            "Z": -1126.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.BoatRamps"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_boatramps",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_FishingPond",
+            "SourceString": "Рыбный пруд"
+          },
+          "WorldLocation": {
+            "X": 9679.0,
+            "Y": 13768.0,
+            "Z": -2560.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.FishingPond"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_fishingpond",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_GiantSkeleton",
+            "SourceString": "Месть пожирателя"
+          },
+          "WorldLocation": {
+            "X": -35224.0,
+            "Y": -7035.0,
+            "Z": -1126.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.GiantSkeleton"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_giantskeleton",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_MountainPeak",
+            "SourceString": "Пиратский пик"
+          },
+          "WorldLocation": {
+            "X": 13969.0,
+            "Y": -17462.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.MountainPeak"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_mountainpeak",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_ObstacleCourse",
+            "SourceString": "Амбарные препятствия"
+          },
+          "WorldLocation": {
+            "X": -23040.0,
+            "Y": 13312.0,
+            "Z": -2895.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.ObstacleCourse"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_obstaclecourse",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_RaceCenter",
+            "SourceString": "Трасса для квадроциклов"
+          },
+          "WorldLocation": {
+            "X": -6656.0,
+            "Y": -11776.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.RaceCenter"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_racecenter",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_SecretBeach",
+            "SourceString": "Беспечная бухта"
+          },
+          "WorldLocation": {
+            "X": 8555.0,
+            "Y": -27132.0,
+            "Z": -1024.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.SecretBeach"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_secretbeach",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_SoccerField",
+            "SourceString": "Футбольное поле"
+          },
+          "WorldLocation": {
+            "X": 17806.0,
+            "Y": 14390.0,
+            "Z": -2560.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Papaya.SoccerField"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Season11/Quest_S11_Discover_Landmarks.Quest_S11_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "visit_papaya_soccerfield",
+          "ActiveDiscoverableBlodIds": []
+        }
+      ]
+    }
+  }
+]

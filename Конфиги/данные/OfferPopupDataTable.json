@@ -1,0 +1,1953 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "OfferPopupDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class OfferPopUpData",
+        "ObjectPath": "/Script/FortniteUI"
+      }
+    },
+    "Rows": {
+      "builtinemote": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A3350E5140D3943AAE94CDA594CC22FA",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\" fontface=\"black\">эмоцию из комплекта</>, чтобы <text color=\"FFFFFFFF\" fontface=\"black\">сменить стиль</> во время матча!"
+        }
+      },
+      "neonanimals": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F69369BB4AD4D2F61E238FB7DE237E3E",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Меняйте стиль</>, переключаясь между <text color=\"FFFFFFFF\" fontface=\"black\">инструментом</> и <text color=\"FFFFFFFF\" fontface=\"black\"> оружием.</> "
+        }
+      },
+      "reactivewraps": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CA84BB394B64F7D9C184EE8212D0F639",
+          "SourceString": "Некоторые обёртки <text color=\"FFFFFFFF\" fontface=\"black\">меняют внешний вид</> во время стрельбы."
+        }
+      },
+      "reactiveslurp": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2F9E2BBD41C89AC0478B3296911BD0A1",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> внешний вид головы зависит от заряда щита"
+        }
+      },
+      "reactivetailor": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "56932CFC4BB6D3DEC556FB8C9275CA78",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> светится при устранениях, нанесении урона, изменении запаса здоровья и заряда щита!"
+        }
+      },
+      "reactivekomplex": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1B4C58AA4D735CC907D162968A1CB5D2",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> светится в тёмное время суток."
+        }
+      },
+      "reactivekomplexglider": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E3F6A3E54C3BD26C9F56FDBC09120597",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Дельтаплан, меняющий внешний вид:</> светится в тёмное время суток."
+        }
+      },
+      "reactivedamage": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6FC796954BF78141BC888B8800745374",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> реагирует на урон!"
+        }
+      },
+      "reactiveraveninjabackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A69BB6AC46B75A1FDD0A4B8A62C55F57",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Украшение на спину меняет внешний вид:</> после каждого убийства крутится пластинка и зажигаются огни!"
+        }
+      },
+      "reactivetightsuitoutfit": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D780B8EB44A40BA391F795A7B4481D5F",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> узоры меняются в зависимости от музыки!"
+        }
+      },
+      "builtinspymaleemote": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1598195140DF2CB2662FCA804C399912",
+          "SourceString": "Продемонстрируйте навыки с помощью «Ножа-бабочки» — <text color=\"FFFFFFFF\" fontface=\"black\">эмоции из комплекта</>!"
+        }
+      },
+      "reactiveneonpulsewrap": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9F8ACB08413D00F1AC6ADE88E64B5C51",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Обёртка, меняющая внешний вид</> в зависимости от музыки!"
+        }
+      },
+      "reactiveneoncatspybackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F63B5EB2471A26C8A134FF9C600BDFC7",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\" fontface=\"black\">эмоцию из комплекта</> Китти, чтобы сменить стиль во время матча!"
+        }
+      },
+      "reactivebeacon": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7C9148294348464942B40FAB142D4EBA",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> Глаза горят в ночи!"
+        }
+      },
+      "reactivecapshield": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C14AF18746E7F008364608BEA9717D26",
+          "SourceString": "Используйте щит из прото-адамантия как <text color=\"FFFFFFFF\" fontface=\"black\">украшение на спину</> или как <text color=\"FFFFFFFF\" fontface=\"black\">кирку!</>"
+        }
+      },
+      "reactiveelimbackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2C91CA604DE75A5F19987FA1CC754A0F",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Украшение с меняющимся видом:</> меняется, когда вы совершаете устранения!"
+        }
+      },
+      "reactiveelimpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FCA84770400952E6F1F78FA7EF26CE12",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Кирка с меняющимся видом:</> меняется, когда вы совершаете устранения!"
+        }
+      },
+      "surfingglider": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4E19350841887D4E60555292BB5AB40F",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Скейт-дельтаплан!</>"
+        }
+      },
+      "reactiveloofahpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3CAF7D1F4DF66C1FFB862EBC0AB0FDB6",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Меняет внешний вид:</> при попадании в цель фрукты отлетают в сторону!"
+        }
+      },
+      "reactiverobrobackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AADF898542A90166A3ED15BD9D7F306E",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Украшение с меняющимся видом:</> меняется в такт музыке!"
+        }
+      },
+      "reactivetvbackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8A9293F24C7173B5DB6588857182F362",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Украшение с меняющимся видом:</> экран телевизора мерцает при получении урона."
+        }
+      },
+      "reactiveelimloot": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C3D66B8E4BD057E45F8DCFADAC00FE0D",
+          "SourceString": "изменяется после убийств и получения добычи!"
+        }
+      },
+      "reactivepickaxeelimloot": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0D1662AE41992B7EAB99588AD9D3E0A4",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Кирка с меняющимся видом:</> изменяется после убийств и получения добычи!"
+        }
+      },
+      "reactiveoutfitelimloot": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1790E9C94A8E50115126C2A659A217B7",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> изменяется после убийств и получения добычи!"
+        }
+      },
+      "reactivebackblingelimloot": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "41D9B24240F4C89154366FAEB4B40FD7",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Украшение на спину с меняющимся видом:</> изменяется после убийств и получения добычи!"
+        }
+      },
+      "reactivedreadstrikers": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C000B1EA4F1AC3B94C0DAF810574481C",
+          "SourceString": "Расчехлите <text color=\"FFFFFFFF\" fontface=\"black\">КИРКУ</> «Ужасающие секуторы» из <text color=\"FFFFFFFF\" fontface=\"black\">УКРАШЕНИЯ НА СПИНУ</> «Ужасающие секуторы»!"
+        }
+      },
+      "reactivecorrupted": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "743CE1194B97E7607AD38A85EA5A6E62",
+          "SourceString": "Выбирайте <text color=\"FFFFFFFF\" fontface=\"black\">УРОВЕНЬ ИСКАЖЕНИЯ</> для каждого варианта экипировки."
+        }
+      },
+      "emoticonlocker": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6933F24E4496532E3BAFFABC0C4F0098",
+          "SourceString": "Показывайте свои <text color=\"FFFFFFFF\" fontface=\"black\">ЭМОДЗИ</> в шкафчике!"
+        }
+      },
+      "createhero1": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F5BE23574D1D6008C4742AA37F6E1E7C",
+          "SourceString": "Создайте своего героя! Более десятка настраиваемых элементов!"
+        }
+      },
+      "createhero2": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E9F383A04C12731B9A63BB8991633328",
+          "SourceString": "Создайте своего героя! Десяток настраиваемых элементов!"
+        }
+      },
+      "reactiveemoticape": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "00F393C54A794BEAF6892F8E25641C72",
+          "SourceString": "Используйте эмодзи-плащ как <text color=\"FFFFFFFF\" fontface=\"black\">УКРАШЕНИЕ НА СПИНУ</> или как <text color=\"FFFFFFFF\" fontface=\"black\">ДЕЛЬТАПЛАН!</> Показывайте свои <text color=\"FFFFFFFF\" fontface=\"black\">ЭМОДЗИ</> в шкафчике!"
+        }
+      },
+      "reactiveoutfitelim": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "543C19604268AFDF35756794FD422526",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Экипировка, меняющая внешний вид:</> меняется, когда вы совершаете устранения!"
+        }
+      },
+      "reactiveelim": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D35A420E4B48981B50EBBEBB40CB7BA1",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Меняет внешний вид:</> меняется, когда вы совершаете устранения!"
+        }
+      },
+      "reactivewrapmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F403BF27441068529A3C04AD440A7FA0",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">Обёртка с меняющимся видом:</> меняется в зависимости от музыки!"
+        }
+      },
+      "reactivebackspinsword": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9286EDD54F3EA943B8B2998AEF1021D9",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\" fontface=\"black\">«Дневного бродягу»</> как <text color=\"FFFFFFFF\" fontface=\"black\">украшение на спину</> или как <text color=\"FFFFFFFF\" fontface=\"black\">кирку!</>"
+        }
+      },
+      "reactiveelimshort": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C7FE13A747B5204C4FB8B48CC895D913",
+          "SourceString": "Реагирует на устранения!"
+        }
+      },
+      "reactiveharvestweak": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AAE8184F4B921D998EC347B59BF6EA81",
+          "SourceString": "Для активации бейте по слабым местам во время сбора ресурсов!"
+        }
+      },
+      "papayaconcertstyle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C7EC05354C4B33104221AE915A1A7A07",
+          "SourceString": "Получите эксклюзивный стиль «Джей Бальвин (J Balvin)» для экипировки Солдата танцпола, посетив один из его концертов на «Королевской вечеринке»!"
+        }
+      },
+      "unlockjbalvinstyledate": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "640C6A7C4FEA1AA234A054A141D3DE11",
+          "SourceString": "Получите эксклюзивный стиль «Джей Бальвин» для экипировки Солдата танцпола, посетив концерт на «Кошмарной вечеринке» 31 октября или 1 ноября!"
+        }
+      },
+      "unlockjbalvinstyleafterlife": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9793C88C44901EAB4261878BBD6F7E2A",
+          "SourceString": "Получите эксклюзивный стиль «Джей Бальвин» для экипировки Солдата танцпола, посетив концерт на «Кошмарной вечеринке»!"
+        }
+      },
+      "reactivejekyllemote": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "094620A34307DD423074EEADC5AA7E88",
+          "SourceString": "Используйте эмоцию <text color=\"FFFFFFFF\" fontface=\"black\">«Эликсир превращений»</> из комплекта, чтобы сменить стиль во время матча!"
+        }
+      },
+      "reactivepumpkinpunkpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CD6424A543D6ABFF629D2A87068EA6AE",
+          "SourceString": "Достаньте кирку <text color=\"FFFFFFFF\" fontface=\"black\">«Разбиватель тыкв»</> из украшения на спину <text color=\"FFFFFFFF\" fontface=\"black\">«Тыквенные биты»</>, когда они оба используются!"
+        }
+      },
+      "unlockjbalvinstylenow": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D6E638B346C2B3701C9B0A93DF6C7ABD",
+          "SourceString": "Получите эксклюзивный стиль «Джей Бальвин», посетив концерт на «Кошмарной вечеринке» прямо сейчас!"
+        }
+      },
+      "unlockjbalvinstyleattenddate": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FBF462BC4B6D48618B4CF2A8DB903C04",
+          "SourceString": "Посетите концерт на «Кошмарной вечеринке» 31 октября или 1 ноября, чтобы разблокировать эксклюзивный стиль «Джей Бальвин» для экипировки Солдата танцпола!"
+        }
+      },
+      "unlockjbalvinattend": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CBA000A34882B5E3F542278F1927B3EA",
+          "SourceString": "Посетите концерт на «Кошмарной вечеринке», чтобы разблокировать эксклюзивный стиль «Джей Бальвин» для экипировки Солдата танцпола!"
+        }
+      },
+      "reactiveyorkbackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2895747A461B8080FCE320A81ECFE511",
+          "SourceString": "<text color=\"FFFFFFFF\" fontface=\"black\">МЕНЯЕТ ВНЕШНИЙ ВИД:</> Накапливайте убийства, чтобы заряжать <text color=\"FFFFFFFF\" fontface=\"black\">Протонный ранец</>!"
+        }
+      },
+      "jbalvinenjoy": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "79D1E6224AFECDD001AFA1813ECF26A5",
+          "SourceString": "Получите стиль «Джей Бальвин» для экипировки Солдата танцпола за покупку. Загляните на «Королевскую вечеринку» и посетите «Кошмарную вечеринку»!"
+        }
+      },
+      "reactivewraplight": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C788811E43E07E94F09662A51F5D6A1F",
+          "SourceString": "Обёртка с меняющимся видом: <text color=\"FFFFFFFF\" fontface=\"black\">светится</> во время стрельбы!"
+        }
+      },
+      "reactiveweaponfire": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "99A7F48447802A3987DB2CB89B56C387",
+          "SourceString": "Реагирует на стрельбу!"
+        }
+      },
+      "reactiveoutfitbackblingelim": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "31E51F844C5A5A38C0359883BA2465A9",
+          "SourceString": "<text color=\"FFFFFFFF\">ЭКИПИРОВКА</> и <text color=\"FFFFFFFF\">УКРАШЕНИЕ НА СПИНУ</> меняют вид после устранений!"
+        }
+      },
+      "vertigoexclusivepickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AB5B820F4B202F510060618B02801100",
+          "SourceString": "Только Веном может использовать могучее симбиотическое щупальце!"
+        }
+      },
+      "pickthreeteam": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6CB3CAB84677205AE82D8BB27D82BB5E",
+          "SourceString": "Выберите любимую команду NFL, номер и тип шлема!"
+        }
+      },
+      "reactivecorny": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D7AA9052429724896620DA995DF93B30",
+          "SourceString": "Попкорн лопается при получении урона!"
+        }
+      },
+      "promodesc1": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2C72E6254A90740BA8BC67A8577A0AE8",
+          "SourceString": "Кратос прибыл на остров."
+        }
+      },
+      "promodesc2": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "45B2D0C548992CF87F317FBE530975AA",
+          "SourceString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
+        }
+      },
+      "historianpickaxedesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3DD9AE60494FA3C1163671B7E05EB1BA",
+          "SourceString": "Когда вы используете <text color=\"FFFFFFFF\">кирку «Левиафан»,</> она покрывается изморозью. Идёт в комплекте с эмоцией!"
+        }
+      },
+      "reactivebittersweets": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "EA294E1A4622381E7299FF800418869E",
+          "SourceString": "Украшение на спину «Имбирный щит» меняет вид после устранений!"
+        }
+      },
+      "syncedsingalong": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "70EF5B1D4F926DFCD1A42C99D1089F23",
+          "SourceString": "Пойте вместе с другими игроками, которые используют эмоцию «Поём хором»!"
+        }
+      },
+      "wombatmaledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0EEE3F8341B2D145BBC70BADD18BE13F",
+          "SourceString": "Стили для экипировки идут в комплекте с плащом! Наденьте любое украшение на спину, но, главное, БЕЗ ПЛАЩА!"
+        }
+      },
+      "wombatfemaledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D3E4155840FA5FF439D65680F8817AAD",
+          "SourceString": "Стили для экипировки идут в комплекте с плащом! Наденьте любое украшение на спину, но, главное, БЕЗ ПЛАЩА!"
+        }
+      },
+      "reactiveneonfemaledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B91D1C3A445DD6E86FF68C84DDF24DDE",
+          "SourceString": "Экипировка и украшение на спину меняют внешний вид! <text color=\"FFFFFFFF\">«Неоновая звезда»</> меняется во время игры!"
+        }
+      },
+      "reactiveneonmaledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FB735D234D9978D458F882B3B57E8D41",
+          "SourceString": "Экипировка и украшение на спину меняют внешний вид! <text color=\"FFFFFFFF\">«Неоновый смайл»</> меняется во время игры!"
+        }
+      },
+      "reactivemusicplaydesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "988F970F4C601AA3A27F729C7A8CE001",
+          "SourceString": "Меняет внешний вид: реагирует на музыку!"
+        }
+      },
+      "syncedfavordesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E476691044B4E65E1ADE13AA910112A5",
+          "SourceString": "<text color=\"FFFFFFFF\">ОБЩАЯ ЭМОЦИЯ</>: устройте <text color=\"FFFFFFFF\">ВЕЧЕРИНКУ</> с другом!"
+        }
+      },
+      "reactiveneonbundledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9E600B884159C5AF18BE5C8AD4EFDE3A",
+          "SourceString": "Экипировки и украшения на спину меняют внешний вид! <text color=\"FFFFFFFF\">«Неоновая звезда»</> и <text color=\"FFFFFFFF\">«Неоновый смайл»</> меняются во время игры!"
+        }
+      },
+      "reactivefemaletyphoondesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CCFA9EAE478F5097A0B0F6BA4989FDBE",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">кирку «Боевой нож»</> из ножен экипировки <text color=\"FFFFFFFF\">Сары Коннор</>, если надеты оба предмета!"
+        }
+      },
+      "reactiveconvoytarantuladesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0D16CEF04B49FF1B213BB6BF9A3B9E14",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\">катану Снейк Айза</> как <text color=\"FFFFFFFF\">украшение на спину</> или как <text color=\"FFFFFFFF\">кирку</>!"
+        }
+      },
+      "pickclubstyle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "46A3D53E408F2B7E22319ABAFB4F063E",
+          "SourceString": "Выберите одну из 23 клубных форм!"
+        }
+      },
+      "reactivefuseslight": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4E34E9744966E7863D3C6BAF08131EEE",
+          "SourceString": "При использовании эмоций загорается свет!"
+        }
+      },
+      "equipmainframe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D2BE4F0F41D006E515010C8AFD2B7409",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\">«Идентификационный диск»</> как <text color=\"FFFFFFFF\">украшение на спину</> или как <text color=\"FFFFFFFF\">кирку</>!"
+        }
+      },
+      "loadingscreenincluded": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AAFDCFA646998577DCC806AA97145109",
+          "SourceString": "Экран загрузки в комплекте!"
+        }
+      },
+      "reactiveanimationgameplay": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F4AF9BFB4E7C4B81BEB78295472A23BF",
+          "SourceString": "Анимация реагирует на происходящее!"
+        }
+      },
+      "reactivegameplay": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FFB155A542B65D3E77F330897624CE27",
+          "SourceString": "Реагирует на происходящее!"
+        }
+      },
+      "builtinemoteskirmishmale": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3559D04C41C65BC4CC25A1ADE2913CEB",
+          "SourceString": "Экипировка с эмоцией Shoryuken в комплекте!"
+        }
+      },
+      "builtinemoteskirmishfemale": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F83E654448A5B0C3DF23609A59EFD194",
+          "SourceString": "Экипировка с эмоцией «Молниеносные удары!» в комплекте!"
+        }
+      },
+      "builtinemotemulti": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C1DF889B4AFC24776CE40C8A6D509EE8",
+          "SourceString": "В комплекте с экипировками идут эмоции!"
+        }
+      },
+      "builtinemotekeplermale": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BD99E46A477B13FAEEBC408EC3BFA7C2",
+          "SourceString": "Экипировка с эмоцией «Инопланетная угроза» в комплекте!"
+        }
+      },
+      "reactivecatburglar": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DF9B67B8489C5C3B1C6D6C8A14F5275E",
+          "SourceString": "Меняет внешний вид: экипировка и украшение на спину становятся всё более золотыми с каждым убийством. Оружие, подобранное Златой, может становиться золотым."
+        }
+      },
+      "syncedshanty": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7CB6F5914D44B7E7E851E1A5D98082DC",
+          "SourceString": "Групповая эмоция! Пойте вместе с другими игроками, которые используют эмоцию «Гимн отряда»!"
+        }
+      },
+      "reactivesouls": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B4A079B94CCC988D1FCDC482AF2EE808",
+          "SourceString": "Меняет внешний вид: на экипировке появляются души погибших врагов!"
+        }
+      },
+      "reactivevolcano": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "56EFF09D4061AB17869BCBB17596491B",
+          "SourceString": "Украшение на спину с меняющимся видом: когда вы совершаете устранения, происходит извержение вулкана!"
+        }
+      },
+      "reactivepopopentimer": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8A8C511B4C37E70F12150194C71436EC",
+          "SourceString": "Меняет внешний вид: раскрывается, когда вы совершаете устранения! Таймер ведёт отсчёт до приближения Бури."
+        }
+      },
+      "builtinemotesingular": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B1FB98DF48C4B603E1DA0DBD17A2628F",
+          "SourceString": "В комплекте с экипировкой идёт эмоция!"
+        }
+      },
+      "reactivesoulsbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "75227C78439D53AE39F03BB66E4F628B",
+          "SourceString": "Экипировка, меняющая внешний вид: на экипировке появляются души погибших врагов! Включает экран загрузки!"
+        }
+      },
+      "reactiveemotesandmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0EFBC2F24454803A5E58268977AC68E0",
+          "SourceString": "Реагирует на эмоции и музыку!"
+        }
+      },
+      "promodesc3": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "68AD059440E037B182477AB891B0BB7B",
+          "SourceString": "Включает экран загрузки!"
+        }
+      },
+      "promodesc4": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "ABED7B7B410E18BB0436289003963F1D",
+          "SourceString": "Элой высадилась на остров!"
+        }
+      },
+      "syncedtrain": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3A0D2EA54BCC896D1B9EB7826C4D4078",
+          "SourceString": "Общая эмоция: станьте машинистом поезда и предложите другим игрокам сесть в вагоны и присоединиться к вам!"
+        }
+      },
+      "tacticalredpunkpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DE549FC64F24994615D106927191B932",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">«Багровые клинки»</> из соответствующего украшения на спину, если используете оба предмета!"
+        }
+      },
+      "dinocollectorpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2914DD5943EA1A9E12DBBA98A314BC04",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">«Костяные кирки»</> из <text color=\"FFFFFFFF\">украшения на спину «Клык и бивень»</>, если используете оба предмета!"
+        }
+      },
+      "transforminspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6039591849081403F3854695A5F8774A",
+          "SourceString": "Меняйте стили при помощи встроенной эмоции <text color=\"FFFFFFFF\">«Время обезьянничать»</>!"
+        }
+      },
+      "basketinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "304FA73A48A462CDB8E765B376314DC4",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\">игрушку «Трёхочковый бросок»</>, чтобы попасть в <text color=\"FFFFFFFF\">украшение «Мини-кольцо»</> на спине у другого игрока, и вы увидите особый эффект!"
+        }
+      },
+      "pickteaminspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F2CBF48D49704710585F2AB5A4E14202",
+          "SourceString": "Выберите свою любимую команду в NBA и номер на футболке!"
+        }
+      },
+      "fncss16finals": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "385E0C364CCD081FD458C6B65C0AF225",
+          "SourceString": "Эксклюзив финала мини-чемпионата по Fortnite шестого сезона второй главы!"
+        }
+      },
+      "grimreactive": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D39ED36841A7FA503AE9E297ECC04837",
+          "SourceString": "Достаньте кирку из украшения на спину «Катаны Десстроука», если используете оба предмета!"
+        }
+      },
+      "downpourreactive": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9FFDA8D9464CE59026FB66B264326511",
+          "SourceString": "Достаньте кирку «Кинжалы из вулканического стекла» из ножен Кельсера! В комплекте с экипировкой идёт экран загрузки!"
+        }
+      },
+      "outfitreactstomusicemotes": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "173FD38A4F6A44848F9B3287346D1ED7",
+          "SourceString": "Экипировка, меняющая внешний вид: при использовании музыкальных эмоций светится."
+        }
+      },
+      "outfitincludesbuildinemote": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C6E84CCD4B351124F2D1D6818F546A29",
+          "SourceString": "В комплекте с экипировкой идёт эмоция!"
+        }
+      },
+      "flapyourwings": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "688BC2FF43C9A2C49CCADFA8F787F2D8",
+          "SourceString": "Взмахивайте крыльями при прыжке!"
+        }
+      },
+      "goldquestsstandalone": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "029FBC154CA4C032B816849161148FB1",
+          "SourceString": "Всё больше покрывается золотом по мере выполнения задания! Выполните задание, чтобы получить дополнительный золотой стиль!"
+        }
+      },
+      "goldquestsbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "43FCD385412998F142D9868F4E69F1FB",
+          "SourceString": "Когда вы выполняете задания, предметы всё больше покрываются золотом! Выполните все задания, чтобы получить дополнительный золотой стиль!"
+        }
+      },
+      "catburglarsummerinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E7EE14A5405C1E799845428606EEA42B",
+          "SourceString": "Золотые руки: находящееся в руках оружие становится золотым. Когда вы совершаете устранения, татуировки становятся более золотыми!"
+        }
+      },
+      "henchmansummerinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FAD683C94DCB0C300FEBD98730FD99DB",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">«Песочные лопатки»</> из украшения на спину <text color=\"FFFFFFFF\">«Подводный футляр»</>, если используете оба предмета!"
+        }
+      },
+      "firecrackerinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A14FF19C45577E5363882D89F6E1FDFA",
+          "SourceString": "Отпразднуйте королевскую победу, активировав особую встроенную эмоцию <text color=\"FFFFFFFF\">NITROJERRY</>: <text color=\"FFFFFFFF\">салют</>."
+        }
+      },
+      "firecrackerpickaxeinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E79AF9314F930B3DF7F78D9B55D12B5D",
+          "SourceString": "Включает встроенную эмоцию «Римская свеча»!"
+        }
+      },
+      "shellhideinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "015772FA455FFEB69600B68871453E06",
+          "SourceString": "Когда вы получаете урон, рачок прячется в раковину!"
+        }
+      },
+      "goldwrapeliminspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5C9ECF164B8DC145D8D1279E0B316B6E",
+          "SourceString": "Обёртка с меняющимся видом! Всё больше покрывается золотом, когда вы совершаете устранения!"
+        }
+      },
+      "mustangwrapinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "552185A4497724D071A0CC95276642EE",
+          "SourceString": "Устранения отображаются на флаге! Пусть враги трепещут!"
+        }
+      },
+      "bluecheeseinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5850C84F4C5D6496F322969079662006",
+          "SourceString": "Экипировка накапливает электричество с каждым устранением. Зои будет выглядывать из украшения на спину<text color=\"FFFFFFFF\">«КУБОК ЗОИ»</> после каждого устранения!"
+        }
+      },
+      "pliantoutfitlong": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "645D47514F508F76EF52B68F53F58C14",
+          "SourceString": "Покажите любую из своих обёрток на этой экипировке! Выберите цвет волос и одежды, чтобы создать стильный образ! Включает обёртку «Пиксельный разрыв»!"
+        }
+      },
+      "pliantoutfitshort": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FB8DB2664B1FE93881928C871F67FE08",
+          "SourceString": "Покажите любую из своих обёрток! Выберите цвет волос и одежды. Включает обёртку «Пиксельный разрыв»!"
+        }
+      },
+      "pliantgearbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AF80345C41033D99BFB2BB9CB1813FEF",
+          "SourceString": "Покажите любую из своих обёрток на этих предметах!"
+        }
+      },
+      "pliantbackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0C72BFF64E08B7F9B1C4338661A9808B",
+          "SourceString": "Покажите любую из своих обёрток на этом украшении на спину!"
+        }
+      },
+      "pliantpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CD9F29C54A1B8A425B2BE68753E5CA36",
+          "SourceString": "Покажите любую из своих обёрток на этой кирке!"
+        }
+      },
+      "musicreactinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C3E5222744966E36F63963AD14BB224D",
+          "SourceString": "Реагирует на музыку!"
+        }
+      },
+      "progressivecrewlegacy": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F64D7C4E4EB6FAD56BC5FE92DCA39861",
+          "SourceString": "Открывайте новый вариант украшения на спину или кирки ветерана отряда каждый месяц при наличии подписки (до 6 вариантов!)."
+        }
+      },
+      "outfitlightmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A931E3E74B01220D11E7D88C73D6D7DF",
+          "SourceString": "Экипировка подсвечивается и меняет цвета в такт музыке!"
+        }
+      },
+      "outfitslightmusicbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2D11FED94C54EF90FB63459F19231EB9",
+          "SourceString": "Экипировки подсвечиваются и меняют цвета в такт музыке. Комплект включает экран загрузки!"
+        }
+      },
+      "somanystyles": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3DAA26034995C32876D6F0BBC6B0EEDE",
+          "SourceString": "Более 4000 уникальных комбинаций стилей!"
+        }
+      },
+      "builtindesc1": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "81274B3042EEC8CC2C9A6298250E36BB",
+          "SourceString": "Экипировка с эмоцией «Замысловатый удар» в комплекте!"
+        }
+      },
+      "builtindesc2": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "55CA4EC1403006331B9A3B9C80A25E9B",
+          "SourceString": "Экипировка с эмоцией «Закрученная стрела» в комплекте!"
+        }
+      },
+      "builtinbundleloadingscreen": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AAD5E0F349F95C1872C0A4ADBD535A6E",
+          "SourceString": "В комплекте с экипировками идут эмоции. Комплект включает экран загрузки!"
+        }
+      },
+      "guffiebackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "770D174C4486AE1E74906E9723A0C845",
+          "SourceString": "<text color=\"FFFFFFFF\">НАДУВНОЙ ПРЫГУН</> радуется или злится в зависимости от вашей игры!"
+        }
+      },
+      "promodesc5": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "85CBD80B43E2F757373E778D06521424",
+          "SourceString": "Посетите разлом-тур с 7 по 9 августа и откройте эксклюзивный стиль «Неоновый солдат танцпола» для Солдата танцпола!"
+        }
+      },
+      "bundlefoursprays": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6FA36431462D563BC66AF78AC55CDC16",
+          "SourceString": "Комплект включает четыре граффити!"
+        }
+      },
+      "rollerskateinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "26A38FD64AF18A1B0C312990DCEAC5EA",
+          "SourceString": "В комплект экипировки входит эмоция <text color=\"FFFFFFFF\">«РАССЛАБЛЕННЫЙ РОЛЛЕР»</>, которую можно использовать в движении! В комплекте бесплатный экран загрузки!"
+        }
+      },
+      "floraxeinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6761491740D6EB6161F0359DF43E073F",
+          "SourceString": "<text color=\"FFFFFFFF\">«Плюксарианский остролист»</> превращается в руку <text color=\"FFFFFFFF\">Флокса</>, когда используются оба предмета. Экипировка реагирует на урон!"
+        }
+      },
+      "fncsc2s7inspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FF8D143B49BAE81C9F647F84C48E0D2A",
+          "SourceString": "Эксклюзив финала мини-чемпионата по Fortnite седьмого сезона второй главы!"
+        }
+      },
+      "galaxybackpackinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BED7870F4964C39A8AF5CAAC4D77ED73",
+          "SourceString": "Украшение на спину <text color=\"FFFFFFFF\">«ЛАДОНИ GALAXY»</> меняется, когда вы совершаете устранения!"
+        }
+      },
+      "syncedemoteinvite": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "091A022547B7C91FC992638C22A47D39",
+          "SourceString": "Общая эмоция: используйте вместе с другими игроками!"
+        }
+      },
+      "glassbreaks": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "47082E5F47AAAAE0F03510899E44FEC7",
+          "SourceString": "Стекло разбивается при попаданиях по слабым местам!"
+        }
+      },
+      "reactstoaudio": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FCF2BE1E4EC214628F939AA2E7FA5FEB",
+          "SourceString": "Реагирует на звук!"
+        }
+      },
+      "boundlessdisabledcomp": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4C7254C84D6EA042E1CB8A90EE5B3CC9",
+          "SourceString": "Создайте своего героя! Более десятка изменяемых элементов! Примечание: в данный момент эта экипировка недоступна в соревновательных режимах. "
+        }
+      },
+      "tiedyedesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AEF71B2743372AEBCE05E58277E3FCF8",
+          "SourceString": "Добавляйте и смешивайте! Выберите узоры и цвета для экипировок. Выберите три разных цвета для украшения на спину и кирки!"
+        }
+      },
+      "promodesc7": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FF2BC53E43570626B691F9AC377401D7",
+          "SourceString": "Используйте эмоцию «Пора швифтануться» вместе с другими игроками! Стекло на кирке «Космическая змея» разбивается при попаданиях по слабым местам!"
+        }
+      },
+      "promodesc6": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0F4B6D224F107CB4617E9B9921B0CC2E",
+          "SourceString": "Доставайте кирку из украшения на спину «Чёткость», как из ножен, если используете оба предмета!"
+        }
+      },
+      "reactiveoutfitcolorelims": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4D4EAA2741B822FD9048F1A66D07A49C",
+          "SourceString": "Экипировка, меняющая внешний вид: меняет цвет, когда вы совершаете устранения!"
+        }
+      },
+      "tiedyedescnew": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4A0E1B994DDC6C0593E930BD22740BD1",
+          "SourceString": "Создайте свой дизайн: подберите и скомбинируйте три цвета в одном из шести узоров."
+        }
+      },
+      "tiedyepickaxeinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "93DC86C8424679385C27179D6AF485CF",
+          "SourceString": "Выберите до трёх разных цветов!"
+        }
+      },
+      "monarchoutfitinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "33DBD21645B0792D4FD1A58E3B9E4CF7",
+          "SourceString": "Экипировка с эмоцией «Наручи Гефеста» в комплекте!"
+        }
+      },
+      "emoteandloadingscreen": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B3D43A7C4621586BCC54EC8A5C82B48D",
+          "SourceString": "В комплекте с экипировкой идёт эмоция. Комплект включает экран загрузки!"
+        }
+      },
+      "majestygearbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FCD2247942AB182BC664F689D17363C3",
+          "SourceString": "Когда вы выполняете задания, «Лев» и «Крылья победы» всё больше покрываются золотом! Получите дополнительный золотой стиль!"
+        }
+      },
+      "majestyoutfitbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "50B0BB8B44FE90465C7A099803C84A68",
+          "SourceString": "Когда вы выполняете задания, экипировка <text color=\"FFFFFFFF\">ЛЕБРОНА ДЖЕЙМСА</> и <text color=\"FFFFFFFF\">РЮКЗАК КОРОЛЯ</> всё больше покрываются золотом! Получите дополнительный золотой стиль!"
+        }
+      },
+      "tattooreactivity": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3400F2A94A986F8F557C7E8D84E2851D",
+          "SourceString": "Татуировки подсвечиваются при открытии сундуков!"
+        }
+      },
+      "reactiveoutfitchangescolorelims": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4A48220240540F61241C35A16FDD2037",
+          "SourceString": "Экипировка, меняющая внешний вид: меняет цвет, когда вы совершаете устранения."
+        }
+      },
+      "promodesc8": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F67A19D84FBA772395FA4E985E4A0CDA",
+          "SourceString": "Экипировка кольчужной Рамиреc меняет цвет, когда вы совершаете устранения."
+        }
+      },
+      "promodesc9": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5D4866A340A01E091B09388A60B95F9E",
+          "SourceString": "Экипировка модной Баньши меняет цвет, когда вы совершаете устранения."
+        }
+      },
+      "promodesc10": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "85268EF0414576DF90BF17832A71DCFD",
+          "SourceString": "Преобразитесь с помощью встроенной эмоции! Только Эдди Брок может использовать симбиотическую косу, которая идёт в комплекте."
+        }
+      },
+      "promodesc11": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "595B166F416598C86F7F1B92508D7513",
+          "SourceString": "В комплект входит эмодзи! Только Веном может использовать симбиотическое щупальце, а симбиотическая коса доступна только Эдди Броку. Эдди Брок преображается с помощью эмоции!"
+        }
+      },
+      "reactivelightningelims": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C59CED814606D584FA64338C33794EA3",
+          "SourceString": "Экипировка, меняющая внешний вид: молнии сверкают чаще, когда вы совершаете устранения."
+        }
+      },
+      "werewolffemalepickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C566E75448A3109C5397319A454F8BE5",
+          "SourceString": "Достаньте парные кирки «Сила и злоба» из украшения на спину «Герб оборотня»!"
+        }
+      },
+      "reactiveilluminatesweakpoints": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2E2EAD0A482B2432A2E95DAC95894A48",
+          "SourceString": "Кирка с меняющимся видом: светится при попаданиях по слабым местам."
+        }
+      },
+      "pickmaskpatterncolors": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BAE0C21C429D8BE5CC8DF382808ADA24",
+          "SourceString": "Выберите маску, рисунок и три цвета для экипировки!"
+        }
+      },
+      "perfectproppickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E40F84134BD43D84698828880393EE4F",
+          "SourceString": "Выберите рисунок и три цвета для кирки!"
+        }
+      },
+      "transformbuiltinemote": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "41924CAE4F67D77FADF1D495335006B2",
+          "SourceString": "Преобразитесь с помощью встроенной эмоции!"
+        }
+      },
+      "transformbuiltinaccessories": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "28617EDB4E9B72EBB5262D8805985A0D",
+          "SourceString": "Преобразитесь с помощью встроенной эмоции! Внешний вид используемых аксессуаров тоже изменится!"
+        }
+      },
+      "gummyfishstickinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4268AD8343AAAE315718628CB5B9AF4C",
+          "SourceString": "Выберите цвета для вашего Желейного Карася!"
+        }
+      },
+      "promodesc12": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B5356A2D40D8533165878DA322778499",
+          "SourceString": "Стили аксессуаров Астронавтки Ариана Гранде будут автоматически совпадать со стилем экипировки и изменяться в зависимости от эмоции в комплекте!"
+        }
+      },
+      "shadowtouch": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AA3175454C9BE929CA43D98D929E16F8",
+          "SourceString": "Теней на экипировке становится больше, когда вы совершаете устранения. <text color=\"FFFFFFFF\">«Прикосновение тьмы»:</> украсьте обёрткой-тенью любое используемое оружие!"
+        }
+      },
+      "zombieelastic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BBC80C9D4B4EBE8B974F118ABFD4914E",
+          "SourceString": "Создайте собственного героя-зомби! Девять настраиваемых элементов!"
+        }
+      },
+      "zombieelasticback": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "EA4D150845ADD8C7574924BD1B6363B9",
+          "SourceString": "Показывайте свои <text color=\"FFFFFFFF\">ЭМОДЗИ</> в шкафчике!"
+        }
+      },
+      "zombieelasticbackreactive": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1DCA27764CAA08CD23AF708175DB7605",
+          "SourceString": "Показывайте свои <text color=\"FFFFFFFF\">ЭМОДЗИ</> в шкафчике! Реагирует на устранения!"
+        }
+      },
+      "customizepumpkin": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E80D5F8649DCB1F8993AC5BBD19D69C5",
+          "SourceString": "Выберите рот, нос, глаза, верхушку и цвет!"
+        }
+      },
+      "includestwoloadingscreens": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F9470C1641F0B3BE8D456A89210293BE",
+          "SourceString": "Включает два экрана загрузки!"
+        }
+      },
+      "backwithnewstyle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CF4F364B4BBFAA49C7D99980CCC276AD",
+          "SourceString": "Доступен новый стиль!"
+        }
+      },
+      "includestwoloadingandspray": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6FB2A829482BA16BD15A2F93AB9DBC5F",
+          "SourceString": "Включает два экрана загрузки и граффити!"
+        }
+      },
+      "customize": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "ABAA895D403B3876EEB2DB94A72F0F22",
+          "SourceString": "Фантазируйте!"
+        }
+      },
+      "fncsc2s8inspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6E60607F47BD7EDF8E6726A055AA6DC8",
+          "SourceString": "Эксклюзив о королевской суперигре мини-чемпионата по Fortnite!"
+        }
+      },
+      "pickaxeincluded": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C2EDB10C48C988207141148BBEEB0548",
+          "SourceString": "Кирка в комплекте!"
+        }
+      },
+      "bundleincludesloadingscreen": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2D384C8542078DF1EB0BB8A08EF6E0CD",
+          "SourceString": "Комплект включает экран загрузки!"
+        }
+      },
+      "promodesc13": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9F6D2D264A13884CEB221A8667F9958F",
+          "SourceString": "Цвет меняется в зависимости от вашей высоты! Комплект включает экран загрузки!"
+        }
+      },
+      "promodesc14": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C7861A5542EA72DA0E815C8845F93580",
+          "SourceString": "Доставайте <text color=\"FFFFFFFF\">КИРКУ «ОСТРЫЙ ЗОНТ»</> и <text color=\"FFFFFFFF\">ДЕЛЬТАПЛАН «ЗОНТОПЛАН»</> из <text color=\"FFFFFFFF\">УКРАШЕНИЯ НА СПИНУ «ЗОНТ В ЧЕХЛЕ»</>, если предметы надеты одновременно!!"
+        }
+      },
+      "headbandpickaxeinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9D5B357D4B783B881C4A8E8BBCD890D8",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">кирку «Меч Кусанаги»</> из ножен <text color=\"FFFFFFFF\">Саскэ Утихи</>, когда используются оба предмета!"
+        }
+      },
+      "headbandbundletwoinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DE51309B4F839855C1F2A78C2877EC63",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">кирку «Меч Кусанаги»</> из ножен <text color=\"FFFFFFFF\">Саскэ Утихи</>, когда используются оба предмета! Комплект включает экран загрузки!"
+        }
+      },
+      "promodesc15": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
+          "SourceString": "Маркус прибыл на остров."
+        }
+      },
+      "promodesc16": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
+          "SourceString": "Маркус и Кейт прибыли на остров."
+        }
+      },
+      "promodesc17": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DBD28D8640E1BEAB2BB4979AEFC04562",
+          "SourceString": "Надевайте и снимайте маску с помощью встроенной эмоции!"
+        }
+      },
+      "promodesc18": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8C94A33C4C8A8D3D53C80EBD3691ABCB",
+          "SourceString": "Включает стили трёх додзё на выбор!"
+        }
+      },
+      "kittywarriorinspect": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DDC81616436FF2810609AC89A5155F49",
+          "SourceString": "Достаньте парные <text color=\"FFFFFFFF\">кирки «Когти самурррая»</> из ножен <text color=\"FFFFFFFF\">Самурррая</>, когда используются оба предмета!"
+        }
+      },
+      "blackicelegends": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A377E7FA41ABAF183BC1BC85446FB122",
+          "SourceString": "Прикосновение холода! В экипировке <text color=\"FFFFFFFF\">Ледяного Мидаса</> можно украшать обледеневшей обёрткой любое используемое оружие!"
+        }
+      },
+      "promodesc19": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B94C6491404CFC3A534EEA9F756D95FA",
+          "SourceString": "Смотрите, как Tones and I исполняет песню <text color=\"FFFFFFFF\">CLOUDY DAY</> в рамках шоу <text color=\"FFFFFFFF\">ЗВУКОВАЯ ВОЛНА: TONES AND I</>: музыкальное событие начнётся 21 января!"
+        }
+      },
+      "foeglider": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DE5B8EB9485E9B14CBDDB99C07733D0A",
+          "SourceString": "Примите грозную позу, пока используете <text color=\"FFFFFFFF\">ДЕЛЬТАПЛАН ГОБЛИНА!</>"
+        }
+      },
+      "outfitmusicreact": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CEAB98024CBC78D6742F93B654D5BC61",
+          "SourceString": "Экипировка меняется в такт музыке!"
+        }
+      },
+      "promodesc20": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AC0E58A146D3B05396277B9531944FDA",
+          "SourceString": "Доставайте кирку «Клинок „Ударная волна“» из украшения на спину, как из ножен, если используете оба предмета. Экипировка меняется в такт музыке!"
+        }
+      },
+      "promodesc21": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "ED0B8BEE42A2E61C611AF3AB648DB8AA",
+          "SourceString": "Используйте «Золотой микрофон» в качестве кирки или украшения на спину. Взрывной стиль Bruno Mars реагирует на устранения!"
+        }
+      },
+      "promodesc22": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FD5A812643210AD9937553AA277E44D0",
+          "SourceString": "Взрывной стиль Anderson .Paak реагирует на устранения!"
+        }
+      },
+      "promodesc23": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "70DE2F384683F7C44E48F78FF1D2C060",
+          "SourceString": "Взрывные стили обеих экипировок реагируют на устранения!"
+        }
+      },
+      "promodesc24": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "40A791E64AB31B339C868AA66DF9B0E7",
+          "SourceString": "Обе экипировки меняются в такт музыке! Доставайте кирку «Клинок „Ударная волна“» из украшения на спину, как из ножен, если используете оба предмета."
+        }
+      },
+      "outfitlightelim": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4D9CAE684D247A86C81F8BA5ABC4F595",
+          "SourceString": "Меняет внешний вид: экипировка светится, когда вы совершаете устранения!"
+        }
+      },
+      "promodesc25": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D3CA254849628AFF6CF1529BAE23416C",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc26": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E9C6BB6C41F907FA5B747F989305DAD9",
+          "SourceString": "Комплект включает экран загрузки! Экипировка <text color=\"FFFFFFFF\">Хлои Ким</> со стилем <text color=\"FFFFFFFF\">«Глубокая заморозка»</> покрывается льдом, когда вы совершаете устранения!"
+        }
+      },
+      "promodesc27": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9C274D6D473740FBEA58119D06D7850F",
+          "SourceString": "Комплект включает бонусные предметы! Используйте эмоцию <text color=\"FFFFFFFF\">«Жест ассасина»</>, чтобы задействовать <text color=\"FFFFFFFF\">«Скрытый клинок Эцио»</>! Используйте эмоцию <text color=\"FFFFFFFF\">«Боевой клич викинга»</> с <text color=\"FFFFFFFF\">«Топорами клана Ворона»</> или <text color=\"FFFFFFFF\">«Щитом Эйвор»</>!"
+        }
+      },
+      "promodesc28": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C6E28C3240EA6B4B0235AE96D33B2EFA",
+          "SourceString": "Используйте эмоцию <text color=\"FFFFFFFF\">«Боевой клич викинга»</> с <text color=\"FFFFFFFF\">«Топорами клана Ворона»</> или <text color=\"FFFFFFFF\">«Щитом Эйвор»</>!"
+        }
+      },
+      "promodesc29": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9C3DD27F45A1975D8F72C09B0B572C21",
+          "SourceString": "Экипировка <text color=\"FFFFFFFF\">Хлои Ким</> со стилем <text color=\"FFFFFFFF\">«Глубокая заморозка»</> покрывается льдом, когда вы совершаете устранения!"
+        }
+      },
+      "promodesc30": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B623DF7444C937F0F8852AB7F277693A",
+          "SourceString": "Экипировка <text color=\"FFFFFFFF\">Chica</> со стилем <text color=\"FFFFFFFF\">победительницы</> светится, когда вы совершаете устранения!"
+        }
+      },
+      "journeyisb": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3F741B834C00A5C1D04F55868D5449BA",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\">эмоцию «Жест ассасина»</>, чтобы достать кирку <text color=\"FFFFFFFF\">«Скрытый клинок Эцио»</>! Эмоция <text color=\"FFFFFFFF\">«Жест ассасина»</> доступна только <text color=\"FFFFFFFF\">Эцио</>. "
+        }
+      },
+      "musicreactivity": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "423418D045F16618D353F28D73532077",
+          "SourceString": "Меняется в такт музыке!"
+        }
+      },
+      "itemmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "16B7638143BBF63BA7A8A3805EE3CA80",
+          "SourceString": "Предметы меняются в такт музыке!"
+        }
+      },
+      "outfitbackblingmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9951171A40C8DAC9211B4C9D98AE0CB0",
+          "SourceString": "Экипировка и украшение на спину меняются в такт музыке!"
+        }
+      },
+      "vampirehunter": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "394CB8D04C4FB591B57D97A25C06ADB4",
+          "SourceString": "Доставайте кирку <text color=\"FFFFFFFF\">«Клинки из полночной стали»</> из украшения на спину, как из ножен, если используете оба предмета!"
+        }
+      },
+      "lurkfemale": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "751644D94E78DA4C75794DADEA7DF0FC",
+          "SourceString": "Носите <text color=\"FFFFFFFF\">«Паутинную гитару»</> как украшение на спину или кирку!"
+        }
+      },
+      "backblingmusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6D6C05F145AB574D3A1DB48AA416400E",
+          "SourceString": "Украшение на спину меняется в такт музыке!"
+        }
+      },
+      "promodesc31": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6CEA81D943956413A2524EBCE261E0C6",
+          "SourceString": "Комплект включает флаг и граффити. Кирка <text color=\"FFFFFFFF\">«Резонанс»</> реагирует на музыку! При размахивании киркой <text color=\"FFFFFFFF\">«Граффити-кирка»</> появляется надпись Wu-Tang!"
+        }
+      },
+      "promodesc32": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1C605784435C6BB285C82AB55E0E6EA0",
+          "SourceString": "<text color=\"FFFFFFFF\">«Бланка-чан»</> реагирует на устранения!"
+        }
+      },
+      "promodesc33": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9DA912914C55A8C20EF64CA5CAA6B2FD",
+          "SourceString": "При размахивании киркой <text color=\"FFFFFFFF\">«Граффити-кирка»</> появляется надпись Wu-Tang!"
+        }
+      },
+      "bundlemusic": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1AB74E6D445C1505DBE95B909A18F4FD",
+          "SourceString": "Комплект включает экран загрузки и эмодзи. Украшения на спину меняются в такт музыке!"
+        }
+      },
+      "carbideknightisb": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E28AE63F4BB634238BF57390793AF798",
+          "SourceString": "Доставайте кирку <text color=\"FFFFFFFF\">«Бремя рыцаря»</> из соответствующего украшения на спину, как из ножен, если оба предмета открыты и вы их одновременно используете."
+        }
+      },
+      "promodesc34": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "FC0FE98B4736FF92522FAA816EFED6F9",
+          "SourceString": "Используйте <text color=\"FFFFFFFF\">LEG-209</> как украшение на спину или кирку!"
+        }
+      },
+      "giftfriend": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "90CE680F47185B4DE7DD8E83713BEF10",
+          "SourceString": "Подарите другу!"
+        }
+      },
+      "vibration": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BF9FA5B440E8228CF487849452021229",
+          "SourceString": "Вибрирует при ударах по слабым местам!"
+        }
+      },
+      "traitor": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1991873D483E8B07E260059BF07C8166",
+          "SourceString": "<text color=\"FFFFFFFF\">Предатель!</> Эмоция задействует кирку <text color=\"FFFFFFFF\">«Дубинка хранителя порядка»</>, если используется этот инструмент!"
+        }
+      },
+      "masks": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F878DE954770B56374E05F833576343E",
+          "SourceString": "4 стиля масок!"
+        }
+      },
+      "lightupdamage": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5F13E9004E25C1C5AB49E19313C4FDE0",
+          "SourceString": "Экипировка сияет при нанесении урона."
+        }
+      },
+      "promodesc35": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9B4EFBE54C28D4E7FB75A08C0EDB0E46",
+          "SourceString": "Этот предмет не обязательно покупать, его можно получить за участие в испытаниях Nindo. Регистрируйтесь на странице fn.gg/nindo"
+        }
+      },
+      "promodesc36": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "69A7E41E4215D8C8F18780B96703E15D",
+          "SourceString": "Украшение на спину «Счётчик попаданий» считает устранения! Доступно до 03:00 часов 31 мая для финала мини-чемпионата по Fortnite второго сезона третьей главы."
+        }
+      },
+      "promodesc37": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "EBBBD3A446E97F1C38DB498DDBA06327",
+          "SourceString": "Доступно до 03:00 часов 31 мая для финала мини-чемпионата по Fortnite третьего сезона второй главы."
+        }
+      },
+      "energytoggle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "03A95C4C41E4BA7410E49CA81E8D1AE8",
+          "SourceString": "Выбирайте разные цвета сияния! Подсветку можно отключить."
+        }
+      },
+      "promodesc38": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "25C62B994215ECB4F4E44987A8E48A5D",
+          "SourceString": "Раскрывайте дельтаплан <text color=\"FFFFFFFF\">«Плазменные крылья»</> из украшения на спину <text color=\"FFFFFFFF\">«Технологичная панель»</>, если используете оба предмета! Выбирайте разные цвета сияния! Подсветку можно отключить."
+        }
+      },
+      "backdamage": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "21716C6446525F685E397C8EAF15F795",
+          "SourceString": "Украшение на спину меняет внешний вид при получении урона, а также при тяжёлом ранении! Украшение на спину реагирует на движение!"
+        }
+      },
+      "promodesc39": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9B3B113C4F2CFA12C405FB85CC12F978",
+          "SourceString": "Доставайте кирку <text color=\"FFFFFFFF\">«Кинжал Оби-Вана»</> из украшения на спину <text color=\"FFFFFFFF\">«Пустынный набор»</>, если используете оба предмета! В комплект входит экран загрузки!"
+        }
+      },
+      "promodesc40": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0775FAF24D6F9B356BF58E96C18F0850",
+          "SourceString": "Доставайте кирку <text color=\"FFFFFFFF\">«Кинжал Оби-Вана»</> из украшения на спину <text color=\"FFFFFFFF\">«Пустынный набор»</>, если используете оба предмета!"
+        }
+      },
+      "promodesc41": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9EEB32C04FFA21852DCC308E4AD7781F",
+          "SourceString": "Преобразитесь с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Боеготовность»</>! У каждого стиля преображение выглядит по-разному."
+        }
+      },
+      "promodesc42": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AD39059C4A036E0A595F8AA5E569FB0B",
+          "SourceString": "Преобразитесь с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Боеготовность»</>! У каждого стиля преображение выглядит по-разному. В комплект входит экран загрузки!"
+        }
+      },
+      "promodesc43": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C2F646A943EB76A5570F5F9AA4C88F7B",
+          "SourceString": "Украшение на спину <text color=\"FFFFFFFF\">«Член экипажа»</> меняет вид, когда вы двигаетесь или получаете тяжёлое ранение!"
+        }
+      },
+      "bundlebanner": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A5B630B548A22C29A5228BB2722DDCED",
+          "SourceString": "Комплект включает эмблему!"
+        }
+      },
+      "promodesc44": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7BDC39554AA2A9C5BA5315AACAD50FDF",
+          "SourceString": "Только <text color=\"FFFFFFFF\">ГААРА</> может летать на <text color=\"FFFFFFFF\">ПЕСЧАНОМ ОБЛАКЕ</>!"
+        }
+      },
+      "fangs": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "75015FED4394F35C61E152903E9CB0E3",
+          "SourceString": "Достаньте <text color=\"FFFFFFFF\">«Огненные клыки»</> из соответствующего украшения на спину, если используете оба предмета!"
+        }
+      },
+      "promodesc45": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4D2B13C14FE1964962CE7B8FE4CEAD97",
+          "SourceString": "<text color=\"FFFFFFFF\">ОРОТИМАРУ</> может использовать встроенную эмоцию <text color=\"FFFFFFFF\">«БРОСОК ТЕНЕВЫХ ЗМЕЙ»</> с обычным стилем!"
+        }
+      },
+      "promodesc46": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "EB88428A4FAF7A2B7C9528A84B8DE7FB",
+          "SourceString": "В комплект входит экран загрузки! Только <text color=\"FFFFFFFF\">ГААРА</> может летать на <text color=\"FFFFFFFF\">ПЕСЧАНОМ ОБЛАКЕ</>!"
+        }
+      },
+      "promodesc47": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "813D372C481667403C1063BA56BB95B5",
+          "SourceString": "В комплект входит экран загрузки! <text color=\"FFFFFFFF\">ОРОТИМАРУ</> может использовать встроенную эмоцию <text color=\"FFFFFFFF\">«БРОСОК ТЕНЕВЫХ ЗМЕЙ»</> с обычным стилем!"
+        }
+      },
+      "promodesc48": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "28F83B2142557CCABAB46CB22E6B4165",
+          "SourceString": "Вооружитесь <text color=\"FFFFFFFF\">ГРОМ-СЕКИРОЙ</> и <text color=\"FFFFFFFF\">ПЕРЕКОВАННЫМ МЬЁЛЬНИРОМ</> в качестве кирки или дельтаплана! <text color=\"FFFFFFFF\">ПЕРЕКОВАННЫЙ МЬЁЛЬНИР</> доступен только для экипировок <text color=\"FFFFFFFF\">ТОРА ОДИНСОНА, МОГУЧЕГО ТОРА, ТОРА</> и <text color=\"FFFFFFFF\">КАПИТАНА АМЕРИКИ</>, а также идёт в комплекте с эмоцией <text color=\"FFFFFFFF\">«УДАР МОЛОТОМ»</>."
+        }
+      },
+      "promodesc49": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2F8FA4374D23326CAA0595995646D65E",
+          "SourceString": "<text color=\"FFFFFFFF\">«Акватические крылья»</> раскрываются, когда вы совершаете устранения!"
+        }
+      },
+      "promodesc50": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "74E8337F4537051A6FB71F81590E079B",
+          "SourceString": "<text color=\"FFFFFFFF\">«Ультрасчитыватель устранений»</> считает устранения! Доступно до 16 августа, 03:00 по московскому времени, для финала мини-чемпионата по Fortnite третьего сезона третьей главы."
+        }
+      },
+      "promodesc51": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E1B4F0FE42DFF9D322A8E5A27A3DB96F",
+          "SourceString": "Доставайте парные кирки <text color=\"FFFFFFFF\">«Компактные топорики»</> из украшения на спину <text color=\"FFFFFFFF\">«Футбольный Визор»</>, если используете оба предмета!"
+        }
+      },
+      "promodesc52": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "05706597461C04605D2347815DD6A2DA",
+          "SourceString": "Доступно до 16 августа, 03:00 по московскому времени, для финала мини-чемпионата по Fortnite третьего сезона третьей главы."
+        }
+      },
+      "futuresamuraisummerisb": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "406961974C9CDC891B4ED98D3B2D5906",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc53": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "537F2B5C4CEB5191EE81398ACC38F518",
+          "SourceString": "Переключайтесь между четырьмя стилями с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Подготовка к бою Гоку»</>! Доставайте кирку <text color=\"FFFFFFFF\">«Силовой шест (Нёибо)»</> из украшения на спину, как из ножен, если используете оба предмета! В комплект входит экран загрузки!"
+        }
+      },
+      "promodesc54": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AB1B66A445B63C504C7935B1ADC4989C",
+          "SourceString": "Переключайтесь между четырьмя стилями с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Подготовка к бою Веджиты»</>!"
+        }
+      },
+      "pennantseas": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "88660AE546F2B1F72BA43B9A32579812",
+          "SourceString": "Получите экран загрузки <text color=\"FFFFFFFF\">«Команда в сборе»</> с любым комплектом «Отряда первопроходцев»!"
+        }
+      },
+      "promodesc55": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "27A3E2244CBB643BE3F72EA4639CF170",
+          "SourceString": "Переключайтесь между четырьмя стилями с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Подготовка к бою Гоку»</>! Доставайте кирку <text color=\"FFFFFFFF\">«Силовой шест (Нёибо)»</> из украшения на спину, как из ножен, если используете оба предмета!"
+        }
+      },
+      "promodesc56": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A14DCEF04FC018715585388CBF1A53AC",
+          "SourceString": "Украшение на спину <text color=\"FFFFFFFF\">«Радужный череп»</> меняется в такт музыке!"
+        }
+      },
+      "promodesc57": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0EA5A0314589E7F4D6F06C9A90EAB086",
+          "SourceString": "Достаньте кирку <text color=\"FFFFFFFF\">«Багровые клинки»</> или кирку <text color=\"FFFFFFFF\">«Огненные клыки»</> из соответствующих украшений на спину, если используете оба предмета."
+        }
+      },
+      "somanystylesagain": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8368E3DD43037161232CB2B3071950EA",
+          "SourceString": "Для <text color=\"FFFFFFFF\">Простого парня</> доступно более 4000 уникальных комбинаций стилей!"
+        }
+      },
+      "band": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A0E3DA7943918B487B2A78BB68B968D5",
+          "SourceString": "Используйте эмоцию вместе с тремя другими игроками! Каждый присоединившийся участник будет играть на уникальном инструменте!"
+        }
+      },
+      "promodesc58": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D9B2AD93453715F79F1CAD9F8C4D449A",
+          "SourceString": "<text color=\"FFFFFFFF\">Усиленный</> стиль <text color=\"FFFFFFFF\">SypherPK</> с каждым устранением меняет внешний вид, обретая демоническую ауру! <text color=\"FFFFFFFF\">«Скимитар Sypher»</> и <text color=\"FFFFFFFF\">«Проклятие Они»</> тоже меняют внешний вид."
+        }
+      },
+      "promodesc59": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C9FB0D8E4611B671B33173812D83EB5B",
+          "SourceString": "<text color=\"FFFFFFFF\">Усиленный</> стиль <text color=\"FFFFFFFF\">SypherPK</> с каждым устранением меняет внешний вид, обретая демоническую ауру! Украшение на спину <text color=\"FFFFFFFF\">«Проклятие Они»</> тоже меняет внешний вид."
+        }
+      },
+      "promodesc60": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "739BB5FD429DBC2E6F74319260ED4EBB",
+          "SourceString": "Кирка <text color=\"FFFFFFFF\">«Скимитар Sypher»</> с каждым устранением меняет внешний вид, обретая демоническую ауру."
+        }
+      },
+      "promodesc61": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4E5037BC4DC4442C63931DBC5F5A1523",
+          "SourceString": "В экипировке есть встроенная кирка и встроенная трансформирующаяся эмоция! В комплект входит экран загрузки!"
+        }
+      },
+      "promodesc62": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9ABB1AEF49B2CDD391F85F89E01E66E9",
+          "SourceString": "Пальцы <text color=\"FFFFFFFF\">Всевидящего</> щёлкают при устранениях!"
+        }
+      },
+      "promodesc63": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "18B5DA5247AEBF1557EB2181BA424CD8",
+          "SourceString": "Пальцы щёлкают при устранениях!"
+        }
+      },
+      "promodesc64": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "535F3A3A49769D5EB22A489A32F754A9",
+          "SourceString": "Лица <text color=\"FFFFFFFF\">Моти-Мэна</> и <text color=\"FFFFFFFF\">«Боевого стебля»</> меняют внешний вид: они улыбаются во время игры! В комплект входит экран загрузки!"
+        }
+      },
+      "calvaderawrapdesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B79FE3F44A2B214D020C0BAFE6C9BB4A",
+          "SourceString": "<text color=\"FFFFFFFF\">«Сахарный черепок»</> светится, когда вы совершаете устранения!"
+        }
+      },
+      "calvaderapickaxedesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "54E63B2147EDADEFE9D074BE9560539E",
+          "SourceString": "<text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попадании по слабым местам!"
+        }
+      },
+      "defectbundledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "96231CF44A0E40257B1AD5B2E5E8A732",
+          "SourceString": "Набор включает обёртку <text color=\"FFFFFFFF\">«Замкнутая цепь»</>! Покажите любую из своих обёрток! Выберите цвет волос и брони для экипировок! Вы можете настроить внешний вид кирки!"
+        }
+      },
+      "defectblipdesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "48002EE14CAFB65CA105BAB3552933A8",
+          "SourceString": "Покажите любую из своих обёрток! Выберите цвет волос и брони! Включает обёртку <text color=\"FFFFFFFF\">«Сканирование»</>!"
+        }
+      },
+      "defectglitchdesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "39B6A62E464E1177178F508B909D84E2",
+          "SourceString": "Покажите любую из своих обёрток! Выберите цвет волос и одежды! Включает обёртку <text color=\"FFFFFFFF\">«Протоволны»</>!"
+        }
+      },
+      "showwraps": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3B8C6CF048C0BC04AFEED591645CF494",
+          "SourceString": "Покажите любую из своих обёрток!"
+        }
+      },
+      "fncs22": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B1D49B824B719E7D3C2908AAD71AD7E2",
+          "SourceString": "Доступно до 16 ноября 16:00 МСК в рамках закрытого мини-чемпионата по Fortnite 2022."
+        }
+      },
+      "fncs22back": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0EBC8A37479761C734A9EEBDDE203D87",
+          "SourceString": "Украшение на спину <text color=\"FFFFFFFF\">«Экран чемпиона»</> считает устранения! Доступно до 16 ноября 16:00 МСК в рамках закрытого мини-чемпионата по Fortnite 2022."
+        }
+      },
+      "promodesc65": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4DE6032B43651C17C435B6B4DD23057D",
+          "SourceString": "Украшения на спину <text color=\"FFFFFFFF\">«Сальвадор»</> и <text color=\"FFFFFFFF\">«Зачарованная гитара»</> светятся, когда вы совершаете устранения!"
+        }
+      },
+      "promodesc66": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "25B6F7A148FF5D502016DB9BED13C6D5",
+          "SourceString": "Экипировка, украшение на спину и обёртка зажигаются с каждым устранением! Кирка <text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попаданиях по слабым местам!"
+        }
+      },
+      "promodesc67": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AE909D0543984C7A59B7B18F3A61B9B8",
+          "SourceString": "Выберите форму любой страны или создайте собственный образ из более чем 20 элементов!"
+        }
+      },
+      "promodesc68": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DA702CC44C5817579BEEBE8F704BCA3C",
+          "SourceString": "Выберите один из трёх стилей. Также можно изменить цвета и номер на футболке!"
+        }
+      },
+      "promodesc69": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "584618F8407251E68725CFAD0F9F7C67",
+          "SourceString": "Используйте эмоцию <text color=\"FFFFFFFF\">«Мышоборотень»</>, чтобы изменить облик! Украшение на спину <text color=\"FFFFFFFF\">«Горящее сердце»</> пульсирует, когда вы совершаете устранения."
+        }
+      },
+      "promodesc70": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2E4C6B9947F761E6DAB51EA0E51DD345",
+          "SourceString": "Меняет внешний вид, когда вы получаете урон и совершаете устранения! Лицо меняется по ходу игры! Включает экран загрузки."
+        }
+      },
+      "defectpickaxedesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1C16EFA64195007C1AAB688A3271143C",
+          "SourceString": "Покажите любую из своих обёрток! Выберите специальные эффекты при ударе! Выберите цвет рукояти!"
+        }
+      },
+      "customcolors": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "16491D024475FB91FDEC5A9C14D8C53C",
+          "SourceString": "Цвета можно менять!"
+        }
+      },
+      "mousebundledesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "34B588FA4655B52C75D4B2B50183C3A6",
+          "SourceString": "Используйте эмоцию <text color=\"FFFFFFFF\">«Писк!»</> Эмоция для смены облика! В комплект входит экран загрузки."
+        }
+      },
+      "bannercolormatch": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "66A3ED09492CF498F5590592FEC1E15C",
+          "SourceString": "Цвета сочетаются с вашим флагом!"
+        }
+      },
+      "promodesc71": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "83CBE0F1432128C63330129D121431F8",
+          "SourceString": "Меняйте узоры и цвета украшения на спину <text color=\"FFFFFFFF\">«Лучший трофей»</> и кирки <text color=\"FFFFFFFF\">«Мировой уровень»</>!"
+        }
+      },
+      "promodesc72": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CCA890324E9D80E58A7515A48D7255A1",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc73": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BAE11E2B43D1DC2D2F9D51B942F55ABB",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc74": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "48DA41AA4AC8D95B945451934C2D496F",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc75": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "63805C6E44D58A825640CDB6EC7B7D54",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc76": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5DC0F7F14C3502A64546A1A362E01B73",
+          "SourceString": "TBD"
+        }
+      },
+      "promodesc77": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1ABFD89B4BD9363EB1363195C0C2B688",
+          "SourceString": "TBD"
+        }
+      },
+      "flagplantdesc": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "18B189604DB5492E7730F589946D21AF",
+          "SourceString": "Одержите королевскую победу и гордо продемонстрируйте знамя с помощью эмоции <text color=\"FFFFFFFF\">«Установка флага»</>!"
+        }
+      }
+    }
+  }
+]
