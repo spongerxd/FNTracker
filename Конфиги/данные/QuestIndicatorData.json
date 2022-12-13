@@ -535,6 +535,30 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BuriedVillage",
+            "SourceString": "Морозная деревушка"
+          },
+          "WorldLocation": {
+            "X": 51812.0,
+            "Y": -20636.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.BuriedVillage"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BuriedVillage",
+          "ActiveDiscoverableBlodIds": [
+            150
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CastleTower_1",
             "SourceString": "Западная башня"
           },
@@ -865,30 +889,6 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BuriedVillage",
-            "SourceString": "Морозная деревушка"
-          },
-          "WorldLocation": {
-            "X": 51804.0,
-            "Y": -20636.0,
-            "Z": 2804.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.BuriedVillage"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BuriedVillage",
-          "ActiveDiscoverableBlodIds": [
-            150
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrailerPark",
             "SourceString": "Стоянка фургонов"
           },
@@ -1035,8 +1035,8 @@
             "SourceString": "Полевое поместье"
           },
           "WorldLocation": {
-            "X": -58032.0,
-            "Y": -63236.0,
+            "X": -59520.0,
+            "Y": -62080.0,
             "Z": 852.0
           },
           "LocationTag": {
@@ -1193,6 +1193,28 @@
           "ActiveDiscoverableBlodIds": [
             240
           ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CrackshotsCabin",
+            "SourceString": "Дом Щелкунчика"
+          },
+          "WorldLocation": {
+            "X": 40352.0,
+            "Y": 936.0,
+            "Z": 3836.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CrackshotsCabin"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_CrackshotsCabin",
+          "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
