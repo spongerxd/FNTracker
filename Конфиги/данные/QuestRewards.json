@@ -19980,6 +19980,15 @@
         "Selectable": false,
         "Exportable": true
       },
+      "OutpostQuest_T2_L1_014": {
+        "QuestTemplateId": "Quest:outpostquest_t2_l1",
+        "TemplateId": "Quest:plankertonquest_autumnfoothills_destroy",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
       "OutpostQuest_T2_L10_001": {
         "QuestTemplateId": "Quest:outpostquest_t2_l10",
         "TemplateId": "CampaignHeroLoadout:defaultloadout",
@@ -51159,6 +51168,96 @@
       "EnduranceDaily_T04_W30_001": {
         "QuestTemplateId": "Quest:endurancedaily_t04_w30",
         "TemplateId": "STWAccoladeReward:stwaccolade_quest_endurance_daily_w30",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Destroy_001": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_destroy",
+        "TemplateId": "AccountResource:heroxp",
+        "Quantity": 14000,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Destroy_002": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_destroy",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 50,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Destroy_003": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_destroy",
+        "TemplateId": "Quest:plankertonquest_autumnfoothills_eliminate",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Eliminate_001": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_eliminate",
+        "TemplateId": "AccountResource:reagent_people",
+        "Quantity": 50,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Eliminate_002": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_eliminate",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 50,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Eliminate_003": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_eliminate",
+        "TemplateId": "Quest:plankertonquest_autumnfoothills_locate",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Locate_001": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_locate",
+        "TemplateId": "AccountResource:reagent_c_t01",
+        "Quantity": 15,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Locate_002": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_locate",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 50,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Locate_003": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_locate",
+        "TemplateId": "Quest:plankertonquest_autumnfoothills_explore",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "PlankertonQuest_AutumnFoothills_Explore_001": {
+        "QuestTemplateId": "Quest:plankertonquest_autumnfoothills_explore",
+        "TemplateId": "Hero:hid_commando_046_forestqueen_vr_t01",
         "Quantity": 1,
         "Hidden": false,
         "Feature": false,

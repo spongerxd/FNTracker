@@ -16,12 +16,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Emote.Traversal_DisplayName",
-          "SourceString": "Передвижение"
+          "SourceString": "Traversal",
+          "LocalizedString": "Передвижение"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Emote.Traversal_HelpText",
-          "SourceString": "[ph]"
+          "SourceString": "[ph]",
+          "LocalizedString": "[ph]"
         }
       },
       "Cosmetics.UserFacingFlags.HasUpgradeQuests": {
@@ -31,12 +33,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.HasUpgradeQuests_DisplayName",
-          "SourceString": "Дополнительные стили"
+          "SourceString": "Unlockable Styles",
+          "LocalizedString": "Дополнительные стили"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.HasUpgradeQuests_HelpText",
-          "SourceString": "Этот предмет включает задания, позволяющие открыть дополнительные стили."
+          "SourceString": "This item includes quests to unlock additional styles",
+          "LocalizedString": "Этот предмет включает задания, позволяющие открыть дополнительные стили."
         }
       },
       "Cosmetics.UserFacingFlags.HasVariants": {
@@ -46,12 +50,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.HasVariants_DisplayName",
-          "SourceString": "Стили на выбор"
+          "SourceString": "Selectable Styles",
+          "LocalizedString": "Стили на выбор"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.HasVariants_HelpText",
-          "SourceString": "У этого предмета есть варианты на выбор."
+          "SourceString": "This item has variations that can be selected",
+          "LocalizedString": "У этого предмета есть варианты на выбор."
         }
       },
       "Cosmetics.UserFacingFlags.Reactive": {
@@ -61,12 +67,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Reactive_DisplayName",
-          "SourceString": "Меняет внешний вид"
+          "SourceString": "Reactive",
+          "LocalizedString": "Меняет внешний вид"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Reactive_HelpText",
-          "SourceString": "Этот предмет меняет внешний вид по ходу игры в зависимости от ваших успехов."
+          "SourceString": "This item visually changes during a match based on in-game performance",
+          "LocalizedString": "Этот предмет меняет внешний вид по ходу игры в зависимости от ваших успехов."
         }
       },
       "Cosmetics.UserFacingFlags.LoadingScreen.Animated": {
@@ -76,12 +84,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.LoadingScreen.Animated_DisplayName",
-          "SourceString": "С анимацией"
+          "SourceString": "Animated",
+          "LocalizedString": "С анимацией"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.LoadingScreen.Animated_HelpText",
-          "SourceString": "Этот предмет использует анимацию при показе"
+          "SourceString": "This item animates while being displayed",
+          "LocalizedString": "Этот предмет использует анимацию при показе"
         }
       },
       "Cosmetics.UserFacingFlags.Spray.Animated": {
@@ -91,12 +101,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Spray.Animated_DisplayName",
-          "SourceString": "С анимацией"
+          "SourceString": "Animated",
+          "LocalizedString": "С анимацией"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Spray.Animated_HelpText",
-          "SourceString": "Этот предмет использует анимацию при показе"
+          "SourceString": "This item animates while being displayed",
+          "LocalizedString": "Этот предмет использует анимацию при показе"
         }
       },
       "Cosmetics.UserFacingFlags.Wrap.Animated": {
@@ -106,12 +118,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Wrap.Animated_DisplayName",
-          "SourceString": "С анимацией"
+          "SourceString": "Animated",
+          "LocalizedString": "С анимацией"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Wrap.Animated_HelpText",
-          "SourceString": "Этот предмет использует анимацию при показе"
+          "SourceString": "This item animates while being displayed",
+          "LocalizedString": "Этот предмет использует анимацию при показе"
         }
       },
       "Cosmetics.UserFacingFlags.Emoticon.Animated": {
@@ -121,12 +135,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Emoticon.Animated_DisplayName",
-          "SourceString": "С анимацией"
+          "SourceString": "Animated",
+          "LocalizedString": "С анимацией"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Emoticon.Animated_HelpText",
-          "SourceString": "Этот предмет использует анимацию при показе"
+          "SourceString": "This item animates while being displayed",
+          "LocalizedString": "Этот предмет использует анимацию при показе"
         }
       },
       "Cosmetics.UserFacingFlags.Enlightened": {
@@ -136,12 +152,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Enlightened_DisplayName",
-          "SourceString": "Вариативно"
+          "SourceString": "Enlightened",
+          "LocalizedString": "Вариативно"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Enlightened_HelpText",
-          "SourceString": "У этого предмета есть стиль, чей внешний вид зависит от уровня боевого пропуска того сезона, в котором этот предмет был выпущен."
+          "SourceString": "This item has a style which visually changes based on the Battle Pass level from the season in which it was released",
+          "LocalizedString": "У этого предмета есть стиль, чей внешний вид зависит от уровня боевого пропуска того сезона, в котором этот предмет был выпущен."
         }
       },
       "Cosmetics.UserFacingFlags.GearUp": {
@@ -151,12 +169,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.GearUp_DisplayName",
-          "SourceString": "Кованый"
+          "SourceString": "Forged",
+          "LocalizedString": "Кованый"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.GearUp_HelpText",
-          "SourceString": "У этого предмета есть дополнительные настройки персонализации"
+          "SourceString": "This item has extra layers of customization",
+          "LocalizedString": "У этого предмета есть дополнительные настройки персонализации"
         }
       },
       "Cosmetics.UserFacingFlags.BuiltInEmote": {
@@ -166,12 +186,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.BuiltInEmote_DisplayName",
-          "SourceString": "С бонусом"
+          "SourceString": "Built-in",
+          "LocalizedString": "С бонусом"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.BuiltInEmote_HelpText",
-          "SourceString": "Используя этот предмет, вы получаете доступ к особому косметическому контенту"
+          "SourceString": "This item has access to special cosmetic content while equipped",
+          "LocalizedString": "Используя этот предмет, вы получаете доступ к особому косметическому контенту"
         }
       },
       "Cosmetics.UserFacingFlags.Synced": {
@@ -181,12 +203,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Synced_DisplayName",
-          "SourceString": "Общая эмоция"
+          "SourceString": "Synced Emote",
+          "LocalizedString": "Общая эмоция"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Synced_HelpText",
-          "SourceString": "Могут использовать одновременно несколько игроков."
+          "SourceString": "This item can be synced with other players",
+          "LocalizedString": "Могут использовать одновременно несколько игроков."
         }
       },
       "Cosmetics.UserFacingFlags.Transform": {
@@ -196,12 +220,14 @@
         "DisplayName": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Transform_DisplayName",
-          "SourceString": "Преобразование"
+          "SourceString": "Transformation",
+          "LocalizedString": "Преобразование"
         },
         "HelpText": {
           "Namespace": "CosmeticUserFacingTags",
           "Key": "Cosmetics.UserFacingFlags.Transform_HelpText",
-          "SourceString": "Этот предмет идёт в комплекте с эмоцией, которая меняет экипировку"
+          "SourceString": "This item has a tied in emote that alters outfit",
+          "LocalizedString": "Этот предмет идёт в комплекте с эмоцией, которая меняет экипировку"
         }
       }
     }

@@ -61,12 +61,22 @@
         "ObjectName": "DataTable QuestTagToCategoryDataRows",
         "ObjectPath": "/Game/Quests/QuestTagToCategoryDataRows.0"
       },
+      "CaptureCameraName": "MinimapCaptureCamera",
+      "CaptureCameraData": {
+        "OrthoWidth": 262426,
+        "WorldOffset": {
+          "X": 9524.0,
+          "Y": -9732.0
+        },
+        "Rotation": -90.0
+      },
       "ChallengeMapPoiData": [
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_HiddenRuin",
-            "SourceString": "Лесной алтарь"
+            "SourceString": "Hidden Henge",
+            "LocalizedString": "Лесной алтарь"
           },
           "WorldLocation": {
             "X": 304.0,
@@ -90,7 +100,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandTower",
-            "SourceString": "Прибрежный оплот"
+            "SourceString": "Seaside Sentry",
+            "LocalizedString": "Прибрежный оплот"
           },
           "WorldLocation": {
             "X": -16700.0,
@@ -114,7 +125,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SlapStation",
-            "SourceString": "Нектарная забегаловка"
+            "SourceString": "Slap 'n Go",
+            "LocalizedString": "Нектарная забегаловка"
           },
           "WorldLocation": {
             "X": 4168.0,
@@ -138,7 +150,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CastleTower_2",
-            "SourceString": "Восточная башня"
+            "SourceString": "Eastern Watch",
+            "LocalizedString": "Восточная башня"
           },
           "WorldLocation": {
             "X": 56580.0,
@@ -160,7 +173,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CuddleTrack",
-            "SourceString": "Остов Обнимашки "
+            "SourceString": "Cuddle Cross Track ",
+            "LocalizedString": "Остов Обнимашки "
           },
           "WorldLocation": {
             "X": -50588.0,
@@ -184,7 +198,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallFarm",
-            "SourceString": "Просторные пастбища"
+            "SourceString": "Proper Pastures",
+            "LocalizedString": "Просторные пастбища"
           },
           "WorldLocation": {
             "X": -77696.0,
@@ -208,7 +223,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IODrill",
-            "SourceString": "Брошенный бур"
+            "SourceString": "Beached Bit",
+            "LocalizedString": "Брошенный бур"
           },
           "WorldLocation": {
             "X": 7720.0,
@@ -232,7 +248,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_FortaniumQuarry",
-            "SourceString": "КАМЕННЫЙ КАРЬЕР"
+            "SourceString": "SHATTERED SLABS",
+            "LocalizedString": "КАМЕННЫЙ КАРЬЕР"
           },
           "WorldLocation": {
             "X": -17556.0,
@@ -256,7 +273,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_GuardedVillage",
-            "SourceString": "Приятное пристанище"
+            "SourceString": "Pleasant Passage",
+            "LocalizedString": "Приятное пристанище"
           },
           "WorldLocation": {
             "X": -7888.0,
@@ -280,7 +298,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_FrozenWaterfall",
-            "SourceString": "Морозные водопады"
+            "SourceString": "Frostbite Falls",
+            "LocalizedString": "Морозные водопады"
           },
           "WorldLocation": {
             "X": 49416.0,
@@ -302,7 +321,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_AmberForest",
-            "SourceString": "Янтарный лес"
+            "SourceString": "The Autumnwood",
+            "LocalizedString": "Янтарный лес"
           },
           "WorldLocation": {
             "X": 7204.0,
@@ -326,7 +346,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Battlements",
-            "SourceString": "Береговая крепость"
+            "SourceString": "Coastal Battlement",
+            "LocalizedString": "Береговая крепость"
           },
           "WorldLocation": {
             "X": 112076.0,
@@ -348,7 +369,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_HillHouse",
-            "SourceString": "Особняк на отмели"
+            "SourceString": "Shore Shack",
+            "LocalizedString": "Особняк на отмели"
           },
           "WorldLocation": {
             "X": -52812.0,
@@ -372,7 +394,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_FishyIceberg",
-            "SourceString": "Рыбацкая глыба"
+            "SourceString": "Fishy Floe",
+            "LocalizedString": "Рыбацкая глыба"
           },
           "WorldLocation": {
             "X": 115708.0,
@@ -394,7 +417,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_WindyCanyon",
-            "SourceString": "Вьюжная впадина"
+            "SourceString": "Gusty Gorge",
+            "LocalizedString": "Вьюжная впадина"
           },
           "WorldLocation": {
             "X": 44752.0,
@@ -416,7 +440,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_BigIceLake",
-            "SourceString": "Ледовитая лагуна"
+            "SourceString": "Icy Islets",
+            "LocalizedString": "Ледовитая лагуна"
           },
           "WorldLocation": {
             "X": 52780.0,
@@ -440,7 +465,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_IndustrialTown",
-            "SourceString": "НОВЫЙ НЕКТАРГОРОД"
+            "SourceString": "SLAPPY SHORES",
+            "LocalizedString": "НОВЫЙ НЕКТАРГОРОД"
           },
           "WorldLocation": {
             "X": 19468.0,
@@ -464,7 +490,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_4",
-            "SourceString": "Беззвучный зал"
+            "SourceString": "The Hall of Whispers",
+            "LocalizedString": "Беззвучный зал"
           },
           "WorldLocation": {
             "X": 29252.0,
@@ -488,7 +515,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandHomes",
-            "SourceString": "Пляжный посёлок"
+            "SourceString": "Beachy Bluffs",
+            "LocalizedString": "Пляжный посёлок"
           },
           "WorldLocation": {
             "X": -18932.0,
@@ -512,7 +540,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IceBarge",
-            "SourceString": "Бухта с баржей"
+            "SourceString": "Berg Barge",
+            "LocalizedString": "Бухта с баржей"
           },
           "WorldLocation": {
             "X": 118500.0,
@@ -535,32 +564,9 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BuriedVillage",
-            "SourceString": "Морозная деревушка"
-          },
-          "WorldLocation": {
-            "X": 51812.0,
-            "Y": -20636.0,
-            "Z": 2804.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.BuriedVillage"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BuriedVillage",
-          "ActiveDiscoverableBlodIds": [
-            150
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CastleTower_1",
-            "SourceString": "Западная башня"
+            "SourceString": "Western Watch",
+            "LocalizedString": "Западная башня"
           },
           "WorldLocation": {
             "X": 38116.0,
@@ -582,7 +588,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_2",
-            "SourceString": "Каменная башня"
+            "SourceString": "The Stone Tower",
+            "LocalizedString": "Каменная башня"
           },
           "WorldLocation": {
             "X": 94060.0,
@@ -606,7 +613,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IsolatedKnightTower",
-            "SourceString": "Одинокий оплот"
+            "SourceString": "Secluded Spire",
+            "LocalizedString": "Одинокий оплот"
           },
           "WorldLocation": {
             "X": 3836.0,
@@ -630,7 +638,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_RiftGateTower",
-            "SourceString": "Башня хранителя"
+            "SourceString": "Warden's Watch",
+            "LocalizedString": "Башня хранителя"
           },
           "WorldLocation": {
             "X": 69132.0,
@@ -652,7 +661,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Village",
-            "SourceString": "Золотистые кроны"
+            "SourceString": "Woodsy Ward",
+            "LocalizedString": "Золотистые кроны"
           },
           "WorldLocation": {
             "X": 93132.0,
@@ -676,7 +686,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalGas",
-            "SourceString": "Королевский уголок"
+            "SourceString": "King's Launch",
+            "LocalizedString": "Королевский уголок"
           },
           "WorldLocation": {
             "X": 65404.0,
@@ -698,7 +709,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_SplitTown",
-            "SourceString": "ПОЛОВИННЫЙ ПОСЁЛОК"
+            "SourceString": "FAULTY SPLITS",
+            "LocalizedString": "ПОЛОВИННЫЙ ПОСЁЛОК"
           },
           "WorldLocation": {
             "X": -23944.0,
@@ -722,7 +734,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_MountainSummit",
-            "SourceString": "Пик Бури"
+            "SourceString": "Stormy Spire",
+            "LocalizedString": "Пик Бури"
           },
           "WorldLocation": {
             "X": 79448.0,
@@ -746,7 +759,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TowerPoint",
-            "SourceString": "Надводный надзор"
+            "SourceString": "Watery Watch",
+            "LocalizedString": "Надводный надзор"
           },
           "WorldLocation": {
             "X": -76104.0,
@@ -770,7 +784,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_IcebergStation",
-            "SourceString": "ЛЕДОВАЯ ЛАБОРАТОРИЯ"
+            "SourceString": "LONELY LABS",
+            "LocalizedString": "ЛЕДОВАЯ ЛАБОРАТОРИЯ"
           },
           "WorldLocation": {
             "X": 79412.0,
@@ -794,7 +809,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_3",
-            "SourceString": "Холодный храм"
+            "SourceString": "Solitary Shrine",
+            "LocalizedString": "Холодный храм"
           },
           "WorldLocation": {
             "X": 78524.0,
@@ -818,7 +834,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_BlacksmithSpring",
-            "SourceString": "Осенняя обитель"
+            "SourceString": "Forest Forge",
+            "LocalizedString": "Осенняя обитель"
           },
           "WorldLocation": {
             "X": 2708.0,
@@ -842,7 +859,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SouthernIsle",
-            "SourceString": "Добрые домики"
+            "SourceString": "Exile Isle",
+            "LocalizedString": "Добрые домики"
           },
           "WorldLocation": {
             "X": -74088.0,
@@ -866,7 +884,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_FrozenFrog",
-            "SourceString": "Ледяная лягушка"
+            "SourceString": "Frigid Frog",
+            "LocalizedString": "Ледяная лягушка"
           },
           "WorldLocation": {
             "X": 99616.0,
@@ -890,7 +909,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrailerPark",
-            "SourceString": "Стоянка фургонов"
+            "SourceString": "Hitches and Ditches",
+            "LocalizedString": "Стоянка фургонов"
           },
           "WorldLocation": {
             "X": -22664.0,
@@ -914,7 +934,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_NorthHarbor",
-            "SourceString": "БУХТА БЫВАЛЫХ"
+            "SourceString": "BREAKWATER BAY",
+            "LocalizedString": "БУХТА БЫВАЛЫХ"
           },
           "WorldLocation": {
             "X": 87688.0,
@@ -938,7 +959,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_RealityFortress",
-            "SourceString": "БРУТАЛЬНЫЙ БАСТИОН"
+            "SourceString": "BRUTAL BASTION",
+            "LocalizedString": "БРУТАЛЬНЫЙ БАСТИОН"
           },
           "WorldLocation": {
             "X": 61856.0,
@@ -962,7 +984,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SnowShelter",
-            "SourceString": "Снежная нора"
+            "SourceString": "Mogul Home",
+            "LocalizedString": "Снежная нора"
           },
           "WorldLocation": {
             "X": 35328.0,
@@ -984,7 +1007,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TempleOutpost_1",
-            "SourceString": "Крепость хранителей"
+            "SourceString": "Aegis Temple",
+            "LocalizedString": "Крепость хранителей"
           },
           "WorldLocation": {
             "X": 97216.0,
@@ -1008,7 +1032,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_GreenGas",
-            "SourceString": "Прибрежный пит-стоп"
+            "SourceString": "Beep 'n Bounce",
+            "LocalizedString": "Прибрежный пит-стоп"
           },
           "WorldLocation": {
             "X": 112280.0,
@@ -1032,7 +1057,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Mansion",
-            "SourceString": "Полевое поместье"
+            "SourceString": "Meadow Mansion",
+            "LocalizedString": "Полевое поместье"
           },
           "WorldLocation": {
             "X": -59520.0,
@@ -1055,8 +1081,34 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_BuriedVillage",
+            "SourceString": "Fridgeberg",
+            "LocalizedString": "Морозная деревушка"
+          },
+          "WorldLocation": {
+            "X": 51788.0,
+            "Y": -20636.0,
+            "Z": 2804.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.BuriedVillage"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_C4_Discover_Landmarks.Quest_C4_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_C4_Discover_Landmarks_BuriedVillage",
+          "ActiveDiscoverableBlodIds": [
+            150
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_KnightFuel",
-            "SourceString": "Заправка-загон"
+            "SourceString": "Feudal Fuel",
+            "LocalizedString": "Заправка-загон"
           },
           "WorldLocation": {
             "X": 71228.0,
@@ -1080,7 +1132,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_DenseForest",
-            "SourceString": "Продрогший перелесок"
+            "SourceString": "Frosty Firs",
+            "LocalizedString": "Продрогший перелесок"
           },
           "WorldLocation": {
             "X": 92292.0,
@@ -1104,7 +1157,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TinyTown",
-            "SourceString": "Душевная деревушка"
+            "SourceString": "Humble Hamlet",
+            "LocalizedString": "Душевная деревушка"
           },
           "WorldLocation": {
             "X": -57388.0,
@@ -1128,7 +1182,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IceCaverns",
-            "SourceString": "Ледяная ложбина"
+            "SourceString": "Cold Cavern",
+            "LocalizedString": "Ледяная ложбина"
           },
           "WorldLocation": {
             "X": 92812.0,
@@ -1152,7 +1207,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallQuarryDock",
-            "SourceString": "Скалистый док"
+            "SourceString": "Rocky Docks",
+            "LocalizedString": "Скалистый док"
           },
           "WorldLocation": {
             "X": -26004.0,
@@ -1174,7 +1230,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_Farm",
-            "SourceString": "ПОЛЯ ПОМЕШАТЕЛЬСТВА"
+            "SourceString": "FRENZY FIELDS",
+            "LocalizedString": "ПОЛЯ ПОМЕШАТЕЛЬСТВА"
           },
           "WorldLocation": {
             "X": -52584.0,
@@ -1198,7 +1255,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnnamedPOI_CrackshotsCabin",
-            "SourceString": "Дом Щелкунчика"
+            "SourceString": "Crackshot's Cabin",
+            "LocalizedString": "Дом Щелкунчика"
           },
           "WorldLocation": {
             "X": 40352.0,
@@ -1220,7 +1278,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_SmallFarm2",
-            "SourceString": "Фермерское угодье"
+            "SourceString": "Rowdy Acres",
+            "LocalizedString": "Фермерское угодье"
           },
           "WorldLocation": {
             "X": -86972.0,
@@ -1244,7 +1303,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_EyeLake",
-            "SourceString": "Загадочное озеро"
+            "SourceString": "Lute Lake",
+            "LocalizedString": "Загадочное озеро"
           },
           "WorldLocation": {
             "X": -34984.0,
@@ -1268,7 +1328,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalTower",
-            "SourceString": "Береговая башня"
+            "SourceString": "Royal Ruin",
+            "LocalizedString": "Береговая башня"
           },
           "WorldLocation": {
             "X": 39536.0,
@@ -1292,7 +1353,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CoastalContainers",
-            "SourceString": "Ледяное побережье"
+            "SourceString": "Crusty Crates",
+            "LocalizedString": "Ледяное побережье"
           },
           "WorldLocation": {
             "X": 52356.0,
@@ -1316,7 +1378,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_LightCastle",
-            "SourceString": "ЦИТАДЕЛЬ"
+            "SourceString": "THE CITADEL",
+            "LocalizedString": "ЦИТАДЕЛЬ"
           },
           "WorldLocation": {
             "X": 48704.0,
@@ -1340,7 +1403,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_FuelDocks",
-            "SourceString": "Зимний затон"
+            "SourceString": "Crude Harbor",
+            "LocalizedString": "Зимний затон"
           },
           "WorldLocation": {
             "X": 116052.0,
@@ -1364,7 +1428,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_POI_MedievalTown",
-            "SourceString": "ЗОЛОТОЙ ЗАМОК"
+            "SourceString": "ANVIL SQUARE",
+            "LocalizedString": "ЗОЛОТОЙ ЗАМОК"
           },
           "WorldLocation": {
             "X": 30040.0,
@@ -1388,7 +1453,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Asteria_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_TreeFragment",
-            "SourceString": "Древо Вестницы"
+            "SourceString": "The Herald Tree",
+            "LocalizedString": "Древо Вестницы"
           },
           "WorldLocation": {
             "X": 27184.0,
@@ -1410,7 +1476,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_POI_Papaya_MainStage",
-            "SourceString": "Главная сцена"
+            "SourceString": "Main Stage",
+            "LocalizedString": "Главная сцена"
           },
           "WorldLocation": {
             "X": -1024.0,
@@ -1432,7 +1499,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_PirateCove",
-            "SourceString": "Пиратский пляж"
+            "SourceString": "Buccaneer Bay",
+            "LocalizedString": "Пиратский пляж"
           },
           "WorldLocation": {
             "X": 32768.0,
@@ -1454,7 +1522,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_POI_Papaya_Theater",
-            "SourceString": "Мегаэкран"
+            "SourceString": "The Big Screen",
+            "LocalizedString": "Мегаэкран"
           },
           "WorldLocation": {
             "X": 6144.0,
@@ -1476,7 +1545,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_POI_Papaya_TheHub",
-            "SourceString": "Площадь"
+            "SourceString": "The Plaza",
+            "LocalizedString": "Площадь"
           },
           "WorldLocation": {
             "X": -512.0,
@@ -1498,7 +1568,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRace2",
-            "SourceString": "Гонка Карася"
+            "SourceString": "Fishsticks' Boat Race",
+            "LocalizedString": "Гонка Карася"
           },
           "WorldLocation": {
             "X": -32768.0,
@@ -1520,7 +1591,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRace1",
-            "SourceString": "Гонка Карася"
+            "SourceString": "Fishsticks' Boat Race",
+            "LocalizedString": "Гонка Карася"
           },
           "WorldLocation": {
             "X": 8192.0,
@@ -1542,7 +1614,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_BoatRamps",
-            "SourceString": "Летучий атолл"
+            "SourceString": "Flying Boat Atoll",
+            "LocalizedString": "Летучий атолл"
           },
           "WorldLocation": {
             "X": -35223.0,
@@ -1564,7 +1637,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_FishingPond",
-            "SourceString": "Рыбный пруд"
+            "SourceString": "Fishin' Hole",
+            "LocalizedString": "Рыбный пруд"
           },
           "WorldLocation": {
             "X": 9679.0,
@@ -1586,7 +1660,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_GiantSkeleton",
-            "SourceString": "Месть пожирателя"
+            "SourceString": "Devourer's Revenge",
+            "LocalizedString": "Месть пожирателя"
           },
           "WorldLocation": {
             "X": -35224.0,
@@ -1608,7 +1683,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_MountainPeak",
-            "SourceString": "Пиратский пик"
+            "SourceString": "Pirate's Peak",
+            "LocalizedString": "Пиратский пик"
           },
           "WorldLocation": {
             "X": 13969.0,
@@ -1630,7 +1706,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_ObstacleCourse",
-            "SourceString": "Амбарные препятствия"
+            "SourceString": "Barnyard Obstacles",
+            "LocalizedString": "Амбарные препятствия"
           },
           "WorldLocation": {
             "X": -23040.0,
@@ -1652,7 +1729,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_RaceCenter",
-            "SourceString": "Трасса для квадроциклов"
+            "SourceString": "Quadcrasher Motocross",
+            "LocalizedString": "Трасса для квадроциклов"
           },
           "WorldLocation": {
             "X": -6656.0,
@@ -1674,7 +1752,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_SecretBeach",
-            "SourceString": "Беспечная бухта"
+            "SourceString": "Chill Beach",
+            "LocalizedString": "Беспечная бухта"
           },
           "WorldLocation": {
             "X": 8555.0,
@@ -1696,7 +1775,8 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Papaya_Locations",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_Papaya_SoccerField",
-            "SourceString": "Футбольное поле"
+            "SourceString": "Soccer Pitch",
+            "LocalizedString": "Футбольное поле"
           },
           "WorldLocation": {
             "X": 17806.0,
