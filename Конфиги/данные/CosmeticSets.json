@@ -11062,8 +11062,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.TruthTenant_DisplayName",
-          "SourceString": "Set_01",
-          "LocalizedString": "Набор_01"
+          "SourceString": "The Kid LAROI",
+          "LocalizedString": "The Kid LAROI"
         },
         "Description": {
           "CultureInvariantString": null
@@ -11076,8 +11076,50 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.WeirdMessages_DisplayName",
-          "SourceString": "Set_02",
-          "LocalizedString": "Набор_02"
+          "SourceString": "Strange Transmissions",
+          "LocalizedString": "Странные сигналы"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AirforceLinked": {
+        "tag": {
+          "TagName": "Cosmetics.Set.AirforceLinked"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.AirforceLinked_DisplayName",
+          "SourceString": "SlipStream United",
+          "LocalizedString": "Лига SlipStream"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FireFortress": {
+        "tag": {
+          "TagName": "Cosmetics.Set.FireFortress"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.FireFortress_DisplayName",
+          "SourceString": "Embers of Empire",
+          "LocalizedString": "Искры империи"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.HairyFreeze": {
+        "tag": {
+          "TagName": "Cosmetics.Set.HairyFreeze"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.HairyFreeze_DisplayName",
+          "SourceString": "Fur Force Subzero",
+          "LocalizedString": "Холодный расчёт"
         },
         "Description": {
           "CultureInvariantString": null

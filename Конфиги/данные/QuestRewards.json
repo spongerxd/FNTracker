@@ -2459,7 +2459,7 @@
       },
       "BBPromoQuest_2019_Reactive_JessCabinet_001": {
         "QuestTemplateId": "Quest:bbpromoquest_2019_reactive_jesscabinet",
-        "TemplateId": "CardPack:cardpack_battlebreakers_jesshero",
+        "TemplateId": "Hero:hid_ninja_028_razor_sr_t01",
         "Quantity": 1,
         "Hidden": false,
         "Feature": false,
@@ -2468,7 +2468,7 @@
       },
       "BBPromoQuest_2019_Reactive_KyleCabinet_001": {
         "QuestTemplateId": "Quest:bbpromoquest_2019_reactive_kylecabinet",
-        "TemplateId": "CardPack:cardpack_battlebreakers_kylehero",
+        "TemplateId": "Hero:hid_outlander_033_kurohomura_sr_t01",
         "Quantity": 1,
         "Hidden": false,
         "Feature": false,
@@ -13257,15 +13257,6 @@
         "Selectable": false,
         "Exportable": true
       },
-      "FoundersQuest_GetRewards_0_1_013": {
-        "QuestTemplateId": "Quest:foundersquest_getrewards_0_1",
-        "TemplateId": "CardPack:cardpack_battlebreakers_ramirezhero",
-        "Quantity": 1,
-        "Hidden": false,
-        "Feature": false,
-        "Selectable": false,
-        "Exportable": true
-      },
       "FoundersQuest_GetRewards_1_2_001": {
         "QuestTemplateId": "Quest:foundersquest_getrewards_1_2",
         "TemplateId": "AccountResource:voucher_cardpack_bronze",
@@ -19621,6 +19612,33 @@
         "Exportable": true
       },
       "OutpostQuest_T1_L3_015": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l3",
+        "TemplateId": "Quest:bbpromoquest_2019_reactive_kylecabinet",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L3_016": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l3",
+        "TemplateId": "Quest:bbpromoquest_2019_reactive_jesscabinet",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L3_017": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l3",
+        "TemplateId": "Quest:bbpromoquest_2019_reactive_hiddenspawner",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L3_018": {
         "QuestTemplateId": "Quest:outpostquest_t1_l3",
         "TemplateId": "Quest:phoenixquest_tutorial_theater",
         "Quantity": 1,
