@@ -3600,7 +3600,7 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.FNCS_DisplayName",
-          "SourceString": "Fortnite Champion Series",
+          "SourceString": "FNCS",
           "LocalizedString": "Мини-чемпионат по Fortnite"
         },
         "Description": {
@@ -11132,8 +11132,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.LoudStop_DisplayName",
-          "SourceString": "Set_01",
-          "LocalizedString": "Набор_01"
+          "SourceString": "Flakes Power",
+          "LocalizedString": "Flakes Power"
         },
         "Description": {
           "CultureInvariantString": null
@@ -11230,8 +11230,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.JudgePace_DisplayName",
-          "SourceString": "Set_02",
-          "LocalizedString": "Набор_02"
+          "SourceString": "Star Shine & Rainbows",
+          "LocalizedString": "Победная звезда"
         },
         "Description": {
           "CultureInvariantString": null
@@ -11246,6 +11246,76 @@
           "Key": "Cosmetics.Set.LeaveExpert_DisplayName",
           "SourceString": "Escape Artists",
           "LocalizedString": "Искусство преступления"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TaxiSell": {
+        "tag": {
+          "TagName": "Cosmetics.Set.TaxiSell"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.TaxiSell_DisplayName",
+          "SourceString": "Set_01",
+          "LocalizedString": "Набор_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PassTalk": {
+        "tag": {
+          "TagName": "Cosmetics.Set.PassTalk"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.PassTalk_DisplayName",
+          "SourceString": "Cross Comms",
+          "LocalizedString": "Секретная связь"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BleakLine": {
+        "tag": {
+          "TagName": "Cosmetics.Set.BleakLine"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.BleakLine_DisplayName",
+          "SourceString": "Grim Horizon",
+          "LocalizedString": "Далёкий горизонт"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ColdStory": {
+        "tag": {
+          "TagName": "Cosmetics.Set.ColdStory"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.ColdStory_DisplayName",
+          "SourceString": "Chilling Mystery",
+          "LocalizedString": "Тайна времени"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.StaleLater": {
+        "tag": {
+          "TagName": "Cosmetics.Set.StaleLater"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.StaleLater_DisplayName",
+          "SourceString": "Rotten Future",
+          "LocalizedString": "Опасное будущее"
         },
         "Description": {
           "CultureInvariantString": null
