@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "OfferPopupDataTable",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "Class OfferPopUpData",
+        "ObjectName": "Class'OfferPopUpData'",
         "ObjectPath": "/Script/FortniteUI"
       }
     },
@@ -2254,7 +2255,7 @@
           "Namespace": "",
           "Key": "3D43B3734209A7A782464C8D27109E99",
           "SourceString": "<text color=\"FFFFFFFF\">GIANNIS ANTETOKOUNMPO</> transforms between styles when using consumable healing items! The <text color=\"FFFFFFFF\">WINGS OF VICTORY</> Back Bling transforms into the <text color=\"FFFFFFFF\">VICTORY IN FLIGHT</> Glider when both are equipped!",
-          "LocalizedString": "<text color=\"FFFFFFFF\">Яннис Адетокунбо</> меняет стили, когда использует расходуемые лечебные предметы! Украшение на спину <text color=\"FFFFFFFF\">«Крылья победы»</> превращается в дельтаплан <text color=\"FFFFFFFF\">«Победный полёт»</>, когда используются оба предмета!"
+          "LocalizedString": "<text color=\"FFFFFFFF\">Яннис Адетокунбо</> меняет стили, когда вы используете расходуемые лечебные предметы! Украшение на спину <text color=\"FFFFFFFF\">«Крылья победы»</> превращается в дельтаплан <text color=\"FFFFFFFF\">«Победный полёт»</>, когда используются оба предмета!"
         }
       },
       "promodesc80": {
@@ -2334,7 +2335,7 @@
           "Namespace": "",
           "Key": "E03BE27A422E33C02C6A3DB9949A5BB9",
           "SourceString": "Equip <text color=\"FFFFFFFF\">CAP'S SHIELD</> as a Back Bling or Pickaxe! The <text color=\"FFFFFFFF\">EXO-7 FALCON WINGS</> Glider deploys from the <text color=\"FFFFFFFF\">CAP'S SHIELD</> Back Bling when both are equipped!",
-          "LocalizedString": "Используйте <text color=\"FFFFFFFF\">щит Капитана Америки</> как украшение на спину или как кирку! Более того, <text color=\"FFFFFFFF\">щит</> может трансформироваться в дельтаплан <text color=\"FFFFFFFF\">«Крылья „Сокол EXO-7“»</>, вам достаточно лишь снарядить оба предмета!"
+          "LocalizedString": "Используйте <text color=\"FFFFFFFF\">щит Капитана Америки</> как украшение на спину или как кирку! <text color=\"FFFFFFFF\">Щит Капитана Америки</> может трансформироваться в дельтаплан <text color=\"FFFFFFFF\">«Крылья „Сокол EXO-7“»</>, вам достаточно лишь снарядить оба предмета!"
         }
       },
       "promodesc88": {
@@ -2350,7 +2351,7 @@
           "Namespace": "",
           "Key": "6CC9F35A4B77FD127CD3FDB67A3046B5",
           "SourceString": "Equip <text color=\"FFFFFFFF\">CAP'S SHIELD</> and <text color=\"FFFFFFFF\">BRITE'S SHIELD</> as either Back Blings or Pickaxes! The <text color=\"FFFFFFFF\">EXO-7 FALCON WINGS</> Glider deploys from the <text color=\"FFFFFFFF\">CAP'S SHIELD</> Back Bling when both are equipped. Bundle includes Loading Screen!",
-          "LocalizedString": "Используйте <text color=\"FFFFFFFF\">щит Капитана Америки</> и <text color=\"FFFFFFFF\">Бомбический щит</> как украшение на спину или как кирку! Более того, <text color=\"FFFFFFFF\">щит Капитана Америки</> может трансформироваться в дельтаплан <text color=\"FFFFFFFF\">«Крылья „Сокол EXO-7“»</>, вам достаточно лишь снарядить оба предмета! В набор также входит экран загрузки!"
+          "LocalizedString": "Используйте <text color=\"FFFFFFFF\">щит Капитана Америки</> и <text color=\"FFFFFFFF\">Бомбический щит</> как украшение на спину или как кирку! <text color=\"FFFFFFFF\">Щит Капитана Америки</> может трансформироваться в дельтаплан <text color=\"FFFFFFFF\">«Крылья „Сокол EXO-7“»</>, вам достаточно лишь снарядить оба предмета. В комплект входит экран загрузки!"
         }
       },
       "promodesc90": {
@@ -2398,7 +2399,7 @@
           "Namespace": "",
           "Key": "3D817092479BD362E0FEDFAA512A6347",
           "SourceString": "Use the <text color=\"FFFFFFFF\">GOHAN'S CHARGING UP</> built-in Emote to transform! Bundle includes loading screen. <text color=\"FFFFFFFF\">GOHAN'S CAPE</> can only be equipped on <text color=\"FFFFFFFF\">SON GOHAN</>.",
-          "LocalizedString": "Используйте встроенную эмоцию <text color=\"FFFFFFFF\">«Подготовка к бою Гохана»</>, чтобы изменить внешний вид! В комплект включён экран загрузки. <text color=\"FFFFFFFF\">«Плащ Гохана»</> можно надеть только с экипировкой <text color=\"FFFFFFFF\">Гохана</>."
+          "LocalizedString": "Используйте встроенную эмоцию <text color=\"FFFFFFFF\">«Подготовка к бою Гохана»</>, чтобы изменить внешний вид! В комплект входит экран загрузки. <text color=\"FFFFFFFF\">«Плащ Гохана»</> можно надеть только с экипировкой <text color=\"FFFFFFFF\">Сона Гохана</>."
         }
       },
       "arcticicetalusdesc": {
@@ -2414,7 +2415,7 @@
           "Namespace": "",
           "Key": "9EBF7E584EFE02E620D2EEAD1CEF9D35",
           "SourceString": "Use the <text color=\"FFFFFFFF\">GOHAN'S CHARGING UP</> built-in Emote to transform! <text color=\"FFFFFFFF\">GOHAN'S CAPE</> can only be equipped on <text color=\"FFFFFFFF\">SON GOHAN</>.",
-          "LocalizedString": "Используйте встроенную эмоцию <text color=\"FFFFFFFF\">«Подготовка к бою Гохана»</>, чтобы изменить внешний вид! <text color=\"FFFFFFFF\">«Плащ Гохана»</> можно надеть только с экипировкой <text color=\"FFFFFFFF\">Гохана</>."
+          "LocalizedString": "Используйте встроенную эмоцию <text color=\"FFFFFFFF\">«Подготовка к бою Гохана»</>, чтобы изменить внешний вид! <text color=\"FFFFFFFF\">«Плащ Гохана»</> можно надеть только с экипировкой <text color=\"FFFFFFFF\">Сона Гохана</>."
         }
       },
       "promodesc91": {
@@ -2494,7 +2495,7 @@
           "Namespace": "",
           "Key": "5310D4D5479FCE3EA6F178B65DDF142F",
           "SourceString": "Select colors and equip up to 16 Sprays from your Locker! Includes 7 Sprays with purchase, and quests to unlock more Sprays and headgear Styles.",
-          "LocalizedString": "Выбирайте цвета и используйте до 16 граффити из шкафчика! Включает 7 граффити, доступные при покупке, и задания, позволяющие открыть больше граффити и стилей головного убора."
+          "LocalizedString": "Выбирайте цвета и используйте до 16 граффити из шкафчика! Включает 7 граффити, доступные при покупке, и задания, позволяющие открыть больше граффити и стилей головного убора."
         }
       },
       "jumpsuitbundledesc": {
@@ -2502,7 +2503,7 @@
           "Namespace": "",
           "Key": "444C5ED948130518451D629EE82C9681",
           "SourceString": "Select colors and equip up to 16 Sprays from your Locker! Includes 16 Sprays with purchase, and quests to unlock more Sprays and headgear Styles.",
-          "LocalizedString": "Выбирайте цвета и используйте до 16 граффити из шкафчика! Включает 16 граффити, доступные при покупке, и задания, позволяющие открыть больше граффити и стилей головного убора."
+          "LocalizedString": "Выбирайте цвета и используйте до 16 граффити из шкафчика! Включает 16 граффити, доступные при покупке, и задания, позволяющие открыть больше граффити и стилей головного убора."
         }
       },
       "galaxyknightdesc": {
@@ -2510,7 +2511,7 @@
           "Namespace": "",
           "Key": "C80D4D804751FC35F8FB02A292BBB32E",
           "SourceString": "<text color=\"FFFFFFFF\">AXION SENTINEL'S CHARGED</> Style will glow on eliminations, and fade when knocked.",
-          "LocalizedString": "Стиль <text color=\"FFFFFFFF\">«Небесный» для экипировки Аксиона</> будет сиять при совершении устранений и меркнуть при тяжёлом ранении."
+          "LocalizedString": "<text color=\"FFFFFFFF\">«Небесный» Стиль Аксиона</> будет сиять при совершении устранений и меркнуть при тяжёлом ранении."
         }
       },
       "jumbotrons23": {

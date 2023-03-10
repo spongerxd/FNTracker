@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "QuestCategoryTable",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "Class FortCategoryTableRow",
+        "ObjectName": "Class'FortCategoryTableRow'",
         "ObjectPath": "/Script/FortniteGame"
       }
     },

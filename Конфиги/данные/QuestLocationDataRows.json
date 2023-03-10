@@ -2,19 +2,20 @@
   {
     "Type": "CompositeDataTable",
     "Name": "QuestLocationDataRows",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
-          "ObjectName": "DataTable Asteria_TerrainManualQuestTagToLocationTable",
+          "ObjectName": "DataTable'Asteria_TerrainManualQuestTagToLocationTable'",
           "ObjectPath": "/Game/Quests/QuestTagLocations/Asteria_TerrainManualQuestTagToLocationTable.0"
         },
         {
-          "ObjectName": "DataTable Asteria_TerrainQuestTagToLocationDataRows",
+          "ObjectName": "DataTable'Asteria_TerrainQuestTagToLocationDataRows'",
           "ObjectPath": "/Game/Quests/QuestTagLocations/Asteria_TerrainQuestTagToLocationDataRows.0"
         }
       ],
       "RowStruct": {
-        "ObjectName": "Class FortQuestTagToLocationDataRow",
+        "ObjectName": "Class'FortQuestTagToLocationDataRow'",
         "ObjectPath": "/Script/FortniteGame"
       }
     },
@@ -61,11 +62,11 @@
           "Z": 1992.0
         }
       },
-      "Athena.Location.UnNamedPOI.CuddleTrack": {
+      "Athena.Location.POI.NeonCity": {
         "WorldLocation": {
-          "X": -50588.0,
-          "Y": 48256.0,
-          "Z": 4812.0
+          "X": -51724.0,
+          "Y": 27208.0,
+          "Z": 1964.0
         }
       },
       "Athena.Location.POI.FortaniumQuarry": {
@@ -103,13 +104,6 @@
           "Z": 3496.0
         }
       },
-      "Athena.Location.UnNamedPOI.IslandHomes": {
-        "WorldLocation": {
-          "X": -18932.0,
-          "Y": 65316.0,
-          "Z": -1376.0
-        }
-      },
       "Athena.Location.UnNamedPOI.TempleOutpost.2": {
         "WorldLocation": {
           "X": 94060.0,
@@ -117,11 +111,32 @@
           "Z": 4484.0
         }
       },
-      "Athena.Location.POI.SplitTown": {
+      "Athena.Location.UnNamedPOI.GenshinGas": {
         "WorldLocation": {
-          "X": -23944.0,
-          "Y": 13524.0,
-          "Z": 1964.0
+          "X": -84328.0,
+          "Y": 59328.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.DriftCarTrack": {
+        "WorldLocation": {
+          "X": -16348.0,
+          "Y": 31428.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.NeonBayBridge": {
+        "WorldLocation": {
+          "X": -101684.0,
+          "Y": 16908.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.ThunderPagoda": {
+        "WorldLocation": {
+          "X": -28728.0,
+          "Y": 64472.0,
+          "Z": 1992.0
         }
       },
       "Athena.Location.POI.IcebergStation": {
@@ -136,6 +151,34 @@
           "X": 78524.0,
           "Y": -12336.0,
           "Z": 3664.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.WindPagoda": {
+        "WorldLocation": {
+          "X": -35672.0,
+          "Y": -244.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.LightHouseEast": {
+        "WorldLocation": {
+          "X": -50604.0,
+          "Y": 99944.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.LightHouseSouth": {
+        "WorldLocation": {
+          "X": -120912.0,
+          "Y": 20676.0,
+          "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.LightHouseWest": {
+        "WorldLocation": {
+          "X": -106544.0,
+          "Y": 9140.0,
+          "Z": 1992.0
         }
       },
       "Athena.Location.POI.NorthHarbor": {
@@ -173,6 +216,13 @@
           "Z": 1964.0
         }
       },
+      "Athena.Location.POI.CherryBlossomForest": {
+        "WorldLocation": {
+          "X": -85748.0,
+          "Y": -5756.0,
+          "Z": 1964.0
+        }
+      },
       "Athena.Location.UnNamedPOI.IceCaverns": {
         "WorldLocation": {
           "X": 92812.0,
@@ -187,11 +237,32 @@
           "Z": 1964.0
         }
       },
+      "Athena.Location.POI.MountainDojo": {
+        "WorldLocation": {
+          "X": -101504.0,
+          "Y": 55384.0,
+          "Z": 1964.0
+        }
+      },
+      "Athena.Location.POI.FishingVillageIsland": {
+        "WorldLocation": {
+          "X": -62772.0,
+          "Y": 93844.0,
+          "Z": 1964.0
+        }
+      },
       "Athena.Location.Quest.S24.InThroneRome": {
         "WorldLocation": {
           "X": 49280.0,
           "Y": -73232.0,
           "Z": 6092.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.FirePagoda": {
+        "WorldLocation": {
+          "X": -82644.0,
+          "Y": 25392.0,
+          "Z": 1992.0
         }
       },
       "Athena.Location.UnNamedPOI.CoastalTower": {
@@ -222,1313 +293,354 @@
           "Z": 1964.0
         }
       },
-      "AISpawnerData.Type.Tandem.DiamondDiva": {
+      "Athena.Location.Biome.HotSprings": {
         "WorldLocation": {
-          "X": -59468.0,
-          "Y": -60056.0,
-          "Z": 2520.0
+          "X": -83558.0,
+          "Y": -10974.0,
+          "Z": 1456.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.DiamondDiva": {
+      "Athena.Location.Biome.HotSprings_0": {
         "WorldLocation": {
-          "X": -59468.0,
-          "Y": -60056.0,
-          "Z": 2520.0
+          "X": -88038.0,
+          "Y": -2618.0,
+          "Z": 1456.0
         }
       },
-      "AISpawnerData.Type.Tandem.RenegadeShadow": {
+      "Athena.Location.Biome.HotSprings_1": {
         "WorldLocation": {
-          "X": 84172.0,
-          "Y": -59820.0,
-          "Z": 2240.0
+          "X": -86040.0,
+          "Y": -13274.0,
+          "Z": 1456.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.RenegadeShadow": {
+      "Athena.Location.Quest.CherryTree.01": {
         "WorldLocation": {
-          "X": 84172.0,
-          "Y": -59820.0,
-          "Z": 2240.0
+          "X": -62732.0,
+          "Y": -72752.0,
+          "Z": 1856.0
         }
       },
-      "AISpawnerData.Type.Tandem.Goldie": {
+      "Athena.Location.Quest.CherryTree.03": {
         "WorldLocation": {
-          "X": 79360.0,
-          "Y": -12024.0,
-          "Z": 4160.0
+          "X": -64960.0,
+          "Y": -73096.0,
+          "Z": 1856.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Goldie": {
+      "Athena.Location.Biome.HotSprings_2": {
         "WorldLocation": {
-          "X": 79360.0,
-          "Y": -12024.0,
-          "Z": 4160.0
+          "X": -83848.0,
+          "Y": 114.0,
+          "Z": 1456.0
         }
       },
-      "AISpawnerData.Type.Tandem.Guild": {
+      "Athena.Location.Quest.CherryTree.02": {
         "WorldLocation": {
-          "X": 98152.0,
-          "Y": 45912.0,
-          "Z": 928.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Guild": {
-        "WorldLocation": {
-          "X": 98152.0,
-          "Y": 45912.0,
-          "Z": 928.0
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim03": {
-        "WorldLocation": {
-          "X": 30922.09,
-          "Y": -106964.71,
-          "Z": -52.00005
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Locate_03": {
-        "WorldLocation": {
-          "X": 20624.0,
-          "Y": -100944.0,
-          "Z": -4.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.04": {
-        "WorldLocation": {
-          "X": -14313.153,
-          "Y": -107294.96,
-          "Z": 4602.424
-        }
-      },
-      "Athena.Quests.S23.Part05.TelescopeCollect.01": {
-        "WorldLocation": {
-          "X": -54987.875,
-          "Y": -96744.125,
-          "Z": 1928.0
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim02": {
-        "WorldLocation": {
-          "X": -56196.44,
-          "Y": -77446.24,
-          "Z": 1516.4586
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.01": {
-        "WorldLocation": {
-          "X": -61996.574,
-          "Y": -59881.62,
-          "Z": 2303.899
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01": {
-        "WorldLocation": {
-          "X": -57948.242,
-          "Y": -27952.686,
-          "Z": 1393.6156
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.05": {
-        "WorldLocation": {
-          "X": -58729.445,
-          "Y": -36227.855,
-          "Z": 1838.1437
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.02": {
-        "WorldLocation": {
-          "X": -42266.156,
-          "Y": -77612.06,
-          "Z": 3831.8813
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.03": {
-        "WorldLocation": {
-          "X": -27388.305,
-          "Y": -92486.12,
-          "Z": 4525.25
-        }
-      },
-      "Athena.Quests.S23.Part05.AncientText.01": {
-        "WorldLocation": {
-          "X": -27174.705,
-          "Y": -84855.5,
-          "Z": 3464.0
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.2": {
-        "WorldLocation": {
-          "X": -15645.499,
-          "Y": -92827.02,
-          "Z": 3574.403
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q2.01": {
-        "WorldLocation": {
-          "X": -23255.328,
-          "Y": -93587.99,
-          "Z": 2675.7485
-        }
-      },
-      "Athena.Quests.S23.Part05.AncientText.03": {
-        "WorldLocation": {
-          "X": -12919.758,
-          "Y": -78240.52,
-          "Z": 1928.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_0": {
-        "WorldLocation": {
-          "X": -13341.755,
-          "Y": -83450.28,
-          "Z": 3071.545
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.02": {
-        "WorldLocation": {
-          "X": -16837.451,
-          "Y": -80100.016,
-          "Z": 2058.3281
-        }
-      },
-      "Athena.Quests.S23.Part05.AncientText.02": {
-        "WorldLocation": {
-          "X": -6552.4136,
-          "Y": -78579.26,
-          "Z": 1928.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q2.01_0": {
-        "WorldLocation": {
-          "X": -11702.057,
-          "Y": -76761.14,
-          "Z": 2687.7217
-        }
-      },
-      "Athena.Quest.S23.Part3.Conduit.02": {
-        "WorldLocation": {
-          "X": -12083.0,
-          "Y": -81581.0,
-          "Z": 2688.0
-        }
-      },
-      "Athena.Quest.S23.RefinedMaterial.Place": {
-        "WorldLocation": {
-          "X": -12608.4375,
-          "Y": -87102.82,
-          "Z": 1150.7726
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q2.01": {
-        "WorldLocation": {
-          "X": -5601.0,
-          "Y": -57923.0,
-          "Z": 3840.0
-        }
-      },
-      "Athena.Quest.S23.RefinedMaterial.Collect": {
-        "WorldLocation": {
-          "X": -9911.853,
-          "Y": -41524.57,
-          "Z": 3456.238
-        }
-      },
-      "Athena.Quest.S23.ParadigmTerminal": {
-        "WorldLocation": {
-          "X": -10053.552,
-          "Y": -41113.25,
-          "Z": 3468.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.04": {
-        "WorldLocation": {
-          "X": -22972.0,
-          "Y": -24990.0,
-          "Z": 1534.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q2.01": {
-        "WorldLocation": {
-          "X": -1802.7386,
-          "Y": -22233.998,
-          "Z": 3484.7727
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q2.01_0": {
-        "WorldLocation": {
-          "X": -3741.0,
-          "Y": -1292.0,
-          "Z": 1151.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.05": {
-        "WorldLocation": {
-          "X": 3523.0845,
-          "Y": -102853.55,
-          "Z": 2826.8477
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q3.01": {
-        "WorldLocation": {
-          "X": 32074.297,
-          "Y": -112483.23,
-          "Z": 1185.4148
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q3.01_0": {
-        "WorldLocation": {
-          "X": 10635.415,
-          "Y": -101508.98,
-          "Z": 2009.5879
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.06": {
-        "WorldLocation": {
-          "X": 7568.2983,
-          "Y": -82676.336,
-          "Z": 8254.528
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W03.07": {
-        "WorldLocation": {
-          "X": 13219.575,
-          "Y": -61826.59,
-          "Z": 7867.3193
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q1.01": {
-        "WorldLocation": {
-          "X": 38232.0,
-          "Y": -86989.0,
-          "Z": 4620.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q3.01_1": {
-        "WorldLocation": {
-          "X": 32009.842,
-          "Y": -83427.18,
-          "Z": 2707.1455
-        }
-      },
-      "Athena.Quest.S23.RefinedMaterial.Collect_0": {
-        "WorldLocation": {
-          "X": 38727.926,
-          "Y": -88475.67,
-          "Z": 4620.146
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q1.01": {
-        "WorldLocation": {
-          "X": 38886.89,
-          "Y": -80473.55,
-          "Z": 3464.724
-        }
-      },
-      "Athena.Quest.S23.ParadigmTerminal_0": {
-        "WorldLocation": {
-          "X": 38588.57,
-          "Y": -88166.19,
-          "Z": 4625.881
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_1": {
-        "WorldLocation": {
-          "X": 32928.984,
-          "Y": -72660.43,
-          "Z": 4236.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q4.01": {
-        "WorldLocation": {
-          "X": 37588.58,
-          "Y": -73217.43,
-          "Z": 4238.185
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q3.01": {
-        "WorldLocation": {
-          "X": 30200.0,
-          "Y": -64495.0,
-          "Z": 4996.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_2": {
-        "WorldLocation": {
-          "X": 32928.984,
-          "Y": -72660.43,
-          "Z": 4236.0
-        }
-      },
-      "Athena.Quest.S23.Part3.Table.Install": {
-        "WorldLocation": {
-          "X": 42497.574,
-          "Y": -73048.76,
-          "Z": 4616.3184
-        }
-      },
-      "Athena.Quest.S23.Part3.Power.Install": {
-        "WorldLocation": {
-          "X": 42547.574,
-          "Y": -73457.76,
-          "Z": 4658.3184
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.03": {
-        "WorldLocation": {
-          "X": 49916.457,
-          "Y": -68068.17,
-          "Z": 6167.7383
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim04": {
-        "WorldLocation": {
-          "X": 48156.72,
-          "Y": -65769.53,
-          "Z": 2688.0
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim01": {
-        "WorldLocation": {
-          "X": 18338.047,
-          "Y": -40794.492,
-          "Z": 1471.1455
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Retrieve_03": {
-        "WorldLocation": {
-          "X": 14986.562,
-          "Y": -36344.613,
-          "Z": 1486.9254
-        }
-      },
-      "Athena.Quest.S23.Part2.Moon.Monitor": {
-        "WorldLocation": {
-          "X": 579.161,
-          "Y": -796.1578,
-          "Z": 556.39935
-        }
-      },
-      "Athena.Quest.S23.Part2.Moon.Monitor_0": {
-        "WorldLocation": {
-          "X": 577.87524,
-          "Y": -796.62573,
-          "Z": 556.39935
-        }
-      },
-      "Athena.Quest.S23.Part2.Moon.Monitor_1": {
-        "WorldLocation": {
-          "X": 576.1201,
-          "Y": -797.2645,
-          "Z": 556.39935
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q1.01_0": {
-        "WorldLocation": {
-          "X": 14497.484,
-          "Y": -23840.982,
-          "Z": 4608.611
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_3": {
-        "WorldLocation": {
-          "X": 29612.428,
-          "Y": -42363.31,
-          "Z": 1926.8346
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q2.01_1": {
-        "WorldLocation": {
-          "X": 26017.0,
-          "Y": -35431.0,
-          "Z": 1920.6019
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Locate_02": {
-        "WorldLocation": {
-          "X": 27268.0,
-          "Y": -35740.0,
-          "Z": 1924.0
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.4": {
-        "WorldLocation": {
-          "X": 29023.871,
-          "Y": -27914.104,
-          "Z": 2089.7222
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q1.01_1": {
-        "WorldLocation": {
-          "X": 38411.793,
-          "Y": -29221.781,
-          "Z": 3646.3718
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.6": {
-        "WorldLocation": {
-          "X": 29187.871,
-          "Y": -29426.104,
-          "Z": 2105.7222
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.04": {
-        "WorldLocation": {
-          "X": 33293.203,
-          "Y": -27388.182,
-          "Z": 3073.6616
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q3.01": {
-        "WorldLocation": {
-          "X": 29929.025,
-          "Y": -22266.951,
-          "Z": 2315.0427
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q4.01": {
-        "WorldLocation": {
-          "X": 49052.54,
-          "Y": -4199.293,
-          "Z": 2667.8525
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim05": {
-        "WorldLocation": {
-          "X": 46395.652,
-          "Y": -3181.3032,
-          "Z": 2314.0286
-        }
-      },
-      "Athena.Quests.S23.Part05.TelescopePlace.01": {
-        "WorldLocation": {
-          "X": 56836.867,
-          "Y": -90912.32,
-          "Z": 4347.5957
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q4.01_0": {
-        "WorldLocation": {
-          "X": 52626.176,
-          "Y": -80311.02,
-          "Z": 6145.418
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q1.01": {
-        "WorldLocation": {
-          "X": 52902.098,
-          "Y": -88630.43,
-          "Z": 2385.981
-        }
-      },
-      "Athena.Quests.S23.Part05.TelescopePlace.01_0": {
-        "WorldLocation": {
-          "X": 68717.74,
-          "Y": -91815.61,
-          "Z": 3501.8384
-        }
-      },
-      "Athena.Quest.S23.Part2.Attach.Install_01": {
-        "WorldLocation": {
-          "X": 69272.65,
-          "Y": -79052.0,
-          "Z": 4330.439
-        }
-      },
-      "Athena.Quest.S23.Part2.Electric.Extinguish_01": {
-        "WorldLocation": {
-          "X": 69283.04,
-          "Y": -79046.0,
-          "Z": 4225.8906
-        }
-      },
-      "Athena.Quest.S23.Part2.Attach.Install_01_0": {
-        "WorldLocation": {
-          "X": 69272.65,
-          "Y": -79052.0,
-          "Z": 4330.439
-        }
-      },
-      "Athena.Quest.S23.Part2.Satellite": {
-        "WorldLocation": {
-          "X": 68088.0,
-          "Y": -79540.0,
-          "Z": 4279.763
-        }
-      },
-      "Athena.Quest.S23.Part2.Attach.Install_01_1": {
-        "WorldLocation": {
-          "X": 69272.65,
-          "Y": -79052.0,
-          "Z": 4330.439
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q1.01_0": {
-        "WorldLocation": {
-          "X": 71788.0,
-          "Y": -79256.0,
-          "Z": 3469.9985
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q1.01_1": {
-        "WorldLocation": {
-          "X": 59081.0,
-          "Y": -60457.0,
-          "Z": 5375.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q1.01_0": {
-        "WorldLocation": {
-          "X": 66092.75,
-          "Y": -70468.24,
-          "Z": 3734.386
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q3.01_0": {
-        "WorldLocation": {
-          "X": 73698.0,
-          "Y": -65884.0,
-          "Z": 3067.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.07": {
-        "WorldLocation": {
-          "X": 77447.016,
-          "Y": -91432.24,
-          "Z": 5247.413
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q1.01_1": {
-        "WorldLocation": {
-          "X": 78555.74,
-          "Y": -87374.21,
-          "Z": 4040.8618
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q3.01_1": {
-        "WorldLocation": {
-          "X": 88552.0,
-          "Y": -76889.0,
-          "Z": 773.0
-        }
-      },
-      "Athena.Quest.S23.Part3.PlaceAlloy.Kiln": {
-        "WorldLocation": {
-          "X": 85153.84,
-          "Y": -88309.766,
-          "Z": 1242.2102
-        }
-      },
-      "Athena.Quest.S23.Part3.PlaceAlloy.Anvil": {
-        "WorldLocation": {
-          "X": 85466.91,
-          "Y": -86844.414,
-          "Z": 1232.678
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.06": {
-        "WorldLocation": {
-          "X": 81238.87,
-          "Y": -74732.49,
-          "Z": 4607.8125
-        }
-      },
-      "Athena.Quests.S23.Part05.TelescopePlace.01_1": {
-        "WorldLocation": {
-          "X": 79609.75,
-          "Y": -74476.586,
-          "Z": 4607.8125
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.08": {
-        "WorldLocation": {
-          "X": 92970.4,
-          "Y": -55538.855,
-          "Z": 2708.854
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.05": {
-        "WorldLocation": {
-          "X": 69263.82,
-          "Y": -40610.625,
-          "Z": 5322.4663
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.07": {
-        "WorldLocation": {
-          "X": 59280.773,
-          "Y": -3146.696,
-          "Z": 2306.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.06": {
-        "WorldLocation": {
-          "X": 52575.566,
-          "Y": -8181.2007,
-          "Z": 2306.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q4.01": {
-        "WorldLocation": {
-          "X": 75752.0,
-          "Y": -12288.0,
-          "Z": 3468.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q1.01": {
-        "WorldLocation": {
-          "X": 78712.46,
-          "Y": -14749.344,
-          "Z": 3847.3098
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.04": {
-        "WorldLocation": {
-          "X": 84963.15,
-          "Y": -16181.75,
-          "Z": 7756.6206
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.03": {
-        "WorldLocation": {
-          "X": 88834.71,
-          "Y": -6505.899,
-          "Z": 3453.196
-        }
-      },
-      "Athena.Quests.S23.Part04.DecipherStart.01": {
-        "WorldLocation": {
-          "X": 95628.46,
-          "Y": -16971.59,
-          "Z": 3211.0715
-        }
-      },
-      "Athena.Quests.S23.Part04.DecipherFinish.01": {
-        "WorldLocation": {
-          "X": 95663.805,
-          "Y": -16869.299,
-          "Z": 3211.0715
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.07": {
-        "WorldLocation": {
-          "X": 101039.21,
-          "Y": -18224.643,
-          "Z": 2881.263
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.02": {
-        "WorldLocation": {
-          "X": 98766.18,
-          "Y": -7200.506,
-          "Z": 5842.0664
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q1.01_0": {
-        "WorldLocation": {
-          "X": 104972.76,
-          "Y": -29750.125,
-          "Z": 4610.555
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.02": {
-        "WorldLocation": {
-          "X": -54001.742,
-          "Y": 22941.613,
-          "Z": 7924.254
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.01": {
-        "WorldLocation": {
-          "X": -53887.477,
-          "Y": 27192.832,
-          "Z": 6891.555
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.03": {
-        "WorldLocation": {
-          "X": -61869.54,
-          "Y": 29041.256,
-          "Z": 3757.5989
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.04": {
-        "WorldLocation": {
-          "X": -51030.406,
-          "Y": 48368.164,
-          "Z": 2934.9255
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_4": {
-        "WorldLocation": {
-          "X": -33958.16,
-          "Y": 5351.1274,
-          "Z": 3060.674
-        }
-      },
-      "Athena.Quest.S23.Part3.PlaceAlloy.Anvil_0": {
-        "WorldLocation": {
-          "X": -26454.791,
-          "Y": 20114.191,
-          "Z": 3153.178
-        }
-      },
-      "Athena.Quest.S23.Part3.PlaceAlloy.Kiln_0": {
-        "WorldLocation": {
-          "X": -27034.7,
-          "Y": 19834.553,
-          "Z": 3162.7102
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Retrieve_01": {
-        "WorldLocation": {
-          "X": -50177.062,
-          "Y": 47657.785,
-          "Z": 2685.402
-        }
-      },
-      "Athena.Quests.S23.Emerald.WaterVictim06": {
-        "WorldLocation": {
-          "X": -36870.28,
-          "Y": 30715.504,
-          "Z": 1873.5155
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.05": {
-        "WorldLocation": {
-          "X": -33430.996,
-          "Y": 47427.516,
-          "Z": 4456.7256
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.5": {
-        "WorldLocation": {
-          "X": -20814.973,
-          "Y": 10007.508,
-          "Z": 1288.519
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q2.01_0": {
-        "WorldLocation": {
-          "X": -13399.614,
-          "Y": 10235.952,
-          "Z": 2226.5237
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.1": {
-        "WorldLocation": {
-          "X": -21342.973,
-          "Y": 10475.508,
-          "Z": 1264.519
-        }
-      },
-      "Athena.Quest.S23.Part3.Conduit.03": {
-        "WorldLocation": {
-          "X": -24633.0,
-          "Y": 7105.0,
-          "Z": 1918.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.01": {
-        "WorldLocation": {
-          "X": -23171.0,
-          "Y": 8271.0,
-          "Z": 1918.0
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.3": {
-        "WorldLocation": {
-          "X": -20250.973,
-          "Y": 10175.508,
-          "Z": 1292.5192
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.01_0": {
-        "WorldLocation": {
-          "X": -23190.0,
-          "Y": 8296.0,
-          "Z": 1920.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q3.01_0": {
-        "WorldLocation": {
-          "X": -22494.084,
-          "Y": 16490.494,
-          "Z": 3920.806
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.02": {
-        "WorldLocation": {
-          "X": -18837.0,
-          "Y": 18326.0,
-          "Z": 1918.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.02_0": {
-        "WorldLocation": {
-          "X": -19210.0,
-          "Y": 18280.0,
-          "Z": 1920.0
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.01": {
-        "WorldLocation": {
-          "X": -21372.047,
-          "Y": 22932.37,
-          "Z": 3817.479
-        }
-      },
-      "Athena.Quest.S23.Part2.Moon.Place_01": {
-        "WorldLocation": {
-          "X": -1272.163,
-          "Y": 1145.7655,
-          "Z": 384.34604
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.06": {
-        "WorldLocation": {
-          "X": -3384.4011,
-          "Y": 43421.26,
-          "Z": 1910.0217
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q2.01": {
-        "WorldLocation": {
-          "X": -29649.76,
-          "Y": 55991.793,
-          "Z": 378.09262
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q2.01_0": {
-        "WorldLocation": {
-          "X": -12907.675,
-          "Y": 53011.9,
-          "Z": 1880.2657
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part5.Q2.01_1": {
-        "WorldLocation": {
-          "X": -13742.362,
-          "Y": 67649.695,
-          "Z": 1981.8029
-        }
-      },
-      "Athena.Quests.S23.Part05.TelescopeCollect.01_0": {
-        "WorldLocation": {
-          "X": -18240.924,
-          "Y": 69537.04,
-          "Z": 2304.232
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.05": {
-        "WorldLocation": {
-          "X": 4992.0,
-          "Y": 17024.0,
-          "Z": 1536.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q2.01_1": {
-        "WorldLocation": {
-          "X": 15284.516,
-          "Y": 7939.0776,
-          "Z": 2203.8372
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Retrieve_02": {
-        "WorldLocation": {
-          "X": 3028.0,
-          "Y": 32928.715,
-          "Z": 2676.5354
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W01.07": {
-        "WorldLocation": {
-          "X": 5937.9736,
-          "Y": 29205.33,
-          "Z": 2908.48
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q2.01": {
-        "WorldLocation": {
-          "X": 26157.766,
-          "Y": 17432.904,
-          "Z": 3071.8525
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Locate_01": {
-        "WorldLocation": {
-          "X": 40720.0,
-          "Y": 1688.0,
-          "Z": 3084.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q4.01_0": {
-        "WorldLocation": {
-          "X": 31943.62,
-          "Y": 47155.633,
-          "Z": 1707.5951
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.04_0": {
-        "WorldLocation": {
-          "X": 15210.0,
-          "Y": 63000.0,
-          "Z": 1152.0
-        }
-      },
-      "Athena.Quest.S23.DataBeacon.06": {
-        "WorldLocation": {
-          "X": 20890.984,
-          "Y": 59765.117,
-          "Z": 1163.7383
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.03": {
-        "WorldLocation": {
-          "X": 15204.0,
-          "Y": 62965.0,
-          "Z": 1160.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.05_0": {
-        "WorldLocation": {
-          "X": 22371.0,
-          "Y": 63071.0,
-          "Z": 1160.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.03_0": {
-        "WorldLocation": {
-          "X": 22422.0,
-          "Y": 62952.0,
-          "Z": 1152.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_5": {
-        "WorldLocation": {
-          "X": 13879.713,
-          "Y": 64503.055,
-          "Z": 1162.5612
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.05": {
-        "WorldLocation": {
-          "X": 53300.035,
-          "Y": 2349.8232,
-          "Z": 2306.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.04": {
-        "WorldLocation": {
-          "X": 69129.83,
-          "Y": 927.6731,
-          "Z": 5190.7466
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part1.Q1.01_6": {
-        "WorldLocation": {
-          "X": 70141.73,
-          "Y": 23454.469,
-          "Z": 7681.891
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.03": {
-        "WorldLocation": {
-          "X": 76135.82,
-          "Y": 19266.377,
-          "Z": 11043.517
-        }
-      },
-      "Athena.Quest.S23.Part2.AI.Throw_01": {
-        "WorldLocation": {
-          "X": 63231.45,
-          "Y": 30523.322,
-          "Z": 4692.542
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part2.Q4.01_1": {
-        "WorldLocation": {
-          "X": 51841.934,
-          "Y": 32133.969,
-          "Z": 3848.848
-        }
-      },
-      "Athena.Quest.S23.Part3.Conduit.01": {
-        "WorldLocation": {
-          "X": 57750.0,
-          "Y": 27689.0,
-          "Z": 5374.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q2.01_0": {
-        "WorldLocation": {
-          "X": 69145.234,
-          "Y": 36619.258,
-          "Z": 5399.8843
-        }
-      },
-      "Athena.Quest.S23.ParadigmTerminal_1": {
-        "WorldLocation": {
-          "X": 66386.836,
-          "Y": 32513.166,
-          "Z": 5016.1543
-        }
-      },
-      "Athena.Quest.S23.RefinedMaterial.Collect_1": {
-        "WorldLocation": {
-          "X": 67213.51,
-          "Y": 30629.07,
-          "Z": 5000.0
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q1.01_1": {
-        "WorldLocation": {
-          "X": 93220.18,
-          "Y": 9800.472,
-          "Z": 6924.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.02": {
-        "WorldLocation": {
-          "X": 79622.57,
-          "Y": 35691.844,
-          "Z": 14155.052
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part4.Q2.01_1": {
-        "WorldLocation": {
-          "X": 100433.79,
-          "Y": 44518.35,
-          "Z": 785.2088
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.01": {
-        "WorldLocation": {
-          "X": 96899.69,
-          "Y": 39930.797,
-          "Z": 767.8175
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q4.01_0": {
-        "WorldLocation": {
-          "X": 75745.0,
-          "Y": 68749.805,
-          "Z": 3126.0193
-        }
-      },
-      "Athena.Quests.S23.Part04.Portal.01": {
-        "WorldLocation": {
-          "X": 86687.44,
-          "Y": 63995.73,
-          "Z": 2312.0
-        }
-      },
-      "Athena.Quests.S23.Part04.Coordinates.01": {
-        "WorldLocation": {
-          "X": 86687.44,
-          "Y": 64055.73,
-          "Z": 2312.0
-        }
-      },
-      "Athena.Quests.S23.Part05.SearchPapers.02": {
-        "WorldLocation": {
-          "X": 80513.21,
-          "Y": 62037.53,
-          "Z": 2312.0
-        }
-      },
-      "Athena.Quests.S23.Cipher.Poster.7": {
-        "WorldLocation": {
-          "X": 78066.33,
-          "Y": 68611.164,
-          "Z": 1729.4177
-        }
-      },
-      "Athena.Quests.S23.Part05.SearchPapers.01": {
-        "WorldLocation": {
-          "X": 82026.875,
-          "Y": 70104.77,
-          "Z": 2696.0
-        }
-      },
-      "Athena.Quests.S23.Part05.SearchPapers.03": {
-        "WorldLocation": {
-          "X": 82099.78,
-          "Y": 65162.832,
-          "Z": 2696.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.06": {
-        "WorldLocation": {
-          "X": 111232.0,
-          "Y": 4608.0,
-          "Z": 4198.0
-        }
-      },
-      "Athena.Quests.S23.Winterfest.TrafficLight.06_0": {
-        "WorldLocation": {
-          "X": 111136.0,
-          "Y": 4566.0,
-          "Z": 4182.0
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W02.01": {
-        "WorldLocation": {
-          "X": 110823.61,
-          "Y": 5960.443,
-          "Z": 4224.2104
-        }
-      },
-      "Athena.Quest.S23.HologramDevice.Part3.Q4.01_1": {
-        "WorldLocation": {
-          "X": 108743.0,
-          "Y": 18413.0,
-          "Z": 3106.0
+          "X": -64452.0,
+          "Y": -73776.0,
+          "Z": 1856.0
         }
       },
       "Athena.Bounty.BountyBoardSpawner": {
+        "WorldLocation": {
+          "X": -102359.53,
+          "Y": -19342.55,
+          "Z": -1.0224379
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_0": {
         "WorldLocation": {
           "X": -25764.51,
           "Y": -111706.914,
           "Z": 11.999984
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_0": {
+      "Athena.Bounty.BountyBoardSpawner_1": {
+        "WorldLocation": {
+          "X": -84775.0,
+          "Y": -5603.0,
+          "Z": 365.0
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_2": {
         "WorldLocation": {
           "X": -26330.896,
           "Y": -87741.984,
           "Z": 2689.6401
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_1": {
+      "Athena.Bounty.BountyBoardSpawner_3": {
         "WorldLocation": {
           "X": -44830.754,
           "Y": -34019.68,
           "Z": 1146.8584
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_2": {
+      "Athena.Bounty.BountyBoardSpawner_4": {
         "WorldLocation": {
           "X": -5340.235,
           "Y": -41490.36,
           "Z": 3071.8555
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_3": {
+      "Athena.Bounty.BountyBoardSpawner_5": {
         "WorldLocation": {
           "X": 44385.027,
           "Y": -73621.51,
           "Z": 5369.4365
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_4": {
+      "Athena.Bounty.BountyBoardSpawner_6": {
         "WorldLocation": {
           "X": 28394.758,
           "Y": -32538.209,
           "Z": 1919.219
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_5": {
+      "Athena.Bounty.BountyBoardSpawner_7": {
         "WorldLocation": {
           "X": 86823.234,
           "Y": -88192.5,
           "Z": 763.3442
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_6": {
+      "Athena.Bounty.BountyBoardSpawner_8": {
         "WorldLocation": {
           "X": 98311.2,
           "Y": -14210.289,
           "Z": 3043.0283
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_7": {
-        "WorldLocation": {
-          "X": -56772.918,
-          "Y": 10008.097,
-          "Z": 1152.2719
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_8": {
-        "WorldLocation": {
-          "X": -22311.057,
-          "Y": 10134.078,
-          "Z": 1928.3784
-        }
-      },
       "Athena.Bounty.BountyBoardSpawner_9": {
+        "WorldLocation": {
+          "X": -120826.79,
+          "Y": 37626.445,
+          "Z": 1918.7034
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_10": {
+        "WorldLocation": {
+          "X": -100868.0,
+          "Y": 50463.0,
+          "Z": 3084.0
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_11": {
+        "WorldLocation": {
+          "X": -52737.0,
+          "Y": 38639.0,
+          "Z": 373.0
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_12": {
+        "WorldLocation": {
+          "X": -63981.184,
+          "Y": 94872.78,
+          "Z": 1163.7942
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_13": {
+        "WorldLocation": {
+          "X": -48929.0,
+          "Y": 25088.0,
+          "Z": 764.60175
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_14": {
+        "WorldLocation": {
+          "X": -20487.219,
+          "Y": 14598.152,
+          "Z": 1919.6022
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_15": {
+        "WorldLocation": {
+          "X": -36865.535,
+          "Y": 82689.35,
+          "Z": 2686.6785
+        }
+      },
+      "Athena.Bounty.BountyBoardSpawner_16": {
         "WorldLocation": {
           "X": 22068.0,
           "Y": 64734.0,
           "Z": 1162.0
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_10": {
+      "Athena.Bounty.BountyBoardSpawner_17": {
         "WorldLocation": {
           "X": 63826.617,
           "Y": 31058.84,
           "Z": 4615.6646
         }
       },
-      "Athena.Bounty.BountyBoardSpawner_11": {
+      "Athena.Bounty.BountyBoardSpawner_18": {
         "WorldLocation": {
           "X": 79178.54,
           "Y": 61947.355,
           "Z": 1943.2385
         }
       },
-      "AISpawnerData.Type.Tandem.Sterling": {
+      "Athena.Quests.S24.TargetShot.06": {
         "WorldLocation": {
-          "X": -85639.28,
-          "Y": -55372.38,
-          "Z": 2222.5974
+          "X": -54026.0,
+          "Y": 24322.0,
+          "Z": 2314.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Sterling": {
+      "Athena.Quests.S24.TargetShot.01": {
         "WorldLocation": {
-          "X": -85639.28,
-          "Y": -55372.38,
-          "Z": 2222.5974
+          "X": -42252.0,
+          "Y": 24822.0,
+          "Z": 1932.0
         }
       },
-      "AISpawnerData.Type.Tandem.Evie": {
+      "Athena.Quests.S24.Kiosk.P01.Q01.Complete": {
         "WorldLocation": {
-          "X": -52688.0,
-          "Y": -96372.0,
-          "Z": 2048.0
+          "X": -59048.477,
+          "Y": -62117.125,
+          "Z": 2392.8813
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Evie": {
+      "Athena.Quests.S24.Kiosk.P01.Q01.Complete_0": {
         "WorldLocation": {
-          "X": -52688.0,
-          "Y": -96372.0,
-          "Z": 2048.0
+          "X": -61220.51,
+          "Y": -30021.04,
+          "Z": 1238.4888
         }
       },
-      "AISpawnerData.Type.Tandem.Inferno": {
+      "Athena.Quests.S24.Kiosk.P01.Q01.Complete_1": {
         "WorldLocation": {
-          "X": -63026.676,
-          "Y": -31501.832,
-          "Z": 1700.6654
+          "X": -47555.055,
+          "Y": -39087.312,
+          "Z": 1229.5515
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Inferno": {
+      "Athena.Quests.S24.DataReceiver.Placed.02": {
         "WorldLocation": {
-          "X": -63026.676,
-          "Y": -31501.832,
-          "Z": 1700.6654
+          "X": 21061.932,
+          "Y": -11167.796,
+          "Z": 2096.3215
         }
       },
-      "AISpawnerData.Type.Tandem.WildCard": {
+      "Athena.Quests.S24.DataReceiver.Placed": {
         "WorldLocation": {
-          "X": -4013.9995,
-          "Y": -82368.984,
-          "Z": 2270.6443
+          "X": 21061.932,
+          "Y": -11167.796,
+          "Z": 2096.3215
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.WildCard": {
+      "Athena.Quests.S24.TamperedComputer": {
         "WorldLocation": {
-          "X": -4013.9995,
-          "Y": -82368.984,
-          "Z": 2270.6443
+          "X": -61816.207,
+          "Y": 65846.7,
+          "Z": 5840.0054
+        }
+      },
+      "Athena.Quests.S24.DataReceiver.Placed.03": {
+        "WorldLocation": {
+          "X": -21294.299,
+          "Y": 14491.821,
+          "Z": 1916.6406
+        }
+      },
+      "Athena.Quests.S24.DataReceiver.Placed_0": {
+        "WorldLocation": {
+          "X": -21294.299,
+          "Y": 14491.821,
+          "Z": 1916.6406
+        }
+      },
+      "Athena.Quests.S24.DataReceiver.Placed.01": {
+        "WorldLocation": {
+          "X": -48258.91,
+          "Y": 57196.97,
+          "Z": 7846.1606
+        }
+      },
+      "Athena.Quests.S24.DataReceiver.Placed_1": {
+        "WorldLocation": {
+          "X": -48258.91,
+          "Y": 57196.97,
+          "Z": 7846.1606
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Q01.Complete_2": {
+        "WorldLocation": {
+          "X": 21640.0,
+          "Y": 65224.0,
+          "Z": 1240.0
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Q01.Complete_3": {
+        "WorldLocation": {
+          "X": 27176.0,
+          "Y": 58184.0,
+          "Z": 1240.0
+        }
+      },
+      "Athena.Quests.S24.TamperedComputer_0": {
+        "WorldLocation": {
+          "X": 75052.0,
+          "Y": 64988.0,
+          "Z": 3148.0
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Q04.Complete": {
+        "WorldLocation": {
+          "X": 86707.09,
+          "Y": 63820.48,
+          "Z": 2390.2183
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Complete": {
+        "WorldLocation": {
+          "X": 86707.09,
+          "Y": 63820.48,
+          "Z": 2390.2183
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Q04.Complete_0": {
+        "WorldLocation": {
+          "X": 82106.0,
+          "Y": 65155.0,
+          "Z": 2761.0
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P01.Complete_0": {
+        "WorldLocation": {
+          "X": 82106.0,
+          "Y": 65155.0,
+          "Z": 2761.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.Thunder": {
+        "WorldLocation": {
+          "X": -109728.27,
+          "Y": -6112.929,
+          "Z": 324.6188
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Thunder": {
+        "WorldLocation": {
+          "X": -109728.27,
+          "Y": -6112.929,
+          "Z": 324.6188
+        }
+      },
+      "AISpawnerData.Type.Tandem.Garrison": {
+        "WorldLocation": {
+          "X": -75889.766,
+          "Y": -97464.305,
+          "Z": 2902.6567
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Garrison": {
+        "WorldLocation": {
+          "X": -75889.766,
+          "Y": -97464.305,
+          "Z": 2902.6567
         }
       },
       "AISpawnerData.Type.Tandem.Sunflower": {
@@ -1545,382 +657,158 @@
           "Z": 1443.4349
         }
       },
+      "AISpawnerData.Type.Tandem.P33LY": {
+        "WorldLocation": {
+          "X": -10233.367,
+          "Y": -40966.316,
+          "Z": 4497.622
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.P33LY": {
+        "WorldLocation": {
+          "X": -10233.367,
+          "Y": -40966.316,
+          "Z": 4497.622
+        }
+      },
       "AISpawnerData.Type.Tandem.Longshot": {
         "WorldLocation": {
-          "X": -22438.71,
-          "Y": -26104.863,
-          "Z": 2182.7595
+          "X": 41229.63,
+          "Y": -119213.945,
+          "Z": 6074.4707
         }
       },
       "Athena.AI.SpawnLocation.Tandem.Longshot": {
         "WorldLocation": {
-          "X": -22438.71,
-          "Y": -26104.863,
-          "Z": 2182.7595
+          "X": 41229.63,
+          "Y": -119213.945,
+          "Z": 6074.4707
         }
       },
-      "AISpawnerData.Type.Tandem.Insight": {
+      "AISpawnerData.Type.Tandem.Mizuki": {
         "WorldLocation": {
-          "X": -4176.0,
-          "Y": -39912.0,
-          "Z": 3648.0
+          "X": 56996.5,
+          "Y": -60278.363,
+          "Z": 5961.0312
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Insight": {
+      "Athena.AI.SpawnLocation.Tandem.Mizuki": {
         "WorldLocation": {
-          "X": -4176.0,
-          "Y": -39912.0,
-          "Z": 3648.0
+          "X": 56996.5,
+          "Y": -60278.363,
+          "Z": 5961.0312
         }
       },
-      "AISpawnerData.Type.Tandem.RaptorianTheBrave": {
+      "AISpawnerData.Type.Tandem.PolarPatroller": {
         "WorldLocation": {
-          "X": -6846.0,
-          "Y": -39906.0,
-          "Z": 3424.0
+          "X": 56273.098,
+          "Y": -10708.0,
+          "Z": 3015.1147
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.RaptorianTheBrave": {
+      "Athena.AI.SpawnLocation.Tandem.PolarPatroller": {
         "WorldLocation": {
-          "X": -6846.0,
-          "Y": -39906.0,
-          "Z": 3424.0
+          "X": 56273.098,
+          "Y": -10708.0,
+          "Z": 3015.1147
         }
       },
-      "AISpawnerData.Type.Tandem.SharpFang": {
+      "AISpawnerData.Type.Tandem.Titanium": {
         "WorldLocation": {
-          "X": -1664.0,
-          "Y": -896.0,
-          "Z": 640.0
+          "X": -61960.0,
+          "Y": 64912.0,
+          "Z": 5932.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.SharpFang": {
+      "Athena.AI.SpawnLocation.Tandem.Titanium": {
         "WorldLocation": {
-          "X": -1664.0,
-          "Y": -896.0,
-          "Z": 640.0
+          "X": -61960.0,
+          "Y": 64912.0,
+          "Z": 5932.0
         }
       },
-      "AISpawnerData.Type.Tandem.Mystify": {
+      "AISpawnerData.Type.Tandem.NEURALYNX": {
         "WorldLocation": {
-          "X": 2072.819,
-          "Y": -102882.92,
-          "Z": 3796.3162
+          "X": -56893.707,
+          "Y": 64950.027,
+          "Z": 7943.4434
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Mystify": {
+      "Athena.AI.SpawnLocation.Tandem.NEURALYNX": {
         "WorldLocation": {
-          "X": 2072.819,
-          "Y": -102882.92,
-          "Z": 3796.3162
+          "X": -56893.707,
+          "Y": 64950.027,
+          "Z": 7943.4434
         }
       },
-      "AISpawnerData.Type.Tandem.WildCard_0": {
+      "AISpawnerData.Type.Tandem.Evie": {
         "WorldLocation": {
-          "X": 40868.465,
-          "Y": -118739.08,
-          "Z": 3718.2424
+          "X": -72269.87,
+          "Y": 89268.45,
+          "Z": 1303.3193
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.WildCard_0": {
+      "Athena.AI.SpawnLocation.Tandem.Evie": {
         "WorldLocation": {
-          "X": 40868.465,
-          "Y": -118739.08,
-          "Z": 3718.2424
+          "X": -72269.87,
+          "Y": 89268.45,
+          "Z": 1303.3193
         }
       },
-      "AISpawnerData.Type.Tandem.Cryptic": {
+      "AISpawnerData.Type.Tandem.Stray": {
         "WorldLocation": {
-          "X": 31252.412,
-          "Y": -101393.375,
-          "Z": 3352.5403
+          "X": -43869.633,
+          "Y": 23651.045,
+          "Z": 6303.8657
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Cryptic": {
+      "Athena.AI.SpawnLocation.Tandem.Stray": {
         "WorldLocation": {
-          "X": 31252.412,
-          "Y": -101393.375,
-          "Z": 3352.5403
+          "X": -43869.633,
+          "Y": 23651.045,
+          "Z": 6303.8657
         }
       },
-      "AISpawnerData.Type.Tandem.PrincessFelicityFish": {
+      "AISpawnerData.Type.Tandem.CRZ-8": {
         "WorldLocation": {
-          "X": 38095.848,
-          "Y": -88330.984,
-          "Z": 6818.777
+          "X": -21219.742,
+          "Y": 13311.247,
+          "Z": 2115.5962
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.PrincessFelicityFish": {
+      "Athena.AI.SpawnLocation.Tandem.CRZ-8": {
         "WorldLocation": {
-          "X": 38095.848,
-          "Y": -88330.984,
-          "Z": 6818.777
+          "X": -21219.742,
+          "Y": 13311.247,
+          "Z": 2115.5962
         }
       },
-      "AISpawnerData.Type.Tandem.Inferno_0": {
+      "AISpawnerData.Type.Tandem.Remedy": {
         "WorldLocation": {
-          "X": 47967.05,
-          "Y": -81683.445,
-          "Z": 3399.0532
+          "X": 3012.7495,
+          "Y": 33790.906,
+          "Z": 3718.6414
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Inferno_0": {
+      "Athena.AI.SpawnLocation.Tandem.Remedy": {
         "WorldLocation": {
-          "X": 47967.05,
-          "Y": -81683.445,
-          "Z": 3399.0532
+          "X": 3012.7495,
+          "Y": 33790.906,
+          "Z": 3718.6414
         }
       },
-      "AISpawnerData.Type.Tandem.SurrrBurger": {
+      "AISpawnerData.Type.Tandem.Titanium_0": {
         "WorldLocation": {
-          "X": 28655.428,
-          "Y": -31185.566,
-          "Z": 2604.3945
+          "X": 76308.0,
+          "Y": 65032.0,
+          "Z": 3284.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.SurrrBurger": {
+      "Athena.AI.SpawnLocation.Tandem.Titanium_0": {
         "WorldLocation": {
-          "X": 28655.428,
-          "Y": -31185.566,
-          "Z": 2604.3945
-        }
-      },
-      "AISpawnerData.Type.Tandem.Inferno_1": {
-        "WorldLocation": {
-          "X": 30855.102,
-          "Y": -27528.943,
-          "Z": 2748.3047
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Inferno_1": {
-        "WorldLocation": {
-          "X": 30855.102,
-          "Y": -27528.943,
-          "Z": 2748.3047
-        }
-      },
-      "AISpawnerData.Type.Tandem.Revolt": {
-        "WorldLocation": {
-          "X": 48860.0,
-          "Y": -22884.0,
-          "Z": 2156.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Revolt": {
-        "WorldLocation": {
-          "X": 48860.0,
-          "Y": -22884.0,
-          "Z": 2156.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Inferno_2": {
-        "WorldLocation": {
-          "X": 87340.695,
-          "Y": -92109.57,
-          "Z": 1110.7388
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Inferno_2": {
-        "WorldLocation": {
-          "X": 87340.695,
-          "Y": -92109.57,
-          "Z": 1110.7388
-        }
-      },
-      "AISpawnerData.Type.Tandem.WildCard_1": {
-        "WorldLocation": {
-          "X": 87598.02,
-          "Y": -89425.52,
-          "Z": 1203.9905
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.WildCard_1": {
-        "WorldLocation": {
-          "X": 87598.02,
-          "Y": -89425.52,
-          "Z": 1203.9905
-        }
-      },
-      "AISpawnerData.Type.Tandem.Snowheart": {
-        "WorldLocation": {
-          "X": 98666.0,
-          "Y": -17326.0,
-          "Z": 3454.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Snowheart": {
-        "WorldLocation": {
-          "X": 98666.0,
-          "Y": -17326.0,
-          "Z": 3454.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.ScrapknightJules": {
-        "WorldLocation": {
-          "X": -26605.023,
-          "Y": 20462.248,
-          "Z": 3381.0637
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.ScrapknightJules": {
-        "WorldLocation": {
-          "X": -26605.023,
-          "Y": 20462.248,
-          "Z": 3381.0637
-        }
-      },
-      "AISpawnerData.Type.Tandem.Silencer": {
-        "WorldLocation": {
-          "X": -20972.0,
-          "Y": 12124.0,
-          "Z": 2094.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Silencer": {
-        "WorldLocation": {
-          "X": -20972.0,
-          "Y": 12124.0,
-          "Z": 2094.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.MetalMouth": {
-        "WorldLocation": {
-          "X": 2692.0,
-          "Y": 13788.0,
-          "Z": 1768.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.MetalMouth": {
-        "WorldLocation": {
-          "X": 2692.0,
-          "Y": 13788.0,
-          "Z": 1768.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Zadie": {
-        "WorldLocation": {
-          "X": 4637.1387,
-          "Y": 33747.754,
-          "Z": 4504.3086
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Zadie": {
-        "WorldLocation": {
-          "X": 4637.1387,
-          "Y": 33747.754,
-          "Z": 4504.3086
-        }
-      },
-      "AISpawnerData.Type.Tandem.OmegaKnight": {
-        "WorldLocation": {
-          "X": 2546.0,
-          "Y": 38464.0,
-          "Z": 2475.626
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.OmegaKnight": {
-        "WorldLocation": {
-          "X": 2546.0,
-          "Y": 38464.0,
-          "Z": 2475.626
-        }
-      },
-      "AISpawnerData.Type.Tandem.Rebel": {
-        "WorldLocation": {
-          "X": 30580.0,
-          "Y": 18092.0,
-          "Z": 4824.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Rebel": {
-        "WorldLocation": {
-          "X": 30580.0,
-          "Y": 18092.0,
-          "Z": 4824.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Inferno_3": {
-        "WorldLocation": {
-          "X": 24354.002,
-          "Y": 58191.67,
-          "Z": 1405.2843
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Inferno_3": {
-        "WorldLocation": {
-          "X": 24354.002,
-          "Y": 58191.67,
-          "Z": 1405.2843
-        }
-      },
-      "AISpawnerData.Type.Tandem.RedOasisGooseberry": {
-        "WorldLocation": {
-          "X": 28434.0,
-          "Y": 66180.0,
-          "Z": 1308.0001
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.RedOasisGooseberry": {
-        "WorldLocation": {
-          "X": 28434.0,
-          "Y": 66180.0,
-          "Z": 1308.0001
-        }
-      },
-      "AISpawnerData.Type.Tandem.FrozenFishstick": {
-        "WorldLocation": {
-          "X": 61632.0,
-          "Y": 3776.0,
-          "Z": 2792.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.FrozenFishstick": {
-        "WorldLocation": {
-          "X": 61632.0,
-          "Y": 3776.0,
-          "Z": 2792.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.FrozenRedKnight": {
-        "WorldLocation": {
-          "X": 61090.0,
-          "Y": 29848.0,
-          "Z": 5218.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.FrozenRedKnight": {
-        "WorldLocation": {
-          "X": 61090.0,
-          "Y": 29848.0,
-          "Z": 5218.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Inferno_4": {
-        "WorldLocation": {
-          "X": 75544.94,
-          "Y": 68016.586,
-          "Z": 2883.7285
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Inferno_4": {
-        "WorldLocation": {
-          "X": 75544.94,
-          "Y": 68016.586,
-          "Z": 2883.7285
-        }
-      },
-      "AISpawnerData.Type.Tandem.Aura": {
-        "WorldLocation": {
-          "X": 116206.0,
-          "Y": 22076.0,
-          "Z": 592.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Aura": {
-        "WorldLocation": {
-          "X": 116206.0,
-          "Y": 22076.0,
-          "Z": 592.0
+          "X": 76308.0,
+          "Y": 65032.0,
+          "Z": 3284.0
         }
       }
     }

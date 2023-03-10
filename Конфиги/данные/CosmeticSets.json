@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CosmeticSets",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "Class CosmeticSetDataRow",
+        "ObjectName": "Class'CosmeticSetDataRow'",
         "ObjectPath": "/Script/FortniteGame"
       }
     },
@@ -8500,7 +8501,7 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.DueEgo_DisplayName",
-          "SourceString": "El Chapulín Colorado",
+          "SourceString": "El Chapul? Colorado",
           "LocalizedString": "El Chapulín Colorado"
         },
         "Description": {
@@ -11258,8 +11259,8 @@
         "DisplayName": {
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.TaxiSell_DisplayName",
-          "SourceString": "Set_01",
-          "LocalizedString": "Набор_01"
+          "SourceString": "CREED",
+          "LocalizedString": "CREED"
         },
         "Description": {
           "CultureInvariantString": null
@@ -11301,7 +11302,7 @@
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.ColdStory_DisplayName",
           "SourceString": "Chilling Mystery",
-          "LocalizedString": "Тайна времени"
+          "LocalizedString": "Тайный знак"
         },
         "Description": {
           "CultureInvariantString": null
@@ -11316,6 +11317,146 @@
           "Key": "Cosmetics.Set.StaleLater_DisplayName",
           "SourceString": "Rotten Future",
           "LocalizedString": "Опасное будущее"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RareGroup": {
+        "tag": {
+          "TagName": "Cosmetics.Set.RareGroup"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.RareGroup_DisplayName",
+          "SourceString": "Special Operations Squad",
+          "LocalizedString": "Отряд особого назначения"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.OldRemake": {
+        "tag": {
+          "TagName": "Cosmetics.Set.OldRemake"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.OldRemake_DisplayName",
+          "SourceString": "Retro Redux",
+          "LocalizedString": "Футуристическое ретро"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CluePup": {
+        "tag": {
+          "TagName": "Cosmetics.Set.CluePup"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.CluePup_DisplayName",
+          "SourceString": "Sign of the Fox",
+          "LocalizedString": "Лисья метка"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.WaterWatch": {
+        "tag": {
+          "TagName": "Cosmetics.Set.WaterWatch"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.WaterWatch_DisplayName",
+          "SourceString": "River Guard",
+          "LocalizedString": "Речная стража"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AnarchyExpert": {
+        "tag": {
+          "TagName": "Cosmetics.Set.AnarchyExpert"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.AnarchyExpert_DisplayName",
+          "SourceString": "Chaos Artist",
+          "LocalizedString": "Неоновая охотница"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.Calamity": {
+        "tag": {
+          "TagName": "Cosmetics.Set.Calamity"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.Calamity_DisplayName",
+          "SourceString": "Cataclysm 2.0",
+          "LocalizedString": "Катаклизм 2.0"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RoadFame": {
+        "tag": {
+          "TagName": "Cosmetics.Set.RoadFame"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.RoadFame_DisplayName",
+          "SourceString": "Street Rep",
+          "LocalizedString": "Крутой ящер"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AdventureGroup": {
+        "tag": {
+          "TagName": "Cosmetics.Set.AdventureGroup"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.AdventureGroup_DisplayName",
+          "SourceString": "The Luminaries",
+          "LocalizedString": "Светила"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SeverMap": {
+        "tag": {
+          "TagName": "Cosmetics.Set.SeverMap"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.SeverMap_DisplayName",
+          "SourceString": "Set_01",
+          "LocalizedString": "Набор_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BotSoldier": {
+        "tag": {
+          "TagName": "Cosmetics.Set.BotSoldier"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticSets",
+          "Key": "Cosmetics.Set.BotSoldier_DisplayName",
+          "SourceString": "Mech Mercs",
+          "LocalizedString": "Боевые мотоциклисты"
         },
         "Description": {
           "CultureInvariantString": null
