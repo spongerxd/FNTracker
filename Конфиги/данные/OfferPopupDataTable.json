@@ -447,7 +447,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
+          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
         }
       },
       "historianpickaxedesc": {
@@ -1407,7 +1407,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
+          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
         }
       },
       "promodesc16": {
@@ -1415,7 +1415,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль для Маркуса!"
+          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль для Маркуса!"
         }
       },
       "promodesc17": {
@@ -2479,7 +2479,7 @@
           "Namespace": "",
           "Key": "15616ED0425E98E7F6101CB889D80D25",
           "SourceString": "TBD",
-          "LocalizedString": "TBD"
+          "LocalizedString": "Стили <text color=\\\"FFFFFFFF\\\">сияния</>! Экипировки, украшения на спину, кирки и обёртка меняются в такт музыке! Комплект включает экран загрузки. "
         }
       },
       "promodesc99": {
@@ -2536,6 +2536,46 @@
           "Key": "6BF9F471420DF88066E26B9AD7D4C4C3",
           "SourceString": "Unlike some items in the FNCS set, this item may be available again in the future.",
           "LocalizedString": "В отличие от некоторых предметов из набора мини-чемпионата этот предмет может быть вновь доступен в будущем."
+        }
+      },
+      "aurorareactive": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "83281824498C457F31CAFCAC939DD46C",
+          "SourceString": "<text color=\"FFFFFFFF\">AURORA VISUALIZER</> Style reacts to music!",
+          "LocalizedString": "<text color=\"FFFFFFFF\">СИЯНИЕ</>: стиль меняется в такт музыке!"
+        }
+      },
+      "builtinemoteincluded": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "04BFBA1C4454E9C78B38FE91A564B5CE",
+          "SourceString": "Includes built-in emote!",
+          "LocalizedString": "Идёт в комплекте с эмоцией!"
+        }
+      },
+      "nightlight": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AAEE04AB405BA4F64D0C39BBC9DFDEB9",
+          "SourceString": "Mikasa's <text color=\"FFFFFFFF\">ORE LIGHT</> Back Bling lights up at night!",
+          "LocalizedString": "Украшение на спину <text color=\\\"FFFFFFFF\\\">«СИЯЮЩАЯ РУДА»</> Микасы светится ночью! В комплект входит экран загрузки. Стили для экипировки идут в комплекте с плащом! Наденьте любое украшение на спину, но, главное, БЕЗ ПЛАЩА!"
+        }
+      },
+      "nightlightbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "774FA6E5414C2FAF09775F931A084177",
+          "SourceString": "Mikasa's <text color=\"FFFFFFFF\">ORE LIGHT</> Back Bling lights up at night! Bundle includes Loading Screen.",
+          "LocalizedString": "Украшение на спину <text color=\\\"FFFFFFFF\\\">«СИЯЮЩАЯ РУДА»</> Микасы светится ночью! В комплект входит экран загрузки. Стили для экипировки идут в комплекте с плащом! Наденьте любое украшение на спину, но, главное, БЕЗ ПЛАЩА!"
+        }
+      },
+      "nighthawkmetal": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5A92346C40D7FA8A7BF6EF84B5C8706C",
+          "SourceString": "Deploy the <text color=\"FFFFFFFF\">THUNDER SPEAR FLIER</> Glider from its Back Bling when both are equipped!",
+          "LocalizedString": "Доставайте дельтаплан <text color=\"FFFFFFFF\">«ПОЛЁТ ГРОМОВОГО КОПЬЯ»</> из соответствующего украшения на спину, если используете оба предмета."
         }
       }
     }
