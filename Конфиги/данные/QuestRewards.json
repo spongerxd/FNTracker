@@ -50067,6 +50067,222 @@
         "Feature": false,
         "Selectable": false,
         "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A01_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a01",
+        "TemplateId": "STWAccoladeReward:stwaccolade_quest_hordev3_daily_w05",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A01_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a01",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 250,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A02_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a02",
+        "TemplateId": "STWAccoladeReward:stwaccolade_quest_hordev3_daily_w10",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A02_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a02",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 200,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A03_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a03",
+        "TemplateId": "STWAccoladeReward:stwaccolade_quest_hordev3_daily_w15",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Daily_A03_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_daily_a03",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 500,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A01_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a01",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 200,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A02_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a02",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 100,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A03_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a03",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 250,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A04_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a04",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 400,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A05_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a05",
+        "TemplateId": "HomebaseBannerIcon:brs24_stwhordemode_mvp_lvl1",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A05_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a05",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 250,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A05_003": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a05",
+        "TemplateId": "Quest:hordev3_quest_event_a07",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A06_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a06",
+        "TemplateId": "HomebaseBannerIcon:brs24_stwhordemode_mvp_mapbonus",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A06_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a06",
+        "TemplateId": "AccountResource:reagent_evolverarity_sr",
+        "Quantity": 10,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A07_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a07",
+        "TemplateId": "HomebaseBannerIcon:brs24_stwhordemode_mvp_lvl2",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A07_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a07",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 500,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A07_003": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a07",
+        "TemplateId": "Quest:hordev3_quest_event_a08",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A08_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a08",
+        "TemplateId": "HomebaseBannerIcon:brs24_stwhordemode_mvp_lvl3",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Event_A08_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_event_a08",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 250,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Weekly_W02_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_weekly_w02",
+        "TemplateId": "STWAccoladeReward:stwaccolade_quest_hordev3_weekly",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Weekly_W02_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_weekly_w02",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 500,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Weekly_W03_001": {
+        "QuestTemplateId": "Quest:hordev3_quest_weekly_w03",
+        "TemplateId": "STWAccoladeReward:stwaccolade_quest_hordev3_weekly",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "HordeV3_Quest_Weekly_W03_002": {
+        "QuestTemplateId": "Quest:hordev3_quest_weekly_w03",
+        "TemplateId": "AthenaDance:spray_stwhordemodemvp_lvl4",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
       }
     }
   }
