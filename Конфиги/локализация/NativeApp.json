@@ -1,10 +1,4 @@
 {
-  "Athena": {
-    "KillDistance": "({0} м)"
-  },
-  "Fort.Actor.Building.Defaults": {
-    "OptionDefinitionContainer.LabelOverride": "Метка"
-  },
   "FORTMOBILE_HUDLAYOUTPROFILE": {
     "HUDProfileContainerSaveSlotTitle": "{0} Копировать"
   },
@@ -18,9 +12,6 @@
     "MultiElimination": "Серия убийств",
     "TripleElimination": "Тройное убийство",
     "Win": "Победа"
-  },
-  "FortPlaylistUserOptions": {
-    "UPlaylistUserOptionTeamIndex.DisplayPattern": "Команда {0}"
   },
   "GameFeatureCanChange": {
     "SameFeature": "Функция уже есть в клиенте",
@@ -49,12 +40,5 @@
   },
   "SpriteCategory": {
     "Lighting": "Освещение"
-  },
-  "UserOptionDefinition": {
-    "ClassSlotMetaData.DisplayPattern": "Класс {0}",
-    "OptionDefinitionContainer.Customize": "Изменить",
-    "BoolMetaData.FalseDisplayName": "Откл.",
-    "BoolMetaData.TrueDisplayName": "Вкл.",
-    "TeamIndexMetaData.DisplayPattern": "Команда {0}"
   }
 }

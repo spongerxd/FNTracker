@@ -132,6 +132,13 @@
           "Z": 1992.0
         }
       },
+      "Athena.Quests.S24.ExcavatorCamp.03": {
+        "WorldLocation": {
+          "X": 43666.402,
+          "Y": -32090.734,
+          "Z": 3401.5007
+        }
+      },
       "Athena.Location.UnNamedPOI.FrozenWaterfall": {
         "WorldLocation": {
           "X": 49416.0,
@@ -165,6 +172,13 @@
           "X": 19468.0,
           "Y": 62984.0,
           "Z": -12.0
+        }
+      },
+      "Athena.Quests.S24.ExcavatorCamp.02": {
+        "WorldLocation": {
+          "X": 3910.4995,
+          "Y": -30515.463,
+          "Z": 3557.1938
         }
       },
       "Athena.Location.UnNamedPOI.TempleOutpost.4": {
@@ -347,6 +361,13 @@
           "X": -38224.0,
           "Y": -10512.0,
           "Z": 56.0
+        }
+      },
+      "Athena.Quests.S24.ExcavatorCamp.01": {
+        "WorldLocation": {
+          "X": -15719.796,
+          "Y": -8109.868,
+          "Z": 1355.6398
         }
       },
       "Athena.Location.UnNamedPOI.DenseForest": {
@@ -608,20 +629,6 @@
           "Z": 4056.7444
         }
       },
-      "AISpawnerData.Type.Tandem.Serenade": {
-        "WorldLocation": {
-          "X": 28226.408,
-          "Y": -76908.37,
-          "Z": 4773.8145
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Serenade": {
-        "WorldLocation": {
-          "X": 28226.408,
-          "Y": -76908.37,
-          "Z": 4773.8145
-        }
-      },
       "AISpawnerData.Type.Tandem.Styx": {
         "WorldLocation": {
           "X": 19270.197,
@@ -634,20 +641,6 @@
           "X": 19270.197,
           "Y": -5644.7,
           "Z": 3237.3838
-        }
-      },
-      "AISpawnerData.Type.Tandem.Serenade_0": {
-        "WorldLocation": {
-          "X": 85452.0,
-          "Y": -1148.0,
-          "Z": 3649.8145
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Serenade_0": {
-        "WorldLocation": {
-          "X": 85452.0,
-          "Y": -1148.0,
-          "Z": 3649.8145
         }
       },
       "Athena.Quests.S24.GongHit.A05": {
@@ -671,18 +664,18 @@
           "Z": 3083.7925
         }
       },
-      "AISpawnerData.Type.Tandem.Serenade_1": {
+      "AISpawnerData.Type.Tandem.Highwire": {
         "WorldLocation": {
-          "X": -87460.0,
-          "Y": 78348.0,
-          "Z": 3044.0
+          "X": -101640.0,
+          "Y": 53792.0,
+          "Z": 3680.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Serenade_1": {
+      "Athena.AI.SpawnLocation.Tandem.Highwire": {
         "WorldLocation": {
-          "X": -87460.0,
-          "Y": 78348.0,
-          "Z": 3044.0
+          "X": -101640.0,
+          "Y": 53792.0,
+          "Z": 3680.0
         }
       },
       "Athena.Quests.S24.GongHit.A03": {
@@ -706,6 +699,62 @@
           "Z": 2686.971
         }
       },
+      "AISpawnerData.Type.Tandem.SpiderGwen": {
+        "WorldLocation": {
+          "X": 9752.0,
+          "Y": 64032.0,
+          "Z": 3296.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.SpiderGwen": {
+        "WorldLocation": {
+          "X": 9752.0,
+          "Y": 64032.0,
+          "Z": 3296.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.SpiderGwen_0": {
+        "WorldLocation": {
+          "X": 21444.0,
+          "Y": 64964.0,
+          "Z": 2152.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.SpiderGwen_0": {
+        "WorldLocation": {
+          "X": 21444.0,
+          "Y": 64964.0,
+          "Z": 2152.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.SpiderGwen_1": {
+        "WorldLocation": {
+          "X": 27144.0,
+          "Y": 61756.0,
+          "Z": 2484.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.SpiderGwen_1": {
+        "WorldLocation": {
+          "X": 27144.0,
+          "Y": 61756.0,
+          "Z": 2484.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.RenzoTheDestroyer": {
+        "WorldLocation": {
+          "X": 58864.0,
+          "Y": 31224.0,
+          "Z": 6400.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.RenzoTheDestroyer": {
+        "WorldLocation": {
+          "X": 58864.0,
+          "Y": 31224.0,
+          "Z": 6400.0
+        }
+      },
       "AISpawnerData.Type.Tandem.Dahlia": {
         "WorldLocation": {
           "X": 104499.59,
@@ -718,146 +767,6 @@
           "X": 104499.59,
           "Y": 13426.065,
           "Z": 3981.8557
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner": {
-        "WorldLocation": {
-          "X": -102359.53,
-          "Y": -19342.55,
-          "Z": -1.0224379
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_0": {
-        "WorldLocation": {
-          "X": -25764.51,
-          "Y": -111706.914,
-          "Z": 11.999984
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_1": {
-        "WorldLocation": {
-          "X": -84775.0,
-          "Y": -5603.0,
-          "Z": 365.0
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_2": {
-        "WorldLocation": {
-          "X": -26330.896,
-          "Y": -87741.984,
-          "Z": 2689.6401
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_3": {
-        "WorldLocation": {
-          "X": -44830.754,
-          "Y": -34019.68,
-          "Z": 1146.8584
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_4": {
-        "WorldLocation": {
-          "X": -5340.235,
-          "Y": -41490.36,
-          "Z": 3071.8555
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_5": {
-        "WorldLocation": {
-          "X": 44385.027,
-          "Y": -73621.51,
-          "Z": 5369.4365
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_6": {
-        "WorldLocation": {
-          "X": 28394.758,
-          "Y": -32538.209,
-          "Z": 1919.219
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_7": {
-        "WorldLocation": {
-          "X": 86823.234,
-          "Y": -88192.5,
-          "Z": 763.3442
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_8": {
-        "WorldLocation": {
-          "X": 98311.2,
-          "Y": -14210.289,
-          "Z": 3043.0283
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_9": {
-        "WorldLocation": {
-          "X": -120826.79,
-          "Y": 37626.445,
-          "Z": 1918.7034
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_10": {
-        "WorldLocation": {
-          "X": -100868.0,
-          "Y": 50463.0,
-          "Z": 3084.0
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_11": {
-        "WorldLocation": {
-          "X": -52737.0,
-          "Y": 38639.0,
-          "Z": 373.0
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_12": {
-        "WorldLocation": {
-          "X": -63981.184,
-          "Y": 94872.78,
-          "Z": 1163.7942
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_13": {
-        "WorldLocation": {
-          "X": -48929.0,
-          "Y": 25088.0,
-          "Z": 764.60175
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_14": {
-        "WorldLocation": {
-          "X": -20487.219,
-          "Y": 14598.152,
-          "Z": 1919.6022
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_15": {
-        "WorldLocation": {
-          "X": -36865.535,
-          "Y": 82689.35,
-          "Z": 2686.6785
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_16": {
-        "WorldLocation": {
-          "X": 22068.0,
-          "Y": 64734.0,
-          "Z": 1162.0
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_17": {
-        "WorldLocation": {
-          "X": 63826.617,
-          "Y": 31058.84,
-          "Z": 4615.6646
-        }
-      },
-      "Athena.Bounty.BountyBoardSpawner_18": {
-        "WorldLocation": {
-          "X": 79178.54,
-          "Y": 61947.355,
-          "Z": 1943.2385
         }
       },
       "Athena.Location.Quest.PlotTwist.CP.03": {
@@ -944,6 +853,13 @@
           "Z": 1794.0729
         }
       },
+      "Athena.Quests.S24.Kiosk.P04.Q03.Complete": {
+        "WorldLocation": {
+          "X": 117461.85,
+          "Y": -18556.37,
+          "Z": 67.09555
+        }
+      },
       "Athena.Quests.S24.TargetShot.06": {
         "WorldLocation": {
           "X": -54026.0,
@@ -1000,6 +916,13 @@
           "Z": 1178.0
         }
       },
+      "Athena.Quests.S24.Seismograph.03": {
+        "WorldLocation": {
+          "X": -67810.92,
+          "Y": -23134.31,
+          "Z": 1201.766
+        }
+      },
       "Athena.Quests.S24.SensorPack.Pickup": {
         "WorldLocation": {
           "X": -54073.977,
@@ -1012,6 +935,13 @@
           "X": -29542.982,
           "Y": -78470.016,
           "Z": 3090.5137
+        }
+      },
+      "Athena.Quests.S24.FearlessFlight.P04": {
+        "WorldLocation": {
+          "X": -26341.943,
+          "Y": -87757.164,
+          "Z": 2731.9
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W02.06": {
@@ -1056,6 +986,13 @@
           "Z": 3712.291
         }
       },
+      "Athena.Quests.S24.FearlessFlight.P05": {
+        "WorldLocation": {
+          "X": -12546.386,
+          "Y": -87055.97,
+          "Z": 1252.3678
+        }
+      },
       "Athena.Quests.ItemCollect.LevelUpPack.W02.02": {
         "WorldLocation": {
           "X": -19847.47,
@@ -1068,6 +1005,13 @@
           "X": -20250.658,
           "Y": -63605.41,
           "Z": 2370.538
+        }
+      },
+      "Athena.Quests.S24.Seismograph.02": {
+        "WorldLocation": {
+          "X": -4094.8494,
+          "Y": -64071.117,
+          "Z": 2070.1218
         }
       },
       "Athena.Quests.S24.Kiosk.P01.Q01.Complete_1": {
@@ -1112,6 +1056,13 @@
           "Z": 3328.59
         }
       },
+      "Athena.Quests.S24.Kiosk.P04.Q03.Complete_0": {
+        "WorldLocation": {
+          "X": 66048.92,
+          "Y": -104256.11,
+          "Z": 1624.0308
+        }
+      },
       "Asteria.Quest.TitanTarget.03": {
         "WorldLocation": {
           "X": 37515.754,
@@ -1119,53 +1070,39 @@
           "Z": 5246.0703
         }
       },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.07": {
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.02": {
         "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.05": {
-        "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.06": {
-        "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
+          "X": 49500.242,
+          "Y": -80869.54,
+          "Z": 4832.1484
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W04.03": {
         "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.01": {
-        "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
-        }
-      },
-      "Athena.Quests.ItemCollect.LevelUpPack.W04.02": {
-        "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
+          "X": 32712.242,
+          "Y": -74109.54,
+          "Z": 4708.1484
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W04.04": {
         "WorldLocation": {
-          "X": 32776.242,
-          "Y": -73417.54,
-          "Z": 4232.1484
+          "X": 37884.242,
+          "Y": -71577.54,
+          "Z": 4776.1484
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.07": {
+        "WorldLocation": {
+          "X": 46074.63,
+          "Y": -61741.26,
+          "Z": 4056.1482
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.05": {
+        "WorldLocation": {
+          "X": 46180.242,
+          "Y": -61541.54,
+          "Z": 4084.1482
         }
       },
       "Athena.Quests.S24.DataReceiver.Placed.02": {
@@ -1189,11 +1126,32 @@
           "Z": 2402.125
         }
       },
+      "Athena.Quests.S24.SecurityBeacon.01": {
+        "WorldLocation": {
+          "X": 33398.324,
+          "Y": -27378.775,
+          "Z": 3059.4417
+        }
+      },
       "Asteria.Quest.TitanTarget.06": {
         "WorldLocation": {
           "X": 34823.004,
           "Y": -30263.658,
           "Z": 3679.9106
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.01": {
+        "WorldLocation": {
+          "X": 55964.242,
+          "Y": -85893.54,
+          "Z": 2780.1482
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.06": {
+        "WorldLocation": {
+          "X": 51460.242,
+          "Y": -58889.54,
+          "Z": 3560.1482
         }
       },
       "Asteria.Quest.TitanTarget.07": {
@@ -1208,6 +1166,13 @@
           "X": 88913.49,
           "Y": -85164.92,
           "Z": 856.5776
+        }
+      },
+      "Athena.Quests.S24.FearlessFlight.P06": {
+        "WorldLocation": {
+          "X": 77039.66,
+          "Y": -11780.325,
+          "Z": 3600.4653
         }
       },
       "Asteria.Quest.TitanTarget.02": {
@@ -1245,11 +1210,25 @@
           "Z": 1844.0
         }
       },
+      "Athena.Quests.S24.DisguiseDon": {
+        "WorldLocation": {
+          "X": -104615.82,
+          "Y": 43178.824,
+          "Z": 1933.3339
+        }
+      },
       "Athena.Quests.S24.ChickenSign.08": {
         "WorldLocation": {
           "X": -103264.0,
           "Y": 41038.0,
           "Z": 1770.0
+        }
+      },
+      "Athena.Quests.S24.Kiosk.P04.Q01.Complete": {
+        "WorldLocation": {
+          "X": -104108.305,
+          "Y": 55125.76,
+          "Z": 3547.9314
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W03.01": {
@@ -1301,11 +1280,32 @@
           "Z": 1720.0
         }
       },
+      "Athena.Quests.S24.SecurityBeacon.03": {
+        "WorldLocation": {
+          "X": -78939.44,
+          "Y": 29509.842,
+          "Z": 94.57104
+        }
+      },
+      "Athena.Quests.S24.FearlessFlight.P02": {
+        "WorldLocation": {
+          "X": -55135.016,
+          "Y": 24323.81,
+          "Z": 90.68229
+        }
+      },
       "Athena.Quest.S24.WantedPoster.02": {
         "WorldLocation": {
           "X": -54267.52,
           "Y": 23290.389,
           "Z": 882.62177
+        }
+      },
+      "Athena.Quests.S24.FearlessFlight.P03": {
+        "WorldLocation": {
+          "X": -53249.535,
+          "Y": 38653.152,
+          "Z": 495.59302
         }
       },
       "Athena.Quests.S24.Kiosk.P02.Q01.Complete": {
@@ -1336,6 +1336,20 @@
           "Z": 1916.6406
         }
       },
+      "Athena.Quests.S24.Kiosk.P04.Q01.Complete_0": {
+        "WorldLocation": {
+          "X": -12629.091,
+          "Y": 24233.89,
+          "Z": 1999.6072
+        }
+      },
+      "Athena.Quests.S24.Seismograph.01": {
+        "WorldLocation": {
+          "X": -8929.711,
+          "Y": 50837.496,
+          "Z": 1574.3246
+        }
+      },
       "Athena.Quests.S24.DataReceiver.Placed.01": {
         "WorldLocation": {
           "X": -48258.91,
@@ -1355,6 +1369,20 @@
           "X": 3752.8157,
           "Y": 14505.663,
           "Z": 1621.784
+        }
+      },
+      "Athena.Quests.S24.SecurityBeacon.02": {
+        "WorldLocation": {
+          "X": 3058.5596,
+          "Y": 34374.54,
+          "Z": 2685.4573
+        }
+      },
+      "Athena.Quests.S24.DisguiseDon_0": {
+        "WorldLocation": {
+          "X": 31918.746,
+          "Y": 18802.094,
+          "Z": 3457.122
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W01.01": {
@@ -1385,11 +1413,25 @@
           "Z": 1814.7698
         }
       },
+      "Athena.Quests.S24.FearlessFlight.P00": {
+        "WorldLocation": {
+          "X": 20213.04,
+          "Y": 62554.82,
+          "Z": 520.8095
+        }
+      },
       "Athena.Quests.ItemCollect.LevelUpPack.W01.07": {
         "WorldLocation": {
           "X": 17926.719,
           "Y": 65548.83,
           "Z": 939.70306
+        }
+      },
+      "Athena.Quests.S24.FearlessFlight.P01": {
+        "WorldLocation": {
+          "X": 16385.281,
+          "Y": 64266.29,
+          "Z": 511.14334
         }
       },
       "Athena.Quests.ItemCollect.LevelUpPack.W01.03": {
