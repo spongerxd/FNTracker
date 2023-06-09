@@ -5,7 +5,7 @@
 
 <h4 align="center">Здесь вы можете найти: AES Ключи, конфиги и изображения карт из Fortnite.</h4>
 
-<h6 align="center">Версия обновления игры и FNResources: 24.40</h4>
+<h6 align="center">Версия обновления игры и FNResources: 25.00</h4>
 
 ## Спасибо
 

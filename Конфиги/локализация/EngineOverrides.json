@@ -485,8 +485,8 @@
   },
   "MessageDialog": {
     "UpdateMacOSX_Body": "Обновите macOS до последней версии для наилучшей производительности и стабильности.",
-    "VideoCardDriverRHIIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите последнюю или рекомендуемую версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
-    "VideoCardDriverIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем.\nУстановите последнюю или рекомендуемую версию драйвера.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
+    "VideoCardDriverRHIIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите последнюю версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nТребуется как минимум: {RecommendedVer}",
+    "VideoCardDriverIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем.\nУстановите последнюю версию драйвера.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nТребуется как минимум: {RecommendedVer}",
     "LatestVideoCardDriverRHIIssueReport": "В последней версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите рекомендуемую версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
     "LatestVideoCardDriverIssueReport": "В последней версии драйвера {Vendor} замечен ряд проблем.\nУстановите рекомендуемую версию драйвера.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
     "UpdateMacOSX_Title": "Обновить macOS",
@@ -495,32 +495,11 @@
     "DriverDownloadLinkAMD": "https://www.amd.com/ru/support",
     "DriverDownloadLinkNVIDIA": "https://www.nvidia.com/ru-ru/geforce/drivers/"
   },
-  "OnlineFriend": {
-    "AlreadyFriends": "Приглашение другу уже отправлено.",
-    "IncorrectAliasInput": "Некорректное имя. Длина от 3 до 16 символов: буквы, цифры, пробелы, дефисы, символы подчёркивания, точки или эмодзи.",
-    "MissingBlockList": "Не удалось найти сохранённый чёрный список. Обратитесь к чёрному списку.",
-    "MissingFriend": "Не удалось найти сохранённые данные о друге. Обратитесь к списку друзей.",
-    "ToxicAlias": "Введённое вами имя друга содержит запрещённые слова.",
-    "InvalidOtherUser": "Другой пользователь недействителен.",
-    "OtherUserIsSelf": "Другой пользователь является локальным пользователем.",
-    "NoFriendsList": "Не удалось найти списки друзей.",
-    "NotSuggestedFriend": "Нам не удалось найти и скрыть рекомендацию."
-  },
-  "OnlineIdentity": {
-    "AlreadyPendingClientAuth": "Запрос на авторизацию уже отправлен",
-    "AlreadyPendingUserAuth": "Запрос на авторизацию уже отправлен",
-    "AlreadyPendingUserInfo": "Информация уже запрошена",
-    "AlreadyPendingMetaData": "Метаданные уже запрошены",
-    "AlreadyPendingUserPrivilege": "Запрос на проверку прав доступа уже отправлен"
-  },
   "OnlinePresence": {
     "Away": "Нет на месте",
     "Chat": "Чат",
     "DoNotDisturb": "НЕ БЕСПОКОИТЬ",
     "ExtendedAway": "ДОЛГО ОТСУТСТВУЕТ",
-    "MissingNudgedSubscriptions": "Не удалось найти сохранённые данные об изменениях подписки. Обратитесь к списку изменений подписок.",
-    "MissingSubscriptions": "Не удалось найти сохранённые данные о подписке. Обратитесь к списку подписок.",
-    "MissingSubscriptionsSettings": "Не удалось найти сохранённый параметр подписки. Обратитесь к списку параметров подписок.",
     "Offline": "Не в сети",
     "Online": "В сети"
   },
@@ -641,13 +620,11 @@
   "WindowsDynamicRHI": {
     "RHIOptionsError": "Параметры -d3d12/dx12, -d3d11/dx11, -vulkan и -opengl несовместимы друг с другом, при этом в командной строке указано более одного параметра.",
     "RequiredDX11Feature_11_SM5": "Для работы движка игры требуется графический процессор с поддержкой D3D11 (уровень функций 11.0, шейдерная модель 5.0).",
-    "RHIPerformanceDX12": "DirectX 12 не поддерживается режимом «производительность».",
     "RequiredDX12": "Ваша система не поддерживает DirectX 12. Попробуйте запустить игру без параметров -dx12 или -d3d12 в командной строке.",
     "RequiredDX12SM6": "DirectX 12 с уровнем функций SM6 не поддерживается вашей системой. Попробуйте запустить игру без параметра -sm6 в командной строке.",
     "RequiredOpenGL": "Для работы движка игры требуется OpenGL версии 4.3.",
-    "RHIPerformanceOpenGL": "OpenGL не поддерживается режимом «производительность».",
     "MissingTargetedShaderFormats": "Не удалось запустить RHI «{0}», поскольку проект его не поддерживает.",
     "RequiredVulkan": "Для работы движка игры требуется драйвер Vulkan.",
-    "RHIPerformanceVulkan": "Vulkan не поддерживается режимом «производительность»."
+    "RHINotSupported": "{0} не поддерживает: {1}."
   }
 }
