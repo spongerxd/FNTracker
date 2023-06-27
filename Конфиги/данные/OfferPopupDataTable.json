@@ -447,7 +447,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
         }
       },
       "historianpickaxedesc": {
@@ -1407,7 +1407,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
         }
       },
       "promodesc16": {
@@ -1415,7 +1415,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль для Маркуса!"
+          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль для Маркуса!"
         }
       },
       "promodesc17": {
@@ -2678,24 +2678,32 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "F58234CB47517772C2DEBBB17C15A791",
-          "SourceString": "TBD",
-          "LocalizedString": "TBD"
+          "SourceString": "Unsheath the <text color=\"FFFFFFFF\">ZIREAEL</> Pickaxe from the Back Bling when both are equipped! <text color=\"FFFFFFFF\">CIRI</>'s hands will radiate a green aura when holding <text color=\"FFFFFFFF\">ZIREAEL</>!",
+          "LocalizedString": "Доставайте кирку <text color=\\\"FFFFFFFF\\\">«Зираэль»</> из украшения на спину, как из ножен, если используете оба предмета! Руки <text color=\\\"FFFFFFFF\\\">Цири</> окутывает зелёное свечение, когда она держит <text color=\\\"FFFFFFFF\\\">«Зираэль»</>!"
         }
       },
       "lastvoice": {
         "FormatedText": {
           "Namespace": "",
           "Key": "26D14E9E4069283E246CF38520DCDDD6",
-          "SourceString": "TBD",
-          "LocalizedString": "TBD"
+          "SourceString": "While sprinting or jumping, <text color=\"FFFFFFFF\">AIRIE</> will light up with an iridescent glow!",
+          "LocalizedString": "Во время бега или спринта <text color=\\\"FFFFFFFF\\\">Эйри</> начинает светиться и переливаться!"
         }
       },
       "lastvoicegear": {
         "FormatedText": {
           "Namespace": "",
           "Key": "323CB866424AA4366110C4828802A8BD",
-          "SourceString": "TBD",
+          "SourceString": "Includes a Loading Screen, Emoticon, and Spray!",
           "LocalizedString": "Включает экран загрузки, эмодзи и граффити!"
+        }
+      },
+      "firecracker": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D1A8116C495E771D7BB42EB10380698B",
+          "SourceString": "Earn a Victory Royale and celebrate with the <text color=\"FFFFFFFF\">SHORT FUSE</> emote!",
+          "LocalizedString": "Отпразднуйте королевскую победу, активировав особую встроенную эмоцию <text color=\"FFFFFFFF\">«Перегрев»</>."
         }
       }
     }
