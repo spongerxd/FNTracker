@@ -3,12 +3,12 @@
   <br>
 </h1>
 
-<h4 align="center">Здесь вы можете найти: AES Ключи, конфиги и изображения карт из Fortnite.</h4>
+<h4 align="center">Here you can find: AES Keys, configs, locres and map images from Fortnite.</h4>
 
-<h6 align="center">Версия обновления игры и FNResources: 25.20</h4>
+<h6 align="center">FNResources version: 25.20</h4>
 
 ## Спасибо
 
-- kem0x (AES Ключи)
-- iFireMonkey (Файлы конфигов)
-- fortnitegg (Изображения карт)
+- kem0x & [dippyshere](https://github.com/dippyshere/fortnite-aes-archive) (AES Keys & Design)
+- iFireMonkey (configs and locres)
+- fortnitegg (map images)
