@@ -90,6 +90,27 @@
           "Z": 384.0
         }
       },
+      "Athena.Quests.S25.RumbleRuins.DigSites": {
+        "WorldLocation": {
+          "X": 4343.1104,
+          "Y": -38939.383,
+          "Z": -359.29
+        }
+      },
+      "Athena.Quests.S25.ShadyStilts.DigSites": {
+        "WorldLocation": {
+          "X": 82469.12,
+          "Y": -17891.03,
+          "Z": 381.66122
+        }
+      },
+      "Athena.Quests.S25.SlapNGo.DigSites": {
+        "WorldLocation": {
+          "X": 1491.6711,
+          "Y": 12541.907,
+          "Z": -337.7464
+        }
+      },
       "Athena.Location.UnNamedPOI.KapokCove": {
         "WorldLocation": {
           "X": 43512.0,
@@ -223,6 +244,13 @@
           "Z": 688.0
         }
       },
+      "Athena.Location.UnNamedPOI.LonelyLabyrinth": {
+        "WorldLocation": {
+          "X": 96667.914,
+          "Y": 58578.297,
+          "Z": -1626.2726
+        }
+      },
       "Athena.Location.UnNamedPOI.BambooDuelingRing": {
         "WorldLocation": {
           "X": -20396.0,
@@ -298,6 +326,13 @@
           "X": -21648.0,
           "Y": 93180.0,
           "Z": 1992.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.LonelyLabyrinth_0": {
+        "WorldLocation": {
+          "X": 100668.48,
+          "Y": 58578.293,
+          "Z": -1626.2726
         }
       },
       "Athena.Location.UnNamedPOI.DriftCarTrack": {
@@ -430,7 +465,7 @@
         "WorldLocation": {
           "X": 99616.0,
           "Y": 60924.0,
-          "Z": 2804.0
+          "Z": 2345.3909
         }
       },
       "Athena.Location.UnNamedPOI.SlapStation": {
@@ -678,11 +713,25 @@
           "Z": 1992.0
         }
       },
+      "Athena.Location.UnNamedPOI.LonelyLabyrinth_1": {
+        "WorldLocation": {
+          "X": 96667.92,
+          "Y": 63576.25,
+          "Z": -1626.2726
+        }
+      },
       "Athena.Location.POI.JungleCompound": {
         "WorldLocation": {
           "X": 27096.0,
           "Y": -15528.0,
           "Z": 1964.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.LonelyLabyrinth_2": {
+        "WorldLocation": {
+          "X": 100668.484,
+          "Y": 63575.664,
+          "Z": -1626.2726
         }
       },
       "Athena.Quests.Location.UnderBridge.SteamySprings": {
@@ -699,18 +748,11 @@
           "Z": 256.0
         }
       },
-      "AISpawnerData.Type.Tandem.DoctorSlone": {
+      "Athena.Quests.Location.UnderBridge.WindrushRavine": {
         "WorldLocation": {
-          "X": 280.0,
-          "Y": -37480.0,
-          "Z": -1612.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.DoctorSlone": {
-        "WorldLocation": {
-          "X": 280.0,
-          "Y": -37480.0,
-          "Z": -1612.0
+          "X": -37463.355,
+          "Y": -11465.125,
+          "Z": 973.92
         }
       },
       "Athena.Quests.Location.UnderBridge.BreakwaterBay": {
@@ -727,11 +769,18 @@
           "Z": 1452.0
         }
       },
+      "Athena.Quests.Location.UnderBridge.NeonBayBridge.01": {
+        "WorldLocation": {
+          "X": -101626.28,
+          "Y": 13615.376,
+          "Z": 431.93414
+        }
+      },
       "Athena.Quests.Location.UnderBridge.NeonBayBridge": {
         "WorldLocation": {
-          "X": -101636.0,
-          "Y": 17056.0,
-          "Z": 472.0
+          "X": -101626.28,
+          "Y": 21108.865,
+          "Z": 431.9342
         }
       },
       "Athena.Quests.Location.UnderBridge.NeonBayNorth": {
@@ -759,14 +808,14 @@
         "WorldLocation": {
           "X": -53244.0,
           "Y": 35104.0,
-          "Z": 36.0
+          "Z": 81.48773
         }
       },
       "Athena.Quests.Location.UnderBridge.MegaCity.04": {
         "WorldLocation": {
-          "X": -45316.0,
-          "Y": 34980.0,
-          "Z": 120.0
+          "X": -45479.49,
+          "Y": 35338.664,
+          "Z": 15.931934
         }
       },
       "Athena.Quests.Location.UnderBridge.SlappyShores.02": {
@@ -804,6 +853,34 @@
           "Z": 1031.4661
         }
       },
+      "AISpawnerData.Type.Tandem.Bushranger": {
+        "WorldLocation": {
+          "X": -89628.0,
+          "Y": -63592.0,
+          "Z": 2196.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Bushranger": {
+        "WorldLocation": {
+          "X": -89628.0,
+          "Y": -63592.0,
+          "Z": 2196.0
+        }
+      },
+      "AISpawnerData.Type.Specialist.Supply.Garrison": {
+        "WorldLocation": {
+          "X": -75928.0,
+          "Y": -97124.0,
+          "Z": 2952.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Garrison": {
+        "WorldLocation": {
+          "X": -75928.0,
+          "Y": -97124.0,
+          "Z": 2952.0
+        }
+      },
       "Athena.Quests.S24.GongHit.A02": {
         "WorldLocation": {
           "X": -101319.945,
@@ -816,13 +893,6 @@
           "X": -60928.0,
           "Y": -17408.0,
           "Z": 3072.0
-        }
-      },
-      "Athena.Quests.Location.UnderBridge.WindrushRavine": {
-        "WorldLocation": {
-          "X": -37208.0,
-          "Y": -11328.0,
-          "Z": 1018.0
         }
       },
       "Athena.Quests.Location.UnderBridge.HitchesDitches": {
@@ -858,6 +928,20 @@
           "X": -21512.0,
           "Y": -17192.0,
           "Z": 1736.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.DoctorSlone": {
+        "WorldLocation": {
+          "X": -13862.424,
+          "Y": -4147.516,
+          "Z": 324.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.DoctorSlone": {
+        "WorldLocation": {
+          "X": -13862.424,
+          "Y": -4147.516,
+          "Z": 324.0
         }
       },
       "AISpawnerData.Type.Tandem.Trace": {
@@ -1170,16 +1254,16 @@
       },
       "AISpawnerData.Type.Tandem.Stingray": {
         "WorldLocation": {
-          "X": 97092.0,
-          "Y": 61444.0,
-          "Z": 1436.0
+          "X": 100028.0,
+          "Y": 60984.0,
+          "Z": 356.0
         }
       },
       "Athena.AI.SpawnLocation.Tandem.Stingray": {
         "WorldLocation": {
-          "X": 97092.0,
-          "Y": 61444.0,
-          "Z": 1436.0
+          "X": 100028.0,
+          "Y": 60984.0,
+          "Z": 356.0
         }
       },
       "Athena.Quest.JobBoardSpawner": {
@@ -1532,6 +1616,13 @@
           "Z": 2.668806
         }
       },
+      "Athena.Quests.S25.AudioLogs.SloneSnapshot": {
+        "WorldLocation": {
+          "X": -15286.439,
+          "Y": -3410.3616,
+          "Z": 73.2904
+        }
+      },
       "Athena.Quests.ItemCollect.LevelUpPack.W01.01": {
         "WorldLocation": {
           "X": -7593.263,
@@ -1586,6 +1677,13 @@
           "X": 1536.6387,
           "Y": -777.02277,
           "Z": 746.669
+        }
+      },
+      "Athena.Quests.S25.Place.RefinedOre.01": {
+        "WorldLocation": {
+          "X": 786.2285,
+          "Y": -909.3978,
+          "Z": 2080.1204
         }
       },
       "Athena.Quests.ItemCollect.AloeCrouton.10": {
@@ -1791,6 +1889,27 @@
           "Z": 2316.0
         }
       },
+      "Athena.Quests.S25.UnNamedPOI.EscapeVolume": {
+        "WorldLocation": {
+          "X": 101410.38,
+          "Y": 55642.53,
+          "Z": 250.87866
+        }
+      },
+      "Athena.Quests.S25.UnNamedPOI.EntranceVolume": {
+        "WorldLocation": {
+          "X": 101410.38,
+          "Y": 55642.53,
+          "Z": 250.87866
+        }
+      },
+      "Athena.Quests.S25.UnNamedPOI.EscapeVolume_0": {
+        "WorldLocation": {
+          "X": 96242.36,
+          "Y": 61333.4,
+          "Z": 1500.8994
+        }
+      },
       "Athena.Quests.ItemCollect.AloeCrouton.Pump.03": {
         "WorldLocation": {
           "X": 112272.0,
@@ -1831,6 +1950,41 @@
           "X": 101377.0,
           "Y": -10463.0,
           "Z": 396.0
+        }
+      },
+      "Athena.Quests.BelongTreaty.CursedDoll.02": {
+        "WorldLocation": {
+          "X": 0.16412055,
+          "Y": -35815.09,
+          "Z": -1841.3085
+        }
+      },
+      "Athena.Quests.BelongTreaty.CursedDoll.05": {
+        "WorldLocation": {
+          "X": -15236.437,
+          "Y": -92713.81,
+          "Z": 3471.0557
+        }
+      },
+      "Athena.Quests.BelongTreaty.CursedDoll.01": {
+        "WorldLocation": {
+          "X": 101379.83,
+          "Y": -10229.827,
+          "Z": 1231.2487
+        }
+      },
+      "Athena.Quests.BelongTreaty.CursedDoll.04": {
+        "WorldLocation": {
+          "X": 111625.89,
+          "Y": -22191.06,
+          "Z": 587.4006
+        }
+      },
+      "Athena.Quests.BelongTreaty.CursedDoll.03": {
+        "WorldLocation": {
+          "X": 21547.344,
+          "Y": 61841.215,
+          "Z": 404.4613
         }
       },
       "AISpawnerData.Type.Specialist.Medic.Remedy": {

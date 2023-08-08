@@ -50922,6 +50922,51 @@
         "Feature": false,
         "Selectable": false,
         "Exportable": true
+      },
+      "STWIrwinRaptor_Quest_A01_Hatching_001": {
+        "QuestTemplateId": "Quest:stwirwinraptor_quest_a01_hatching",
+        "TemplateId": "AccountResource:eventcurrency_scaling",
+        "Quantity": 100,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWIrwinRaptor_Quest_A01_Hatching_002": {
+        "QuestTemplateId": "Quest:stwirwinraptor_quest_a01_hatching",
+        "TemplateId": "Quest:stwirwinraptor_quest_a03_riding",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWIrwinRaptor_Quest_A03_Riding_001": {
+        "QuestTemplateId": "Quest:stwirwinraptor_quest_a03_riding",
+        "TemplateId": "Schematic:sid_shotgun_bone_vr_ore_t01",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWIrwinRaptor_Quest_A03_Riding_002": {
+        "QuestTemplateId": "Quest:stwirwinraptor_quest_a03_riding",
+        "TemplateId": "Quest:stwirwinraptor_quest_a04_eliminate",
+        "Quantity": 1,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWIrwinRaptor_Quest_A04_Eliminate_001": {
+        "QuestTemplateId": "Quest:stwirwinraptor_quest_a04_eliminate",
+        "TemplateId": "Hero:hid_commando_047_prickly_patroller_sr_t01",
+        "Quantity": 1,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
       }
     }
   }
