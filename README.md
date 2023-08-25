@@ -5,7 +5,7 @@
 
 <h4 align="center">Here you can find: AES Keys, configs, locres and map images from Fortnite.</h4>
 
-<h6 align="center">FNResources version: 25.30</h4>
+<h6 align="center">FNResources version: 26.00</h4>
 
 ## Credits
 
