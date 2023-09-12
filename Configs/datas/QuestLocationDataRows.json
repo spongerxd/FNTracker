@@ -167,6 +167,13 @@
           "Z": 3401.5007
         }
       },
+      "Athena.Location.UnNamedPOI.LaserTrap.End": {
+        "WorldLocation": {
+          "X": 53748.0,
+          "Y": -75060.0,
+          "Z": 3208.0
+        }
+      },
       "Athena.Location.UnNamedPOI.FrozenWaterfall": {
         "WorldLocation": {
           "X": 49416.0,
@@ -230,7 +237,7 @@
           "Z": 3496.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.End": {
+      "Athena.Location.UnNamedPOI.LaserTrap.End_0": {
         "WorldLocation": {
           "X": 49320.0,
           "Y": -76800.0,
@@ -244,7 +251,7 @@
           "Z": 688.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.End_0": {
+      "Athena.Location.UnNamedPOI.LaserTrap.End_1": {
         "WorldLocation": {
           "X": 81252.0,
           "Y": 69628.0,
@@ -293,6 +300,13 @@
           "Z": -192.0
         }
       },
+      "Athena.Location.UnNamedPOI.LaserTrap.Start": {
+        "WorldLocation": {
+          "X": 53760.0,
+          "Y": -74300.0,
+          "Z": 3208.0
+        }
+      },
       "Athena.Location.UnNamedPOI.CliffTheMountain": {
         "WorldLocation": {
           "X": -45460.0,
@@ -328,7 +342,7 @@
           "Z": 1992.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.End_1": {
+      "Athena.Location.UnNamedPOI.LaserTrap.End_2": {
         "WorldLocation": {
           "X": -82932.0,
           "Y": -69996.0,
@@ -370,7 +384,7 @@
           "Z": 0.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.Start": {
+      "Athena.Location.UnNamedPOI.LaserTrap.Start_0": {
         "WorldLocation": {
           "X": 48120.0,
           "Y": -76308.0,
@@ -454,7 +468,7 @@
           "Z": 1992.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.Start_0": {
+      "Athena.Location.UnNamedPOI.LaserTrap.Start_1": {
         "WorldLocation": {
           "X": 82608.0,
           "Y": 69628.0,
@@ -475,7 +489,7 @@
           "Z": -192.0
         }
       },
-      "Athena.Location.UnNamedPOI.LaserTrap.Start_1": {
+      "Athena.Location.UnNamedPOI.LaserTrap.Start_2": {
         "WorldLocation": {
           "X": -82932.0,
           "Y": -68992.0,
@@ -832,6 +846,13 @@
           "Z": 8.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake": {
+        "WorldLocation": {
+          "X": -77623.0,
+          "Y": -68718.0,
+          "Z": 75.707054
+        }
+      },
       "Athena.Quests.Env.Campfire_1": {
         "WorldLocation": {
           "X": -66480.0,
@@ -881,6 +902,13 @@
           "Z": 28.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_0": {
+        "WorldLocation": {
+          "X": -83696.0,
+          "Y": -5326.0,
+          "Z": 447.53955
+        }
+      },
       "Athena.Quests.Location.UnderBridge.SteamySprings": {
         "WorldLocation": {
           "X": -69404.0,
@@ -900,6 +928,20 @@
           "X": -49388.0,
           "Y": -102120.0,
           "Z": 12.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.HeistBase": {
+        "WorldLocation": {
+          "X": -480.0,
+          "Y": -41732.0,
+          "Z": -1044.0
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_1": {
+        "WorldLocation": {
+          "X": -1.0,
+          "Y": -32257.0,
+          "Z": -2223.5708
         }
       },
       "Athena.Quests.Props.IO": {
@@ -944,11 +986,32 @@
           "Z": -768.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_2": {
+        "WorldLocation": {
+          "X": 25147.0,
+          "Y": -19334.0,
+          "Z": -680.0
+        }
+      },
       "Athena.Quests.ShippingContainer_1": {
         "WorldLocation": {
           "X": 21476.664,
           "Y": -8548.884,
           "Z": -861.233
+        }
+      },
+      "AISpawnerData.Type.Tandem.Fishstick": {
+        "WorldLocation": {
+          "X": 26584.0,
+          "Y": -39272.0,
+          "Z": -168.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Fishstick": {
+        "WorldLocation": {
+          "X": 26584.0,
+          "Y": -39272.0,
+          "Z": -168.0
         }
       },
       "Athena.Quests.Location.UnderBridge.BreakwaterBay": {
@@ -1697,7 +1760,7 @@
         "WorldLocation": {
           "X": -57848.14,
           "Y": -51911.3,
-          "Z": 1232.8448
+          "Z": 1213.8448
         }
       },
       "Athena.Quests.Building.Wood.Fences_56": {
@@ -3636,7 +3699,7 @@
         "WorldLocation": {
           "X": -60875.145,
           "Y": -33536.0,
-          "Z": 1152.0
+          "Z": 1144.0
         }
       },
       "Athena.Quests.Building.Wood.Fences_322": {
@@ -3650,7 +3713,7 @@
         "WorldLocation": {
           "X": -57758.652,
           "Y": -33649.727,
-          "Z": 1158.5173
+          "Z": 1153.5173
         }
       },
       "Athena.Quests.Building.Wood.Fences_324": {
@@ -3825,7 +3888,7 @@
         "WorldLocation": {
           "X": -61416.168,
           "Y": -33536.0,
-          "Z": 1152.0
+          "Z": 1143.0
         }
       },
       "Athena.Quests.Building.Wood.Palettes_25": {
@@ -3867,7 +3930,7 @@
         "WorldLocation": {
           "X": -61982.004,
           "Y": -33536.0,
-          "Z": 1152.0
+          "Z": 1144.0
         }
       },
       "Athena.Quests.Building.Wood.Fences_351": {
@@ -3888,7 +3951,7 @@
         "WorldLocation": {
           "X": -58302.652,
           "Y": -33585.727,
-          "Z": 1158.5173
+          "Z": 1153.5173
         }
       },
       "Athena.Quests.Building.Wood.Fences_354": {
@@ -4064,6 +4127,13 @@
           "X": -56831.016,
           "Y": -34694.758,
           "Z": 1138.5173
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_3": {
+        "WorldLocation": {
+          "X": -59943.0,
+          "Y": -31920.0,
+          "Z": 1239.0791
         }
       },
       "Athena.Quests.Building.Wood.Fences_377": {
@@ -4962,6 +5032,13 @@
           "Z": 784.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_4": {
+        "WorldLocation": {
+          "X": -5165.0,
+          "Y": -81211.0,
+          "Z": 1980.276
+        }
+      },
       "Athena.Quests.Building.Wood.Fences_488": {
         "WorldLocation": {
           "X": -23118.096,
@@ -5265,8 +5342,8 @@
       },
       "Athena.Quests.Building.Wood.Palettes_32": {
         "WorldLocation": {
-          "X": -50289.89,
-          "Y": -37587.7,
+          "X": -50317.89,
+          "Y": -37571.7,
           "Z": 1131.492
         }
       },
@@ -6964,6 +7041,13 @@
           "Z": 2688.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_5": {
+        "WorldLocation": {
+          "X": 57088.0,
+          "Y": -79360.0,
+          "Z": 4673.6313
+        }
+      },
       "Athena.Quests.Building.Wood.Fences_721": {
         "WorldLocation": {
           "X": 66513.74,
@@ -7417,6 +7501,13 @@
           "X": 83855.63,
           "Y": -98809.05,
           "Z": 816.46344
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_6": {
+        "WorldLocation": {
+          "X": 88594.27,
+          "Y": -91349.4,
+          "Z": 850.10583
         }
       },
       "Athena.Quests.Building.Wood.Fences_779": {
@@ -8588,6 +8679,13 @@
           "Z": 428.9096
         }
       },
+      "Athena.Location.Meta.BirthdayCake_7": {
+        "WorldLocation": {
+          "X": 88314.0,
+          "Y": -24744.0,
+          "Z": 3520.0
+        }
+      },
       "Athena.Quests.Building.Wood.Fences_934": {
         "WorldLocation": {
           "X": 81302.0,
@@ -8917,6 +9015,13 @@
           "Z": 1256.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_8": {
+        "WorldLocation": {
+          "X": -106179.0,
+          "Y": 37935.0,
+          "Z": 2006.5
+        }
+      },
       "Athena.Quests.Building.Wood.Fences_970": {
         "WorldLocation": {
           "X": -104700.33,
@@ -9034,6 +9139,20 @@
           "X": -102819.0,
           "Y": 51938.0,
           "Z": 3083.7925
+        }
+      },
+      "AISpawnerData.Type.Tandem.Silencer": {
+        "WorldLocation": {
+          "X": -104416.07,
+          "Y": 52591.453,
+          "Z": 3733.017
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Silencer": {
+        "WorldLocation": {
+          "X": -104416.07,
+          "Y": 52591.453,
+          "Z": 3733.017
         }
       },
       "Athena.Quests.Building.Wood.Fences_985": {
@@ -9279,6 +9398,13 @@
           "X": -64283.348,
           "Y": 50879.395,
           "Z": 1239.6786
+        }
+      },
+      "Athena.Location.UnNamedPOI.HeistBase_0": {
+        "WorldLocation": {
+          "X": -50160.0,
+          "Y": 30480.0,
+          "Z": 492.0
         }
       },
       "Athena.Quests.S24.GongHit.A09": {
@@ -9792,6 +9918,13 @@
           "Z": 1148.0
         }
       },
+      "Athena.Location.Meta.BirthdayCake_9": {
+        "WorldLocation": {
+          "X": -63456.0,
+          "Y": 96520.0,
+          "Z": 1223.5
+        }
+      },
       "Athena.Quests.Building.Wood.Fences_1085": {
         "WorldLocation": {
           "X": -66478.4,
@@ -9923,6 +10056,13 @@
           "X": -60493.31,
           "Y": 97159.11,
           "Z": 927.93005
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_10": {
+        "WorldLocation": {
+          "X": -46720.0,
+          "Y": 21504.0,
+          "Z": 857.5496
         }
       },
       "Athena.Quests.Building.Wood.Fences_1104": {
@@ -11332,11 +11472,25 @@
           "Z": 1848.0
         }
       },
+      "Athena.Location.UnNamedPOI.HeistBase_1": {
+        "WorldLocation": {
+          "X": 9092.0,
+          "Y": 62084.0,
+          "Z": 1236.0
+        }
+      },
       "Athena.Quests.ShippingContainer_33": {
         "WorldLocation": {
           "X": 11226.904,
           "Y": 68439.05,
           "Z": 1160.0
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_11": {
+        "WorldLocation": {
+          "X": 23462.0,
+          "Y": 64298.0,
+          "Z": 1250.0
         }
       },
       "Athena.Quests.Building.TelephonePoles_8": {
@@ -11500,6 +11654,13 @@
           "Z": 8.716685
         }
       },
+      "Athena.Location.Meta.BirthdayCake_12": {
+        "WorldLocation": {
+          "X": 65536.0,
+          "Y": 30208.0,
+          "Z": 5080.0
+        }
+      },
       "AISpawnerData.Type.Specialist.Supply.RoyaleBomber": {
         "WorldLocation": {
           "X": 66288.0,
@@ -11537,9 +11698,9 @@
       },
       "Athena.Quests.Building.Wood.Fences_1248": {
         "WorldLocation": {
-          "X": 73569.695,
-          "Y": 69628.12,
-          "Z": 495.67206
+          "X": 73569.63,
+          "Y": 69628.43,
+          "Z": 489.84674
         }
       },
       "Athena.Quests.Building.Wood.Fences_1249": {
@@ -11551,9 +11712,16 @@
       },
       "Athena.Quests.Building.Wood.Fences_1250": {
         "WorldLocation": {
-          "X": 73773.63,
-          "Y": 69128.25,
-          "Z": 465.85922
+          "X": 73774.88,
+          "Y": 69124.125,
+          "Z": 463.20273
+        }
+      },
+      "Abilities.Generic.Athena.ZipLine.ZiplineSmashImmune": {
+        "WorldLocation": {
+          "X": 74752.0,
+          "Y": 72448.0,
+          "Z": 1536.0
         }
       },
       "Athena.Quests.Building.Wood.Fences_1251": {
@@ -11722,6 +11890,13 @@
           "X": 88077.79,
           "Y": 74231.23,
           "Z": 1110.4546
+        }
+      },
+      "Athena.Location.Meta.BirthdayCake_13": {
+        "WorldLocation": {
+          "X": 79104.0,
+          "Y": 65536.0,
+          "Z": 867.961
         }
       },
       "Athena.Quests.Building.Wood.Fences_1265": {
@@ -12179,6 +12354,13 @@
           "Z": 19.0
         }
       },
+      "Athena.Quests.LockingDisplayCase": {
+        "WorldLocation": {
+          "X": -83456.0,
+          "Y": -71744.0,
+          "Z": -768.0
+        }
+      },
       "Athena.Quests.Building.Vault.Door_0": {
         "WorldLocation": {
           "X": -82944.0,
@@ -12191,6 +12373,13 @@
           "X": -82944.0,
           "Y": -65245.0,
           "Z": 19.0
+        }
+      },
+      "Athena.Quests.LockingDisplayCase_0": {
+        "WorldLocation": {
+          "X": -83456.0,
+          "Y": -72128.0,
+          "Z": -768.0
         }
       },
       "Athena.Quests.Building.Vault.Door_1": {
@@ -12291,6 +12480,13 @@
           "Z": 1152.0
         }
       },
+      "Athena.Quests.LockingDisplayCase_1": {
+        "WorldLocation": {
+          "X": 79552.0,
+          "Y": 65984.0,
+          "Z": 8.0
+        }
+      },
       "Athena.Quests.Sentry.Alarm_15": {
         "WorldLocation": {
           "X": 88192.0,
@@ -12317,6 +12513,13 @@
           "X": 85704.0,
           "Y": 68608.0,
           "Z": 392.0
+        }
+      },
+      "Athena.Quests.LockingDisplayCase_2": {
+        "WorldLocation": {
+          "X": 79168.0,
+          "Y": 65984.0,
+          "Z": 8.0
         }
       },
       "Athena.Quests.Sentry.Alarm_17": {
@@ -12424,6 +12627,27 @@
           "Z": 4768.0
         }
       },
+      "Athena.Quests.LockingDisplayCase_3": {
+        "WorldLocation": {
+          "X": 57856.0,
+          "Y": -78464.0,
+          "Z": 2700.0
+        }
+      },
+      "Athena.Quests.LockingDisplayCase_4": {
+        "WorldLocation": {
+          "X": 58112.0,
+          "Y": -78848.0,
+          "Z": 2700.0
+        }
+      },
+      "Athena.Quests.LockingDisplayCase_5": {
+        "WorldLocation": {
+          "X": 57856.0,
+          "Y": -79232.0,
+          "Z": 2700.0
+        }
+      },
       "Athena.Quests.Sentry.Alarm_26": {
         "WorldLocation": {
           "X": 53440.0,
@@ -12459,6 +12683,13 @@
           "Z": -754.0
         }
       },
+      "Athena.Quests.S26.BPCharacter.Ring": {
+        "WorldLocation": {
+          "X": -252.63857,
+          "Y": -47208.785,
+          "Z": -1906.6959
+        }
+      },
       "Athena.Quests.S26.VaultScanner_0": {
         "WorldLocation": {
           "X": 57856.0,
@@ -12466,11 +12697,60 @@
           "Z": 2702.0012
         }
       },
+      "Athena.Quests.S26.PizzaDropoff": {
+        "WorldLocation": {
+          "X": -51381.367,
+          "Y": 20479.363,
+          "Z": 6920.0
+        }
+      },
+      "Athena.Quests.S26.CarParts.03": {
+        "WorldLocation": {
+          "X": -61884.12,
+          "Y": 22228.652,
+          "Z": 384.00006
+        }
+      },
+      "Athena.Quests.S26.CarParts.02": {
+        "WorldLocation": {
+          "X": -82182.0,
+          "Y": 60064.0,
+          "Z": 1929.1251
+        }
+      },
+      "Athena.Quests.S26.CarParts.01": {
+        "WorldLocation": {
+          "X": 6157.966,
+          "Y": 13118.014,
+          "Z": 1161.1251
+        }
+      },
+      "Athena.Quests.S26.PizzaPickup": {
+        "WorldLocation": {
+          "X": 24168.816,
+          "Y": 59116.91,
+          "Z": 1272.0
+        }
+      },
+      "Athena.Quests.S26.CarParts.05": {
+        "WorldLocation": {
+          "X": 27237.627,
+          "Y": 58164.203,
+          "Z": 1160.0001
+        }
+      },
       "Athena.Quests.S26.VaultScanner_1": {
         "WorldLocation": {
           "X": 79360.0,
           "Y": 65792.0,
           "Z": 15.894539
+        }
+      },
+      "Athena.Quests.S26.CarParts.04": {
+        "WorldLocation": {
+          "X": 111564.12,
+          "Y": 6833.76,
+          "Z": 4234.561
         }
       },
       "Athena.Quests.Building.Wood.Fences_1295": {
