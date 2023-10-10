@@ -3,8 +3,12 @@
     "AllChatChannelKey": "Все"
   },
   "AssetTypeActions": {
+    "DataTable_MissingRowStructListEntry": "* {0} (Структура строки: {1})",
+    "FCommonAssetTypeActions_GenericInputActionDataTable": "InputActionDataTable (обычный интерфейс)",
+    "DataTable_MissingRowStructTitle": "Продолжить?",
     "AssetTypeActions_ConversationDatabase": "Хранилище диалогов",
     "NamelessConversationDiff": "Различия диалога",
+    "DataTable_MissingRowStructMsg": "В следующих таблицах данных отсутствует структура строки, также они недоступны для редактирования.\n\n{0}\n\nОткрыть эти таблицы данных?",
     "Conversation Diff": "{0} - различия диалога"
   },
   "BlueprintEditor": {
@@ -46,6 +50,13 @@
     "EBuildPatchProgress_Queued": "В очереди",
     "EBuildPatchProgress_Resuming": "Возобновление",
     "EBuildPatchProgress_BuildVerification": "Проверка"
+  },
+  "CommonDateTimeTextBlock": {
+    "DaysFormatText": "{Days} {Days}|plural(one=день,few=дня,many=дней,other=дня)",
+    "HoursFormatText": "{Hours} {Hours}|plural(one=час,few=часа,many=часов,other=часа)"
+  },
+  "CommonUI": {
+    "WidgetPaletteCategory": "Обычный плагин интерфейса"
   },
   "ConversationEditor": {
     "AutoArrange": "Автоупорядочивание",
@@ -470,6 +481,9 @@
     "NoVulkanNoGL": "Для работы движка игры требуется Vulkan или OpenGL версии 4.3.",
     "OpenGLRemoved": "Внимание: OpenGL больше не поддерживается на компьютерах. Вместо него будет использоваться Vulkan."
   },
+  "LoadGuard": {
+    "Loading": "Загрузка…"
+  },
   "MessageDialog": {
     "UpdateMacOSX_Body": "Обновите macOS до последней версии для наилучшей производительности и стабильности.",
     "VideoCardDriverRHIIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите последнюю версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nТребуется как минимум: {RecommendedVer}",
@@ -544,6 +558,9 @@
   },
   "SocialUser": {
     "UserStatus_Blocked": "Заблокировано"
+  },
+  "UIActionRouter": {
+    "HoldActionNameFormat": "{0} (зажать)"
   },
   "UICommands.ConversationEditorCommands": {
     "BackInto": "Назад: внутри",
