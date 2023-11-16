@@ -358,8 +358,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "FBF462BC4B6D48618B4CF2A8DB903C04",
-          "SourceString": "Attend the Afterlife Party on October 31 or November 1, and unlock the exclusive J Balvin style for Party Trooper!",
-          "LocalizedString": "Посетите концерт на «Кошмарной вечеринке» 31 октября или 1 ноября, чтобы разблокировать эксклюзивный стиль «Джей Бальвин» для экипировки Солдата танцпола!"
+          "SourceString": "On eliminations, the reactive <text color=\"FFFFFFFF\">FIGHT OR FLIGHT</> style will turn red.",
+          "LocalizedString": "Когда вы совершаете устранения, стиль <text color=\"FFFFFFFF\">«Боевой настрой»</> становится красным."
         }
       },
       "unlockjbalvinattend": {
@@ -1350,8 +1350,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "6E60607F47BD7EDF8E6726A055AA6DC8",
-          "SourceString": "FNCS Grand Royale Exclusive!",
-          "LocalizedString": "Эксклюзив о королевской суперигре мини-чемпионата по Fortnite!"
+          "SourceString": "On eliminations, <text color=\"FFFFFFFF\">BLACK ADAM'S</> suit turns gold, and the <text color=\"FFFFFFFF\">SYMBOL OF SHIRUTA</> Back Bling glows with lightning!",
+          "LocalizedString": "Когда вы совершаете устранения, костюм <text color=\"FFFFFFFF\">Чёрного Адама</> становится золотым, а украшение на спину <text color=\"FFFFFFFF\">«Символ Шируты»</> начинает светиться!"
         }
       },
       "pickaxeincluded": {
@@ -2030,8 +2030,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "54E63B2147EDADEFE9D074BE9560539E",
-          "SourceString": "<text color=\"FFFFFFFF\">BELLOW OF THE DEAD</> lights up when hitting weak points!",
-          "LocalizedString": "<text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попадании по слабым местам!"
+          "SourceString": "<text color=\"FFFFFFFF\">BALEFUL BELLOW</> lights up when hitting weak points!",
+          "LocalizedString": "Кирка <text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попаданиях по слабым местам!"
         }
       },
       "defectbundledesc": {
@@ -2247,7 +2247,7 @@
           "Namespace": "",
           "Key": "7C0CE3954FF7EC6AE055D7A02FD4E695",
           "SourceString": "TBD",
-          "LocalizedString": "TBD"
+          "LocalizedString": "Меняйте стили с помощью встроенной эмоции <text color=\\\"FFFFFFFF\\\">«Перевоплощение Олмайта»</>!"
         }
       },
       "promodesc79": {
@@ -2976,6 +2976,46 @@
           "Key": "4388B39F492832F2E324E4A15C7CBA8A",
           "SourceString": "Includes four selectable styles and all are reactive to eliminations!",
           "LocalizedString": "Включает четыре стиля, каждый из которых реагирует на устранения!"
+        }
+      },
+      "twocapes": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7EF2AA05443FECAB09FD7A96540DEA5B",
+          "SourceString": "Outfit includes both a Built-In Cape and a Universal Cape! Reactive Back Bling!",
+          "LocalizedString": "Экипировка включает встроенный и универсальный плащи! Украшение на спину меняет внешний вид!"
+        }
+      },
+      "instantgravelnoblebundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E5AF134B4BB96D39C2130F89CA08C4CD",
+          "SourceString": "Outfits are reactive to velocity! Unsheathe the <text color=\"FFFFFFFF\">POLE POSITIONER</> Pickaxe from the Back Bling when both are equipped!",
+          "LocalizedString": "Экипировки реагируют на скорость! Доставайте кирку <text color=\"FFFFFFFF\">«Гоночный клинок»</> из украшения на спину, как из ножен, если используете оба предмета!"
+        }
+      },
+      "backblingvictory": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0A8FA70642DF26C314B17399F7C7849D",
+          "SourceString": "Back Bling reactive to Victory Royale!",
+          "LocalizedString": "Украшение на спину реагирует на королевскую победу!"
+        }
+      },
+      "instantgravelnoble": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AECF1C984BC444C2EAD22BBF92FA735F",
+          "SourceString": "While sprinting or gliding, <text color=\"FFFFFFFF\">LAUNCH DAY LEWIS HAMILTON</> will discharge colorful trails of energy! Unsheathe the <text color=\"FFFFFFFF\">POLE POSITIONER</> Pickaxe from the Back Bling when both are equipped!",
+          "LocalizedString": "Во время бега или полёта на дельтаплане <text color=\"FFFFFFFF\">ЗАРЯЖЕННЫЙ ЛЬЮИС ХЭМИЛТОН</> оставляет за собой пёстрый энергетический след! Доставайте кирку <text color=\"FFFFFFFF\">«ГОНОЧНЫЙ КЛИНОК»</> из украшения на спину, как из ножен, если используете оба предмета!"
+        }
+      },
+      "instantgravel": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E469EC08479605093CF7EB960AACE531",
+          "SourceString": "While sprinting or gliding, <text color=\"FFFFFFFF\">LEWIS HAMILTON</> will discharge colorful trails of energy!",
+          "LocalizedString": "Во время бега или полёта на дельтаплане <text color=\"FFFFFFFF\">ЛЬЮИС ХЭМИЛТОН</> оставляет за собой пёстрый энергетический след!"
         }
       }
     }
