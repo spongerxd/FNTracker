@@ -45090,6 +45090,26 @@
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaChugBomb"
       },
+      "WorldList.AthenaSupplyDropConsumables.40": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/KatanaGameplay/Items/Katana/WID_Melee_Katana.WID_Melee_Katana",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.Melee.Katana"
+      },
       "WorldList.AthenaConsumables.01": {
         "LootPackageID": "WorldList.AthenaConsumables",
         "Weight": 0.0,

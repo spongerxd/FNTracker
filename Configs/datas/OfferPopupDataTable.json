@@ -439,7 +439,7 @@
           "Namespace": "",
           "Key": "2C72E6254A90740BA8BC67A8577A0AE8",
           "SourceString": "Kratos has arrived on the island.",
-          "LocalizedString": "Кратос прибыл на остров."
+          "LocalizedString": "Кратос прибыл на остров. Завершите матч на PS5 и получите стиль «Кратос в броне»!"
         }
       },
       "promodesc2": {
@@ -447,7 +447,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
+          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
         }
       },
       "historianpickaxedesc": {
@@ -1407,7 +1407,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров."
+          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
         }
       },
       "promodesc16": {
@@ -1415,7 +1415,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров."
+          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль для Маркуса!"
         }
       },
       "promodesc17": {
@@ -2031,7 +2031,7 @@
           "Namespace": "",
           "Key": "54E63B2147EDADEFE9D074BE9560539E",
           "SourceString": "<text color=\"FFFFFFFF\">BALEFUL BELLOW</> lights up when hitting weak points!",
-          "LocalizedString": "Кирка <text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попаданиях по слабым местам!"
+          "LocalizedString": "<text color=\\\"FFFFFFFF\\\">«Мрачный аккордеон»</> светится при попадании по слабым местам!"
         }
       },
       "defectbundledesc": {
@@ -2247,7 +2247,7 @@
           "Namespace": "",
           "Key": "7C0CE3954FF7EC6AE055D7A02FD4E695",
           "SourceString": "TBD",
-          "LocalizedString": "Меняйте стили с помощью встроенной эмоции <text color=\\\"FFFFFFFF\\\">«Перевоплощение Олмайта»</>!"
+          "LocalizedString": "TBD"
         }
       },
       "promodesc79": {
@@ -3016,6 +3016,30 @@
           "Key": "E469EC08479605093CF7EB960AACE531",
           "SourceString": "While sprinting or gliding, <text color=\"FFFFFFFF\">LEWIS HAMILTON</> will discharge colorful trails of energy!",
           "LocalizedString": "Во время бега или полёта на дельтаплане <text color=\"FFFFFFFF\">ЛЬЮИС ХЭМИЛТОН</> оставляет за собой пёстрый энергетический след!"
+        }
+      },
+      "heavyroarbundle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "4E16C6D64F01BB33A390CEB24AFF08AF",
+          "SourceString": "Switch styles with the built-in <text color=\"FFFFFFFF\">MASK UP</> Transform Emote! <text color=\"FFFFFFFF\">SHADY BOOMBOX</> reactive to music! <text color=\"FFFFFFFF\">SHADY DOUBLE SAW</> reactive when hitting weak points!",
+          "LocalizedString": "Меняйте стили с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Капюшон-маска»</>! <text color=\"FFFFFFFF\">«Кассетник Шейди»</> реагирует на музыку! <text color=\"FFFFFFFF\">«Двойная пила Шейди»</> меняется, когда вы попадаете по слабым местам!"
+        }
+      },
+      "heavyroar": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B207EDB54FB3FC5560AF3780FE35BA67",
+          "SourceString": "Switch styles with the built-in <text color=\"FFFFFFFF\">MASK UP</> Transform Emote! <text color=\"FFFFFFFF\">SHADY BOOMBOX</> reactive to music!",
+          "LocalizedString": "Меняйте стили с помощью встроенной эмоции <text color=\"FFFFFFFF\">«Капюшон-маска»</>! <text color=\"FFFFFFFF\">«Кассетник Шейди»</> реагирует на музыку!"
+        }
+      },
+      "bravebuild": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7E30CB6F48C31A83508557B4B67D87FB",
+          "SourceString": "Attend The Big Bang on December 2nd, and unlock the exclusive <text color=\"FFFFFFFF\">MARSHALL MAGMA</> style for <text color=\"FFFFFFFF\">MARSHALL NEVER MORE</>!",
+          "LocalizedString": "Посетите событие «Большой взрыв» 2 декабря и получите эксклюзивный стиль <text color=\"FFFFFFFF\">«Магма»</> для экипировки <text color=\"FFFFFFFF\">«Уже не Маршалл»</>!"
         }
       }
     }
