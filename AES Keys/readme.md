@@ -8,12 +8,21 @@
 |:-------:|--------------------------------------------------------------------|
 |   1.2   | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
 
-## Chapter 1 Season 1
+## Chapter 1 Season 0
 
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
 |   1.7   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
+|   1.7.1   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
+|   1.7.2   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
+
+## Chapter 1 Season 1
+
+| Version | Key                                                                |
+|:-------:|--------------------------------------------------------------------|
 |   1.8   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
+|   1.8.1   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
+|   1.8.2   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
 |   1.9   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
 |  1.9.1  | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
 |  1.10   | 0xY298QJSB115NQQ3AGAD30DWN2QYRTI8CT6AP05L2PBV9QE92S94PDOVCCY06A38L |
@@ -23,21 +32,20 @@
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
 |  1.11   |                                                                    |
-|   2.1   |                                                                    |
-|   2.2   |                                                                    |
-|   2.3   |                                                                    |
+|   2.1.0   |                                                                    |
+|   2.2.0   |                                                                    |
+|   2.3.0   |                                                                    |
 |  2.3.2  |                                                                    |
 |  2.4.0  |                                                                    |
 |  2.4.2  | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4 |
-|  2.4.x  |                                                                    |
-|   2.5   |                                                                    |
+|  2.5.0  | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4 |
 
 ## Chapter 1 Season 3
 
 | Version  | Key                                                                    |
 |:--------:|------------------------------------------------------------------------|
-|   3.00   |                                                                        |
-|   3.10   |                                                                        |
+|   3.00   | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4     |
+|   3.10   | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4     |
 |   3.20   | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4     |
 |   3.30   | 0xADBB45488E8DE69437AD4F31D3569B0F710D2092799BFB1CE21D5CF9744097C3     |
 |   3.40   | 0x7129D5E578F0DC3821E3CD704F01E511F9A60340CF5B4C850F3B0B6B5E80D0B9     |
@@ -53,7 +61,6 @@
 |  4.20   | 0x9D8C9A4A4FA082F213EED604B6E756237181685EEDA82216437617D7AA5231AF |
 |  4.30   |                                                                    |
 |  4.40   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
-|  4.4.x  |                                                                    |
 |  4.50   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
 ## Chapter 1 Season 4
 
