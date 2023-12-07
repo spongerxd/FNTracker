@@ -104,6 +104,14 @@
     "Error_OverriddenTriggerComponentReference": "'{0}' в 'Компонент вызова сообщения' ссылается на свойство '{1}' в 'Событие игрового процесса', а его исходный тип ссылается на '{2}'! Переопределение значения из исходного типа не допускается",
     "Error_PropertyIsNotKnownUserOption": "Свойство события '{0}' — неизвестная пользовательская настройка! Она входит в категорию 'UserOptions'?"
   },
+  "DaySequenceActorDetails": {
+    "Preview": "Для предпросмотра"
+  },
+  "DaySequenceEditor": {
+    "DaySequencePreviewHeader": "Для предпросмотра",
+    "DaySequenceMenuLabel": "Время суток",
+    "DaySequenceSettings": "Время суток"
+  },
   "DaySequenceEditorActorSpawner": {
     "ClassWithin": "Не удалось добавить временный актор для класса типа '{0}', поскольку он содержит требуемый внешний класс '{1}'.",
     "NotAnActorClass": "Не удалось добавить временный актор для класса типа '{0}', поскольку он не является допустимым классом актора.",
@@ -400,7 +408,8 @@
     "Succeeded": "УСПЕШНО"
   },
   "FortExposedContentValidationDashboard": {
-    "None": "Нет"
+    "None": "Нет",
+    "ValidateActor.Label": "Проверить"
   },
   "FortHomebaseNodeGameplayEffectDataTableFactory": {
     "Error_NotEnoughTemplates": "Не удалось импортировать. Необходимо {0} ресурсов шаблонов эффектов игрового процесса, а предоставлено только {1}."
@@ -695,9 +704,13 @@
     "Ignored": "Игнорируется",
     "Modified": "Изменено"
   },
+  "SkeinSourceControlProvider": {
+    "UnsupportedOperation": "Операция {OperationName} не поддерживается в системе контроля версий {ProviderName}"
+  },
   "SObjectiveDebugger": {
     "Clear": "Удалить",
     "SingleTagCopyTooltip": "Копировать как ObjectiveFilter_{0}",
+    "ObjectiveDebugger_Record": "Запись",
     "VerbMessageActions": "Действия команды"
   },
   "SolarisEditor": {
@@ -775,11 +788,11 @@
     "NotLoggedInError": "Чтобы создать новую ветку проекта, вы должны войти в систему."
   },
   "SSkeinSourceControlSettings": {
-    "WorkspaceRootLabel": "Корневой каталог рабочего пространства"
+    "WorkspaceRootLabel": "Корень рабоч. прост."
   },
   "SValkyrieProjectSize": {
     "MenuTooltip.Browse": "Переход к выбранному элементу",
-    "MenuLabel.Browse": "Просмотреть…",
+    "MenuLabel.Browse": "Обзор…",
     "Settings.SizeBreakdownView.Label.ByPackage": "По пакету",
     "Settings.SizeBreakdownView.Label.ByType": "По типу",
     "Settings.SizeBreakdownView.ToolTip.RelativeToLargestItem": "Размер элемента в процентах относительно самого большого элемента.",
@@ -1015,7 +1028,7 @@
     "ProjectName": "Название проекта"
   },
   "ValkyrieBeacon": {
-    "PlatformCook": "Экспорт в формат платформы"
+    "PlatformCook": "Платформа приготовления"
   },
   "ValkyrieBeaconHost": {
     "ThrottlingVerseLogs": "Регулирование копий записей в журнале Verse"
@@ -1429,6 +1442,9 @@
   "ValkyrieProjectCreationDefaults": {
     "ProjectDefaults": "Настройки по умолчанию проекта"
   },
+  "ValkyrieProjectDetails": {
+    "DocsUrlLinkText": "Связь"
+  },
   "ValkyrieProjectManager": {
     "CreateVKProjectEmptyName": "При создании проекта название не может оставаться пустым",
     "CreateVKProjectUnspecifiedLocation": "При создании проекта необходимо указать место его расположения",
@@ -1490,8 +1506,9 @@
     "VkProjectRequiresEpicApp": "Для работы над этим проектом необходимо использовать {0} (сейчас на {1})\n\nПродолжить?"
   },
   "ValkyrieProjectsController": {
-    "BrowseButtonToolTip": "Просмотреть проекты на вашем компьютере, чтобы открыть нужный",
-    "BrowseButtonText": "Просмотреть…",
+    "ArchiveProjectContextMenuEntry": "Архивация",
+    "BrowseButtonToolTip": "Найти и открыть проект на компьютере",
+    "BrowseButtonText": "Обзор…",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
     "OpenProjectActionText": "Открыть",
@@ -1550,7 +1567,7 @@
     "ConnectToBeaconFailInit": "Не удалось инициализировать маяк",
     "QueryEncryptionKeyFailed": "Не удалось запросить ключ шифрования сеанса",
     "MatchmakingFail": "Не удалось подоборать игроков",
-    "PlatformCook": "Экспорт в формат платформы",
+    "PlatformCook": "Платформа приготовления",
     "QueryEncryptionKey": "Запрос ключа шифрования сеанса",
     "QueryEncryptionKeyInvalidState": "Диспетчер запросов больше недействителен, невозможно продолжить",
     "ValkyrieRequestManagerEditor_StartingUpdateContent": "Отправка обновлений проекта",
