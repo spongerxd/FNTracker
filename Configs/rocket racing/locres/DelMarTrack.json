@@ -1,0 +1,89 @@
+{
+  "DelMarSelectedNodesWidget": {
+    "ChangeShapeOfMultipleNodes": "Изменить форму нескольких точек",
+    "DeleteMultipleNodeConfirmation": "Удалить несколько точек?",
+    "DeleteMultipleNodes": "Удалить несколько точек",
+    "EnableOOBTube": "Включить трубку OOB",
+    "MeshCustomizations": "Изменения сетки: на нескольких",
+    "MultipleNodesSelected": "Выбрано несколько точек",
+    "UseStableRollOnMultiple": "Использовать стабильное качение на нескольких"
+  },
+  "DelMarSingleNodeWidget": {
+    "DeleteNode": "Удалить точку",
+    "DeleteNodeConfirmation": "Удалить точку?",
+    "MetaDataIndexTitle": "Индекс: {CurrentIndex}",
+    "SingleNodeSelected": "Выбрана одна точка",
+    "SplitNode": "Разделить у точки",
+    "SplitNodeConfirmation": "Разделить у точки?"
+  },
+  "DelMarStyleEditorWidget": {
+    "Bounds": "Границы",
+    "Device": "Устройство",
+    "DeviceProperties": "Параметры устройства",
+    "EditBounds": "Изменить границы",
+    "EditDevice": "Редактирование устройства",
+    "EditTrack": "Редактирование трассы",
+    "GlobalTrackBounds": "Глобальные границы трассы",
+    "None": "Нет",
+    "RoadStyle": "Стиль дороги",
+    "SelectSplinePoints": "Выбранные точки на сплайне",
+    "SelectedPoints": "Выбранные точки",
+    "Theme": "Тема",
+    "Track": "Трасса"
+  },
+  "DelMarTrack": {
+    "NoEndTrackConnection": "У дополнительной трассы не задан параметр EndTrackConnection в {0}. Карта: {1}",
+    "NoStartTrackConnection": "У дополнительной трассы не задан параметр StartTrackConnection в {0}. Карта: {1}",
+    "SecondaryTrackLoops": "Дополнительная трасса: обнаружено повторение! Обнаружено повторение на трассе {0} (стартовая трасса: {1}). Карта: {2}"
+  },
+  "DelMarTrackEditor": {
+    "Advanced": "Дополнительно",
+    "AttachToEnd": "Прикрепить к концу",
+    "AttachToStart": "Прикрепить к началу",
+    "Attaching": "Прикрепление",
+    "ConvertOobTubesToNative_Label": "Преобразовать шаблоны трубок OOB в нативные",
+    "ConvertOobTubesToNative_Tooltip": "Преобразует все существующие шаблоны трубок OOB в их нативный эквивалент.",
+    "DelMarTrack": "Трасса Del Mar",
+    "PrintAttachableActors": "Отобразить прикрепляемые объекты",
+    "RebuildOobTube": "Перестроение трубки OOB",
+    "DelMarStyleEditor": "Редактор стиля"
+  },
+  "DelMarTrackSplineComponentVisualizer": {
+    "DelMarSplineComponentVisualizer": "Визуализатор компонентов сплайнов Del Mar"
+  },
+  "DelMarTrackWidget": {
+    "OOBTubeTabTitle": "Трубка OOB",
+    "Rebuild OOB Tube": "Перестроение трубки OOB",
+    "RoadSplineTabTitle": "Дорожный сплайн",
+    "SelectedSplineTabTitle": "Выбранная точка",
+    "SplineLengthTitle": "Длина сплайна: {SplineLength}"
+  },
+  "SDelMarOobSelectedNodesWidget": {
+    "SelectSplinePoints": "Выбранные точки на сплайне",
+    "SelectedPoints": "Выбранные точки"
+  },
+  "SDelMarRoadShapeWidget": {
+    "BankedRoad": "Дорога с уклоном",
+    "FlatRoad": "Плоская дорога",
+    "HalfPipe": "Половина трубы",
+    "Pipe": "Труба",
+    "RoadShape": "Форма дороги",
+    "Tunnel": "Туннель"
+  },
+  "SDelMarSelectedPointsToolbar": {
+    "SelectAddNextSplinePointToolTip": "Добавить следующую точку на сплайне к текущему выбору.",
+    "SelectAddPrevSplinePointToolTip": "Добавить предыдущую точку на сплайне к текущему выбору.",
+    "DeleteMultipleNodeConfirmation": "Удалить несколько точек?",
+    "SelectDeleteSplinePointToolTip": "Удалить точку в текущем выборе.",
+    "SelectAllSplinePointToolTip": "Выбрать все точки на сплайне.",
+    "SelectFirstSplinePointToolTip": "Выбрать первую точку на сплайне.",
+    "SelectLastSplinePointToolTip": "Выбрать последнюю точку на сплайне.",
+    "SelectNextSplinePointToolTip": "Выбрать следующую точку на сплайне.",
+    "SelectPrevSplinePointToolTip": "Выбрать предыдущую точку на сплайне.",
+    "SplitNodeConfirmation": "Разделить у выбранной точки?"
+  },
+  "UICommands.DelMarTrackSplineComponentVisualizer": {
+    "ToggleUseStableRoll_ToolTip": "Переключить флаг UseStableRoll (Использовать стабильное качение) для выбранной точки на сплайне.",
+    "ToggleUseStableRoll": "Использовать стабильное качение"
+  }
+}
