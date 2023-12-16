@@ -1,0 +1,20 @@
+{
+  "FJunoProceduralWorldEditorModule": {
+    "ActorNamePlural": "Объекты",
+    "ConvertToIAM_Transaction": "Превратить объекты в IAM.",
+    "ConvertToActorsFromIAM_Transaction": "Превратить IAM в объекты.",
+    "ConvertSelectedIAMsToActorsToolTip": "Превратить массив подгружаемых объектов в объекты.",
+    "ConvertSelectedActorsToIAMsTooltip": "Превратить выбранные объекты в массив подгружаемых объектов.",
+    "ConvertSelectedActorsToIAMsText": "Превратить {0} в массив подгружаемых объектов",
+    "ConvertSelectedIAMsToActorsText": "Превратить {0} в обычные объекты"
+  },
+  "JunoProceduralWorld": {
+    "AttributeClash": "Атрибуты готового пути актора «{0}», имя готового пути «{1}» и/или представление «{2}» конфликтуют с другими именами атрибутов",
+    "JunoResolveBiomeIngredients_Output": "R\"docs(Добавляет следующие атрибуты:{ActorPath} : Строка : Путь строки для появления актора (копируется из ряда таблицы){Representation} : Имя : Значение EJunoRepresentation для процесса создания (копируется из ряда таблицы){RowName} : Парение : Имя выбранного ряда.)docs",
+    "JunoResolveBiomeIngredients_Input": "R\"docs(Reads the following attributes on the spatial data stream:{BiomeTableName} : String : A path for the biome data table to read{FilterName} : Name : Optional. Если указано, будет выбирать только ряды с именем типа, соответствующим значению этого свойства.{LayerWeight} : Парение : Не обязательно. Если указано, колонка «LayerWeights» будет использована вместо «Weight» с интерполяция на это значение.)docs",
+    "JunoResolveBiomeIngredients_Param": "R\"docs(Свойства параметров могут быть переписаны:{P0} : имя{P1} : имя{P2} : имя{P3} : имя{P4} : имя{P5} : имя)docs",
+    "UPCGJunoPathfindSettingsShapePin": "Форма для поиска пути (вероятно, ландшафт!)",
+    "UnableToGetPointData": "Не удалось получить точечные данные от элемента ввода",
+    "UnableToGetSpatialData": "Не удалось получить пространственные данные от элемента ввода"
+  }
+}
