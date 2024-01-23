@@ -104,8 +104,8 @@
             "LocalizedString": "Садовая станция"
           },
           "WorldLocation": {
-            "X": -69080.0,
-            "Y": -13792.0,
+            "X": -70368.0,
+            "Y": -6528.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -127,8 +127,8 @@
             "LocalizedString": "Вообще другая мельница"
           },
           "WorldLocation": {
-            "X": 68848.0,
-            "Y": -84344.0,
+            "X": 64400.0,
+            "Y": -78824.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -166,6 +166,29 @@
           "ActiveDiscoverableBlodIds": [
             35
           ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WinterIsland",
+            "SourceString": "Winterburg",
+            "LocalizedString": "Зимбург"
+          },
+          "WorldLocation": {
+            "X": 121208.0,
+            "Y": 13836.003,
+            "Z": 4757.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.WinterIsland"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WinterIsland",
+          "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
@@ -225,8 +248,8 @@
             "LocalizedString": "Бойкие бензоколонки"
           },
           "WorldLocation": {
-            "X": 14506.007,
-            "Y": 14947.195,
+            "X": 6742.007,
+            "Y": 13315.195,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -250,8 +273,8 @@
             "LocalizedString": "Спасательная станция"
           },
           "WorldLocation": {
-            "X": 51388.0,
-            "Y": 70120.0,
+            "X": 46376.0,
+            "Y": 73168.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -267,34 +290,14 @@
         },
         {
           "Text": {
-            "CultureInvariantString": null
-          },
-          "WorldLocation": {
-            "X": -31896.0,
-            "Y": 32628.0,
-            "Z": 4900.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.NorthTunnel"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
             "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandMansion",
             "SourceString": "Unmoored Manor",
             "LocalizedString": "Утончённая усадьба"
           },
           "WorldLocation": {
-            "X": -82156.0,
-            "Y": 12588.0,
+            "X": -84308.0,
+            "Y": 17264.0,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -344,7 +347,7 @@
           },
           "WorldLocation": {
             "X": -35756.0,
-            "Y": 31800.0,
+            "Y": 37492.0,
             "Z": 5848.0
           },
           "LocationTag": {
@@ -366,8 +369,8 @@
             "LocalizedString": "Бодрые бензоколонки"
           },
           "WorldLocation": {
-            "X": -53844.0,
-            "Y": -57740.0,
+            "X": -54804.0,
+            "Y": -51948.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -414,8 +417,8 @@
             "LocalizedString": "Ледовитая станция"
           },
           "WorldLocation": {
-            "X": -90652.0,
-            "Y": 83408.0,
+            "X": -93740.0,
+            "Y": 88344.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -439,8 +442,8 @@
             "LocalizedString": "Свирепая станция"
           },
           "WorldLocation": {
-            "X": -52660.0,
-            "Y": 75280.0,
+            "X": -56612.0,
+            "Y": 79848.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -460,12 +463,12 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_WaterMill",
-            "SourceString": "The Ol'Mill",
+            "SourceString": "The Ol' Mill",
             "LocalizedString": "Старая мельница"
           },
           "WorldLocation": {
-            "X": 61275.594,
-            "Y": 17932.084,
+            "X": 62551.594,
+            "Y": 14564.083,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -487,8 +490,8 @@
             "LocalizedString": "Большой вокзал"
           },
           "WorldLocation": {
-            "X": 17724.0,
-            "Y": 44116.0,
+            "X": 19124.0,
+            "Y": 50668.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -531,12 +534,12 @@
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_GrasslandsVilla",
-            "SourceString": "Lil'Villa",
+            "SourceString": "Lil' Villa",
             "LocalizedString": "Великолепная вилла"
           },
           "WorldLocation": {
-            "X": -28260.0,
-            "Y": 9128.0,
+            "X": -30892.0,
+            "Y": 14624.0,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -558,8 +561,8 @@
             "LocalizedString": "Лесная станция"
           },
           "WorldLocation": {
-            "X": 78060.836,
-            "Y": 36862.324,
+            "X": 79376.836,
+            "Y": 33710.324,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -578,28 +581,8 @@
             "CultureInvariantString": null
           },
           "WorldLocation": {
-            "X": -34428.0,
-            "Y": 32628.0,
-            "Z": 4900.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.NorthTunnel"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "CultureInvariantString": null
-          },
-          "WorldLocation": {
-            "X": 19824.0,
-            "Y": -66440.0,
+            "X": 19620.0,
+            "Y": -70984.0,
             "Z": 12768.0
           },
           "LocationTag": {
@@ -697,7 +680,7 @@
           },
           "WorldLocation": {
             "X": 57140.0,
-            "Y": -43604.0,
+            "Y": -36760.0,
             "Z": 9428.0
           },
           "LocationTag": {
@@ -721,8 +704,8 @@
             "LocalizedString": "Штаб Подполья"
           },
           "WorldLocation": {
-            "X": -37560.0,
-            "Y": -54900.0,
+            "X": -38004.0,
+            "Y": -51532.0,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -794,9 +777,9 @@
             "LocalizedString": "Превосходный пик"
           },
           "WorldLocation": {
-            "X": -37602.11,
-            "Y": 87712.37,
-            "Z": 19411.518
+            "X": -39414.11,
+            "Y": 90880.37,
+            "Z": 26327.518
           },
           "LocationTag": {
             "TagName": "Athena.Location.UnNamedPOI.MountainSummit"
@@ -819,8 +802,8 @@
             "LocalizedString": "Мельница"
           },
           "WorldLocation": {
-            "X": -66768.0,
-            "Y": -31852.0,
+            "X": -69676.0,
+            "Y": -26968.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -842,8 +825,8 @@
             "LocalizedString": "Другая мельница"
           },
           "WorldLocation": {
-            "X": 38136.0,
-            "Y": -43160.0,
+            "X": 35128.0,
+            "Y": -38044.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -861,7 +844,10 @@
         },
         {
           "Text": {
-            "CultureInvariantString": null
+            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WoodedIsle",
+            "SourceString": "Piney Lane",
+            "LocalizedString": "Сосновый остров"
           },
           "WorldLocation": {
             "X": 114357.664,
@@ -889,8 +875,8 @@
             "LocalizedString": "Свалкенхаузен"
           },
           "WorldLocation": {
-            "X": -9300.0,
-            "Y": 58664.0,
+            "X": -12132.0,
+            "Y": 62364.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -902,6 +888,29 @@
             "SubPathString": ""
           },
           "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_Jankyard",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FishFarm",
+            "SourceString": "Catcher's Cove",
+            "LocalizedString": "Лагуна ловцов"
+          },
+          "WorldLocation": {
+            "X": 113116.0,
+            "Y": 39620.004,
+            "Z": 4756.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.FishFarm"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_FishFarm",
           "ActiveDiscoverableBlodIds": []
         },
         {
@@ -955,36 +964,13 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WinterIsland",
-            "SourceString": "Winterburg",
-            "LocalizedString": "Зимбург"
-          },
-          "WorldLocation": {
-            "X": 117724.0,
-            "Y": 18744.004,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WinterIsland"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WinterIsland",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_CostalVilla",
             "SourceString": "Seaside Villa",
             "LocalizedString": "Прибрежная вилла"
           },
           "WorldLocation": {
-            "X": -90048.0,
-            "Y": -42696.0,
+            "X": -92680.0,
+            "Y": -38268.0,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -1006,8 +992,8 @@
             "LocalizedString": "Практичный пансион"
           },
           "WorldLocation": {
-            "X": -75960.0,
-            "Y": -13792.0,
+            "X": -78152.0,
+            "Y": -7844.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -1079,8 +1065,8 @@
             "LocalizedString": "Станция «Доставь-ка»"
           },
           "WorldLocation": {
-            "X": -27456.0,
-            "Y": -48312.0,
+            "X": -28088.0,
+            "Y": -42764.0,
             "Z": 5220.0
           },
           "LocationTag": {
@@ -1096,11 +1082,14 @@
         },
         {
           "Text": {
-            "CultureInvariantString": null
+            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Nightclub",
+            "SourceString": "Slumberyard",
+            "LocalizedString": "Беспокойный бедлам"
           },
           "WorldLocation": {
-            "X": 86456.0,
-            "Y": 82796.0,
+            "X": 81808.0,
+            "Y": 86804.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -1124,8 +1113,8 @@
             "LocalizedString": "Домик на утёсе"
           },
           "WorldLocation": {
-            "X": -99664.0,
-            "Y": 40868.0,
+            "X": -102816.0,
+            "Y": 45720.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -1172,8 +1161,8 @@
             "LocalizedString": "Пригорный пункт"
           },
           "WorldLocation": {
-            "X": 108260.0,
-            "Y": 69504.0,
+            "X": 104212.0,
+            "Y": 74100.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -1195,8 +1184,8 @@
             "LocalizedString": "Горная база"
           },
           "WorldLocation": {
-            "X": -16700.0,
-            "Y": 96444.0,
+            "X": -18320.0,
+            "Y": 96240.0,
             "Z": 6888.0
           },
           "LocationTag": {
@@ -1220,8 +1209,8 @@
             "LocalizedString": "Элитная станция"
           },
           "WorldLocation": {
-            "X": 45258.406,
-            "Y": 3136.3857,
+            "X": 48058.406,
+            "Y": -15.614234,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -1243,8 +1232,8 @@
             "LocalizedString": "Ветреный берег"
           },
           "WorldLocation": {
-            "X": 66568.0,
-            "Y": 109944.0,
+            "X": 69344.0,
+            "Y": 119908.0,
             "Z": 4756.0
           },
           "LocationTag": {
@@ -1266,8 +1255,8 @@
             "LocalizedString": "Присвоенная вилла"
           },
           "WorldLocation": {
-            "X": -48124.0,
-            "Y": -97684.0,
+            "X": -49592.0,
+            "Y": -98936.0,
             "Z": 2584.0
           },
           "LocationTag": {
@@ -1314,8 +1303,8 @@
             "LocalizedString": "Замок затворника"
           },
           "WorldLocation": {
-            "X": 107020.0,
-            "Y": 5268.003,
+            "X": 101336.0,
+            "Y": 8788.003,
             "Z": 4756.0
           },
           "LocationTag": {
