@@ -245,10 +245,6 @@
     "ActorsHeader": "Акторы",
     "OptionsHeader": "Варианты"
   },
-  "DeviceValidation": {
-    "VkProjectVerseCheck.NullScriptRefItem": " : Не удалось загрузить класс Verse!",
-    "VkProjectVerseCheck.NullScriptRefSummary": "В сценарии обнаружено устройство(-а) с недопустимыми ссылками на класс сценария Verse. Если Verse не удалось выполнить компиляцию, исправьте ошибки компиляции, затем закройте и снова откройте проект.\nПропущено определение класса в сценарии Verse. Переименование, удаление или перемещение файлов .verse файлы, содержащие классы сценария Verse, также могут вызвать сбой проверки.\n\"Сохранение в таком состоянии может привести к потере данных!"
-  },
   "DevTools_ValetRaisinTags": {
     "GatheringDisplayText": "Сбор ресурсов…",
     "EmptyList": "Нет ни одного ресурса!",
@@ -900,9 +896,6 @@
     "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)",
     "InvalidExternalContentId": "Недопустимый идентификатор контента, на который приводится ссылка"
   },
-  "SChoiceDialog": {
-    "CopyMessageHyperlink": "Копировать сообщение"
-  },
   "ScriptDeviceActorDetails": {
     "MissingScriptMessage": "Не удалось загрузить класс Verse. Исправьте ошибки компиляции Verse, затем закройте и снова откройте проект.\nЕсли проблема сохраняется или компиляция выполнена без ошибок, возможно, этот класс удалили, перенесли или переименовали. Если вы хотите восстановить это устройство, вам может потребоваться вернуть код Verse к состоянию, которое было перед сохранением уровня.\nСохранение в таком состоянии может привести к потере данных и означает необходимость замены или удаления устройства."
   },
@@ -981,7 +974,6 @@
     "Conflicted": "Обнаружен конфликт",
     "Deleted": "Удалено",
     "CheckedOut_Tooltip": "Файл(-ы) получен(-ы)",
-    "Conflicted_Tooltip": "Файлы содержат локальные изменения, которые необходимо привести в соответствие с изменениями, отправленными в Skein",
     "NotCurrent_Tooltip": "Версия файлов отличается от последней",
     "Ignored": "Игнорируется",
     "Deleted_Tooltip": "Элемент удалён",
@@ -1044,26 +1036,20 @@
     "WaitForRebuildResultWithTimeoutPrompt.Error.Message": "Не удалось сформировать проект за установленное время. Подождать, пока он сформируется?",
     "CreateVerseScriptTitle": "Создать сценарий Verse",
     "EditwithVersaTile": "Редактировать в Visual Verse",
-    "VerseDeadInstancesCheck.Classes": "Обнаружено {0} класса(-ов), которых больше не существует, с активным экземпляром(-ами):\n",
-    "VerseDeadInstancesCheck.ErrorMessage": "Обнаружено {0} класса(-ов), которых больше не существует, с активным экземпляром(-ами):\n\n{1}\nСледующий экземпляр(-ы) не будет работать, если не откатить изменения кода Verse:\n\n{2}\n\"Пропущено определение класса в сценарии Verse. Переименование, удаление или перемещение файлов .verse, содержащих классы сценария Verse, может вызвать сбой проверки.\n\nИсправить и пересобрать код Verse, прежде чем продолжить?",
     "ValidateVRIFirstChar": "Первый символ должен быть алфавитным (из множества A-Za-z_)",
     "ForceLinkFailure": "Принудительная компоновка завершилась с {0} ошибкой(-ами).",
     "ForceLinking": "Процесс принудительной компоновки (ПРЕДУПРЕЖДЕНИЕ! Может привести к возникновению неполных классов и ошибок в байт-коде).",
     "VSCodeInstallTitle": "Установить Visual Studio Code?",
     "LinkComplete": "Компоновка завершена.",
-    "VerseDeadInstancesCheck.PossibleCauses": "Пропущено определение класса в сценарии Verse. Переименование, удаление или перемещение файлов .verse, содержащих классы сценария Verse, может вызвать сбой проверки.\n\nИсправить и пересобрать код Verse, прежде чем продолжить?",
     "ValidateVRIFullName": "В названии не должны использоваться недопустимые символы: {0}",
     "VerseLogTooltip": "Открыть журнал сообщений, чтобы посмотреть ошибки и статус сборки Verse",
-    "VkProjectVerseCheck.OpenVSCode": "Открыть в Visual Studio Code",
     "VerseExplorerToolTip": "Открыть проводник Verse для управления проектом Verse. Нажмите правой кнопкой мыши по файлам в проводнике, чтобы получить доступ к операциям управления, в том числе к добавлению и удалению файлов",
     "OpenVSCodeButtonToolTip": "Открыть текущий проект в Visual Studio Code",
-    "VkProjectVerseCheck.OpenVSCodeTooltip": "Открыть рабочее пространство текущего проекта в VS Code.",
     "EditWithVersaTileToolTip": "Открывает этот файл Verse в экспериментальном компоновщике Visual Verse",
     "VerseDeadInstancesCheck.Rebuild": "Пересобрать",
     "BuildComplete": "УСПЕШНО — сборка завершена.",
     "ForceLinkSuccess": "УСПЕШНО — принудительная компоновка завершена без ошибок.",
     "TerminateExistingLSPProcs": "Прервать работу существующих языковых серверов?",
-    "VerseDeadInstancesCheck.Instances": "Следующий экземпляр(-ы) будет удалён, если не откатить изменения кода Verse:\n",
     "Deprecated_VModules": "В проекте используется следующий устаревший файл vmodule{0}:{1}",
     "WaitForRebuildResultWithTimeoutPrompt.Error.Title": "Установленное время компиляции проекта истекло!",
     "ToolsSectionText": "Инструменты",
@@ -1075,7 +1061,6 @@
     "VerseExplorerTabName": "Проводник Verse",
     "VerseRemoveReferencesToOutdatedClasses": "Verse удаляет ссылки на устаревшие классы",
     "VerseTypeShortDescription": "Сценарий Verse",
-    "VerseDeadInstancesCheck.Title": "Предупреждение при проверке Verse",
     "VSCodeUpdateRequest": "Для поддержки функций языка Verse требуется Visual Studio Code версии {0}.{1}, а у вас установлена {2}.{3}. Установить последнюю версию?",
     "VisualVerseComposer": "Компоновщик Visual Verse",
     "Existing instance(s) of the Verse language server were found. In order to continue installing the Verse extension for Visual Studio Code, all existing sessions of VS Code (and the language server) must first be closed.\n": "Хотите продолжить?\nВыберите [Продолжить], чтобы попытаться закрыть все существующие языковые серверы, связанные с расширением Verse VS Code. При этом также будут закрыты все сеансы VS Code, запущенные этими серверами.\nВы также можете закрыть существующие сеансы вручную, а затем нажать [Повторить попытку] для повторной проверки.\nПри нажатии [Отмена] установка расширения Verse VS Code будет прервана.\n"
@@ -1133,7 +1118,7 @@
     "BinaryPathLabel": "Путь к CLI",
     "BinaryPathLabel_Tooltip": "Путь к исполняемому файлу CLI Unreal Revision Control",
     "WorkspaceRootLabel_Tooltip": "Путь к корневому каталогу рабочей среды CLI Unreal Revision Control",
-    "WorkspaceRootLabel": "Корневой каталог рабочей среды",
+    "WorkspaceRootLabel": "Корневой каталог раб. среды",
     "SkeinCLINotFound": "Среда Unreal Revision Control недоступна.",
     "SkeinCLINotFound_Tooltip": "Unreal Editor не может обмениваться данными с сервером Unreal Revision Control без среды Unreal Revision Control. Убедитесь в том, что она установлена в правильный каталог и что в настоящее время не выполняются другие её экземпляры."
   },
@@ -1366,6 +1351,7 @@
     "DeclineEULA": "Необходимо принять лицензионное соглашение",
     "AcceptEULA": "Лицензионное соглашение принято",
     "LoggingOut": "Выполняется выход…",
+    "LoginDisabled": "Функция ввода в настоящее время отключена.",
     "LoggingIn": "Выполняется вход…",
     "UserRequestedLogout": "Выполняется выход…",
     "LoggingInFailedAfterUpdate": "Ошибка входа в систему: не удалось запустить страницу входа.",
@@ -1508,7 +1494,6 @@
     "CancelLoading": "Отменить загрузку",
     "ValkyrieProjectMenu_ToolTip": "Управляйте своим проектом, изменяйте и публикуйте его с помощью элементов этого меню.",
     "LiveEditWarningWindowText": "Изменение проекта и запуск сеанса могут привести к тому, что соавторы получат доступ к контенту нового проекта. Чтобы избежать этого, закройте все ваши клиенты Fortnite, работающие на этом ПК и других платформах, прежде чем загружать другой проект. Нажмите «Отмена», чтобы выйти из клиентов Fortnite, прежде чем загружать новый проект",
-    "GoToUnsupportedDocs_Tooltip": "Нажмите, чтобы открыть документацию.",
     "CloseProjectLabel": "Закрыть проект",
     "ValkyrieCloseProject": "Закрыть проект",
     "CloseProjectTooltip": "Закрыть этот проект",
@@ -1544,9 +1529,7 @@
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
     "ToggleVerseComponentMode_ToolTip": "Переключить режим компонента Verse",
-    "UnsupportedAssetSectionLabel": "Неподдерживаемые ресурсы",
     "ToggleVerseComponentMode": "Компоненты Verse",
-    "GoToUnsupportedDocs_Label": "Просмотр документации — миграция ресурсов",
     "ValkyrieProjectSize_Tooltip": "Посмотреть размер проекта с разбивкой по категориям",
     "LiveEditWarningTitle": "Предупреждение"
   },
@@ -1600,7 +1583,6 @@
     "ExternalContentNoProjectId": "Контент не существует",
     "ExternalContentEntitlementRequired": "Необходимы права на контент",
     "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
-    "ExternalContentNotLive": "Контент не подключён к сети",
     "CookingExternalContent": "Конвертация контента, на который имеется ссылка, в формат платформы",
     "DownloadingExternalContent": "Загрузка контента, на который имеется ссылка",
     "FetchingExternalContentInfo": "Получение информации о контенте, на который имеется ссылка",
@@ -1797,12 +1779,12 @@
     "ValkyrieFeedback": "Сообщить о проблеме",
     "ValkyrieFeedback_ToolTip": "Сообщить о проблеме с {0}",
     "ValkyrieRespawnPlayers": "Возродить игроков",
-    "ValkyrieRespawnPlayers_Tooltip": "Возродить игроков на всех клиентах, подключенных к вашему сеансу игры.",
+    "ValkyrieRespawnPlayers_Tooltip": "Возродить игроков на всех клиентах, подключённых к вашему сеансу игры.",
     "ValkyrieRestartSession": "Перезапустить подключённый сеанс игры",
     "ValkyrieRestartSession_Tooltip": "Перезапустить подключённый сеанс игры, перезагрузив текущий проект на сервере и всех клиентах.",
     "ValkyrieChooseLocalClientBinary": "Выбрать локальный бинарный файл клиента, который будет использоваться",
     "ValkyrieChooseLocalServerBinary": "Выбрать локальный бинарный файл сервера, который будет использоваться",
-    "ValkyriePlaySubMenuLiveEdit_ToolTip": "Отправить поддерживаемые изменения уровня, выполненные в редакторе, в подключенный сеанс.",
+    "ValkyriePlaySubMenuLiveEdit_ToolTip": "Отправить поддерживаемые изменения уровня, выполненные в редакторе, в подключённый сеанс.",
     "ValkyrieStatusBoxSessionConnected": "Подключение к сеансу выполнено.",
     "ValkyrieStatusBoxDisconnected": "Сеанс отключён",
     "ValkyrieStatusBoxSessionLoading": "Загрузка сеанса…",
@@ -1979,7 +1961,7 @@
     "FeatureExamplesControllerDisplayName": "Демонстрация возможностей",
     "GettingStartedButtonText": "Начало работы",
     "UserTemplatesControllerDisplayName": "Мои шаблоны",
-    "OfflineDisplayNameText": "Не в сети",
+    "OfflineDisplayNameText": "Локально",
     "SampleProjectsControllerDisplayName": "Примеры проектов"
   },
   "ValkyrieProjectBrowserStartupFlow": {
@@ -2172,7 +2154,7 @@
     "QueryEncryptionKeyCanceled": "Запрос отменён",
     "QueryUserSessionIdTokenCanceled": "Запрос отменён",
     "QueryEncryptionKeyInvalidState": "Диспетчер запросов больше недействителен, невозможно продолжить",
-    "QueryUserSessionIdTokenInvalidState": "Диспетчер запросов больше недействителен, невозможно продолжить",
+    "QueryUserSessionIdTokenInvalidState": "Диспетчер запросов уже недействителен, невозможно продолжить",
     "ValkyrieRequestManagerEditor_StartingUpdateContent": "Отправка обновлений проекта",
     "ValkyrieRequestManagerEditor_StartingUnload": "Выгрузка старой версии"
   },
@@ -2257,13 +2239,9 @@
   },
   "VerseDevicesEditorModule": {
     "RebuildToFixBuildErrors.Cancel": "Закрыть карту",
-    "RebuildToFixValidationErrors.Continue": "Закрыть карту",
     "RebuildToFixBuildErrors.Continue": "Продолжить",
-    "RebuildToFixBuildErrors.Rebuild.DialogMessage": "При открытии карты возникла ошибка(-и) сборки Verse\n{0}\n\n\"При сохранении ресурсов карты, использующих Verse, некоторые данные в них могут быть утеряны, а устройства Verse могут не работать, пока ошибки не будут устранены и не будет выполнена повторная сборка\n\"Если проблема сохраняется, возможно, файлы .verse переименованы, перемещены или удалены. Возможно, вам необходимо вернуть код Verse к состоянию, которое было перед последним сохранением карты\n\nИсправьте ошибку(-и) и пересоберите Verse, либо нажмите «Продолжить», если все равно хотите загрузить карту\n\n",
     "OnEditorMapLoad.Error.Message": "При открытии карты возникла ошибка(-и) сборки Verse\n{0}\n\n\"При сохранении ресурсов проекта, использующих Verse, некоторые данные в них могут быть утеряны, а устройства Verse могут не работать, пока ошибки не будут устранены и не будет выполнена повторная сборка",
     "OnEditorMapLoad.Error.Notification": "Не удалось загрузить карту из-за ошибки(-ок) проверки Verse. Исправьте ошибки и перезагрузите карту",
-    "FailedToLoadMap": "Не удалось загрузить карту из-за ошибки(-ок) проверки Verse. Исправьте ошибки и перезагрузите карту",
-    "RebuildToFixValidationErrors.NullScriptRefSummary": "В сценарии обнаружено устройство(-а) с недопустимыми ссылками на класс сценария Verse. Если возникла ошибка компиляции Verse, исправьте её и выполните новую сборку\n\"Если проблема сохраняется или компиляция выполнена без ошибок, возможно, файлы .verse переименованы, перемещены или удалены. Возможно, вам необходимо вернуть код Verse к состоянию, которое было перед последним сохранением карты\n\"Сохранение в таком состоянии может привести к потере данных и означает необходимость замены или удаления устройств(-а)",
     "RebuildToFixBuildErrors.OpenVSCode": "Открыть в Visual Studio Code",
     "RebuildToFixValidationErrors.OpenVSCode": "Открыть в Visual Studio Code",
     "RebuildToFixBuildErrors.OpenVSCodeTooltip": "Открыть рабочее пространство текущего проекта в VS Code.",
@@ -2271,8 +2249,6 @@
     "RebuildToFixBuildErrors.Rebuild": "Пересобрать",
     "RebuildToFixValidationErrors.Rebuild": "Пересобрать",
     "OnEditorMapLoad.Error.Title": "Предупреждение об ошибках сборки Verse",
-    "RebuildToFixBuildErrors.Title": "Предупреждение об ошибках сборки Verse",
-    "RebuildToFixValidationErrors.Title": "Предупреждение об ошибках сборки Verse",
     "VerseValidationLogCategoryName": "Проверка Verse"
   },
   "VerseEditorSettings": {
@@ -2282,7 +2258,6 @@
     "SetPropAssetTransaction": "Редактировать ресурс предмета окружения"
   },
   "VSCodeNotFound": {
-    "CopyMessageHyperlink": "Копировать сообщение",
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
     "WarningTitle": "Не найдено ни установленной копии, ни файла установки VS Code!",
     "WarningText": "Если вы хотите редактировать код Verse с поддержкой функций языка Verse в Unreal Editor for Fortnite, необходимо установить Microsoft Visual Studio Code. Вы видите это сообщение, потому что в имеющемся редакторе нет ни установленной копии, ни файла установки этой программы. Перейдите на сайт <a id=\"download_url\" href=\"{DownloadUrl}\" style=\"Common.GotoBlueprintHyperlink\">{DownloadUrl}</> и загрузите последнюю версию для вашей операционной системы, а затем перезапустите редактор, если хотите сменить язык."

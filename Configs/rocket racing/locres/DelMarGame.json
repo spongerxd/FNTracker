@@ -31,6 +31,7 @@
     "B1B123714A29F3E829D0529E15C8566B": "Скорость по Y",
     "D5F1EA7C41FF5AA3F3947CB32D78803A": "Скорость по Y",
     "D8CD286C4B6AFDE2FF0F62916C8B3741": "Сфера",
+    "E6FA526F43425C075C7045998CEEC193": "Тип столкновения для препятствия-желе",
     "2FBD2DD641D3C1FAC8CCBE81355FDDA0": "Детализация X",
     "AB35A55D4F306E0BAF78BF9BFFD0E4E3": "Детализация X",
     "D252B04E45B1CF9869D459AC001680BC": "Детализация X",
@@ -144,13 +145,18 @@
   },
   "UserOptionDefinition": {
     "DelMar_SpeedUpPad_BP_C.SpeedAmount.Description": "Скорость, которая добавляется проезжающим машинам.",
+    "E_ObstacleCollisionType.Capsule.DisplayName": "Капсула",
+    "E_ObstacleCollisionType.Cylinder.DisplayName": "Цилиндр",
     "DelMar_Jelly_BP_C.Duration.DisplayName": "Продолжительность",
     "DelMar_Jelly_BP_C.Duration.Description": "На какое время отключить газ.",
     "DelMar_Jelly_BP_C.MaxReducedTargetSpeed.DisplayName": "Максимальное снижение целевой скорости",
     "DelMar_SpeedUpPad_BP_C.SpeedEffectDuration.Description": "Время (сек.), в течение которого скорость продолжает увеличиваться.",
     "DelMar_Jelly_BP_C.OnEMPHazardTriggered.DisplayName": "Запуск при срабатывании электромагнитного импульса",
+    "E_ObstacleCollisionType.Sizeable Box.DisplayName": "Заметная коробка",
     "DelMar_SpeedUpPad_BP_C.SpeedAmount.DisplayName": "Скорость",
     "DelMar_SpeedUpPad_BP_C.SpeedEffectDuration.DisplayName": "Продолжительность скоростного эффекта",
-    "DelMar_Jelly_BP_C.MaxReducedTargetSpeed.Description": "Максимальное снижение целевой скорости при столкновении."
+    "E_ObstacleCollisionType.Spherical.DisplayName": "Сфера",
+    "DelMar_Jelly_BP_C.MaxReducedTargetSpeed.Description": "Максимальное снижение целевой скорости при столкновении.",
+    "DelMar_Jelly_BP_C.Type.DisplayName": "Тип"
   }
 }
