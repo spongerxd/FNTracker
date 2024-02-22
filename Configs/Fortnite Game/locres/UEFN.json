@@ -106,6 +106,9 @@
     "AssetAction_ValidatePlaysetTooltip": "Проверить выбранные сюжетные обстановки",
     "AssetTypeActions_VerseClass": "Класс Verse"
   },
+  "Athena": {
+    "UnknownNPCName": "Неизвестно"
+  },
   "CharacterModifier_Inventory": {
     "MissingItemDefinition": "Отсутствует определение предмета в модификаторе инвентаря!"
   },
@@ -146,6 +149,9 @@
     "FortniteEditorCommands": "Редактор Fortnite",
     "ValkyrieEditor": "Редактор Valkyrie"
   },
+  "ConversationGraph": {
+    "ConversationGraphToolTip": "Банк диалогов"
+  },
   "CRDummyProvider": {
     "DummyError": "У фиктивного поставщика возникла фиктивная ошибка."
   },
@@ -180,6 +186,15 @@
   "DaySequenceActorDetails": {
     "Preview": "Для предпросмотра",
     "Sequence": "Последовательность"
+  },
+  "DaySequenceConditionSetCombo": {
+    "DaySequenceConditionSetCombo_Empty": "Пусто"
+  },
+  "DaySequenceConditionSetPicker": {
+    "DaySequenceConditionSetPicker_ClearAllTags": "Очистить все теги"
+  },
+  "DaySequenceConditionTagChip": {
+    "ClearTag": "Очистить тег"
   },
   "DaySequenceEditor": {
     "DaySequenceActionsHeader": "Действия",
@@ -304,6 +319,20 @@
   "ExportTemplates": {
     "ExportTemplatesResults": "Шаблоны экспорта MCP"
   },
+  "ExternalContentLoader": {
+    "ExternalContentCannotBeFound": "Не удалось найти контент",
+    "ExternalContentNoProjectId": "Контент не существует",
+    "ExternalContentEntitlementRequired": "Необходимы права на контент",
+    "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
+    "CookingExternalContent": "Конвертация контента, на который имеется ссылка, в формат платформы",
+    "DownloadingExternalContent": "Загрузка контента, на который имеется ссылка",
+    "FetchingExternalContentInfo": "Получение информации о контенте, на который имеется ссылка",
+    "GettingLinkCode": "Получение кода ссылки",
+    "InvalidExternalContentId": "Недопустимый формат идентификатора контента, на который имеется ссылка",
+    "LoadedExternalContent": "Загруженный контент, на который имеется ссылка",
+    "LoadingExternalContent": "Загрузка контента, на который имеется ссылка",
+    "PreparingCookExternalContent": "Подготовка к конвертации контента, на который имеется ссылка"
+  },
   "Fab": {
     "Fab.AlphaLabel": "Fab (альфа-версия)",
     "FabSettingsLabel": "Настройки Fab (альфа-версия)",
@@ -345,6 +374,10 @@
     "NoVariantChannel": "Недопустимый канал",
     "NoVariant": "Недопустимый вариант"
   },
+  "FileHelper": {
+    "RewoundDialog_ConfirmText": "Закрыть",
+    "RewoundDialog_CheckBoxText": "Больше не показывать это окно"
+  },
   "FMcpCatalogHelper": {
     "CatalogOutOfDateErrorMsg": "Цены и предложения могли измениться. Попробуйте совершить покупку ещё раз."
   },
@@ -362,9 +395,13 @@
     "FailureInvalidExternalReference": "Вы можете приводить ссылки на общедоступные ресурсы только из папки {0}.",
     "FailureInvalidExternalReferenceFromTemp": "Необходимо сохранить этот уровень, чтобы использовать ссылки на частные ресурсы из {0}."
   },
+  "FortBehaviorValueDetails": {
+    "PropertyField": "Имя"
+  },
   "FortBuildingActorDetails": {
     "Transaction.EditPropertyOverride": "Редактировать {0}",
     "OptionName.ItemList": "Список предметов",
+    "UserOptionsCategoryLabel.FabricLegalInfo": "Юридическая информация",
     "OptionError.MissingProperty": "Отсутствует свойство пользовательской настройки!\nСвойство: {0}\nНастройка: {1}",
     "NoItemLabel": "Нет предмета",
     "OptionError.PropertyNotEditable": "Это переходное свойство, или экземпляр не редактируемый!\nСвойство: {0}\nНастройка: {1}",
@@ -476,6 +513,7 @@
     "MakeWeaponDefinition": "Создать определение предмета оружия",
     "MakeDesignAssetDescription": "Создание ресурса для дизайна.",
     "TitleForDestructiveAction": "Изменение ресурса, связанного с UEFN",
+    "FortGameFeaturePluginProfileNone": "Никакие",
     "FortReleaseVersionSelectorOlderVersions": "Предыдущие версии",
     "FinalOptionsTooltip": "Настройки, которые будут отправлены на сервер при запуске игры в редакторе",
     "OutpostItem": "Идентификатор предмета форпоста",
@@ -485,6 +523,7 @@
     "PersistDADAssetsTooltip": "Сохраняет изменения ресурсов из DAD и записывает их в P4.",
     "PickZoneDescription": "Выбрать зону Fortnite, в которую выполняется загрузка",
     "PickZoneButton": "Выбор зоны",
+    "FortGameFeaturePluginProfile_Reset": "Сбросить",
     "RespawnDaySequenceActor": "Актор смены дня и ночи при возрождении",
     "RespawnDaySequenceActorTooltip": "Актор смены дня и ночи при возрождении",
     "CheckContentDescription": "Запускает задание проверки контента всех выбранных ресурсов для выявления ошибок и предупреждений",
@@ -512,6 +551,9 @@
     "DisplayName_NeedsFilledOut": "[Название предмета, которое видит пользователь]",
     "FortReleaseVersionSelectorDefaultVersionFormat": "{0} (по умолчанию)"
   },
+  "FortEditorSubmitTool": {
+    "ValidationTag": "#список изменений подтверждён"
+  },
   "FortEditorValidator": {
     "ContentValidationFailed": "!!!!!!! В проверенном контенте найдены ошибки. Не отправляйте контент, пока не устраните их !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных",
     "ContentValidationPassed": "Весь контент проверен, ошибок нет. Отличная работа!",
@@ -519,6 +561,9 @@
     "ContentValidationFailedWithNoMessages": "Ошибок и предупреждений не выявлено, но был код возврата из-за ошибки. См. подробности в журнале выходных данных и файле журнала. Возможно, вам понадобится техническая помощь.",
     "ValidateProjectSettings": "Проверка настройки проекта {Result}",
     "Succeeded": "УСПЕШНО"
+  },
+  "FortEditorValidatorSubsystem": {
+    "HeaderChangeAssetValidation": "{0} добавляет проверку {1} зависимых ресурсов"
   },
   "FortExposedContentValidationDashboard": {
     "CurrentValidationActors.Column.Actions": "Действия",
@@ -530,13 +575,17 @@
     "SpawnActor.Tooltip.NoValidationWorld": "Перед появлением экземпляров акторов нужно создать мир валидации",
     "SpawnPlayset.Tooltip.NoValidationWorld": "Перед появлением экземпляров игровых наборов нужно создать мир валидации",
     "CurrentManifest.LabelFmt": "Текущий манифест: {0} ({1})",
+    "PermissionLevel.EarlyAccess": "Ранний доступ",
     "EditActor.Label": "Редактировать",
     "Tab.Label": "Проверка раскрытого контента",
     "CurrentValidationActors.Column.Id": "Идентификатор",
+    "PermissionLevel.Internal": "Внутреннее",
     "CurrentValidationActors.Column.Label": "Метка",
     "ManifestManagement.Heading": "Управление манифестом",
     "None": "Нет",
     "Tab.Tooltip": "Откройте панель инструментов для выполнения открытой проверки контента",
+    "PermissionLevel.Partner": "Партнёр",
+    "PermissionLevel.Public": "Публичный",
     "SpawnPlayset.Tooltip.NoPlaysetProvider": "Перед появлением экземпляров игровых наборов нужно выбрать игровой набор",
     "SpawnActor.Tooltip.NoActorClass": "Перед появлением экземпляров акторов нужно выбрать класс акторов",
     "ValidateSelection.Tooltip.NoSelection": "Выбрать акторы, которые должны пройти валидацию в окне просмотра списка",
@@ -793,6 +842,20 @@
   "HeroAssetFormCueReferences": {
     "Check": "Проверка ссылки звуковой схемы…"
   },
+  "ItemAssetDefinition": {
+    "Inventory": "Инвентарь",
+    "AssetDefinition_InventoryDefinition": "Определение инвентаря",
+    "AssetTypeActions_InventoryDefinition": "Определение инвентаря",
+    "AssetDefinition_ItemDefinition": "Определение предмета",
+    "AssetTypeActions_ItemDefinition": "Определение предмета",
+    "AssetDefinition_ItemRequirements": "Требования элемента",
+    "AssetTypeActions_ItemRequirements": "Требования элемента",
+    "AssetDefinition_ItemType": "Тип предмета",
+    "AssetTypeActions_ItemType": "Тип предмета"
+  },
+  "ItemComponentContainerCustomization": {
+    "ComponentRowName": "Индекс: [ {0} ]"
+  },
   "ItemDefInPlaylists": {
     "Playlist": "Плейлист"
   },
@@ -856,6 +919,17 @@
     "HasCollision": "реагирует на столкновение",
     "NoCollision": "не реагирует на столкновение"
   },
+  "NPCCharacterDefinition": {
+    "MissingCharacterModifier": "Отсутствует модификатор персонажа!",
+    "MissingType": "Отсутствует тип!",
+    "DuplicatedModifier": "Несколько модификаторов типа {0}!",
+    "UnsupportedModifier": "Неподдерживаемые модификаторы типа {0} для идентификатора {1}!"
+  },
+  "NPCCharacterDefinitionComponent": {
+    "MissingCharacterModifier": "Отсутствует модификатор персонажа!",
+    "DuplicatedModifier": "Несколько модификаторов типа {0}!",
+    "UnsupportedModifier": "Неподдерживаемые модификаторы типа {0} для идентификатора {1}!"
+  },
   "OpenExternalUrl": {
     "DialogTitle": "Подтвердить внешний веб-сайт",
     "NoButton": "Нет",
@@ -887,6 +961,9 @@
   "QuestEditorHeader": {
     "CreateNewQuestAsset": "Создать новое задание",
     "MakeNextInTheSeries": "Создать следующий в серии"
+  },
+  "ResetToDefaultsButton": {
+    "ResetToDefaultToolTip": "Вернуть этому свойству значение по умолчанию."
   },
   "SAddExternalContentDialog": {
     "AddButton": "Добавить",
@@ -987,7 +1064,18 @@
     "Unknown": "Неизвестно",
     "Unknown_Tooltip": "Неизвестное состояние системы контроля версий"
   },
+  "SkeinSourceControlConflictResolutionController": {
+    "Confirm_Cancel": "Отмена",
+    "Discard_Cancel": "Отмена",
+    "Discard_Confirm": "Отказаться от изменений",
+    "LoadLevel_Cancel": "Нет",
+    "Confirm_Confirm": "Решение конфликтов",
+    "Confirm_Title": "Решение конфликтов",
+    "LoadLevel_Confirm": "Да"
+  },
   "SkeinSourceControlProvider": {
+    "ConflictWarningModal_No": "Отмена",
+    "ConflictWarningModal_CheckBoxText": "Больше не показывать это окно",
     "DataChangedDialog_CheckBoxText": "Больше не показывать это окно",
     "DataChangedDialog_ConfirmText": "OK",
     "UnsupportedOperation": "Операция '{OperationName}' не поддерживается поставщиком контроля версий '{ProviderName}'",
@@ -1002,6 +1090,17 @@
     "NoSCCThreads": "Для выполнения команды контроля версии нет доступных потоков.",
     "DataChangedDialogTitle": "Предупреждение: несовместимые данные",
     "DataChangedDialogMessage": "Локальная версия проекта более не совместима с сервером Unreal Revision Control. Изменения, сделанные локально в промежутке между обновлением версии и настоящим моментом, будут утрачены.\n\nЧтобы возобновить работу над проектом:\n\n1. Закройте проект\n2. Создайте локальную копию проекта\n3. Удалите проект из папки Fortnite Projects в своей файловой системе\n4. Повторно синхронизируйте последнюю версию проекта в каталоге проектов UEFN"
+  },
+  "SkeinSourceControlSnapshotHistoryController": {
+    "RevertAllModifiedFiles": "Вы действительно хотите возвратить все локальные изменения? Если вы продолжите, локальные изменения будут отменены и будет восстановлено состояние последнего синхронизированного снимка состояния.",
+    "CheckInDialog_CancelText": "Отмена",
+    "FurtherRewindDialog_CancelText": "Отмена",
+    "SyncLatestWhileRewound_CancelText": "Отмена",
+    "FurtherRewindDialog_CheckBoxText": "Больше не показывать это окно",
+    "Ok": "OK",
+    "RevertAllFiles_Tooltip": "Открывает диалоговое окно для возврата статуса любых изменённых ресурсов",
+    "RevertAllFiles_Label": "Возвратить все файлы",
+    "RevertAllModifiedFiles_Title": "Возвратить все локальные изменения"
   },
   "SObjectiveDebugger": {
     "Clear": "Удалить",
@@ -1033,6 +1132,7 @@
     "SeeErrorsHyperlink": "Нажмите сюда, чтобы узнать, как это исправить.",
     "CompileComplete": "Компиляция завершена.",
     "VerseDeadInstancesCheck.Continue": "Продолжить",
+    "VerseDeadInstancesCheck.CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
     "WaitForRebuildResultWithTimeoutPrompt.Error.Message": "Не удалось сформировать проект за установленное время. Подождать, пока он сформируется?",
     "CreateVerseScriptTitle": "Создать сценарий Verse",
     "EditwithVersaTile": "Редактировать в Visual Verse",
@@ -1043,6 +1143,7 @@
     "LinkComplete": "Компоновка завершена.",
     "ValidateVRIFullName": "В названии не должны использоваться недопустимые символы: {0}",
     "VerseLogTooltip": "Открыть журнал сообщений, чтобы посмотреть ошибки и статус сборки Verse",
+    "VerseDeadInstancesCheck.OpenVSCode": "Открыть в Visual Studio Code",
     "VerseExplorerToolTip": "Открыть проводник Verse для управления проектом Verse. Нажмите правой кнопкой мыши по файлам в проводнике, чтобы получить доступ к операциям управления, в том числе к добавлению и удалению файлов",
     "OpenVSCodeButtonToolTip": "Открыть текущий проект в Visual Studio Code",
     "EditWithVersaTileToolTip": "Открывает этот файл Verse в экспериментальном компоновщике Visual Verse",
@@ -1078,6 +1179,10 @@
     "SingularError": "ошибка",
     "PluralErrors": "ошибки",
     "ErrorWarningFormat": "{ErrorCount} {DiagnosticPlurality} сборки Verse"
+  },
+  "SourceControl": {
+    "SourceControl_ResolvingMine": "Разрешаются файлы в системе контроля версий…",
+    "SourceControl_ResolvingTheirs": "Разрешаются файлы в системе контроля версий…"
   },
   "SourceControl.HistoryWindow.Menu": {
     "GetRevision": "Синхронизировать версию",
@@ -1159,6 +1264,9 @@
     "Settings.SizeBreakdownView.ToolTip.ByPackage": "Просмотреть разбивку размера с группировкой по пакетам.",
     "Settings.SizeBreakdownView.ToolTip.ByType": "Просмотреть разбивку размера с группировкой по типу.",
     "SizeInMBFmt": "{0} Мбайт"
+  },
+  "SValkyrieProjectVersePathDialog": {
+    "CancelButton": "Отмена"
   },
   "SVerseTemplateDialog": {
     "CancelButton": "Отменить",
@@ -1324,22 +1432,50 @@
     "SlateBrush:Mirroring": "Как отражать изображение в режиме изображения.  Обычно это используется только для кистей динамических изображений, где исходная текстура\n          поступает из аппаратной части (например, от веб-камеры).",
     "SlateBrush:Tiling": "Как замостить изображение в режиме изображения",
     "Widget:bIsVolatile": "Если установлено значение true, предотвращается кэширование виджета, его дочерней геометрии или информации о компоновке.  Если этот виджет\nизменяет каждый кадр, но требуется, чтобы он по-прежнему находился на панели аннулирования, следует сделать его волатильным,\nа не аннулировать его каждый кадр, что помешает панели аннулирования фактически\nкогда-либо кэшировать элементы.",
+    "CommonButtonBase:bInteractableWhenSelected": "Если установлено значение true, выбранная кнопка будет активна. В противном случае взаимодействие при активном выборе отключено.",
+    "CommonButtonBase:bShouldSelectUponReceivingFocus": "Если установлено значение true, кнопка будет выбрана при получении фокуса.",
+    "CommonButtonBase:LockedHoveredSlateSoundOverride": "Опциональное переопределение звука, воспроизводимого при наведении курсора на заблокированную кнопку",
+    "CommonButtonBase:SelectedHoveredSlateSoundOverride": "Опциональное переопределение звука, воспроизводимого при наведении курсора на выбранную кнопку",
+    "CommonButtonBase:HoveredSlateSoundOverride": "Необязательное переопределение звука, воспроизводимого при наведении курсора на эту кнопку.\nТакже используется для выбранного и заблокированного наведённого состояний, если их соответствующие переопределения пусты.",
+    "CommonButtonBase:LockedPressedSlateSoundOverride": "Опциональное переопределение звука, воспроизводимого при нажатии заблокированной кнопки",
+    "CommonButtonBase:SelectedPressedSlateSoundOverride": "Опциональное переопределение звука, воспроизводимого при нажатии выбранной кнопки",
+    "CommonButtonBase:PressedSlateSoundOverride": "Опциональное переопределение звука, воспроизводимого при нажатии этой кнопки.\nТакже используется для выбранного и заблокированного нажатого состояний, если их соответствующие переопределения пусты.",
+    "CommonButtonBase:HoldData": "Значения для нажатия и удерживания, используемые для клавиатуры и мыши, геймпада и сенсорного ввода, в зависимости от текущего типа ввода",
+    "CommonButtonBase:Style": "Ссылка на ресурс стиля кнопки, определяющий стиль для нескольких размеров",
+    "CommonUserWidget:bConsumePointerInput": "Установите значение true, если нужно, чтобы указатели (курсор мыши и устройств сенсорного ввода) не могли выполнять ввод в пузырь этого виджета,",
     "Widget:bIsEnabled": "Указывает, может или нет пользователь изменять этот виджет в интерактивном режиме",
     "UserWidget:bIsFocusable": "Если этот флаг установлен в true, виджет может получать фокус при нажатии или при переходе к нему.",
     "SlateBrush:ImageSize": "Размер ресурса в единицах Slate",
     "UserWidget:ColorAndOpacity": "Цвет и непрозрачность этого виджета.  Оттеняет все дочерние виджеты.",
     "Widget:Cursor": "Курсор, который должен отображаться при наведении мыши на виджет",
+    "CommonButtonBase:TriggeringEnhancedInputAction": "Действие расширенного ввода, привязанное к этой кнопке. Стандартный диспетчер ввода активирует нажатие кнопки,\nесли было выполнено соответствующее действие",
     "UserWidget:ForegroundColor": "Цвет переднего плана виджета, наследуется вспомогательными виджетами.  Для любого свойства цвета,\nпомеченного как наследуемое, будет использоваться этот цвет.",
     "SlateBrush:ResourceObject": "Изображение для отрисовки этой кисти. Может быть UTexture, UMaterialInterface или объектом, реализующим\nAtlasedTextureInterface.",
+    "CommonButtonBase:TriggeringInputAction": "Действие ввода, привязанное к этой кнопке. Стандартный диспетчер ввода активирует нажатие кнопки,\nесли было выполнено соответствующее действие",
     "SlateBrush:Margin": "Поле для использования в режимах областей и границ",
+    "CommonButtonBase:MinHeight": "Минимальная высота кнопки (используется только в том случае, если она больше минимального значения для стиля)",
+    "CommonButtonBase:MinWidth": "Минимальная ширина кнопки (используется только в том случае, если она больше минимального значения для стиля)",
     "Widget:RenderOpacity": "Непрозрачность виджета",
     "UserWidget:Padding": "Зона отступа вокруг контента.",
     "Widget:RenderTransform": "Преобразование отрисовки виджета позволяет применять к нему произвольные двухмерные преобразования.",
     "Widget:RenderTransformPivot": "Точка поворота преобразования отрисовки управляет местом, относительно которого преобразование выполняется.\nЭто значение представляет собой нормализованную координату, относительно которой будут происходить такие действия, как вращение.",
+    "CommonButtonBase:ClickMethod": "Тип действия с мышью, которое должен выполнить пользователь, чтобы активировать нажатие кнопки",
+    "CommonButtonBase:bApplyAlphaOnDisable": "Тип действия с мышью, которое должен выполнить пользователь, чтобы активировать нажатие кнопки",
     "Widget:Visibility": "Видимость виджета",
+    "CommonButtonBase:InputPriority": "Это приоритет для TriggeringInputAction.  Действие ввода обрабатывается первым виджетом, имеющим наивысший приоритет, а другие виджеты не рассматриваются.\nКроме того, любые действия ввода с приоритетом ниже текущего значения приоритета ввода ActivatablePanel вообще не рассматриваются!\n\n@TODO: это часть устаревшего CommonUI, и её следует удалить",
     "UserWidget:TickFrequency": "Этому виджету разрешается выбирать такт. Если флажок снят, вызов такта не будет осуществляться ни при каких обстоятельствах, анимации не будут воспроизводиться правильно, а скрытые действия не будут выполняться.\nСнимайте этот флажок исключительно по причинам производительности",
     "SlateBrush:TintColor": "Изменение оттенка изображения.",
-    "Widget:ToolTipText": "Текст подсказки, который будет отображаться при наведении курсора мыши на виджет"
+    "Widget:ToolTipText": "Текст подсказки, который будет отображаться при наведении курсора мыши на виджет",
+    "CommonButtonBase:bToggleable": "True, если выбор кнопки можно отменить, щёлкнув по ней в выделенном состоянии",
+    "CommonButtonBase:bSelectable": "True, если кнопка имеет функцию удержания в состоянии «выбрано\", в связи с чем стиль будет обновляться соответственно",
+    "CommonButtonBase:bDisplayInputActionWhenNotInteractable": "Значение True, если входное действие должно отображаться при не интерактивном состоянии кнопке",
+    "CommonButtonBase:bHideInputActionWithKeyboard": "Значение True, если ввод действия должен быть скрыт, когда пользователь использует клавиатуру",
+    "CommonButtonBase:bLocked": "True, если эта кнопка заблокирована.\nНа заблокированную кнопку можно навести, на ней можно сфокусироваться и её можно нажать, но событие нажатия не будет передано.\nЛежащая в основе бизнес-логика не будет выполняться. Разработано для постепенного раскрытия",
+    "CommonButtonBase:bRequiresHold": "True, если у этой кнопки должно быть поведение нажатия и удержания, активирующее клик, когда достигнуто указанное время удержания",
+    "CommonButtonBase:bSimulateHoverOnTouchInput": "True, если эта кнопка должна запускать эффект парения при нажатии посредством сенсорного ввода",
+    "CommonButtonBase:bShouldUseFallbackDefaultInputAction": "True, если эта кнопка должна использовать стандартное резервное действие ввода (логическое значение эффективно для кнопок, которые этого не делают, поскольку их никогда не нажимают напрямую контроллером)",
+    "CommonUserWidget:bDisplayInActionBar": "Значение true используется для отображения действий виджета на панели действий, предполагается, что у виджета есть действия.",
+    "CommonButtonBase:bHideInputAction": "Следует ли постоянно скрывать виджет ввода действия (эффективно для маленьких кнопок без текста)"
   },
   "ValidateSchematics": {
     "DisplayText": "Загрузка…",
@@ -1395,6 +1531,9 @@
     "PlaysetPropItemDisplayName": "Предмет окружения сюжетной обстановки",
     "TrapDisplayName": "Предмет ловушки"
   },
+  "ValkyrieAssetContextMenu": {
+    "UnsupportedAssetSectionLabel": "Неподдерживаемые ресурсы"
+  },
   "ValkyrieAutologinStatusSplash": {
     "VKLoginStatusUpdate": "Выполняется вход…"
   },
@@ -1402,7 +1541,7 @@
     "BrowseForFolder": "Выбрать папку",
     "CancelButtonText": "Отменить",
     "ProjectBrowseTitle": "Выбрать расположение проекта",
-    "OpenLastProjectOnStartUpCheckBoxText": "Открыть последний проект при запуске",
+    "OpenLastProjectOnStartUpCheckBoxText": "Открывать последний проект при запуске",
     "ProjectLocation": "Расположение проекта",
     "ProjectName": "Название проекта"
   },
@@ -1419,14 +1558,18 @@
     "PlatformCook": "Платформа приготовления",
     "PendingChangesSummary.MissingChangesFooter": "Примените изменения, чтобы убедиться, что ваш сеанс включает все изменения.",
     "PendingChangesSummary.MissingChangesHeader": "Некоторые изменения могут не отразиться в сеансе редактирования.",
+    "VerseDiagnostics": "Диагностика Verse",
     "PendingChangesSummary.SentChangesHeader": "{0} {0}|plural(one=изменение отправлено, few=изменения отправлены, many=изменений отправлены, other=изменения отправлено) в сеанс редактирования."
   },
   "ValkyrieBeaconHost": {
     "ThrottlingVerseLogs": "Регулирование копий записей в журнале Verse"
   },
   "ValkyrieConvertIslandProjectFlow": {
+    "ConvertedBeforeWarning_Cancelled": "Отменено при получении предупреждения о выполненном ранее преобразовании острова.",
+    "ConversionWarning_Cancelled": "Отменено при получении предупреждения о проблемах с преобразованием островов.",
     "ConvertingIslandCancelled": "Отменено при создании проекта Valkyrie",
     "ConversionErrorTitleText": "Не удалось выполнить преобразование!",
+    "ConvertDialogButtonText": "Преобразовать",
     "ConversionWarningTitle": "Преобразовать остров",
     "CreatedProjectIsInvalid": "Созданный проект недействителен",
     "InvalidProjectFilePath": "Не удалось проверить проект, расположенный в \"{0}\" под названием \"{1}\": {2}",
@@ -1478,6 +1621,9 @@
     "UploadProject.FailedToRequestPrepareProjectSourceData": "Внутренняя ошибка: ошибка запроса подготовки исходных данных проекта",
     "PrepareProjectSourceDataForUpload.FailedToRequestSaveDirtyPackages": "Внутренняя ошибка: ошибка запроса сохранения пакетов с внесенными изменениями",
     "FixMissingGameFeatureData.NoProjectOpened": "Внутренняя ошибка: нет открытых проектов",
+    "PrepareProjectSourceDataForUpload.AssignProjectVersePath": "Внутренняя ошибка: нет открытых проектов",
+    "PrepareProjectSourceDataForUpload.SanitizeBlueprintAssets": "Внутренняя ошибка: нет открытых проектов",
+    "PrepareProjectSourceDataForUpload.SanitizePhysicsAssets": "Внутренняя ошибка: нет открытых проектов",
     "LocalizeProject.Error.ExportFailed": "Ошибка экспорта локализации — более подробную информацию см. в журнале",
     "StartMemorySamplingFlow.Canceled": "Подсчёт объёма памяти отменён",
     "FixMissingGameFeatureData.Canceled": "Отсутствие GameFeatureData необходимо исправить до выгрузки проекта",
@@ -1491,6 +1637,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: данные для {1} подготовлены"
   },
   "ValkyrieEditorMenus": {
+    "VkAddReferencedContent_ToolTip": "Добавить контент по ссылке в проект",
+    "VkAddReferencedContent": "Добавить контент по ссылке…",
     "CancelLoading": "Отменить загрузку",
     "ValkyrieProjectMenu_ToolTip": "Управляйте своим проектом, изменяйте и публикуйте его с помощью элементов этого меню.",
     "LiveEditWarningWindowText": "Изменение проекта и запуск сеанса могут привести к тому, что соавторы получат доступ к контенту нового проекта. Чтобы избежать этого, закройте все ваши клиенты Fortnite, работающие на этом ПК и других платформах, прежде чем загружать другой проект. Нажмите «Отмена», чтобы выйти из клиентов Fortnite, прежде чем загружать новый проект",
@@ -1506,7 +1654,6 @@
     "ExportProjectLocalization.Tooltip": "Собрать локализованный текст в рамках данного проекта и обновить файлы перевода PO.",
     "LocalizationSectionLabel": "Локализация",
     "ExportProjectLocalization.SuccessMessage": "Данные локализации успешно обновлены.\n\nПерейти в папку с данными локализации?",
-    "SetAsCurrentProjectTooltip": "Назначить этот проект текущим",
     "ValkyrieOpenProject": "Новый/открыть проект…",
     "NewsWindowTitle": "Новости",
     "ValkyrieOpenProjectFolder": "Открыть папку проекта…",
@@ -1524,11 +1671,12 @@
     "RemoveProjectPluginsTooltip": "Удалить контент из проекта",
     "RemoveReferenceContentLabel": "Удалить контент, на который приводится ссылка",
     "RemoveReferenceContentTooltip": "Удалить контент, на который приводится ссылка, из проекта",
+    "ReportContent_Label": "Пожаловаться на контент",
     "ValkyrieRestrictiveMode": "Ограниченный режим",
-    "SetAsCurrentProjectLabel": "Задать как текущий проект",
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
     "ToggleVerseComponentMode_ToolTip": "Переключить режим компонента Verse",
+    "UploadToTestCodeMessage": "Выгрузка закрытой версии…",
     "ToggleVerseComponentMode": "Компоненты Verse",
     "ValkyrieProjectSize_Tooltip": "Посмотреть размер проекта с разбивкой по категориям",
     "LiveEditWarningTitle": "Предупреждение"
@@ -1577,22 +1725,6 @@
     "ValkyrieEulaTitle": "ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ",
     "EulaScrollMessage": "Внимательно прочитайте следующее лицензионное соглашение и прокрутите вниз до конца."
   },
-  "ValkyrieExternalContentLoader": {
-    "Cancel": "Отмена",
-    "ExternalContentCannotBeFound": "Не удалось найти контент",
-    "ExternalContentNoProjectId": "Контент не существует",
-    "ExternalContentEntitlementRequired": "Необходимы права на контент",
-    "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
-    "CookingExternalContent": "Конвертация контента, на который имеется ссылка, в формат платформы",
-    "DownloadingExternalContent": "Загрузка контента, на который имеется ссылка",
-    "FetchingExternalContentInfo": "Получение информации о контенте, на который имеется ссылка",
-    "GettingLinkCode": "Получение кода ссылки",
-    "InvalidExternalContentId": "Недопустимый формат идентификатора контента, на который имеется ссылка",
-    "LoadedExternalContent": "Загруженный контент, на который имеется ссылка",
-    "LoadingExternalContent": "Загрузка контента, на который имеется ссылка",
-    "PreparingCookExternalContent": "Подготовка к конвертации контента, на который имеется ссылка",
-    "ShowMessageLogHyperlink": "Показать журнал выходных данных"
-  },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
     "EmptyProjectId": "Попытка получить остров с идентификатором пустого проекта",
@@ -1631,6 +1763,7 @@
     "InvalidPermissionsFound": "У {0}({1}) отсутствуют права доступа.\n\nИспользуются максимально допустимые права доступа.\n\nСвяжитесь со службой поддержки Epic, чтобы устранить ошибку."
   },
   "ValkyrieFortniteEditorFlows": {
+    "PrepareUploadProject.Error.InternalError": "Внутренняя ошибка",
     "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "PrepareProjectSourceDataForUpload.FailCleanupIntermediateAssets": "Внутренняя ошибка: нет открытых проектов",
     "UploadProject.Error.NoProject": "Нет загруженных проектов"
@@ -1658,6 +1791,7 @@
     "CreateBuild.MemoryCheckWarning": "Перед публикацией на творческом портале вы должны запустить расчёт памяти.\nВернитесь на эту стадию после создания окончательной закрытой версии для проверки использования вашим проектом памяти.\nВаш результат расчёта памяти будет обновлён на творческом портале, что позволит вам опубликовать ваш проект.\n<a id=\"memory_management_docs\" href=\"{0}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>",
     "ValkyrieBindToNewProjectOnContentService_MenuEntry": "Привязать к новому проекту в сервисе управления контентом",
     "MemorySamplingStateDialog.CalculateAnywayButton": "Всё равно подсчитать",
+    "MemorySamplingDialog.ConfirmButton": "Расчёт памяти",
     "CreateBuild.CancelButton": "Отменить",
     "MemorySamplingDialog.CancelButton": "Отмена",
     "MemorySamplingStateDialog.CancelButton": "Отмена",
@@ -1686,7 +1820,9 @@
     "ValkyriePlaySubMenuPlayOptionsSection": "Настройки игры для разработчика",
     "ValkyriePlaySubMenuDevSection": "Статус разработчика",
     "ValkyriePlaySubMenuSyncSection": "Синхронизация разработчика",
+    "OnMemoryTestResultsReceived.ButtonDismiss": "Игнорировать",
     "CreateBuild.Done": "Готово",
+    "ShowMemorySamplingResultModal.Done": "Готово",
     "ValkyrieLiveEdit_ToolTip_Base": "Включить или отключить внесение изменений по сети окрытом сеансе игры при редактировании.",
     "StopGameLabel": "Завершить игру",
     "StopGameToolTip": "Игра останавливается, но просмотр сеанса остается открытым.",
@@ -1727,11 +1863,13 @@
     "ManageTeam": "Управление командой…",
     "MemorySamplingDialog.Title": "Подсчёт объёма памяти",
     "MemorySamplingStateDialog.Title": "Подсчёт объёма памяти",
+    "ShowMemorySamplingResultModal.Title": "Подсчёт объёма памяти",
     "PushChangesButtonToolTip_MemorySamplerInProgress": "Выполняется расчёт памяти.",
     "RefreshButtonToolTip_MemorySamplerInProgress": "Выполняется расчёт памяти.",
     "StartActionToolTipMemorySamplerInProgress": "Выполняется расчёт памяти.",
     "ValkyrieMemorySamplingInProgress_ToolTip": "Расчёт памяти уже выполняется.",
     "ValkyrieMemorySamplerNotReady_ToolTip": "Выборка памяти ещё не готова.",
+    "ShowMemorySamplingResultModal.MemoryRatio": "Используемая память: {0} / {1}",
     "MemorySamplingDialog.Message": "Подсчёт количества памяти автоматически запускается после выгрузки частной версии. Чтобы продолжить, нажмите ниже.",
     "MemorySamplingStateDialog.Failure": "Память уже рассчитана, и проект превышает выделенный объём памяти.\n\n{0}\n\nС момента последнего подсчёта вы не внесли никаких изменений в свой проект. Необходимо внести изменения, чтобы уменьшить потребление памяти.",
     "ValkyrieDebugSession_Tooltip": "НЕ РЕАЛИЗОВАНО",
@@ -1767,6 +1905,7 @@
     "CreateBuild.BuildCodeLabel": "Закрытая версия",
     "CreateBuild.SuccessTitle": "Закрытая версия создана!",
     "ValkyrieProjectSubMenuProjectSection": "Проект",
+    "CreateBuildPublicVersionButtonText": "Опубликовать",
     "PublishProjectDialogTitle": "Опубликовать проект",
     "PublishProjectMenu": "Опубликовать проект…",
     "PublishProjectMessage": "Публикация проекта…",
@@ -1821,6 +1960,7 @@
     "Play.Error.Title": "Запуск игры невозможен",
     "Refresh.Error.Title": "Не удалось обновить",
     "CreateBuild.UploadButton": "Выгрузить",
+    "CreateBuildPrivateVersionButtonText": "Выгрузить",
     "PlayStatusWidget_StatusUptoDate": "Выгрузка завершена.",
     "ValkyrieUploadProject_MenuEntry": "Выгрузка проекта",
     "ValkyrieUploadProject_MenuEntry_ToolTip": "Выгрузка текущего проекта в сервис управления контентом",
@@ -1828,6 +1968,7 @@
     "UploadToTestCode": "Выгрузить закрытую версию…",
     "UploadToTestCodeMessage": "Выгрузка закрытой версии…",
     "PlayStatusWidget_StatusSpinner": "Выгрузка…",
+    "UtilityMenu": "Утилита",
     "ValkyrieValidateProject_MenuEntry": "Проверка проекта",
     "ValkyrieValidateProject_MenuEntry_ToolTip": "Проверка текущего проекта",
     "ValkyrieFortniteEditor": "Команды Fortnite Editor Valkyrie",
@@ -1844,6 +1985,12 @@
     "CreateBuild.PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут.",
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionError": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
+  },
+  "ValkyrieFortniteIslandTemplatesController": {
+    "EmptyTemplateMapDescriptionText": "Абсолютно пустой уровень.",
+    "CreateProjectActionText": "Создать",
+    "EmptyLevelDisplayNameText": "Пустой уровень",
+    "DisplayNameText": "Шаблоны острова"
   },
   "ValkyrieImportIslandDialog": {
     "CancelButtonText": "Отмена",
@@ -1887,16 +2034,11 @@
     "OpenProjectActionText": "Открыть",
     "LocalSkeinProjectAnnotationText": "У этого проекта имеется резервная копия в системе контроля версий Unreal Revision Control."
   },
-  "ValkyrieMapTemplatesController": {
-    "EmptyTemplateMapDescriptionText": "Абсолютно пустой уровень.",
-    "CreateProjectActionText": "Создать",
-    "EmptyLevelDisplayNameText": "Пустой уровень",
-    "DisplayNameText": "Шаблоны островов"
-  },
   "ValkyrieOnlineAccount": {
     "ValkyrieApplyPreferredQosSettings": "Идёт применение предпочтений региона…",
     "ValkyrieQueryOwnership": "Проверка прав на элемент…",
     "ValkyrieDownloadingClientSettings": "Идёт загрузка настроек клиента…",
+    "SupervisedSettingsDownloadFailedMsg": "Не удалось загрузить контролируемые параметры.",
     "ValkyrieFetchCreativeProfile": "Получение профиля творческого режима…",
     "ValkyrieFetchExchangeCode": "Получение кода обмена…",
     "ValkyrieEOSPrimaryLogin": "Вход в Epic Online Services…",
@@ -1918,9 +2060,12 @@
   "ValkyrieProject": {
     "ContentRemoval.ReferencedAssets": "\tРесурсы, на которые имеется ссылка:",
     "ContentRemoval.ReferencingAssets": "\tСсылающиеся ресурсы:",
+    "PluginWriteErrorsEllipsis": "…",
     "AddPluginsTask": "Добавление плагинов…",
     "PluginRemovalQuestion": "Удалить следующий контент из проекта?",
     "ExternalContentRemovalQuestion": "Удалить этот контент, на который приводится ссылка?",
+    "Cancel": "Отмена",
+    "ProjectVersePathConfirmation.CancelButton": "Отмена",
     "AddReferencedContent.ProjectNotOpened": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПроект '{1}' не открыт",
     "AddReferencedContent.NotPermitted": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПользователь не имеет соответствующих прав",
     "AddReferencedContent.UserNotLoggedIn": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПользователь не вошёл в систему",
@@ -1933,6 +2078,7 @@
     "ContentRemoval": "Удаление контента",
     "ContentRemovalPage": "Удаление контента",
     "RemovePublicApiErrorNotif": "Не удалось удалить общедоступный API проекта",
+    "RefContentFailNotif.Dismiss": "Игнорировать",
     "VKPluginNotExplicitlyLoaded": "Значение ExplicitlyLoaded в дескрипторе плагина {0} должно быть установлено на «TRUE»\n{1}",
     "RemoveReferencedContentWarning": "Настоятельно рекомендуется сначала удалить эти ссылки (см. полный список в журналах).\n\nПри удалении этого контента проект перезагрузится, но некоторые из его ресурсов могут быть повреждены или не загружаться.\n\n",
     "LoadProjectPlugins": "Идёт загрузка плагинов проекта...",
@@ -1944,7 +2090,10 @@
     "InvalidVKProjectFileName": "Недопустимое название файла проекта\n{0}",
     "VerifyLivePublicAssetsNoContentService": "Для проверки работы общедоступного API вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "PublicPluginOnlyInLibrary": "В проекте {0} можно использовать только общедоступные плагины",
+    "RefContentFailNotif.Remove": "Удалить контент, на который приводится ссылка",
     "RemovingProjectPublicApi": "Удаление общедоступного API проекта…",
+    "ShowMessageLogHyperlink": "Показать журнал выходных данных",
+    "ShowOutputLogHyperlink": "Показать журнал выходных данных",
     "ContentRemoval.AssetsReferencingContent": "Некоторые ресурсы всё ещё ссылаются на этот контент:",
     "RemovePublicApiFailedToLoadAssets": "Не удалось загрузить некоторые общедоступные ресурсы. Возможно, их нужно удалить (см. подробности в журнале)",
     "RemovePublicApiFailedToSaveAssets": "Не удалось сохранить некоторые общедоступные ресурсы, которые создавались как частные (см. подробности в журнале)",
@@ -1958,10 +2107,11 @@
     "CloseEditorTitle": "Закрыть редактор",
     "CommunityButtonText": "Сообщество",
     "DocumentationButtonText": "Документация",
+    "GettingStartedButtonText": "Начало работы"
+  },
+  "ValkyrieProjectBrowserBuilder": {
     "FeatureExamplesControllerDisplayName": "Демонстрация возможностей",
-    "GettingStartedButtonText": "Начало работы",
     "UserTemplatesControllerDisplayName": "Мои шаблоны",
-    "OfflineDisplayNameText": "Локально",
     "SampleProjectsControllerDisplayName": "Примеры проектов"
   },
   "ValkyrieProjectBrowserStartupFlow": {
@@ -1970,6 +2120,7 @@
   },
   "ValkyrieProjectCreationDefaults": {
     "CreateTeamHyperlinkText": "Создать команду…",
+    "UseNewInventorySystemHyperlinkText": "Подробнее",
     "NoSelectedTeamText": "Не выбрано",
     "ProjectDefaults": "Настройки проекта по умолчанию",
     "TeamSelectionText": "Выбор команды",
@@ -2022,6 +2173,7 @@
     "CreateProjectTask": "Создание проекта {0}…",
     "DeleteProjectTask": "Удаление проекта '{0}'…",
     "CopyTemplatePluginAssets.DiscoveringAssets": "Идёт обнаружение ресурсов…",
+    "ExternalContentLoadFail.EditorPref": "Настройки редактора",
     "FailBranchVKProject": "Не удалось создать ветку проекта\n{0}\n\n{1}",
     "FailCloseVKProject": "Не удалось закрыть текущий проект",
     "FailedToCloseTemplateProject": "Не удалось закрыть проект {0}. Невозможно создать ветку проекта в {1}",
@@ -2038,7 +2190,6 @@
     "InitialSnapshot": "Начальный снимок состояния",
     "ProjectTrustDialog.NoButton": "Нет, я не доверяю авторам",
     "OpenProjectTask": "Открытие проекта {0}…",
-    "ProjectTrustDialog.Message": "Открытие этого проекта может запустить файлы, которые могут быть опасны для вашего компьютера.\n\nВы доверяете авторам файлов этого проекта?",
     "CreatePlugin.DestinationDirectoryNotUnderProject": "Целевой каталог плагина должен находиться в каталоге проекта",
     "CopyTemplatePluginAssets.PreparingAssets": "Идёт подготовка ресурсов…",
     "VKProjectAlreadyExists": "В этом месте уже есть проект",
@@ -2054,22 +2205,16 @@
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "CreateProject.SyncWithContentService": "Синхронизация с сервисом управления контентом…",
     "OpenProject.SyncWithContentService": "Синхронизация с сервисом управления контентом…",
-    "VkProjectVersionUpgrade": "Версия этого проекта {0}, а версия движка — {1}\n\nВы можете открыть этот проект, но при сохранении его версия будет обновлена.\nПосле этого вы не сможете открыть его в более ранних версиях движка.\n\nПродолжить?",
     "MissingTemplateProject": "Невозможно создать ветку проекта в {0}. Для ведения ветки необходим шаблон проекта",
     "ProjectTrustDialog.Title": "Проверка безопасности Unreal Editor",
     "CreatePlugin.NoDestinationDirectory": "Не указано название каталога плагина",
     "CreatePlugin.MissingName": "Не указано название плагина",
+    "ExternalContentLoadFail.Title": "Внимание",
     "ProjectTrustDialog.YesButton": "Да, я доверяю авторам",
     "CreateProjectWithExternalDepsNotPermitted": "У вас недостаточно прав доступа, чтобы создавать проект с контентом, на который приводится ссылка",
     "OpenProjectExternalDepsNotPermittedError": "У вас недостаточно прав доступа, чтобы загрузить проект с контентом, на который приводится ссылка",
-    "OpenProjectExternalDepsNotPermittedMsg": "У вас недостаточно прав для загрузки проекта со ссылками на контент, на который приводится ссылка\nРесурсы проекта могут загрузиться неправильно, а при их сохранении ссылки на отсутствующие ресурсы могут быть удалены.\n\nПродолжить?",
-    "VkProjectKindNotPermitted": "У вас недостаточно прав доступа к выполнению проектов следующего типа: {0}\n\nПродолжить?",
     "CreateProjectWithExternalDepsNotLoggedIn": "Чтобы создать проект с контентом, на который приводится ссылка, нужно войти в учётную запись",
-    "OpenProjectExternalDepsRequiresLoginError": "Чтобы загрузить проект с контентом, на который приводится ссылка, нужно войти в учётную запись",
-    "OpenProjectExternalDepsRequiresLoginMsg": "Чтобы загрузить проект с контентом, на который приводится ссылка, нужно войти в учётную запись\nРесурсы проекта могут загрузиться неправильно, а при их сохранении ссылки на отсутствующие ресурсы могут быть удалены.\n\nОткрыть проект, несмотря на это?",
-    "VkMissingPermissionToOpenProject": "Для полноценного редактирования этого проекта вам необходимы права доступа к {0}\n\nПродолжить?",
-    "MultiPluginProjectNotPermitted": "{0}\n\nПродолжить?",
-    "VkProjectRequiresEpicApp": "Для работы над этим проектом необходимо использовать {0} (сейчас на {1})\n\nПродолжить?"
+    "OpenProjectExternalDepsRequiresLoginError": "Чтобы загрузить проект с контентом, на который приводится ссылка, нужно войти в учётную запись"
   },
   "ValkyrieProjectsController": {
     "ArchiveProjectContextMenuEntry": "В архив",
@@ -2077,6 +2222,7 @@
     "BrowseButtonText": "Обзор…",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
+    "OfflineDisplayNameText": "Локально",
     "OpenProjectActionText": "Открыть",
     "LoadingProjectDocumentMessage": "Получение информации о проекте...",
     "BrowseForProjectOnDiskTitleText": "Выбор проекта, который нужно открыть",
@@ -2097,9 +2243,11 @@
     "ProjectSizeTabToolTip": "Посмотреть размер проекта с разбивкой по категориям"
   },
   "ValkyrieProjectStagingContext": {
+    "Cancel": "Отмена",
     "FailLoadBindings": "Не удалось загрузить привязки для проекта {0}",
     "FailSyncWithContentServiceNotLoggedIn": "Не удалось синхронизировать проект {0} с сервисом управления контентом, так как пользователь не вошел в систему\nОшибка: {1}",
     "UnauthorizedAccessDialog.No": "Нет, оставить как есть",
+    "OpenCreatorPortal": "Открывает Творческий портал",
     "UnauthorizedAccess.Title": "Несанкционированный доступ",
     "UnauthorizedAccessDialog.Yes": "Да, изменить проект",
     "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту {0} в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
@@ -2115,8 +2263,12 @@
     "VKFailLoadPluginWithExistingName": "Не удалось загрузить плагин\n{0}\n\nПлагин с именем {1} уже зарегистрирован здесь:\n{2}",
     "VKFailLoadGameFeaturePlugin": "Не удалось загрузить плагин\n{0}\n\n{1}",
     "VKFailLoadPlugin": "Не удалось загрузить плагин\n{0}\n{1}",
+    "RemapLocalVsReferencedContent.FailedToLoadAsset": "Не удалось загрузить {0}",
+    "RemapLocalVsReferencedContent.FailedToRemap": "Не удалось переназначить ссылки в {0}",
+    "RemapLocalVsReferencedContent.FailSave": "Не удалось сохранить некоторые ресурсы (см. журнал сообщений)",
     "VKFailTerminateGameFeaturePlugin": "Не удалось завершить плагин игровой функции, в котором произошла ошибка \n{0}\n\n{1}",
     "FixingProjectSlowTask": "Идёт исправление проекта...",
+    "RemapLocalVsReferencedContent.NothingToRemap": "Нет ссылок для переназначения!",
     "PluginTerm": "Плагин",
     "VKPluginIsStillMounted": "Плагин всё ещё смонтирован",
     "VkNewPluginNameInUse": "Название плагина уже используется",
@@ -2125,8 +2277,17 @@
     "VKProjectFolderIsFile": "Недопустимая папка проекта. Мешает следующий файл:\n{0}",
     "VKProjectFolderNotEmpty": "Папка проекта должна быть пустой\n{0}",
     "VKProjectLocationIsNotValidPath": "Недопустимое расположение проекта\n{0}",
+    "RemapLocalVsReferencedContent.ProjectIsNotOpened": "Проект должен быть открыт",
     "VkNewProjectNameInUse": "Название проекта уже используется",
     "ProjectMissingGameFeatureData": "Проект {0} не работает, потому что в нём нет GameFeatureData.\n\nИсправить автоматически?",
+    "RemapLocalContentToReferencedContentLog": "Переназначить локальный контент на контент, указанный в ссылке",
+    "RemapLocalContentToReferencedContentPage": "Переназначить локальный контент на контент, указанный в ссылке",
+    "RemapLocalVsReferencedContent.Cancelled": "Сохранение переназначенных ссылок ресурса отменено",
+    "ShowMessageLogHyperlink": "Показать журнал выходных данных",
+    "RemapLocalVsReferencedContent.Success": "Ссылки на ресурсы успешно переназначены",
+    "RemapLocalVsReferencedContent.NoRootPlugin": "В проекте нет корневого плагина",
+    "RemapLocalVsReferencedContent.SinglePluginProject": "Нет контента для переназначения, так как в проекте всего один плагин",
+    "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Непредвиденная ошибка переназначения {0}",
     "VKUnloadPlugins": "Идёт выгрузка плагинов...",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "VKPluginNameTooLong": "{0} не может иметь название, в котором количество символов больше {1}",
@@ -2239,7 +2400,10 @@
   },
   "VerseDevicesEditorModule": {
     "RebuildToFixBuildErrors.Cancel": "Закрыть карту",
+    "RebuildToFixValidationErrors.CloseMap": "Закрыть карту",
     "RebuildToFixBuildErrors.Continue": "Продолжить",
+    "RebuildToFixValidationErrors.Continue": "Продолжить",
+    "RebuildToFixValidationErrors.CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
     "OnEditorMapLoad.Error.Message": "При открытии карты возникла ошибка(-и) сборки Verse\n{0}\n\n\"При сохранении ресурсов проекта, использующих Verse, некоторые данные в них могут быть утеряны, а устройства Verse могут не работать, пока ошибки не будут устранены и не будет выполнена повторная сборка",
     "OnEditorMapLoad.Error.Notification": "Не удалось загрузить карту из-за ошибки(-ок) проверки Verse. Исправьте ошибки и перезагрузите карту",
     "RebuildToFixBuildErrors.OpenVSCode": "Открыть в Visual Studio Code",
@@ -2256,6 +2420,22 @@
   },
   "VersePropCustomization": {
     "SetPropAssetTransaction": "Редактировать ресурс предмета окружения"
+  },
+  "VkBackNodeDetails": {
+    "Category": "Диалог"
+  },
+  "VkContinueNodeDetails": {
+    "Category": "Диалог"
+  },
+  "VkRepeatNodeDetails": {
+    "Category": "Диалог"
+  },
+  "VkRestartNodeDetails": {
+    "Category": "Диалог"
+  },
+  "VkSpeechNodeDetails": {
+    "Category": "Диалог",
+    "MessageName": "Сообщение"
   },
   "VSCodeNotFound": {
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
