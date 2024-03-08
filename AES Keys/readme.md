@@ -1,6 +1,6 @@
 # Main AES Keys
 
-[Latest AES Key](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/readme.md#chapter-5-season-1)
+[Latest AES Key](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/readme.md#chapter-5-season-2)
 
 ## Cert
 
@@ -350,3 +350,9 @@
 | [28.10](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/28.10.md) | 0xA55ABC6F7E1D7F696861F47A140C79A9A276974CAF3314CDF61182C85F6FE56C |
 | [28.20](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/28.20.md) | 0x2615E4242EF7903730AE011FF6F49DA42B0EF62A101D63928D79A9BB8F245ABB |
 | [28.30](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/28.30.md) | 0x3C6DEEBD76ED5FFB91B0B3938C30C4AF7442E59345ACD53FC6F480ACB8AE0462 |
+
+## Chapter 5 Season 2
+
+|                                             Version                                              | Key                                                                |
+|:------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
+| [29.00](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/29.00.md) | ? |
