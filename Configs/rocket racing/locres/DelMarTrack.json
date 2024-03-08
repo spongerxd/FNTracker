@@ -1,4 +1,8 @@
 {
+  "": {
+    "AEC3E5D145654881107EABA1385B7959": "Активирует выбранную трассу, когда болид заходит в эту область. Используется на трассах без рельефа.",
+    "9F99EFB641D35FBC23B43D816B0D87D3": "Активная область трассы RR"
+  },
   "DelMarSelectedNodesWidget": {
     "ChangeShapeOfMultipleNodes": "Изменить форму нескольких точек",
     "DeleteMultipleNodeConfirmation": "Удалить несколько точек?",
@@ -17,13 +21,11 @@
     "SplitNodeConfirmation": "Разделить у точки?"
   },
   "DelMarStyleEditorWidget": {
-    "Bounds": "Границы",
     "Device": "Устройство",
     "DeviceProperties": "Параметры устройства",
-    "EditBounds": "Изменить границы",
     "EditDevice": "Редактирование устройства",
     "EditTrack": "Редактирование трассы",
-    "GlobalTrackBounds": "Глобальные границы трассы",
+    "Looping Track": "Зацикленная трасса",
     "None": "Нет",
     "RoadStyle": "Стиль дороги",
     "SelectSplinePoints": "Выбранные точки на сплайне",
@@ -64,6 +66,7 @@
   },
   "SDelMarRoadShapeWidget": {
     "BankedRoad": "Дорога с уклоном",
+    "Change Road Shape": "Изменить форму дороги",
     "FlatRoad": "Плоская дорога",
     "HalfPipe": "Половина трубы",
     "Pipe": "Труба",
