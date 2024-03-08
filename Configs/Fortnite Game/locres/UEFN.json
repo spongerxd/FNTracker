@@ -198,7 +198,6 @@
   },
   "DaySequenceEditor": {
     "DaySequenceActionsHeader": "Действия",
-    "ComponentsSection": "Компоненты",
     "EnvironmentSettings": "Окружение",
     "General": "Общее",
     "DaySequencePreviewHeader": "Для предпросмотра",
@@ -324,21 +323,20 @@
     "ExternalContentNoProjectId": "Контент не существует",
     "ExternalContentEntitlementRequired": "Необходимы права на контент",
     "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
-    "CookingExternalContent": "Конвертация контента, на который имеется ссылка, в формат платформы",
-    "DownloadingExternalContent": "Загрузка контента, на который имеется ссылка",
-    "FetchingExternalContentInfo": "Получение информации о контенте, на который имеется ссылка",
+    "CookingExternalContent": "Конвертация внешнего контента в формат платформы",
+    "DownloadingExternalContent": "Загрузка внешнего контента",
+    "FetchingExternalContentInfo": "Получение информации о внешнем контенте",
     "GettingLinkCode": "Получение кода ссылки",
-    "InvalidExternalContentId": "Недопустимый формат идентификатора контента, на который имеется ссылка",
-    "LoadedExternalContent": "Загруженный контент, на который имеется ссылка",
-    "LoadingExternalContent": "Загрузка контента, на который имеется ссылка",
-    "PreparingCookExternalContent": "Подготовка к конвертации контента, на который имеется ссылка"
+    "InvalidExternalContentId": "Недопустимый формат идентификатора внешнего контента",
+    "LoadedExternalContent": "Загруженный внешний контент",
+    "LoadingExternalContent": "Загрузка внешнего контента",
+    "PreparingCookExternalContent": "Подготовка к конвертации внешнего контента"
   },
   "Fab": {
     "Fab.AlphaLabel": "Fab (альфа-версия)",
     "FabSettingsLabel": "Настройки Fab (альфа-версия)",
     "WebBrowserModuleNotEnabled": "Не удалось загрузить подключаемый модуль. Для использования Emporium включите WebBrowserWindow в диспетчере подключаемых модулей.",
     "GetContentText": "Получить контент",
-    "LevelEditorMenuSectionLabel": "Получить контент",
     "Fab.Tooltip": "Получить контент от Fab",
     "Fab.AlphaTooltip": "Получить контент из Fab (альфа-версия)",
     "Fab.TooltipLoggedOut": "Для получения контента от Fab необходимо войти в систему",
@@ -470,7 +468,6 @@
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
     "AssetsStillScanningError": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
-    "FortReleaseVersionSelector_Tooltip": "Изменить версию выпуска Fortnite Можно изменить только в главном меню.",
     "CheckContentButton": "Проверить контент",
     "ConvertAnimSequencePlaySoundToEmoteSound": "Преобразовать метки анимации PlaySound в EmoteSound",
     "ConvertPlaySoundToFortEmoteSound": "Преобразовать метки анимации PlaySound в EmoteSound",
@@ -614,7 +611,6 @@
   },
   "FortLevelEditorDragDropHandler": {
     "ContentBundleInLevelInstance": "Не удалось перенести контент из {0} в экземпляр уровня {1}. Вместо этого поместите его в {2}. Акторы плагинов невозможно разместить в экземпляре уровня.",
-    "ActivateContentBunbdleSucceded": "Пакет контента \"{0}\" редактируется",
     "ChangedCurrentLevel": "Текущий уровень изменен {0}",
     "ActivateContentBundlefailed": "Не удалось активировать пакет контента \"{0}\" для плагина {1}. Статус должен быть \"{2}\" или \"{3}\". Сейчас — \"{4}\".",
     "CreateNewOverlayFailed": "Не удалось создать новый наложенный слой уровня для {0}.\nНазвание:{1}\nПуть к пакету:{2}",
@@ -843,18 +839,7 @@
     "Check": "Проверка ссылки звуковой схемы…"
   },
   "ItemAssetDefinition": {
-    "Inventory": "Инвентарь",
-    "AssetDefinition_InventoryDefinition": "Определение инвентаря",
-    "AssetTypeActions_InventoryDefinition": "Определение инвентаря",
-    "AssetDefinition_ItemDefinition": "Определение предмета",
-    "AssetTypeActions_ItemDefinition": "Определение предмета",
-    "AssetDefinition_ItemRequirements": "Требования элемента",
-    "AssetTypeActions_ItemRequirements": "Требования элемента",
-    "AssetDefinition_ItemType": "Тип предмета",
-    "AssetTypeActions_ItemType": "Тип предмета"
-  },
-  "ItemComponentContainerCustomization": {
-    "ComponentRowName": "Индекс: [ {0} ]"
+    "Inventory": "Инвентарь"
   },
   "ItemDefInPlaylists": {
     "Playlist": "Плейлист"
@@ -967,11 +952,11 @@
   },
   "SAddExternalContentDialog": {
     "AddButton": "Добавить",
-    "DialogTitle": "Добавить контент по ссылке",
+    "DialogTitle": "Добавить внешний контент",
     "CancelButton": "Отменить",
-    "UserNotLoggedIn": "Не удалось запросить контент, на который приводится ссылка: пользователь не вошел в систему",
+    "UserNotLoggedIn": "Не удалось запросить внешний контент: пользователь не вошёл в систему",
     "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)",
-    "InvalidExternalContentId": "Недопустимый идентификатор контента, на который приводится ссылка"
+    "InvalidExternalContentId": "Недопустимый идентификатор внешнего контента"
   },
   "ScriptDeviceActorDetails": {
     "MissingScriptMessage": "Не удалось загрузить класс Verse. Исправьте ошибки компиляции Verse, затем закройте и снова откройте проект.\nЕсли проблема сохраняется или компиляция выполнена без ошибок, возможно, этот класс удалили, перенесли или переименовали. Если вы хотите восстановить это устройство, вам может потребоваться вернуть код Verse к состоянию, которое было перед сохранением уровня.\nСохранение в таком состоянии может привести к потере данных и означает необходимость замены или удаления устройства."
@@ -1332,7 +1317,6 @@
     "UploadProjectsStart": "Выгрузка проектов",
     "UploadRate": "Выгрузка {0}/{1}МБайт, {2}МБайт/с",
     "ProjectDepsNotPermitted": "Пользователь не имеет полномочий на выгрузку проекта с внешними зависимыми файлами",
-    "ValidatingProject": "Проверка проекта…",
     "ProjectRequiresEpicApp": " Для работы над этим проектом необходимо использовать {0} (сейчас на {1})"
   },
   "UFortQuestItemDefComponentEditor_Objective": {
@@ -1591,7 +1575,7 @@
   "ValkyrieEditor": {
     "MemoryTestResults": "Результаты теста памяти",
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
-    "InvalidReferenceToAnotherProject": "Проект {0} не может содержать ссылок на ресурсы локального проекта {1}\nСсылки на другой проект могут приводиться только через контент, на который приводится ссылка",
+    "InvalidReferenceToAnotherProject": "Проект {0} не может содержать внешние ресурсы из локального проекта {1}\nСсылки на другой проект могут приводиться только через внешний контент",
     "InvalidReferenceToPlugin": "Проект {0} не может ссылаться на плагин {1}",
     "InvalidReferenceToPrivatePlugin": "Проект {0} не может ссылаться на частный плагин {1}",
     "InvalidReferenceToAssetWithNoAlias": "Проект {1} не может ссылаться на ресурс, не имеющий псевдонима",
@@ -1637,8 +1621,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: данные для {1} подготовлены"
   },
   "ValkyrieEditorMenus": {
-    "VkAddReferencedContent_ToolTip": "Добавить контент по ссылке в проект",
-    "VkAddReferencedContent": "Добавить контент по ссылке…",
+    "VkAddReferencedContent_ToolTip": "Добавить внешний контент в проект",
+    "VkAddReferencedContent": "Добавить внешний контент…",
     "CancelLoading": "Отменить загрузку",
     "ValkyrieProjectMenu_ToolTip": "Управляйте своим проектом, изменяйте и публикуйте его с помощью элементов этого меню.",
     "LiveEditWarningWindowText": "Изменение проекта и запуск сеанса могут привести к тому, что соавторы получат доступ к контенту нового проекта. Чтобы избежать этого, закройте все ваши клиенты Fortnite, работающие на этом ПК и других платформах, прежде чем загружать другой проект. Нажмите «Отмена», чтобы выйти из клиентов Fortnite, прежде чем загружать новый проект",
@@ -1663,14 +1647,14 @@
     "ValkyrieProjectMenu_Label": "Проект",
     "ValkyrieProjectSubMenuProjectSection": "Проект",
     "ProjectBrowserWindowTitle": "Каталог проектов",
-    "ProjectReferenceContentSectionLabel": "Контент, на которые приводится ссылка в проекте",
+    "ProjectReferenceContentSectionLabel": "Внешний контент из проекта",
     "ValkyrieProjectSettings": "Настройки проекта",
     "ValkyrieProjectSize": "Размер проекта",
     "VkProjectSubMenuReferencesSection": "Ссылки",
     "RemoveProjectPluginsLabel": "Удалить контент",
     "RemoveProjectPluginsTooltip": "Удалить контент из проекта",
-    "RemoveReferenceContentLabel": "Удалить контент, на который приводится ссылка",
-    "RemoveReferenceContentTooltip": "Удалить контент, на который приводится ссылка, из проекта",
+    "RemoveReferenceContentLabel": "Удалить внешний контент",
+    "RemoveReferenceContentTooltip": "Удалить внешний контент из проекта",
     "ReportContent_Label": "Пожаловаться на контент",
     "ValkyrieRestrictiveMode": "Ограниченный режим",
     "ExportProjectLocalization.SuccessTitle": "Успешно",
@@ -2058,23 +2042,23 @@
     "InvalidVKPluginDescriptor": "Недопустимый дескриптор плагина\n{0}\n{1}"
   },
   "ValkyrieProject": {
-    "ContentRemoval.ReferencedAssets": "\tРесурсы, на которые имеется ссылка:",
+    "ContentRemoval.ReferencedAssets": "\tВнешние ресурсы:",
     "ContentRemoval.ReferencingAssets": "\tСсылающиеся ресурсы:",
     "PluginWriteErrorsEllipsis": "…",
     "AddPluginsTask": "Добавление плагинов…",
     "PluginRemovalQuestion": "Удалить следующий контент из проекта?",
-    "ExternalContentRemovalQuestion": "Удалить этот контент, на который приводится ссылка?",
+    "ExternalContentRemovalQuestion": "Удалить этот внешний контент?",
     "Cancel": "Отмена",
     "ProjectVersePathConfirmation.CancelButton": "Отмена",
-    "AddReferencedContent.ProjectNotOpened": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПроект '{1}' не открыт",
-    "AddReferencedContent.NotPermitted": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПользователь не имеет соответствующих прав",
-    "AddReferencedContent.UserNotLoggedIn": "Невозможно добавить контент, на который приводится ссылка\n{0}\nПользователь не вошёл в систему",
-    "AddReferencedContent.InvalidContent": "Невозможно добавить контент, на который приводится ссылка\n{0}\n{1}",
+    "AddReferencedContent.ProjectNotOpened": "Невозможно добавить внешний контент\n{0}\nПроект '{1}' не открыт",
+    "AddReferencedContent.NotPermitted": "Невозможно добавить внешний контент\n{0}\nПользователь не имеет соответствующих прав",
+    "AddReferencedContent.UserNotLoggedIn": "Невозможно добавить внешний контент\n{0}\nПользователь не вошёл в систему",
+    "AddReferencedContent.InvalidContent": "Невозможно добавить внешний контент\n{0}\n{1}",
     "AddPluginNotUnderProjectDirectory": "Не удалось добавить плагин,\n{0}\nтак как он расположен не в каталоге проекта\n{1}",
     "AddPluginsInvalidFileName": "Не удалось добавить плагин, так как его название не является допустимым\n{0}",
     "CannotFindVKProjectRootPlugin": "Не удалось найти корневой плагин под названием {0}\n{1}",
     "PluginRemovalTitle": "Подтвердить удаление контента",
-    "ExternalContentRemovalTitle": "Подтвердить удаление контента, на который приводится ссылка",
+    "ExternalContentRemovalTitle": "Подтвердить удаление внешнего контента",
     "ContentRemoval": "Удаление контента",
     "ContentRemovalPage": "Удаление контента",
     "RemovePublicApiErrorNotif": "Не удалось удалить общедоступный API проекта",
@@ -2090,7 +2074,7 @@
     "InvalidVKProjectFileName": "Недопустимое название файла проекта\n{0}",
     "VerifyLivePublicAssetsNoContentService": "Для проверки работы общедоступного API вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "PublicPluginOnlyInLibrary": "В проекте {0} можно использовать только общедоступные плагины",
-    "RefContentFailNotif.Remove": "Удалить контент, на который приводится ссылка",
+    "RefContentFailNotif.Remove": "Удалить внешний контент",
     "RemovingProjectPublicApi": "Удаление общедоступного API проекта…",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "ShowOutputLogHyperlink": "Показать журнал выходных данных",
@@ -2108,11 +2092,6 @@
     "CommunityButtonText": "Сообщество",
     "DocumentationButtonText": "Документация",
     "GettingStartedButtonText": "Начало работы"
-  },
-  "ValkyrieProjectBrowserBuilder": {
-    "FeatureExamplesControllerDisplayName": "Демонстрация возможностей",
-    "UserTemplatesControllerDisplayName": "Мои шаблоны",
-    "SampleProjectsControllerDisplayName": "Примеры проектов"
   },
   "ValkyrieProjectBrowserStartupFlow": {
     "ProjectBrowserStartupFlow": "Инициализация каталога проектов",
@@ -2181,8 +2160,8 @@
     "FailCreatePlugin": "Не удалось создать плагин {0}\n\n{1}",
     "FailCreateVKProject": "Не удалось создать проект\n{0}\n\n{1}",
     "FailDeleteVKProject": "Не удалось удалить проект\n{0}\n\n{1}",
-    "CreateProjectExternalContentLoadFail": "Не удалось загрузить контент, на который приводится ссылка",
-    "OpenProjectExternalContentLoadFail": "Не удалось загрузить контент, на который приводится ссылка",
+    "CreateProjectExternalContentLoadFail": "Не удалось загрузить внешний контент",
+    "OpenProjectExternalContentLoadFail": "Не удалось загрузить внешний контент",
     "FailedToAccessContentService": "Не удалось получить онлайн-информацию о проекте {0}. Невозможно создать ветку проекта в {1}",
     "FailOpenVKProject": "Не удалось открыть проект\n{0}\n\n{1}",
     "ReloadProject.NotifError": "Не удалось перезагрузить '{0}'",
@@ -2200,7 +2179,7 @@
     "OpenProjectCanceled": "Загрузка проекта отменена",
     "VkProjectNull": "Объект проекта пустой",
     "ReloadProjectTask": "Перезагрузка проекта '{0}'",
-    "CannotRenameVKProjectWithExternalDeps": "Переименование проектов с контентом, на который приводится ссылка, пока не поддерживается",
+    "CannotRenameVKProjectWithExternalDeps": "Переименование проектов с внешним контентом пока не поддерживается",
     "RenameProjectTask": "Переименование проекта '{0}'...",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "CreateProject.SyncWithContentService": "Синхронизация с сервисом управления контентом…",
@@ -2211,10 +2190,10 @@
     "CreatePlugin.MissingName": "Не указано название плагина",
     "ExternalContentLoadFail.Title": "Внимание",
     "ProjectTrustDialog.YesButton": "Да, я доверяю авторам",
-    "CreateProjectWithExternalDepsNotPermitted": "У вас недостаточно прав доступа, чтобы создавать проект с контентом, на который приводится ссылка",
-    "OpenProjectExternalDepsNotPermittedError": "У вас недостаточно прав доступа, чтобы загрузить проект с контентом, на который приводится ссылка",
-    "CreateProjectWithExternalDepsNotLoggedIn": "Чтобы создать проект с контентом, на который приводится ссылка, нужно войти в учётную запись",
-    "OpenProjectExternalDepsRequiresLoginError": "Чтобы загрузить проект с контентом, на который приводится ссылка, нужно войти в учётную запись"
+    "CreateProjectWithExternalDepsNotPermitted": "У вас недостаточно прав доступа, чтобы создавать проект с внешним контентом",
+    "OpenProjectExternalDepsNotPermittedError": "У вас недостаточно прав доступа, чтобы создавать проект с внешним контентом",
+    "CreateProjectWithExternalDepsNotLoggedIn": "Чтобы создать проект с внешним контентом, нужно войти в учётную запись",
+    "OpenProjectExternalDepsRequiresLoginError": "Чтобы загрузить проект с внешним контентом, нужно войти в учётную запись"
   },
   "ValkyrieProjectsController": {
     "ArchiveProjectContextMenuEntry": "В архив",
@@ -2280,8 +2259,8 @@
     "RemapLocalVsReferencedContent.ProjectIsNotOpened": "Проект должен быть открыт",
     "VkNewProjectNameInUse": "Название проекта уже используется",
     "ProjectMissingGameFeatureData": "Проект {0} не работает, потому что в нём нет GameFeatureData.\n\nИсправить автоматически?",
-    "RemapLocalContentToReferencedContentLog": "Переназначить локальный контент на контент, указанный в ссылке",
-    "RemapLocalContentToReferencedContentPage": "Переназначить локальный контент на контент, указанный в ссылке",
+    "RemapLocalContentToReferencedContentLog": "Переназначить локальный контент на внешний",
+    "RemapLocalContentToReferencedContentPage": "Переназначить локальный контент на внешний",
     "RemapLocalVsReferencedContent.Cancelled": "Сохранение переназначенных ссылок ресурса отменено",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "RemapLocalVsReferencedContent.Success": "Ссылки на ресурсы успешно переназначены",

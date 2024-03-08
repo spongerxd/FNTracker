@@ -230,8 +230,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "6933F24E4496532E3BAFFABC0C4F0098",
-          "SourceString": "Show off any <text color=\"FFFFFFFF\" fontface=\"black\">EMOTICON</> in your locker!",
-          "LocalizedString": "Показывайте свои <text color=\"FFFFFFFF\" fontface=\"black\">ЭМОДЗИ</> в шкафчике!"
+          "SourceString": "Select a <text color=\"FFFFFFFF\">STATIC</> emoticon from your locker to show off!",
+          "LocalizedString": "Выберите <text color=\"FFFFFFFF\">неподвижное</> эмодзи из шкафчика, чтобы увидеть эффект!"
         }
       },
       "createhero1": {
@@ -439,7 +439,7 @@
           "Namespace": "",
           "Key": "2C72E6254A90740BA8BC67A8577A0AE8",
           "SourceString": "Kratos has arrived on the island.",
-          "LocalizedString": "Кратос прибыл на остров. Завершите матч на PS5 и получите стиль «Кратос в броне»!"
+          "LocalizedString": "Кратос прибыл на остров."
         }
       },
       "promodesc2": {
@@ -447,7 +447,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
         }
       },
       "historianpickaxedesc": {
@@ -1407,7 +1407,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
+          "LocalizedString": "Маркус прибыл на остров."
         }
       },
       "promodesc16": {
@@ -1415,7 +1415,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль для Маркуса!"
+          "LocalizedString": "Маркус и Кейт прибыли на остров."
         }
       },
       "promodesc17": {
@@ -2031,7 +2031,7 @@
           "Namespace": "",
           "Key": "54E63B2147EDADEFE9D074BE9560539E",
           "SourceString": "<text color=\"FFFFFFFF\">BELLOW OF THE DEAD</> lights up when hitting weak points!",
-          "LocalizedString": "<text color=\\\"FFFFFFFF\\\">«Мрачный аккордеон»</> светится при попадании по слабым местам!"
+          "LocalizedString": "<text color=\"FFFFFFFF\">«Мрачный аккордеон»</> светится при попадании по слабым местам!"
         }
       },
       "defectbundledesc": {
@@ -2247,7 +2247,7 @@
           "Namespace": "",
           "Key": "7C0CE3954FF7EC6AE055D7A02FD4E695",
           "SourceString": "Select a color and customize with sprays! Includes 9 Sprays with purchase!",
-          "LocalizedString": "Меняйте внешний вид с помощью цвета и граффити! Включает 9 граффити!"
+          "LocalizedString": "Выберите цвет и измените внешний вид с помощью граффити! Открывает доступ к 9 граффити при покупке!"
         }
       },
       "promodesc79": {
@@ -2879,7 +2879,7 @@
           "Namespace": "",
           "Key": "7E30CB6F48C31A83508557B4B67D87FB",
           "SourceString": "Attend The Big Bang on December 2nd, and unlock the exclusive <text color=\"FFFFFFFF\">MARSHALL MAGMA</> style for <text color=\"FFFFFFFF\">MARSHALL NEVER MORE</>!",
-          "LocalizedString": "Стили на выбор!"
+          "LocalizedString": "Посетите событие «Большой взрыв» 2 декабря и получите эксклюзивный стиль <text color=\"FFFFFFFF\">«Магма»</> для экипировки <text color=\"FFFFFFFF\">«Уже не Маршалл»</>!"
         }
       },
       "rebar": {
@@ -2887,7 +2887,7 @@
           "Namespace": "",
           "Key": "35FF01CF4F30BE8E3F775292895A6A2D",
           "SourceString": "Some items are restricted to select Car Bodies.",
-          "LocalizedString": "Некоторые предметы доступны только для определённых кузовов автомобилей."
+          "LocalizedString": "Некоторые предметы совместимы только с определёнными кузовами."
         }
       },
       "squash": {
@@ -2895,7 +2895,7 @@
           "Namespace": "",
           "Key": "39D7507644AF2210D8A238AD316C0F48",
           "SourceString": "Some items are restricted to select Car Bodies.",
-          "LocalizedString": "Некоторые предметы доступны только для определённых кузовов автомобилей."
+          "LocalizedString": "Некоторые предметы совместимы только с определёнными кузовами."
         }
       },
       "sourdough": {
@@ -2903,15 +2903,15 @@
           "Namespace": "",
           "Key": "B2F6521C4823F895A7B69FBB1DD2B015",
           "SourceString": "Some items are restricted to select Car Bodies.",
-          "LocalizedString": "Некоторые предметы доступны только для определённых кузовов автомобилей."
+          "LocalizedString": "Некоторые предметы совместимы только с определёнными кузовами."
         }
       },
       "oblong": {
         "FormatedText": {
           "Namespace": "",
           "Key": "8B4267BC4C77A6E4D1C4B38B19D1427A",
-          "SourceString": "Some items are restricted to select Car Bodies.",
-          "LocalizedString": "Некоторые предметы доступны только для определённых кузовов автомобилей."
+          "SourceString": "Includes customizable decals and wheels! Decals in this bundle are restricted to the <text color=\"FFFFFFFF\">LAMBORGHINI HURACÁN STO</> car body.",
+          "LocalizedString": "Включает настраиваемые декали и колёса! Декали из этого комплекта совместимы только с кузовом <text color=\"FFFFFFFF\">Lamborghini Huracán STO</>."
         }
       },
       "sparksjamloop": {
@@ -2919,7 +2919,7 @@
           "Namespace": "",
           "Key": "1788BA184D71FD264DC938901AE5D568",
           "SourceString": "Perform a Jam Track on the Festival Main Stage. Or, bust out your own Jam off the Main Stage with the Track's 4 Jam Loops!",
-          "LocalizedString": "Исполните трек на Главной сцене Fortnite Festival — или сыграйте собственную импровизацию на четырёх разных инструментах!"
+          "LocalizedString": "Исполните трек на Главной сцене Fortnite Festival — или сыграйте собственную импровизацию на четырёх разных инструментах!"
         }
       },
       "brightion": {
@@ -3096,6 +3096,30 @@
           "Key": "1F8CD42C46AA793F184B1EB780CEC66A",
           "SourceString": "TBD",
           "LocalizedString": "TBD"
+        }
+      },
+      "musclecar2": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "10B80E6B4871884840FA8092B4EC36A9",
+          "SourceString": "Includes car, car variants, and customizable decals! Items in this bundle are restricted to the <text color=\"FFFFFFFF\">DOMINUS GT</> car body.",
+          "LocalizedString": "Включает машину, варианты внешнего вида машины и настраиваемые декали! Предметы из этого комплекта совместимы только с кузовом <text color=\"FFFFFFFF\">Dominus GT</>."
+        }
+      },
+      "rankedmetal": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B1E3CEC248BB3369BEC9488D3D0337EA",
+          "SourceString": "Outfit metal material changes color based on current Rank!",
+          "LocalizedString": "Материал экипировки меняет цвет в зависимости от текущего рейтинга!"
+        }
+      },
+      "rankedpickaxe": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "064E19414BA1E3D7FC9786B6B7732C40",
+          "SourceString": "Piackaxe blade changes color based on current Rank!",
+          "LocalizedString": "Лезвие кирки меняет цвет в зависимости от текущего рейтинга!"
         }
       }
     }

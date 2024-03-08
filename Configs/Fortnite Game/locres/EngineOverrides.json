@@ -486,15 +486,14 @@
   },
   "MessageDialog": {
     "UpdateMacOSX_Body": "Обновите macOS до последней версии для наилучшей производительности и стабильности.",
-    "VideoCardDriverRHIIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите последнюю версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nТребуется как минимум: {RecommendedVer}",
-    "VideoCardDriverIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем.\nУстановите последнюю версию драйвера.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nТребуется как минимум: {RecommendedVer}",
-    "LatestVideoCardDriverRHIIssueReport": "В последней версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите рекомендуемую версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
-    "LatestVideoCardDriverIssueReport": "В последней версии драйвера {Vendor} замечен ряд проблем.\nУстановите рекомендуемую версию драйвера.\n\nЗагрузить драйвер можно по этой ссылке:\n\n{Hyperlink}\n\n{AdapterName}\nУстановлено: {InstalledVer}\nРекомендуется: {RecommendedVer}",
+    "VideoCardDriverRHIIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем ({RHI}).\nУстановите рекомендуемую версию драйвера или выберите другой графический API.\n\nЗагрузить драйвер можно по указанной ниже ссылке. Выполнить переход?\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nРекомендуемая версия: {RecommendedVer}",
+    "VideoCardDriverIssueReport": "В установленной версии драйвера {Vendor} замечен ряд проблем.\nУстановите рекомендуемую версию драйвера.\n\nЗагрузить драйвер можно по указанной ниже ссылке. Выполнить переход?\n\n{Hyperlink}\n\n{AdapterName}\nУстановленная версия: {InstalledVer}\nРекомендуемая версия: {RecommendedVer}",
     "UpdateMacOSX_Title": "Обновить macOS",
     "TitleVideoCardDriverIssue": "ВНИМАНИЕ: данный драйвер видеоадаптера может вызывать проблемы.",
     "DriverDownloadLinkIntel": "https://downloadcenter.intel.com/ru/product/80939/Graphics",
     "DriverDownloadLinkAMD": "https://www.amd.com/ru/support",
-    "DriverDownloadLinkNVIDIA": "https://www.nvidia.com/ru-ru/geforce/drivers/"
+    "LatestDriver": "последняя доступная версия драйвера",
+    "SuggestedDriverOrLatest": "{0} или последняя доступная версия драйвера"
   },
   "OnlinePresence": {
     "Away": "Нет на месте",
