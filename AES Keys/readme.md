@@ -356,3 +356,4 @@
 |                                             Version                                              | Key                                                                |
 |:------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
 | [29.00](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/29.00.md) | 0xA97CAD008AB57725B8AC6838EA5E8432E9CC888A6E5D739671ABFA3DA8C97D94 |
+| [29.01](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/29.01.md) | 0xA97CAD008AB57725B8AC6838EA5E8432E9CC888A6E5D739671ABFA3DA8C97D94 |
