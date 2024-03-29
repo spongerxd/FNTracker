@@ -445,6 +445,7 @@
   },
   "FortBuildingActorDetails": {
     "Transaction.EditPropertyOverride": "Редактировать {0}",
+    "General": "Общее",
     "OptionName.ItemList": "Список предметов",
     "UserOptionsCategoryLabel.FabricLegalInfo": "Юридическая информация",
     "OptionError.MissingProperty": "Отсутствует свойство пользовательской настройки!\nСвойство: {0}\nНастройка: {1}",
@@ -674,6 +675,7 @@
   },
   "FortLevelEditorDragDropHandler": {
     "ContentBundleInLevelInstance": "Не удалось перенести контент из {0} в экземпляр уровня {1}. Вместо этого поместите его в {2}. Акторы плагинов невозможно разместить в экземпляре уровня.",
+    "ActivateContentBundleSucceded": "Пакет контента \"{0}\" редактируется",
     "ChangedCurrentLevel": "Текущий уровень изменен {0}",
     "ActivateContentBundlefailed": "Не удалось активировать пакет контента \"{0}\" для плагина {1}. Статус должен быть \"{2}\" или \"{3}\". Сейчас — \"{4}\".",
     "CreateNewOverlayFailed": "Не удалось создать новый наложенный слой уровня для {0}.\nНазвание:{1}\nПуть к пакету:{2}",
@@ -803,6 +805,10 @@
   "FortReleaseVersionDetails": {
     "SetVersionTransaction": "Задать версию выпуска"
   },
+  "FortRootPluginContainerCombo": {
+    "CheckOutPlugin": "Идёт получение плагина…",
+    "FortRootPluginContainerCombo_Empty": "Пусто"
+  },
   "FortTheaterDetails": {
     "Copy": "Копировать",
     "Paste": "Вставить",
@@ -883,6 +889,11 @@
   },
   "FortVehicleCosmeticsItemDefinitions": {
     "ErrorItemTypeTagEmpty": "Вы должны располагать тегом типа предмета для составления {0} действительного определения предмета."
+  },
+  "FSceneOutlinerSCCHandler": {
+    "SCCForceReleaseCancel": "Отмена",
+    "SCCForceRelease": "Разблокировать",
+    "SCCForceReleaseConfirm": "Разблокировать"
   },
   "GameplayEventCachedBindingDetails": {
     "NullProperty": "Нет"
@@ -1043,6 +1054,13 @@
     "QuestItemDefinitionDirectoryPicker": "Каталог определений предметов задания",
     "QuestMissionInfoDirectoryPicker": "Каталог информации о миссиях задания",
     "QuestPropBlueprintDirectoryPicker": "Каталог схем предметов окружения для заданий"
+  },
+  "QuestBundleCreator": {
+    "CreateButtonText": "Создать"
+  },
+  "QuestBundleCreatorWidget": {
+    "CreateButtonText": "Создать",
+    "UpdateButtonText": "Обновить"
   },
   "QuestEditorHeader": {
     "CreateNewQuestAsset": "Создать новое задание",
@@ -1628,6 +1646,7 @@
     "Time": "Общее время: ч:{Hour} мин:{Minute} с:{Second}"
   },
   "ValkyrieAccountEditorSubsystem": {
+    "CheckingForUpdates": "Проверяем наличие обновлений…",
     "DeclineEULA": "Необходимо принять лицензионное соглашение",
     "AcceptEULA": "Лицензионное соглашение принято",
     "LoggingOut": "Выполняется выход…",
@@ -1636,6 +1655,7 @@
     "UserRequestedLogout": "Выполняется выход…",
     "LoggingInFailedAfterUpdate": "Ошибка входа в систему: не удалось запустить страницу входа.",
     "LoginFailedFMT": "Ошибка входа: {0}",
+    "UpdateCachedOwnershipsNotLoggedIn": "Пользователь не вошёл в систему",
     "FailedOfflineMode": "{0}\n\nДля запуска UEFN необходимо войти в систему. Отключение."
   },
   "ValkyrieAccountLoginModal": {
@@ -1714,6 +1734,17 @@
   },
   "ValkyrieChangelistValidator": {
     "VkChangelistInvalid": "В списке изменений некорректно указан тег #preflight. Перейдите к Horde, чтобы запустить предварительную проверку перед отправкой."
+  },
+  "ValkyrieContentServiceCmds": {
+    "ArchiveProject": "Архивация проекта '{0}'",
+    "ArchiveProjects": "Архивация проектов…",
+    "ConfirmProjectArchiving.Msg": "Вы хотите архивировать следующие проекты?",
+    "ConfirmProjectArchiving.Title": "Подтвердить архивацию проекта",
+    "ErrorArchivingProject": "Ошибка архивации проекта",
+    "ErrorGatheringProjects": "Ошибка при сборе проектов",
+    "FoundProject": "Найдено: '{0}'",
+    "NoProjectToArchive": "Проекты для архивации не найдены",
+    "GatherProjects": "Сбор проектов…"
   },
   "ValkyrieConvertIslandProjectFlow": {
     "ConvertedBeforeWarning_Cancelled": "Отменено при получении предупреждения о выполненном ранее преобразовании острова.",
@@ -1922,6 +1953,7 @@
     "LoadMapToGatherExperienceSettings": "Загрузка карты {0} для настройки опыта сбора",
     "ValkyrieAccountLogoutNotification.Login": "Вход в систему…",
     "Saving Level": "Сохранение данных проекта ({0}/{0})…",
+    "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "Running Spawn Actors": "Создание и преобразование акторов (1/{0})…",
     "DynamicMeshWarning": "Этот проект содержит акторы динамической сетки, которые не будут отображаться в игре. Перед публикацией их следует удалить или преобразовать в статичные сетки.",
     "ValkyrieNoLogin": "Не удалось запустить клиент, убедитесь, что вы вошли в систему.",
@@ -2088,7 +2120,6 @@
     "PublishProjectMessage": "Публикация проекта…",
     "PushChangesButton": "Применить изменения",
     "PushVerseChangesButton": "Применить изменения Verse",
-    "PushChangesButtonToolTip_MatchActive": "Применение изменений отключено, так как игра запущена.",
     "PushChangesButtonToolTip_PushRequired": "Для просмотра изменений требуется их применить.",
     "RefreshButtonToolTip": "Выгрузите файлы с изменениями на сервер ещё раз, чтобы они отображались в клиенте Fortnite.",
     "PlayStatusWidget_StatusRefresh": "Обновить, чтобы выгрузить файлы с изменениями.",
@@ -2174,6 +2205,13 @@
     "EmptyLevelDisplayNameText": "Пустой уровень",
     "DisplayNameText": "Шаблоны острова"
   },
+  "ValkyrieFortniteProjectBrowserBuilder": {
+    "FeatureExamplesCategory": "Демонстрация возможностей",
+    "FeatureExamples.GettingStartedSection": "Начало работы",
+    "IslandTemplatesCategory": "Шаблоны острова",
+    "FeatureExamples.SamplesSection": "Семплы",
+    "IslandTemplates.StarterIslandsSection": "Начальные острова"
+  },
   "ValkyrieFortniteTexts": {
     "IslandConversionWarningMessage": "Открытие этого острова приведёт к его конвертации в проект UEFN. Вы не сможете больше открыть его из Fortnite Creative.\n\n{PlayerDataResetWarning}\n\nВы можете вернуть проект на остров в творческом режиме из <a id=\"creator_portal\" href=\"{CreatorPortalURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Творческого портала</> в любое время. Это восстановит данные игроков, но удалит все изменения, которые вы сделали в редакторе.\n\nПреобразование может занять много времени для больших островов со множеством акторов.",
     "PlayerDataResetWarningMessage": "Данные игрока, связанные со следующими устройствами, не передаются, если вы решите осуществлять публикацию из редактора или Творческого портала (<a id=\"conversion_docs\" href=\"{IslandConversionDocsURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Узнать больше</>):\n{DevicesWithoutDataMigrationSupport}",
@@ -2258,7 +2296,7 @@
     "PluginRemovalQuestion": "Удалить следующий контент из проекта?",
     "ExternalContentRemovalQuestion": "Удалить этот внешний контент?",
     "ProjectVersePathConfirmation.SetMessage": "Вы уверены, что хотите установить путь в Verse проекта {0} на:\n\n'{1}'",
-    "AssignVersePath.SlowTask": "Назначение пути в Verse проекта…",
+    "AssigningVersePath": "Назначение пути в Verse проекта…",
     "Cancel": "Отмена",
     "ProjectVersePathConfirmation.CancelButton": "Отмена",
     "AddReferencedContent.ProjectNotOpened": "Невозможно добавить внешний контент\n{0}\nПроект '{1}' не открыт",
@@ -2320,6 +2358,9 @@
     "DocumentationButtonText": "Документация",
     "GettingStartedButtonText": "Начало работы"
   },
+  "ValkyrieProjectBrowserBuilder": {
+    "UserTemplatesCategory": "Мои шаблоны"
+  },
   "ValkyrieProjectBrowserStartupFlow": {
     "ProjectBrowserStartupFlow": "Инициализация каталога проектов",
     "RefreshingLocalProjects": "Сканирование проектов на компьютере…"
@@ -2350,8 +2391,10 @@
     "RemoveReferenceError": "Не удалось удалить файл ссылок проекта! {0}"
   },
   "ValkyrieProjectDetails": {
+    "ContentGuidelinesUrlPropertyLabelText": "Руководство по оформлению",
     "DocsUrlPropertyLabelText": "Документы",
     "InvalidDocsUrlTitle": "Недопустимый URL-адрес документации",
+    "ContentGuidelinesUrlLinkText": "Связь",
     "DocsUrlLinkText": "Ссылка",
     "EmptyDescription": "Нет описания",
     "EmptyDescriptionToolTip": "Описание не задано. Описание проекта можно изменить в разделе \"Настройки проекта\".",
@@ -2621,6 +2664,10 @@
   "ValkyrieTeamSelectionItem": {
     "NoTeamNameText": "Нет команды (только вы)"
   },
+  "ValkyrieTemplateCategoryController": {
+    "CreateActionText": "Создать",
+    "JoinProgramActionText": "Участвовать в программе"
+  },
   "ValkyrieTilePicker": {
     "SearchBoxHintText": "Фильтр…",
     "InvalidViewComboBoxDisplayText": "Недопустимо",
@@ -2678,6 +2725,9 @@
   },
   "VersePropCustomization": {
     "SetPropAssetTransaction": "Редактировать ресурс предмета окружения"
+  },
+  "VersePropertyEditor": {
+    "PropertyTextTooLongError": "Это значение слишком длинное (символы: {0}/{1})"
   },
   "VkBackNodeDetails": {
     "Category": "Диалог"
