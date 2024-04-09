@@ -11842,180 +11842,6 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_Vend_Malfunction;LPKG:NPCItemPKG.Special"
       },
-      "LTG_Vend_Item_SunRose_Green_01": {
-        "TierGroup": "LTG_Vend_Item_SunRose_Green",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.SunRose.DrumGun.R",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          4,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_Vend_Item_SunRose_Green;LPKG:NPCItemPKG.SunRose.DrumGun.R"
-      },
-      "LTG_Vend_Item_SunRose_Random_01": {
-        "TierGroup": "LTG_Vend_Item_SunRose_Random",
-        "Weight": 30.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.SunRose.DrumGun.VR",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_Vend_Item_SunRose_Random;LPKG:NPCItemPKG.SunRose.DrumGun.VR"
-      },
-      "LTG_Vend_Item_SunRose_Random_02": {
-        "TierGroup": "LTG_Vend_Item_SunRose_Random",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.SunRose.DrumGun.SR",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_Vend_Item_SunRose_Random;LPKG:NPCItemPKG.SunRose.DrumGun.SR"
-      },
       "LTG_Vend_Item_Heisted_Assault_01": {
         "TierGroup": "LTG_Vend_Item_Heisted_Assault",
         "Weight": 0.0,
@@ -13523,6 +13349,180 @@
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_Vend_Item_Universal_Explosives_Sell3;LPKG:NPCItemPKG.Universal.Explosives.Sell3"
+      },
+      "LTG_Vend_Item_SunRose_Green_01": {
+        "TierGroup": "LTG_Vend_Item_SunRose_Green",
+        "Weight": 0.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.UC",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_Green;LPKG:NPCItemPKG.SunRose.UC"
+      },
+      "LTG_Vend_Item_SunRose_Random_01": {
+        "TierGroup": "LTG_Vend_Item_SunRose_Random",
+        "Weight": 3.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.R",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_Random;LPKG:NPCItemPKG.SunRose.R"
+      },
+      "LTG_Vend_Item_SunRose_Random_02": {
+        "TierGroup": "LTG_Vend_Item_SunRose_Random",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.VR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_Random;LPKG:NPCItemPKG.SunRose.VR"
       },
       "LTG_NPC_Item_S26_FlipMag_VR_01": {
         "TierGroup": "LTG_NPC_Item_S26_FlipMag_VR",
@@ -16946,9 +16946,183 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_TiredPanda_Chest;LPKG:WorldPKG.TiredPanda.Loot"
       },
+      "Loot_AnnoyedMop_Chest_01": {
+        "TierGroup": "Loot_AnnoyedMop_Chest",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AnnoyedMop.Loot",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 1.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_AnnoyedMop_Chest;LPKG:WorldPKG.AnnoyedMop.Loot"
+      },
+      "Loot_FancyMop_Chest_01": {
+        "TierGroup": "Loot_FancyMop_Chest",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.FancyMop.Loot",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 2.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_FancyMop_Chest;LPKG:WorldPKG.FancyMop.Loot"
+      },
+      "Loot_HumbleMop_Chest_01": {
+        "TierGroup": "Loot_HumbleMop_Chest",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.HumbleMop.Loot",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 2.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_HumbleMop_Chest;LPKG:WorldPKG.HumbleMop.Loot"
+      },
       "Loot_RandomMop_Chest_01": {
         "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17006,7 +17180,7 @@
       },
       "Loot_RandomMop_Chest_02": {
         "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17015,7 +17189,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
+        "LootPackage": "WorldPKG.AnnoyedMop.Loot",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 1.0,
         "LootPackageCategoryWeightArray": [
@@ -17060,11 +17234,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
+        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.AnnoyedMop.Loot"
       },
       "Loot_RandomMop_Chest_03": {
         "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17073,7 +17247,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
+        "LootPackage": "WorldPKG.FancyMop.Loot",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 1.0,
         "LootPackageCategoryWeightArray": [
@@ -17118,11 +17292,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
+        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.FancyMop.Loot"
       },
       "Loot_RandomMop_Chest_04": {
         "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17131,7 +17305,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
+        "LootPackage": "WorldPKG.HumbleMop.Loot",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 1.0,
         "LootPackageCategoryWeightArray": [
@@ -17176,181 +17350,7 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
-      },
-      "Loot_RandomMop_Chest_05": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
-      },
-      "Loot_RandomMop_Chest_06": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
-      },
-      "Loot_RandomMop_Chest_07": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
+        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.HumbleMop.Loot"
       },
       "Loot_Grunt_Challenge_01": {
         "TierGroup": "Loot_Grunt_Challenge",
@@ -18454,8 +18454,8 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_WepModCase_Large;LPKG:WorldPKG.WepModCase.Large"
       },
-      "LTG_NPC_Item_S28_Pistol_Auto_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Pistol_Auto_UC",
+      "LTG_NPC_Item_Pistol_Auto_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Pistol_Auto_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18467,7 +18467,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18482,7 +18482,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18510,10 +18510,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Pistol_Auto_UC;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Pistol_Auto_UC;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Pistol_Auto_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Pistol_Auto_R",
+      "LTG_NPC_Item_Pistol_Auto_R_01": {
+        "TierGroup": "LTG_NPC_Item_Pistol_Auto_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18525,7 +18525,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18540,7 +18540,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18568,10 +18568,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Pistol_Auto_R;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Pistol_Auto_R;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.R"
       },
-      "LTG_NPC_Item_S28_Pistol_Auto_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Pistol_Auto_VR",
+      "LTG_NPC_Item_Pistol_Auto_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Pistol_Auto_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18583,7 +18583,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18598,7 +18598,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18626,10 +18626,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Pistol_Auto_VR;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Pistol_Auto_VR;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Pistol_Auto_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Pistol_Auto_SR",
+      "LTG_NPC_Item_Pistol_Auto_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Pistol_Auto_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18641,7 +18641,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18656,7 +18656,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18684,10 +18684,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Pistol_Auto_SR;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Pistol_Auto_SR;LPKG:NPCItemPKG.S28.Pistol.Paprika.Auto.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Pistol_AutoAim_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Pistol_AutoAim",
+      "LTG_NPC_Item_Pistol_AutoAim_01": {
+        "TierGroup": "LTG_NPC_Item_Pistol_AutoAim",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18699,7 +18699,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Pistol.AutoAim",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18714,7 +18714,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18742,10 +18742,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Pistol_AutoAim;LPKG:NPCItemPKG.S28.Pistol.AutoAim"
+        "Annotation": "TG:LTG_NPC_Item_Pistol_AutoAim;LPKG:NPCItemPKG.S28.Pistol.AutoAim"
       },
-      "LTG_NPC_Item_S28_Shotgun_Auto_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Auto_UC",
+      "LTG_NPC_Item_Shotgun_Auto_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Auto_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18757,7 +18757,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18772,7 +18772,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18800,10 +18800,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Auto_UC;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Auto_UC;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Shotgun_Auto_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Auto_R",
+      "LTG_NPC_Item_Shotgun_Auto_R_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Auto_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18815,7 +18815,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18830,7 +18830,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18858,10 +18858,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Auto_R;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Auto_R;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.R"
       },
-      "LTG_NPC_Item_S28_Shotgun_Auto_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Auto_VR",
+      "LTG_NPC_Item_Shotgun_Auto_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Auto_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18873,7 +18873,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18888,7 +18888,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18916,10 +18916,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Auto_VR;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Auto_VR;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Shotgun_Auto_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Auto_SR",
+      "LTG_NPC_Item_Shotgun_Auto_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Auto_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18931,7 +18931,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -18946,7 +18946,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -18974,10 +18974,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Auto_SR;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Auto_SR;LPKG:NPCItemPKG.S28.Shotgun.Auto.Paprika.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Shotgun_Pump_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Pump_UC",
+      "LTG_NPC_Item_Shotgun_Pump_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Pump_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -18989,7 +18989,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19004,7 +19004,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19032,10 +19032,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Pump_UC;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Pump_UC;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Shotgun_Pump_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Pump_R",
+      "LTG_NPC_Item_Shotgun_Pump_R_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Pump_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19047,7 +19047,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19062,7 +19062,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19090,10 +19090,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Pump_R;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Pump_R;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.R"
       },
-      "LTG_NPC_Item_S28_Shotgun_Pump_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Pump_VR",
+      "LTG_NPC_Item_Shotgun_Pump_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Pump_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19105,7 +19105,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19120,7 +19120,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19148,10 +19148,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Pump_VR;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Pump_VR;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Shotgun_Pump_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Shotgun_Pump_SR",
+      "LTG_NPC_Item_Shotgun_Pump_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Shotgun_Pump_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19163,7 +19163,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19178,7 +19178,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19206,10 +19206,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Shotgun_Pump_SR;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Shotgun_Pump_SR;LPKG:NPCItemPKG.S28.Shotgun.Pump.Paprika.Athena.SR"
       },
-      "LTG_NPC_Item_S28_SMG_DPS_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_DPS_UC",
+      "LTG_NPC_Item_SMG_DPS_UC_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_DPS_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19221,7 +19221,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.DPS.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19236,7 +19236,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19264,10 +19264,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_DPS_UC;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_SMG_DPS_UC;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.UC"
       },
-      "LTG_NPC_Item_S28_SMG_DPS_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_DPS_R",
+      "LTG_NPC_Item_SMG_DPS_R_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_DPS_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19279,7 +19279,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.DPS.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19294,7 +19294,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19322,10 +19322,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_DPS_R;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_SMG_DPS_R;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.R"
       },
-      "LTG_NPC_Item_S28_SMG_DPS_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_DPS_VR",
+      "LTG_NPC_Item_SMG_DPS_VR_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_DPS_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19337,7 +19337,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.DPS.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19352,7 +19352,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19380,10 +19380,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_DPS_VR;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_SMG_DPS_VR;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.VR"
       },
-      "LTG_NPC_Item_S28_SMG_DPS_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_DPS_SR",
+      "LTG_NPC_Item_SMG_DPS_SR_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_DPS_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19395,7 +19395,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.DPS.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19410,7 +19410,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19438,10 +19438,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_DPS_SR;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_SMG_DPS_SR;LPKG:NPCItemPKG.S28.SMG.Paprika.DPS.Athena.SR"
       },
-      "LTG_NPC_Item_S28_SMG_Burst_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_Burst_UC",
+      "LTG_NPC_Item_SMG_Burst_UC_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_Burst_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19453,7 +19453,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.Burst.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19468,7 +19468,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19496,10 +19496,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_Burst_UC;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_SMG_Burst_UC;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.UC"
       },
-      "LTG_NPC_Item_S28_SMG_Burst_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_Burst_R",
+      "LTG_NPC_Item_SMG_Burst_R_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_Burst_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19511,7 +19511,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.Burst.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19526,7 +19526,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19554,10 +19554,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_Burst_R;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_SMG_Burst_R;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.R"
       },
-      "LTG_NPC_Item_S28_SMG_Burst_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_Burst_VR",
+      "LTG_NPC_Item_SMG_Burst_VR_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_Burst_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19569,7 +19569,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.Burst.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19584,7 +19584,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19612,10 +19612,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_Burst_VR;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_SMG_Burst_VR;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.VR"
       },
-      "LTG_NPC_Item_S28_SMG_Burst_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SMG_Burst_SR",
+      "LTG_NPC_Item_SMG_Burst_SR_01": {
+        "TierGroup": "LTG_NPC_Item_SMG_Burst_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19627,7 +19627,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.SMG.Paprika.Burst.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19642,7 +19642,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19670,10 +19670,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SMG_Burst_SR;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_SMG_Burst_SR;LPKG:NPCItemPKG.S28.SMG.Paprika.Burst.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Assault_DPS_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_DPS_UC",
+      "LTG_NPC_Item_Assault_DPS_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_DPS_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19685,7 +19685,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.DPS.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19700,7 +19700,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19728,10 +19728,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_DPS_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Assault_DPS_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Assault_DPS_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_DPS_R",
+      "LTG_NPC_Item_Assault_DPS_R_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_DPS_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19743,7 +19743,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.DPS.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19758,7 +19758,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19786,10 +19786,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_DPS_R;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Assault_DPS_R;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.R"
       },
-      "LTG_NPC_Item_S28_Assault_DPS_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_DPS_VR",
+      "LTG_NPC_Item_Assault_DPS_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_DPS_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19801,7 +19801,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.DPS.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19816,7 +19816,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19844,10 +19844,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_DPS_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_DPS_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Assault_DPS_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_DPS_SR",
+      "LTG_NPC_Item_Assault_DPS_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_DPS_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19859,7 +19859,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.DPS.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19874,7 +19874,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19902,10 +19902,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_DPS_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_DPS_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.DPS.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Assault_Infantry_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Infantry_UC",
+      "LTG_NPC_Item_Assault_Infantry_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Infantry_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19917,7 +19917,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19932,7 +19932,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -19960,10 +19960,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Infantry_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Infantry_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Assault_Infantry_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Infantry_R",
+      "LTG_NPC_Item_Assault_Infantry_R_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Infantry_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -19975,7 +19975,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -19990,7 +19990,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20018,10 +20018,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Infantry_R;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Infantry_R;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.R"
       },
-      "LTG_NPC_Item_S28_Assault_Infantry_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Infantry_VR",
+      "LTG_NPC_Item_Assault_Infantry_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Infantry_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20033,7 +20033,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20048,7 +20048,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20076,10 +20076,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Infantry_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Infantry_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Assault_Infantry_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Infantry_SR",
+      "LTG_NPC_Item_Assault_Infantry_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Infantry_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20091,7 +20091,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20106,7 +20106,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20134,10 +20134,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Infantry_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Infantry_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.Infantry.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Assault_Heavy_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Heavy_UC",
+      "LTG_NPC_Item_Assault_Heavy_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Heavy_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20149,7 +20149,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20164,7 +20164,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20192,10 +20192,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Heavy_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Heavy_UC;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.UC"
       },
-      "LTG_NPC_Item_S28_Assault_Heavy_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Heavy_R",
+      "LTG_NPC_Item_Assault_Heavy_R_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Heavy_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20207,7 +20207,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20222,7 +20222,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20250,10 +20250,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Heavy_R;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Heavy_R;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.R"
       },
-      "LTG_NPC_Item_S28_Assault_Heavy_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Heavy_VR",
+      "LTG_NPC_Item_Assault_Heavy_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Heavy_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20265,7 +20265,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20280,7 +20280,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20308,10 +20308,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Heavy_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Heavy_VR;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Assault_Heavy_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Assault_Heavy_SR",
+      "LTG_NPC_Item_Assault_Heavy_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Assault_Heavy_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20323,7 +20323,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20338,7 +20338,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20366,10 +20366,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Assault_Heavy_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Assault_Heavy_SR;LPKG:NPCItemPKG.S28.Assault.Paprika.Heavy.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Sniper_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Sniper_R",
+      "LTG_NPC_Item_Sniper_R_01": {
+        "TierGroup": "LTG_NPC_Item_Sniper_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20381,7 +20381,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Sniper.Paprika.Athena.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20396,7 +20396,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20424,10 +20424,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Sniper_R;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.R"
+        "Annotation": "TG:LTG_NPC_Item_Sniper_R;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.R"
       },
-      "LTG_NPC_Item_S28_Sniper_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Sniper_VR",
+      "LTG_NPC_Item_Sniper_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Sniper_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20439,7 +20439,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Sniper.Paprika.Athena.VR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20454,7 +20454,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20482,10 +20482,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Sniper_VR;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_Sniper_VR;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.VR"
       },
-      "LTG_NPC_Item_S28_Sniper_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Sniper_SR",
+      "LTG_NPC_Item_Sniper_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Sniper_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20497,7 +20497,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Sniper.Paprika.Athena.SR",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20512,7 +20512,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20540,10 +20540,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Sniper_SR;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.SR"
+        "Annotation": "TG:LTG_NPC_Item_Sniper_SR;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.SR"
       },
-      "LTG_NPC_Item_S28_Sniper_UC_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Sniper_UC",
+      "LTG_NPC_Item_Sniper_UC_01": {
+        "TierGroup": "LTG_NPC_Item_Sniper_UC",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20555,7 +20555,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Sniper.Paprika.Athena.UC",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -20570,7 +20570,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -20598,10 +20598,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Sniper_UC;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.UC"
+        "Annotation": "TG:LTG_NPC_Item_Sniper_UC;LPKG:NPCItemPKG.S28.Sniper.Paprika.Athena.UC"
       },
-      "LTG_NPC_Item_S28_ShieldPot_01": {
-        "TierGroup": "LTG_NPC_Item_S28_ShieldPot",
+      "LTG_NPC_Item_ShieldPot_01": {
+        "TierGroup": "LTG_NPC_Item_ShieldPot",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20613,7 +20613,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Paprika.ShieldPot",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -20628,7 +20628,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -20656,10 +20656,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_ShieldPot;LPKG:NPCItemPKG.S28.Paprika.ShieldPot"
+        "Annotation": "TG:LTG_NPC_Item_ShieldPot;LPKG:NPCItemPKG.S28.Paprika.ShieldPot"
       },
-      "LTG_NPC_Item_S28_MedBox_01": {
-        "TierGroup": "LTG_NPC_Item_S28_MedBox",
+      "LTG_NPC_Item_MedBox_01": {
+        "TierGroup": "LTG_NPC_Item_MedBox",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20671,7 +20671,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Paprika.MedBox",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -20686,7 +20686,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -20714,10 +20714,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_MedBox;LPKG:NPCItemPKG.S28.Paprika.MedBox"
+        "Annotation": "TG:LTG_NPC_Item_MedBox;LPKG:NPCItemPKG.S28.Paprika.MedBox"
       },
-      "LTG_NPC_Item_S28_BumpFizz_01": {
-        "TierGroup": "LTG_NPC_Item_S28_BumpFizz",
+      "LTG_NPC_Item_BumpFizz_01": {
+        "TierGroup": "LTG_NPC_Item_BumpFizz",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20729,7 +20729,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Paprika.TeamSpray.LowGrav",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -20744,7 +20744,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -20772,10 +20772,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_BumpFizz;LPKG:NPCItemPKG.S28.Paprika.TeamSpray.LowGrav"
+        "Annotation": "TG:LTG_NPC_Item_BumpFizz;LPKG:NPCItemPKG.S28.Paprika.TeamSpray.LowGrav"
       },
-      "LTG_NPC_Item_S28_BumpBerry_01": {
-        "TierGroup": "LTG_NPC_Item_S28_BumpBerry",
+      "LTG_NPC_Item_BumpBerry_01": {
+        "TierGroup": "LTG_NPC_Item_BumpBerry",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20830,10 +20830,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_BumpBerry;LPKG:NPCItemPKG.S28.Paprika.SlapShot"
+        "Annotation": "TG:LTG_NPC_Item_BumpBerry;LPKG:NPCItemPKG.S28.Paprika.SlapShot"
       },
-      "LTG_NPC_Item_S28_BallisticShield_01": {
-        "TierGroup": "LTG_NPC_Item_S28_BallisticShield",
+      "LTG_NPC_Item_BallisticShield_01": {
+        "TierGroup": "LTG_NPC_Item_BallisticShield",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20845,7 +20845,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Paprika.BallisticShield",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -20860,7 +20860,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -20888,10 +20888,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_BallisticShield;LPKG:NPCItemPKG.S28.Paprika.BallisticShield"
+        "Annotation": "TG:LTG_NPC_Item_BallisticShield;LPKG:NPCItemPKG.S28.Paprika.BallisticShield"
       },
-      "LTG_NPC_Item_S28_ClusterBomb_01": {
-        "TierGroup": "LTG_NPC_Item_S28_ClusterBomb",
+      "LTG_NPC_Item_ClusterBomb_01": {
+        "TierGroup": "LTG_NPC_Item_ClusterBomb",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -20903,7 +20903,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Paprika.ClusterBomb",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -20918,7 +20918,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -20946,10 +20946,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_ClusterBomb;LPKG:NPCItemPKG.S28.Paprika.ClusterBomb"
+        "Annotation": "TG:LTG_NPC_Item_ClusterBomb;LPKG:NPCItemPKG.S28.Paprika.ClusterBomb"
       },
-      "LTG_NPC_Item_S28_GrappleKnife_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_GrappleKnife_VR",
+      "LTG_NPC_Item_GrappleKnife_VR_01": {
+        "TierGroup": "LTG_NPC_Item_GrappleKnife_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21004,10 +21004,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_GrappleKnife_VR;LPKG:NPCItemPKG.S28.GrappleKnife.VR"
+        "Annotation": "TG:LTG_NPC_Item_GrappleKnife_VR;LPKG:NPCItemPKG.S28.GrappleKnife.VR"
       },
-      "LTG_NPC_Item_S28_Bandage_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Bandage",
+      "LTG_NPC_Item_Bandage_01": {
+        "TierGroup": "LTG_NPC_Item_Bandage",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21019,7 +21019,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Athena.Bandage",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -21034,7 +21034,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -21062,10 +21062,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Bandage;LPKG:NPCItemPKG.S28.Athena.Bandage"
+        "Annotation": "TG:LTG_NPC_Item_Bandage;LPKG:NPCItemPKG.S28.Athena.Bandage"
       },
-      "LTG_NPC_Item_S28_ShieldSmall_01": {
-        "TierGroup": "LTG_NPC_Item_S28_ShieldSmall",
+      "LTG_NPC_Item_ShieldSmall_01": {
+        "TierGroup": "LTG_NPC_Item_ShieldSmall",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21077,7 +21077,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Athena.ShieldSmall",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -21092,7 +21092,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -21120,10 +21120,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_ShieldSmall;LPKG:NPCItemPKG.S28.Athena.ShieldSmall"
+        "Annotation": "TG:LTG_NPC_Item_ShieldSmall;LPKG:NPCItemPKG.S28.Athena.ShieldSmall"
       },
-      "LTG_NPC_Item_S28_PortaShackGrenade_01": {
-        "TierGroup": "LTG_NPC_Item_S28_PortaShackGrenade",
+      "LTG_NPC_Item_PortaShackGrenade_01": {
+        "TierGroup": "LTG_NPC_Item_PortaShackGrenade",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21135,7 +21135,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Athena.PortaShackGrenade.A",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -21150,7 +21150,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -21178,10 +21178,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_PortaShackGrenade;LPKG:NPCItemPKG.S28.Athena.PortaShackGrenade.A"
+        "Annotation": "TG:LTG_NPC_Item_PortaShackGrenade;LPKG:NPCItemPKG.S28.Athena.PortaShackGrenade.A"
       },
-      "LTG_NPC_Item_S28_Rift_Item_01": {
-        "TierGroup": "LTG_NPC_Item_S28_Rift_Item",
+      "LTG_NPC_Item_Rift_Item_01": {
+        "TierGroup": "LTG_NPC_Item_Rift_Item",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21193,7 +21193,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Athena.Rift.Item",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -21208,7 +21208,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -21236,10 +21236,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_Rift_Item;LPKG:NPCItemPKG.S28.Athena.Rift.Item"
+        "Annotation": "TG:LTG_NPC_Item_Rift_Item;LPKG:NPCItemPKG.S28.Athena.Rift.Item"
       },
-      "LTG_NPC_Item_S28_ShockGrenade_01": {
-        "TierGroup": "LTG_NPC_Item_S28_ShockGrenade",
+      "LTG_NPC_Item_ShockGrenade_01": {
+        "TierGroup": "LTG_NPC_Item_ShockGrenade",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21294,10 +21294,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_ShockGrenade;LPKG:NPCItemPKG.S28.Athena.ShockGrenade"
+        "Annotation": "TG:LTG_NPC_Item_ShockGrenade;LPKG:NPCItemPKG.S28.Athena.ShockGrenade"
       },
-      "LTG_NPC_Item_S28_BushGrenade_01": {
-        "TierGroup": "LTG_NPC_Item_S28_BushGrenade",
+      "LTG_NPC_Item_BushGrenade_01": {
+        "TierGroup": "LTG_NPC_Item_BushGrenade",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21352,10 +21352,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_BushGrenade;LPKG:NPCItemPKG.S28.Athena.BushGrenade"
+        "Annotation": "TG:LTG_NPC_Item_BushGrenade;LPKG:NPCItemPKG.S28.Athena.BushGrenade"
       },
-      "LTG_NPC_Item_S28_AppleSunSmall_01": {
-        "TierGroup": "LTG_NPC_Item_S28_AppleSunSmall",
+      "LTG_NPC_Item_AppleSunSmall_01": {
+        "TierGroup": "LTG_NPC_Item_AppleSunSmall",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21367,7 +21367,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Athena.AppleSunSmall",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 5.0,
+        "NumLootPackageDrops": 3.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -21382,7 +21382,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           0,
           0,
           0,
@@ -21410,10 +21410,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_AppleSunSmall;LPKG:NPCItemPKG.S28.Athena.AppleSunSmall"
+        "Annotation": "TG:LTG_NPC_Item_AppleSunSmall;LPKG:NPCItemPKG.S28.Athena.AppleSunSmall"
       },
-      "LTG_NPC_Item_S28_SnowballLauncher_R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SnowballLauncher_R",
+      "LTG_NPC_Item_SnowballLauncher_R_01": {
+        "TierGroup": "LTG_NPC_Item_SnowballLauncher_R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21425,7 +21425,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Launcher.Snowball.Athena.R.Ore.T03",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -21440,7 +21440,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -21468,10 +21468,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SnowballLauncher_R;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.R.Ore.T03"
+        "Annotation": "TG:LTG_NPC_Item_SnowballLauncher_R;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.R.Ore.T03"
       },
-      "LTG_NPC_Item_S28_SnowballLauncher_VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SnowballLauncher_VR",
+      "LTG_NPC_Item_SnowballLauncher_VR_01": {
+        "TierGroup": "LTG_NPC_Item_SnowballLauncher_VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21483,7 +21483,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Launcher.Snowball.Athena.VR.Ore.T03",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -21498,7 +21498,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -21526,10 +21526,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SnowballLauncher_VR;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.VR.Ore.T03"
+        "Annotation": "TG:LTG_NPC_Item_SnowballLauncher_VR;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.VR.Ore.T03"
       },
-      "LTG_NPC_Item_S28_SnowballLauncher_SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SnowballLauncher_SR",
+      "LTG_NPC_Item_SnowballLauncher_SR_01": {
+        "TierGroup": "LTG_NPC_Item_SnowballLauncher_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21541,7 +21541,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.S28.Launcher.Snowball.Athena.SR.Ore.T03",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -21556,7 +21556,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          5,
+          3,
           1,
           0,
           0,
@@ -21584,10 +21584,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SnowballLauncher_SR;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.SR.Ore.T03"
+        "Annotation": "TG:LTG_NPC_Item_SnowballLauncher_SR;LPKG:NPCItemPKG.S28.Launcher.Snowball.Athena.SR.Ore.T03"
       },
-      "LTG_NPC_Item_S28_SneakySnowman_01": {
-        "TierGroup": "LTG_NPC_Item_S28_SneakySnowman",
+      "LTG_NPC_Item_SneakySnowman_01": {
+        "TierGroup": "LTG_NPC_Item_SneakySnowman",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21642,10 +21642,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_SneakySnowman;LPKG:NPCItemPKG.S28.SneakySnowman"
+        "Annotation": "TG:LTG_NPC_Item_SneakySnowman;LPKG:NPCItemPKG.S28.SneakySnowman"
       },
-      "LTG_NPC_Item_S28_IcyFlopper_01": {
-        "TierGroup": "LTG_NPC_Item_S28_IcyFlopper",
+      "LTG_NPC_Item_IcyFlopper_01": {
+        "TierGroup": "LTG_NPC_Item_IcyFlopper",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21700,10 +21700,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_IcyFlopper;LPKG:NPCItemPKG.S28.Athena.Flopper.Snowman"
+        "Annotation": "TG:LTG_NPC_Item_IcyFlopper;LPKG:NPCItemPKG.S28.Athena.Flopper.Snowman"
       },
-      "LTG_NPC_Item_S28_IcyGrapple_01": {
-        "TierGroup": "LTG_NPC_Item_S28_IcyGrapple",
+      "LTG_NPC_Item_IcyGrapple_01": {
+        "TierGroup": "LTG_NPC_Item_IcyGrapple",
         "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21758,10 +21758,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_IcyGrapple;LPKG:NPCItemPKG.S28.Athena.IcyGrapple"
+        "Annotation": "TG:LTG_NPC_Item_IcyGrapple;LPKG:NPCItemPKG.S28.Athena.IcyGrapple"
       },
-      "LTG_NPC_Item_S28_HomingRocket.R_01": {
-        "TierGroup": "LTG_NPC_Item_S28_HomingRocket.R",
+      "LTG_NPC_Item_HomingRocket.R_01": {
+        "TierGroup": "LTG_NPC_Item_HomingRocket.R",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21816,10 +21816,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_HomingRocket.R;LPKG:NPCItemPKG.S28.Athena.HomingRocket.R"
+        "Annotation": "TG:LTG_NPC_Item_HomingRocket.R;LPKG:NPCItemPKG.S28.Athena.HomingRocket.R"
       },
-      "LTG_NPC_Item_S28_HomingRocket.VR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_HomingRocket.VR",
+      "LTG_NPC_Item_HomingRocket.VR_01": {
+        "TierGroup": "LTG_NPC_Item_HomingRocket.VR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21874,10 +21874,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_HomingRocket.VR;LPKG:NPCItemPKG.S28.Athena.HomingRocket.VR"
+        "Annotation": "TG:LTG_NPC_Item_HomingRocket.VR;LPKG:NPCItemPKG.S28.Athena.HomingRocket.VR"
       },
-      "LTG_NPC_Item_S28_HomingRocket.SR_01": {
-        "TierGroup": "LTG_NPC_Item_S28_HomingRocket.SR",
+      "LTG_NPC_Item_HomingRocket.SR_01": {
+        "TierGroup": "LTG_NPC_Item_HomingRocket.SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21932,10 +21932,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_HomingRocket.SR;LPKG:NPCItemPKG.S28.Athena.HomingRocket.SR"
+        "Annotation": "TG:LTG_NPC_Item_HomingRocket.SR;LPKG:NPCItemPKG.S28.Athena.HomingRocket.SR"
       },
-      "LTG_NPC_Item_S28_MGSCardboardBox_01": {
-        "TierGroup": "LTG_NPC_Item_S28_MGSCardboardBox",
+      "LTG_NPC_Item_MGSCardboardBox_01": {
+        "TierGroup": "LTG_NPC_Item_MGSCardboardBox",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -21990,10 +21990,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_MGSCardboardBox;LPKG:NPCItemPKG.S28.Athena.MGSCardboardBox"
+        "Annotation": "TG:LTG_NPC_Item_MGSCardboardBox;LPKG:NPCItemPKG.S28.Athena.MGSCardboardBox"
       },
-      "LTG_NPC_Item_S28_EMPGrenade_01": {
-        "TierGroup": "LTG_NPC_Item_S28_EMPGrenade",
+      "LTG_NPC_Item_EMPGrenade_01": {
+        "TierGroup": "LTG_NPC_Item_EMPGrenade",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -22048,10 +22048,10 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S28_EMPGrenade;LPKG:NPCItemPKG.S28.EMPGrenade"
+        "Annotation": "TG:LTG_NPC_Item_EMPGrenade;LPKG:NPCItemPKG.S28.EMPGrenade"
       },
-      "LTG_NPC_Item_DrumGun_VR_01": {
-        "TierGroup": "LTG_NPC_Item_DrumGun_VR",
+      "LTG_Vend_Item_SunRose_DrumGun_Green_01": {
+        "TierGroup": "LTG_Vend_Item_SunRose_DrumGun_Green",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -22061,9 +22061,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.SunRose.DrumGun.VR",
+        "LootPackage": "NPCItemPKG.SunRose.DrumGun.R",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -22078,7 +22078,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          3,
           1,
           0,
           0,
@@ -22106,7 +22106,181 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_DrumGun_VR;LPKG:NPCItemPKG.SunRose.DrumGun.VR"
+        "Annotation": "TG:LTG_Vend_Item_SunRose_DrumGun_Green;LPKG:NPCItemPKG.SunRose.DrumGun.R"
+      },
+      "LTG_Vend_Item_SunRose_DrumGun_Random_01": {
+        "TierGroup": "LTG_Vend_Item_SunRose_DrumGun_Random",
+        "Weight": 30.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.DrumGun.VR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_DrumGun_Random;LPKG:NPCItemPKG.SunRose.DrumGun.VR"
+      },
+      "LTG_Vend_Item_SunRose_DrumGun_Random_02": {
+        "TierGroup": "LTG_Vend_Item_SunRose_DrumGun_Random",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.DrumGun.SR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_DrumGun_Random;LPKG:NPCItemPKG.SunRose.DrumGun.SR"
+      },
+      "LTG_Vend_Item_SunRose_DrumGun_SR_01": {
+        "TierGroup": "LTG_Vend_Item_SunRose_DrumGun_SR",
+        "Weight": 0.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.SunRose.DrumGun.SR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_Vend_Item_SunRose_DrumGun_SR;LPKG:NPCItemPKG.SunRose.DrumGun.SR"
       },
       "LTG_NPC_Item_DrumGun_UR_01": {
         "TierGroup": "LTG_NPC_Item_DrumGun_UR",
@@ -22571,6 +22745,64 @@
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Item_Wings;LPKG:NPCItemPKG.Athena.SunRose.Wings"
+      },
+      "LTG_NPC_Item_FishingRod_01": {
+        "TierGroup": "LTG_NPC_Item_FishingRod",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.FishingRod",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_FishingRod;LPKG:NPCItemPKG.Athena.FishingRod"
       }
     }
   }

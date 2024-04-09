@@ -68,6 +68,9 @@
     "SelectedSplineTabTitle": "Выбранная точка",
     "SplineLengthTitle": "Длина сплайна: {SplineLength}"
   },
+  "Fort.Actor.Building.Defaults": {
+    "OptionDefinitionContainer.LabelOverride": "Метка"
+  },
   "SDelMarOobSelectedNodesWidget": {
     "SelectSplinePoints": "Выбранные точки на сплайне",
     "SelectedPoints": "Выбранные точки"
@@ -96,5 +99,8 @@
   "UICommands.DelMarTrackSplineComponentVisualizer": {
     "ToggleUseStableRoll_ToolTip": "Переключить флаг UseStableRoll (Использовать стабильное качение) для выбранной точки на сплайне.",
     "ToggleUseStableRoll": "Использовать стабильное качение"
+  },
+  "UserOptionDefinition": {
+    "DelMarTrack_ActiveTrigger_C.TrackToActivate.DisplayName": "Отслеживайте, чтобы активировать"
   }
 }

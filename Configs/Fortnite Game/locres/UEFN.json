@@ -120,10 +120,14 @@
     "UnknownNPCName": "Неизвестно"
   },
   "BuildingInstructions": {
-    "CommandletInfo": "После изменения значения карты шаблона или точек карты шаблона в файле карты, вам нужно будет сгенерировать инструкции по сборке, чтобы просмотреть свои изменения.\nВы можете сгенерировать инструкции по сборке, запустив файл EXE редактора со следующей командной строкой: \"-run=FortBuildingInstructionsCommandlet\".\nЗапуск файла EXE редактора с такой командной строкой не откроет редактор, но запустит вместо этого консольную программу, которая повторно создаст все инструкции по сборке и удалит любые инструкции по сборке, претерпевшие изменения."
+    "CommandletInfo": "После изменения значения карты шаблона или точек карты шаблона в файле карты, вам нужно будет сгенерировать инструкции по сборке, чтобы просмотреть свои изменения.\nВы можете сгенерировать инструкции по сборке, запустив файл EXE редактора со следующей командной строкой: \"-run=FortBuildingInstructionsCommandlet\".\nЗапуск файла EXE редактора с такой командной строкой не откроет редактор, но запустит вместо этого консольную программу, которая повторно создаст все инструкции по сборке и удалит любые инструкции по сборке, претерпевшие изменения.",
+    "CommandletInfoRowName": "Информация консольной программы"
   },
   "CharacterModifier_CosmeticSpawn": {
     "MissingCharacterCosmeticDefinition": "Отсутствует или не найдено косметическое определение персонажа в модификаторе создания!"
+  },
+  "CharacterModifier_Emotes": {
+    "MissingEmoteDefinition": "Отсутствует определение эмоции в модификаторе эмоций!"
   },
   "CharacterModifier_Inventory": {
     "MissingItemDefinition": "Отсутствует определение предмета в модификаторе инвентаря!"
@@ -133,9 +137,6 @@
   },
   "CharacterModifier_Team": {
     "TeamIndex": "Индекс команды должен быть от 1 до 100!"
-  },
-  "CharacterModifier_VerseBehavior": {
-    "MissingAIBehaviorScript": "Отсутствует сценарий поведения ИИ в модификаторе персонажа!"
   },
   "CharacterType": {
     "UnsupportedDefaultModifier": "Модификатор по умолчанию {0} отсутствует в списке поддерживаемых модификаторов"
@@ -323,6 +324,9 @@
     "SelectedActors": "Выбранные акторы",
     "SelectedActors_ToolTip": "Выбранные акторы",
     "SharedAssetThreshold": "Порог"
+  },
+  "EmporiumActorFactory": {
+    "CanCreateActorFrom.Error.NoStaticMesh": "Должна быть указана допустимая статичная сетка."
   },
   "EntityComponentClassCombo": {
     "AddComponentButtonLabel": "Добавить компонент",
@@ -628,6 +632,7 @@
     "ActorValidation.Heading": "Проверка актора",
     "BuildCurrentManifest.Label": "Манифест сборок",
     "BuildCurrentManifest.Tooltip": "Создать состояние манифеста для текущей версии Fortnite из локальных списков разрешений и контента",
+    "PermissionLevels.ToolTip": "Контролирует, для какого уровня допуска проверяется контент",
     "CreateValidationWorld.Label": "Создать мир для проверки",
     "CreateValidationWorld.Tooltip": "Создать переходный мир редактора, используемый для проверки созданных акторов",
     "SpawnActor.Tooltip.NoValidationWorld": "Перед появлением экземпляров акторов нужно создать мир валидации",
@@ -832,6 +837,9 @@
     "FortValidator_Skeleton.ReferencerErrors": "Обнаружены ошибки при ссылке на ресурс",
     "DataValidation.LoadErrors": "Ошибки при загрузке ресурса {0}",
     "DataValidation.FailedToLoadAsset": "Не удалось загрузить ресурс",
+    "FortValidator_Blueprints.LoadFailure": "Не удалось загрузить копию объекта для проверки: {0}",
+    "FortValidator_MaterialFunction.LoadFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
+    "FortValidator_Skeleton.LoadFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
     "FortExposedContent.FailedToSpawnValidationActor": "Не удалось создать открытый актор проверки контента",
     "ItemDefinition_InvalidReleaseVersion": "Версии выпуска Fortnite '{0}' не существует. Вы можете использовать только значения, входящие в массив AllVersions в файле DefaultFortReleaseVersion.ini",
     "IllegalReference_AssetFilterVersionFail": "Версия выпуска Fortnite указана как 'Следующая', но на нее ссылается ресурс предыдущей версии {0}",
@@ -886,6 +894,11 @@
     "AnimationBlueprint_DefaultMeshSimulation": "ресурс физики сетки по умолчанию",
     "SkeletalMeshes_MissingLODs": "В {0} отсутствует уровень(-и) детализации: {1}",
     "NiagaraSystem_NoEffectType": "В {0} отсутствует ресурс типа эффекта"
+  },
+  "FortValidatorNewPackage": {
+    "FortValidatorNewPackage.PluginLoadErrors": "Ошибки при загрузке ресурса {0}",
+    "FortValidatorNewPackage.CompilingBpsForNewPackageCheck": "Завершение компиляции ресурсов перед проверкой контента…",
+    "FortValidatorNewPackage.PluginLoadWarnings": "Предупреждения при загрузке ресурса {0}"
   },
   "FortVehicleCosmeticsItemDefinitions": {
     "ErrorItemTypeTagEmpty": "Вы должны располагать тегом типа предмета для составления {0} действительного определения предмета."
@@ -1134,6 +1147,7 @@
     "SkeinCheckInSuccess": "Созданный снимок состояния.",
     "SkeinCheckoutErrorNotCurrent": "Доступна более новая версия файла '{Filename}'.",
     "SkeinCheckoutErrorLocked": "Файл '{Filename}' получен другим пользователем.",
+    "Tab_ConflictResolution_ToolTip": "Открывает вкладку для разрешения конфликтов в редакторе.",
     "Tab_SnapshotHistory_ToolTip": "Открывает вкладку для выбора версии в редакторе.",
     "Tab_SnapshotHistory_DisplayName": "История снимков состояния",
     "SkeinNotAvailable": "В вашей системе отсутствует исполняемый файл Unreal Revision Control.",
@@ -1231,7 +1245,8 @@
     "CheckInDialogTitle": "Предупреждение: Зафиксировать перед синхронизацией более старого снимка состояния",
     "CheckInDialogMessage": "У вас есть локальные изменения, которые вы пока не зафиксировали. Продолжение синхронизации этой более старой версии без фиксации приведёт к потере всех локальных изменений.",
     "FurtherRewindDialogMessage": "Вы внесли изменения в снимок состояния, к которому вы перешли. Для дальнейшего перехода вы должны решить, следует ли удалить данные изменения или отменить эту операцию. После отмены вы можете выполнить синхронизацию обратно к последней версии и попытаться включить в неё эти изменения или восстановить снимок состояния {0} до последней версии с вашими изменениями.",
-    "SyncLatestWhileRewoundMessage": "Вы внесли изменения во время перехода к снимку состояния {0}. Вы можете либо попытаться внести ваши изменения наряду с последним снимком состояния, либо отменить свои изменения, чтобы синхронизировать чистую копию последнего снимка."
+    "SyncLatestWhileRewoundMessage": "Вы внесли изменения во время перехода к снимку состояния {0}. Вы можете либо попытаться внести ваши изменения наряду с последним снимком состояния, либо отменить свои изменения, чтобы синхронизировать чистую копию последнего снимка.",
+    "FurtherRewindDialogTitle": "Вы внесли изменения в этот снимок состояния"
   },
   "SObjectiveDebugger": {
     "Clear": "Удалить",
@@ -1331,6 +1346,8 @@
   },
   "SourceControl": {
     "SourceControl_ResolvingConcluding": "Завершение разрешения файлов в системе контроля версий…",
+    "SourceControl_GetSnapshotFileList": "Получение сравнительного списка снимка состояния в системе контроля версий…",
+    "SourceControl_PromoteSnapshot": "Изменение статуса снимка состояния на «Последняя версия»…",
     "SourceControl_ResolvingMine": "Разрешаются файлы в системе контроля версий…",
     "SourceControl_ResolvingTheirs": "Разрешаются файлы в системе контроля версий…",
     "SourceControl_ResolvingVisualMerge": "Преобразование файлов в редакторе исходного кода…"
@@ -1509,6 +1526,7 @@
   "UICommands.FortniteEditorCommands": {
     "AttachBuildingActor": "Прикрепить актор строительства",
     "MirrorSelectedBuildingActors": "Зеркалировать выбранные акторы постройки",
+    "MirrorSelectedBuildingActors_ToolTip": "Отражает выбранные акторы постройки в окне просмотра",
     "AttachBuildingActor_ToolTip": "Прикрепить выбранные акторы строительства к",
     "ReplaceSelectedActorsWithSelectedType": "Заменить выбранные акторы на акторы выбранного типа",
     "ReplaceSelectedActorsWithSelectedType_ToolTip": "Заменить выбранные в окне просмотра акторы на акторы типа, выбранного в Каталоге ресурсов",
@@ -1865,12 +1883,14 @@
     "ReportContent_Label": "Пожаловаться на контент",
     "ValkyrieReportProject": "Отчёт о проекте",
     "ReportContent_ToolTip": "Содержимое отчёта",
+    "ValkyrieReportProject_ToolTip": "Отчёт о текущем проекте",
     "ValkyrieRestrictiveMode": "Ограниченный режим",
     "ResolveModerationIssuesTooltip": "Просмотреть проблемы соответствия ресурсов, возникшие во время модерации проекта.",
     "SetAsCurrentProjectLabel": "Задать как текущий проект (только DEV)",
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
     "ToggleVerseComponentMode_ToolTip": "Переключить режим компонента Verse",
+    "UploadProjectLabel": "Выгружает проект (только DEV)",
     "UploadProjectToPrivateVersionLabel": "Выгрузить проект в закрытую версию",
     "UploadToTestCodeMessage": "Выгрузка закрытой версии…",
     "UploadProjectTooltip": "Выгружает этот проект (только DEV)",
@@ -1964,7 +1984,8 @@
     "PrepareUploadProject.Error.InternalError": "Внутренняя ошибка",
     "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "PrepareProjectSourceDataForUpload.FailCleanupIntermediateAssets": "Внутренняя ошибка: нет открытых проектов",
-    "UploadProject.Error.NoProject": "Нет загруженных проектов"
+    "UploadProject.Error.NoProject": "Нет загруженных проектов",
+    "PrepareUploadProject.Error.ValidationFailed": "Проверка не пройдена"
   },
   "ValkyrieFortniteEditorInternalPlayMenu": {
     "ValkyriePlayAsClient": "Подключение Valkyrie в качестве клиента",
@@ -2073,6 +2094,8 @@
     "RefreshButtonToolTip_MemorySamplerInProgress": "Выполняется расчёт памяти.",
     "StartActionToolTipMemorySamplerInProgress": "Выполняется расчёт памяти.",
     "ValkyrieMemorySamplingInProgress_ToolTip": "Расчёт памяти уже выполняется.",
+    "ShowMemorySamplingResultModal.Failure": "Расчёт памяти завершён. Проект превышает пределы выделенного объёма памяти.\n\n{0}\n\n{1}",
+    "ShowMemorySamplingResultModal.Success": "Расчёт памяти завершён. Проект соответствует пределам выделенного объёма памяти.\n\n{0}\n\n{1}",
     "ValkyrieMemorySamplerNotReady_ToolTip": "Выборка памяти ещё не готова.",
     "ShowMemorySamplingResultModal.MemoryRatio": "Используемая память: {0} / {1}",
     "MemorySamplingDialog.Message": "Подсчёт количества памяти автоматически запускается после выгрузки частной версии. Чтобы продолжить, нажмите ниже.",
@@ -2095,8 +2118,8 @@
     "ValkyrieNeedProject_ToolTip": "Откройтие проект, чтобы разблокировать это действие.",
     "LaunchSessionButtonToolTip": "Открыть сеанс игры",
     "OpenGameViewButtonToolTip": "Открывает игру.",
-    "ValkyrieChooseLocalClientBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального клиента. (Дополнительные параметры командной строки: Настройки редактора -> Valkyrie)",
-    "ValkyrieChooseLocalServerBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального сервера. (Дополнительные параметры командной строки: Настройки редактора -> Valkyrie)",
+    "ValkyrieChooseLocalClientBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального клиента. (Дополнительные параметры командной строки: Параметры редактора -> Valkyrie)",
+    "ValkyrieChooseLocalServerBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального сервера. (Дополнительные параметры командной строки: Параметры редактора -> Valkyrie)",
     "ValkyrieBrowseCSProject_ToolTip": "Открывает старницу управления проектами в вашем браузере. Управляйте информацией о своем проекте, версиями и реферальными ссылками отсюда.",
     "ValkyrieProjectSubMenuOptimizationSection": "Оптимизация",
     "ValkyriePlaySubMenuPlatformOptionsSection": "Платформа",
@@ -2149,6 +2172,7 @@
     "CreatorPortalNoTeamSubMenuCreateNewTeamToolTip": "Поделиться проектом с новой командой",
     "CreatorPortalNoTeamSubMenuExistingTeamsToolTip": "Поделиться проектом с существующей командой",
     "ShowInCreatorPortalCheckBox": "Показать на Творческом портале",
+    "OnMemoryTestResultsReceived.ButtonShow": "Показать результаты",
     "ValkyrieNews_ToolTip": "Показать новости",
     "StartGameLabel": "Запустить игру",
     "StartActionToolTipNotConnectedConnected": "Чтобы начать игру, запустите сеанс!",
@@ -2307,6 +2331,7 @@
     "AddPluginsInvalidFileName": "Не удалось добавить плагин, так как его название не является допустимым\n{0}",
     "CannotFindVKProjectRootPlugin": "Не удалось найти корневой плагин под названием {0}\n{1}",
     "ProjectVersePathConfirmation.ChangeButton": "Изменить путь Verse проекта",
+    "SetProjectVersePath.SlowTask": "Изменение пути к проекту в Verse",
     "PluginRemovalTitle": "Подтвердить удаление контента",
     "ProjectVersePathConfirmation.Title": "Подтвердить путь Verse проекта",
     "ExternalContentRemovalTitle": "Подтвердить удаление внешнего контента",
@@ -2320,6 +2345,7 @@
     "FailAssignVersePath": "Не удалось назначить путь в Verse проекту {0}",
     "FailFindProjectPlugin": "Не удалось найти плагин(ы) проекта",
     "RefContentFailNotif.Text": "Не удалось загрузить внешний контент\n'{0}'",
+    "FailWritePluginFile": "Не удалось записать файлы плагина",
     "RefContentFailNotif.CacheSizePref": "Увеличить размер кэша в настройках редактора",
     "RemoveReferencedContentWarning": "Настоятельно рекомендуется сначала удалить эти ссылки (см. полный список в журналах).\n\nПри удалении этого контента проект перезагрузится, но некоторые из его ресурсов могут быть повреждены или не загружаться.\n\n",
     "LoadProjectPlugins": "Идёт загрузка плагинов проекта...",
@@ -2334,6 +2360,7 @@
     "ProjectVersePathUpdated": "Путь в Verse проекта установлен:",
     "PublicPluginOnlyInLibrary": "В проекте {0} можно использовать только общедоступные плагины",
     "RefContentAlreadyAdded": "Внешний контент\n'{0}'\nуже в проекте",
+    "RefContentFailNotif.CacheOutOfSpace": "Закончилось место в кэше внешнего контента",
     "RefContentFailNotif.Remove": "Удалить внешний контент",
     "RemovingProjectPublicApi": "Удаление общедоступного API проекта…",
     "ProjectVersePathConfirmation.SetButton": "Задать путь Verse проекта",
@@ -2509,23 +2536,21 @@
   "ValkyrieProjectStagingContext": {
     "Cancel": "Отмена",
     "CannotChangePublishedProjectVersePath": "Невозможно изменить путь Verse проекта '{0}', потому что он уже опубликован",
-    "FailLoadBindings": "Не удалось загрузить привязки для проекта {0}",
-    "FailSyncWithContentService": "Не удалось синхронизировать проект {0} с сервисом управления контентом",
-    "FailSyncWithContentServiceNotLoggedIn": "Не удалось синхронизировать проект {0} с сервисом управления контентом, так как пользователь не вошел в систему\nОшибка: {1}",
     "UnauthorizedAccessDialog.No": "Нет, оставить как есть",
     "FValkyrieFortniteModerationStatus_ErrorNotificationContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале.",
     "FValkyrieFortniteModerationStatus_ErrorDialogContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале. Вы должны обеспечить соответствие всех ваших ресурсов рекомендациям. Если нарушение не будет устранено, ваш проект будет заблокирован.",
     "OpenCreatorPortal": "Открывает Творческий портал",
     "FValkyrieFortniteModerationStatus_ErrorDialogTitle": "Предупреждение при модерации проекта",
+    "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "UnauthorizedAccess.Title": "Несанкционированный доступ",
     "VersePathNotInProjectSysMetadata": "Путь в Verse не был успешно установлен в системных метаданных проекта",
-    "UnauthorizedAccessDialog.Yes": "Да, изменить проект",
-    "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту {0} в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
+    "UnauthorizedAccessDialog.Yes": "Да, изменить проект"
   },
   "ValkyrieProjectTemplatesController": {
     "CreateProjectActionText": "Создать"
   },
   "ValkyrieProjectUtils": {
+    "OpenRefSourceProjects.BrowseDialogTitle": "Перейти к файлу проекта '{0}'",
     "RemapLocalVsReferencedContent.CannotFindExternalModule": "Не удалось найти внешний контент для плагина проекта {0}",
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "Не удалось найти плагин общедоступного проекта для внешнего контента '{0}'",
     "VKCannotFindPlugin": "Не удалось найти плагин",
@@ -2579,6 +2604,7 @@
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Непредвиденная ошибка переназначения {0}",
     "VKUnloadPlugins": "Идёт выгрузка плагинов...",
     "OpenRefSourceProjects.InaccessibleProject": "У вас нет доступа к проекту '{0}'",
+    "OpenRefSourceProjects.InaccessibleProjects": "У вас нет доступа к следующим проектам:",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "OpenRefSourceProjects.KeepBrowsing": "{0}\n\nПродолжить поиск?",
     "VKPluginNameTooLong": "{0} не может иметь название, в котором количество символов больше {1}",
@@ -2729,16 +2755,13 @@
   "VersePropertyEditor": {
     "PropertyTextTooLongError": "Это значение слишком длинное (символы: {0}/{1})"
   },
-  "VkBackNodeDetails": {
+  "VkChoiceNodeDetails": {
     "Category": "Диалог"
   },
-  "VkContinueNodeDetails": {
+  "VkEventNodeDetails": {
     "Category": "Диалог"
   },
   "VkRepeatNodeDetails": {
-    "Category": "Диалог"
-  },
-  "VkRestartNodeDetails": {
     "Category": "Диалог"
   },
   "VkSpeechNodeDetails": {
