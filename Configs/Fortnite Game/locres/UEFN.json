@@ -11,6 +11,7 @@
     "A11CB2294FA6334D14FE07A4744F2DCF": "Отменить",
     "126CC7464861D9BFFFC26EB1C1CC81C3": "Проверить ещё раз",
     "2724200242C7F73DF9199C9BCE3B00A6": "Установить флажок",
+    "B739E82B4293876A7B4CCEBD827636D5": "Трасса соревновательных гонок",
     "3D55AD694103638A3AF8448EE79A92DD": "Творческий набор",
     "3603333B4A07A8776BCE138A3391D39C": "Удалить",
     "CC2E9B6747E19D2828AF0880530ED0B6": "Готово",
@@ -20,6 +21,7 @@
     "4CBC0D8D4CDFB710CBFC93B8D3184353": "Пример сюжетной обстановки, который может быть опубликован и затем импортирован в инвентарь Fortnite Creative",
     "F323D3324C1E2BF0E3D873853A57C7DA": "Демонстрация функциональных возможностей",
     "E9C4E4D04CE32EDEFB35F98B1579F659": "Основа Fortnite",
+    "D3AF322F4EE75BAAC57EC8973B0766A5": "Узнайте, как можно сделать свои уровни более захватывающими, добавляя на них свет, постобработку и визуальные эффекты высокого качества. Демонстрируем, как можно это сделать, на примере этого уровня.",
     "310BF5F942CB152931478BAE9315B9D7": "Узнайте, как вы можете использовать устройство создания персонажей и аниматор MetaHuman для добавления новых уровней творческих способностей к вашим островам. Используйте стул и устройства входных триггеров для разблокировки игрового процесса, что ранее было невозможно в UEFN.",
     "44879C174A60DB82AB62E8952784D36F": "Идёт загрузка",
     "7B1C419A4304D8A74EDC138135C2FBD3": "Металл",
@@ -33,9 +35,13 @@
     "F571C4E541E1E2D3482882B4D5BE866F": "Сохранить",
     "A60687B342E02285E2AEB7B6EF754AD5": "Масштаб U",
     "6D718A684F6E631D925FE2B5D0638366": "Масштаб V",
+    "72A7EEC645FCD58CF47570BE6168E9A5": "Трасса для скоростного забега",
+    "A41F45ED4F8E7F6B737BA0B53CA96B52": "Проект стартового пакета для трассы Rocket Racing: Competitive Race. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
+    "75EF368444715B17CA879E91CA9004A3": "Проект стартового пакета для трассы Rocket Racing: Speed Run. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
     "E8706C3F485A491D6987298FEC46FBB8": "Стиль",
     "ADFB7C58432BD4540E5D52BE3C57B6CC": "Заголовок",
     "391405CC46B2F3A26F7747B2217E1705": "Введите текст, чтобы начать поиск по названию состояния…",
+    "33BB67A04898FBB5CC888DA9D468D58D": "Визуальный эффект \"Пещера с лавой\"",
     "8F4E441F4D29EF4779A201A91F090621": "Verse — Стартовый пакет устройств",
     "74D6D0744C1DBDD819753C968E9E869E": "Verse — Детонация",
     "997E73E547DE5A156B61FBA2A0D6A4D9": "Verse — Устранение",
@@ -69,6 +75,9 @@
   "AssetAdapterFactory": {
     "DeviceDisplayName": "Устройство"
   },
+  "AssetDefinition_FortQuestItemDefinition": {
+    "AssetDefinition_FortQuestItemDefinition": "Редактировать в окне сведений"
+  },
   "AssetTypeActions": {
     "AssetAction_GenerateAllPlaysetPropThumbnailsInTheGame": "(Повторно) генерировать все миниатюры предметов окружения сюжетной обстановки в игре",
     "AssetAction_GenerateAllPlaysetPropThumbnailsWithValidCreativeTags": "(Повторно) генерировать все миниатюры объектов окружения сюжетной обстановки в игровом наборе с допустимыми тегами творческого режима",
@@ -78,6 +87,7 @@
     "AssetAction_CheckoutPlaysetRelatedFilesTooltip": "Извлечение ресурсов, связанных с определением предмета этой сюжетной обстановки: он сам, уровень его сюжетной обстановки, предметы окружения его сюжетной обстановки и их миниатюры",
     "ItemDef_CopyTemplateIdsToClipboard": "Копировать TemplateIds в буфер обмена",
     "ItemDef_CopyTemplateIdsToClipboardToolTip": "Копировать TemplateId для выбранных FortItemDefinition в буфер обмена системы. Если выбрано несколько ресурсов, каждый TemplateId отделяется символом новой строки.",
+    "AssetTypeActions_DaySequence": "Смена дня и ночи",
     "DefaultPlaylist": "Сюжетная обстановка по умолчанию",
     "UDynamicUISceneAssetDefinition": "Сцена динамического интерфейса",
     "ItemDef_FindInPlaylists": "Найти в плейлистах…",
@@ -123,7 +133,11 @@
     "CommandletInfo": "После изменения значения карты шаблона или точек карты шаблона в файле карты, вам нужно будет сгенерировать инструкции по сборке, чтобы просмотреть свои изменения.\nВы можете сгенерировать инструкции по сборке, запустив файл EXE редактора со следующей командной строкой: \"-run=FortBuildingInstructionsCommandlet\".\nЗапуск файла EXE редактора с такой командной строкой не откроет редактор, но запустит вместо этого консольную программу, которая повторно создаст все инструкции по сборке и удалит любые инструкции по сборке, претерпевшие изменения.",
     "CommandletInfoRowName": "Информация консольной программы"
   },
+  "CanCreateActor": {
+    "NoDaySequenceAsset": "Должен быть указан действительный ресурс смены дня и ночи."
+  },
   "CharacterModifier_CosmeticSpawn": {
+    "MissingCharacterBlueprintDefinition": "Отсутствует схема персонажа в модификаторе появления!",
     "MissingCharacterCosmeticDefinition": "Отсутствует или не найдено косметическое определение персонажа в модификаторе создания!"
   },
   "CharacterModifier_Emotes": {
@@ -132,11 +146,17 @@
   "CharacterModifier_Inventory": {
     "MissingItemDefinition": "Отсутствует определение предмета в модификаторе инвентаря!"
   },
+  "CharacterModifier_Navigation": {
+    "BadNavigationDefinition": "Чтобы отменить генерацию, значение GenerationRadius должно быть меньше GenerationRemovalRadius, либо для обоих должно быть задано 0."
+  },
   "CharacterModifier_PatrolPath": {
     "IncompatibleModifier": "На данный момент модификатор маршрута патрулирования пути на пользовательских персонажах может использоваться только с типом косметического предмета 'Определение предмета персонажа'."
   },
   "CharacterModifier_Team": {
     "TeamIndex": "Индекс команды должен быть от 1 до 100!"
+  },
+  "CharacterModifier_VerseBehavior": {
+    "MissingNPCBehaviorScript": "Отсутствует сценарий поведения NPC в модификаторе персонажа!"
   },
   "CharacterType": {
     "UnsupportedDefaultModifier": "Модификатор по умолчанию {0} отсутствует в списке поддерживаемых модификаторов"
@@ -154,19 +174,27 @@
   "ContentResolver": {
     "ResolveVersePathAttempt": "Попытка преобразовать путь Verse {VersePath} для платформы {PlatformName} {Role}",
     "ResolveVersePathComplete": "Выполнено разрешение ссылочного кода {LinkId} с использованием поставщика {ProviderName} для платформы {PlatformName} {Role}, ошибка {Error}",
+    "ExecResolveIDError": "Ошибка при преобразовании параметра {PlatformName} роли {Role} клиента {ID}, errordetails {Error}",
     "ExecResolveLinkError": "Ошибка разрешения параметра {LinkCode}, errordetails {Error}",
     "ExecResolveVersePathError": "Ошибка разрешения параметра {VersePath}, errordetails {Error}",
     "NoProviderFound": "Ни один из поставщиков контента не может обслужить этот запрос.",
     "NoProviderFoundForLinkCode": "Ни один из зарегистрированных поставщиков контента не может обслужить этот запрос {LinkCode}.",
-    "ExecResolveLinkSuccess": "Разрешённый ссылочный код {LinkCode} к URL {PluginURLs}"
+    "ResolveVersePathRedirect": "Перенаправленный путь в Verse {InVersePath} к {OverrideVersePath}",
+    "ExecResolveIDSuccess": "Преобразованный идентификатор {PlatformName} роли {Role} клиента {ID} к URL-адресам {PluginURLs}",
+    "ExecResolveLinkSuccess": "Разрешённый ссылочный код {LinkCode} к URL {PluginURLs}",
+    "ExecResolveVersePathSuccess": "Преобразованный путь Verse {VersePath} к URL-адресам {PluginURLs}",
+    "ResultCleanedUpBeforeComplete": "Результат удалён до обозначения как завершённый (это никогда не должно происходить).",
+    "VersePathRedirectParseError": "Неправильное количество элементов в переадресации {Pair}"
   },
   "ContentServiceProvider": {
     "ContentServiceProviderCleanedUp": "Поставщик сервиса управления контентом был очищен до выполнения запроса.",
+    "InvalidInputPreviousResult": "Предоставленный ввод недействителен, не удалось преобразовать предыдущий результат в действительный аргумент.",
     "ProjectMissingRequestedArtifacts": "Проект не содержит запрашиваемые дефекты.",
     "TestLinkResolveError": "Ошибка разрешения тестового контента.",
     "VersePathDoesNotContainLiveLinkCode": "Путь Verse не ведёт к активным объектам, был ли он опубликован?"
   },
   "Contexts": {
+    "DaySequence": "Плагин DaySequence",
     "FortConversationEditor": "Редактор диалогов Fortnite",
     "FortniteEditorCommands": "Редактор Fortnite",
     "ValkyrieEditor": "Редактор Valkyrie"
@@ -207,6 +235,7 @@
   },
   "DaySequenceActorDetails": {
     "Preview": "Для предпросмотра",
+    "PreviewSequenceSlider": "Последовательность предпросмотра",
     "Sequence": "Последовательность"
   },
   "DaySequenceConditionSetCombo": {
@@ -223,12 +252,42 @@
   },
   "DaySequenceEditor": {
     "DaySequenceActionsHeader": "Действия",
+    "AssignActor": "Назначить актор",
+    "AssignActorTooltip": "Назначить актор этой дорожке",
+    "BakeTransform": "Прописать преобразование",
+    "DaySequenceEditorProjectSettingsDescription": "Сконфигурировать редактор смены дня и ночи",
+    "DaySequenceEditorSettingsDescription": "Сконфигурировать внешний вид и восприятие редактора смены дня и ночи.",
+    "DaySequenceDisplayName": "Смена дня и ночи",
+    "TabTitle": "Смена дня и ночи",
+    "AppLabel": "Редактор смены дня и ночи",
+    "DaySequenceEditorProjectSettingsName": "Редактор смены дня и ночи",
+    "DaySequenceEditorSettingsName": "Редактор смены дня и ночи",
+    "EditDaySequence": "Редактировать смену дня и ночи",
     "EnvironmentSettings": "Окружение",
+    "FixActorReferences": "Исправить ссылки на актор",
     "General": "Общее",
+    "TooltipText": "Открывает редактор смены дня и ночи",
     "DaySequencePreviewHeader": "Для предпросмотра",
+    "RebindComponent": "Перепривязать компонент",
+    "RebindComponentTooltip": "Повторно привязать компонент, переместив дорожки с одного компонента на другой.",
+    "RemoveAllBindings": "Удалить все привязанные объекты",
+    "RemoveMissing": "Удалить отсутствующие объекты",
+    "EnvironmentSettings_ToolTip": "Настроить среду дня или ночи",
+    "SnapSectionsToTimelineUsingSourceTimecode_Transaction": "Установить границы секций на временной шкале, используя исходный временной код",
+    "DaySequenceSettings_ToolTip": "Указать настройки времени суток",
+    "SyncSectionsUsingSourceTimecode_Transaction": "Синхронизировать секции, используя исходный временной код",
     "DaySequencePreviewTime": "Время",
     "DaySequenceMenuLabel": "Время суток",
     "DaySequenceSettings": "Время суток"
+  },
+  "DaySequenceEditorActorBinding": {
+    "AddActor_Label": "Актор в Sequencer",
+    "AddSpecificActor": "Добавить '{0}'",
+    "AddCurrentActorSelection": "Добавить текущий выбор ({0} акторов)",
+    "EmptyBindingTooltip": "Добавить новую пустую привязку к Sequencer, которую впоследствии можно подключить к объекту или актору в свойствах привязки",
+    "AddActor_ToolTip": "Разрешить Sequencer владение актором, уже существующим в текущем уровне",
+    "ChooseActor": "Выбрать актор:",
+    "EmptyBinding": "Новая пустая привязка"
   },
   "DaySequenceEditorActorSpawner": {
     "ClassWithin": "Не удалось добавить временный актор для класса типа '{0}', поскольку он содержит требуемый внешний класс '{1}'.",
@@ -240,6 +299,12 @@
   },
   "DaySequenceEditorSpawnRegister": {
     "NoSpawnerFound": "Не найден генератор для создания нового типа временного актора"
+  },
+  "DaySequenceFactory": {
+    "DefaultBindingName": "Корневой актор смены дня и ночи"
+  },
+  "DaySequenceModifierComponent": {
+    "ModifierTrackFormat": "Модификатор ({0})"
   },
   "DaySequenceModifierDeviceCustomization": {
     "BlendAmount": "Расстояние смешивания",
@@ -281,8 +346,22 @@
     "CloudSpeed": "Скорость"
   },
   "DaySequencePlaybackContext": {
+    "ClientPostfixFormat": " (Клиент {0})",
+    "EditorPostfix": " (Редактор)",
+    "PlayInEditorPostfix": " (Игра в редакторе)",
+    "ServerPostfix": " (Сервер)",
+    "SimulateInEditorPostfix": " (симуляция)",
+    "WorldPickerTextFomrat": "'{0}': актор, используемый для предварительного просмотра эффектов этой последовательности смены дня и ночи.",
+    "InvalidPlaybackContext": "<< недопустимо >>",
     "ActorsHeader": "Акторы",
+    "AutoBindPIE_Label": "Автоматически привязать к игре в редакторе",
+    "AutoBindSimulate_Label": "Автоматически привязать к симуляции",
+    "AutoBindPIE_Tip": "Автоматически привязывает активное окно Sequencer к текущему миру игры в редакторе (при наличии).",
+    "AutoBindSimulate_Tip": "Автоматически привязывает активное окно Sequencer к текущему миру симуляции (при наличии).",
     "OptionsHeader": "Варианты"
+  },
+  "DaySequenceTrack": {
+    "TrackName": "Подпоследовательности"
   },
   "DeviceValidation": {
     "VkProjectVerseCheck.NullScriptRefItem": " : Не удалось загрузить класс Verse {0}!",
@@ -326,7 +405,9 @@
     "SharedAssetThreshold": "Порог"
   },
   "EmporiumActorFactory": {
-    "CanCreateActorFrom.Error.NoStaticMesh": "Должна быть указана допустимая статичная сетка."
+    "CanCreateActorFrom.Error.NoStaticMesh": "Должна быть указана допустимая статичная сетка.",
+    "PlaceObjects": "Расстановка объектов",
+    "CanCreateActorFrom.Error.NoVersePath": "Для этой фабрики не задан путь Verse, и она не может создавать акторов."
   },
   "EntityComponentClassCombo": {
     "AddComponentButtonLabel": "Добавить компонент",
@@ -393,6 +474,9 @@
   },
   "FAthenaRewardItemReferenceCustomization": {
     "CategoryText": "Категория инициализации"
+  },
+  "FDynamicUIEditorToolkit": {
+    "DynamicUIEditorSinglePropertyView": "Редактировать разрешённый виджет"
   },
   "FeedbackHandleCustomization": {
     "EventLabel": "Событие",
@@ -467,6 +551,7 @@
     "UserOptionsCategoryLabel.GameMode": "Пользовательские настройки — Правила игры",
     "UserOptionsCategoryLabel.Mutator": "Пользовательские настройки — Настройки игры",
     "UserOptionsCategoryLabel.Matchmaking.Generated": "Пользовательские настройки — Подбор игроков — Генерировать автоматически",
+    "UserOptionsCategoryLabel.FabricPortConnection": "Пользовательские настройки — подключения портов",
     "UserOptionsCategoryLabel.UISettings": "Пользовательские настройки — настройки интерфейса",
     "OptionTooltip.ValuesOnly": "Значения: {0}",
     "OptionTooltip.Combined": "{0}\n\nЗначения: {1}"
@@ -528,6 +613,7 @@
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
     "AssetsStillScanningError": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
+    "FortReleaseVersionSelector_Tooltip": "Сменить активную FortReleaseVersion с {0}. В ветках выпуска версия будет заблокирована.",
     "FortGameFeaturePluginProfile_Tooltip": "Изменить текущий профиль GameFeaturePlugin для ограничения количества включённых профилей GameFeaturePlugin",
     "CheckContentButton": "Проверить контент",
     "ConvertAnimSequencePlaySoundToEmoteSound": "Преобразовать метки анимации PlaySound в EmoteSound",
@@ -543,15 +629,19 @@
     "ExportAchievementsTitle": "Экспорт достижений…",
     "ExportKeysTitleDA": "Экспорт ключей шифрования [Поиск ресурсов]",
     "ExportKeysTitle": "Экспорт ключей шифрования…",
+    "ExportItemShopTitleDA": "Экспортировать магазин предметов [идёт обнаружение ресурсов]",
+    "ExportItemShopTitle": "Экспортировать магазин предметов…",
     "ExportTemplatesTitleDA": "Шаблоны экспорта MCP [Поиск ресурсов]",
     "ExportTemplatesTitle": "Шаблоны экспорта MCP…",
     "ExportAchievementTooltip": "Экспорт файлов достижений для PSN и Xbox Live.",
     "ExportKeyChainTooltip": "Экспорт ключей шифрования контента.",
     "FortExportCalendarsToolTip": "Экспорт файлов календаря {0} ICS.",
     "ExportingCalendarTask": "Экспорт календаря в формате ICS по ссылке…",
+    "ExportingItemShopTask": "Экспорт магазина предметов…",
     "ExportingEncryptionKeysTask": "Экспорт ключей…",
     "ExportingTemplatesTask": "Экспорт шаблонов…",
     "AllCalendarsTooltip": "Экспорт всех календарей.",
+    "ExportItemShopTooltip": "Экспортирует данные игры в виде файлов формата JSON для единого источника достоверных данных (SSOT) косметического предмета.",
     "ExportTemplatesTooltip": "Экспортировать данные игры из файлов формата MCP в JSON.",
     "OutpostItemTooltip": "Заполняется для загрузки определенного предмета форпоста, который уже существует. Необходим шестнадцатеричный идентификатор из 32 символов.",
     "FinalOptions": "Финальные настройки",
@@ -583,6 +673,8 @@
     "PersistDADAssetsTooltip": "Сохраняет изменения ресурсов из DAD и записывает их в P4.",
     "PickZoneDescription": "Выбрать зону Fortnite, в которую выполняется загрузка",
     "PickZoneButton": "Выбор зоны",
+    "QuestBundleCreator": "Автор пакета задания",
+    "QuestTools": "Инструменты задания",
     "FortGameFeaturePluginProfile_Reset": "Сбросить",
     "RespawnDaySequenceActor": "Актор смены дня и ночи при возрождении",
     "RespawnDaySequenceActorTooltip": "Актор смены дня и ночи при возрождении",
@@ -606,6 +698,7 @@
     "ValidateDataTitle": "Проверить данные…",
     "ValidateDataTooltip": "Проверка данных пользователя.",
     "ValidatingDataTask": "Проверка данных…",
+    "VerbDebugger": "Отладчик команды",
     "FortReleaseVersionSelector_Label": "Версия: {0}",
     "FortZoneSelectTab": "Выбор зоны",
     "LongDescription_NeedsFilledOut": "[Более развёрнутый текст/описание элемента для пользователя]",
@@ -666,11 +759,16 @@
     "ValidateSelection.Task": "Идёт валидация акторов..."
   },
   "FortExposedContentValidationSubsystem": {
+    "BuildCurrentManifestTask": "Создание манифеста Sentry (может занять 5–10 минут)…",
     "MessageLog.Label": "Проверка раскрытого контента",
     "SavingActorForValidationTask": "Сохранение актора '{0}' для проверки…",
     "MessageLog.ValidationFailedWithErrors": "Возникли ошибки при проверке {0} {0}|plural(пакета,other=пакетов)!",
     "MessageLog.ValidationPassedWithWarnings": "Проверка {0} {0}|plural(one=пакета,other=пакетов) завершена с предупреждениями!",
     "MessageLog.ValidationPassed": "Проверка {0} {0}|plural(one=пакета,other=пакетов) завершена!"
+  },
+  "FortGameFeatures": {
+    "RootPluginList": "Добавить к корневым плагинам",
+    "RootPluginList_Label": "Добавить к корневым плагинам"
   },
   "FortHomebaseNodeGameplayEffectDataTableFactory": {
     "Error_NotEnoughTemplates": "Не удалось импортировать. Необходимо {0} ресурсов шаблонов эффектов игрового процесса, а предоставлено только {1}."
@@ -679,13 +777,17 @@
     "ErrorIfCookedInWrongReleaseVersion": "Этот ресурс не будет конвертироваться в формат платформы.\nВерсия {0} является более новой по сравнению с текущим выпуском."
   },
   "FortLevelEditorDragDropHandler": {
+    "PlaceIllegalReference": "Невозможно поместить этого актора в {0}\n{1}",
     "ContentBundleInLevelInstance": "Не удалось перенести контент из {0} в экземпляр уровня {1}. Вместо этого поместите его в {2}. Акторы плагинов невозможно разместить в экземпляре уровня.",
     "ActivateContentBundleSucceded": "Пакет контента \"{0}\" редактируется",
     "ChangedCurrentLevel": "Текущий уровень изменен {0}",
+    "DroppedObjectsDifferentSourcePlugin": "Брошенные объекты не являются частью пути к одному и тому же плагину. Обнаружены объекты в {0} и {1}.",
     "ActivateContentBundlefailed": "Не удалось активировать пакет контента \"{0}\" для плагина {1}. Статус должен быть \"{2}\" или \"{3}\". Сейчас — \"{4}\".",
     "CreateNewOverlayFailed": "Не удалось создать новый наложенный слой уровня для {0}.\nНазвание:{1}\nПуть к пакету:{2}",
     "CreateOverlay": "Новый наложенный слой карты создан в {0}",
     "CreateOverlayConfig": "Конфигурация наложенного слоя создана в {0}",
+    "MissingExternalDataLayer": "Отсутствуют внешние слои данных, связанные с плагином \"{0}\". Сначала создайте действие \"{1}\" в \"{2}\".",
+    "MissingExternalDataLayerOrContentBundle": "Отсутствуют внешние слои данных или наборы контента, связанные с плагином \"{0}\". Сначала создайте действие \"{1}\" или \"{2}\" в \"{3}\".",
     "MissingContentBundle": "Нет пакетов контента, связанных с плагином {0}. Сначала создайте действие \"{1}\" в \"{2}\".",
     "CreateNewOverlay": "Вы добавили контент из плагина Game Feature. Создать новый наложенный слой уровня для {0}?\n\nЕсли вы ответите 'Нет', актор будет помещен непосредственно на сам уровень. Не отправляйте уровень с недопустимой ссылкой.",
     "PlaceIllegalReferenceAnyway": "Вы не можете разместить этот актор в {0}\n{1}\n\nВсе равно разместить этот недопустимый актор? Если да, то не отправляйте уровень с этой недопустимой ссылкой."
@@ -812,7 +914,9 @@
   },
   "FortRootPluginContainerCombo": {
     "CheckOutPlugin": "Идёт получение плагина…",
-    "FortRootPluginContainerCombo_Empty": "Пусто"
+    "FortRootPluginContainerCombo_Empty": "Пусто",
+    "FortRootPluginContainerCombo_EmptyTooltip": "Плагин не добавляется напрямую в любой корневой плагин",
+    "RemoveRoot": "Удалить корень"
   },
   "FortTheaterDetails": {
     "Copy": "Копировать",
@@ -825,10 +929,18 @@
   "FortValidator": {
     "UserGeneratedText.Error.UnlocalizableText": "Узел 'Задать свойство' '{0}' изменяет свойство текста пользовательского параметра '{1}' посредством автоматического преобразования 'Строка -> Текст'. Этот текст не будет подлежать локализации, поэтому рассмотрите использование параметра 'Редактировать исходную строку текста' для установки свойства текста вместо этого, или параметра 'Составить инвариантный текст', если не планировалось его локализовать.",
     "UserGeneratedText.Error.UnverifiedTextSource": "Узел 'Задать свойство' '{0}' изменяет свойство текста пользовательского параметра '{1}' посредством непроверенного метода. В результате этого сформированная история текста может сохраниться в полученном тексте, поэтому рассмотрите другие методы (например, 'Редактировать исходную строку текста') для настройки свойства текста вместо этого.",
+    "ValidationError.GameFeature_SunsetAfter": "(SunsetVer:{0}) удаляется из проекта после",
+    "ValidationError.GameFeature_SunsetAfterEnabled": "(SunsetVer:{0}). В результате {1} активируется в тех версиях выпуска, где этого не должно происходить. Удалите эту зависимость или измените SunsetFortReleaseVersion в одном из этих плагинов или в обоих из них, чтобы не удалять {0} из проекта после {1}.",
+    "ValidationError.GameFeature_NewerReleaseDepends": "(Версия:{0}) зависит от",
+    "ValidationError.GameFeature_NewerRelease": "(Версия:{0}), которая настроена на новую версию выпуска. В результате {1} активируется в тех версиях выпуска, где этого не должно происходить. Удалите эту зависимость или измените FortReleaseVersion в одном из этих плагинов или в обоих из них.",
+    "InvalidTransitiveDependencyOwner": ". Обратиться к владельцу этого правила проверки {0}.",
     "PlaylistAthenaValidator_AllowSquadFillOptionMutExShouldFillWhenNoSquadFillOption": "Параметры «Разрешить набор в отряд» ({0}) и «Набор в отряд, когда игроков не хватает» ({1}) взаимоисключающие.",
     "AnimMontage_InvalidSectionLength": "Монтаж анимации {0} содержит сегмент для ячейки {1}, время воспроизведения которой составляет {2}, что не соответствует времени воспроизведения последовательности анимации, которое составляет {3} ({4}). Измените сегмент и сохраните снова.",
     "AnimSequence_DuplicateCurveEntries": "Последовательности анимации {0} содержат дублированные записи кривой с плавающей запятой с названием {1}. Исправьте неправильные данные и сохраните заново.",
     "TextureValidator_UDIMBlockTooBig": "Блок {0} некинематографической текстуре UDIM слишком большой. Размер — {1}×{2}. Уменьшите размер блока до {3} или ниже",
+    "BlueprintCompilation.Error.CompilationErrors": "В схеме присутствуют ошибки компиляции. (FortValidator_BlueprintCompilation)",
+    "BlueprintCompilation.Warning.CompilationWarnings": "В схеме присутствуют предупреждения о компиляции. (FortValidator_BlueprintCompilation)",
+    "BlueprintCompilation.Info.ValidationSkipped": "Схема пропустила проверку компиляции, так как её статус компиляции был нескомпилированным. (FortValidator_BlueprintCompilation)",
     "StaticMesh_CannotAccessMeshDescription": "Не удалось получить доступ к HiResMeshDescription для статичной сетки",
     "PlaylistAthenaValidator_CompetitivePointClampLte0": "Competitive Point Clamp ({0}) не может быть <= 0, если Is Tournament имеет значение TRUE.",
     "PlaylistAthenaValidator_EnableDynamicBotBackfillTrue": "Enable Dynamic Bot Backfill не может иметь значение TRUE, если Use Player Rating имеет значение FALSE.",
@@ -844,10 +956,12 @@
     "ItemDefinition_InvalidReleaseVersion": "Версии выпуска Fortnite '{0}' не существует. Вы можете использовать только значения, входящие в массив AllVersions в файле DefaultFortReleaseVersion.ini",
     "IllegalReference_AssetFilterVersionFail": "Версия выпуска Fortnite указана как 'Следующая', но на нее ссылается ресурс предыдущей версии {0}",
     "ValidationError.GameFeatureNotAddedToRoot": "GameFeaturePlugin {0} не зависит от плагина корневой игровой функции. Используйте игровую функцию \"Добавить  в RootGFP\".",
+    "ValidationError.GameFeature": "GameFeaturePlugin {0} использует тип первичного ресурса 'Карта', который зарезервирован для плагинов StW. Данный тип обеспечивает конвертацию карт и ресурсов в блок данных 12, что, скорее всего, вам не понравится.",
     "IllegalReference_HardDependency": "Недопустимые жёсткие ссылки {0}",
     "IllegalReference_AssetFilterFail": "Недопустимая ссылка на ресурс {0}. {1}",
     "IllegalReference_AssetFilterFailNative": "Недопустимая ссылка на исходный код в плагине '{0}'. Пакет модуля: '{1}'. {2}",
     "PlaylistAthenaValidator_InvalidStrategyType": "Недопустимый тип стратегии: {0}, должно быть одно из: {1}.",
+    "KeepSegmentLengthToken": "Сохранить длину сегмента",
     "SoundValidator_BadCuePath": "Располагается не там, где обычно хранятся аудиофайлы",
     "SoundValidator_BadWavePath": "Располагается не там, где обычно хранятся аудиофайлы",
     "PlaylistAthenaValidator_MaxBucketCapacityEq0": "Max Bucket Capacity ({0}) не может быть == 0.",
@@ -882,22 +996,36 @@
     "SKeletalMeshes_MissingBones": "Скелетная сетка содержит кости, не обнаруженные на её скелете ({0}): {1}",
     "SkeletalMeshes_MissingAlternateInfluenceProfile": "В профиле оболочки {0} отсутствуют значения веса влияния на уровень детализации {1}",
     "StaticMesh_TooManySections": "Статичная сетка содержит [{0}] фрагментов сетки, что превышает допустимое количество фрагментов на каждую сетку [{1}]. Вероятная причина: для указанной сетки имеется больше [{1}] материалов. Разделите сетку на более мелкие, с количеством материалов, не превышающим [{1}] на каждую сетку",
+    "SyncSegmentLength": "Синхронизировать с длиной анимации",
     "AnimationBlueprint_NoSynchronousSimulation": "Синхронная симуляция твердого тела для узла отключена с использованием {0} в группе {1}",
+    "InvalidTransitiveDependency": "Существует недопустимая цепочка ссылок от этого ресурса к ",
     "BPValidationError_RestrictedData": "Этот ресурс содержит данные с ограниченным доступом.",
+    "InvalidTransitiveDependencyVia": "Этот ресурс вводит недопустимую цепочку ссылок между ресурсами: ",
     "FortExposedContent.ValidatingDirtyPackage": "Этот пакет имеет несохранённые изменения в оперативной памяти, поэтому результат валидации в файле на диске может содержать неточности. Для получения точных результатов сохраните пакет.",
+    "SyncSegmentLengthToolTip": "При этом обновляется длина сегмента для соответствия текущего значения длине ресурса анимации.",
+    "KeepSegmentLengthTokenToolTip": "При этом обновляется кэшированная длина ресурса анимации с текущим значением при сохранении длины сегмента.",
     "SkeletalMeshes_TooManyVerts": "Слишком много вершин в уровне(-ях) детализации: {0}, допускается только {1}. Сейчас — {2}. Уменьшите, чтобы было не более {3}",
     "FortValidator_CreativeCost.NoGeneratedClass": "Не удаётся найти сгенерированный класс Blueprint. Он скомпилирован?",
+    "ValidationError.NoSuchPlugin": "Не удалось найти плагин {0} в диспетчере плагинов. Контрольная проверка не пройдена!",
     "PlaylistAthenaValidator_UnableToGetDepsForPlaylist": "Не удалось получить зависимости для плейлиста. Не удалось проверить зависимости плейлиста!",
+    "ValidationError.NoGameFeatureData": "Невозможно получить данные от GameFeaturesSubsystem для GameFeaturePlugin {0}. Контрольная проверка не пройдена!",
     "PlaylistAthenaValidator_UseMultidivisionQueuesTrue": "Use Multidivision Queues не может иметь значение TRUE, если Is Tournament имеет значение FALSE.",
     "Particles_SkelVertSurface": "Использование каскадного модуля SkelVertSurface в Fortnite не допускается. Замените его на модуль BoneSocket. Генератор: {0}",
     "DataValidation.LoadWarnings": "Предупреждения при загрузке ресурса {0}",
     "AnimationBlueprint_DefaultMeshSimulation": "ресурс физики сетки по умолчанию",
-    "SkeletalMeshes_MissingLODs": "В {0} отсутствует уровень(-и) детализации: {1}",
-    "NiagaraSystem_NoEffectType": "В {0} отсутствует ресурс типа эффекта"
+    "ValidationError.GameFeature_Optional": "зависит от {0}, но не является необязательной ссылкой. Задайте значение 'true' для опции 'Необязательно'. Это необходимо для GameFeaturePlugins категории 'Корневые'.",
+    "ValidationError.GameFeature_NoRootAssociation": "не связан ни с одним корневым GameFeaturePlugin. Добавьте {0} в соответствующие корни в качестве новой зависимости. Все плагины GameFeaturePlugin должны быть связаны как минимум с одним корнем, если они не имеют статус EditorOnly",
+    "ValidationError.GameFeature_EditorOnlyDepends": "не предназначено только для редактора, но зависит от",
+    "ValidationError.GameFeature_SunsetUnsetDepends": "не удаляется из проекта, но зависит от",
+    "ValidationError.GameFeature_EditorOnly": "что предназначается только для редактора. В результате {0} активируется в тех версиях выпуска, где этого не должно происходить. Удалить эту зависимость, выбрать для {1} режим 'только для редактора', или отключите для {0} режим 'только для редактора'.",
+    "ValidationError.GameFeature_SunsetUnset": "что удаляется из проекта в версии '{0}'. В результате {1} активируется в тех версиях выпуска, где этого не должно происходить. Удалите эту зависимость, удалите версию SunsetFortReleaseVersion в {1} или добавьте SunsetFortReleaseVersion в {2}.",
+    "SkeletalMeshes_MissingLODs": "В {0} отсутствует уровень(-и) детализации: {1}"
   },
   "FortValidatorNewPackage": {
     "FortValidatorNewPackage.PluginLoadErrors": "Ошибки при загрузке ресурса {0}",
-    "FortValidatorNewPackage.CompilingBpsForNewPackageCheck": "Завершение компиляции ресурсов перед проверкой контента…",
+    "FortValidatorNewPackage.LoadAsset": "Загрузка всех ресурсов из плагина {0}…",
+    "FortValidatorNewPackage.NewPackages_NoSuchPlugin": "Не удалось найти плагин {0} в диспетчере плагинов. Контрольная проверка не пройдена!",
+    "ValidateLoadedAsset_Implementation": "Проверка загрузки ресурса…",
     "FortValidatorNewPackage.PluginLoadWarnings": "Предупреждения при загрузке ресурса {0}"
   },
   "FortVehicleCosmeticsItemDefinitions": {
@@ -905,6 +1033,10 @@
   },
   "FSceneOutlinerSCCHandler": {
     "SCCForceReleaseCancel": "Отмена",
+    "SCCForceReleaseMessage": "Снятие блокировок извлечения из {0}, скорее всего, приведёт к конфликтам, которые придётся в дальнейшем устранять вручную. Продолжить?",
+    "SCCForceReleaseTitle": "Снять блокировки извлечения",
+    "SCCForceReleaseAllowedToolTip": "Снять блокировки извлечения, удерживаемые {0}.",
+    "SCCForceReleaseNotAllowedToolTip": "Ограничивается владельцем проекта и администраторами.",
     "SCCForceRelease": "Разблокировать",
     "SCCForceReleaseConfirm": "Разблокировать"
   },
@@ -963,11 +1095,13 @@
     "ItemType": "Обнаружена круговая зависимость для ItemType {0} - Тип родительского элемента {1} также использует его в качестве родительского элемента",
     "EquipmentSlotDoesNotHaveOneSlot": "Ячейки оборудования могут содержать только одну ячейку.",
     "EquippableInventoryHasTooManySlotBindings": "Количество привязок ввода ячеек превышает количество ячеек.",
+    "ItemAbilityEffectAssetHasNullClass": "Эффект способности предмета требует установки GameplayEffectClass",
     "ItemAbilityConfigurationAssetHasNullAbility": "Способность предмета требует установки GameplayAbilityClass",
     "ItemDefinitionWarning_NullComponent": "Определение предмета {0} имеет нулевой компонент по индексу {1}. Это очень неудобно.",
     "ItemGameplayAbilitiesNeedInstancing": "Для схем Blueprint способностей предметов в игровом процессе необходимо задать вариант создания экземпляров",
     "ItemInputMappingContextUsingItemInputActions": "ItemInputMappingContext должен использовать только ItemInputActions",
-    "InventorySetupData": "Пустая запись в EquipmentSetups"
+    "InventorySetupData": "Пустая запись в EquipmentSetups",
+    "InvalidItemComponentClass": "{0} не является допустимым подклассом компонента предмета. Все родительские классы от UItemComponent до {1} должны быть абстрактными (родительский элемент {2} не является абстрактным)."
   },
   "K2Node": {
     "NoTarget": "Нужно указать цель в @@!",
@@ -996,8 +1130,10 @@
     "FolderComboToolTipText": "Выбрать каталог для контента",
     "CreateQuestAsset": "Создать",
     "MakeNextInSeriesLabel": "Создать следующий ресурс задания в серии",
+    "UseQuestAsTemplateTooltip": "Если установлено значение true, будет дублировать текущее задание для создания задания. Если установлено значение false, использует выбранный класс задания в профиле",
     "Quest Name": "Название задания",
-    "NextInSeriesQuestPath": "Путь к заданию"
+    "NextInSeriesQuestPath": "Путь к заданию",
+    "UseQuestAsTemplateLabel": "Использовать задание в качестве шаблона"
   },
   "McpProfile": {
     "FailPrepare": "Не удалось подготовить запрос",
@@ -1038,7 +1174,8 @@
   "NPCCharacterDefinitionComponent": {
     "MissingCharacterModifier": "Отсутствует модификатор персонажа!",
     "DuplicatedModifier": "Несколько модификаторов типа {0}!",
-    "UnsupportedModifier": "Неподдерживаемые модификаторы типа {0} для идентификатора {1}!"
+    "UnsupportedModifier": "Неподдерживаемые модификаторы типа {0} для идентификатора {1}!",
+    "MissingDefinition": "В {0} отсутствует определение NPC {1}!"
   },
   "OpenExternalUrl": {
     "DialogTitle": "Подтвердить внешний веб-сайт",
@@ -1072,7 +1209,12 @@
     "CreateButtonText": "Создать"
   },
   "QuestBundleCreatorWidget": {
+    "BrowseToBundleTemplatesDataTable": "Перейдите к таблице данных с шаблонами пакетов заданий. Можно добавить в неё дополнительные шаблоны.",
+    "BundleSetings": "Настройки пакета",
+    "CreateButtonTooltipEnabled": "Нажмите, чтобы создать новый пакет.",
+    "UpdateButtonTooltipEnabled": "Нажмите, чтобы обновить существующий пакет.",
     "CreateButtonText": "Создать",
+    "SelectBundleTemplate": "Выбрать шаблон пакета задания",
     "UpdateButtonText": "Обновить"
   },
   "QuestEditorHeader": {
@@ -1109,6 +1251,7 @@
     "GridSnapping": "Привязка к сетке",
     "Height": "Высота",
     "DynamicUIEditorMoveAllowedWidget": "Переместить разрешённый виджет",
+    "TransactionReplaceActiveConstraint": "Заменить активную константу",
     "LocationGridSnap_ToolTip": "Задать значение привязки к решётке",
     "CurrentGridSnapValue": "Значение привязки",
     "Width": "Ширина"
@@ -1240,7 +1383,11 @@
     "RevertAllModifiedFiles_Title": "Возвратить все локальные изменения",
     "CheckInDialog_RevertText": "Отменить мои изменения и продолжить",
     "SyncLatestWhileRewound_RevertText": "Отменить мои изменения и синхронизировать",
+    "LockedByOtherUserError": "Повысить уровень снимка состояния не удалось, так как некоторые из задействованных файлов были заблокированы другими пользователями.\nПопросите членов вашей команды снять соответствующие блокировки и повторите попытку.",
+    "SnapshotStaleError": "Повышение уровня снимка состояния прервано, так как предоставленный снимок состояния, считающийся самым последним, таковым больше не является.\nПовторите попытку.",
+    "SnapshotCreatedSameTimeError": "Повышение уровня снимка состояния прервано из-за HttpStatusCode.RequestTimeout. Возможно, это связано с тем, что одновременно осуществляется создание нового снимка состояния.",
     "ErrorPromoting": "Не удалось восстановить снимок состояния. Изучите журналы для получения дополнительной информации.",
+    "GenericError": "Невозможно повысить уровень снимка состояния. См. дополнительные сведения в журнале.",
     "SyncLatestWhileRewoundTitle": "Предупреждение: внесены изменения в снимок состояния возврата",
     "CheckInDialogTitle": "Предупреждение: Зафиксировать перед синхронизацией более старого снимка состояния",
     "CheckInDialogMessage": "У вас есть локальные изменения, которые вы пока не зафиксировали. Продолжение синхронизации этой более старой версии без фиксации приведёт к потере всех локальных изменений.",
@@ -1249,26 +1396,34 @@
     "FurtherRewindDialogTitle": "Вы внесли изменения в этот снимок состояния"
   },
   "SObjectiveDebugger": {
+    "AdditionalFilters": "Дополнительные фильтры",
     "Clear": "Удалить",
     "ObjectiveDebugger_ClearEventsToolTip": "Очистить все события задачи",
     "SingleTagCopyTooltip": "Копировать как ObjectiveFilter_{0}",
+    "CreateQuestLabel": "Создать задание с ObjectiveFilter_{0}",
+    "CreateQuestTooltip": "Создать новый ресурс задания, у которого уже есть цель с выбранным фильтром целей",
     "Column_Events": "События",
+    "FilterTagQuery": "Запрос тега фильтра",
     "FilterVerbTypesButton": "Фильтр типов глаголов",
     "ObjectiveDebugger_Pause": "Приостановить",
     "ObjectiveDebugger_PauseToolTip": "Приостановить поступающие события задачи",
     "ObjectiveDebugger_Record": "Запись",
     "DistanceTravelledTimeBetweenTooltip": "Задаёт время задержки между отчётами",
     "CheckBoxListVerbTypes": "Показать все типы глаголов",
+    "DistanceTravelledSettingsButton": "Показать пройдённое расстояние",
     "Show_GameplayEvents": "Показать события игрового процесса",
+    "Show_ShowProcessorResults": "Показать результаты работы процессора",
     "ObjectiveDebugger_RecordToolTip": "Начать запись событий задачи",
     "Column_Time": "Время",
     "VerbMessageActions": "Действия команды",
     "Column_Verb": "Глагол сообщения",
-    "ObjectiveDebugger_ShowGameplayEventsToolTip": "Если эта функция включена, в отладчике появляются сообщения о событиях игрового процесса"
+    "ObjectiveDebugger_ShowGameplayEventsToolTip": "Если эта функция включена, в отладчике появляются сообщения о событиях игрового процесса",
+    "ObjectiveDebugger_ShowProcessorResultsToolTip": "Если параметр включён, результаты обработки будут отображаться в отладчике"
   },
   "SolarisEditor": {
     "StaleClassCheck_Message_StaleInstance": "'{Object}' — это экземпляр устаревшего класса {Class}, которого больше не существует. Этот экземпляр не будет работать, пока не будет переопределен класс и перезагружена карта.",
     "VerseTypeFullDescription": "Файл, используемый для сценария с использованием Verse",
+    "AssetDigestGenerationComplete": "Генерация хэш-суммы ресурсов завершена.",
     "VisualVerseComposerToolTip": "Пишите код Verse с помощью визуальных элементов в компоновщике Visual Verse",
     "AutosaveDisabled": "Автосохранение отключено из-за ошибок сборки Verse",
     "BuildSectionText": "Сборка",
@@ -1301,6 +1456,7 @@
     "ForceLinkSuccess": "УСПЕШНО — принудительная компоновка завершена без ошибок.",
     "VerseDeadInstancesCheck.PossibleCauses": "Сохранение уровня в этом состоянии приведёт к необратимой поломке этих устройств, и вам придётся заменить их вручную.",
     "TerminateExistingLSPProcs": "Прервать работу существующих языковых серверов?",
+    "AssetsDigestFailure": "Не удалось сгенерировать хэш-сумму этих ресурсов. Убедитесь, что ресурсы, которые вы импортируете, содержат в названиях только те символы, которые поддерживаются в настоящее время Verse.",
     "VerseDeadInstancesCheck.Instances": "\"Эти классы могли быть переименованы, перемещены или удалены. Чтобы устранить проблему, отмените эти изменения в VSCode и заново выполните сборку.\n\n\"Если вы будете продолжать, эти устройства больше не будут работать:\n",
     "VerseDeadInstancesCheck.Classes": "Этот уровень содержит устройства, которые относятся к следующим отсутствующим классам Verse:\n",
     "VerseDeadInstancesCheck.ErrorMessage": "Этот уровень содержит устройства, которые относятся к следующим отсутствующим классам Verse:\n\n{1}\n\n\"Эти классы могли быть переименованы, перемещены или удалены. Чтобы устранить проблему, отмените эти изменения в VSCode и заново выполните сборку.\n\n\"Если вы будете продолжать, эти устройства больше не будут работать:\n\n{2}\n\n\"Сохранение уровня в этом состоянии приведёт к необратимой поломке этих устройств, и вам придётся заменить их вручную.",
@@ -1460,6 +1616,10 @@
     "ExportButton": "Экспорт табличных данных",
     "ImportButton": "Импорт табличных данных"
   },
+  "TimeOfActorDetails": {
+    "BindingOverrides": "Переопределения привязок",
+    "RuntimeDayCycle": "Дневной цикл среды выполнения"
+  },
   "TrapAssetForm": {
     "SubmitForm": "Создать ресурсы ловушки…",
     "Instructions": "Это шаблонная форма. Заполните её, указав самую низкую редкость и уровень ловушки, которую вы создаёте. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже."
@@ -1504,6 +1664,7 @@
     "UploadProjectsStart": "Выгрузка проектов",
     "UploadRate": "Выгрузка {0}/{1}МБайт, {2}МБайт/с",
     "ProjectDepsNotPermitted": "Пользователь не имеет полномочий на выгрузку проекта с внешними зависимыми файлами",
+    "ValidatingProjectFiles": "Проверка {NumFiles} {NumFiles}|plural(one=файла,few=файлов,many=файлов,other=файла) проекта…",
     "ProjectRequiresEpicApp": " Для работы над этим проектом необходимо использовать {0} (сейчас на {1})"
   },
   "UFortQuestItemDefComponentEditor_Objective": {
@@ -1514,6 +1675,35 @@
   },
   "UFortQuestPropPropagator": {
     "FortQuestPropPropagator": "Не удалось создать актор предмета окружения для задания, так как ссылка на класс актора предмета окружения возвращает недопустимый объект класса по умолчанию"
+  },
+  "UICommands.FDaySequenceEditorModule": {
+    "AddActorsToBinding": "Добавить выбранное",
+    "AddActorsToBinding_ToolTip": "Добавить выбранные акторы на эту дорожку",
+    "BakeTransform": "Прописать преобразование",
+    "BakeTransform_ToolTip": "Прописать преобразование в пространство мира, удалив какое-либо существующее преобразование, и прикрепить дорожки",
+    "FixActorReferences": "Исправить ссылки на актор",
+    "OpenDaySequenceActor": "Открыть актор смены дня и ночи",
+    "OpenRootSequence": "Открыть корневую последовательность",
+    "OpenDaySequenceActor_ToolTip": "Открывает актор смены дня и ночи",
+    "OpenDaySequenceEditor_ToolTip": "Открывает редактор смены дня и ночи",
+    "OpenRootSequence_ToolTip": "Открывает корневую последовательность в акторе смены дня и ночи",
+    "RefreshDaySequenceActor": "Обновить актор смены дня и ночи",
+    "RefreshDaySequenceActor_ToolTip": "Обновляет актор смены дня и ночи",
+    "RemoveAllBindings": "Удалить всё",
+    "RemoveInvalidBindings": "Удалить отсутствующие элементы",
+    "RemoveActorsFromBinding": "Удалить выбранное",
+    "RemoveAllBindings_ToolTip": "Удалить все привязанные акторы с этой дорожки",
+    "RemoveInvalidBindings_ToolTip": "Удалить с этой дорожки привязки к отсутствующим объектам",
+    "RemoveActorsFromBinding_ToolTip": "Удалить выбранные акторы с этой дорожки",
+    "ReplaceBindingWithActors_ToolTip": "Заменить привязку объекта выбранными акторами",
+    "ReplaceBindingWithActors": "Заменить на выбранное",
+    "SelectDaySequenceActor": "Выбрать актор смены дня и ночи",
+    "SelectDaySequenceActor_ToolTip": "Выбирает актор смены дня и ночи",
+    "SnapSectionsToTimelineUsingSourceTimecode": "Установить границы секций на временной шкале, используя исходный временной код",
+    "SnapSectionsToTimelineUsingSourceTimecode_ToolTip": "Закрепить выбранные секции в позициях на временной шкале, соответствующих их исходному временному коду",
+    "SyncSectionsUsingSourceTimecode": "Синхронизировать секции, используя исходный временной код",
+    "SyncSectionsUsingSourceTimecode_ToolTip": "Синхронизировать секции с первой выбранной секцией, используя исходный временной код",
+    "FixActorReferences_ToolTip": "Попытаться автоматически исправить разорванные привязки акторов"
   },
   "UICommands.FortConversationEditorCommands": {
     "PlayConversation": "Воспроизвести",
@@ -1611,6 +1801,7 @@
     "SlateBrush:OutlineSettings": "Как рисовать контур.  В настоящее время используется только для кистей типа RoundedBox.",
     "SlateBrush:Mirroring": "Как отражать изображение в режиме изображения.  Обычно это используется только для кистей динамических изображений, где исходная текстура\n          поступает из аппаратной части (например, от веб-камеры).",
     "SlateBrush:Tiling": "Как замостить изображение в режиме изображения",
+    "Widget:PixelSnapping": "Будет или нет виджет привязываться к ближайшему пикселю при отрисовке.  Улучшает чёткость, но может вызвать заметное \"ступенчатое\" воспроизведение анимации",
     "Widget:bIsVolatile": "Если установлено значение true, предотвращается кэширование виджета, его дочерней геометрии или информации о компоновке.  Если этот виджет\nизменяет каждый кадр, но требуется, чтобы он по-прежнему находился на панели аннулирования, следует сделать его волатильным,\nа не аннулировать его каждый кадр, что помешает панели аннулирования фактически\nкогда-либо кэшировать элементы.",
     "CommonButtonBase:bInteractableWhenSelected": "Если установлено значение true, выбранная кнопка будет активна. В противном случае взаимодействие при активном выборе отключено.",
     "CommonButtonBase:bShouldSelectUponReceivingFocus": "Если установлено значение true, кнопка будет выбрана при получении фокуса.",
@@ -1692,6 +1883,15 @@
     "NotStartedChannel": "Не запущено",
     "ActivityInvalidState": "Неизвестно",
     "UnknownChannel": "Неизвестный канал"
+  },
+  "ValkyrieActorContextMenu": {
+    "ConnectedPlayerList": "Подключившиеся игроки",
+    "NoPlayersConnected.Label": "Нет подключившихся игроков",
+    "NoPlayersConnected.Tooltip": "Нет игроков, подключившихся к телепорту",
+    "PlayerNumber": "Игрок {0} ({1})",
+    "Teleport.Label": "Телепортировать",
+    "TeleportLabel": "Телепортировать",
+    "Teleport.Tooltip": "Подключившийся игрок телепортируется в место, где находился курсор при нажатии"
   },
   "ValkyrieActorDetails": {
     "AddEntityComponent": "Добавить компонент",
@@ -1792,6 +1992,8 @@
     "UEFN_VersionInfo": "Версия: {0} (Unreal Engine: {1})"
   },
   "ValkyrieEditor": {
+    "ApplyingPermissions": "Идёт применение разрешений…",
+    "BlankTemplateMapDisplayNameText": "Пусто",
     "MemoryTestResults": "Результаты теста памяти",
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "InvalidReferenceToAnotherProject": "Проект {0} не может содержать внешние ресурсы из локального проекта {1}\nСсылки на другой проект могут приводиться только через внешний контент",
@@ -1816,6 +2018,7 @@
     "StartMemorySamplingFlow.Cancel": "Отмена",
     "LocalizeProject.Title.WarnAboutDirtyPackages": "Продолжить с несохранёнными изменениями?",
     "PrepareProjectSourceDataForUpload.FailRemovePublicApi": "Не удалось удалить общедоступный API проекта этого острова",
+    "PrepareProjectSourceDataForUpload.FailSanitizePublicApi": "Не удалось обезличить общедоступный API этого проекта",
     "CreateBuild.TaskMessage": "Создание сборки…",
     "SaveDirtyAssets.Error.FailedToSave": "Невозможно удалить ресурсы с внесенными изменениями",
     "CreateBuild.Error.InternalError": "Внутренняя ошибка",
@@ -1827,8 +2030,10 @@
     "PrepareProjectSourceDataForUpload.AssignProjectVersePath": "Внутренняя ошибка: нет открытых проектов",
     "PrepareProjectSourceDataForUpload.SanitizeBlueprintAssets": "Внутренняя ошибка: нет открытых проектов",
     "PrepareProjectSourceDataForUpload.SanitizePhysicsAssets": "Внутренняя ошибка: нет открытых проектов",
+    "StartMemorySamplingFlow.Message": "Запуск подсчёта памяти…",
     "LocalizeProject.Error.ExportFailed": "Ошибка экспорта локализации — более подробную информацию см. в журнале",
     "StartMemorySamplingFlow.Canceled": "Подсчёт объёма памяти отменён",
+    "StartMemorySamplingFlow.Success": "Подсчёт памяти запущен",
     "FixMissingGameFeatureData.Canceled": "Отсутствие GameFeatureData необходимо исправить до выгрузки проекта",
     "CreateBuild.PreparePlatformData.MessageLog.Label": "Подготовленные данные платформы",
     "CreateBuild.PreparePlatformData.PreparingPlatformDataWithListFmt": "Подготовка данных платформы (ожидание {0})…",
@@ -1856,6 +2061,7 @@
     "ValkyrieOpenProject_ToolTip": "Создать новый проект или открыть существующий",
     "VkProjectSubMenuDebugSection": "Отладка",
     "ExportProjectLocalization.ErrorTitle": "Ошибка",
+    "ExportProjectLocalization.Label": "Экспорт локализации",
     "ExportProjectLocalization.Tooltip": "Собрать локализованный текст в рамках данного проекта и обновить файлы перевода PO.",
     "LocalizationSectionLabel": "Локализация",
     "ExportProjectLocalization.SuccessMessage": "Данные локализации успешно обновлены.\n\nПерейти в папку с данными локализации?",
@@ -1903,6 +2109,10 @@
   },
   "ValkyrieEditorSettings": {
     "AppName": "Редактор Valkyrie"
+  },
+  "ValkyrieEditorUtils": {
+    "FeatureSetNoAccess": "Отсутствует доступ к {0} набору функций",
+    "FeatureSetUnknown": "{0} набор функций неизвестен"
   },
   "ValkyrieEmporiumProjectGeneration": {
     "FailEmptyCatalog": "Каталог пуст",
@@ -1970,8 +2180,10 @@
     "ValkyrieNoLaunch": "Не удалось запустить клиент Fortnite. Убедитесь, что Fortnite Editor (UnrealEditor.exe) или поставляемый файл EXE есть на устройстве.",
     "ValkyrieServerNoLaunch": "Не удалось запустить сервер Fortnite!",
     "ValkyrieServerNoExe": "Не удалось запустить сервер Fortnite. Убедитесь, что Fortnite Editor (UnrealEditor.exe) или поставляемый файл EXE есть на устройстве.",
+    "RefreshEntitlementsFailed": "Не удалось обновить права допуска пользователя",
     "LoadMapToGatherExperienceSettings": "Загрузка карты {0} для настройки опыта сбора",
     "ValkyrieAccountLogoutNotification.Login": "Вход в систему…",
+    "RefreshingEntitlements": "Идёт обновление прав допуска пользователя…",
     "Saving Level": "Сохранение данных проекта ({0}/{0})…",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "Running Spawn Actors": "Создание и преобразование акторов (1/{0})…",
@@ -2025,7 +2237,10 @@
     "UnregisteredLevelDialog.CancelButton": "Отмена",
     "FailedToOpenClient": "Не удалось запустить Fortnite. Убедитесь, что центр управления Epic Games установлен с последними обновлениями.",
     "PushChangesButtonToolTip": "Внесенные вами изменения будут применены к просмотру сеанса.",
+    "CreateBuild.CheckInPrompt": "Зафиксировать данные в системе контроля версий для создания резервной копии недавно опубликованного проекта?",
+    "ValkyrieClearMatchmakingCache": "Очистить кэш сеанса подбора игроков",
     "PlayerDataResetOnInitialPublishWarningTitle": "Очистить данные игрока",
+    "ValkyrieClearMatchmakingCache_Tooltip": "Очищает кэш сеанса подбора игроков при сбое на сервере и желании подключиться к новому серверу.",
     "ResetProjectBindingsConfirmation.Title": "Подтвердить новый проект",
     "ValkyriePlaySubMenuConnectToPlatform": "Подключиться к платформе",
     "PlayStatusWidget_Connected": "Подключён",
@@ -2117,6 +2332,7 @@
     "OpenGameViewButton": "Открыть игру",
     "ValkyrieNeedProject_ToolTip": "Откройтие проект, чтобы разблокировать это действие.",
     "LaunchSessionButtonToolTip": "Открыть сеанс игры",
+    "GameFeatureSetButtonToolTip": "Открыть правила для бренда {0}",
     "OpenGameViewButtonToolTip": "Открывает игру.",
     "ValkyrieChooseLocalClientBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального клиента. (Дополнительные параметры командной строки: Параметры редактора -> Valkyrie)",
     "ValkyrieChooseLocalServerBinary_Tooltip": "Открывает диалоговое окно для выбора файла EXE локального сервера. (Дополнительные параметры командной строки: Параметры редактора -> Valkyrie)",
@@ -2127,6 +2343,7 @@
     "NonDefaultLevelDialog.DefaultMapButton": "Запустить уровень по умолчанию",
     "NonDefaultLevelDialog.Title": "Запустить уровень не по умолчанию",
     "UnregisteredLevelDialog.Title": "Запустить уровень без регистрации",
+    "ReportIssueNoLoginDialog.Message": "Войдите в свою учётную запись, чтобы сообщить о проблеме.\n\n",
     "PlayStatusWidget_StatusPlay": "Нажмите «Играть», чтобы начать тестирование.",
     "LaunchSessionToolTipError": "Предыдущая попытка запустить сеанс завершилась неуспешно. Проверьте ошибки в журнале выходных данных и попытайтесь снова.",
     "FailedToStartMemorySampling_LinkCode": "Перед расчётом памяти вашего проекта его необходимо выгрузить. Выгрузите закрытую версию проекта через «Меню проекта».",
@@ -2147,6 +2364,7 @@
     "RefreshButtonToolTip": "Выгрузите файлы с изменениями на сервер ещё раз, чтобы они отображались в клиенте Fortnite.",
     "PlayStatusWidget_StatusRefresh": "Обновить, чтобы выгрузить файлы с изменениями.",
     "UnregisteredLevelDialog.RegisterButton": "Зарегистрировать уровень",
+    "ReportIssueNoLoginDialog.Title": "Сообщить о проблеме",
     "ValkyrieFeedback": "Сообщить о проблеме",
     "ValkyrieFeedback_ToolTip": "Сообщить о проблеме с {0}",
     "ValkyrieRespawnPlayers": "Возродить игроков",
@@ -2184,9 +2402,11 @@
     "NonDefaultLevelDialog.Message": "Текущий уровень ({0}) не является уровнем по умолчанию ({1}).\n\nКакой уровень запустить?",
     "SetDefaultLevelDialog.Message": "В проекте GameFeatureData не задан уровень по умолчанию.\n\nЗадать {0} как уровень по умолчанию?",
     "MemorySamplingStateDialog.Success": "Последний подсчёт памяти по этому проекту укладывается в выделенный объём памяти.\n\n{0}\n\nС тех пор вы не внесли никаких изменений в свой проект, поэтому новый подсчёт не требуется.",
+    "PushChangesButtonToolTip_VerseAssetsNeedCook": "Новый код Verse требует конвертации контента в формат платформы, чтобы были в наличии все ресурсы.",
     "UpToDateButtonToolTip": "Изменения в проекте, внесенные вами локально, применены на сервере.",
     "FailedToStartMemorySampling_LaunchErrorMsg": "Сеанс находится в состоянии игры, которое препятствует запуску расчёта памяти.\n\nПопробуйте перезапустить расчёт, когда персонаж игрока бездействует и не выполняется обновление или загрузка.",
     "ExitSession.Confirm": "К текущему сеансу {0}|plural(one=подключен,few=подключен,many=подключены,other=подключено) ещё {0} {0}|plural(one=игрок,few=игрока,many=игроков,other=игроки). Вы действительно хотите выйти?",
+    "PushChangesButtonToolTip_MatchActive": "Текущая игра будет завершена! Это необходимо для внесения изменений в представление сеанса.",
     "ValkyrieMemorySampling_ToolTip": "Будет запущен процесс вычисления на клиенте, и вы получите информацию о превышении выделенного объёма памяти.",
     "CreateBuild.ToolTip.Error.LoginRequired": "Чтобы создать сборку, вам необходимо войти в систему.",
     "UnregisteredLevelDialog.Message": "Чтобы запустить уровень {0}, его нужно зарегистрировать в проекте GameFeatureData.\n\nЗарегистрировать уровень?",
@@ -2233,6 +2453,7 @@
     "FeatureExamplesCategory": "Демонстрация возможностей",
     "FeatureExamples.GettingStartedSection": "Начало работы",
     "IslandTemplatesCategory": "Шаблоны острова",
+    "LimeTemplatesCategory": "Острова LEGO®",
     "FeatureExamples.SamplesSection": "Семплы",
     "IslandTemplates.StarterIslandsSection": "Начальные острова"
   },
@@ -2330,6 +2551,8 @@
     "AddPluginNotUnderProjectDirectory": "Не удалось добавить плагин,\n{0}\nтак как он расположен не в каталоге проекта\n{1}",
     "AddPluginsInvalidFileName": "Не удалось добавить плагин, так как его название не является допустимым\n{0}",
     "CannotFindVKProjectRootPlugin": "Не удалось найти корневой плагин под названием {0}\n{1}",
+    "PublishedPublicApiError": "Невозможно удалить общедоступный API проекта, так как он уже опубликован",
+    "AssetContainedInPublishedPublicApiError": "Невозможно обезличить общедоступный API проекта, так как он уже опубликован",
     "ProjectVersePathConfirmation.ChangeButton": "Изменить путь Verse проекта",
     "SetProjectVersePath.SlowTask": "Изменение пути к проекту в Verse",
     "PluginRemovalTitle": "Подтвердить удаление контента",
@@ -2347,6 +2570,7 @@
     "RefContentFailNotif.Text": "Не удалось загрузить внешний контент\n'{0}'",
     "FailWritePluginFile": "Не удалось записать файлы плагина",
     "RefContentFailNotif.CacheSizePref": "Увеличить размер кэша в настройках редактора",
+    "VerifyLivePublicAssetsPluginMissingModuleId": "Внутренняя ошибка: не удалось найти идентификатор модуля для плагина %s",
     "RemoveReferencedContentWarning": "Настоятельно рекомендуется сначала удалить эти ссылки (см. полный список в журналах).\n\nПри удалении этого контента проект перезагрузится, но некоторые из его ресурсов могут быть повреждены или не загружаться.\n\n",
     "LoadProjectPlugins": "Идёт загрузка плагинов проекта...",
     "DontRemoveContent": "Нет, оставить контент",
@@ -2357,21 +2581,25 @@
     "InvalidVKProjectFileName": "Недопустимое название файла проекта\n{0}",
     "SetProjectVersePath.NotSyncedWithContentService": "Чтобы изменить путь Verse проекта, сам проект нужно синхронизировать с сервисом управления контентом",
     "VerifyLivePublicAssetsNoContentService": "Для проверки работы общедоступного API вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
+    "FeatureSetInProjectPluginDependency": "Плагины проекта не могут иметь набор функций в своих зависимостях.\n\nОбнаружено: {0}\n\nНабор функций должен быть указан в файле проекта.",
     "ProjectVersePathUpdated": "Путь в Verse проекта установлен:",
     "PublicPluginOnlyInLibrary": "В проекте {0} можно использовать только общедоступные плагины",
     "RefContentAlreadyAdded": "Внешний контент\n'{0}'\nуже в проекте",
     "RefContentFailNotif.CacheOutOfSpace": "Закончилось место в кэше внешнего контента",
     "RefContentFailNotif.Remove": "Удалить внешний контент",
     "RemovingProjectPublicApi": "Удаление общедоступного API проекта…",
+    "SanitizingProjectPublicApi": "Обезличивание общедоступного API проекта…",
     "ProjectVersePathConfirmation.SetButton": "Задать путь Verse проекта",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "ShowOutputLogHyperlink": "Показать журнал выходных данных",
     "ContentRemoval.AssetsReferencingContent": "Некоторые ресурсы всё ещё ссылаются на этот контент:",
     "RemovePublicApiFailedToLoadAssets": "Не удалось загрузить некоторые общедоступные ресурсы. Возможно, их нужно удалить (см. подробности в журнале)",
+    "RemovePublicApiFailedToPrivatizeAssets": "Не удалось сделать частными некоторые общедоступные ресурсы (см. подробности в журнале)",
     "RemovePublicApiFailedToSaveAssets": "Не удалось сохранить некоторые общедоступные ресурсы, которые создавались как частные (см. подробности в журнале)",
     "ProjectVersePathPrompter.DefaultMessage": "Путь в Verse по умолчанию для проекта {0} не удалось использовать.\n\nПричина:\n{1}\n\nВведите путь в Verse проекта:",
     "RemovePublicApiConfirmation": "После выполнения этой операции начнут действовать права на все плагины, ресурсы и файлы Verse\n\nПродолжить?",
     "InvalidProjectVersePath": "Этот путь в Verse недействителен для проекта {0}:\n'{1}'\n\nПричина:\n{2}",
+    "ValidatingVersePath": "Проверка пути к проекту в Verse…",
     "RemoveContent": "Да, удалить контент",
     "RemoveContentAndReload": "Да, удалить контент и перезагрузить проект",
     "SetProjectVersePath.NotLoggedIn": "Чтобы изменить путь Verse проекта, нужно войти в систему",
@@ -2418,7 +2646,7 @@
     "RemoveReferenceError": "Не удалось удалить файл ссылок проекта! {0}"
   },
   "ValkyrieProjectDetails": {
-    "ContentGuidelinesUrlPropertyLabelText": "Руководство по оформлению",
+    "ContentGuidelinesUrlPropertyLabelText": "Правила бренда",
     "DocsUrlPropertyLabelText": "Документы",
     "InvalidDocsUrlTitle": "Недопустимый URL-адрес документации",
     "ContentGuidelinesUrlLinkText": "Связь",
@@ -2509,17 +2737,26 @@
   },
   "ValkyrieProjectsController": {
     "ArchiveProjectContextMenuEntry": "В архив",
+    "ArchiveProjectContextMenuEntry_ToolTip": "Архивирует проект",
+    "ArchiveStatusMessage": "Архивация проекта…",
     "BrowseButtonToolTip": "Найти и открыть проект на компьютере",
     "BrowseButtonText": "Обзор…",
+    "ProjectManagementSectionHeading": "Управление",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
     "OfflineDisplayNameText": "Локально",
+    "OnlyArchivedProjectsToolTip": "Показывать только заархивированные проекты",
     "OpenProjectActionText": "Открыть",
     "LoadingProjectDocumentMessage": "Получение информации о проекте...",
     "BrowseForProjectOnDiskTitleText": "Выбор проекта, который нужно открыть",
     "OnlineProjectWithNoLocalRepresentation": "Не удалось найти проект в ожидаемом месте. Если он есть на компьютере, нажмите кнопку Обзор, чтобы найти его. Если нет, может потребоваться синхронизация с системой контроля версий.",
     "LockedProject": "Проект заблокирован. Обратитесь в <a id=\"player_support\" href=\"{PlayerSupportURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">службу поддержки игроков Epic</> и укажите проект {ProjectId}.",
-    "TeamViewDisplayNameFormatText": "Проекты {0}"
+    "UnarchiveProjectContextMenuEntry": "Распаковать",
+    "PromptAboutUnarchivingProjectUponActionTitle": "Распаковка проекта",
+    "UnarchiveStatusMessage": "Распаковка проекта…",
+    "UpdateArchiveStatusErrorTitleText": "Ошибка обновления статуса архива",
+    "TeamViewDisplayNameFormatText": "Проекты {0}",
+    "PromptAboutUnarchivingProjectUponActionMessage": "Если {0} этот проект, он автоматически распакуется.\n\nВсё равно продолжить?"
   },
   "ValkyrieProjectSettingsEditor": {
     "ValkyrieProjectSettingsTabToolTip": "Изменение настроек текущего проекта",
@@ -2536,6 +2773,10 @@
   "ValkyrieProjectStagingContext": {
     "Cancel": "Отмена",
     "CannotChangePublishedProjectVersePath": "Невозможно изменить путь Verse проекта '{0}', потому что он уже опубликован",
+    "FailedAssignProjectToTeam": "Не удалось выполнить назначение проекта '{0}' команде {1}",
+    "FailLoadBindings": "Не удалось загрузить привязки для проекта '{0}'",
+    "FailSyncWithContentService": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом",
+    "FailSyncWithContentServiceNotLoggedIn": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом, так как пользователь не вошёл в систему\nОшибка: {1}",
     "UnauthorizedAccessDialog.No": "Нет, оставить как есть",
     "FValkyrieFortniteModerationStatus_ErrorNotificationContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале.",
     "FValkyrieFortniteModerationStatus_ErrorDialogContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале. Вы должны обеспечить соответствие всех ваших ресурсов рекомендациям. Если нарушение не будет устранено, ваш проект будет заблокирован.",
@@ -2544,7 +2785,8 @@
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "UnauthorizedAccess.Title": "Несанкционированный доступ",
     "VersePathNotInProjectSysMetadata": "Путь в Verse не был успешно установлен в системных метаданных проекта",
-    "UnauthorizedAccessDialog.Yes": "Да, изменить проект"
+    "UnauthorizedAccessDialog.Yes": "Да, изменить проект",
+    "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту '{0}' в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
   },
   "ValkyrieProjectTemplatesController": {
     "CreateProjectActionText": "Создать"
@@ -2555,6 +2797,7 @@
     "RemapLocalVsReferencedContent.CannotFindLocalPlugin": "Не удалось найти плагин общедоступного проекта для внешнего контента '{0}'",
     "VKCannotFindPlugin": "Не удалось найти плагин",
     "VKProjectLocationIsEmpty": "Расположение проекта не должно быть пустым",
+    "OpenSecondaryProjects.ErrorOpeningProject": "Ошибка открытия проекта '{0}'",
     "VKFailFindLoadedPlugin": "Не удалось найти предположительно загруженный плагин\n{0}",
     "FailFixMissingGameFeatureData": "Невозможно исправить отсутствие GameFeatureData (подробнее см. в журнале)",
     "VKFailLoadPluginWithExistingName": "Не удалось загрузить плагин\n{0}\n\nПлагин с именем {1} уже зарегистрирован здесь:\n{2}",
@@ -2577,6 +2820,7 @@
     "VkNewPluginNameInUse": "Название плагина уже используется",
     "ProjectTerm": "Проект",
     "OpenRefSourceProjects.AlreadyOpenedProject": "Проект '{0}' уже открыт",
+    "OpenSecondaryProjects.MissingProject": "Не удалось повторно открыть проект '{0}', так как он не найден в локальном хранилище",
     "VKProjectFileExists": "В этом месте уже есть проект\n{0}",
     "VKProjectFolderIsFile": "Недопустимая папка проекта. Мешает следующий файл:\n{0}",
     "VKProjectFolderNotEmpty": "Папка проекта должна быть пустой\n{0}",
@@ -2596,6 +2840,7 @@
     "RemapLocalVsReferencedContent.Cancelled": "Сохранение переназначенных ссылок ресурса отменено",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "RemapLocalVsReferencedContent.Success": "Ссылки на ресурсы успешно переназначены",
+    "OpenSecondaryProjects.MissingProjects": "Не удалось повторно открыть следующие проекты, так как они не найдены в локальном хранилище:",
     "OpenRefSourceProjects.InvalidProject": "Выбран недопустимый файл.\n\n{0}",
     "OpenRefSourceProjects.WrongProjectId": "Проект, который вы выбрали, не является '{0}'.\n\nПоиск проекта с идентификатором: {1}",
     "RemapLocalVsReferencedContent.NoRootPlugin": "В проекте нет корневого плагина",
@@ -2612,7 +2857,8 @@
   },
   "ValkyrieReferencedContentAliases": {
     "ContentFailedToLoad": "Не удалось загрузить контент",
-    "ContenWithoutPublicAsset": "Контент без публичного ресурса"
+    "ContenWithoutPublicAsset": "Контент без публичного ресурса",
+    "SomeContentFailedToLoad": "Не удалось загрузить часть контента"
   },
   "ValkyrieRequestManagerEditor": {
     "MatchmakingStart": "Идёт подбор игроков",
@@ -2643,9 +2889,13 @@
     "ResizingTextures": "Изменение размера текстур…"
   },
   "ValkyrieSourceControl": {
+    "ConfirmProviderChangeDialog_CancelText": "Отмена",
     "ConnectFailed": "Не удалось подключиться к системе контроля версий.",
     "SourceControlDisabled": "SourceControl для этого проекта отключён.",
-    "SourceControlSwitched": "Настройки SourceControl устарели.\nПереподключитесь к {0}."
+    "SourceControlSwitched": "Настройки SourceControl устарели.\nПереподключитесь к {0}.",
+    "ConfirmProviderChangeDialogTitle": "Обновить источник контроля версий",
+    "ConfirmProviderChangeDialog_UpdateSettingsText": "Обновить параметры",
+    "ConfirmProviderChangeDialogMessage": "Предупреждение: изменение или отключение источника контроля версий повлияет на глобальные настройки проекта и всех участников. Обновить настройки источника?"
   },
   "ValkyrieSourceControlProjectCustomization": {
     "SyncProjectActionText": "Синхронизация",
@@ -2691,8 +2941,10 @@
     "NoTeamNameText": "Нет команды (только вы)"
   },
   "ValkyrieTemplateCategoryController": {
+    "RefreshEntitlementsText": "Уже зарегистрировались? Нажмите, чтобы обновить",
     "CreateActionText": "Создать",
-    "JoinProgramActionText": "Участвовать в программе"
+    "JoinProgramActionText": "Участвовать в программе",
+    "CreationAccessPromptFormat": "{CreationAccessPrompt}\n<a id=\"{CreationAccessHyperlinkId}\" href=\"{CreationAccessUrl}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>"
   },
   "ValkyrieTilePicker": {
     "SearchBoxHintText": "Фильтр…",
@@ -2704,6 +2956,7 @@
     "RefreshingToolTipText": "Обновление…"
   },
   "ValkyrieUserFeedbackUtility": {
+    "ReportIssueDialog.Message": "Нажмите \"OK\", чтобы сообщить о новой проблеме. Затем перейдите в свой браузер по умолчанию и заполните оставшиеся поля формы.\n",
     "ReportIssueDialog.OkButton": "OK",
     "ReportIssueDialog.Title": "Сообщить о проблеме"
   },
@@ -2711,13 +2964,20 @@
     "AssetNamesBelow": "См. список ресурсов ниже"
   },
   "ValkyrieValidator": {
+    "ValkyrieValidator_Textures_RepairTooltip": "Измените свойства текстуры, чтобы избежать ошибок при проверке.",
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
+    "ValkyrieValidator_Textures_Repair": "Подогнать текстуру",
     "Hard Reference": "Недопустимая жесткая ссылка с {0} на {1}",
     "Soft Reference": "Недопустимая мягкая ссылка с {0} на {1}",
-    "NonUITextureNeverStreamed": "Если это не интерфейс, текстура настроена на полное отсутствие подгрузки. Обновить NeverStream для текстуры",
-    "NonUITextureTooBig": "Неинтерфейсная текстура слишком велика. Размер — {SizeX}×{SizeY}. Сократить размеры текстуры до {MaxSize}х{MaxSize} или меньше",
-    "NonUITextureNotPow2": "Если это не интерфейс, размер текстуры не равен степени числа 2. Размер — {SizeX}×{SizeY}. Реимпортировать текстуру с подходящими размерами либо обновить для текстуры PowerOfTwoMode",
-    "UITextureTooBig": "Текстура интерфейса слишком велика. Размер — {SizeX}×{SizeY}. Сократить размеры текстуры до {MaxSize}х{MaxSize} или меньше",
+    "ExecuteValidationRepairs": "Измените текстуру, чтобы она соответствовала допустимым критериям",
+    "ProjectTextureBudgetExceeded": "Общий объём памяти, используемый неподгружаемыми текстурами в этом проекте превышает объём памяти, выделенный для этого сеанса ({MaxSize} Мбайт).\n  Убедитесь, что размеры вашей текстуры соответствуют степени двойки (например, 256×256 или 512×1024), если это возможно,\n  и что свойство \"Не подгружать\" отключено.",
+    "Texture2DTooBig": "Эта двухмерная текстура слишком большая. Её текущее размер {SizeX}×{SizeY}.\n  Уменьшите её до {MaxSize}×{MaxSize} или ниже и импортируйте её снова,\n  или нажмите правой кнопкой мыши и выберите 'Подогнать текстуру'",
+    "Tooltip_NonUITextureIsStreamable": "Подгрузка этой текстуры невозможна, так как включено свойство \"Не подгружать\".",
+    "NonUITextureNotStreamable": "Подгрузка этой текстуры невозможна, так как включено свойство \"Не подгружать\".\n  Отключите для текстуры свойство \"Не подгружать\", или нажмите правой кнопкой мыши и выберите 'Подогнать текстуру'",
+    "Tooltip_NonUITextureIsPow2": "Подгрузка этой текстуры невозможна, так как её размеры не соответствуют степени двойки (например, 256×256 или 512×1024).",
+    "NonUITextureNotPow2": "Подгрузка этой текстуры невозможна, так как её размеры не соответствуют степени двойки (например, 256×256 или 512×1024). Её текущее размер {SizeX}×{SizeY}.\n  Измените размеры исходного изображения так, чтобы размер и высоты, и ширины соответствовал степени двойки,\n  либо нажмите правой кнопкой мыши и выберите 'Подогнать текстуру'",
+    "UITextureTooBig": "Эта текстура слишком велика для группы текстур интерфейса. Её текущее размер {SizeX}×{SizeY}.\n  Уменьшите её до {MaxSize}×{MaxSize} или ниже и импортируйте её снова,\n  или нажмите правой кнопкой мыши и выберите 'Подогнать текстуру'",
+    "Tooltip_NonUITextureMaxSize": "Эта текстура слишком большая. Максимальный размер — {MaxSize}×{MaxSize}.",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData"
   },

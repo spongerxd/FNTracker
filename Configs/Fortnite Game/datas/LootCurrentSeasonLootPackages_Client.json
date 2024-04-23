@@ -17041,6 +17041,48 @@
         "Annotation": ";Def:NPCItemPKG.Athena.FishingRod.C0;Call:NPCItemList.Athena.FishingRod",
         "DurabilityPercentageOverride": 1.0
       },
+      "NPCItemPKG.Athena.Assault.SunRose.Tactical.VR.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Assault.SunRose.Tactical.VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.VR.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR.C0;Call:NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaTest.01": {
         "LootPackageID": "WorldList.AthenaTest",
         "Weight": 1.0,
@@ -26388,7 +26430,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.78": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -26397,7 +26439,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_C.WID_Assault_SunRose_Tactical_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -26409,7 +26451,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.79": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -26418,7 +26460,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -26430,7 +26472,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.80": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -26439,7 +26481,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -28761,7 +28803,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.109": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -28770,7 +28812,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -28782,7 +28824,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.110": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -28791,7 +28833,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -28803,7 +28845,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.111": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -28812,7 +28854,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -28824,7 +28866,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.112": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -28833,7 +28875,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -29202,7 +29244,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.14": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -29223,7 +29265,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.15": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -33276,7 +33318,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.52": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -33285,7 +33327,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -33297,7 +33339,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.53": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -33306,7 +33348,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -34683,7 +34725,7 @@
       },
       "WorldList.Weapons.Rarity.Rare.36": {
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -34692,7 +34734,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -35460,7 +35502,7 @@
       },
       "WorldList.Weapons.Rarity.Epic.35": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -35469,7 +35511,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36237,7 +36279,7 @@
       },
       "WorldList.Weapons.Rarity.Legendary.35": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -36246,7 +36288,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36552,7 +36594,7 @@
       },
       "WorldList.Weapons.Rarity.Legendary.50": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -36561,7 +36603,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41256,7 +41298,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.222": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41265,7 +41307,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41277,7 +41319,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.223": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41286,7 +41328,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41298,7 +41340,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.224": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41307,7 +41349,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41319,7 +41361,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.225": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41328,7 +41370,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42348,7 +42390,7 @@
       },
       "WorldList.MMO.ChestCache.Rare.WepSetTwo.15": {
         "LootPackageID": "WorldList.MMO.ChestCache.Rare.WepSetTwo",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -42357,7 +42399,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42537,7 +42579,7 @@
       },
       "WorldList.MMO.ChestCache.Rare.WepSetTwo.24": {
         "LootPackageID": "WorldList.MMO.ChestCache.Rare.WepSetTwo",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -42546,7 +42588,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49467,7 +49509,7 @@
       },
       "WorldList.DisplayCase.HighTier.Weps.78": {
         "LootPackageID": "WorldList.DisplayCase.HighTier.Weps",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -49476,7 +49518,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49782,7 +49824,7 @@
       },
       "WorldList.DisplayCase.HighTier.Weps.93": {
         "LootPackageID": "WorldList.DisplayCase.HighTier.Weps",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -49791,7 +49833,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -52218,7 +52260,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.40": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -52227,7 +52269,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -52239,7 +52281,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.41": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -52248,7 +52290,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -58203,7 +58245,7 @@
       },
       "WorldList.FlopperHigh.Medium.48": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -58212,7 +58254,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_C.WID_Assault_SunRose_Tactical_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -58224,7 +58266,7 @@
       },
       "WorldList.FlopperHigh.Medium.49": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.0,
+        "Weight": 0.32,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -58233,7 +58275,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -58245,7 +58287,7 @@
       },
       "WorldList.FlopperHigh.Medium.50": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -58254,7 +58296,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -60039,7 +60081,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/ChronoCloak/Cloak/WID_Chrono_Cloak.WID_Chrono_Cloak",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -62937,7 +62979,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/ChronoCloak/Cloak/WID_Chrono_Cloak.WID_Chrono_Cloak",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -62979,7 +63021,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/ChronoCloak/Cloak/WID_Chrono_Cloak_UR_JungBoss.WID_Chrono_Cloak_UR_JungBoss",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -65667,7 +65709,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/ChronoCloak/Cloak/WID_Chrono_Cloak_UR_JungBoss.WID_Chrono_Cloak_UR_JungBoss",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -69228,7 +69270,7 @@
       },
       "NPCItemList.Assault.UC.05": {
         "LootPackageID": "NPCItemList.Assault.UC",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -69237,7 +69279,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -69249,7 +69291,7 @@
       },
       "NPCItemList.Assault.R.05": {
         "LootPackageID": "NPCItemList.Assault.R",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -69258,7 +69300,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -69270,7 +69312,7 @@
       },
       "NPCItemList.Assault.VR.05": {
         "LootPackageID": "NPCItemList.Assault.VR",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -69279,7 +69321,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -69291,7 +69333,7 @@
       },
       "NPCItemList.Assault.SR.05": {
         "LootPackageID": "NPCItemList.Assault.SR",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -69300,7 +69342,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -73575,7 +73617,7 @@
       },
       "WorldList.WepModCase.Medium.16": {
         "LootPackageID": "WorldList.WepModCase.Medium",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -73584,7 +73626,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -73596,7 +73638,7 @@
       },
       "WorldList.WepModCase.Medium.17": {
         "LootPackageID": "WorldList.WepModCase.Medium",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -73605,7 +73647,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -73617,7 +73659,7 @@
       },
       "WorldList.WepModCase.Medium.18": {
         "LootPackageID": "WorldList.WepModCase.Medium",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -73626,7 +73668,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -78023,6 +78065,48 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:NPCItemList.Athena.FishingRod.C0;Item:Consumable.RodPro",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Assault.SunRose.Tactical.VR.01": {
+        "LootPackageID": "NPCItemList.Athena.Assault.SunRose.Tactical.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.VR.C0;Item:WID.Assault.SunRose.Tactical.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Pistol.HandCannon.Athena.VR.01": {
+        "LootPackageID": "NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Pistol.HandCannon.Athena.VR.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       }
     }

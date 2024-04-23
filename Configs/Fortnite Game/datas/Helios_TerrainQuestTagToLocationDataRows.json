@@ -45,6 +45,20 @@
           "Z": 4756.0
         }
       },
+      "AISpawnerData.Type.Tandem.Virtuous": {
+        "WorldLocation": {
+          "X": 54900.0,
+          "Y": 37072.0,
+          "Z": 7139.6865
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.Virtuous": {
+        "WorldLocation": {
+          "X": 54900.0,
+          "Y": 37072.0,
+          "Z": 7139.6865
+        }
+      },
       "Athena.Location.UnNamedPOI.FishingSpot.06": {
         "WorldLocation": {
           "X": 81912.0,
@@ -61,16 +75,16 @@
       },
       "AISpawnerData.Type.Tandem.BalletAssassin": {
         "WorldLocation": {
-          "X": 56294.19,
-          "Y": 36765.977,
-          "Z": 6268.625
+          "X": -22536.0,
+          "Y": -107008.0,
+          "Z": 2600.0
         }
       },
       "Athena.AI.SpawnLocation.Tandem.BalletAssassin": {
         "WorldLocation": {
-          "X": 56294.19,
-          "Y": 36765.977,
-          "Z": 6268.625
+          "X": -22536.0,
+          "Y": -107008.0,
+          "Z": 2600.0
         }
       },
       "Athena.Location.UnNamedPOI.FishingSpot.05": {
@@ -78,20 +92,6 @@
           "X": 2759.9998,
           "Y": 78156.0,
           "Z": 4756.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Iceberg": {
-        "WorldLocation": {
-          "X": 107976.0,
-          "Y": 102448.0,
-          "Z": 1176.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Iceberg_0": {
-        "WorldLocation": {
-          "X": 112248.0,
-          "Y": 122236.0,
-          "Z": 1176.0
         }
       },
       "Athena.Location.UnNamedPOI.CharonsCrossing": {
@@ -465,6 +465,13 @@
           "Z": 3004.0
         }
       },
+      "Athena.Location.UnNamedPOI.Stage.01": {
+        "WorldLocation": {
+          "X": 1044.0,
+          "Y": -18524.0,
+          "Z": 2072.0
+        }
+      },
       "Athena.Location.UnNamedPOI.WindMill.01": {
         "WorldLocation": {
           "X": -69676.0,
@@ -549,6 +556,20 @@
           "Z": 4008.0
         }
       },
+      "AISpawnerData.Type.Tandem.DaffodilSong": {
+        "WorldLocation": {
+          "X": -27404.0,
+          "Y": 93696.0,
+          "Z": 13468.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.DaffodilSong": {
+        "WorldLocation": {
+          "X": -27404.0,
+          "Y": 93696.0,
+          "Z": 13468.0
+        }
+      },
       "AISpawnerData.Type.Specialist.Medic.Tropical": {
         "WorldLocation": {
           "X": 47604.0,
@@ -619,13 +640,6 @@
           "Z": 112.0
         }
       },
-      "Athena.Location.UnNamedPOI.Iceberg_1": {
-        "WorldLocation": {
-          "X": 114292.0,
-          "Y": 141432.0,
-          "Z": 1176.0
-        }
-      },
       "Athena.Location.UnNamedPOI.RaceCarFactory": {
         "WorldLocation": {
           "X": -28088.0,
@@ -645,6 +659,13 @@
           "X": 81808.0,
           "Y": 86804.0,
           "Z": 4756.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.Stage.02": {
+        "WorldLocation": {
+          "X": 83532.0,
+          "Y": 87464.0,
+          "Z": 4340.0
         }
       },
       "Athena.Location.UnNamedPOI.CliffHouse": {
@@ -799,6 +820,13 @@
           "X": 81544.0,
           "Y": 85364.0,
           "Z": 5688.625
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Riddle.02.POIVolume": {
+        "WorldLocation": {
+          "X": -17215.508,
+          "Y": 15976.647,
+          "Z": 1982.5953
         }
       },
       "Athena.Location.UnNamedPOI.Shrine.07": {
@@ -1641,11 +1669,116 @@
           "Z": 2146.0
         }
       },
+      "Athena.Quests.S29.Snapshot.P03.Trail.05": {
+        "WorldLocation": {
+          "X": -21877.29,
+          "Y": -70077.61,
+          "Z": 1930.2465
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.03": {
+        "WorldLocation": {
+          "X": 47115.36,
+          "Y": -82531.984,
+          "Z": 3168.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.04": {
+        "WorldLocation": {
+          "X": -21220.686,
+          "Y": -70156.64,
+          "Z": 1930.2465
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Riddle.03": {
+        "WorldLocation": {
+          "X": 54927.438,
+          "Y": 39108.055,
+          "Z": 6294.8735
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.04": {
+        "WorldLocation": {
+          "X": 3012.0,
+          "Y": -12440.0,
+          "Z": 2784.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.03": {
+        "WorldLocation": {
+          "X": -20992.264,
+          "Y": -71452.69,
+          "Z": 1930.2465
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.01": {
+        "WorldLocation": {
+          "X": -6636.0,
+          "Y": -11728.0,
+          "Z": 2776.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.02": {
+        "WorldLocation": {
+          "X": -2408.0,
+          "Y": -10768.0,
+          "Z": 2780.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.08": {
+        "WorldLocation": {
+          "X": -21818.814,
+          "Y": -71040.0,
+          "Z": 1930.2465
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.07": {
+        "WorldLocation": {
+          "X": -2034.4019,
+          "Y": -15905.575,
+          "Z": 2860.0
+        }
+      },
       "Athena.Quests.S29.SeasonalActivation.Investigate.03": {
         "WorldLocation": {
           "X": 48772.25,
           "Y": -92855.5,
           "Z": 3085.4387
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.07": {
+        "WorldLocation": {
+          "X": -43594.23,
+          "Y": -1253.3428,
+          "Z": 3568.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Artifact.Pickup": {
+        "WorldLocation": {
+          "X": -21331.574,
+          "Y": -70983.1,
+          "Z": 1930.7386
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Dig.Pile.03": {
+        "WorldLocation": {
+          "X": 54692.8,
+          "Y": 39160.723,
+          "Z": 6236.743
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.02": {
+        "WorldLocation": {
+          "X": 47588.0,
+          "Y": -78960.0,
+          "Z": 3176.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Dig.Pile.01": {
+        "WorldLocation": {
+          "X": 33936.695,
+          "Y": -37883.145,
+          "Z": 3807.327
         }
       },
       "Athena.Quests.S29.SunRosePool": {
@@ -1655,11 +1788,32 @@
           "Z": 5736.933
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.03": {
+        "WorldLocation": {
+          "X": 21612.0,
+          "Y": -51604.0,
+          "Z": 128.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.01": {
+        "WorldLocation": {
+          "X": 48680.0,
+          "Y": -70892.0,
+          "Z": 2544.0
+        }
+      },
       "Athena.Quests.S29.Snapshot.P01.FeatofAgility": {
         "WorldLocation": {
           "X": 10700.0,
           "Y": -12828.0,
           "Z": 3852.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.05": {
+        "WorldLocation": {
+          "X": 4061.6846,
+          "Y": -15942.21,
+          "Z": 2844.0
         }
       },
       "Athena.Quests.S29.SunRosePool_0": {
@@ -1669,11 +1823,60 @@
           "Z": 3432.4458
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.07": {
+        "WorldLocation": {
+          "X": 54076.0,
+          "Y": -84228.0,
+          "Z": 2760.0
+        }
+      },
       "Athena.Quests.S29.SunRosePool_1": {
         "WorldLocation": {
           "X": -59648.0,
           "Y": 71424.0,
           "Z": 11988.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.04": {
+        "WorldLocation": {
+          "X": 22468.0,
+          "Y": -42532.0,
+          "Z": 140.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.05": {
+        "WorldLocation": {
+          "X": -50696.0,
+          "Y": 23884.0,
+          "Z": 6612.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.03": {
+        "WorldLocation": {
+          "X": -51592.0,
+          "Y": 54276.0,
+          "Z": 8956.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.07": {
+        "WorldLocation": {
+          "X": -22256.549,
+          "Y": -70961.81,
+          "Z": 2040.0001
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.01": {
+        "WorldLocation": {
+          "X": -19169.33,
+          "Y": -71681.11,
+          "Z": 2314.4363
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.06": {
+        "WorldLocation": {
+          "X": 43844.0,
+          "Y": -84224.0,
+          "Z": 2760.0
         }
       },
       "Athena.Quests.S29.Snapshot.P02.Tablet.03": {
@@ -1683,11 +1886,53 @@
           "Z": 3280.7063
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.06": {
+        "WorldLocation": {
+          "X": 1037.5891,
+          "Y": -17017.143,
+          "Z": 1628.0
+        }
+      },
       "Athena.Quests.S29.Snapshot.P01.FeatofStrength": {
         "WorldLocation": {
           "X": -42692.0,
           "Y": -15124.0,
           "Z": 3472.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.07": {
+        "WorldLocation": {
+          "X": 984.0,
+          "Y": -20132.0,
+          "Z": 1624.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Artifact.Place": {
+        "WorldLocation": {
+          "X": 22785.025,
+          "Y": -57169.0,
+          "Z": 780.0
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Riddle.02": {
+        "WorldLocation": {
+          "X": -17121.143,
+          "Y": 15251.178,
+          "Z": 1807.2839
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Dig.Pile.02": {
+        "WorldLocation": {
+          "X": -17138.88,
+          "Y": 15341.849,
+          "Z": 1703.0205
+        }
+      },
+      "Athena.Quests.S29.Snapshot.P03.Trail.02": {
+        "WorldLocation": {
+          "X": -20248.783,
+          "Y": -71680.984,
+          "Z": 1930.2465
         }
       },
       "Athena.Quests.S29.SeasonalActivation.Investigate.01": {
@@ -1697,6 +1942,34 @@
           "Z": 3085.805
         }
       },
+      "Athena.Quests.S29.Snapshot.P03.Riddle.01": {
+        "WorldLocation": {
+          "X": 33934.426,
+          "Y": -37952.098,
+          "Z": 3930.8591
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.01": {
+        "WorldLocation": {
+          "X": 24372.0,
+          "Y": -58480.0,
+          "Z": 1616.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.02": {
+        "WorldLocation": {
+          "X": 20744.0,
+          "Y": -57012.0,
+          "Z": 116.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.06": {
+        "WorldLocation": {
+          "X": 4408.0,
+          "Y": -27512.0,
+          "Z": 1444.0
+        }
+      },
       "Athena.Quests.S29.SunRosePool_2": {
         "WorldLocation": {
           "X": 54783.195,
@@ -1704,11 +1977,25 @@
           "Z": 358.4153
         }
       },
+      "Athena.Quests.S29.Snapshot.P03.Trail.06": {
+        "WorldLocation": {
+          "X": -22523.857,
+          "Y": -70339.07,
+          "Z": 1930.2465
+        }
+      },
       "Athena.Quests.S29.Snapshot.P02.Tablet.04": {
         "WorldLocation": {
           "X": 63843.164,
           "Y": -11774.232,
           "Z": 2699.4668
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.03": {
+        "WorldLocation": {
+          "X": 1284.0,
+          "Y": -10760.0,
+          "Z": 2772.0
         }
       },
       "Athena.Quests.S29.SeasonalActivation.Investigate.02": {
@@ -1725,6 +2012,13 @@
           "Z": 4620.0
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.01": {
+        "WorldLocation": {
+          "X": -54737.074,
+          "Y": 71918.76,
+          "Z": 12380.0
+        }
+      },
       "Athena.Quests.S29.Snapshot.P01.FeatofStrength_0": {
         "WorldLocation": {
           "X": 72032.0,
@@ -1732,11 +2026,53 @@
           "Z": 3468.0
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.02": {
+        "WorldLocation": {
+          "X": -53104.0,
+          "Y": 64564.0,
+          "Z": 11600.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.04": {
+        "WorldLocation": {
+          "X": 45179.48,
+          "Y": -87403.92,
+          "Z": 3928.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.05": {
+        "WorldLocation": {
+          "X": 39500.0,
+          "Y": -85312.0,
+          "Z": 2748.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.05": {
+        "WorldLocation": {
+          "X": 12948.0,
+          "Y": -33588.0,
+          "Z": 68.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.06": {
+        "WorldLocation": {
+          "X": -46005.945,
+          "Y": 9388.664,
+          "Z": 4256.0
+        }
+      },
       "Athena.Quests.S29.Snapshot.P02.Tablet.01": {
         "WorldLocation": {
           "X": -79439.4,
           "Y": -6315.905,
           "Z": 2700.5178
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.04": {
+        "WorldLocation": {
+          "X": -51212.0,
+          "Y": 34164.0,
+          "Z": 7768.0
         }
       },
       "Athena.AI.SpawnLocation.Paprika.Guard.STH5.Elite_0": {
@@ -1865,6 +2201,13 @@
           "Z": 3852.0
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.06_0": {
+        "WorldLocation": {
+          "X": 19800.174,
+          "Y": 101866.15,
+          "Z": 10116.0
+        }
+      },
       "Athena.Quests.S28.Winterfest.DanceFloor.01_0": {
         "WorldLocation": {
           "X": 82655.66,
@@ -1905,6 +2248,34 @@
           "X": -101588.66,
           "Y": 46118.027,
           "Z": 3852.2378
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.02_0": {
+        "WorldLocation": {
+          "X": 11623.477,
+          "Y": 99960.78,
+          "Z": 10516.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.04_0": {
+        "WorldLocation": {
+          "X": 17251.43,
+          "Y": 105513.914,
+          "Z": 10116.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.03_0": {
+        "WorldLocation": {
+          "X": 12539.477,
+          "Y": 104952.78,
+          "Z": 10116.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.05_0": {
+        "WorldLocation": {
+          "X": 23315.43,
+          "Y": 103741.914,
+          "Z": 10116.0
         }
       },
       "Athena.Quests.S28.Winterfest.PresentStash.04": {
