@@ -14479,111 +14479,6 @@
         "Annotation": ";Def:WorldPKG.TiredPanda.Loot.C0;Call:WorldList.TiredPanda.Chest",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.AnnoyedMop.Loot.01": {
-        "LootPackageID": "WorldPKG.AnnoyedMop.Loot",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "WorldList.AnnoyedMop.Chest",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.AnnoyedMop.Loot.C0;Call:WorldList.AnnoyedMop.Chest",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldPKG.FancyMop.Loot.01": {
-        "LootPackageID": "WorldPKG.FancyMop.Loot",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "WorldList.FancyMop.Chest",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.FancyMop.Loot.C0;Call:WorldList.FancyMop.Chest",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldPKG.HumbleMop.Loot.01": {
-        "LootPackageID": "WorldPKG.HumbleMop.Loot",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "WorldList.HumbleMop.Chest",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.HumbleMop.Loot.C0;Call:WorldList.HumbleMop.Chest",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldPKG.RandomMop.Loot.01": {
-        "LootPackageID": "WorldPKG.RandomMop.Loot",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "WorldList.FancyMop.Chest",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.RandomMop.Loot.C0;Call:WorldList.FancyMop.Chest",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldPKG.RandomMop.Loot.02": {
-        "LootPackageID": "WorldPKG.RandomMop.Loot",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "WorldList.HumbleMop.Chest",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.RandomMop.Loot.C0;Call:WorldList.HumbleMop.Chest",
-        "DurabilityPercentageOverride": 1.0
-      },
       "WorldPKG.Grunt.Challenge.Loot.SMG.01": {
         "LootPackageID": "WorldPKG.Grunt.Challenge.Loot.SMG",
         "Weight": 1.0,
@@ -17041,6 +16936,69 @@
         "Annotation": ";Def:NPCItemPKG.Athena.FishingRod.C0;Call:NPCItemList.Athena.FishingRod",
         "DurabilityPercentageOverride": 1.0
       },
+      "NPCItemPKG.Athena.Assault.SunRose.Tactical.C.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.C",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Assault.SunRose.Tactical.C",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.C.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Assault.SunRose.Tactical.UC.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.UC",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Assault.SunRose.Tactical.UC",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.UC.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Assault.SunRose.Tactical.R.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.R",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Assault.SunRose.Tactical.R",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.R.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.R",
+        "DurabilityPercentageOverride": 1.0
+      },
       "NPCItemPKG.Athena.Assault.SunRose.Tactical.VR.01": {
         "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.VR",
         "Weight": 1.0,
@@ -17062,8 +17020,8 @@
         "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.VR.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR.01": {
-        "LootPackageID": "NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR",
+      "NPCItemPKG.Athena.Assault.SunRose.Tactical.SR.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Assault.SunRose.Tactical.SR",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -17071,7 +17029,7 @@
         "LootPackageCategory": 0,
         "GameplayTags": [],
         "RequiredTag": "None",
-        "LootPackageCall": "NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+        "LootPackageCall": "NPCItemList.Athena.Assault.SunRose.Tactical.SR",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -17080,7 +17038,70 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR.C0;Call:NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+        "Annotation": ";Def:NPCItemPKG.Athena.Assault.SunRose.Tactical.SR.C0;Call:NPCItemList.Athena.Assault.SunRose.Tactical.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.R.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.R",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Pistol.SunRose.HandCannon.R",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.R.C0;Call:NPCItemList.Athena.Pistol.SunRose.HandCannon.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.VR.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Pistol.SunRose.HandCannon.VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.VR.C0;Call:NPCItemList.Athena.Pistol.SunRose.HandCannon.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.SR.01": {
+        "LootPackageID": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.SR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.Pistol.SunRose.HandCannon.SR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.SR.C0;Call:NPCItemList.Athena.Pistol.SunRose.HandCannon.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaTest.01": {
@@ -17463,7 +17484,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Common.02": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Consumables.Common",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -41590,69 +41611,6 @@
         "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.TiredPanda",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.GoldenPOI.DroneLoot.Wep.236": {
-        "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.GoldenPOI.DroneLoot.Wep.237": {
-        "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.GoldenPOI.DroneLoot.Wep.238": {
-        "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
       "WorldList.GoldenPOI.DroneLoot.Consumables.01": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
         "Weight": 0.2,
@@ -44005,70 +43963,7 @@
         "Annotation": ";List:WorldList.MMO.ClaimPOI.Solo.MythicWep.C0;Item:WID.TiredPanda",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MMO.ClaimPOI.Solo.MythicWep.03": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Solo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Solo.MythicWep.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Solo.MythicWep.04": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Solo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Solo.MythicWep.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
       "WorldList.MMO.ClaimPOI.Duo.MythicWep.01": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Duo.MythicWep.02": {
         "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -44089,7 +43984,7 @@
         "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.Athena.SunRose.Wings",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MMO.ClaimPOI.Duo.MythicWep.03": {
+      "WorldList.MMO.ClaimPOI.Duo.MythicWep.02": {
         "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -44108,69 +44003,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.TiredPanda",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Duo.MythicWep.04": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Duo.MythicWep.05": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Duo.MythicWep.06": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Duo.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Duo.MythicWep.C0;Item:WID.HumbleMop",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MMO.ClaimPOI.Trio.MythicWep.01": {
@@ -44215,69 +44047,6 @@
         "Annotation": ";List:WorldList.MMO.ClaimPOI.Trio.MythicWep.C0;Item:WID.TiredPanda",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MMO.ClaimPOI.Trio.MythicWep.03": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Trio.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Trio.MythicWep.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Trio.MythicWep.04": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Trio.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Trio.MythicWep.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Trio.MythicWep.05": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Trio.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Trio.MythicWep.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
       "WorldList.MMO.ClaimPOI.Squad.MythicWep.01": {
         "LootPackageID": "WorldList.MMO.ClaimPOI.Squad.MythicWep",
         "Weight": 1.0,
@@ -44318,69 +44087,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.MMO.ClaimPOI.Squad.MythicWep.C0;Item:WID.TiredPanda",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Squad.MythicWep.03": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Squad.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Squad.MythicWep.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Squad.MythicWep.04": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Squad.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Squad.MythicWep.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MMO.ClaimPOI.Squad.MythicWep.05": {
-        "LootPackageID": "WorldList.MMO.ClaimPOI.Squad.MythicWep",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ClaimPOI.Squad.MythicWep.C0;Item:WID.HumbleMop",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MMO.ClaimPOI.Solo.SlurpJuice.01": {
@@ -60135,7 +59841,7 @@
       },
       "WorldList.AthenaHighConsumables.27": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 3,
@@ -60744,7 +60450,7 @@
       },
       "WorldList.AthenaHighConsumables.56": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -61037,69 +60743,6 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.70": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumables.71": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumables.72": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumables.73": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
         "Weight": 0.35,
         "NamedWeightMult": "None",
@@ -62235,69 +61878,6 @@
       },
       "WorldList.AthenaSupplyDropConsumables.54": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDropConsumables.55": {
-        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDropConsumables.56": {
-        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDropConsumables.57": {
-        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
         "Weight": 0.35,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -63054,7 +62634,7 @@
       },
       "WorldList.AthenaConsumables.36": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 3,
@@ -63222,7 +62802,7 @@
       },
       "WorldList.AthenaConsumables.44": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -63935,69 +63515,6 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.78": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaConsumables.79": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaConsumables.80": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.HumbleMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaConsumables.81": {
         "LootPackageID": "WorldList.AthenaConsumables",
         "Weight": 0.4,
         "NamedWeightMult": "None",
@@ -66918,7 +66435,7 @@
       },
       "WorldList.Specialist.Heavy.Grenades.02": {
         "LootPackageID": "WorldList.Specialist.Heavy.Grenades",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -67338,7 +66855,7 @@
       },
       "WorldList.Specialist.NPC.Explosive.Cluster.01": {
         "LootPackageID": "WorldList.Specialist.NPC.Explosive.Cluster",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -70068,7 +69585,7 @@
       },
       "NPCItemList.Consumable.21": {
         "LootPackageID": "NPCItemList.Consumable",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -71517,7 +71034,7 @@
       },
       "NPCItemList.S26.EMPGrenade.01": {
         "LootPackageID": "NPCItemList.S26.EMPGrenade",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 3,
@@ -72189,7 +71706,7 @@
       },
       "WorldList.Boss.PG.Consumables.02": {
         "LootPackageID": "WorldList.Boss.PG.Consumables",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -72294,7 +71811,7 @@
       },
       "WorldList.Boss.BB.Grenades.01": {
         "LootPackageID": "WorldList.Boss.BB.Grenades",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -74877,7 +74394,7 @@
       },
       "WorldList.Specialist.Supply.Agent.Utility.03": {
         "LootPackageID": "WorldList.Specialist.Supply.Agent.Utility",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -75146,69 +74663,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.TiredPanda.Chest.C0;Item:WID.TiredPanda",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AnnoyedMop.Chest.01": {
-        "LootPackageID": "WorldList.AnnoyedMop.Chest",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 2,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/AnnoyedMop/Gameplay/WID_AnnoyedMop.WID_AnnoyedMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AnnoyedMop.Chest.C0;Item:WID.AnnoyedMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.FancyMop.Chest.01": {
-        "LootPackageID": "WorldList.FancyMop.Chest",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FancyMop/Blueprints/WID_FancyMop.WID_FancyMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FancyMop.Chest.C0;Item:WID.FancyMop",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.HumbleMop.Chest.01": {
-        "LootPackageID": "WorldList.HumbleMop.Chest",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "Count": 1,
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredTag": "None",
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/HumbleMop/Blueprints/WID_HumbleMop.WID_HumbleMop",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.HumbleMop.Chest.C0;Item:WID.HumbleMop",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Grunt.Challenge.SMG.01": {
@@ -77376,7 +76830,7 @@
       },
       "NPCItemList.S28.Paprika.ClusterBomb.01": {
         "LootPackageID": "NPCItemList.S28.Paprika.ClusterBomb",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 2,
@@ -77775,7 +77229,7 @@
       },
       "NPCItemList.S28.EMPGrenade.01": {
         "LootPackageID": "NPCItemList.S28.EMPGrenade",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 3,
@@ -78057,14 +77511,77 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit_HighTier.WID_Athena_FloppingRabbit_HighTier",
+          "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:NPCItemList.Athena.FishingRod.C0;Item:Consumable.RodPro",
+        "Annotation": ";List:NPCItemList.Athena.FishingRod.C0;Item:Consumable.Rod",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Assault.SunRose.Tactical.C.01": {
+        "LootPackageID": "NPCItemList.Athena.Assault.SunRose.Tactical.C",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_C.WID_Assault_SunRose_Tactical_Athena_C",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.C.C0;Item:WID.Assault.SunRose.Tactical.Athena.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Assault.SunRose.Tactical.UC.01": {
+        "LootPackageID": "NPCItemList.Athena.Assault.SunRose.Tactical.UC",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.UC.C0;Item:WID.Assault.SunRose.Tactical.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Assault.SunRose.Tactical.R.01": {
+        "LootPackageID": "NPCItemList.Athena.Assault.SunRose.Tactical.R",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.R.C0;Item:WID.Assault.SunRose.Tactical.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Athena.Assault.SunRose.Tactical.VR.01": {
@@ -78088,8 +77605,8 @@
         "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.VR.C0;Item:WID.Assault.SunRose.Tactical.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "NPCItemList.Athena.Pistol.HandCannon.Athena.VR.01": {
-        "LootPackageID": "NPCItemList.Athena.Pistol.HandCannon.Athena.VR",
+      "NPCItemList.Athena.Assault.SunRose.Tactical.SR.01": {
+        "LootPackageID": "NPCItemList.Athena.Assault.SunRose.Tactical.SR",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -78099,14 +77616,77 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_SR.WID_Assault_SunRose_Tactical_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:NPCItemList.Athena.Pistol.HandCannon.Athena.VR.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "Annotation": ";List:NPCItemList.Athena.Assault.SunRose.Tactical.SR.C0;Item:WID.Assault.SunRose.Tactical.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Pistol.SunRose.HandCannon.R.01": {
+        "LootPackageID": "NPCItemList.Athena.Pistol.SunRose.HandCannon.R",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_R.WID_SunRose_Pistol_HandCannon_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Pistol.SunRose.HandCannon.R.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Pistol.SunRose.HandCannon.VR.01": {
+        "LootPackageID": "NPCItemList.Athena.Pistol.SunRose.HandCannon.VR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_VR.WID_SunRose_Pistol_HandCannon_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Pistol.SunRose.HandCannon.VR.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.Pistol.SunRose.HandCannon.SR.01": {
+        "LootPackageID": "NPCItemList.Athena.Pistol.SunRose.HandCannon.SR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_SR.WID_SunRose_Pistol_HandCannon_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.Pistol.SunRose.HandCannon.SR.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       }
     }

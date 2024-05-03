@@ -16946,9 +16946,9 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_TiredPanda_Chest;LPKG:WorldPKG.TiredPanda.Loot"
       },
-      "Loot_AnnoyedMop_Chest_01": {
-        "TierGroup": "Loot_AnnoyedMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_01": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -16957,9 +16957,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AnnoyedMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -16974,7 +16974,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -17002,11 +17002,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_AnnoyedMop_Chest;LPKG:WorldPKG.AnnoyedMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_FancyMop_Chest_01": {
-        "TierGroup": "Loot_FancyMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_02": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17015,9 +17015,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.FancyMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17032,7 +17032,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
+          0,
           0,
           0,
           0,
@@ -17060,11 +17060,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_FancyMop_Chest;LPKG:WorldPKG.FancyMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_HumbleMop_Chest_01": {
-        "TierGroup": "Loot_HumbleMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_03": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17073,9 +17073,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.HumbleMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17090,7 +17090,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
+          0,
           0,
           0,
           0,
@@ -17118,11 +17118,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_HumbleMop_Chest;LPKG:WorldPKG.HumbleMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_RandomMop_Chest_01": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_04": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17131,9 +17131,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.TiredPanda.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17148,7 +17148,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -17176,11 +17176,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.TiredPanda.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_RandomMop_Chest_02": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_05": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17189,9 +17189,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AnnoyedMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17206,7 +17206,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -17234,11 +17234,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.AnnoyedMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_RandomMop_Chest_03": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_06": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17247,9 +17247,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.FancyMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17264,7 +17264,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -17292,11 +17292,11 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.FancyMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
-      "Loot_RandomMop_Chest_04": {
-        "TierGroup": "Loot_RandomMop_Chest",
-        "Weight": 1.0,
+      "Loot_Test_07": {
+        "TierGroup": "Loot_Test",
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17305,9 +17305,9 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.HumbleMop.Loot",
+        "LootPackage": "WorldPKG.Guard.Heavy.Elite",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDrops": 0.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -17322,7 +17322,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -17350,7 +17350,7 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_RandomMop_Chest;LPKG:WorldPKG.HumbleMop.Loot"
+        "Annotation": "TG:Loot_Test;LPKG:WorldPKG.Guard.Heavy.Elite"
       },
       "Loot_Grunt_Challenge_01": {
         "TierGroup": "Loot_Grunt_Challenge",
@@ -20892,7 +20892,7 @@
       },
       "LTG_NPC_Item_ClusterBomb_01": {
         "TierGroup": "LTG_NPC_Item_ClusterBomb",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -21994,7 +21994,7 @@
       },
       "LTG_NPC_Item_EMPGrenade_01": {
         "TierGroup": "LTG_NPC_Item_EMPGrenade",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -22643,7 +22643,7 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "NPCItemPKG.ChugBomb",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 3.0,
+        "NumLootPackageDrops": 6.0,
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -22658,7 +22658,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          3,
+          6,
           0,
           0,
           0,
@@ -22804,6 +22804,180 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Item_FishingRod;LPKG:NPCItemPKG.Athena.FishingRod"
       },
+      "LTG_NPC_Item_TacticalAR_C_01": {
+        "TierGroup": "LTG_NPC_Item_TacticalAR_C",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Assault.SunRose.Tactical.C",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_TacticalAR_C;LPKG:NPCItemPKG.Athena.Assault.SunRose.Tactical.C"
+      },
+      "LTG_NPC_Item_TacticalAR_UC_01": {
+        "TierGroup": "LTG_NPC_Item_TacticalAR_UC",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Assault.SunRose.Tactical.UC",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_TacticalAR_UC;LPKG:NPCItemPKG.Athena.Assault.SunRose.Tactical.UC"
+      },
+      "LTG_NPC_Item_TacticalAR_R_01": {
+        "TierGroup": "LTG_NPC_Item_TacticalAR_R",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Assault.SunRose.Tactical.R",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_TacticalAR_R;LPKG:NPCItemPKG.Athena.Assault.SunRose.Tactical.R"
+      },
       "LTG_NPC_Item_TacticalAR_VR_01": {
         "TierGroup": "LTG_NPC_Item_TacticalAR_VR",
         "Weight": 1.0,
@@ -22862,8 +23036,8 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Item_TacticalAR_VR;LPKG:NPCItemPKG.Athena.Assault.SunRose.Tactical.VR"
       },
-      "LTG_NPC_Item_Handcannon_VR_01": {
-        "TierGroup": "LTG_NPC_Item_Handcannon_VR",
+      "LTG_NPC_Item_TacticalAR_SR_01": {
+        "TierGroup": "LTG_NPC_Item_TacticalAR_SR",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -22873,7 +23047,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR",
+        "LootPackage": "NPCItemPKG.Athena.Assault.SunRose.Tactical.SR",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 4.0,
         "LootPackageCategoryWeightArray": [
@@ -22918,7 +23092,181 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_Handcannon_VR;LPKG:NPCItemPKG.Athena.Pistol.HandCannon.Athena.VR"
+        "Annotation": "TG:LTG_NPC_Item_TacticalAR_SR;LPKG:NPCItemPKG.Athena.Assault.SunRose.Tactical.SR"
+      },
+      "LTG_NPC_Item_Handcannon_R_01": {
+        "TierGroup": "LTG_NPC_Item_Handcannon_R",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.R",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_Handcannon_R;LPKG:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.R"
+      },
+      "LTG_NPC_Item_Handcannon_VR_01": {
+        "TierGroup": "LTG_NPC_Item_Handcannon_VR",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.VR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_Handcannon_VR;LPKG:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.VR"
+      },
+      "LTG_NPC_Item_Handcannon_SR_01": {
+        "TierGroup": "LTG_NPC_Item_Handcannon_SR",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.Athena.Pistol.SunRose.Handcannon.SR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_Handcannon_SR;LPKG:NPCItemPKG.Athena.Pistol.SunRose.Handcannon.SR"
       }
     }
   }
