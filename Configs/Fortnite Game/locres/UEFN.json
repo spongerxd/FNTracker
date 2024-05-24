@@ -21,8 +21,12 @@
     "997E73E547DE5A156B61FBA2A0D6A4D9": "Устранение",
     "039240DC476A25BFA4DF9DA17D095A8D": "Убедитесь, что у вас есть подключение к Интернету и вы подключены к VPN",
     "4CBC0D8D4CDFB710CBFC93B8D3184353": "Пример сюжетной обстановки, который может быть опубликован и затем импортирован в инвентарь Fortnite Creative",
+    "CCDCCDAD4658B1EC2C2953BA43D1C830": "Демонстрация возможностей",
     "F323D3324C1E2BF0E3D873853A57C7DA": "Демонстрация функциональных возможностей",
     "E9C4E4D04CE32EDEFB35F98B1579F659": "Основа Fortnite",
+    "DBC6216940700BD51BA5F39E6363681F": "Примеры игр",
+    "44BEA24E4BBD23C3794796A61E1B9461": "Начало работы",
+    "0C39CC8D4BB9BAB7284C3D97C14B341B": "Шаблоны острова",
     "3340A37F4135E6874AB81080D09F58EE": "Погрузитесь в мир Verse и поиграйте в мини-игру Verse Commander, в которой нужно посылать персонажу команды для решения головоломок. Посмотрите этот шаблон, чтобы узнать о разных способах использования Verse для управления игрой!",
     "0FA42D4C439DD786FAD82385662E6D17": "Узнайте об универсальности и потенциальных возможностях использования устройства смены дня и ночи. Как сделать свою игру неповторимой с помощью нескольких простых исправлений. Этот уровень содержит несколько примеров, которые можно использовать для обучения или в качестве отправной точки.",
     "0E382E1948E24794DFE690B17029145A": "Изучите способы создания и подходы к организации в UEFN настраиваемого освещения для интерьера и экстерьера. Этот уровень учитывает ограничения платформ с низкой и высокой производительностью, позволяя сделать опыт в UEFN максимально целостным.",
@@ -45,8 +49,9 @@
     "6D718A684F6E631D925FE2B5D0638366": "Масштаб V",
     "72A7EEC645FCD58CF47570BE6168E9A5": "Трасса для скоростного заезда",
     "3CDA334540C99862E466C488117736EB": "Стендап",
-    "A41F45ED4F8E7F6B737BA0B53CA96B52": "Проект стартового пакета для трассы Rocket Racing: Competitive Race. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
-    "75EF368444715B17CA879E91CA9004A3": "Проект стартового пакета для трассы Rocket Racing: Speed Run. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
+    "BA0A6BC6427EFFC82194B5A57AE4F4D4": "Начальные острова",
+    "A41F45ED4F8E7F6B737BA0B53CA96B52": "Стартовый проект для трассы соревновательного режима Rocket Racing. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
+    "75EF368444715B17CA879E91CA9004A3": "Стартовый проект для трассы скоростного заезда Rocket Racing. Острова, опубликованные с помощью этого шаблона и получившие рейтинг IARC на уровне или ниже рейтинга Rocket Racing, в будущем могут появиться в меню Rocket Racing. Это не влияет на внешний вид страницы поиска.",
     "B7B8B94A4EF8D0A960B0A5A45FE78A86": "Стартовый проект для режима игры, в котором одна команда устанавливает бомбу, а другая пытается её обезвредить.",
     "EBA4BE7647323D64B3E206BB661EB386": "Стартовый проект для режима игры \"Прятки (с предметами)\". Игроки-объекты пытаются спрятаться с помощью устройства \"Пушка-копирка\". Объекты должны время от времени двигаться, или сердцебиение выдаст их местонахождение. Охотники пытаются найти и устранить прячущихся игроков. Устранённые игроки прячущейся команды возрождаются как охотники. Прячущиеся игроки набирают очки каждую секунду, пока они остаются скрытыми. Охотники набирают очки за устранение игроков прячущейся команды. Чем меньше их остаётся, тем больше за них начисляется очков.",
     "0C6848D94FE91A48BED545B95F971337": "Стартовый проект для режима игры на выбывание в Verse.",
@@ -88,7 +93,7 @@
     "DeviceDisplayName": "Устройство"
   },
   "AssetDefinition_FortItemDefinition": {
-    "CopyTemplateIdsToClipboard": "Копировать TemplateIds в буфер обмена",
+    "CopyTemplateIdsToClipboard": "Копировать идентификаторы шаблонов в буфер обмена",
     "CopyTemplateIdsToClipboardToolTip": "Копировать TemplateId для выбранных FortItemDefinition в буфер обмена системы. Если выбрано несколько ресурсов, каждый TemplateId отделяется символом новой строки.",
     "DefaultPlaylist": "Сюжетная обстановка по умолчанию",
     "FindInPlaylists": "Найти в плейлистах…",
@@ -328,6 +333,7 @@
   "DaySequenceModifierDeviceCustomization": {
     "BlendAmount": "Расстояние смешивания",
     "Blending": "Смешивание",
+    "CloudsCategory": "Облака",
     "FogColor": "Цвет",
     "SkylightColor": "Цвет",
     "SunlightColor": "Цвет",
@@ -345,6 +351,7 @@
     "ExtentX": "Протяжённость по оси X",
     "ExtentY": "Протяжённость по оси Y",
     "ExtentZ": "Протяжённость по оси Z",
+    "FogCategory": "Туман",
     "General": "Общие",
     "FogHeightFalloff": "Высота рассеяния",
     "SkylightIntensity": "Интенсивность",
@@ -362,6 +369,8 @@
     "SecondaryFogOffset": "Дополнительное смещение",
     "CloudShadowColor": "Цвет тени",
     "CloudSize": "Размер",
+    "SkyCategory": "Небо",
+    "SkylightCategory": "Свет неба",
     "CloudSpeed": "Скорость"
   },
   "DaySequencePlaybackContext": {
@@ -475,7 +484,6 @@
     "FailResolveLinkCode": "Не удалось разрешить ссылочный код: {0}",
     "FetchingExternalContentInfo": "Получение информации о внешнем контенте",
     "GettingLinkCode": "Получение кода ссылки",
-    "InvalidExternalContentId": "Недопустимый формат идентификатора внешнего контента",
     "LoadedExternalContent": "Загружен внешний контент",
     "LoadingExternalContent": "Загрузка внешнего контента",
     "NoEditorArtifacts": "Нет дефектов редактора для загрузки",
@@ -523,11 +531,17 @@
   "FFortMapMarkerTagNameData": {
     "DuplicateTagNameError": "Запись с таким названием тега уже существует"
   },
+  "FFortModularGatesCustomization": {
+    "ModularGateEditor_EditValue": "Редактировать {0}"
+  },
   "FFortVariantChannelInfoCustomization": {
     "VariantTagEdit": "Редактировать",
     "Invalid": "Недопустимо",
     "NoVariantChannel": "Недопустимый канал",
     "NoVariant": "Недопустимый вариант"
+  },
+  "FGameplayTagEnumCustomization": {
+    "NoneDefaultOption": "Никакие"
   },
   "FileHelper": {
     "RewoundDialogMessage": "Изменения в состоянии синхронизации со старым снимком состояния могут вступить в конфликт с изменениями в более поздних снимках состояния, если они будут применены последними при синхронизации.\n\nЧтобы свести вероятность конфликтов к минимуму, следует выполнить синхронизацию с последней версией до внесения изменений.",
@@ -569,14 +583,9 @@
     "OptionName.UnlockKeyItem": "Разблокировать предмет ключа",
     "UserOptionsCategoryLabel": "Пользовательские настройки",
     "UserOptionsCategoryLabel.Channels": "Пользовательские настройки — каналы",
-    "UserOptionsCategoryLabel.Debug": "Пользовательские настройки — отладка",
     "UserOptionsCategoryLabel.Events": "Пользовательские настройки — события",
     "UserOptionsCategoryLabel.Functions": "Пользовательские настройки — функции",
-    "UserOptionsCategoryLabel.GameMode": "Пользовательские настройки — Правила игры",
-    "UserOptionsCategoryLabel.Mutator": "Пользовательские настройки — Настройки игры",
-    "UserOptionsCategoryLabel.Matchmaking.Generated": "Пользовательские настройки — Подбор игроков — Генерировать автоматически",
     "UserOptionsCategoryLabel.FabricPortConnection": "Пользовательские настройки — подключения портов",
-    "UserOptionsCategoryLabel.UISettings": "Пользовательские настройки — настройки интерфейса",
     "OptionTooltip.ValuesOnly": "Значения: {0}",
     "OptionTooltip.Combined": "{0}\n\nЗначения: {1}"
   },
@@ -715,6 +724,7 @@
     "TileThreatLevel": "Название уровня угрозы: {0}",
     "DataAssetDirectoryExportTabToolTip": "Инструменты для экспорта контента DAD",
     "FlashlightDescription": "Включает освещение в окне просмотра редактора.",
+    "AvatarDirectoryError": "Не удалось найти каталог {0}.",
     "TemplateDirectoryError": "Не удалось найти каталог {0}.",
     "UpdateLODGroupsTask": "Обновление групп степени детализации в статичных сетках",
     "ValidateAssets": "Проверить ресурсы",
@@ -825,7 +835,8 @@
   },
   "Fortnite": {
     "AddFortniteUserDataButton": "Добавить данные пользователя Fortnite",
-    "AddFortniteUserDataButtonHint": "Добавляет данные пользователя Fortnite в текущую статичную сетку."
+    "AddFortniteUserDataButtonHint": "Добавляет данные пользователя Fortnite в текущую статичную сетку.",
+    "Cancel": "Отмена"
   },
   "FortniteEditor": {
     "CreativeTag_Duplicate": "(ДУБЛИРОВАТЬ ТЕГ)",
@@ -1119,10 +1130,6 @@
     "Inventory": "Инвентарь",
     "ItemOwnerPoseAssetHasNullProxyTable": "Поза владельца предмета требует установки ProxyTable"
   },
-  "ItemComponent_Ability": {
-    "MissingAbility": "Привязка способности требует установки способности",
-    "TooManyCooldowns": "Пока поддерживается только одиночное восстановления для каждой способности"
-  },
   "ItemDefInPlaylists": {
     "Playlist": "Плейлист"
   },
@@ -1135,8 +1142,7 @@
     "ItemDefinitionWarning_NullComponent": "Определение предмета {0} имеет нулевой компонент по индексу {1}. Это очень неудобно.",
     "ItemGameplayAbilitiesNeedInstancing": "Для схем Blueprint способностей предметов в игровом процессе необходимо задать вариант создания экземпляров",
     "ItemInputMappingContextUsingItemInputActions": "ItemInputMappingContext должен использовать только ItemInputActions",
-    "InventorySetupData": "Пустая запись в EquipmentSetups",
-    "InvalidItemComponentClass": "{0} не является допустимым подклассом компонента предмета. Все родительские классы от UItemComponent до {1} должны быть абстрактными (родительский элемент {2} не является абстрактным)."
+    "InventorySetupData": "Пустая запись в EquipmentSetups"
   },
   "K2Node": {
     "NoTarget": "Нужно указать цель в @@!",
@@ -1188,6 +1194,14 @@
   "MinimapCaptureRequirements": {
     "NoCapturingFutureVersions": "Требования к захвату мини-карты должны быть связаны с коммерческой версией.",
     "NoCapturingUnsetVersions": "Требования к захвату мини-карты должны быть связаны с коммерческой версией."
+  },
+  "ModularGateEntryWidget": {
+    "ModularGateEntryWidget_Cancel": "Отмена",
+    "ModularGateEntryWidget_OK": "ОК"
+  },
+  "ModularGateExpressionWidget": {
+    "ModularGateExpressionWidget_Cancel": "Отмена",
+    "ModularGateExpressionWidget_OK": "ОК"
   },
   "NavAreaDetails": {
     "PatternOverride": "Использовать переопределение"
@@ -1264,8 +1278,7 @@
     "DialogTitle": "Добавить внешний контент",
     "CancelButton": "Отменить",
     "UserNotLoggedIn": "Не удалось запросить внешний контент: пользователь не вошёл в систему",
-    "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)",
-    "InvalidExternalContentId": "Недопустимый идентификатор внешнего контента"
+    "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)"
   },
   "ScriptDeviceActorDetails": {
     "MissingScriptMessage": "Не удалось загрузить класс Verse. Исправьте ошибки компиляции Verse, затем закройте и снова откройте проект.\nЕсли проблема сохраняется или компиляция выполнена без ошибок, возможно, этот класс удалили, перенесли или переименовали. Если вы хотите восстановить это устройство, вам может потребоваться вернуть код Verse к состоянию, которое было перед сохранением уровня.\nСохранение в таком состоянии может привести к потере данных и означает необходимость замены или удаления устройства."
@@ -1430,31 +1443,6 @@
     "FurtherRewindDialogMessage": "Вы внесли изменения во время возврата к снимку состояния {0}.\n\nЧтобы немедленно вернуться к другому снимку состояния, необходимо отменить изменения.\n\nОтмените эту операцию, чтобы сохранить изменения. Затем выполните синхронизацию до последней версии или восстановите снимок состояния {0} в качестве последнего. Наконец, зафиксируйте изменения.",
     "SyncLatestWhileRewoundMessage": "Вы внесли изменения во время возврата к снимку состояния {0}. Вы можете либо внести изменения с последним снимком состояния, либо отменить изменения, чтобы синхронизировать чистую копию последнего снимка состояния."
   },
-  "SObjectiveDebugger": {
-    "AdditionalFilters": "Дополнительные фильтры",
-    "Clear": "Удалить",
-    "ObjectiveDebugger_ClearEventsToolTip": "Очистить все события задачи",
-    "SingleTagCopyTooltip": "Копировать как ObjectiveFilter_{0}",
-    "CreateQuestLabel": "Создать задание с ObjectiveFilter_{0}",
-    "CreateQuestTooltip": "Создать новый ресурс задания, у которого уже есть цель с выбранным фильтром целей",
-    "Column_Events": "События",
-    "FilterTagQuery": "Запрос тега фильтра",
-    "FilterVerbTypesButton": "Фильтр типов глаголов",
-    "ObjectiveDebugger_Pause": "Приостановить",
-    "ObjectiveDebugger_PauseToolTip": "Приостановить поступающие события задачи",
-    "ObjectiveDebugger_Record": "Запись",
-    "DistanceTravelledTimeBetweenTooltip": "Задаёт время задержки между отчётами",
-    "CheckBoxListVerbTypes": "Показать все типы глаголов",
-    "DistanceTravelledSettingsButton": "Показать пройдённое расстояние",
-    "Show_GameplayEvents": "Показать события игрового процесса",
-    "Show_ShowProcessorResults": "Показать результаты работы процессора",
-    "ObjectiveDebugger_RecordToolTip": "Начать запись событий задачи",
-    "Column_Time": "Время",
-    "VerbMessageActions": "Действия команды",
-    "Column_Verb": "Глагол сообщения",
-    "ObjectiveDebugger_ShowGameplayEventsToolTip": "Если эта функция включена, в отладчике появляются сообщения о событиях игрового процесса",
-    "ObjectiveDebugger_ShowProcessorResultsToolTip": "Если параметр включён, результаты обработки будут отображаться в отладчике"
-  },
   "SolarisEditor": {
     "StaleClassCheck_Message_StaleInstance": "'{Object}' — это экземпляр устаревшего класса {Class}, которого больше не существует. Этот экземпляр не будет работать, пока не будет переопределен класс и перезагружена карта.",
     "VerseTypeFullDescription": "Файл, используемый для сценария с использованием Verse",
@@ -1473,12 +1461,11 @@
     "WaitForRebuildResultWithTimeoutPrompt.Error.Message": "Не удалось сформировать проект за установленное время. Подождать, пока он сформируется?",
     "CreateVerseScriptTitle": "Создать сценарий Verse",
     "EditwithVersaTile": "Редактировать в Visual Verse",
-    "ValidateVRIFirstChar": "Первый символ должен быть алфавитным (из множества A-Za-z_)",
     "ForceLinkFailure": "Принудительная компоновка завершилась с {0} ошибкой(-ами).",
     "ForceLinking": "Процесс принудительной компоновки (ПРЕДУПРЕЖДЕНИЕ! Может привести к возникновению неполных классов и ошибок в байт-коде).",
     "VSCodeInstallTitle": "Установить Visual Studio Code?",
     "LinkComplete": "Компоновка завершена.",
-    "ValidateVRIFullName": "В названии не должны использоваться недопустимые символы: {0}",
+    "VerseIdentifierTerm": "Название",
     "VerseLogTooltip": "Открыть журнал сообщений, чтобы посмотреть ошибки и статус сборки Verse",
     "OpenVSCodeButton": "Открыть проект в VS Code",
     "VerseDeadInstancesCheck.OpenVSCode": "Открыть в Visual Studio Code",
@@ -1628,10 +1615,34 @@
   },
   "SValkyrieProjectVersePathDialog": {
     "CancelButton": "Отмена",
-    "InvalidVersePathSyntax": "Недопустимый синтаксис пути в Verse",
     "DialogTitle": "Задать путь Verse проекта",
     "SetVersePathButton": "Задать путь Verse",
     "VersePathTooLong": "Слишком длинный путь в Verse (лимит: {0} символов)"
+  },
+  "SVerbDebugger": {
+    "AdditionalFilters": "Дополнительные фильтры",
+    "Clear": "Очистить",
+    "ObjectiveDebugger_ClearEventsToolTip": "Очистить все события задачи",
+    "SingleTagCopyTooltip": "Копировать как ObjectiveFilter_{0}",
+    "CreateQuestLabel": "Создать задание с ObjectiveFilter_{0}",
+    "CreateQuestTooltip": "Создать новый ресурс задания, у которого уже есть цель с выбранным фильтром целей",
+    "Column_Events": "События",
+    "FilterTagQuery": "Запрос тега фильтра",
+    "FilterVerbTypesButton": "Фильтр типов глаголов",
+    "ObjectiveDebugger_Pause": "Приостановить",
+    "ObjectiveDebugger_PauseToolTip": "Приостановить поступающие события задачи",
+    "ObjectiveDebugger_Record": "Запись",
+    "DistanceTravelledTimeBetweenTooltip": "Задаёт время задержки между отчётами",
+    "CheckBoxListVerbTypes": "Показать все типы глаголов",
+    "DistanceTravelledSettingsButton": "Показать пройдённое расстояние",
+    "Show_GameplayEvents": "Показать события игрового процесса",
+    "Show_ShowProcessorResults": "Показать результаты работы процессора",
+    "ObjectiveDebugger_RecordToolTip": "Начать запись событий задачи",
+    "Column_Time": "Время",
+    "VerbMessageActions": "Действия команды",
+    "Column_Verb": "Глагол сообщения",
+    "ObjectiveDebugger_ShowGameplayEventsToolTip": "Если эта функция включена, в отладчике появляются сообщения о событиях игрового процесса",
+    "ObjectiveDebugger_ShowProcessorResultsToolTip": "Если параметр включён, результаты обработки будут отображаться в отладчике"
   },
   "SVerseTemplateDialog": {
     "CancelButton": "Отменить",
@@ -1874,7 +1885,7 @@
     "Widget:RenderOpacity": "Непрозрачность виджета",
     "UserWidget:Padding": "Зона отступа вокруг контента.",
     "Widget:RenderTransform": "Преобразование отрисовки виджета позволяет применять к нему произвольные двухмерные преобразования.",
-    "Widget:RenderTransformPivot": "Точка поворота преобразования отрисовки управляет местом, относительно которого преобразование выполняется.\nЭто значение представляет собой нормализованную координату, относительно которой будут происходить такие действия, как вращение.",
+    "Widget:RenderTransformPivot": "Опорная точка преобразования отрисовки управляет местом, относительно которого преобразование выполняется.\nЭто значение представляет собой нормализованную координату, относительно которой будут происходить такие действия, как вращение.",
     "CommonButtonBase:ClickMethod": "Тип действия с мышью, которое должен выполнить пользователь, чтобы активировать нажатие кнопки",
     "CommonButtonBase:bApplyAlphaOnDisable": "Тип действия с мышью, которое должен выполнить пользователь, чтобы активировать нажатие кнопки",
     "Widget:Visibility": "Видимость виджета",
@@ -1968,7 +1979,6 @@
   },
   "ValkyrieBaseController": {
     "BrowseForFolder": "Выбрать папку",
-    "CancelButtonText": "Отменить",
     "ProjectBrowseTitle": "Выбрать расположение проекта",
     "OpenLastProjectOnStartUpCheckBoxText": "Открывать последний проект при запуске",
     "ProjectLocation": "Расположение проекта",
@@ -2492,7 +2502,7 @@
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionError": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
   },
-  "ValkyrieFortniteProjectBrowserBuilder": {
+  "ValkyrieFortniteTemplateRegistrar": {
     "FeatureExamplesCategory": "Демонстрация возможностей",
     "FeatureExamples.GameExamplesSection": "Примеры игр",
     "FeatureExamples.GettingStartedSection": "Начало работы",
@@ -2675,7 +2685,6 @@
     "DisabledTeamSelectionComboBox": "Назначение команды недоступно, так как пользователь не вошёл в систему"
   },
   "ValkyrieProjectCreationParams": {
-    "ProjectVersePathAlreadyTaken": "Путь к проекту в Verse уже используется\n{0}",
     "ProjectUnderExternalBackupSystemValidationWarning": "Сохранение вашего проекта в {0} может вызвать конфликт или непредвиденное взаимодействие с другими системами контроля версий."
   },
   "ValkyrieProjectDescriptor": {
@@ -2698,8 +2707,8 @@
     "ContentGuidelinesUrlPropertyLabelText": "Правила бренда",
     "DocsUrlPropertyLabelText": "Документы",
     "InvalidDocsUrlTitle": "Недопустимый URL-адрес документации",
-    "ContentGuidelinesUrlLinkText": "Связь",
-    "DocsUrlLinkText": "Ссылка",
+    "ContentGuidelinesUrlLinkText": "ссылка",
+    "DocsUrlLinkText": "ссылка",
     "EmptyDescription": "Нет описания",
     "EmptyDescriptionToolTip": "Описание не задано. Описание проекта можно изменить в разделе \"Настройки проекта\".",
     "OwnerPropertyLabelText": "Владелец",
@@ -2896,8 +2905,7 @@
     "OpenRefSourceProjects.InaccessibleProjects": "У вас нет доступа к следующим проектам:",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "OpenRefSourceProjects.KeepBrowsing": "{0}\n\nПродолжить поиск?",
-    "VKPluginNameTooLong": "{0} не может иметь название, в котором количество символов больше {1}",
-    "VkPluginNameCannotContainDash": "{0} не может содержать в названии дефис (-)"
+    "VKPluginNameTooLong": "{0} не может иметь название, в котором количество символов больше {1}"
   },
   "ValkyrieReferencedContentAliases": {
     "ContentFailedToLoad": "Не удалось загрузить контент",
@@ -2987,8 +2995,10 @@
   "ValkyrieTemplateCategoryController": {
     "RefreshEntitlementsText": "Уже зарегистрировались? Нажмите, чтобы обновить",
     "CreateActionText": "Создать",
-    "JoinProgramActionText": "Участвовать в программе",
-    "ValidatingActionText": "Идёт проверка...",
+    "CreationAccessActionText": "Начать",
+    "ValidatingActionText": "Идёт проверка..."
+  },
+  "ValkyrieTemplateItem": {
     "CreationAccessPromptFormat": "{CreationAccessPrompt}\n<a id=\"{CreationAccessHyperlinkId}\" href=\"{CreationAccessUrl}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>"
   },
   "ValkyrieTilePicker": {

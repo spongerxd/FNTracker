@@ -90,7 +90,7 @@
     "68BE73464085FB522D005E90F5CCECBF": "Поместить в инвентарь",
     "7767F1EA48135D90B4C943BC982844EA": "Поместить на панель быс. доступа",
     "3188B8ED448F5CC890438297D6B3CC77": "Это название мира уже используется",
-    "D4F5D7B943E711FBB08D58897A22BD83": "Название может содержать не более 20 символов",
+    "D4F5D7B943E711FBB08D58897A22BD83": "Названия могут содержать не более 32 символов.",
     "A8F042384ED472DA9729C7A9BC0ABFD3": "Далее",
     "174A7AFC4FD3B31919BFB5940F07C630": "Следующий совет",
     "B50F0627453B97A303E1FE9E64C9F6BC": "Не в мире",
@@ -140,6 +140,7 @@
     "C6B70B774B1806C51813D9BB7F87741E": "Выбрать рецепт",
     "87607B044D7688D793BDEA83553DACDB": "Поспать",
     "40A543A4413988FB40DB68A44F46F071": "Умное размещение",
+    "1F31A3E3430E82307FC062BFB0873E74": "Сортировать",
     "DD75FD514857A3BE4A2FC78594E8B432": "Выносливость",
     "A64A76CB48AD98F7815FAFB4A4446D73": "Выживание",
     "3E08458A4CBFE09274059CBADF9B70B1": "Взять",
@@ -166,11 +167,24 @@
     "BFA7BD504EF7EB506E0A889087A78EA3": "Осталось ключей: {0}"
   },
   "Juno_UserGeneratedTextStringTable": {
+    "Error_CharacterLimitReached_Title": "Достигнут лимит символов",
+    "Error_SpecialCharacter_Title": "Содержит специальные символы",
     "CommunityRulesURL": "Правила сообщества Fortnite: https://www.epicgames.com/site/ru/community-rules",
-    "AppealSanctionAction": "Если вы хотите <75_24_T1>обжаловать</> это решение, посетите страницу <75_24_T1>https://epic.gm/my-sanctions</>",
+    "AppealSanctionAction": "Если вы хотите <ModalEmphasis>обжаловать</> это решение, перейдите на страницу <ModalEmphasis>https://epic.gm/my-sanctions</>",
     "ParentalPermissionURL": "Узнайте больше о родительских разрешениях на странице rl.gg/cabinedaccounts",
+    "Error_NameChanged_Title": "Название изменено",
+    "Error_NameAlreadyUsed_Title": "Название уже используется",
+    "Error_NameNotSupported_Title": "Название не поддерживается",
+    "Error_NameViolation_Title": "Нарушение правил в имени",
     "OpenParentalControls": "Открыть настройки родительского контроля",
-    "TryAgain": "Повторите попытку."
+    "Error_CharacterLimitReached_Description": "Обратите внимание, что <ModalEmphasis>названия</> должны быть не длиннее <ModalEmphasis>32 символов</>.\n\nПожалуйста, повторите попытку.",
+    "Error_SpecialCharacter_Description": "Обратите внимание, что <ModalEmphasis>особые символы (/ : ? <> @) нельзя</> использовать в <ModalEmphasis>названиях</>.\n\nПожалуйста, повторите попытку.",
+    "TryAgain": "Повторите попытку.",
+    "Error_NameChanged_Description_Moderation_WorldName": "Предыдущее <ModalEmphasis>название</> этого <ModalEmphasis>мира</> не <ModalEmphasis>соответствовало</> нашим <ModalEmphasis>правилам сообщества</> и было <ModalEmphasis>изменено</> на название по умолчанию.\n\nЕсли вы хотите <ModalEmphasis>обжаловать</> это решение, перейдите на страницу <ModalEmphasis>https://epic.gm/my-sanctions</>",
+    "Error_NameViolation_Description": "В этом мире присутствуют <ModalEmphasis>названия с нарушениями</>. Они <ModalEmphasis>не соответствуют</> нашим <ModalEmphasis>правилам сообщества</>. <ModalEmphasis>Эти названия</> были <ModalEmphasis>изменены</> на названия по умолчанию.\n\nЕсли вы хотите <ModalEmphasis>обжаловать</> это решение, перейдите на страницу <ModalEmphasis>https://epic.gm/my-sanctions</>",
+    "Error_NameNotSupported_Description": "Это <ModalEmphasis>название</> <ModalEmphasis>не поддерживается</> согласно нашим <ModalEmphasis>правилам сообщества</>.\n\nПожалуйста, повторите попытку.",
+    "Error_NameChanged_Description_CabinedAccount_WorldName": "Эта учётная запись <ModalEmphasis>не может</> использовать <ModalEmphasis>пользовательские названия</>.\n\nПоэтому <ModalEmphasis>все</> <ModalEmphasis>названия на вашем острове</> были <ModalEmphasis>изменены</> на названия по умолчанию.",
+    "Error_NameAlreadyUsed_Description": "Это название <ModalEmphasis>уже используется</> другим миром.\n\nПожалуйста, повторите попытку."
   },
   "JunoWorldDataViewModel": {
     "CustomTag": "Польз.",
