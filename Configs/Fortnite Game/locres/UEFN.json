@@ -3,6 +3,7 @@
     "D2FAB8C24CD06880E69B02922126E3C9": "+ Добавить дочерний элемент",
     "C621302E470A852D6F965BA6ADEB3B05": "+ Добавить параллельный регион",
     "ADD7BD4B4E93C12E085495B0EB437A4C": "Пример ИИ для демонстрации режима игры, в котором цель игроков — уничтожить всех враждебных противников в хорошо охраняемой крепости.",
+    "E66B95C14AA5D69844449FA4F501177F": "Пример, демонстрирующий сущности, компоненты и готовые элементы графа сцены.",
     "B7879AA7427DD4AF5498AE8C6A01FF11": "Пример, который включает в себя ресурсы, необходимые для работы с последними инструментами создания анимации, включая Регулятор каркаса, анимации, видеоряд, воспроизводимый с помощью устройства последовательности внутриигрового видео, и демонстрацию устройства анимированной сетки.",
     "2393D5DA48FED3872AE34E84E4F22189": "Анимация",
     "A11CB2294FA6334D14FE07A4744F2DCF": "Отменить",
@@ -41,6 +42,7 @@
     "3EAA29E14CE57D5A93C79B88A85AC21C": "Смещение V",
     "07392A82485F94F33B1619B10375E0F4": "При запуске показывать только непрочитанные новости",
     "449C6D19488D0556A388BB86AA381531": "Паркур",
+    "533F62264C805143D07A9E85F3220973": "Заготовки",
     "5BBEA8124D8C74173BF7CA99F8970141": "Прятки (с предметами)",
     "A77A92374D0A6CEE8247628CF37CF6B2": "Шероховатость",
     "F9EE356F4182D306BB3C428F28B90919": "Шероховатость",
@@ -113,6 +115,8 @@
     "SavePlaysets": "Сохранить игровые наборы",
     "SaveAllPlaysetsTooltip": "Сохранить все игровые наборы, отображаемые в творческом режиме.",
     "SavePlaysetsTooltip": "Сохранить выбранные игровые наборы",
+    "SetExternallyRef": "Задать возможность иметь внешнюю ссылку",
+    "SetExternallyRefToolTip": "Задаёт возможность иметь внешние ссылки на пакет PID.",
     "ValidateAllPlaysets": "Проверить все сюжетные обстановки",
     "ValidatePlaysets": "Проверить игровые наборы",
     "ValidateAllPlaysetsTooltip": "Проверить все игровые наборы, отображаемые в творческом режиме.",
@@ -371,7 +375,9 @@
     "CloudSize": "Размер",
     "SkyCategory": "Небо",
     "SkylightCategory": "Свет неба",
-    "CloudSpeed": "Скорость"
+    "CloudSpeed": "Скорость",
+    "SunlightCategory": "Солнечный свет",
+    "TriggerVolumeCategory": "Область триггера"
   },
   "DaySequencePlaybackContext": {
     "ClientPostfixFormat": " (Клиент {0})",
@@ -473,7 +479,6 @@
     "ExternalContentEntitlementRequired": "Необходимы права на контент",
     "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
     "ExternalContentNotPublished": "Контент не опубликован",
-    "CookingExternalContent": "Конвертация внешнего контента в формат платформы",
     "CannotFindArtifact": "Не удалось найти дефект: {0}",
     "UnableToResolveContent": "Не удалось разрешить контент: {0}",
     "DownloadingExternalContent": "Загрузка внешнего контента",
@@ -483,16 +488,17 @@
     "FailedLoadExternalContent": "Не удалось загрузить внешний контент",
     "FailResolveLinkCode": "Не удалось разрешить ссылочный код: {0}",
     "FetchingExternalContentInfo": "Получение информации о внешнем контенте",
-    "GettingLinkCode": "Получение кода ссылки",
+    "InvalidExternalContentId": "Неправильно отформатированный идентификатор внешнего контента\n{0}",
     "LoadedExternalContent": "Загружен внешний контент",
     "LoadingExternalContent": "Загрузка внешнего контента",
     "NoEditorArtifacts": "Нет дефектов редактора для загрузки",
-    "PreparingCookExternalContent": "Подготовка к конвертации внешнего контента",
     "EmptyResolvedContent": "Получен пустой преобразованный контент",
     "ContentPackageWithoutProjectId": "Полученный пакет контента не содержит идентификатор проекта",
     "EmptyArtifactId": "Получен пустой идентификатор дефекта",
     "ReferencedContentNotPublished": "Внешний контент не опубликован",
-    "UserNotLoggedIn": "Пользователь не вошёл в систему"
+    "CookingExternalContent": "Сервер выполняет сборку внешнего контента",
+    "UserNotLoggedIn": "Пользователь не вошёл в систему",
+    "GettingLinkCode": "Идёт проверка идентификатора внешнего контента"
   },
   "Fab": {
     "Fab.AlphaLabel": "Fab (альфа-версия)",
@@ -516,6 +522,9 @@
     "MultipleValues": "Несколько значений",
     "None": "Ноль"
   },
+  "FFortAILoadoutInfoCustomization": {
+    "ForAILoadoutInfo_LoadoutElement": "Раскладка {0}"
+  },
   "FFortAttributeInitializationKeyCustomization": {
     "CategoryToolTipText": "Категория, используемая для поиска по таблицам инициализации атрибутов",
     "CategoryText": "Категория инициализации",
@@ -532,7 +541,9 @@
     "DuplicateTagNameError": "Запись с таким названием тега уже существует"
   },
   "FFortModularGatesCustomization": {
-    "ModularGateEditor_EditValue": "Редактировать {0}"
+    "ModularGateEditor_EditValue": "Редактировать {0}",
+    "ModularGatesEntryBox_WidgetTitle": "Редактор ворот",
+    "ModularGatesEntryBox_BaseWidgetTitle": "Модульный редактор ворот: {0}"
   },
   "FFortVariantChannelInfoCustomization": {
     "VariantTagEdit": "Редактировать",
@@ -551,6 +562,13 @@
   },
   "FMcpCatalogHelper": {
     "CatalogOutOfDateErrorMsg": "Цены и предложения могли измениться. Попробуйте совершить покупку ещё раз."
+  },
+  "FNOnlineFrameworkSaveFramework": {
+    "InvalidClassConstructor": "Недопустимый конструктор класса",
+    "InvalidClassSpecifiers": "Недопустимые спецификаторы класса",
+    "InvalidClassWithin": "Содержит недопустимый класс",
+    "InvalidEnumIndex": "Недопустимый индекс перечисления",
+    "UnsupportedPropertyType": "Неподдерживаемый тип свойства"
   },
   "FortAISpawnGroupDetails": {
     "SpawnPointValueFmt": "Значение точки появления: {0}"
@@ -637,6 +655,7 @@
     "Transaction.SetTeamType": "Задать тип команды"
   },
   "FortEditor": {
+    "AvatarExportError": "!!!!!!! Не удалось полностью экспортировать аватары !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных",
     "CalendarExportError": "!!!!!!! Не удалось полностью экспортировать календарь !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных.",
     "TemplateExportError": "!!!!!!! Не удалось полностью экспортировать шаблоны !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных",
     "MakeDesignAssetTab": "Набор инструментов, используемых командой, занимающейся дизайном.",
@@ -645,6 +664,7 @@
     "AllCalendarsTitle": "Все календари…",
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
+    "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
     "AssetsStillScanningError": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
     "FortReleaseVersionSelector_Tooltip": "Сменить активную FortReleaseVersion с {0}. В ветках выпуска версия будет заблокирована.",
     "FortGameFeaturePluginProfile_Tooltip": "Изменить текущий профиль GameFeaturePlugin для ограничения количества включённых профилей GameFeaturePlugin",
@@ -660,6 +680,8 @@
     "KeyExportError": "Не удалось полностью экспортировать ключи шифрования. См. подробности в журнале.",
     "EncryptionNotConfiguredError": "Кажется, не удалось сконфигурировать шифрование.",
     "ExportAchievementsTitle": "Экспорт достижений…",
+    "ExportAvatarsTitleDA": "Экспорт аватаров [идёт обнаружение ресурсов]",
+    "ExportAvatarsTitle": "Экспорт аватаров…",
     "ExportKeysTitleDA": "Экспорт ключей шифрования [Поиск ресурсов]",
     "ExportKeysTitle": "Экспорт ключей шифрования…",
     "ExportItemShopTitleDA": "Экспортировать магазин предметов [идёт обнаружение ресурсов]",
@@ -667,8 +689,10 @@
     "ExportTemplatesTitleDA": "Шаблоны экспорта MCP [Поиск ресурсов]",
     "ExportTemplatesTitle": "Шаблоны экспорта MCP…",
     "ExportAchievementTooltip": "Экспорт файлов достижений для PSN и Xbox Live.",
+    "ExportAvatarsTooltip": "Экспортировать данные аватара в формате JSON для MCP.",
     "ExportKeyChainTooltip": "Экспорт ключей шифрования контента.",
     "FortExportCalendarsToolTip": "Экспорт файлов календаря {0} ICS.",
+    "ExportingAvatarsTask": "Идёт экспорт аватаров...",
     "ExportingCalendarTask": "Экспорт календаря в формате ICS по ссылке…",
     "ExportingItemShopTask": "Экспорт магазина предметов…",
     "ExportingEncryptionKeysTask": "Экспорт ключей…",
@@ -724,7 +748,6 @@
     "TileThreatLevel": "Название уровня угрозы: {0}",
     "DataAssetDirectoryExportTabToolTip": "Инструменты для экспорта контента DAD",
     "FlashlightDescription": "Включает освещение в окне просмотра редактора.",
-    "AvatarDirectoryError": "Не удалось найти каталог {0}.",
     "TemplateDirectoryError": "Не удалось найти каталог {0}.",
     "UpdateLODGroupsTask": "Обновление групп степени детализации в статичных сетках",
     "ValidateAssets": "Проверить ресурсы",
@@ -759,6 +782,7 @@
     "ActorValidation.Heading": "Проверка актора",
     "BuildCurrentManifest.Label": "Манифест сборок",
     "BuildCurrentManifest.Tooltip": "Создать состояние манифеста для текущей версии Fortnite из локальных списков разрешений и контента",
+    "GameFeatureSet.ToolTip": "Контролирует выбор манифеста GFS для синхронизации или сборки",
     "PermissionLevels.ToolTip": "Контролирует, для какого уровня допуска проверяется контент",
     "CreateValidationWorld.Label": "Создать мир для проверки",
     "CreateValidationWorld.Tooltip": "Создать переходный мир редактора, используемый для проверки созданных акторов",
@@ -834,9 +858,13 @@
     "PlaceIllegalReferenceAnyway": "Вы не можете разместить этот актор в {0}\n{1}\n\nВсе равно разместить этот недопустимый актор? Если да, то не отправляйте уровень с этой недопустимой ссылкой."
   },
   "Fortnite": {
+    "FortniteStaticMeshCollisionDataChangeDetected_Message": "При повторном импорте существующие данные столкновения будут заменены и перезаписаны. Продолжить повторный импорт?",
     "AddFortniteUserDataButton": "Добавить данные пользователя Fortnite",
     "AddFortniteUserDataButtonHint": "Добавляет данные пользователя Fortnite в текущую статичную сетку.",
-    "Cancel": "Отмена"
+    "Cancel": "Отмена",
+    "FortniteStaticMeshCollisionDataChangeDetected_Title": "Обнаружено изменение данных столкновения!",
+    "Reimport_IgnoreCollisionData": "Повторный импорт (игнорировать данные столкновения)",
+    "Reimport": "Повторный импорт (перезаписать данные столкновения)"
   },
   "FortniteEditor": {
     "CreativeTag_Duplicate": "(ДУБЛИРОВАТЬ ТЕГ)",
@@ -1068,6 +1096,9 @@
     "ValidationError.GameFeature_SunsetUnset": "что удаляется из проекта в версии '{0}'. В результате {1} активируется в тех версиях выпуска, где этого не должно происходить. Удалите эту зависимость, удалите версию SunsetFortReleaseVersion в {1} или добавьте SunsetFortReleaseVersion в {2}.",
     "SkeletalMeshes_MissingLODs": "В {0} отсутствует уровень(-и) детализации: {1}"
   },
+  "FortValidator_SkeletalMeshes": {
+    "ErrorIfSkeletalMeshHasTooManyVerts": "Слишком много вершин в уровне(-ях) детализации: {0}, допускается только {1}. Текущее значение: {2}. Уменьшите до значения менее {3}."
+  },
   "FortValidatorNewPackage": {
     "FortValidatorNewPackage.PluginLoadErrors": "Ошибки при загрузке ресурса {0}",
     "FortValidatorNewPackage.LoadAsset": "Загрузка всех ресурсов из плагина {0}…",
@@ -1086,6 +1117,9 @@
     "SCCForceReleaseNotAllowedToolTip": "Ограничивается владельцем проекта и администраторами.",
     "SCCForceRelease": "Разблокировать",
     "SCCForceReleaseConfirm": "Разблокировать"
+  },
+  "FValkyrieFortniteEditorSpatialMetrics": {
+    "UnknownClientSessionDisplayName": "Неизвестно"
   },
   "GameplayEventCachedBindingDetails": {
     "NullProperty": "Нет"
@@ -1130,6 +1164,34 @@
     "Inventory": "Инвентарь",
     "ItemOwnerPoseAssetHasNullProxyTable": "Поза владельца предмета требует установки ProxyTable"
   },
+  "ItemComponentData_Ability": {
+    "TooManyCooldowns": "Данные элемента способности '{0}' содержат более одного восстановления в индексе {1}. Пока поддерживается только одно восстановление для каждой способности",
+    "MissingAbility": "В данных элемента способности '{0}' отсутствует способность в индексе {1}",
+    "AbilityList": "Данные элемента способности '{0}' должны содержать хотя бы одну допустимую способность!"
+  },
+  "ItemComponentData_Attach": {
+    "NullAttachment": "Данные элемента прикрепления '{0}' не могут содержать нулевое прикрепление!",
+    "Attachments": "Данные элемента прикрепления '{0}' не содержат никаких прикреплений!",
+    "InvalidAttachment": "Данные элемента прикрепления '{0}' содержат недопустимое определение прикрепления в индексе {1}!"
+  },
+  "ItemComponentData_Icon": {
+    "Icon": "Данные элемента значка интерфейса '{0}' должны содержать допустимый значок!"
+  },
+  "ItemComponentData_OwnerPose": {
+    "PoseAsset": "Данные элемента позы владельца '{0}' должны содержать допустимый ресурс позы!"
+  },
+  "ItemComponentData_Rarity": {
+    "ItemRarity": "Данные редкости элемента '{0}' должны содержать допустимую редкость элемента!"
+  },
+  "ItemComponentData_Tags": {
+    "ItemTags": "Данные тегов элемента '{0}' должны содержать допустимые теги элемента!"
+  },
+  "ItemComponentData_Type": {
+    "ItemType": "Данные типа элемента '{0}' должны содержать допустимый тип элемента!"
+  },
+  "ItemDefinitionBase": {
+    "GetItemData_MissingOutputProperty": "Не удалось получить выходной параметр для GetItemData."
+  },
   "ItemDefInPlaylists": {
     "Playlist": "Плейлист"
   },
@@ -1143,6 +1205,12 @@
     "ItemGameplayAbilitiesNeedInstancing": "Для схем Blueprint способностей предметов в игровом процессе необходимо задать вариант создания экземпляров",
     "ItemInputMappingContextUsingItemInputActions": "ItemInputMappingContext должен использовать только ItemInputActions",
     "InventorySetupData": "Пустая запись в EquipmentSetups"
+  },
+  "ItemSkeletalMeshAttachmentDefinition": {
+    "Mesh": "Определение прикрепления к скелетной сетке в '{0}' не содержит допустимой сетки!"
+  },
+  "ItemStaticMeshAttachmentDefinition:": {
+    "Mesh": "Определение прикрепления к статичной сетке в '{0}' не содержит допустимой сетки!"
   },
   "K2Node": {
     "NoTarget": "Нужно указать цель в @@!",
@@ -1197,10 +1265,14 @@
   },
   "ModularGateEntryWidget": {
     "ModularGateEntryWidget_Cancel": "Отмена",
+    "ModularGateEntryWidget_Edit": "Редактировать запись ворот",
+    "ModularGateEntryWidget_Title": "Редактор записи ворот",
     "ModularGateEntryWidget_OK": "ОК"
   },
   "ModularGateExpressionWidget": {
     "ModularGateExpressionWidget_Cancel": "Отмена",
+    "ModularGateExpressionWidget_Edit": "Редактировать выражение ворот",
+    "ModularGateExpressionWidget_Title": "Редактор выражения ворот",
     "ModularGateExpressionWidget_OK": "ОК"
   },
   "NavAreaDetails": {
@@ -1241,6 +1313,9 @@
     "PerkDirectoryPicker": "Каталог умений",
     "Instructions": "Заполните форму информации об умении, представленную ниже. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже."
   },
+  "PropertyEditor": {
+    "Label": "Сведения"
+  },
   "Quest Asset Creation Tool": {
     "QuestCreationFailed": "При создании задания возникла ошибка. См. подробнее в журнале выходных данных."
   },
@@ -1278,7 +1353,8 @@
     "DialogTitle": "Добавить внешний контент",
     "CancelButton": "Отменить",
     "UserNotLoggedIn": "Не удалось запросить внешний контент: пользователь не вошёл в систему",
-    "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)"
+    "ExternalContentId": "Идентификатор контента (путь Verse, код ссылки)",
+    "InvalidExternalContentId": "Недопустимый идентификатор внешнего контента\n\n{0}"
   },
   "ScriptDeviceActorDetails": {
     "MissingScriptMessage": "Не удалось загрузить класс Verse. Исправьте ошибки компиляции Verse, затем закройте и снова откройте проект.\nЕсли проблема сохраняется или компиляция выполнена без ошибок, возможно, этот класс удалили, перенесли или переименовали. Если вы хотите восстановить это устройство, вам может потребоваться вернуть код Verse к состоянию, которое было перед сохранением уровня.\nСохранение в таком состоянии может привести к потере данных и означает необходимость замены или удаления устройства."
@@ -1685,7 +1761,7 @@
     "FailedCleanupSources": "Не удалось вычистить файлы многоуровневого проекта\n{0}",
     "CreateModuleVersionFailed": "Не удалось создать модульную версию\n{0}",
     "UploadProjectsFailInit": "Не удалось запустить выгрузку",
-    "LoadBindingsFailed": "Не удалось загрузить привязки.",
+    "LoadBindingsFailed": "Не удалось загрузить привязки: {0}",
     "FailedToRequestContentUpdate": "Не удалось запросить обновление контента",
     "StagingFailed": "Не удалось подготовить проект к выгрузке\n{0}",
     "SyncWithContentServiceFailed": "Не удалось синхронизировать информацию о проекте с сервисом управления контентом. Ошибка: {0}",
@@ -1696,6 +1772,7 @@
     "ModuleDependencyCycle": "Обнаружен цикл зависимости модуля в {0}",
     "StagingModules": "Подготовка проекта к выгрузке…",
     "StagingModulesWithoutUpload": "Идёт подготовка проекта…",
+    "ProjectWithoutModule": "У проекта нет модуля для выгрузки",
     "NoModuleToUpload": "У проекта нет корневого или общедоступного модуля для выгрузки",
     "BasicUserError": "Проект недействителен, см. подробнее в журнале сообщений",
     "BasicUserWarning": "Возможно, проект недействителен для базовых пользователей, см. подробнее в журнале сообщений",
@@ -1830,9 +1907,6 @@
     "UnsetStateReference": "Ноль",
     "ReorderStateTransaction": "Переупорядочить состояние",
     "ReparentStateTransaction": "Переподчинить состояние"
-  },
-  "UniformGridEntryPanel": {
-    "Error_RecursiveEntryClass": "В {0} указан рекурсивный EntryWidgetClass (со ссылкой на себя)."
   },
   "UnknownAssetsWindow": {
     "PathHyperlinkTooltip": "Нажмите, чтобы показать в {0}",
@@ -2103,6 +2177,7 @@
   "ValkyrieEditorMenus": {
     "VkAddReferencedContent_ToolTip": "Добавить внешний контент в проект",
     "VkAddReferencedContent": "Добавить внешний контент…",
+    "FixValidationIssues.Tooltip": "Попытка автоматического исправления определённых ошибок, обнаруженных в этих акторах при проверке.",
     "OpenReferenceContentSourceProjectTooltip": "Пытается найти исходный проект этого внешнего контента и открыть его как вторичный проект (не закрывая текущий проект)",
     "CancelLoading": "Отменить загрузку",
     "ValkyrieProjectMenu_ToolTip": "Управляйте своим проектом, изменяйте и публикуйте его с помощью элементов этого меню.",
@@ -2118,6 +2193,7 @@
     "VkProjectSubMenuDebugSection": "Отладка",
     "ExportProjectLocalization.ErrorTitle": "Ошибка",
     "ExportProjectLocalization.Label": "Экспорт локализации",
+    "FixValidationIssues.Label": "Исправление ошибок при проверке",
     "ExportProjectLocalization.Tooltip": "Собрать локализованный текст в рамках данного проекта и обновить файлы перевода PO.",
     "LocalizationSectionLabel": "Локализация",
     "ExportProjectLocalization.SuccessMessage": "Данные локализации успешно обновлены.\n\nПерейти в папку с данными локализации?",
@@ -2502,6 +2578,11 @@
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionError": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
   },
+  "ValkyrieFortniteTemplateItem": {
+    "CreationAccessPrompt_CreateRestricted": "На островах, созданных с использованием шаблонов {0}, применяются особые требования к материалам и действуют другие правила расчёта предполагаемых выплат.\n\nДля получения доступа к этим материалам вы должны участвовать в программе \"Создатели островов\" и согласиться с правилами и условиями, регулирующими использование этих шаблонов.",
+    "CreationAccessPrompt_CreateGranted": "На островах, созданных с использованием шаблонов {0}, применяются особые требования к материалам и действуют другие правила расчёта предполагаемых выплат. Обязательно ознакомьтесь с правилами, прежде чем продолжить.",
+    "CreationAccessPromptFormat": "{CreationAccessPrompt}\n<a id=\"{CreationAccessHyperlinkId}\" href=\"{CreationAccessUrl}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>"
+  },
   "ValkyrieFortniteTemplateRegistrar": {
     "FeatureExamplesCategory": "Демонстрация возможностей",
     "FeatureExamples.GameExamplesSection": "Примеры игр",
@@ -2558,6 +2639,9 @@
   "ValkyrieLocalProjectCustomization": {
     "OpenProjectActionText": "Открыть",
     "LocalSkeinProjectAnnotationText": "У этого проекта имеется резервная копия в системе контроля версий Unreal Revision Control."
+  },
+  "ValkyrieModuleStagingContext": {
+    "PluginNameNoLongerMatchModuleId": "Название плагина '{0}' больше не соответствует идентификатору модуля в сервисе управления контентом '{1}'\n\nВ результате этого исходный контент проекта '{2}' больше нельзя использовать в редакторе в качестве замены сконвертированному в формат платформы внешнему контенту, который используется другим проектом\n\nВозможные решения этой проблемы:\n1. Вручную переименовать плагин для соответствия текущему идентификатору модуля и соответственно обновить файл uefnproject\n2. Если проект владеет модулем с тем же идентификатором, что и название плагина, связать их через раздел \"bindings\" (привязки) файла uefnproject"
   },
   "ValkyrieOnlineAccount": {
     "AllowCreativeSettingInvalidMsg": "Недопустимое значение разрешения доступа к творческому режиму",
@@ -2685,6 +2769,7 @@
     "DisabledTeamSelectionComboBox": "Назначение команды недоступно, так как пользователь не вошёл в систему"
   },
   "ValkyrieProjectCreationParams": {
+    "ProjectVersePathAlreadyTaken": "Путь проекта Verse уже используется: {0}",
     "ProjectUnderExternalBackupSystemValidationWarning": "Сохранение вашего проекта в {0} может вызвать конфликт или непредвиденное взаимодействие с другими системами контроля версий."
   },
   "ValkyrieProjectDescriptor": {
@@ -2705,9 +2790,11 @@
   },
   "ValkyrieProjectDetails": {
     "ContentGuidelinesUrlPropertyLabelText": "Правила бренда",
+    "CreatorGuidelinesUrlPropertyLabelText": "Правила для авторов",
     "DocsUrlPropertyLabelText": "Документы",
     "InvalidDocsUrlTitle": "Недопустимый URL-адрес документации",
     "ContentGuidelinesUrlLinkText": "ссылка",
+    "CreatorGuidelinesUrlLinkText": "ссылка",
     "DocsUrlLinkText": "ссылка",
     "EmptyDescription": "Нет описания",
     "EmptyDescriptionToolTip": "Описание не задано. Описание проекта можно изменить в разделе \"Настройки проекта\".",
@@ -2817,6 +2904,7 @@
   "ValkyrieProjectSettingsEditor": {
     "ValkyrieProjectSettingsTabToolTip": "Изменение настроек текущего проекта",
     "NoCurrentProject": "Нет открытых проектов",
+    "ProjectSettings.ExperimentalSettings": "Учтите, что вы не сможете опубликовать проект, если используете в нем экспериментальные функции. \"При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\n\"Рекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов,\" поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным.",
     "ValkyrieProjectSettingsEditorTabSpawnerName": "Настройки проекта",
     "ValkyrieProjectSettingsTabLabel": "Настройки проекта"
   },
@@ -2870,7 +2958,6 @@
     "OpenRefSourceProjects": "Открытие исходных проектов внешнего контента…",
     "PluginTerm": "Плагин",
     "VKPluginIsStillMounted": "Плагин всё ещё смонтирован",
-    "VkNewPluginNameInUse": "Название плагина уже используется",
     "ProjectTerm": "Проект",
     "OpenRefSourceProjects.AlreadyOpenedProject": "Проект '{0}' уже открыт",
     "OpenSecondaryProjects.MissingProject": "Не удалось повторно открыть проект '{0}', так как он не найден в локальном хранилище",
@@ -2905,6 +2992,7 @@
     "OpenRefSourceProjects.InaccessibleProjects": "У вас нет доступа к следующим проектам:",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "OpenRefSourceProjects.KeepBrowsing": "{0}\n\nПродолжить поиск?",
+    "VerseIdentifierTerm": "Имя {0}",
     "VKPluginNameTooLong": "{0} не может иметь название, в котором количество символов больше {1}"
   },
   "ValkyrieReferencedContentAliases": {
@@ -2998,9 +3086,6 @@
     "CreationAccessActionText": "Начать",
     "ValidatingActionText": "Идёт проверка..."
   },
-  "ValkyrieTemplateItem": {
-    "CreationAccessPromptFormat": "{CreationAccessPrompt}\n<a id=\"{CreationAccessHyperlinkId}\" href=\"{CreationAccessUrl}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>"
-  },
   "ValkyrieTilePicker": {
     "SearchBoxHintText": "Фильтр…",
     "InvalidViewComboBoxDisplayText": "Недопустимо",
@@ -3018,6 +3103,18 @@
   "ValkyrieValidation": {
     "AssetNamesBelow": "См. список ресурсов ниже"
   },
+  "ValkyrieValidationFixer": {
+    "Report.OKButton": "ОК",
+    "LoadAndFixAssets.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=ресурса,other=ресурсов)…",
+    "FixObjects.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,other=объектов)…",
+    "FixPackages.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=пакета,other=пакетов)…",
+    "FixObjects.SlowTaskProgress": "Обработка {0}…",
+    "FixPackages.SlowTaskProgress": "Обработка {0}…",
+    "LoadAndFixAssets.SlowTaskProgress": "Обработка {0}…",
+    "Transaction.ResetToDefault": "Сброс настроек",
+    "Report.Title": "Отчёт об исправлении ошибок при проверке",
+    "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта(-ов) были автоматически обновлены,many=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
+  },
   "ValkyrieValidator": {
     "ValkyrieValidator_Textures_RepairTooltip": "Измените свойства текстуры, чтобы избежать ошибок при проверке.",
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
@@ -3025,6 +3122,8 @@
     "Hard Reference": "Недопустимая жесткая ссылка с {0} на {1}",
     "Soft Reference": "Недопустимая мягкая ссылка с {0} на {1}",
     "ExecuteValidationRepairs": "Измените текстуру, чтобы она соответствовала допустимым критериям",
+    "WorldLimits.TooManyIslandSettings": "Уровень '{0}' содержит следующее количество устройств настройки острова: {1}. На уровне его не должно быть больше одного",
+    "WorldLimits.NoIslandSettingsAllowed": "Уровень '{0}' помечен флагом как игровой набор и содержит следующее количество устройств настройки острова: {1}. Игровые наборы не должны содержать какие-либо",
     "ProjectTextureBudgetExceeded": "Общий объём памяти, используемый неподгружаемыми текстурами в этом проекте превышает объём памяти, выделенный для этого сеанса ({MaxSize} Мбайт).\n  Убедитесь, что размеры вашей текстуры соответствуют степени двойки (например, 256×256 или 512×1024), если это возможно,\n  и что свойство \"Не подгружать\" отключено.",
     "Texture2DTooBig": "Эта двухмерная текстура слишком большая. Её текущее размер {SizeX}×{SizeY}.\n  Уменьшите её до {MaxSize}×{MaxSize} или ниже и импортируйте её снова,\n  или нажмите правой кнопкой мыши и выберите 'Подогнать текстуру'",
     "Tooltip_NonUITextureIsStreamable": "Подгрузка этой текстуры невозможна, так как включено свойство \"Не подгружать\".",

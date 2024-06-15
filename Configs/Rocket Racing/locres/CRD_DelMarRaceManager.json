@@ -1,0 +1,50 @@
+{
+  "": {
+    "29B51E4B454DD4A80262C5BD04ABAF98": "Каньон",
+    "0660876B46ED4F19186E6EB996ABC2D0": "Настройка соревновательного режима гонки Rocket Racing",
+    "2A557A054BD72488D6B0C89F622B6CF3": "Настройка скоростных заездов для гонки Rocket Racing",
+    "6406E4904AD0A166A6C284B3EEC288CE": "Del Mar: управление гонками — соревнования",
+    "B97D67DA467E4479B06159A7C6D26364": "Определяет расстояние под самой нижней точкой на сплайне трассы, когда игрок автоматически устраняется.",
+    "AC80CA4F4A61FD6E91FA9C8DF90B1863": "Определяет правила гонки",
+    "3DB4FF4942364C32388694B95EB134D2": "Определяет число кругов для завершения гонки.",
+    "D187CC334F9B507ED472BDB6E8AD9EFB": "Неоновый драйв",
+    "6D72BFF940F56820DE3E88B58B9C47E7": "Нет",
+    "109270314CD82C57421EF58D76A4366B": "Управление гонками RR: соревнования",
+    "94B10B474E9FCD689641E481F8336A5E": "Управление гонками RR",
+    "360DCF5743B86F0BBF4DF2A1059D1FF1": "Управление гонками RR: скоростные заезды",
+    "9FE2F0FB4BB889A7253CFDA84FA1E2B0": "Управление гонками RR: скоростные заезды",
+    "5BC1FE894A7A2E677F83FDA194E67B2B": "Используется для настройки всех параметров гонки"
+  },
+  "Fort.Actor.Building.Defaults": {
+    "OptionDefinitionContainer.LabelOverride": "Метка"
+  },
+  "UserOptionDefinition": {
+    "DelMarMusicPlaylistSelection.Canyon.DisplayName": "Каньон",
+    "EDelMarRaceMode.ChallengeMode.DisplayName": "Режим «Испытание»",
+    "EDelMarRaceMode.CompetitiveMode.DisplayName": "Режим «Соревнование»",
+    "EDelMarRaceMode.DeathRaceMode.DisplayName": "Режим «Гонка на выживание»",
+    "Device_DelMarCompetitiveRaceManager_C.DefaultNumRequiredLaps.DisplayName": "Стандартное количество обязательных кругов",
+    "Device_DelMarRaceManagerBase_C.DefaultNumRequiredLaps.DisplayName": "Стандартное количество обязательных кругов",
+    "Device_DelMarSpeedRunRaceManager_C.DefaultNumRequiredLaps.DisplayName": "Стандартное количество обязательных кругов",
+    "Device_DelMarCompetitiveRaceManager_C.bShouldRunAsADelMarExperience.Description": "Определяет, будет ли выбранный остров использоваться в качестве трассы Del Mar.",
+    "Device_DelMarRaceManagerBase_C.bShouldRunAsADelMarExperience.Description": "Определяет, будет ли выбранный остров использоваться в качестве трассы Del Mar.",
+    "Device_DelMarSpeedRunRaceManager_C.bShouldRunAsADelMarExperience.Description": "Определяет, будет ли выбранный остров использоваться в качестве трассы Del Mar.",
+    "EDelMarRaceMode.Invalid.DisplayName": "Не действует",
+    "Device_DelMarCompetitiveRaceManager_C.MusicSelection.DisplayName": "Выбор музыки",
+    "Device_DelMarRaceManagerBase_C.MusicSelection.DisplayName": "Выбор музыки",
+    "Device_DelMarSpeedRunRaceManager_C.MusicSelection.DisplayName": "Выбор музыки",
+    "DelMarMusicPlaylistSelection.Neon Rush.DisplayName": "Неоновый драйв",
+    "DelMarMusicPlaylistSelection.None.DisplayName": "Нет",
+    "BoolMetaData.FalseDisplayName": "Выкл.",
+    "BoolMetaData.TrueDisplayName": "Вкл.",
+    "Device_DelMarCompetitiveRaceManager_C.RaceMode.DisplayName": "Режим гонки",
+    "Device_DelMarRaceManagerBase_C.RaceMode.DisplayName": "Режим гонки",
+    "Device_DelMarSpeedRunRaceManager_C.RaceMode.DisplayName": "Режим гонки",
+    "A882B4974637C5D91738F6AA3CAF7327": "Использовать в качестве трассы Del Mar",
+    "EDelMarRaceMode.TutorialRaceMode.DisplayName": "Режим «Обучение»",
+    "Device_DelMarCompetitiveRaceManager_C.MusicSelection.Description": "Плейлист, используемый во время гонки.",
+    "Device_DelMarRaceManagerBase_C.MusicSelection.Description": "Плейлист, используемый во время гонки.",
+    "Device_DelMarSpeedRunRaceManager_C.MusicSelection.Description": "Плейлист, используемый во время гонки.",
+    "191D10D6443E29FB994CCF9B64C3EA9A": "Расстояние смещения при устранении на самой нижней точке на сплайне"
+  }
+}

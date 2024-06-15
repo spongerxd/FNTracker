@@ -3,6 +3,14 @@
     "PointsOutsideVolume": "расстояние между: {1}",
     "PointsOutsideVolumeDescriptionContext": "{0}: генерация вне {1}"
   },
+  "JunoControllerComponent": {
+    "OnPlayerDiedGameEvent": "Игрок {0} <Yellow>устранён</>",
+    "OnPlayerSavedByTotemGameEvent": "<Yellow>Тотем спасает жизнь</> игроку {0}"
+  },
+  "JunoGameStateComponent_GameEventStream": {
+    "GameMemberAdded": "{0} <Yellow>заходит в мир</>",
+    "GameMemberDisconnected": "{0} <Yellow>покидает мир</>"
+  },
   "JunoPersistenceErrors": {
     "ErrorCheckingOutPlayerData": "Ошибка при проверке данных игрока"
   },
@@ -15,7 +23,8 @@
   },
   "NetworkErrors": {
     "RecipeHashMismatch": "ОШИБКА: Этот клиент несовместим с действующим сервером.",
-    "KickedPlayerForInactivity": "Вы исключены за бездействие. Сервер прервал соединение, потому что вы бездействовали слишком долго."
+    "KickedPlayerForInactivity": "Вы исключены за бездействие. Сервер прервал соединение, потому что вы бездействовали слишком долго.",
+    "SpawnedWhenPermanentlyDead": "У этого клиента не осталось жизней."
   },
   "UJunoGuidedBuildingInteractionComponent": {
     "GetInteractionText": "В режим помощи со строительством"
