@@ -122,20 +122,6 @@
           "Z": 3692.0
         }
       },
-      "AISpawnerData.Type.Tandem.FBiker": {
-        "WorldLocation": {
-          "X": -36440.0,
-          "Y": 40168.0,
-          "Z": 5080.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.FBiker": {
-        "WorldLocation": {
-          "X": -36440.0,
-          "Y": 40168.0,
-          "Z": 5080.0
-        }
-      },
       "Athena.Location.UnNamedPOI.FuelDepot": {
         "WorldLocation": {
           "X": -104408.0,
@@ -225,20 +211,6 @@
           "X": -49516.0,
           "Y": 31772.0,
           "Z": 2584.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Riot": {
-        "WorldLocation": {
-          "X": 82848.0,
-          "Y": 86796.0,
-          "Z": 5176.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Riot": {
-        "WorldLocation": {
-          "X": 82848.0,
-          "Y": 86796.0,
-          "Z": 5176.0
         }
       },
       "AISpawnerData.Type.Tandem.VoidRedemption": {
@@ -647,6 +619,34 @@
           "Z": 2072.0
         }
       },
+      "AISpawnerData.Type.Tandem.CarolinaChili": {
+        "WorldLocation": {
+          "X": -53932.0,
+          "Y": -51848.0,
+          "Z": 5100.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.CarolinaChili": {
+        "WorldLocation": {
+          "X": -53932.0,
+          "Y": -51848.0,
+          "Z": 5100.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.CeremonialGuardFencer": {
+        "WorldLocation": {
+          "X": 70180.0,
+          "Y": -11808.0,
+          "Z": 4056.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.CeremonialGuardFencer": {
+        "WorldLocation": {
+          "X": 70180.0,
+          "Y": -11808.0,
+          "Z": 4056.0
+        }
+      },
       "Athena.Location.UnNamedPOI.WindMill.01": {
         "WorldLocation": {
           "X": -69676.0,
@@ -836,14 +836,14 @@
           "Z": 5220.0
         }
       },
-      "AISpawnerData.Type.Tandem.Dummy": {
+      "AISpawnerData.Type.Tandem.IronClash": {
         "WorldLocation": {
           "X": 58379.613,
           "Y": -37117.625,
           "Z": 3788.0
         }
       },
-      "Athena.AI.SpawnLocation.Tandem.Dummy": {
+      "Athena.AI.SpawnLocation.Tandem.IronClash": {
         "WorldLocation": {
           "X": 58379.613,
           "Y": -37117.625,
@@ -955,20 +955,6 @@
           "Z": 6888.0
         }
       },
-      "AISpawnerData.Type.Tandem.PowerChord": {
-        "WorldLocation": {
-          "X": 45576.0,
-          "Y": -58112.0,
-          "Z": 4200.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.PowerChord": {
-        "WorldLocation": {
-          "X": 45576.0,
-          "Y": -58112.0,
-          "Z": 4200.0
-        }
-      },
       "Athena.Location.UnNamedPOI.House_0": {
         "WorldLocation": {
           "X": 27300.0,
@@ -1009,20 +995,6 @@
           "X": 69344.0,
           "Y": 119908.0,
           "Z": 4756.0
-        }
-      },
-      "AISpawnerData.Type.Tandem.Biker": {
-        "WorldLocation": {
-          "X": 95320.0,
-          "Y": -60712.0,
-          "Z": 3772.0
-        }
-      },
-      "Athena.AI.SpawnLocation.Tandem.Biker": {
-        "WorldLocation": {
-          "X": 95320.0,
-          "Y": -60712.0,
-          "Z": 3772.0
         }
       },
       "Athena.Location.UnNamedPOI.FishingSpot.02": {
@@ -1543,55 +1515,6 @@
           "Z": 912.0
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01": {
-        "WorldLocation": {
-          "X": -54783.72,
-          "Y": 61443.688,
-          "Z": 11093.972
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_0": {
-        "WorldLocation": {
-          "X": -106111.695,
-          "Y": -14094.847,
-          "Z": 711.6751
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_1": {
-        "WorldLocation": {
-          "X": -78746.62,
-          "Y": -3536.0957,
-          "Z": 3013.7644
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_2": {
-        "WorldLocation": {
-          "X": -106111.695,
-          "Y": -14094.847,
-          "Z": 711.6751
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_3": {
-        "WorldLocation": {
-          "X": 62506.02,
-          "Y": -11772.133,
-          "Z": 3026.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_4": {
-        "WorldLocation": {
-          "X": -19706.408,
-          "Y": -70869.74,
-          "Z": 2646.9517
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_5": {
-        "WorldLocation": {
-          "X": 48637.64,
-          "Y": -87219.08,
-          "Z": 4570.2754
-        }
-      },
       "Athena.Location.UnNamedPOI.Stainless.SprayLocation.01": {
         "WorldLocation": {
           "X": -74251.64,
@@ -1599,81 +1522,11 @@
           "Z": 4222.261
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_6": {
-        "WorldLocation": {
-          "X": 48637.64,
-          "Y": -87219.08,
-          "Z": 4570.2754
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_7": {
-        "WorldLocation": {
-          "X": -80158.35,
-          "Y": -39499.89,
-          "Z": 2567.0076
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_8": {
-        "WorldLocation": {
-          "X": 62506.02,
-          "Y": -11772.133,
-          "Z": 3026.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_9": {
-        "WorldLocation": {
-          "X": -80158.35,
-          "Y": -39499.89,
-          "Z": 2567.0076
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_10": {
-        "WorldLocation": {
-          "X": -80158.35,
-          "Y": -39499.89,
-          "Z": 2567.0076
-        }
-      },
       "Athena.Location.UnNamedPOI.Stainless.SprayLocation.05": {
         "WorldLocation": {
           "X": 1985.029,
           "Y": -17446.582,
           "Z": 1908.0942
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_11": {
-        "WorldLocation": {
-          "X": -54783.72,
-          "Y": 61443.688,
-          "Z": 11093.972
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_12": {
-        "WorldLocation": {
-          "X": -54783.72,
-          "Y": 61443.688,
-          "Z": 11093.972
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_13": {
-        "WorldLocation": {
-          "X": -78746.62,
-          "Y": -3536.0957,
-          "Z": 3013.7644
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_14": {
-        "WorldLocation": {
-          "X": -80158.35,
-          "Y": -39499.89,
-          "Z": 2567.0076
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_15": {
-        "WorldLocation": {
-          "X": -106111.695,
-          "Y": -14094.847,
-          "Z": 711.6751
         }
       },
       "Athena.Location.UnNamedPOI.Stainless.SprayLocation.02": {
@@ -1690,116 +1543,11 @@
           "Z": 4960.5576
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_16": {
-        "WorldLocation": {
-          "X": -106111.695,
-          "Y": -14094.847,
-          "Z": 711.6751
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_17": {
-        "WorldLocation": {
-          "X": -54783.72,
-          "Y": 61443.688,
-          "Z": 11093.972
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_18": {
-        "WorldLocation": {
-          "X": -19706.408,
-          "Y": -70869.74,
-          "Z": 2646.9517
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_19": {
-        "WorldLocation": {
-          "X": -106111.695,
-          "Y": -14094.847,
-          "Z": 711.6751
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_20": {
-        "WorldLocation": {
-          "X": -19706.408,
-          "Y": -70869.74,
-          "Z": 2646.9517
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_21": {
-        "WorldLocation": {
-          "X": -54783.72,
-          "Y": 61443.688,
-          "Z": 11093.972
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_22": {
-        "WorldLocation": {
-          "X": -19706.408,
-          "Y": -70869.74,
-          "Z": 2646.9517
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_23": {
-        "WorldLocation": {
-          "X": 48637.64,
-          "Y": -87219.08,
-          "Z": 4570.2754
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_24": {
-        "WorldLocation": {
-          "X": 62506.02,
-          "Y": -11772.133,
-          "Z": 3026.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_25": {
-        "WorldLocation": {
-          "X": -19706.408,
-          "Y": -70869.74,
-          "Z": 2646.9517
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_26": {
-        "WorldLocation": {
-          "X": -78746.62,
-          "Y": -3536.0957,
-          "Z": 3013.7644
-        }
-      },
       "Athena.Location.UnNamedPOI.Stainless.SprayLocation.04": {
         "WorldLocation": {
           "X": 21504.336,
           "Y": 53245.91,
           "Z": 4978.4746
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_27": {
-        "WorldLocation": {
-          "X": -80158.35,
-          "Y": -39499.89,
-          "Z": 2567.0076
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_28": {
-        "WorldLocation": {
-          "X": 62506.02,
-          "Y": -11772.133,
-          "Z": 3026.0
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_29": {
-        "WorldLocation": {
-          "X": 48637.64,
-          "Y": -87219.08,
-          "Z": 4570.2754
-        }
-      },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_30": {
-        "WorldLocation": {
-          "X": 62506.02,
-          "Y": -11772.133,
-          "Z": 3026.0
         }
       },
       "Athena.Location.UnNamedPOI.Stainless.SprayLocation.06": {
@@ -1809,25 +1557,32 @@
           "Z": 3066.8965
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_31": {
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.04": {
         "WorldLocation": {
-          "X": 48637.64,
-          "Y": -87219.08,
-          "Z": 4570.2754
+          "X": -101321.555,
+          "Y": -34139.406,
+          "Z": 1288.0
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_32": {
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.01": {
         "WorldLocation": {
-          "X": -78746.62,
-          "Y": -3536.0957,
-          "Z": 3013.7644
+          "X": -39940.926,
+          "Y": -12726.887,
+          "Z": 3544.0
         }
       },
-      "Athena.Location.UnNamedPOI.Stainless.Statue.01_33": {
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.02": {
         "WorldLocation": {
-          "X": -78746.62,
-          "Y": -3536.0957,
-          "Z": 3013.7644
+          "X": 46228.28,
+          "Y": -32118.947,
+          "Z": 3644.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.04": {
+        "WorldLocation": {
+          "X": -49212.566,
+          "Y": -14343.758,
+          "Z": 3496.0
         }
       },
       "Athena.Quests.S30.BPCharacter.Beacon.02": {
@@ -1837,11 +1592,46 @@
           "Z": 5342.8994
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.01": {
+        "WorldLocation": {
+          "X": 55988.0,
+          "Y": -34676.0,
+          "Z": 3176.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.05": {
+        "WorldLocation": {
+          "X": -72309.984,
+          "Y": -66310.234,
+          "Z": 3972.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.03": {
+        "WorldLocation": {
+          "X": -47512.14,
+          "Y": -13356.495,
+          "Z": 3928.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.01": {
+        "WorldLocation": {
+          "X": -76620.66,
+          "Y": -9799.774,
+          "Z": 3180.0
+        }
+      },
       "Athena.Quests.S30.Story.02.Terminal.02": {
         "WorldLocation": {
           "X": -98661.81,
           "Y": 20827.098,
           "Z": 2313.9685
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.02": {
+        "WorldLocation": {
+          "X": -75478.97,
+          "Y": -72504.445,
+          "Z": 2768.0
         }
       },
       "Athena.Quests.S30.Story.03.GemstoneCollect": {
@@ -1858,11 +1648,39 @@
           "Z": 1936.0
         }
       },
+      "Athena.Location.Quest.S30.P05.HiddenGemLocation": {
+        "WorldLocation": {
+          "X": -82653.164,
+          "Y": 30852.94,
+          "Z": 2249.3162
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.03": {
+        "WorldLocation": {
+          "X": 36780.953,
+          "Y": -31862.549,
+          "Z": 2824.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.06": {
+        "WorldLocation": {
+          "X": -18517.113,
+          "Y": -23244.979,
+          "Z": 3096.0
+        }
+      },
       "Athena.Quests.S30.Story.01.Surveillance.Device.08": {
         "WorldLocation": {
           "X": -117664.0,
           "Y": 42968.0,
           "Z": 384.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.06": {
+        "WorldLocation": {
+          "X": -47845.027,
+          "Y": -21502.6,
+          "Z": 3528.0
         }
       },
       "Athena.Quests.S30.Story.01.Surveillance.Device.04": {
@@ -1872,11 +1690,39 @@
           "Z": 1600.0
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.06": {
+        "WorldLocation": {
+          "X": -106042.375,
+          "Y": -49892.55,
+          "Z": 1704.0
+        }
+      },
       "Athena.Quests.S30.BPCharacter.Beacon.01": {
         "WorldLocation": {
           "X": -76664.36,
           "Y": -62565.363,
           "Z": 3994.8997
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.03": {
+        "WorldLocation": {
+          "X": -74750.07,
+          "Y": -69793.61,
+          "Z": 3168.2488
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.02": {
+        "WorldLocation": {
+          "X": -80440.48,
+          "Y": -21019.566,
+          "Z": 3332.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.05": {
+        "WorldLocation": {
+          "X": -106626.45,
+          "Y": -45232.0,
+          "Z": 1908.0
         }
       },
       "Athena.Quests.S30.Story.02.Terminal.01": {
@@ -1886,11 +1732,25 @@
           "Z": 780.5822
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.04": {
+        "WorldLocation": {
+          "X": -79036.42,
+          "Y": -62416.047,
+          "Z": 3247.454
+        }
+      },
       "Athena.Quests.S30.BPCharacter.Beacon.03": {
         "WorldLocation": {
           "X": 35352.26,
           "Y": 109079.25,
           "Z": 11834.899
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.03": {
+        "WorldLocation": {
+          "X": -91788.46,
+          "Y": -29981.76,
+          "Z": 1120.0
         }
       },
       "Athena.Quests.S30.Story.04.GemstoneCollect": {
@@ -1907,6 +1767,20 @@
           "Z": 1645.444
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.07": {
+        "WorldLocation": {
+          "X": -72321.33,
+          "Y": -78362.51,
+          "Z": 3944.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.05": {
+        "WorldLocation": {
+          "X": -4948.0,
+          "Y": -27868.0,
+          "Z": 2324.0
+        }
+      },
       "Athena.Quests.S30.Story.04.PeaPod.03": {
         "WorldLocation": {
           "X": -78395.0,
@@ -1921,11 +1795,32 @@
           "Z": 2315.7026
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.01": {
+        "WorldLocation": {
+          "X": -82915.016,
+          "Y": -76032.84,
+          "Z": 2248.0
+        }
+      },
       "Athena.Quests.S30.Story.01.Surveillance.Device.06": {
         "WorldLocation": {
           "X": -80390.0,
           "Y": -23552.0,
           "Z": 3848.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.07": {
+        "WorldLocation": {
+          "X": -33440.2,
+          "Y": -17908.607,
+          "Z": 3204.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.07": {
+        "WorldLocation": {
+          "X": -43927.87,
+          "Y": -23570.547,
+          "Z": 3496.0
         }
       },
       "Athena.Quests.S30.Story.04.PeaPod.02": {
@@ -1956,6 +1851,20 @@
           "Z": 2697.884
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.05": {
+        "WorldLocation": {
+          "X": -48841.113,
+          "Y": -17435.1,
+          "Z": 3556.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W04.07": {
+        "WorldLocation": {
+          "X": -96159.12,
+          "Y": -53943.633,
+          "Z": 688.0
+        }
+      },
       "Athena.Quests.S30.Story.04.PeaPod.01": {
         "WorldLocation": {
           "X": -78395.0,
@@ -1963,11 +1872,32 @@
           "Z": 2697.884
         }
       },
+      "Athena.Quests.ItemCollect.LevelUpPack.W03.06": {
+        "WorldLocation": {
+          "X": -73147.62,
+          "Y": -73673.45,
+          "Z": 4212.0
+        }
+      },
       "Athena.Quests.S30.Story.01.Surveillance.Device.03": {
         "WorldLocation": {
           "X": -98732.0,
           "Y": 19884.0,
           "Z": 1140.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W02.02": {
+        "WorldLocation": {
+          "X": -44704.926,
+          "Y": -13431.174,
+          "Z": 3164.0
+        }
+      },
+      "Athena.Quests.ItemCollect.LevelUpPack.W01.04": {
+        "WorldLocation": {
+          "X": 18948.0,
+          "Y": -28356.0,
+          "Z": 2092.0
         }
       },
       "Athena.AI.SpawnLocation.MoonFlax.Guard.TheOverseer.Grunt": {

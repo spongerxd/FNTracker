@@ -96,8 +96,6 @@
     "7A1DC87D433B64E6BC8279968B916E0E": "<Subheading20_60p>Вас спасает тотем</>\nБЕССМЕРТИЯ",
     "9ACBB5E54EEBECC5078D0EB0739F0213": "<Teal>Ещё один</>\n<LargeWhite>шанс</><LargeTeal>!</>",
     "83C0F8FF48A7F03E498A4AB4E314272F": "<Yellow>Пора</>\n<LargeWhite>вставать</><LargeYellow>!</>",
-    "27BD7B0343C8DC90FE95B4A517BD84AD": "<text color=\"088899\">Координаты:</> ???",
-    "69722B62475A9777E86B50A27E94B53E": "<text color=\"088899\">Координаты:</> {X}, {Y}, {Z}",
     "5228D8A0450F3C88F42547A2692BE786": "<text color=\"67C0CC\">Нечего обрабатывать</>",
     "A766AA8A400FAE19BA18A498A98DF541": "<text color=\"67C0CC\">Обработка </><text color=\"CCF2FF\">{Count}|plural(one=предмета,few=предметов,many=предметов,other=предмета)</>",
     "50314D1B4B9081C904168083909C7BF2": "<text color=\"67C0CCFF\">Этап 1/4</>",
@@ -195,7 +193,6 @@
     "A9AF388C463C30B53458BFAB1B1A6A73": "Категория",
     "BF433D304653458822CBC4875BFD4D00": "Категория",
     "605572654F771F3F95F5B98023D5A11E": "ПЕЩЕРА",
-    "7D3D145D415A12C4C4C282A3ED2903B5": "ПЕЩЕРА",
     "E44966DF4434FD16CE38028BB8E91712": "ПЕЩЕРА",
     "46B501DB49B019FA5BED01BEFEA0B179": "Основы исследований пещер",
     "10E3163C455D61404921BCB3484F5327": "Пещеры",
@@ -284,7 +281,7 @@
     "A6CBE29A47764DC876ABE69F85E9233F": "Перейти в режим полёта\n<BindSmall>(двойное нажатие)</>",
     "E4E92D6B46843FB3DD8B4EA2D13CE7A6": "Сейчас вы здесь:",
     "B726A7B04D7DF58D06F87FBE471B94CB": "Эпическое",
-    "29FB25584D468F2558EC668A6D38922D": "Надеть",
+    "29FB25584D468F2558EC668A6D38922D": "Использовать",
     "F6BB607A4F11F89E30E95D9A6FB92E60": "Надеть",
     "36F22DF448BC7647E17FCDAE882C3595": "Дополнительные сердца",
     "F110CA334969205A6B1651B6A58D648A": "Если вас ждёт нелёгкая битва, возьмите с собой рыцарский щит.",
@@ -749,6 +746,11 @@
   },
   "JunoCompassWidget": {
     "JunoCompassDistance": "{0} м"
+  },
+  "JunoFullscreenMap": {
+    "CaveLocationText": "<text color=\"088899\">Координаты:</> ???",
+    "LocationRichText": "<text color=\"088899\">Координаты:</> {0}, {1}, {2}",
+    "CaveBiomeText": "ПЕЩЕРА"
   },
   "UJunoLocalPlayerViewModel": {
     "DescriptionOwnerDisconnected": "Гости будут удалены из мира через {0} мин.",
