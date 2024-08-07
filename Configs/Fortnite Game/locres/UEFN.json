@@ -1204,6 +1204,9 @@
   "ItemComponentData_Tags": {
     "ItemTags": "Данные тегов элемента '{0}' должны содержать допустимые теги элемента!"
   },
+  "ItemComponentData_Traits": {
+    "EmptyValidation": "Данные элемента признаков '{0}' не содержат допустимых признаков!"
+  },
   "ItemComponentData_Type": {
     "ItemType": "Данные типа элемента '{0}' должны содержать допустимый тип элемента!"
   },
@@ -2087,6 +2090,7 @@
     "PendingChangesSummary.MissingModifiedAssets": "  • {0} {0}|plural(one=ресурс изменён,few=ресурса изменено,many=ресурсов изменено,other=ресурса изменено)",
     "PendingChangesSummary.MissingReferencedAssets": "  • созданы новые ссылки на {0} {0}|plural(one=ресурс,few=ресурса,many=ресурсов,other=ресурса)",
     "PendingChangesSummary.MissingTransactions": "  • пропущено {0} {0}|plural(one=изменение,few=изменения,many=изменений,other=изменения)",
+    "MemoryTestResultsLink": "Сгенерирован файл CSV:",
     "MemoryTestResultsPage": "Подсчёт объёма памяти - {StartTime}",
     "PendingChangesSummary.NoChangesHeader": "В ходе сеанса редактирования изменения не сделаны.",
     "PlatformCook": "Платформа приготовления",
@@ -2144,19 +2148,28 @@
   "ValkyrieEditor": {
     "ApplyingPermissions": "Идёт применение разрешений…",
     "BlankTemplateMapDisplayNameText": "Пусто",
+    "VerseVersion.Dismiss": "Игнорировать",
+    "VerseVersion.Dismiss.Tooltip": "Игнорировать дальнейшие уведомления об обновлении этого проекта до версии Verse {0}",
     "MemoryTestResults": "Результаты теста памяти",
+    "VerseVersion.Title": "Доступна новая версия Verse",
+    "VerseVersion.RemindMeLater.Tooltip": "Уведомить повторно при следующем открытии, если в этом проекте не установлена последняя стабильная версия Verse",
+    "VerseVersion.ProjectSettings": "Открыть параметры проекта",
+    "VerseVersion.Msg": "Целевая версия Verse для проекта'{0}' — {1}.\nВы можете обновить Verse до версии {2} сейчас или изменить её позже в настройках проекта.",
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "InvalidReferenceToAnotherProject": "Проект {0} не может содержать внешние ресурсы из локального проекта {1}\nСсылки на другой проект могут приводиться только через внешний контент",
     "InvalidReferenceToPlugin": "Проект {0} не может ссылаться на плагин {1}",
     "InvalidReferenceToPrivatePlugin": "Проект {0} не может ссылаться на частный плагин {1}",
     "InvalidReferenceToAssetWithNoAlias": "Проект {1} не может ссылаться на ресурс, не имеющий псевдонима",
     "RefSourceProjectsUploadFailed": "Не удалось загрузить исходные проекты с внешним контентом",
+    "VerseVersion.RemindMeLater": "Напомнить позже",
     "RemoveEntityComponent": "Удалить компонент",
     "PromptForDestructiveAPIAction": "Выбранный ресурс(-ы) имеют общедоступные ссылки в опубликованном проекте {0}.\n\nЧтобы продолжить это действие, вам необходимо создать новую ветку проекта.\nТам вы можете изменить общедоступные ресурсы перед публикацией в составе нового проекта",
     "SimpleTemplateMapDisplayNameText": "Простой уровень",
     "SimpleTemplateMapDescriptionText": "Пример простого уровня.",
     "BlankTemplateMapDescriptionText": "Простой уровень с двумя генераторами.",
-    "UEFNValidation": "Проверка UEFN"
+    "UEFNValidation": "Проверка UEFN",
+    "VerseVersion.Update": "Обновить",
+    "VerseVersion.Update.Tooltip": "Обновите этот проект до последней стабильной версии Verse ({0})\n(Обратите внимание: вы можете вернуться к любой версии Verse в любой момент в настройках проекта)"
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "Настройка функций {0}",
@@ -2188,7 +2201,7 @@
     "FixMissingGameFeatureData.Canceled": "Отсутствие GameFeatureData необходимо исправить до выгрузки проекта",
     "CreateBuild.PreparePlatformData.MessageLog.Label": "Подготовленные данные платформы",
     "CreateBuild.PreparePlatformData.PreparingPlatformDataWithListFmt": "Подготовка данных платформы (ожидание {0})…",
-    "CreateBuild.PreparePlatformData.PreparingPlatformDataFmt": "Подготовка данных платформы…",
+    "CreateBuild.PreparePlatformData.PreparingPlatformData": "Подготовка данных платформы…",
     "LocalizeProject.Message.ApplyDefaultSettings": "Настройки локализации для этого проекта не заданы.\n\nХотите использовать следующие настройки по умолчанию?\n  • Исходный язык: {0}\n • Создать следующие региональные параметры: {1}\n\nНажмите «Нет», чтобы отменить и изменить настройки вручную.",
     "LocalizeProject.TaskTitle": "Обновление локализации...",
     "LocalizeProject.Message.WarnAboutDirtyPackages": "У вас есть несохранённые изменения, которые не попадут в экспорт локализации.\n\nПродолжить?",
@@ -2534,6 +2547,7 @@
     "ValkyrieStatusBoxSessionUpdated": "Сеанс обновлён",
     "ValkyrieStatusBoxSessionUpdating": "Обновление сеанса…",
     "StartActionToolTipUploading": "Сеанс загружается, подождите, пожалуйста.",
+    "StartActionToolTipPushingChanges": "Сеанс обновляется, подождите, пожалуйста.",
     "SetDefaultLevelDialog.Title": "Задать уровень по умолчанию",
     "SetDefaultLevelDialog.SetDefaultLevelButton": "Задать как уровень по умолчанию и начать игру",
     "PlayerListConnectedMembersSubMenuCameraSet": "Перевести камеру к пользователю",
@@ -2545,7 +2559,7 @@
     "OnMemoryTestResultsReceived.ButtonShow": "Показать результаты",
     "ValkyrieNews_ToolTip": "Показать новости",
     "StartGameLabel": "Запустить игру",
-    "StartActionToolTipNotConnectedConnected": "Чтобы начать игру, запустите сеанс!",
+    "StartActionToolTipNotConnected": "Чтобы начать игру, запустите сеанс!",
     "StartActionToolTipConnected": "Запустить игру!",
     "StartGameToolTip": "Запустите свою игру.",
     "ValkyrieStatusBoxGameStarting": "Идёт запуск игры",
@@ -2611,8 +2625,8 @@
     "IslandTemplates.StarterIslandsSection": "Начальные острова"
   },
   "ValkyrieFortniteTexts": {
-    "IslandConversionWarningMessage": "Открытие этого острова приведёт к его конвертации в проект UEFN. Вы не сможете больше открыть его из Fortnite Creative.\n\n{PlayerDataResetWarning}\n\nВы можете вернуть проект на остров в творческом режиме из <a id=\"creator_portal\" href=\"{CreatorPortalURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Творческого портала</> в любое время. Это восстановит данные игроков, но удалит все изменения, которые вы сделали в редакторе.\n\nПреобразование может занять много времени для больших островов со множеством акторов.",
-    "PlayerDataResetWarningMessage": "Данные игрока, связанные со следующими устройствами, не передаются, если вы решите осуществлять публикацию из редактора или Творческого портала (<a id=\"conversion_docs\" href=\"{IslandConversionDocsURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Узнать больше</>):\n{DevicesWithoutDataMigrationSupport}",
+    "IslandConversionWarningMessage": "Открытие этого острова приведёт к его конвертации в проект UEFN. Вы больше не сможете открыть его из творческого режима Fortnite.\n\n{PlayerDataResetWarning}\n\nВы можете откатить проект до состояния острова творческого режима из <a id=\"creator_portal\" href=\"{CreatorPortalURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Творческого портала</> в любое время. Данные игроков восстановятся, но все изменения, сделанные в редакторе, удалятся.\n\nПреобразование может занять много времени для больших островов со множеством акторов.",
+    "PlayerDataResetWarningMessage": "Данные игрока, связанные со следующими устройствами, не перенесутся, если вы решите осуществлять публикацию из редактора или Творческого портала (<a id=\"conversion_docs\" href=\"{IslandConversionDocsURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">Узнать больше</>):\n{DevicesWithoutDataMigrationSupport}",
     "PlayerDataResetOnInitialPublishWarningMessage": "Публикация этого проекта из редактора или Творческого портала в первый раз не предусматривает передачи данных игрока, связанных со следующими устройствами:\n{DevicesWithoutDataMigrationSupport}\n\nВозвращающиеся игроки будут воспринимать ваш остров, как если бы играли здесь в первый раз.",
     "IslandDataAuthorityWarningMessage": "Данный проект был возвращён обратно к острову в творческом режиме.\n\n{PlayerDataResetMessage}\n\nКроме того, любые изменения, внесённые в остров в творческом режиме с момента его последнего возвращения из UEFN, передаваться не будут.",
     "DevicesWithoutDataMigrationSupport": "• Точка сохранения\n• Таймер\n• Трекер\n• Переключатель"

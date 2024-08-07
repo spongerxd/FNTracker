@@ -17965,6 +17965,27 @@
         "Annotation": ";Def:NPCItemPKG.DurableDawnCarp.Weapon.VR.C0;Call:NPCItemList.DurableDawnCarp.Weapon.VR",
         "DurabilityPercentageOverride": 1.0
       },
+      "NPCItemPKG.Moonflax.NitroGauntlet.01": {
+        "LootPackageID": "NPCItemPKG.Moonflax.NitroGauntlet",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Moonflax.NitroGauntlet",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.Moonflax.NitroGauntlet.C0;Call:NPCItemList.Moonflax.NitroGauntlet",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaTest.01": {
         "LootPackageID": "WorldList.AthenaTest",
         "Weight": 1.0,
@@ -24330,7 +24351,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.27": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -25317,7 +25338,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.36": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -25338,7 +25359,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.37": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -25359,7 +25380,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.38": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -33129,7 +33150,7 @@
       },
       "WorldList.ApolloLoot.Weapon.SMG.17": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -33150,7 +33171,7 @@
       },
       "WorldList.ApolloLoot.Weapon.SMG.18": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -35964,7 +35985,7 @@
       },
       "WorldList.Weapons.Rarity.Rare.43": {
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -36846,7 +36867,7 @@
       },
       "WorldList.Weapons.Rarity.Epic.42": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -38127,7 +38148,7 @@
       },
       "WorldList.Weapons.Rarity.Legendary.61": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -38148,7 +38169,7 @@
       },
       "WorldList.Weapons.Rarity.Legendary.62": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41571,7 +41592,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.163": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41592,7 +41613,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.164": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -41613,7 +41634,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.165": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -44385,7 +44406,7 @@
       },
       "WorldList.MMO.ChestCache.Rare.WepSetTwo.26": {
         "LootPackageID": "WorldList.MMO.ChestCache.Rare.WepSetTwo",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -44406,7 +44427,7 @@
       },
       "WorldList.MMO.ChestCache.Rare.WepSetTwo.27": {
         "LootPackageID": "WorldList.MMO.ChestCache.Rare.WepSetTwo",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46401,7 +46422,7 @@
       },
       "WorldList.Stalk.Rare.WepSet1.03": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet1",
-        "Weight": 0.3,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46410,14 +46431,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/WID_Assault_SunRose_Athena_R.WID_Assault_SunRose_Athena_R",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_R.WID_Assault_MoonFlax_CombatAR_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Rare.WepSet1.C0;Item:WID.Assault.SunRose.AresAR.Athena.R",
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet1.C0;Item:WID.Assault.Combat.MoonFlax.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Rare.WepSet1.04": {
@@ -46464,7 +46485,7 @@
       },
       "WorldList.Stalk.Rare.WepSet2.01": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
-        "Weight": 0.3,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46485,7 +46506,133 @@
       },
       "WorldList.Stalk.Rare.WepSet2.02": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_UC.WID_Assault_MoonFlax_CombatAR_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.03": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_UC.WID_Assault_SunRose_Tactical_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.04": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/WID_Shotgun_Moonflax_Combat_Athena_UC.WID_Shotgun_Moonflax_Combat_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.05": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/ModularDMR/WID_SunRose_ModularDMR_Athena_UC.WID_SunRose_ModularDMR_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.06": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
         "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/WID_Sniper_MoonFlax_Athena_R.WID_Sniper_MoonFlax_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Sniper.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.07": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/WID_Crossbow_MoonFlax_Athena_R.WID_Crossbow_MoonFlax_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Crossbow.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Rare.WepSet2.08": {
+        "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46504,7 +46651,7 @@
         "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Rare.WepSet2.03": {
+      "WorldList.Stalk.Rare.WepSet2.09": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
         "Weight": 0.4,
         "NamedWeightMult": "None",
@@ -46525,9 +46672,9 @@
         "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Rare.WepSet2.04": {
+      "WorldList.Stalk.Rare.WepSet2.10": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
-        "Weight": 0.5,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46546,9 +46693,9 @@
         "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Rare.WepSet2.05": {
+      "WorldList.Stalk.Rare.WepSet2.11": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
-        "Weight": 0.1,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46567,9 +46714,9 @@
         "Annotation": ";List:WorldList.Stalk.Rare.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Rare.WepSet2.06": {
+      "WorldList.Stalk.Rare.WepSet2.12": {
         "LootPackageID": "WorldList.Stalk.Rare.WepSet2",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46599,14 +46746,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_VR.WID_Shotgun_Break_Cerberus_Athena_VR",
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_R.WID_Shotgun_Break_Cerberus_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Shotgun.Break.Cerberus.Athena.VR",
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Shotgun.Break.Cerberus.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Epic.WepSet1.02": {
@@ -46620,19 +46767,19 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/WID_Shotgun_Pump_Paprika_Athena_VR.WID_Shotgun_Pump_Paprika_Athena_VR",
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/WID_Shotgun_Pump_Paprika_Athena_R.WID_Shotgun_Pump_Paprika_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Shotgun.Pump.Paprika.Athena.VR",
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Shotgun.Pump.Paprika.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Epic.WepSet1.03": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet1",
-        "Weight": 0.3,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46641,14 +46788,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/WID_Assault_SunRose_Athena_VR.WID_Assault_SunRose_Athena_VR",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_R.WID_Assault_MoonFlax_CombatAR_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Assault.SunRose.AresAR.Athena.VR",
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.Assault.Combat.MoonFlax.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Epic.WepSet1.04": {
@@ -46662,14 +46809,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/WID_SMG_SunRose_DPS_Athena_VR.WID_SMG_SunRose_DPS_Athena_VR",
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/WID_SMG_SunRose_DPS_Athena_R.WID_SMG_SunRose_DPS_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.SMG.SunRose.DPS.Athena.VR",
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.SMG.SunRose.DPS.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Epic.WepSet1.05": {
@@ -46683,17 +46830,143 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_VR.WID_SunRose_Pistol_HandCannon_Athena_VR",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_R.WID_SunRose_Pistol_HandCannon_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.VR",
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet1.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Epic.WepSet2.01": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/WID_Crossbow_MoonFlax_Athena_R.WID_Crossbow_MoonFlax_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Crossbow.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.02": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_R.WID_Assault_MoonFlax_CombatAR_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.03": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_R.WID_Assault_SunRose_Tactical_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.04": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/WID_Shotgun_Moonflax_Combat_Athena_R.WID_Shotgun_Moonflax_Combat_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.05": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/ModularDMR/WID_SunRose_ModularDMR_Athena_R.WID_SunRose_ModularDMR_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.06": {
+        "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/WID_Sniper_MoonFlax_Athena_R.WID_Sniper_MoonFlax_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Sniper.MoonFlax.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Epic.WepSet2.07": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
         "Weight": 0.3,
         "NamedWeightMult": "None",
@@ -46714,9 +46987,9 @@
         "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Crossbow.MoonFlax.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Epic.WepSet2.02": {
+      "WorldList.Stalk.Epic.WepSet2.08": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46735,7 +47008,7 @@
         "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Epic.WepSet2.03": {
+      "WorldList.Stalk.Epic.WepSet2.09": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
         "Weight": 0.4,
         "NamedWeightMult": "None",
@@ -46756,9 +47029,9 @@
         "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Epic.WepSet2.04": {
+      "WorldList.Stalk.Epic.WepSet2.10": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
-        "Weight": 0.5,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46777,9 +47050,9 @@
         "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Epic.WepSet2.05": {
+      "WorldList.Stalk.Epic.WepSet2.11": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
-        "Weight": 0.1,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46798,9 +47071,9 @@
         "Annotation": ";List:WorldList.Stalk.Epic.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Epic.WepSet2.06": {
+      "WorldList.Stalk.Epic.WepSet2.12": {
         "LootPackageID": "WorldList.Stalk.Epic.WepSet2",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46830,14 +47103,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_SR.WID_Shotgun_Break_Cerberus_Athena_SR",
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_R.WID_Shotgun_Break_Cerberus_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Shotgun.Break.Cerberus.Athena.SR",
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Shotgun.Break.Cerberus.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Legendary.WepSet1.02": {
@@ -46851,19 +47124,19 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/WID_Shotgun_Pump_Paprika_Athena_SR.WID_Shotgun_Pump_Paprika_Athena_SR",
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/WID_Shotgun_Pump_Paprika_Athena_R.WID_Shotgun_Pump_Paprika_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Shotgun.Pump.Paprika.Athena.SR",
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Shotgun.Pump.Paprika.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Legendary.WepSet1.03": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet1",
-        "Weight": 0.3,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46872,14 +47145,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/WID_Assault_SunRose_Athena_SR.WID_Assault_SunRose_Athena_SR",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_R.WID_Assault_MoonFlax_CombatAR_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Assault.SunRose.AresAR.Athena.SR",
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.Assault.Combat.MoonFlax.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Legendary.WepSet1.04": {
@@ -46893,14 +47166,14 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/WID_SMG_SunRose_DPS_Athena_SR.WID_SMG_SunRose_DPS_Athena_SR",
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/WID_SMG_SunRose_DPS_Athena_R.WID_SMG_SunRose_DPS_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.SMG.SunRose.DPS.Athena.SR",
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.SMG.SunRose.DPS.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Legendary.WepSet1.05": {
@@ -46914,17 +47187,143 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_SR.WID_SunRose_Pistol_HandCannon_Athena_SR",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_R.WID_SunRose_Pistol_HandCannon_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.SR",
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet1.C0;Item:WID.SunRose.Pistol.HandCannon.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Stalk.Legendary.WepSet2.01": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/WID_Crossbow_MoonFlax_Athena_VR.WID_Crossbow_MoonFlax_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Crossbow.MoonFlax.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.02": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/WID_Assault_MoonFlax_CombatAR_Athena_VR.WID_Assault_MoonFlax_CombatAR_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.03": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/TacticalAR/WID_Assault_SunRose_Tactical_Athena_VR.WID_Assault_SunRose_Tactical_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.04": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/WID_Shotgun_Moonflax_Combat_Athena_VR.WID_Shotgun_Moonflax_Combat_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.05": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/ModularDMR/WID_SunRose_ModularDMR_Athena_VR.WID_SunRose_ModularDMR_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.06": {
+        "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/WID_Sniper_MoonFlax_Athena_VR.WID_Sniper_MoonFlax_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Sniper.MoonFlax.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.Stalk.Legendary.WepSet2.07": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
         "Weight": 0.3,
         "NamedWeightMult": "None",
@@ -46945,9 +47344,9 @@
         "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Crossbow.MoonFlax.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Legendary.WepSet2.02": {
+      "WorldList.Stalk.Legendary.WepSet2.08": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -46966,7 +47365,7 @@
         "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Assault.Combat.MoonFlax.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Legendary.WepSet2.03": {
+      "WorldList.Stalk.Legendary.WepSet2.09": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
         "Weight": 0.4,
         "NamedWeightMult": "None",
@@ -46987,9 +47386,9 @@
         "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Assault.SunRose.Tactical.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Legendary.WepSet2.04": {
+      "WorldList.Stalk.Legendary.WepSet2.10": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
-        "Weight": 0.5,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -47008,9 +47407,9 @@
         "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.Shotgun.Combat.MoonFlax.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Legendary.WepSet2.05": {
+      "WorldList.Stalk.Legendary.WepSet2.11": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
-        "Weight": 0.1,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -47029,9 +47428,9 @@
         "Annotation": ";List:WorldList.Stalk.Legendary.WepSet2.C0;Item:WID.SunRose.ModularDMR.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.Stalk.Legendary.WepSet2.06": {
+      "WorldList.Stalk.Legendary.WepSet2.12": {
         "LootPackageID": "WorldList.Stalk.Legendary.WepSet2",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -55032,7 +55431,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.15": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -55053,7 +55452,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.16": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -58728,7 +59127,7 @@
       },
       "WorldList.FlopperHigh.Light.22": {
         "LootPackageID": "WorldList.FlopperHigh.Light",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -62466,7 +62865,7 @@
       },
       "WorldList.AthenaHighConsumables.18": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.45,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -63936,7 +64335,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.15": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -65553,7 +65952,7 @@
       },
       "WorldList.AthenaConsumables.35": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -66624,7 +67023,7 @@
       },
       "WorldList.ApolloAmmoBox.Consumables.1.04": {
         "LootPackageID": "WorldList.ApolloAmmoBox.Consumables.1",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -71874,7 +72273,7 @@
       },
       "NPCItemList.Assault.UC.04": {
         "LootPackageID": "NPCItemList.Assault.UC",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -71895,7 +72294,7 @@
       },
       "NPCItemList.Assault.R.04": {
         "LootPackageID": "NPCItemList.Assault.R",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -71916,7 +72315,7 @@
       },
       "NPCItemList.Assault.VR.04": {
         "LootPackageID": "NPCItemList.Assault.VR",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -71937,7 +72336,7 @@
       },
       "NPCItemList.Assault.SR.04": {
         "LootPackageID": "NPCItemList.Assault.SR",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -81026,6 +81425,27 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:NPCItemList.DurableDawnCarp.Weapon.VR.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Moonflax.NitroGauntlet.01": {
+        "LootPackageID": "NPCItemList.Moonflax.NitroGauntlet",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/NitroGauntletsGameplay/Gameplay/WID_Moonflax_NitroGauntlet.WID_Moonflax_NitroGauntlet",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Moonflax.NitroGauntlet.C0;Item:WID.Moonflax.NitroGauntlet",
         "DurabilityPercentageOverride": 1.0
       }
     }

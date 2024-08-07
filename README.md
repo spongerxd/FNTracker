@@ -1,6 +1,6 @@
 <h4 align="center">Tracking files from Fortnite in Russian: AES Keys, locres, data, ini and map images!</h4>
 
-<h6 align="center">FNTracker version: 30.30</h4>
+<h6 align="center">FNTracker version: 30.40</h4>
 
 ## Credits
 

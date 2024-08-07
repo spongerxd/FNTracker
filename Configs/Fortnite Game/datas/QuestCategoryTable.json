@@ -64,6 +64,15 @@
         },
         "SortPriority": 950
       },
+      "StarterBundleQuests20": {
+        "Name": {
+          "Namespace": "QuestCategoryTable",
+          "Key": "StarterBundleQuests20_Name",
+          "SourceString": "Scrapper Kyle Starter Bundle",
+          "LocalizedString": "Стартовый набор Собирателя Кайла"
+        },
+        "SortPriority": 540
+      },
       "StarterBundleQuests19": {
         "Name": {
           "Namespace": "QuestCategoryTable",
@@ -376,6 +385,15 @@
           "Key": "LTE_Brainstorm_Name",
           "SourceString": "Event: Eye of the Brainstorm",
           "LocalizedString": "Событие «Гиперталамус»"
+        },
+        "SortPriority": 52
+      },
+      "LTE_Outlandish": {
+        "Name": {
+          "Namespace": "QuestCategoryTable",
+          "Key": "LTE_Outlandish_Name",
+          "SourceString": "Event: Outlandish Oddities",
+          "LocalizedString": "Событие «Диковинные странности»"
         },
         "SortPriority": 52
       },
@@ -837,6 +855,15 @@
           "LocalizedString": "Испытания"
         },
         "SortPriority": 1
+      },
+      "Test": {
+        "Name": {
+          "Namespace": "QuestCategoryTable",
+          "Key": "Test_Name",
+          "SourceString": "Test",
+          "LocalizedString": "Тест"
+        },
+        "SortPriority": 0
       }
     }
   }
