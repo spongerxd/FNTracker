@@ -75,6 +75,20 @@
     "8D24C1D74005577CB9F1B69D1F669273": "↔ Преобразовать в регулярный дочерний элемент",
     "AB7775284FD394CF29FE5A938CEB58E0": "✖ Удалить"
   },
+  "ABuildingFoundation": {
+    "AddLevel_Message": "Добавить уровень",
+    "Previewing BuildingFoundation": "Добавление уровней основания в мир",
+    "AddPreviewLevelTransReset": "Добавление уровня предпросмотра в мир",
+    "AddLevel_No": "Нет",
+    "RemoveLevel_No": "Нет",
+    "HasDirtyLevel": "Один или несколько содержащихся уровней предпросмотра нескомпилированы.",
+    "RemoveLevel_Dirty": "На предпросмотренных уровнях имеются несохранённые изменения. При отключении предпросмотра все изменения на этих уровнях будут потеряны. Кроме того, отменить удаление уровней невозможно. Продолжить?",
+    "AddLevel_Undo": "Предпросмотр уровня отменить невозможно. Продолжить?",
+    "RemoveLevel_Message": "Удалить уровень",
+    "RemoveLevel_Undo": "Отменить удаление уровней будет невозможно. Продолжить?",
+    "AddLevel_Yes": "Да",
+    "RemoveLevel_Yes": "Да"
+  },
   "ActivityTrackerLog": {
     "NoChannel": "Нет активных каналов",
     "NoActivities": "Нет начатых действий",
@@ -93,6 +107,12 @@
   },
   "AssetAdapterFactory": {
     "DeviceDisplayName": "Устройство"
+  },
+  "AssetDefinition": {
+    "FortChallengeBundleItemDefinition": "Определение предмета серии испытаний Fortnite"
+  },
+  "AssetDefinition_FortChallengeBundleItemDefinition": {
+    "AssetDefinition_FortChallengeBundleItemDefinition": "Открыть в инспекторе пакетов"
   },
   "AssetDefinition_FortItemDefinition": {
     "CopyTemplateIdsToClipboard": "Копировать идентификаторы шаблонов в буфер обмена",
@@ -130,14 +150,15 @@
     "GenerateAllPlaysetPropThumbnailsInTheGameTooltip": "Создать заново или повторно миниатюры объектов окружения игрового набора в творческом режиме игры.",
     "GenerateAllPlaysetPropThumbnailsWithValidCreativeTagsTooltip": "Создать заново или повторно миниатюры всех объектов окружения игрового набора с допустимыми тегами творческого режима в творческом режиме игры.",
     "GeneratePlaysetPropThumbnailsTooltip": "Генерировать заново или повторно определения выбранных предметов окружения игрового набора.",
-    "GenerateAllPlaysetsInTheGameTooltip": "Генерировать/обновить идентификаторы процессов и родительских процессов всех уровней игрового набора, отображаемых в игре в творческом режиме"
+    "GenerateAllPlaysetsInTheGameTooltip": "Генерировать/обновить идентификаторы процессов и родительских процессов всех уровней игрового набора, отображаемых в игре в творческом режиме",
+    "SetPPIDExternallyRef": "Задать возможность иметь внешнюю ссылку",
+    "SetPPIDExternallyRefToolTip": "Позволяет задать внешнюю ссылку на пакет определений предметов из набора объектов окружения"
   },
   "AssetDefinition_FortQuestItemDefinition": {
     "AssetDefinition_FortQuestItemDefinition": "Редактировать в окне сведений"
   },
   "AssetTypeActions": {
     "AssetAction_GenerateCreativePlaysetPropsDataAssets": "(Повторно) генерировать таблицы подстановки предметов окружения сюжетной обстановки",
-    "AssetTypeActions_DaySequence": "Смена дня и ночи",
     "UDynamicUISceneAssetDefinition": "Сцена динамического интерфейса",
     "FFortAssetTypeActions_FortHomebaseNodeGameplayEffectDataTable": "Таблица данных эффектов игрового процесса узла главной базы Fortnite",
     "AssetAction_GenerateCreativePlaysetPropsDataAssetsTooltip": "Генерировать заново или повторно таблицы подстановки предметов окружения сюжетной обстановки.",
@@ -156,12 +177,16 @@
   "Athena": {
     "UnknownNPCName": "Неизвестно"
   },
+  "BuildingActorEditorSettings": {
+    "Material0OverrideWarningMessage": "Назначить материал {0} к {1}.\n\nЭто может повлиять на производительность. Использование свойства TextureData приведёт к повышению производительности.",
+    "Material0OverrideWarningCancel": "Отмена",
+    "Material0OverrideWarningTitle": "Обнаружен пользовательский материал",
+    "Material0OverrideWarningCheckBox": "Больше не показывать это окно",
+    "Material0OverrideWarningConfirm": "ОК"
+  },
   "BuildingInstructions": {
     "CommandletInfo": "После изменения значения карты шаблона или точек карты шаблона в файле карты, вам нужно будет сгенерировать инструкции по сборке, чтобы просмотреть свои изменения.\nВы можете сгенерировать инструкции по сборке, запустив файл EXE редактора со следующей командной строкой: \"-run=FortBuildingInstructionsCommandlet\".\nЗапуск файла EXE редактора с такой командной строкой не откроет редактор, но запустит вместо этого консольную программу, которая повторно создаст все инструкции по сборке и удалит любые инструкции по сборке, претерпевшие изменения.",
     "CommandletInfoRowName": "Информация консольной программы"
-  },
-  "CanCreateActor": {
-    "NoDaySequenceAsset": "Должен быть указан действительный ресурс смены дня и ночи."
   },
   "CharacterModifier_CosmeticSpawn": {
     "MissingCharacterBlueprintDefinition": "Отсутствует схема персонажа в модификаторе появления!",
@@ -190,6 +215,9 @@
   },
   "CharacterType_FromPreset": {
     "CharacterType_FromPreset": "В типе персонажа отсутствует ИИ для создания!"
+  },
+  "Code Outliner": {
+    "Code Outliner": "Структура кода"
   },
   "ComponentTypeRegistry": {
     "EntityClassGroup": "Сущность",
@@ -221,7 +249,6 @@
     "VersePathDoesNotContainLiveLinkCode": "Путь Verse не ведёт к активным объектам, был ли он опубликован?"
   },
   "Contexts": {
-    "DaySequence": "Плагин DaySequence",
     "FortItemDefinitionAssetEditor": "Определение предмета Fortnite Редактор ресурсов",
     "FortConversationEditor": "Редактор диалогов Fortnite",
     "FortniteEditorCommands": "Редактор Fortnite",
@@ -260,80 +287,6 @@
     "Error_NullTriggerComponentReference": "'{0}' в 'Компонент вызова сообщения' не ссылается на свойство 'Событие игрового процесса'! Задайте для него свойство 'Дескриптор события'",
     "Error_OverriddenTriggerComponentReference": "'{0}' в 'Компонент вызова сообщения' ссылается на свойство '{1}' в 'Событие игрового процесса', а его исходный тип ссылается на '{2}'! Переопределение значения из исходного типа не допускается",
     "Error_PropertyIsNotKnownUserOption": "Свойство события '{0}' — неизвестная пользовательская настройка! Она входит в категорию 'UserOptions'?"
-  },
-  "DaySequenceActorDetails": {
-    "Preview": "Для предпросмотра",
-    "PreviewSequenceSlider": "Последовательность предпросмотра",
-    "Sequence": "Последовательность"
-  },
-  "DaySequenceConditionSetCombo": {
-    "DaySequenceConditionSetCombo_Empty": "Пусто",
-    "DaySequenceConditionSetCombo_EmptyTooltip": "Пустой набор условий"
-  },
-  "DaySequenceConditionSetPicker": {
-    "DaySequenceConditionSetPicker_ClearAllTags": "Очистить все теги",
-    "SectionConditionSet": "Набор условий",
-    "DaySequenceConditionSetPicker_SearchBoxHint": "Поиск тегов условия"
-  },
-  "DaySequenceConditionTagChip": {
-    "ClearTag": "Очистить тег"
-  },
-  "DaySequenceEditor": {
-    "DaySequenceActionsHeader": "Действия",
-    "AssignActor": "Назначить актор",
-    "AssignActorTooltip": "Назначить актор этой дорожке",
-    "BakeTransform": "Прописать преобразование",
-    "DaySequenceEditorProjectSettingsDescription": "Сконфигурировать редактор смены дня и ночи",
-    "DaySequenceEditorSettingsDescription": "Сконфигурировать внешний вид и восприятие редактора смены дня и ночи.",
-    "DaySequenceDisplayName": "Смена дня и ночи",
-    "TabTitle": "Смена дня и ночи",
-    "AppLabel": "Редактор смены дня и ночи",
-    "DaySequenceEditorProjectSettingsName": "Редактор смены дня и ночи",
-    "DaySequenceEditorSettingsName": "Редактор смены дня и ночи",
-    "EditDaySequence": "Редактировать смену дня и ночи",
-    "EnvironmentSettings": "Окружение",
-    "FixActorReferences": "Исправить ссылки на актор",
-    "General": "Общее",
-    "TooltipText": "Открывает редактор смены дня и ночи",
-    "DaySequencePIESettingsHeader": "Настройки игры в редакторе",
-    "DaySequencePreviewHeader": "Для предпросмотра",
-    "RebindComponent": "Перепривязать компонент",
-    "RebindComponentTooltip": "Повторно привязать компонент, переместив дорожки с одного компонента на другой.",
-    "RemoveAllBindings": "Удалить все привязанные объекты",
-    "RemoveMissing": "Удалить отсутствующие объекты",
-    "EnvironmentSettings_ToolTip": "Настроить среду дня или ночи",
-    "SnapSectionsToTimelineUsingSourceTimecode_Transaction": "Установить границы секций на временной шкале, используя исходный временной код",
-    "DaySequenceSettings_ToolTip": "Указать настройки времени суток",
-    "SyncSectionsUsingSourceTimecode_Transaction": "Синхронизировать секции, используя исходный временной код",
-    "DaySequencePreviewTime": "Время",
-    "DaySequenceMenuLabel": "Время суток",
-    "DaySequenceSettings": "Время суток"
-  },
-  "DaySequenceEditorActorBinding": {
-    "AddActor_Label": "Актор в Sequencer",
-    "AddSpecificActor": "Добавить '{0}'",
-    "AddCurrentActorSelection": "Добавить текущий выбор ({0} акторов)",
-    "EmptyBindingTooltip": "Добавить новую пустую привязку к Sequencer, которую впоследствии можно подключить к объекту или актору в свойствах привязки",
-    "AddActor_ToolTip": "Разрешить Sequencer владение актором, уже существующим в текущем уровне",
-    "ChooseActor": "Выбрать актор:",
-    "EmptyBinding": "Новая пустая привязка"
-  },
-  "DaySequenceEditorActorSpawner": {
-    "ClassWithin": "Не удалось добавить временный актор для класса типа '{0}', поскольку он содержит требуемый внешний класс '{1}'.",
-    "NotAnActorClass": "Не удалось добавить временный актор для класса типа '{0}', поскольку он не является допустимым классом актора.",
-    "UnknownClassError": "Не удалось создать новый временный актор из {0}.",
-    "CannotCreateActorFromAsset": "Не удалось создать временный актор из ресурса '{0}'.",
-    "CannotCreateActorFromAsset_Ex": "Не удалось создать временный актор из ресурса '{0}'. {1}.",
-    "CouldNotFindFactory": "Не удалось создать временный актор из ресурса '{0}': допустимая фабрика не найдена."
-  },
-  "DaySequenceEditorSpawnRegister": {
-    "NoSpawnerFound": "Не найден генератор для создания нового типа временного актора"
-  },
-  "DaySequenceFactory": {
-    "DefaultBindingName": "Корневой актор смены дня и ночи"
-  },
-  "DaySequenceModifierComponent": {
-    "ModifierTrackFormat": "Модификатор ({0})"
   },
   "DaySequenceModifierDeviceCustomization": {
     "BlendAmount": "Расстояние смешивания",
@@ -379,24 +332,6 @@
     "CloudSpeed": "Скорость",
     "SunlightCategory": "Солнечный свет",
     "TriggerVolumeCategory": "Область триггера"
-  },
-  "DaySequencePlaybackContext": {
-    "ClientPostfixFormat": " (Клиент {0})",
-    "EditorPostfix": " (Редактор)",
-    "PlayInEditorPostfix": " (Игра в редакторе)",
-    "ServerPostfix": " (Сервер)",
-    "SimulateInEditorPostfix": " (симуляция)",
-    "WorldPickerTextFomrat": "'{0}': актор, используемый для предварительного просмотра эффектов этой последовательности смены дня и ночи.",
-    "InvalidPlaybackContext": "<< недопустимо >>",
-    "ActorsHeader": "Акторы",
-    "AutoBindPIE_Label": "Автоматически привязать к игре в редакторе",
-    "AutoBindSimulate_Label": "Автоматически привязать к симуляции",
-    "AutoBindPIE_Tip": "Автоматически привязывает активное окно Sequencer к текущему миру игры в редакторе (при наличии).",
-    "AutoBindSimulate_Tip": "Автоматически привязывает активное окно Sequencer к текущему миру симуляции (при наличии).",
-    "OptionsHeader": "Варианты"
-  },
-  "DaySequenceTrack": {
-    "TrackName": "Подпоследовательности"
   },
   "DeviceValidation": {
     "VkProjectVerseCheck.NullScriptRefItem": " : Не удалось загрузить класс Verse {0}!",
@@ -455,6 +390,9 @@
     "MultipleAssetsForComponentAnnotation": "Несколько ресурсов",
     "NewVerserScriptComponent": "Новый компонент сценария Verse…",
     "BlueprintAddComponentSearchBoxHint": "Поиск компонентов"
+  },
+  "Errors": {
+    "Errors": "Ошибки"
   },
   "ExcelImportUtilCustomization": {
     "ImagePickerDialogTitle": "Выбрать файл Excel",
@@ -571,6 +509,14 @@
     "InvalidEnumIndex": "Недопустимый индекс перечисления",
     "UnsupportedPropertyType": "Неподдерживаемый тип свойства"
   },
+  "Fort.Actor.Building.Defaults": {
+    "EditorRotateBuildingActor": "Вращать актор постройки",
+    "MapCheck_Message_InvalidNavigationBounds": "{ActorName} : актор помечен как NavigationRelevant, но не имеет навигационных границ. Отсутствует компонент с включённой функцией CanEverAffectNavigation?"
+  },
+  "Fort.Building.SMActor.Defaults": {
+    "EditorMirrorBuildingActor": "Копия актора строительства",
+    "EditorResetTextureBuildingActor": "Сбросить текстуру актора здания"
+  },
   "FortAISpawnGroupDetails": {
     "SpawnPointValueFmt": "Значение точки появления: {0}"
   },
@@ -584,6 +530,9 @@
     "FailurePlugin": "Здесь можно использовать ссылки только на ресурсы из папки /Engine, {0} или те, у которых есть зависимости с этим плагином.",
     "FailureInvalidExternalReference": "Вы можете приводить ссылки на общедоступные ресурсы только из папки {0}.",
     "FailureInvalidExternalReferenceFromTemp": "Необходимо сохранить этот уровень, чтобы использовать ссылки на частные ресурсы из {0}."
+  },
+  "FortAthenaAISpawnerDataComponent_Verse": {
+    "AISpawnerDataComponent_Verse": "Отсутствует класс компонента ИИ"
   },
   "FortBehaviorValueDetails": {
     "PropertyField": "Имя"
@@ -657,16 +606,16 @@
   },
   "FortEditor": {
     "AvatarExportError": "!!!!!!! Не удалось полностью экспортировать аватары !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных",
-    "CalendarExportError": "!!!!!!! Не удалось полностью экспортировать календарь !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных.",
     "TemplateExportError": "!!!!!!! Не удалось полностью экспортировать шаблоны !!!!!!!\n\nСм. подробности в журнале сообщений и выходном журнале.\n\n\"Да\" — консоль закроется, \"Нет\" — останется открытой.",
     "MakeDesignAssetTab": "Набор инструментов, используемых командой, занимающейся дизайном.",
     "AchievementExportError": "Не удалось полностью экспортировать достижения. См. подробности в журнале.",
+    "LetoAddButton": "Добавить",
+    "LetoAddDescription": "Добавляет игрока в режиме разделения экрана в текущем сеансе игры в редакторе",
     "LetoDescription": "Добавить/удалить игрока в режиме разделения экрана в текущем сеансе игры в редакторе",
-    "AllCalendarsTitle": "Все календари…",
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
     "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
-    "AssetsStillScanningError": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
+    "AssetsStillScanningError": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов.",
     "FortReleaseVersionSelector_Tooltip": "Сменить активную FortReleaseVersion с {0}. В ветках выпуска версия будет заблокирована.",
     "McpBackendVersionSelector_Tooltip": "Сменить активный сервер MCP.",
     "FortGameFeaturePluginProfile_Tooltip": "Изменить текущий профиль GameFeaturePlugin для ограничения количества включённых профилей GameFeaturePlugin",
@@ -689,19 +638,17 @@
     "ExportKeysTitleDA": "Экспорт ключей шифрования [Поиск ресурсов]",
     "ExportKeysTitle": "Экспорт ключей шифрования…",
     "ExportItemShopTitleDA": "Экспортировать магазин предметов [идёт обнаружение ресурсов]",
+    "ExportItemShopTitle_InProgress": "Экспортировать в магазин предметов [выполняется]",
     "ExportItemShopTitle": "Экспортировать магазин предметов…",
     "ExportTemplatesTitleDA": "Шаблоны экспорта MCP [Поиск ресурсов]",
     "ExportTemplatesTitle": "Шаблоны экспорта MCP…",
     "ExportAchievementTooltip": "Экспорт файлов достижений для PSN и Xbox Live.",
     "ExportAvatarsTooltip": "Экспортировать данные аватара в формате JSON для MCP.",
     "ExportKeyChainTooltip": "Экспорт ключей шифрования контента.",
-    "FortExportCalendarsToolTip": "Экспорт файлов календаря {0} ICS.",
     "ExportingAvatarsTask": "Идёт экспорт аватаров...",
-    "ExportingCalendarTask": "Экспорт календаря в формате ICS по ссылке…",
     "ExportingItemShopTask": "Экспорт магазина предметов…",
     "ExportingEncryptionKeysTask": "Экспорт ключей…",
     "ExportingTemplatesTask": "Экспорт шаблонов…",
-    "AllCalendarsTooltip": "Экспорт всех календарей.",
     "ExportItemShopTooltip": "Экспортирует данные игры в виде файлов формата JSON для единого источника достоверных данных (SSOT) косметического предмета.",
     "ExportTemplatesTooltip": "Экспортировать данные игры из файлов формата MCP в JSON.",
     "OutpostItemTooltip": "Заполняется для загрузки определенного предмета форпоста, который уже существует. Необходим шестнадцатеричный идентификатор из 32 символов.",
@@ -740,6 +687,8 @@
     "PickZoneButton": "Выбор зоны",
     "QuestBundleCreator": "Автор пакета задания",
     "QuestTools": "Инструменты задания",
+    "LetoRemoveButton": "Удалить",
+    "LetoRemoveDescription": "Удаляет игрока в режиме разделения экрана в текущем сеансе игры в редакторе",
     "FortGameFeaturePluginProfile_Reset": "Сбросить",
     "RespawnDaySequenceActor": "Актор смены дня и ночи при возрождении",
     "RespawnDaySequenceActorTooltip": "Актор смены дня и ночи при возрождении",
@@ -861,9 +810,9 @@
     "CreateNewOverlayFailed": "Не удалось создать новый наложенный слой уровня для {0}.\nНазвание:{1}\nПуть к пакету:{2}",
     "CreateOverlay": "Новый наложенный слой карты создан в {0}",
     "CreateOverlayConfig": "Конфигурация наложенного слоя создана в {0}",
-    "MissingExternalDataLayer": "Отсутствуют внешние слои данных, связанные с плагином \"{0}\". Сначала создайте действие \"{1}\" в \"{2}\".",
     "MissingExternalDataLayerOrContentBundle": "Отсутствуют внешние слои данных или наборы контента, связанные с плагином \"{0}\". Сначала создайте действие \"{1}\" или \"{2}\" в \"{3}\".",
     "MissingContentBundle": "Нет пакетов контента, связанных с плагином {0}. Сначала создайте действие \"{1}\" в \"{2}\".",
+    "MissingExternalDataLayer": "Отсутствует подходящий внешний слой данных '{0}' в мире '{1}' для слоя '{2}' игровой функции '{3}'.",
     "CreateNewOverlay": "Вы добавили контент из плагина Game Feature. Создать новый наложенный слой уровня для {0}?\n\nЕсли вы ответите 'Нет', актор будет помещен непосредственно на сам уровень. Не отправляйте уровень с недопустимой ссылкой.",
     "PlaceIllegalReferenceAnyway": "Вы не можете разместить этот актор в {0}\n{1}\n\nВсе равно разместить этот недопустимый актор? Если да, то не отправляйте уровень с этой недопустимой ссылкой."
   },
@@ -961,6 +910,7 @@
     "CopyObjectiveTooltip": "Копирует цель в буфер обмена",
     "CopyObjectiveLabel": "Копировать цель",
     "ObjectiveActions": "Действия с целью",
+    "ObjectiveComponentMissing": "Цель вставлена без расширения данных для компонента задания: {0} потому что она не добавлена в задание. В результате данные расширения были утеряны.",
     "ObjectiveIndex": "Цель {0}",
     "PasteObjectiveLabel": "Вставить цель",
     "ObjectiveFilterPasteTooltip": "Вставить цель из буфера обмена"
@@ -1172,6 +1122,9 @@
   "HeroAssetFormCueReferences": {
     "Check": "Проверка ссылки звуковой схемы…"
   },
+  "IngestingPlugin": {
+    "IngestingPlugin": "Идёт дублирование плагина {0}…"
+  },
   "ItemAssetDefinition": {
     "Inventory": "Инвентарь",
     "ItemOwnerPoseAssetHasNullProxyTable": "Поза владельца предмета требует установки ProxyTable"
@@ -1261,6 +1214,7 @@
     "CreateQuestAsset": "Создать",
     "MakeNextInSeriesLabel": "Создать следующий ресурс задания в серии",
     "UseQuestAsTemplateTooltip": "Если установлено значение true, будет дублировать текущее задание для создания задания. Если установлено значение false, использует выбранный класс задания в профиле",
+    "NumberOfQuestsToCreate": "Количество создаваемых заданий",
     "Quest Name": "Название задания",
     "NextInSeriesQuestPath": "Путь к заданию",
     "UseQuestAsTemplateLabel": "Использовать задание в качестве шаблона"
@@ -1334,8 +1288,134 @@
     "PerkDirectoryPicker": "Каталог умений",
     "Instructions": "Заполните форму информации об умении, представленную ниже. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже."
   },
+  "Project Explorer": {
+    "Project Explorer": "Проводник по проекту"
+  },
+  "PropertiesDetailTreeRow": {
+    "CannotPlaceRowHere": "Невозможно разместить строку здесь",
+    "CollapseAll": "Свернуть всё",
+    "CollapseAll_ToolTip": "Сворачивает этот элемент и все его дочерние элементы",
+    "CopyProperty": "Копировать",
+    "CopyPropertyDisplayName": "Копировать отображаемое имя",
+    "CopyPropertyDisplayName_ToolTip": "Копировать отображаемое имя этого свойства в системный буфер обмена.",
+    "CopyProperty_ToolTip": "Копировать это значение свойства",
+    "UpdatedEditConditionFmt": "Изменено условие редактирования",
+    "ExpandAll": "Развернуть всё",
+    "ExpandAll_ToolTip": "Разворачивает этот элемент и все его дочерние элементы",
+    "ExpansionHeading": "Развёртывание",
+    "MoveRow": "Переместить строку",
+    "PasteProperty": "Вставить",
+    "PasteProperty_ToolTip": "Вставить скопированное значение сюда",
+    "PlaceRowHere": "Разместить строку здесь",
+    "ResetToDefaultPropertyValueToolTip": "Вернуть этому свойству значение по умолчанию.",
+    "ResetToDefault": "Сброс настроек"
+  },
   "PropertyEditor": {
     "Label": "Сведения"
+  },
+  "ProtoLem": {
+    "ControlIf": "  Если",
+    "ControlSoloIf": "  Если  ",
+    "Not": "  не",
+    "UnaryOp_escape": "И",
+    "Placeholder": "…",
+    "1Error": "1 ошибка",
+    "Add or Select Attributes": "Добавить или выбрать атрибуты",
+    "AddThenTooltip": "Добавляет тело функции Then в FlowIf, в котором его нет.",
+    "AddElseTooltip": "Добавляет оператор Else в текущий FlowIf.",
+    "WrapAssign Tooltip": "Назначить для этого идентификатора",
+    "AutoFormatSelection": "Автоформатирование выбранного фрагмента",
+    "AutoFormatSelectionTooltip": "Автоформатирование кода для выбранных плиток.",
+    "InvalidCaseChangeFile": "Ошибка переименования (неверный регистр)",
+    "ComparisonOperators": "Операторы сравнения",
+    "Copy": "Копировать",
+    "CutTooltip": "Скопировать и удалить выделение, на которое наведён курсор.",
+    "CopyTooltip": "Скопировать выделение, на которое наведён курсор.",
+    "Cut": "Вырезать",
+    "ErrorDescription": "Описание",
+    "RightClickSubActionsTooltip": "Сведения о плитке, такие как происхождение, связанные узлы и т. д.",
+    "DirectoryInaccessibleTitle": "Каталог недоступен.",
+    "DisableAnimationsTooltip": "Отключить большинство анимаций, чтобы тестирование VST проходило быстрее.",
+    "DisableAnimations": "Отключить большинство анимаций.",
+    "Edit": "Редактировать",
+    "EditTooltip": "Редактировать выделение, на которое наведён курсор.",
+    "FileOperationsLabel": "Операции с файлами",
+    "FileOperationsSectionLabel": "Операции с файлами",
+    "FlowIfOptionsHeading": "Действия FlowIf",
+    "Go To Definition": "Перейти к определению",
+    "HideEmptyDirectories": "Скрыть пустые папки",
+    "Hold": "Удерживать",
+    "ErrorId": "Идентификатор",
+    "ErrorIdTip": "Идентификатор проблем этого типа",
+    "InvalidCaseChangeFileBody": "Чтобы изменить регистр файла, выполните действия в следующем порядке:\n\n- удалите файл и зафиксируйте изменения;\n- повторно добавьте файл с необходимым названием и требуемым регистром, затем зафиксируйте как новое изменение.",
+    "Insert": "Вставить",
+    "InvalidName": "Недопустимое название",
+    "ErrorDescriptionTip": "Описание проблемы",
+    "LevelOrder": "Тестирование с обходом в порядке уровней",
+    "ErrorWhereTip": "Номер строки, в которой возникла проблема",
+    "LogicalOperators": "Логические операторы",
+    "MathAssignmentOperators": "Операторы математического присваивания",
+    "MathOperators": "Математические операторы",
+    "ModuleOperationsLabel": "Операции с модулями",
+    "Move Cursor": "Передвинуть курсор",
+    "ModuleOtherOperationsLabel": "Прочие операции",
+    "Paste": "Вставить",
+    "PasteTooltip": "Вставить в выделение, на которое наведён курсор.",
+    "PostOrder": "Тестирование с обходом в обратном порядке",
+    "PreOrder": "Тестирование с обходом в прямом порядке",
+    "ProjectOperationsSectionLabel": "Операции с проектами",
+    "Re-EnableAnimations": "Включить анимации.",
+    "Re-EnableAnimationsTooltip": "Включить отключенные анимации.",
+    "Remove Ast Coloring": "Удалить цвета AST.",
+    "Remove ETypeKind Coloring": "Удалить цвета ETypeKind.",
+    "RenameEntry": "Переименовать каталог",
+    "RenameDirectoryText": "Переименовать этот каталог.",
+    "RevertToolTip": "Переименовать этот файл",
+    "SourceControlSectionLabel": "Контроль версий",
+    "RightClickSubTestsLabel": "Запустить тесты VST",
+    "LevelOrderTooltip": "Запускает серию тестов по всему дереву VST фрагмента файла с обходом уровень за уровнем.",
+    "PostOrderTooltip": "Запускает серию тестов по всему дереву VST фрагмента файла с обходом от дочерних узлов к родительским, а затем к корневому.",
+    "PreOrderTooltip": "Запускает серию тестов по всему дереву VST фрагмента файла с обходом от корневого узла к родительским, а затем к дочерним.",
+    "RightClickSubTestsTooltip": "Запустить тесты в выбранном режиме обхода.",
+    "Save Theme": "Сохранить тему",
+    "Search For...": "Найти…",
+    "GoToDefinitionTooltip": "Найти определения выбранных плиток в проекте.",
+    "SearchTooltip": "Найти выделение, на которое наведён курсор, в этом файле.",
+    "FilterSearch": "Поиск…",
+    "AddOrSelectAttributes": "Выбрать узел атрибута или добавить новый, если такого нет.",
+    "Set Background": "Задать цвет фона",
+    "Set Border": "Задать цвет границ",
+    "Set By Single Value": "Задать по одному значению",
+    "Set Foreground": "Задать цвет переднего плана",
+    "Set Text": "Задать цвет текста",
+    "RightClickSubMenuSetColors": "Задать цвета VST.",
+    "RightClickSubMenuSetColorsTooltip": "Задать цвета VST.",
+    "AST Tooltip": "Тип узла AST выбранной плитки.",
+    "ETypeKind Tooltip": "Тип ETypeKind выбранной плитки.",
+    "Inner ETypeKind Tooltip": "Тип внутреннего ETypeKind выбранной плитки (если имеется).",
+    "VST Tooltip": "Тип узла VST выбранной плитки.",
+    "Whence Tooltip": "Происхождение (начальная и конечная строка/столбец) выбранной плитки.",
+    "RightClickSubActionsLabel": "Сведения о плитке",
+    "FilterSearchHint": "Введите текст, чтобы начать поиск (выберите результаты поиска с помощью клавиши \"Enter\")",
+    "RenamingNotSupported": "Предупреждение: критическое изменение",
+    "InaccessibleDirectoryBodyMessage": "Предупреждение: {0} недоступен.",
+    "RenamingNotSupportedBody": "Когда вы переименовываете файл или модуль Verse, ссылки в устройстве Verse продолжают вести по пути Verse, который был прописан до этого. Это приводит к тому, что их поведение будет нарушено, пока не будет заменено устройство. Проверьте журнал на наличие информации о путях Verse.\n\nСохранение проекта в таком состоянии может привести к удалению затронутых устройств. \n\nПродолжить переименование, несмотря на это?",
+    "ErrorWhere": "Где",
+    "Wrap in Assignment": "Поместить в назначение",
+    "BinaryOp_and": "и",
+    "break": "Ломаная",
+    "continue": "продолжить",
+    "ControlFor": "для",
+    "In": "где искать:",
+    "BinaryOp_or": "или",
+    "or": "или",
+    "return": "Возврат ",
+    "Set": "Задать",
+    "to show less": "скрыть подробности",
+    "to show more": "подробнее",
+    "Where": "где",
+    "NErrors": "Ошибок: {0}",
+    "InvalidNameBody": "{0} не является допустимым именем для модуля."
   },
   "Quest Asset Creation Tool": {
     "QuestCreationFailed": "При создании задания возникла ошибка. См. подробнее в журнале выходных данных."
@@ -1423,9 +1503,14 @@
     "NoServicePerms": "Не удалось найти разрешения службы для сервера."
   },
   "SkeinAssetsTracker": {
+    "WarningTitleChangesUndone": "Ресурсы недоступны для редактирования",
     "Conflicted_Warning_Generic": "Ошибка получения. Дополнительная информация приведена в журнале вывода.",
+    "CloseButton": "Закрыть",
     "Conflicted_Locked": "Невозможно редактировать ресурс(-ы): один или несколько ресурсов получены другим пользователем.",
-    "Conflicted_Not_Latest": "Невозможно редактировать ресурс(-ы): синхронизируйте последнюю версию, затем повторите попытку."
+    "Conflicted_Not_Latest": "Невозможно редактировать ресурс(-ы): синхронизируйте последнюю версию, затем повторите попытку.",
+    "SuppressCheckBox": "Больше не показывать это окно",
+    "UndoneNotCurrentConflictText": "Вы не можете редактировать следующие ресурсы, потому что проект не синхронизирован с последней версией.\n\nВаши изменения будут автоматически откачены. Если вам потребуется изменить эти ресурсы, предварительно выполните синхронизацию последнего снимка состояния.\n\n<RichTextBlock.BoldHighlight>Совет</>: чтобы избежать этой проблемы в будущем, всегда синхронизируйте с последней версией и регулярно отправляйте изменения.",
+    "UndoneLockedByOtherConflictText": "Вы не можете редактировать следующие ресурсы, потому что они получены другим пользователем.\n\nВаши изменения будут автоматически откачены. Если вам требуется изменить эти ресурсы, скоординируйтесь с коллегами, чтобы снова зафиксировать их."
   },
   "SkeinSourceControl": {
     "Tab_ConflictResolution_DisplayName": "Разрешение конфликта",
@@ -1491,8 +1576,16 @@
     "LoadLevel_Message": "Этот конфликт находится на другом уровне. Вы хотите загрузить этот уровень для предпросмотра?",
     "LoadLevel_Confirm": "Да"
   },
+  "SkeinSourceControlFocus": {
+    "LoadLevel_Title": "Уровень загрузки",
+    "LoadLevel_Cancel": "Нет",
+    "LoadLevel_Message": "Этот актор находится на другом уровне. Загрузить этот уровень для предпросмотра?",
+    "LoadLevel_Confirm": "Да"
+  },
   "SkeinSourceControlProvider": {
     "ConflictWarningModal_No": "Отмена",
+    "AcquireConflictTitle": "Не удалось отправить: ресурсы уже получены",
+    "CloseButton": "Закрыть",
     "ConflictWarningModal_Title": "Конфликтующие изменения",
     "ConflictWarningModal_CheckBoxText": "Больше не показывать это окно",
     "DataChangedDialog_CheckBoxText": "Больше не показывать это окно",
@@ -1510,6 +1603,7 @@
     "SkeinServerMaintenance": "На сервере Unreal Revision Control проводятся технические работы.",
     "NoSCCThreads": "Для выполнения команды контроля версии нет доступных потоков.",
     "DataChangedDialogTitle": "Предупреждение: несовместимые данные",
+    "AcquireConflictText": "Вы внесли изменения в следующие ресурсы, которые получены другим пользователем. Чтобы решить эту проблему:\n\n\t<RichTextBlock.BoldHighlight>1</>. Попросите коллег зафиксировать их изменения.\n\t<RichTextBlock.BoldHighlight>2</>. Выполните синхронизацию с последним снимком состояния. При этом возникнут конфликты между вашими локальными изменениями и изменениями, внесёнными коллегами.\n\t<RichTextBlock.BoldHighlight>3</>. Разрешите конфликты.\n\t<RichTextBlock.BoldHighlight>4</>. Зафиксируйте свои изменения.\n\n<RichTextBlock.BoldHighlight>Совет</>: Чтобы избежать конфликтов в будущем, всегда выполняйте синхронизацию с последней версией и извлекайте ресурсы, прежде чем вносить изменения.",
     "DataChangedDialogMessage": "Локальная версия проекта более не совместима с сервером Unreal Revision Control. Изменения, сделанные локально в промежутке между обновлением версии и настоящим моментом, будут утрачены.\n\nЧтобы возобновить работу над проектом:\n\n1. Закройте проект\n2. Создайте локальную копию проекта\n3. Удалите проект из папки Fortnite Projects в своей файловой системе\n4. Повторно синхронизируйте последнюю версию проекта в каталоге проектов UEFN"
   },
   "SkeinSourceControlSnapshotHistoryController": {
@@ -1535,7 +1629,11 @@
     "SnapshotStaleError": "Повышение уровня снимка состояния прервано, так как предоставленный снимок состояния, считающийся самым последним, таковым больше не является.\nПовторите попытку.",
     "SnapshotCreatedSameTimeError": "Повышение уровня снимка состояния прервано из-за HttpStatusCode.RequestTimeout. Возможно, это связано с тем, что одновременно осуществляется создание нового снимка состояния.",
     "ErrorPromoting": "Не удалось восстановить снимок состояния. Изучите журналы для получения дополнительной информации.",
+    "Button_Sync": "Синхронизировать со снимком состояния {0}",
     "GenericError": "Невозможно повысить уровень снимка состояния. См. дополнительные сведения в журнале.",
+    "Button_View": "Посмотреть в текущем снимке состояния",
+    "Button_Sync_ToolTip": "Посмотреть версию ресурса, указанную в выбранном снимке состояния.",
+    "Button_View_ToolTip": "Посмотреть версию ресурса, указанную в текущем снимке состояния.",
     "CheckInDialogMessage": "У вас есть локальные изменения, которые вы пока не зафиксировали. Прежде чем выполнять возврат к более старой версии, необходимо зафиксировать или отменить эти локальные изменения.",
     "FurtherRewindDialogMessage": "Вы внесли изменения во время возврата к снимку состояния {0}.\n\nЧтобы немедленно вернуться к другому снимку состояния, необходимо отменить изменения.\n\nОтмените эту операцию, чтобы сохранить изменения. Затем выполните синхронизацию до последней версии или восстановите снимок состояния {0} в качестве последнего. Наконец, зафиксируйте изменения.",
     "SyncLatestWhileRewoundMessage": "Вы внесли изменения во время возврата к снимку состояния {0}. Вы можете либо внести изменения с последним снимком состояния, либо отменить изменения, чтобы синхронизировать чистую копию последнего снимка состояния."
@@ -1617,6 +1715,10 @@
     "PluralErrors": "ошибки",
     "ErrorWarningFormat": "{ErrorCount} {DiagnosticPlurality} сборки Verse"
   },
+  "SolDev": {
+    "Whence": "[{0}, {1}]",
+    "if": "Если"
+  },
   "SourceControl": {
     "SourceControl_ResolvingConcluding": "Завершение разрешения файлов в системе контроля версий…",
     "SourceControl_GetSnapshotFileList": "Получение сравнительного списка снимка состояния в системе контроля версий…",
@@ -1628,6 +1730,9 @@
   "SourceControl.HistoryWindow.Menu": {
     "GetRevision": "Синхронизировать версию",
     "GetRevisionTooltip": "Синхронизировать версию только этого ресурса."
+  },
+  "Splash Page": {
+    "Splash PageSplash Page": "Страница-заставка"
   },
   "SpriteCategory": {
     "PlayspaceSpawner": "Генератор игрового пространства"
@@ -1642,20 +1747,6 @@
     "Version": "Версия",
     "NotLoggedInError": "Чтобы создать новую ветку проекта, вы должны войти в систему."
   },
-  "SSkeinSourceControlConflict": {
-    "AssetClassLabel": "Класс ресурса",
-    "AssetColumnLabel": "Имя ресурса",
-    "WarningTitleChangesUndone": "Ресурсы недоступны для редактирования",
-    "CloseButton": "Закрыть",
-    "NeverShowMessageAgain": "Больше не показывать это окно",
-    "UserNameLabel": "Имя пользователя",
-    "UndoneNotCurrentConflictText": "Вы не можете редактировать следующие ресурсы, потому что проект не синхронизирован с последней версией.\n\nВаши изменения будут автоматически откачены. Если вам потребуется изменить эти ресурсы, предварительно выполните синхронизацию последнего снимка состояния.\n\n<RichTextBlock.BoldHighlight>Совет</>: чтобы избежать этой проблемы в будущем, всегда синхронизируйте с последней версией и регулярно отправляйте изменения.",
-    "UndoneLockedByOtherConflictText": "Вы не можете редактировать следующие ресурсы, потому что они получены другим пользователем.\n\nВаши изменения будут автоматически откачены. Если вам требуется изменить эти ресурсы, скоординируйтесь с коллегами, чтобы снова зафиксировать их.",
-    "AcquireConflictText": "Вы внесли изменения в следующие ресурсы, которые получены другим пользователем. Чтобы решить эту проблему:\n\n\t<RichTextBlock.BoldHighlight>1</>. Попросите коллег зафиксировать их изменения.\n\t<RichTextBlock.BoldHighlight>2</>. Выполните синхронизацию с последним снимком состояния. При этом возникнут конфликты между вашими локальными изменениями и изменениями, внесёнными коллегами.\n\t<RichTextBlock.BoldHighlight>3</>. Разрешите конфликты.\n\t<RichTextBlock.BoldHighlight>4</>. Зафиксируйте свои изменения.\n\n<RichTextBlock.BoldHighlight>Совет</>: Чтобы избежать конфликтов в будущем, всегда выполняйте синхронизацию с последней версией и извлекайте ресурсы, прежде чем вносить изменения."
-  },
-  "SSkeinSourceControlConflictWarningTitleAcquireFailed": {
-    "Title": "Не удалось отправить: ресурсы уже получены"
-  },
   "SSkeinSourceControlSettings": {
     "AutoCheckout": "Автоматически получать файлы для редактирования",
     "AutoCheckOut_Tooltip": "Автоматически получать файлы для редактирования.",
@@ -1663,8 +1754,6 @@
     "AutoUndo": "Автоматически отменять операции, если не удалось получить ресурс",
     "BinaryPathLabel": "Путь к CLI",
     "BinaryPathLabel_Tooltip": "Путь к исполняемому файлу CLI Unreal Revision Control",
-    "WorkspaceRootLabel_Tooltip": "Путь к корневому каталогу рабочей среды CLI Unreal Revision Control",
-    "WorkspaceRootLabel": "Корневой каталог раб. среды",
     "SkeinCLINotFound": "Среда Unreal Revision Control недоступна.",
     "AutoCheckOutDisabled_ToolTip": "Эта настройка не применяется, и её нельзя изменить в состоянии возврата.",
     "AutoUndoDisabled_ToolTip": "Эта настройка не применяется, и её нельзя изменить в состоянии возврата.",
@@ -1747,6 +1836,15 @@
     "CreateEmptyButton": "Создать пустой",
     "Preview": "Предпросмотр"
   },
+  "SVVDialog": {
+    "ButtonLabelCancel": "Отмена",
+    "ButtonLabelNo": "Нет",
+    "ButtonLabelNoAll": "Нет для всех",
+    "ButtonLabelOk": "OK",
+    "ButtonLabelRetry": "Повторить",
+    "ButtonLabelYes": "Да",
+    "ButtonLabelYesAll": "Да для всех"
+  },
   "TabularDataBridge": {
     "CloseWindowButton": "Закрыть",
     "CopyToClipboardButton": "Скопировать содержимое в буфер обмена",
@@ -1760,13 +1858,12 @@
     "ExportButton": "Экспорт табличных данных",
     "ImportButton": "Импорт табличных данных"
   },
-  "TimeOfActorDetails": {
-    "BindingOverrides": "Переопределения привязок",
-    "RuntimeDayCycle": "Дневной цикл среды выполнения"
-  },
   "TrapAssetForm": {
     "SubmitForm": "Создать ресурсы ловушки…",
     "Instructions": "Это шаблонная форма. Заполните её, указав самую низкую редкость и уровень ловушки, которую вы создаёте. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже."
+  },
+  "Tree View": {
+    "Tree View": "Представление дерева"
   },
   "UEFN": {
     "ValkyriePIE": "Чтобы запустить игру в редакторе в UEFN, редактор нужно запускать с командой -nomcp."
@@ -1796,8 +1893,11 @@
     "BasicUserError": "Проект недействителен, см. подробнее в журнале сообщений",
     "BasicUserWarning": "Возможно, проект недействителен для базовых пользователей, см. подробнее в журнале сообщений",
     "ValidationFailed": "Не удалось выполнить валидацию проекта",
+    "ValidationAutoFixup.RunButton": "Запустить исправление",
+    "ValidationAutoFixup.Heading": "Запустить исправление после проверки?",
     "SetProjectSnapshotFailed": "Ошибка SetProjectSnapshot: отсутствует версия корневого модуля (проект {0})",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
+    "ValidationAutoFixup.SkipButton": "Пропустить исправление",
     "UEFNValidation": "Проверка UEFN",
     "UploadPaused": "Выгрузка приостановлена для проверки промежуточных файлов. Путь:\n\n{0}\n\nОткрыть это путь в Проводнике? (Чтобы продолжить, нажмите «Нет»)",
     "UploadCanceled": "Выгрузка отменена",
@@ -1809,7 +1909,10 @@
     "UploadRate": "Выгрузка {0}/{1}МБайт, {2}МБайт/с",
     "ProjectDepsNotPermitted": "Пользователь не имеет полномочий на выгрузку проекта с внешними зависимыми файлами",
     "ValidatingProjectFiles": "Проверка {NumFiles} {NumFiles}|plural(one=файла,few=файлов,many=файлов,other=файла) проекта…",
-    "ProjectRequiresEpicApp": " Для работы над этим проектом необходимо использовать {0} (сейчас на {1})"
+    "ValidationAutoFixup.Body": "В ходе проверки выявлены проблемы.\nИсправить автоматически любые найденные недопустимые переопределения и недействительные ссылки?",
+    "ProjectRequiresEpicApp": " Для работы над этим проектом необходимо использовать {0} (сейчас на {1})",
+    "PostFixupReport.DirtiedPackages": "{0} {0}|plural(one=пакет не прошёл,few=пакета не прошло,many=пакетов не прошли,other=пакетов не прошли) контрольную проверку, но проблем в памяти не обнаружено. Повторное сохранение этих пакетов может решить проблему с контрольной проверкой.",
+    "PostFixupReport.UnloadedPackages": "{0} {0}|plural(one=пакет не загружен,few=пакета не загружено,many=пакетов не загружены,other=пакетов не загружены), автоматическое исправление не может быть выполнено. Попробуйте выполнить исправление этих пакетов вручную."
   },
   "UFortQuestItemDefComponentEditor_Objective": {
     "ObjectiveDataText": "Добавить расширенные данные {0}"
@@ -1823,39 +1926,6 @@
   "UICommands.DynamicUIEditorTypes": {
     "ToggleDesignerElements_ToolTip": "Показывает/скрывает динамические элементы конструктора интерфейса (контуры, штрихованные линии, названия виджетов)",
     "ToggleDesignerElements": "Переключить элементы конструктора"
-  },
-  "UICommands.FDaySequenceEditorModule": {
-    "AddActorsToBinding": "Добавить выбранное",
-    "AddActorsToBinding_ToolTip": "Добавить выбранные акторы на эту дорожку",
-    "BakeTransform": "Прописать преобразование",
-    "BakeTransform_ToolTip": "Прописать преобразование в пространство мира, удалив какое-либо существующее преобразование, и прикрепить дорожки",
-    "FixActorReferences": "Исправить ссылки на актор",
-    "OverrideRunDayCycle": "Остановить время в игре в редакторе",
-    "OpenDaySequenceActor": "Открыть актор смены дня и ночи",
-    "OpenRootSequence": "Открыть корневую последовательность",
-    "OpenDaySequenceActor_ToolTip": "Открывает актор смены дня и ночи",
-    "OpenDaySequenceEditor_ToolTip": "Открывает редактор смены дня и ночи",
-    "OpenRootSequence_ToolTip": "Открывает корневую последовательность в акторе смены дня и ночи",
-    "OverrideInitialTimeOfDay": "Переопределить начальное время суток",
-    "OverrideRunDayCycle_ToolTip": "Приостановить смену времени суток при запуске режима игры в редакторе",
-    "RefreshDaySequenceActor": "Обновить актор смены дня и ночи",
-    "RefreshDaySequenceActor_ToolTip": "Обновляет актор смены дня и ночи",
-    "RemoveAllBindings": "Удалить всё",
-    "RemoveInvalidBindings": "Удалить отсутствующие элементы",
-    "RemoveActorsFromBinding": "Удалить выбранное",
-    "RemoveAllBindings_ToolTip": "Удалить все привязанные акторы с этой дорожки",
-    "RemoveInvalidBindings_ToolTip": "Удалить с этой дорожки привязки к отсутствующим объектам",
-    "RemoveActorsFromBinding_ToolTip": "Удалить выбранные акторы с этой дорожки",
-    "ReplaceBindingWithActors_ToolTip": "Заменить привязку объекта выбранными акторами",
-    "ReplaceBindingWithActors": "Заменить на выбранное",
-    "SelectDaySequenceActor": "Выбрать актор смены дня и ночи",
-    "SelectDaySequenceActor_ToolTip": "Выбирает актор смены дня и ночи",
-    "SnapSectionsToTimelineUsingSourceTimecode": "Установить границы секций на временной шкале, используя исходный временной код",
-    "SnapSectionsToTimelineUsingSourceTimecode_ToolTip": "Закрепить выбранные секции в позициях на временной шкале, соответствующих их исходному временному коду",
-    "SyncSectionsUsingSourceTimecode": "Синхронизировать секции, используя исходный временной код",
-    "SyncSectionsUsingSourceTimecode_ToolTip": "Синхронизировать секции с первой выбранной секцией, используя исходный временной код",
-    "FixActorReferences_ToolTip": "Попытаться автоматически исправить разорванные привязки акторов",
-    "OverrideInitialTimeOfDay_ToolTip": "Использовать текущее время предпросмотра в качестве начального времени суток в режиме игры в редакторе"
   },
   "UICommands.FortConversationEditorCommands": {
     "PlayConversation": "Воспроизвести",
@@ -1880,6 +1950,78 @@
     "ResetTextureOnSelectedSaticMeshBuildingActors_ToolTip": "Сбрасывает до текстуры по умолчанию для выбранных акторов постройки статичной сетки",
     "RotateSelectedBuildingActors": "Поворачивать выбранные акторы постройки",
     "RotateSelectedBuildingActors_ToolTip": "Поворачивает выбранные акторы постройки в окне просмотра"
+  },
+  "UICommands.ProtoLem": {
+    "Command_ActivateInlineEditing": "Включить редактирование строки",
+    "Command_AddOrSelectAttributeNode": "Добавить или выбрать узел атрибута",
+    "Command_AddOrSelectAttributeNode_ToolTip": "Добавить или выбрать узел атрибута",
+    "Command_MakeOptional_ToolTip": "Добавить необязательное (?)",
+    "Command_MakePointer_ToolTip": "Добавить указатель (^)",
+    "Command_AutoFormatSelection": "Автоформатирование выбранного фрагмента",
+    "Command_AutoFormatSelection_ToolTip": "Автоформатирование выбранного фрагмента.",
+    "Command_CloseTileMenu_ToolTip": "Закрывает меню текущей плитки и фиксирует изменения.",
+    "Command_ToggleComment_ToolTip": "Преобразовать/отменить преобразование выбранного фрагмента в комментарий",
+    "Command_Copy": "Копировать",
+    "Command_Copy_ToolTip": "Копировать",
+    "Command_Cut": "Вырезать",
+    "Command_Cut_ToolTip": "Вырезать",
+    "Command_Delete": "Удалить",
+    "Command_Delete_ToolTip": "Удалить плитку",
+    "Command_Edit": "Редактировать",
+    "Command_Edit_ToolTip": "Изменить плитку",
+    "Command_ActivateInlineEditing_ToolTip": "Редактировать выбранный фрагмент",
+    "Command_FindFile": "Поиск по файлам",
+    "Command_FindFile_ToolTip": "Поиск по файлам",
+    "Command_GoToDefinition": "Перейти к определению",
+    "Command_ToggleNewlineAfter_ToolTip": "Вставляет/удаляет новую строку",
+    "Command_MakeInverse_ToolTip": "Инвертировать результат",
+    "Command_LoadFile": "Загрузить файл",
+    "Command_LoadFile_ToolTip": "Загрузить файл",
+    "Command_MakeInverse": "Инвертировать",
+    "Command_MakeOptional": "Сделать необязательное",
+    "Command_MakePointer": "Создать указатель",
+    "Command_MoveUp_ToolTip": "Сдвинуть курсор вниз",
+    "Command_Home_ToolTip": "Сдвинуть курсор влево",
+    "Command_MoveLeft_ToolTip": "Сдвинуть курсор влево",
+    "Command_End_ToolTip": "Сдвинуть курсор вправо",
+    "Command_MoveRight_ToolTip": "Сдвинуть курсор вправо",
+    "Command_MoveDown_ToolTip": "Сдвинуть курсор вверх",
+    "Command_MoveUp": "Вниз",
+    "Command_MoveLeft": "Переместить влево",
+    "Command_MoveRight": "Переместить вправо",
+    "Command_MoveDown": "Вверх",
+    "Command_GoToDefinition_ToolTip": "Перейти к определению",
+    "Command_Select_ToolTip": "Меню новой плитки",
+    "Command_Paste": "Вставить",
+    "Command_Paste_ToolTip": "Вставить содержимое буфера обмена",
+    "Command_Redo": "Повторить",
+    "Command_Redo_ToolTip": "Повторить",
+    "Command_SaveFile": "Сохранить файл",
+    "Command_SaveFile_ToolTip": "Сохранить файл",
+    "Command_Select": "Выбрать",
+    "Command_Select_NTM": "Выбрать плитку",
+    "Command_Select_NTM_ToolTip": "Выбрать плитку",
+    "Command_ShiftMoveUp_ToolTip": "Смещение курсора вниз",
+    "Command_ShiftMoveLeft_ToolTip": "Смещение курсора влево",
+    "Command_ShiftMoveRight_ToolTip": "Смещение курсора вправо",
+    "Command_ShiftMoveDown_ToolTip": "Смещение курсора вверх",
+    "Command_Find_ToolTip": "Поиск по символам",
+    "Command_ToggleCodeOverview": "Включить/отключить обзор кода",
+    "Command_ToggleComment": "Переключить комментарий",
+    "Command_ToggleLineNumbers": "Включить/отключить номера строк",
+    "Command_ToggleMenu": "Включить/отключить меню",
+    "Command_ToggleMenu_ToolTip": "Включить/отключить меню",
+    "Command_ToggleNewlineAfter": "Создать/удалить новую строку ниже",
+    "Command_ToggleCodeOverview_ToolTip": "Включает или выключает маленькое окно с обзором кода.",
+    "Command_ToggleLineNumbers_ToolTip": "Включает или выключает отображение номеров строк.",
+    "Command_Undo": "Отменить",
+    "Command_Undo_ToolTip": "Отменить",
+    "Command_WrapAssign": "Поместить в назначение",
+    "Command_WrapAssign_ToolTip": "Поместить в назначение",
+    "Command_ZoomIn": "Приблизить",
+    "Command_ZoomIn_ToolTip": "Приблизить",
+    "Command_ZoomOut": "Отдалить",
+    "Command_ZoomOut_ToolTip": "Отдалить"
   },
   "UICommands.SolarisEditor": {
     "BuildVerse": "Собрать код Verse",
@@ -2338,6 +2480,8 @@
     "Running AddOcean": "Добавление океана ({0}/{1})…",
     "CleanupIntermediateAssets": "Сохранение изменений в промежуточных ресурсах проекта…",
     "Running Cleanup": "Очистка оставшихся данных ({0}/{1})…",
+    "AssetReferenceFixer.NoIllegalReferences": "Не удалось найти недействительные ссылки в {0}",
+    "AssetReferenceFixer.NullPackage": "Не удалось найти пакет для обновления: {0}",
     "DeleteLevelScriptBlueprint": "Удалить схему сценария уровня?",
     "ValkyrieAccountLogoutNotification.Dismiss": "Отклонить",
     "ValkyrieNoToken": "Не удалось сгенерировать маркер обмена, вход в клиент не может быть выполнен.",
@@ -2348,6 +2492,8 @@
     "LoadMapToGatherExperienceSettings": "Загрузка карты {0} для настройки опыта сбора",
     "ValkyrieAccountLogoutNotification.Login": "Вход в систему…",
     "RefreshingEntitlements": "Идёт обновление прав допуска пользователя…",
+    "AssetReferenceFixer.ResetIllegalReferencesToDefault": "Сбросить недействительные ссылки к значениям по умолчанию",
+    "AssetReferenceFixer.ResetIllegalReferences": "Сбросить недействительные ссылки в {0}",
     "Saving Level": "Сохранение данных проекта ({0}/{0})…",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "Running Spawn Actors": "Создание и преобразование акторов (1/{0})…",
@@ -2433,6 +2579,7 @@
     "StopGameTooltip": "Завершите свою игру.",
     "CreateBuild.ErrorTitle": "Ошибка",
     "Valkyrie_SetupSessionErrorTitle": "Ошибка запуска игры",
+    "CreateBuild.ToolTip.Error.ExperimentalOn": "Ошибка: не удалось определить, имеет или нет проект доступ к экспериментальным функциям! Функция OnIsCurrentProjectExperimental не\tпривязана!",
     "CreatorPortalNoTeamSubMenuExistingTeams": "Существующие команды…",
     "ExitSessionButtonLabel": "Покинуть сеанс",
     "ExitSession.Confirm.Title": "Покинуть сеанс?",
@@ -2973,6 +3120,7 @@
     "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту '{0}' в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
   },
   "ValkyrieProjectUtils": {
+    "VKProjectFileExists": "Проект с таким названием уже существует в \n{0}\nЧтобы продолжить конвертацию, измените название проекта.",
     "OpenRefSourceProjects.BrowseDialogTitle": "Перейти к файлу проекта '{0}'",
     "CloseRefSourceProjects.ProjectReload.Cancel": "Отмена",
     "OpenRefSourceProjects.ProjectReload.Cancel": "Отмена",
@@ -3009,7 +3157,6 @@
     "ProjectMissingGameFeatureData": "Проект '{0}' не работает, потому что в нём нет GameFeatureData.\n\nИсправить автоматически?",
     "CloseRefSourceProjects.ProjectReload.Msg": "Необходимо перезагрузить проект '{0}', чтоб закрыть исходный проект с внешним контентом\n\nВ качестве альтернативы вы можете оставить исходный проект с внешним контентом открытым и не открывать его автоматически при следующем открытии '{0}'",
     "OpenRefSourceProjects.ProjectReload.Msg": "Необходимо перезагрузить проект '{0}', чтоб закрыть исходный проект с внешним контентом",
-    "VKProjectFileExists": "В этом месте уже есть проект\n{0}",
     "ProjectDependencyCycle": "Обнаружена циклическая зависимость в проекте '{0}'",
     "ProjectDependencyCycles": "Обнаружены циклические зависимости в проекте:",
     "VKProjectFolderIsFile": "Недопустимая папка проекта. Мешает следующий файл:\n{0}",
@@ -3112,7 +3259,6 @@
     "InitProjectLocally": "Инициализация проекта...",
     "LatestVersionAvailable": "Доступна новая версия",
     "NoPlugin": "Контроль версий недоступен, так как не включён плагин Unreal Revision Control",
-    "ExecutableMissing": "Контроль версий недоступен — не найден исполняемый файл Контроля версий Unreal",
     "BadServerHealth": "Контроль версий недоступен из-за проблемы на сервере Unreal Revision Control",
     "BadServerHealthWithReason": "Контроль версий недоступен из-за проблемы на сервере Unreal Revision Control: {0}",
     "LoggedOut": "Контроль версий недоступен, так как пользователь не вошел в систему",
@@ -3161,7 +3307,6 @@
     "AssetNamesBelow": "См. список ресурсов ниже"
   },
   "ValkyrieValidationFixer": {
-    "Report.OKButton": "ОК",
     "LoadAndFixAssets.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=ресурса,other=ресурсов)…",
     "FixObjects.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,other=объектов)…",
     "FixPackages.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=пакета,other=пакетов)…",
@@ -3169,35 +3314,134 @@
     "FixPackages.SlowTaskProgress": "Обработка {0}…",
     "LoadAndFixAssets.SlowTaskProgress": "Обработка {0}…",
     "Transaction.ResetToDefault": "Сброс настроек",
-    "Report.Title": "Отчёт об исправлении ошибок при проверке",
+    "MessageLogCategory": "Исправление после проверки",
+    "MessageLogPageTitle": "Исправление после проверки: {0}",
     "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта(-ов) были автоматически обновлены,many=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
   },
   "ValkyrieValidator": {
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
+    "Properties.Fixer.NullObject": "Не удалось найти объект: {0}",
+    "Properties.Fixer.NullPropertyValue": "Не удалось сбросить значение {0} на {1}",
     "Hard Reference": "Недопустимая жесткая ссылка с {0} на {1}",
+    "Properties.Error.IllegalPropertyOverride": "Недопустимое переопределение свойства: значение \"{ObjectPath}.{PropertyPath}\" содержит переопределение \"{OverrideValue}\" (по умолчанию \"{DefaultValue}\") для свойства \"{PropertyPathName}\" в экземпляре \"{InstanceTypePathName}\". ({ValidatorClass})",
     "Soft Reference": "Недопустимая мягкая ссылка с {0} на {1}",
+    "MessageLogPageTitle": "Проверка проекта: {0}",
+    "Properties.Fixer.ResetToDefault": "Сбросить свойство к значению по умолчанию",
+    "Properties.Fixer.Transaction": "Сброс настроек",
+    "Properties.Fixer.ResetValue": "Сбросить значение {0} на {1}",
     "WorldLimits.TooManyIslandSettings": "Уровень '{0}' содержит следующее количество устройств настройки острова: {1}. На уровне его не должно быть больше одного",
     "WorldLimits.NoIslandSettingsAllowed": "Уровень '{0}' помечен флагом как игровой набор и содержит следующее количество устройств настройки острова: {1}. Игровые наборы не должны содержать какие-либо",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData"
   },
   "ValkyrieValidator.Textures": {
+    "FinalText": "  {CombinedIssues} {FixText}({ValidatorName})",
     "ValkyrieValidator_Textures_RepairTooltip": "Измените свойства текстуры, чтобы избежать ошибок при проверке.",
     "TextureSupportUrl": "Для получения дополнительной информации о требованиях к текстурам нажмите сюда",
     "ValkyrieValidator_Textures_Repair": "Подогнать текстуру",
     "ExecuteValidationRepairs": "Измените текстуру, чтобы она соответствовала допустимым критериям",
+    "TextureNotFixedText": "Не удалось исправить текстуру.",
+    "TextureFixedText": "Текстура исправлена.",
     "NonUITextureNotPow2Text": "Чтобы текстура поддерживала подгрузку, значения как высоты, так и ширины должны быть степенью двойки (например, 128×256 или 512×1024).",
     "ProjectTextureBudgetExceeded": "Общий объем памяти, потребляемый неподгружаемыми текстурами в этом проекте превышает предел, установленный для этого сеанса ({MaxSize} Мбайт).\n Убедитесь, что размеры вашей текстуры соответствуют степени двойки (например, 256×256 или 512×1024), если это возможно,\n и что свойство \"Не подгружать\" отключено.",
     "UITextureMaxSizeText": "Эта текстура интерфейса слишком большая для использования в интерфейсе (определяется как текстура в группе текстур \"Интерфейс\").",
     "NonUI2DTextureTooBigText": "Эта двухмерная текстура, не используемая для интерфейса, слишком большая.",
     "NonUITextureNotStreamableText": "Эта текстура должна поддерживать подгрузку. Сейчас она её не поддерживает, так как включено свойство \"Не подгружать\".",
-    "AutoFixText": "Чтобы автоматически исправить это, нажмите на неё правой кнопкой мыши и выберите 'Подогнать текстуру'",
-    "UITextureTooBig": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}.\n  Уменьшите её до {MaxSize}×{MaxSize} или ниже и импортируйте её снова.\n  {AutoFixText}",
-    "NonUITextureNotPow2": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}. Измените размеры исходного изображения так, чтобы размер и высоты, и ширины соответствовал степени двойки.\n  {AutoFixText}",
-    "NonUITextureNotStreamable": "{LeadText}\n  Отключите для текстуры свойство \"Не подгружать\".\n  {AutoFixText}",
+    "AutoFixText": "Чтобы автоматически исправить это, нажмите на ресурс правой кнопкой мыши и выберите \"Подогнать текстуру\" или нажмите \"Исправить\" ниже",
+    "UITextureTooBig": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}.\n  Уменьшите её до {MaxSize}×{MaxSize} или ниже и импортируйте её снова.",
+    "NonUITextureNotPow2": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}. Измените размеры исходного изображения так, чтобы размер и высоты, и ширины соответствовал степени двойки.",
+    "NonUITextureNotStreamable": "{LeadText}\n  Отключите для текстуры свойство \"Не подгружать\".",
     "Tooltip_UITextureMaxSize": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}",
     "Tooltip_NonUI2DTextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.",
-    "NonUI2DTextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.\n  Её текущее размер {SizeX}×{SizeY}. Уменьшите размер и импортируйте повторно.\n  {AutoFixText}"
+    "NonUI2DTextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.\n  Её текущее размер {SizeX}×{SizeY}. Уменьшите размер и импортируйте повторно."
+  },
+  "ValkyrieValidator_Widget": {
+    "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
+    "ContainsStyleSheet": "Схема '{0}' содержит таблицу стилей"
+  },
+  "VersaTilesIde": {
+    "CreateVerseFile": "Добавить новый файл Verse в проект",
+    "MarkForAddToolTip": "Добавляет файл в систему контроля версий.",
+    "FailedToDeleteDirectoryBody": "При попытке удалить этот каталог возникла ошибка. Убедитесь, что у вас есть права для записи",
+    "FailedToOpenInVSCodeDialogText": "При открытии этого файла в Visual Studio Code возникла ошибка. Убедитесь, что Visual Studio Code установлена надлежащим образом.",
+    "RevertBody": "При восстановлении все изменения, выполненные в {0}, будут утеряны…",
+    "DeleteDirectoryTitle": "Удалить этот каталог?",
+    "DeleteBody": "Действительно удалить {0}?",
+    "Build": "Сборка",
+    "CSourceFileProject_Error": "При инициализации файла CSourceFileProject выявлены ошибки и предупреждения. См. подробности в журнале.",
+    "CheckOutEntry": "Извлечь",
+    "CheckoutFailureTitle": "Не удалось извлечь",
+    "CheckOutToolTip": "Извлекает выбранные ресурсы из системы контроля версий",
+    "Compile": "Компилировать",
+    "ConfigureSourceControlEntry": "Сконфигурировать систему контроля версий",
+    "ConfigureSourceControlEntryToolTip": "Сконфигурировать подключение к системе контроля версий.",
+    "GetFullPathEntry": "Копировать полный путь",
+    "CopyFilesFailed": "Не удалось скопировать",
+    "CopyFilesFailedBody": "Не удалось скопировать {0}\nв\n{1}\n. Убедитесь, что у вас есть права для записи",
+    "FailedToDeleteDirectory": "Не удалось переименовать этот каталог",
+    "No files found": "Не удалось найти файлы Verse для открытия.",
+    "FailedToOpenInVSCodeDialogTitle": "Не удалось открыть файл в Visual Studio Code!",
+    "CouldNotWriteToPathError": "Не удалось записать в {0}",
+    "FileCreationFailureBody": "Не удалось записать в {0}",
+    "CreateFileEntry": "Создать новый файл Verse",
+    "CreateModuleEntry": "Создать вложенный модуль",
+    "VisualVerseCreateFile": "Создайте файл Verse в указанном месте",
+    "CreateModuleTooltip": "Создать новый модуль в этом каталоге.",
+    "Delete": "Удалить",
+    "RemoveDirectoryEntry": "Удалить каталог",
+    "DeleteTitle": "Удалить {0}?",
+    "Delete file": "Удаляет этот файл.",
+    "MarkFilesForDeleteFailedBody": "Не удалось удалить один или несколько файлов. Убедитесь, что у вас есть права для записи, и что установлена последняя версия. Дополнительную информацию см. в журнале.",
+    "DeleteDirectoryBody": "Удаление этого каталога приведёт к удалению всех файлов в\n {0}",
+    "CreateModuleDirFailed": "Не удалось создать каталог модуля",
+    "FileDeletionTitle": "Не удалось удалить файл",
+    "CreateModuleDirFailedBody": "Не удалось создать каталог в {0}",
+    "CheckOutFilesFailed": "Не удалось пометить файлы для добавления",
+    "RenameDirectoryFailed": "Не удалось переименовать каталог",
+    "RenameFileFailed": "Не удалось переименовать файл",
+    "RevertFilesFailed": "Не удалось восстановить файлы, помеченный для удаления",
+    "FileLabel": "Файл",
+    "FileCreationFailure": "Сбой создания файла!",
+    "FileExistsErrorHeader": "Файл уже существует!",
+    "Get Full Path": "Получает полный путь к расположению файла.",
+    "Load": "Загрузить",
+    "VisualVerseLoadFile": "Загрузить файл",
+    "Load and Build": "Загрузить и выполнить сборку",
+    "Make Writeable": "Сделать перезаписываемым — не реализовано",
+    "MarkforAddEntry": "Пометить для добавления",
+    "MarkForAddFailed": "Не удалось пометить для добавления",
+    "CheckOutFilesFailedBody": "Не удалось пометить файлы для добавления, см. дополнительные сведения в журнале",
+    "MarkFilesForDeleteFailed": "Не удалость пометить файлы для удаления",
+    "CreateModuleFailedExists": "Модуль уже существует!",
+    "No Revision Control Connected": "Система контроля версий не подключена",
+    "No Revision Control connected, force delete of {0}?": "Система контроля версий не подключена. Удалить {0}?",
+    "OpenContainingFolderEntry": "Открыть каталог",
+    "OpenWithDefaultEditorEntry": "Открыть в редакторе по умолчанию",
+    "OpenVSCodeWorkspace": "Открыть в Visual Studio Code",
+    "Open Containing Folder": "Открыть каталог этой записи.",
+    "Open in Editor": "Открыть этот файл в текстовом редакторе по умолчанию.",
+    "OpenWith": "Открыть с помощью…",
+    "OpenVSCodeWorkspaceTooltip": "Открывает следующий файл в Visual Studio Code, если эта программа установлена.",
+    "Make file writeable": "Переопределить статус этого файла \"Только для чтения\"",
+    "RefreshEntry": "Обновить",
+    "RefreshToolTip": "Обновить в системе контроля версий.",
+    "RenamDirectoryFailedBody": "Не удалось переименовать {0} в {1}!",
+    "RenameFileFailedBody": "Не удалось переименовать {0} в {1}!",
+    "RevertEntry": "Вернуть",
+    "RevertFailed": "Не удалось восстановить",
+    "RevertTitle": "Восстановить {0}?",
+    "RevertFilesFailedBody": "Не удалось восстановить файлы, см. дополнительные сведения в журнале",
+    "RevertToolTip": "Восстанавливает первоначальное состояние файла из системы контроля версий.",
+    "Revision Control": "Контроль версий",
+    "Save": "Сохранить",
+    "VisualVerseSaveFile": "Сохранить файл",
+    "Checkout Failure": "При проверке этого файла возникла проблема. Убедитесь, что система контроля версий настроена правильно",
+    "FileDeletionTitleBody": "При удалении этого файла возникла проблема. Убедитесь, что у вас есть права для записи",
+    "UEFN not present!": "UEFN отсутствует!",
+    "CreateFileTooltip": "Используйте шаблон Verse, чтобы создать новый файл Verse.",
+    "Checkout Issue": "Visual Verse не был инициализирован через UEFN, инициализация потока создания файла не выполнена. Нажмите OK, чтобы создать файл (NewFile.verse).",
+    "WindowMenuLabel": "Окно",
+    "CreateModuleFailedBodyExists": "{0} уже существует, переименуйте существующий модуль."
   },
   "VerseBuild": {
     "ScriptError": "{DiagnosticFile}({DiagnosticRowSpanX},{DiagnosticColSpanX}, {DiagnosticRowSpanY},{DiagnosticColSpanY}): Сценарий {DiagnosticSeverity} {DiagnosticReferenceCode}: {DiagnosticMessage}"
@@ -3260,6 +3504,12 @@
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
     "WarningTitle": "Не найдено ни установленной копии, ни файла установки VS Code!",
     "WarningText": "Если вы хотите редактировать код Verse с поддержкой функций языка Verse в Unreal Editor for Fortnite, необходимо установить Microsoft Visual Studio Code. Вы видите это сообщение, потому что в имеющемся редакторе нет ни установленной копии, ни файла установки этой программы. Перейдите на сайт <a id=\"download_url\" href=\"{DownloadUrl}\" style=\"Common.GotoBlueprintHyperlink\">{DownloadUrl}</> и загрузите последнюю версию для вашей операционной системы, а затем перезапустите редактор, если хотите сменить язык."
+  },
+  "VVCommands": {
+    "Visual Verse Commands": "Команды Visual Verse"
+  },
+  "VVHostCommands": {
+    "Visual Verse Commands": "Хост команд Visual Verse"
   },
   "WeaponAssetForm": {
     "SubmitForm": "Создать ресурсы оружия…",
