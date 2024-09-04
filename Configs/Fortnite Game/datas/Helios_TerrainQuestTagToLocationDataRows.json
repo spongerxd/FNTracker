@@ -61,16 +61,16 @@
       },
       "AISpawnerData.Type.Tandem.HerbHutch": {
         "WorldLocation": {
-          "X": -29956.0,
-          "Y": -40176.0,
-          "Z": 4284.0
+          "X": -20016.0,
+          "Y": -3392.0,
+          "Z": 3136.0
         }
       },
       "Athena.AI.SpawnLocation.Tandem.HerbHutch": {
         "WorldLocation": {
-          "X": -29956.0,
-          "Y": -40176.0,
-          "Z": 4284.0
+          "X": -20016.0,
+          "Y": -3392.0,
+          "Z": 3136.0
         }
       },
       "Athena.Location.UnNamedPOI.JankyardHouse": {
@@ -346,6 +346,20 @@
           "Z": 4060.0
         }
       },
+      "AISpawnerData.Type.Tandem.PillowMill": {
+        "WorldLocation": {
+          "X": 22504.0,
+          "Y": 33836.0,
+          "Z": 5696.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.PillowMill": {
+        "WorldLocation": {
+          "X": 22504.0,
+          "Y": 33836.0,
+          "Z": 5696.0
+        }
+      },
       "Athena.Location.UnNamedPOI.CostalAirstrip": {
         "WorldLocation": {
           "X": -60280.0,
@@ -428,6 +442,20 @@
           "X": -100404.0,
           "Y": 17264.0,
           "Z": 2584.0
+        }
+      },
+      "AISpawnerData.Type.Tandem.SnapFreeze": {
+        "WorldLocation": {
+          "X": -46852.0,
+          "Y": 10424.0,
+          "Z": 4940.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Tandem.SnapFreeze": {
+        "WorldLocation": {
+          "X": -46852.0,
+          "Y": 10424.0,
+          "Z": 4940.0
         }
       },
       "Athena.Location.UnNamedPOI.CostalRuins": {
@@ -624,6 +652,13 @@
           "X": -80604.0,
           "Y": -24072.0,
           "Z": 5220.0
+        }
+      },
+      "Athena.Location.UnNamedPOI.Statue": {
+        "WorldLocation": {
+          "X": 86516.0,
+          "Y": -48488.0,
+          "Z": 2160.0
         }
       },
       "Athena.Location.UnNamedPOI.ServantQuarter": {
@@ -997,11 +1032,480 @@
           "Z": 2308.0
         }
       },
+      "Athena.AI.SpawnLocation.World.Smackie": {
+        "WorldLocation": {
+          "X": 89452.0,
+          "Y": 65264.0,
+          "Z": 4876.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest": {
+        "WorldLocation": {
+          "X": 30140.0,
+          "Y": 93996.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow": {
+        "WorldLocation": {
+          "X": 30140.0,
+          "Y": 93996.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_0": {
+        "WorldLocation": {
+          "X": -17224.0,
+          "Y": 15980.0,
+          "Z": 2328.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain": {
+        "WorldLocation": {
+          "X": -10692.0,
+          "Y": -102104.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_0": {
+        "WorldLocation": {
+          "X": -66036.0,
+          "Y": -89140.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_1": {
+        "WorldLocation": {
+          "X": -40252.0,
+          "Y": -25312.0,
+          "Z": 3980.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_1": {
+        "WorldLocation": {
+          "X": 7852.0,
+          "Y": -45384.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_2": {
+        "WorldLocation": {
+          "X": -55284.0,
+          "Y": -57360.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_3": {
+        "WorldLocation": {
+          "X": 24884.0,
+          "Y": -90740.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_4": {
+        "WorldLocation": {
+          "X": -69224.0,
+          "Y": -56704.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_5": {
+        "WorldLocation": {
+          "X": -36844.0,
+          "Y": -63052.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_0": {
+        "WorldLocation": {
+          "X": 80172.0,
+          "Y": 60796.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_0": {
+        "WorldLocation": {
+          "X": 80172.0,
+          "Y": 60796.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_2": {
+        "WorldLocation": {
+          "X": -9700.0,
+          "Y": 9348.0,
+          "Z": 2328.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_3": {
+        "WorldLocation": {
+          "X": -52900.0,
+          "Y": -88568.0,
+          "Z": 3980.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_1": {
+        "WorldLocation": {
+          "X": 74660.0,
+          "Y": 18244.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_6": {
+        "WorldLocation": {
+          "X": 74660.0,
+          "Y": 18244.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_4": {
+        "WorldLocation": {
+          "X": 80112.0,
+          "Y": 60444.0,
+          "Z": 4876.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug": {
+        "WorldLocation": {
+          "X": -63136.0,
+          "Y": -5728.0,
+          "Z": 4556.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_7": {
+        "WorldLocation": {
+          "X": -30648.0,
+          "Y": -87932.0,
+          "Z": 4572.0
+        }
+      },
       "Athena.AI.SpawnLocation.LabradorMandatory": {
         "WorldLocation": {
           "X": 80596.0,
           "Y": -45576.0,
           "Z": 3440.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_0": {
+        "WorldLocation": {
+          "X": 57952.0,
+          "Y": 53252.0,
+          "Z": 5616.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_1": {
+        "WorldLocation": {
+          "X": -39976.0,
+          "Y": -6496.0,
+          "Z": 2444.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_2": {
+        "WorldLocation": {
+          "X": 35268.0,
+          "Y": -36572.0,
+          "Z": 4332.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_1": {
+        "WorldLocation": {
+          "X": -30088.0,
+          "Y": 52332.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_2": {
+        "WorldLocation": {
+          "X": -30088.0,
+          "Y": 52332.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_8": {
+        "WorldLocation": {
+          "X": -46056.0,
+          "Y": 7668.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_3": {
+        "WorldLocation": {
+          "X": 85580.0,
+          "Y": -45916.0,
+          "Z": 3388.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_9": {
+        "WorldLocation": {
+          "X": -5388.0,
+          "Y": 26472.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_3": {
+        "WorldLocation": {
+          "X": 49784.0,
+          "Y": -23224.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_10": {
+        "WorldLocation": {
+          "X": 49784.0,
+          "Y": -23224.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_11": {
+        "WorldLocation": {
+          "X": -20568.0,
+          "Y": -16792.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_2": {
+        "WorldLocation": {
+          "X": 57856.0,
+          "Y": 58812.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_4": {
+        "WorldLocation": {
+          "X": 57856.0,
+          "Y": 58812.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_5": {
+        "WorldLocation": {
+          "X": 67836.0,
+          "Y": -900.0,
+          "Z": 2572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_3": {
+        "WorldLocation": {
+          "X": -77052.0,
+          "Y": 64452.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_5": {
+        "WorldLocation": {
+          "X": -77052.0,
+          "Y": 64452.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_4": {
+        "WorldLocation": {
+          "X": -77384.0,
+          "Y": 63748.0,
+          "Z": 7644.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_5": {
+        "WorldLocation": {
+          "X": -43856.0,
+          "Y": 6628.0,
+          "Z": 5236.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_6": {
+        "WorldLocation": {
+          "X": 115992.0,
+          "Y": -8068.0,
+          "Z": 1980.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_7": {
+        "WorldLocation": {
+          "X": -69744.0,
+          "Y": -25924.0,
+          "Z": 5288.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_4": {
+        "WorldLocation": {
+          "X": -43660.0,
+          "Y": 34988.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_6": {
+        "WorldLocation": {
+          "X": -43660.0,
+          "Y": 34988.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_8": {
+        "WorldLocation": {
+          "X": -49712.0,
+          "Y": -98944.0,
+          "Z": 3448.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_9": {
+        "WorldLocation": {
+          "X": -48788.0,
+          "Y": -22392.0,
+          "Z": 2444.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_6": {
+        "WorldLocation": {
+          "X": 7240.0,
+          "Y": -29772.0,
+          "Z": 972.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_10": {
+        "WorldLocation": {
+          "X": -20556.0,
+          "Y": -81928.0,
+          "Z": 2932.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_12": {
+        "WorldLocation": {
+          "X": 58156.0,
+          "Y": -86252.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Labrador": {
+        "WorldLocation": {
+          "X": 1360.0,
+          "Y": 1852.0,
+          "Z": -852.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_11": {
+        "WorldLocation": {
+          "X": -38000.0,
+          "Y": -25640.0,
+          "Z": 2444.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_13": {
+        "WorldLocation": {
+          "X": 4736.0,
+          "Y": 50388.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_14": {
+        "WorldLocation": {
+          "X": 23000.0,
+          "Y": 17944.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_7": {
+        "WorldLocation": {
+          "X": -37908.0,
+          "Y": -65940.0,
+          "Z": 4332.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_8": {
+        "WorldLocation": {
+          "X": 86956.0,
+          "Y": -49288.0,
+          "Z": 2572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.Irwin.Avian.AroundPlayers": {
+        "WorldLocation": {
+          "X": 13720.0,
+          "Y": -24696.0,
+          "Z": 4376.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_15": {
+        "WorldLocation": {
+          "X": -77228.0,
+          "Y": -85340.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_16": {
+        "WorldLocation": {
+          "X": -87524.0,
+          "Y": -48304.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_17": {
+        "WorldLocation": {
+          "X": -35460.0,
+          "Y": -104076.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_12": {
+        "WorldLocation": {
+          "X": -31584.0,
+          "Y": -10756.0,
+          "Z": 2444.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Forest_5": {
+        "WorldLocation": {
+          "X": 85104.0,
+          "Y": -40600.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Snow_7": {
+        "WorldLocation": {
+          "X": 85104.0,
+          "Y": -40600.0,
+          "Z": 9240.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_18": {
+        "WorldLocation": {
+          "X": -50960.0,
+          "Y": -31004.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Smackie_9": {
+        "WorldLocation": {
+          "X": 74392.0,
+          "Y": -28248.0,
+          "Z": 2572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_19": {
+        "WorldLocation": {
+          "X": 29824.0,
+          "Y": -73684.0,
+          "Z": 6988.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Nug_13": {
+        "WorldLocation": {
+          "X": -22260.0,
+          "Y": -105996.0,
+          "Z": 2280.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_20": {
+        "WorldLocation": {
+          "X": -65244.0,
+          "Y": -14664.0,
+          "Z": 4572.0
+        }
+      },
+      "Athena.AI.SpawnLocation.World.Plain_21": {
+        "WorldLocation": {
+          "X": -78708.0,
+          "Y": -25100.0,
+          "Z": 4572.0
         }
       },
       "Building.Type.Prop.PaprikaWeaponCasesSpawner": {
@@ -1151,11 +1655,347 @@
           "Z": 912.0
         }
       },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle": {
+        "WorldLocation": {
+          "X": 86726.27,
+          "Y": 5857.5425,
+          "Z": 4174.226
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop": {
+        "WorldLocation": {
+          "X": -1691.3636,
+          "Y": -13157.337,
+          "Z": 2699.6487
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder": {
+        "WorldLocation": {
+          "X": -69284.56,
+          "Y": -25356.088,
+          "Z": 4607.942
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn": {
+        "WorldLocation": {
+          "X": 47500.0,
+          "Y": -92444.0,
+          "Z": 4628.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.AlwaysSpawn": {
+        "WorldLocation": {
+          "X": 84008.89,
+          "Y": 86962.43,
+          "Z": 7680.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_0": {
+        "WorldLocation": {
+          "X": -61926.285,
+          "Y": -108704.04,
+          "Z": 392.0354
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_1": {
+        "WorldLocation": {
+          "X": -14157.765,
+          "Y": 62046.39,
+          "Z": 5760.6543
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_0": {
+        "WorldLocation": {
+          "X": -6029.449,
+          "Y": 44616.027,
+          "Z": 4949.8887
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_1": {
+        "WorldLocation": {
+          "X": 17145.69,
+          "Y": 67046.21,
+          "Z": 4970.688
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_2": {
+        "WorldLocation": {
+          "X": 71519.695,
+          "Y": 50629.145,
+          "Z": 5373.0933
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_0": {
+        "WorldLocation": {
+          "X": 86381.625,
+          "Y": 53847.09,
+          "Z": 4620.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_2": {
+        "WorldLocation": {
+          "X": 32000.77,
+          "Y": 112295.42,
+          "Z": 9997.936
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_0": {
+        "WorldLocation": {
+          "X": -47954.297,
+          "Y": -22184.83,
+          "Z": 3847.2688
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_1": {
+        "WorldLocation": {
+          "X": 317.4973,
+          "Y": -12654.335,
+          "Z": 2697.7964
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.AlwaysSpawn_0": {
+        "WorldLocation": {
+          "X": -12800.0,
+          "Y": -79196.0,
+          "Z": 784.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_1": {
+        "WorldLocation": {
+          "X": 20301.938,
+          "Y": 53556.562,
+          "Z": 4619.641
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_3": {
+        "WorldLocation": {
+          "X": -51526.445,
+          "Y": 31849.938,
+          "Z": 6924.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_2": {
+        "WorldLocation": {
+          "X": 16230.742,
+          "Y": -56319.8,
+          "Z": 12.639281
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_2": {
+        "WorldLocation": {
+          "X": 19481.203,
+          "Y": 52911.293,
+          "Z": 4620.1436
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_4": {
+        "WorldLocation": {
+          "X": 18464.406,
+          "Y": -84645.23,
+          "Z": 385.58276
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_3": {
+        "WorldLocation": {
+          "X": -114148.53,
+          "Y": -48156.574,
+          "Z": 1936.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_3": {
+        "WorldLocation": {
+          "X": 8019.4697,
+          "Y": 12974.393,
+          "Z": 2310.6396
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_4": {
+        "WorldLocation": {
+          "X": -53956.625,
+          "Y": 60972.918,
+          "Z": 10764.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_5": {
+        "WorldLocation": {
+          "X": -92724.23,
+          "Y": 89737.98,
+          "Z": 5772.99
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_3": {
+        "WorldLocation": {
+          "X": 14751.473,
+          "Y": -7974.2656,
+          "Z": 2687.3694
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_6": {
+        "WorldLocation": {
+          "X": -20738.2,
+          "Y": -107646.35,
+          "Z": 1546.1323
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_7": {
+        "WorldLocation": {
+          "X": 44720.105,
+          "Y": 70913.51,
+          "Z": 4231.703
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_4": {
+        "WorldLocation": {
+          "X": -76833.95,
+          "Y": 56867.85,
+          "Z": 6529.5244
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_5": {
+        "WorldLocation": {
+          "X": 25758.69,
+          "Y": 84897.64,
+          "Z": 5633.63
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.AlwaysSpawn_1": {
+        "WorldLocation": {
+          "X": 76632.0,
+          "Y": -16900.0,
+          "Z": 3092.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_5": {
+        "WorldLocation": {
+          "X": 23192.0,
+          "Y": -53724.0,
+          "Z": 12.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_6": {
+        "WorldLocation": {
+          "X": -90984.0,
+          "Y": 56424.0,
+          "Z": 6540.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_7": {
+        "WorldLocation": {
+          "X": -103632.0,
+          "Y": 18260.0,
+          "Z": 780.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_4": {
+        "WorldLocation": {
+          "X": -41283.42,
+          "Y": -17237.154,
+          "Z": 3464.1387
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_8": {
+        "WorldLocation": {
+          "X": 95596.0,
+          "Y": -58892.0,
+          "Z": 3468.0
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_5": {
+        "WorldLocation": {
+          "X": 57519.56,
+          "Y": -37210.19,
+          "Z": 3078.3125
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_6": {
+        "WorldLocation": {
+          "X": -29012.807,
+          "Y": -41322.17,
+          "Z": 3462.8596
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_7": {
+        "WorldLocation": {
+          "X": -94056.61,
+          "Y": 62411.72,
+          "Z": 6541.889
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Vehicle_6": {
+        "WorldLocation": {
+          "X": -71994.234,
+          "Y": -88303.33,
+          "Z": 2329.3762
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_8": {
+        "WorldLocation": {
+          "X": 63039.742,
+          "Y": 15540.554,
+          "Z": 1933.0029
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_9": {
+        "WorldLocation": {
+          "X": 110954.7,
+          "Y": 38591.723,
+          "Z": 0.000116
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.Plunder_10": {
+        "WorldLocation": {
+          "X": 106119.23,
+          "Y": -46102.965,
+          "Z": 767.9117
+        }
+      },
+      "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_8": {
+        "WorldLocation": {
+          "X": 80729.09,
+          "Y": 35625.848,
+          "Z": 4237.3555
+        }
+      },
+      "Athena.Quests.S31.Story.P04.07": {
+        "WorldLocation": {
+          "X": 76550.0,
+          "Y": -15376.0,
+          "Z": 3448.0
+        }
+      },
       "Athena.Quests.S31.Story.P01.HopePiece.Pickup": {
         "WorldLocation": {
           "X": -97862.83,
           "Y": 14652.003,
           "Z": 1193.015
+        }
+      },
+      "Athena.Quests.S31.Story.P03.C4.01": {
+        "WorldLocation": {
+          "X": 100948.75,
+          "Y": 79461.01,
+          "Z": 12738.708
+        }
+      },
+      "Athena.Quests.S31.Story.P03.C4.02": {
+        "WorldLocation": {
+          "X": 90820.0,
+          "Y": 102280.0,
+          "Z": 5563.293
+        }
+      },
+      "Athena.Quests.S31.Story.P03.C4.03": {
+        "WorldLocation": {
+          "X": 75908.0,
+          "Y": 102756.0,
+          "Z": 6432.0
+        }
+      },
+      "Athena.Quests.S31.Story.P03.C4.05": {
+        "WorldLocation": {
+          "X": 61512.773,
+          "Y": 74581.22,
+          "Z": 10640.315
         }
       },
       "Athena.Quests.S31.Story.P01.MomLog.Pickup": {
@@ -1184,6 +2024,13 @@
           "X": 50958.98,
           "Y": -26062.105,
           "Z": 3341.14
+        }
+      },
+      "Athena.Quests.S31.Story.P03.C4.04": {
+        "WorldLocation": {
+          "X": 86442.64,
+          "Y": 69852.16,
+          "Z": 6248.6934
         }
       },
       "Athena.AI.SpawnLocation.FlexLegend.Minions.BossM": {
@@ -1394,6 +2241,27 @@
           "X": 74379.0,
           "Y": 81959.0,
           "Z": 7721.0
+        }
+      },
+      "Athena.AI.SpawnLocation.FlexLegend.BossE": {
+        "WorldLocation": {
+          "X": -16891.0,
+          "Y": -75409.0,
+          "Z": 1085.0
+        }
+      },
+      "Athena.AI.SpawnLocation.FlexLegend.BossD": {
+        "WorldLocation": {
+          "X": 89184.0,
+          "Y": 90869.0,
+          "Z": 8745.0
+        }
+      },
+      "Athena.AI.SpawnLocation.FlexLegend.BossM": {
+        "WorldLocation": {
+          "X": 74587.0,
+          "Y": -14746.0,
+          "Z": 3832.0
         }
       }
     }

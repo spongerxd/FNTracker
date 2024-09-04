@@ -1,13 +1,4 @@
 {
-  "FJunoProceduralWorldEditorModule": {
-    "ActorNamePlural": "Объекты",
-    "ConvertToIAM_Transaction": "Превратить объекты в IAM.",
-    "ConvertToActorsFromIAM_Transaction": "Превратить IAM в объекты.",
-    "ConvertSelectedIAMsToActorsToolTip": "Превратить массив подгружаемых объектов в объекты.",
-    "ConvertSelectedActorsToIAMsTooltip": "Превратить выбранные объекты в массив подгружаемых объектов.",
-    "ConvertSelectedActorsToIAMsText": "Превратить {0} в массив подгружаемых объектов",
-    "ConvertSelectedIAMsToActorsText": "Превратить {0} в обычные объекты"
-  },
   "JunoProceduralWorld": {
     "AttributeClash": "Атрибуты готового пути актора «{0}», имя готового пути «{1}» и/или представление «{2}» конфликтуют с другими именами атрибутов",
     "JunoResolveBiomeIngredients_Output": "R\"docs(Добавляет следующие атрибуты:{ActorPath} : Строка : Путь строки для появления актора (копируется из ряда таблицы){Representation} : Имя : Значение EJunoRepresentation для процесса создания (копируется из ряда таблицы){RowName} : Парение : Имя выбранного ряда.)docs",

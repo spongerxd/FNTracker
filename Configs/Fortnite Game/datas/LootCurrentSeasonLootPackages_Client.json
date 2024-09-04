@@ -19,7 +19,7 @@
         "LootPackageCategory": 0,
         "GameplayTags": [],
         "RequiredTag": "None",
-        "LootPackageCall": "WorldList.AthenaTest",
+        "LootPackageCall": "WorldList.AthenaAmmoSmall",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -28,7 +28,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.Test.Ammo.C0;Call:WorldList.AthenaTest",
+        "Annotation": ";Def:WorldPKG.Test.Ammo.C0;Call:WorldList.AthenaAmmoSmall",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.MedSupplyDrop.A.01": {
@@ -1167,7 +1167,7 @@
       },
       "WorldPKG.AthenaHolidayGiftBox.Recovery.05": {
         "LootPackageID": "WorldPKG.AthenaHolidayGiftBox.Recovery",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -1209,7 +1209,7 @@
       },
       "WorldPKG.AthenaHolidayGiftBox.Recovery.07": {
         "LootPackageID": "WorldPKG.AthenaHolidayGiftBox.Recovery",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2469,7 +2469,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2490,7 +2490,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2511,7 +2511,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2532,7 +2532,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2553,7 +2553,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2574,7 +2574,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2595,7 +2595,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2616,7 +2616,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2637,7 +2637,7 @@
       },
       "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.LowThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2658,7 +2658,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2679,7 +2679,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2700,7 +2700,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2721,7 +2721,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2742,7 +2742,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2763,7 +2763,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2784,7 +2784,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2805,7 +2805,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2826,7 +2826,7 @@
       },
       "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.MediumThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2847,7 +2847,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2868,7 +2868,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2889,7 +2889,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Shells",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2910,7 +2910,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2931,7 +2931,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2952,7 +2952,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2973,7 +2973,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium.01": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -2994,7 +2994,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium.02": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -3015,7 +3015,7 @@
       },
       "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium.03": {
         "LootPackageID": "WorldPKG.HighQuality.Animal.HighThreat.Wep.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -3074,6 +3074,258 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaTest",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.03": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaIceBox.Snowball",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaIceBox.Snowball",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.04": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.MediumRevolver",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLoot.Ammo.MediumRevolver",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.05": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.HolidayGiftBox.Recovery.ChugSplash",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.HolidayGiftBox.Recovery.ChugSplash",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.06": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.HolidayGiftBox.Recovery.Snowy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.HolidayGiftBox.Recovery.Snowy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.07": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLlama.Consumable",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLlama.Consumable",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.08": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLlama.Mobility",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLlama.Mobility",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.09": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AI.Llama.Flee.RareDrops",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AI.Llama.Flee.RareDrops",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.10": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaSupplyDrop.Weapon.Handgun",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.11": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.SMG",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaSupplyDrop.Weapon.SMG",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.12": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.13": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Light",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Light",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.14": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Shells",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Shells",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.LilWhip.Loot.01": {
@@ -20422,6 +20674,48 @@
         "Annotation": ";Def:NPCItemPKG.Paprika.Assault.DPS.VR.C0;Call:NPCItemList.Athena.Paprika.Assault.DPS.VR",
         "DurabilityPercentageOverride": 1.0
       },
+      "NPCItemPKG.FlexLegend.SMG.DualMicro.UR.01": {
+        "LootPackageID": "NPCItemPKG.FlexLegend.SMG.DualMicro.UR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.Athena.FlexLegend.SMG.DualMicro.UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.FlexLegend.SMG.DualMicro.UR.C0;Call:NPCItemList.Athena.FlexLegend.SMG.DualMicro.UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemPKG.ChapWorm.01": {
+        "LootPackageID": "NPCItemPKG.ChapWorm",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "NPCItemList.ChapWorm",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:NPCItemPKG.ChapWorm.C0;Call:NPCItemList.ChapWorm",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaTest.01": {
         "LootPackageID": "WorldList.AthenaTest",
         "Weight": 1.0,
@@ -20588,6 +20882,27 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaArrows",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.01": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaLight",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaAmmoLarge.01": {
@@ -21367,6 +21682,27 @@
         "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium.C0;Item:WID.Assault.Paprika.Heavy.Athena.C.HS",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.AthenaLoot.Ammo.MediumRevolver.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.MediumRevolver",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 10,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.MediumRevolver.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaIceBox.01": {
         "LootPackageID": "WorldList.AthenaIceBox",
         "Weight": 0.0,
@@ -21491,6 +21827,27 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.ThermalFlopper",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaIceBox.Snowball.01": {
+        "LootPackageID": "WorldList.AthenaIceBox.Snowball",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaIceBox.Snowball.C0;Item:WID.Launcher.Snowball.Athena.R.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.CoolerBox.Consumables.01": {
@@ -24297,7 +24654,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -34818,7 +35175,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -52305,7 +52662,7 @@
         "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
-        "Count": 4,
+        "Count": 2,
         "LootPackageCategory": 0,
         "GameplayTags": [],
         "RequiredTag": "None",
@@ -52365,7 +52722,7 @@
       },
       "WorldList.HolidayGiftBox.Recovery.Snowy.01": {
         "LootPackageID": "WorldList.HolidayGiftBox.Recovery.Snowy",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -52389,7 +52746,7 @@
         "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
-        "Count": 6,
+        "Count": 2,
         "LootPackageCategory": 0,
         "GameplayTags": [],
         "RequiredTag": "None",
@@ -54096,7 +54453,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -55472,7 +55829,7 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLlama.Mobility.01": {
-        "LootPackageID": "WorldList.AthenaLlama.Mobility ",
+        "LootPackageID": "WorldList.AthenaLlama.Mobility",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -55489,11 +55846,11 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLlama.Mobility .C0;Item:Consumable.AthenaShockGrenade",
+        "Annotation": ";List:WorldList.AthenaLlama.Mobility.C0;Item:Consumable.AthenaShockGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLlama.Mobility.02": {
-        "LootPackageID": "WorldList.AthenaLlama.Mobility ",
+        "LootPackageID": "WorldList.AthenaLlama.Mobility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -55510,11 +55867,11 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLlama.Mobility .C0;Item:WID.Athena.SunRose.Wings",
+        "Annotation": ";List:WorldList.AthenaLlama.Mobility.C0;Item:WID.Athena.SunRose.Wings",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLlama.Mobility.03": {
-        "LootPackageID": "WorldList.AthenaLlama.Mobility ",
+        "LootPackageID": "WorldList.AthenaLlama.Mobility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -55531,7 +55888,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLlama.Mobility .C0;Item:WID.Athena.GoldenFruit",
+        "Annotation": ";List:WorldList.AthenaLlama.Mobility.C0;Item:WID.Athena.GoldenFruit",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AI.Llama.Flee.Consumables.01": {
@@ -66246,7 +66603,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.02": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.35,
+        "Weight": 0.33,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -74331,7 +74688,7 @@
       },
       "WorldList.Boss.PB.Weap2.01": {
         "LootPackageID": "WorldList.Boss.PB.Weap2",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -74340,7 +74697,7 @@
         "RequiredTag": "None",
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -78657,7 +79014,7 @@
       },
       "NPCItemList.S26.ShieldPotion.01": {
         "LootPackageID": "NPCItemList.S26.ShieldPotion",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -78867,7 +79224,7 @@
       },
       "NPCItemList.S26.Apple.01": {
         "LootPackageID": "NPCItemList.S26.Apple",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -78909,7 +79266,7 @@
       },
       "NPCItemList.S26.Meat.01": {
         "LootPackageID": "NPCItemList.S26.Meat",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 3,
@@ -79833,7 +80190,7 @@
       },
       "WorldList.Guard.Heavy.Elite.Weap.01": {
         "LootPackageID": "WorldList.Guard.Heavy.Elite.Weap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -79854,7 +80211,7 @@
       },
       "WorldList.Guard.Heavy.Elite.Weap.02": {
         "LootPackageID": "WorldList.Guard.Heavy.Elite.Weap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "Count": 1,
@@ -87389,6 +87746,48 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:NPCItemList.Athena.Paprika.Assault.DPS.VR.C0;Item:WID.Assault.Paprika.DPS.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.Athena.FlexLegend.SMG.DualMicro.UR.01": {
+        "LootPackageID": "NPCItemList.Athena.FlexLegend.SMG.DualMicro.UR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 1,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.Athena.FlexLegend.SMG.DualMicro.UR.C0;Item:WID.FlexLegend.DualSMGs.Athena.UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "NPCItemList.ChapWorm.01": {
+        "LootPackageID": "NPCItemList.ChapWorm",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 5,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:NPCItemList.ChapWorm.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       }
     }

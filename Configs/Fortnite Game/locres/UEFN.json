@@ -364,6 +364,10 @@
   "DynamicUIInspectorModule": {
     "DynamicUIInspectorTab_DisplayName": "Динамический инспектор интерфейса"
   },
+  "DynamicUISceneCustomization": {
+    "SelectedAllowedNameContent": "Допустимо: {0}",
+    "InvalidAllowedWidget": "[Нет]"
+  },
   "Editor.StatsViewer.FortActorMemoryStats": {
     "AllActors": "Все акторы",
     "AllActors_ToolTip": "Все акторы",
@@ -451,9 +455,6 @@
   },
   "FAthenaRewardItemReferenceCustomization": {
     "CategoryText": "Категория инициализации"
-  },
-  "FDynamicUIEditorToolkit": {
-    "DynamicUIEditorSinglePropertyView": "Редактировать разрешённый виджет"
   },
   "FeedbackHandleCustomization": {
     "EventLabel": "Событие",
@@ -891,6 +892,9 @@
   "FortQuestEditorHeader": {
     "CreateNewQuestAsset": "Создать новое задание в Fortnite"
   },
+  "FortQuestItemDefComponentsWidget": {
+    "OnItemComponentStateChanged": "Изменить {0}"
+  },
   "FortQuestLog": {
     "ClearLog": "Удалить",
     "ClearLogToolTip": "Удалить все сообщения из этого журнала",
@@ -1081,7 +1085,7 @@
     "SCCForceReleaseConfirm": "Разблокировать"
   },
   "FValkyrieFortniteEditorSpatialMetrics": {
-    "UnknownClientSessionDisplayName": "Неизвестно"
+    "UnknownSession": "Неизвестный сеанс"
   },
   "GameplayEventCachedBindingDetails": {
     "NullProperty": "Нет"
@@ -1647,6 +1651,10 @@
     "BuildSectionText": "Сборка",
     "BuildVerseScripts": "Собрать код Verse",
     "BuildVerseScriptsToolTip": "Создать сборку всего кода Verse в проекте и проверить на ошибки",
+    "VerseButtonTooltip.BuildInProgress": "Выполняется сборка…",
+    "VerseButtonTooltip.BuiltSuccessfully": "Сборка успешно завершена.",
+    "VerseButtonTooltip.BuiltWithErrors": "Сборка завершена с {0} {0}|plural(one=ошибкой,few=ошибками,many=ошибками,other=ошибками).",
+    "VerseButtonTooltip.BuiltWithWarnings": "Сборка завершена с {0} {0}|plural(one=предупреждением,few=предупреждениями,many=предупреждениями,other=предупреждениями).",
     "UnresolvedPIE": "ВНИМАНИЕ! Игра в редакторе запускается с неразрешёнными задачами компоновки. Сценарий исполнения будет заблокирован до завершения компоновки в среде выполнения (может завершиться самостоятельно). Можно попытаться использовать команду sol.ForceLink для завершения компоновки.",
     "LinkIncomplete": "ПРЕДУПРЕЖДЕНИЕ! Компоновка сценария выполнена не полностью. Неразрешённых задач компоновки: {0} (ПРИМЕЧАНИЕ: их можно разрешить в среде выполнения):",
     "CompileComplete": "Компиляция завершена.",
@@ -1665,6 +1673,7 @@
     "VerseDeadInstancesCheck.OpenVSCode": "Открыть в Visual Studio Code",
     "VerseExplorerToolTip": "Открыть проводник Verse для управления проектом Verse. Нажмите правой кнопкой мыши по файлам в проводнике, чтобы получить доступ к операциям управления, в том числе к добавлению и удалению файлов",
     "OpenVSCodeButtonToolTip": "Открыть текущий проект в Visual Studio Code",
+    "VerseButtonTooltip.OpenVSCode": "Открыть текущий проект в Visual Studio Code",
     "VerseDeadInstancesCheck.OpenVSCodeTooltip": "Открыть рабочую область текущего проекта в Visual Studio\tCode.",
     "EditWithVersaTileToolTip": "Открывает этот файл Verse в экспериментальном компоновщике Visual Verse",
     "VerseDeadInstancesCheck.Rebuild": "Пересобрать",
@@ -2150,17 +2159,21 @@
     "Time": "Общее время: ч:{Hour} мин:{Minute} с:{Second}"
   },
   "ValkyrieAccountEditorSubsystem": {
+    "UpdateAvailable": "Доступна новая версия {0}.\n\nНекоторые функции будет недоступны, пока не будет выполнено обновление {0}.",
     "CheckingForUpdates": "Проверяем наличие обновлений…",
     "DeclineEULA": "Необходимо принять лицензионное соглашение",
     "AcceptEULA": "Лицензионное соглашение принято",
+    "DefaultEditorName": "Редактор",
     "LoggingOut": "Выполняется выход…",
     "LoginDisabled": "Функция ввода в настоящее время отключена.",
     "LoggingIn": "Выполняется вход…",
     "UserRequestedLogout": "Выполняется выход…",
-    "LoggingInFailedAfterUpdate": "Ошибка входа в систему: не удалось запустить страницу входа.",
+    "StartLoginFailed": "Ошибка входа в систему: не удалось запустить страницу входа.",
+    "PatchRequired": "Ошибка входа: требуется патч.",
     "LoginFailedFMT": "Ошибка входа: {0}",
     "UpdateCachedOwnershipsNotLoggedIn": "Пользователь не вошёл в систему",
-    "FailedOfflineMode": "{0}\n\nДля запуска UEFN необходимо войти в систему. Отключение."
+    "FailedOfflineMode": "Для запуска {0}\n\n{1} необходимо войти в систему. Отключение.",
+    "ServicesUnavailable": "В настоящий момент сервисы {0} недоступны.\n\nПока подключение к сервисам не будет восстановлено, ряд функций не будет работать."
   },
   "ValkyrieAccountLoginModal": {
     "AccountModal_Title": "Учётная запись",
@@ -2471,6 +2484,11 @@
   "ValkyrieFortAssetReferenceFilter": {
     "FailureReferenceToPrivateNonOwned": "Вы не можете использовать ссылки на частные ресурсы в плагинах, которые вам не принадлежат."
   },
+  "ValkyrieFortniteAliasGenerator": {
+    "OtherFolder": "Другое",
+    "PropsFolder": "Объекты",
+    "SharedFolder": "Общий"
+  },
   "ValkyrieFortniteEditor": {
     "ValkyrieNoBuildIdOverride": "Для запуска соединения локального клиента с сервером необходимо ввести «-BuildIdOverride=<Your Unique Number>» в командной строке!",
     "ValkyrieServerNoBuildIdOverride": "Для запуска и установки соединения локального клиента с сервером необходимо ввести в командной строке «-BuildIdOverride=<Your Unique Number>»!",
@@ -2686,6 +2704,8 @@
     "ValkyrieChooseLocalClientBinary": "Выбрать локальный бинарный файл клиента, который будет использоваться",
     "ValkyrieChooseLocalServerBinary": "Выбрать локальный бинарный файл сервера, который будет использоваться",
     "ValkyriePlaySubMenuLiveEdit_ToolTip": "Отправить поддерживаемые изменения уровня, выполненные в редакторе, в подключённый сеанс.",
+    "PushChangesButtonToolTip_ServicesUnavailable": "В настоящий момент сервисы недоступны.",
+    "ValkyrieServiceUnavailable_ToolTip": "В настоящий момент сервисы недоступны.",
     "ValkyrieStatusBoxSessionConnected": "Подключение к сеансу выполнено.",
     "ValkyrieStatusBoxDisconnected": "Сеанс отключён",
     "ValkyrieStatusBoxSessionLoading": "Загрузка сеанса…",
@@ -3120,7 +3140,6 @@
     "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту '{0}' в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
   },
   "ValkyrieProjectUtils": {
-    "VKProjectFileExists": "Проект с таким названием уже существует в \n{0}\nЧтобы продолжить конвертацию, измените название проекта.",
     "OpenRefSourceProjects.BrowseDialogTitle": "Перейти к файлу проекта '{0}'",
     "CloseRefSourceProjects.ProjectReload.Cancel": "Отмена",
     "OpenRefSourceProjects.ProjectReload.Cancel": "Отмена",
@@ -3157,6 +3176,7 @@
     "ProjectMissingGameFeatureData": "Проект '{0}' не работает, потому что в нём нет GameFeatureData.\n\nИсправить автоматически?",
     "CloseRefSourceProjects.ProjectReload.Msg": "Необходимо перезагрузить проект '{0}', чтоб закрыть исходный проект с внешним контентом\n\nВ качестве альтернативы вы можете оставить исходный проект с внешним контентом открытым и не открывать его автоматически при следующем открытии '{0}'",
     "OpenRefSourceProjects.ProjectReload.Msg": "Необходимо перезагрузить проект '{0}', чтоб закрыть исходный проект с внешним контентом",
+    "VKProjectFileExists": "В этом месте уже есть проект\n{0}",
     "ProjectDependencyCycle": "Обнаружена циклическая зависимость в проекте '{0}'",
     "ProjectDependencyCycles": "Обнаружены циклические зависимости в проекте:",
     "VKProjectFolderIsFile": "Недопустимая папка проекта. Мешает следующий файл:\n{0}",
