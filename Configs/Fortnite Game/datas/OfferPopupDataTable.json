@@ -439,7 +439,7 @@
           "Namespace": "",
           "Key": "2C72E6254A90740BA8BC67A8577A0AE8",
           "SourceString": "Kratos has arrived on the island.",
-          "LocalizedString": "Кратос прибыл на остров. Завершите матч на PS5 и получите стиль «Кратос в броне»!"
+          "LocalizedString": "Кратос прибыл на остров."
         }
       },
       "promodesc2": {
@@ -447,7 +447,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
         }
       },
       "historianpickaxedesc": {
@@ -1407,7 +1407,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль!"
+          "LocalizedString": "Маркус прибыл на остров."
         }
       },
       "promodesc16": {
@@ -1415,7 +1415,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming или на Xbox Series X|S и получите матово-чёрный стиль для Маркуса!"
+          "LocalizedString": "Маркус и Кейт прибыли на остров."
         }
       },
       "promodesc17": {
@@ -3293,7 +3293,7 @@
       "o2": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "6D5D74184C91650E78B702BB914497D4",
+          "Key": "7970035E4A26E53E5E5160A61D284D5C",
           "SourceString": "Includes car, car variants, and customizable decals! Items in this bundle are restricted to the Octane ZSR car body. This Car will fill the Sports Car slot in relevant Fortnite experiences.",
           "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Предметы из этого комплекта совместимы только с кузовом Octane ZSR. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
@@ -3301,17 +3301,41 @@
       "thornededen": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "2E35E2E3421646A83DB55EB78B2708CE",
-          "SourceString": "While sprinting or jumping, flower petals fall from Briar's shoulders",
-          "LocalizedString": "При ускорении и прыжках с плеч Тернии падают лепестки"
+          "Key": "A41A8D414A296AD4B063C3B7312CD6C3",
+          "SourceString": "While sprinting or jumping, flower petals fall from Briar's shoulders!",
+          "LocalizedString": "При ускорении и прыжках с плеч Тернии падают лепестки!"
         }
       },
       "sweetcuddle": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "CC1CCC9042E1B8FB166A11903D059CA0",
+          "Key": "06DC9AB04C05C94D2803219285B9706E",
           "SourceString": "Customize Colors!",
           "LocalizedString": "Меняйте цвета!"
+        }
+      },
+      "sweetcuddledouble": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8B4038254112F1FA7505EFB6EE0F247E",
+          "SourceString": "Wrap matches Outfit colors when wearing the Gummi Team Leader Outfit!",
+          "LocalizedString": "При использовании экипировки Капитана команды по мармеладкам цвет обёртки будет соответствовать цвету экипировки."
+        }
+      },
+      "redline": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7405E7ED4245FA58B93F418F0508E34B",
+          "SourceString": "Includes car, car variants, and customizable decals! Items in this bundle are restricted to the Redline car body. This Car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Предметы из этого комплекта совместимы только с кузовом Redline. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "incredibile": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6C15CB9840525E6936F7849424EFD598",
+          "SourceString": "Items in this bundle are restricted to The Incredibile car body. This car can only use the decals included in this bundle. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Предметы из этого комплекта совместимы только с кузовом «Исключительная». С этой машиной можно использовать только декали из этого комплекта. Она будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
       }
     }

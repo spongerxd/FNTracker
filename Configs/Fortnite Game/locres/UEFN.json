@@ -6,6 +6,7 @@
     "E66B95C14AA5D69844449FA4F501177F": "Пример, демонстрирующий модули, компоненты и заготовки Scene Graph.",
     "B7879AA7427DD4AF5498AE8C6A01FF11": "Пример, который включает в себя ресурсы, необходимые для работы с последними инструментами создания анимации, включая Регулятор каркаса, анимации, видеоряд, воспроизводимый с помощью устройства последовательности внутриигрового видео, и демонстрацию устройства анимированной сетки.",
     "2393D5DA48FED3872AE34E84E4F22189": "Анимация",
+    "86CC630C4B86C9C1294951A09CE11B81": "Создайте собственную версию деревни, используя этот шаблон в качестве основы.",
     "A11CB2294FA6334D14FE07A4744F2DCF": "Отменить",
     "126CC7464861D9BFFFC26EB1C1CC81C3": "Проверить ещё раз",
     "2724200242C7F73DF9199C9BCE3B00A6": "Установить флажок",
@@ -66,6 +67,7 @@
     "391405CC46B2F3A26F7747B2217E1705": "Введите текст, чтобы начать поиск по названию состояния…",
     "33BB67A04898FBB5CC888DA9D468D58D": "Визуальные эффекты",
     "8F4E441F4D29EF4779A201A91F090621": "Устройство Verse",
+    "5FAD2D6A4357669144FFDF8AB65EBC1C": "Стартовый \"Деревня\"",
     "3C9C06E4403062399419DB98CFA944F9": "Посетите демонстрацию функциональных возможностей Valkyrie и ознакомьтесь с возможностями этого набора инструментов.",
     "39D7D94B400B907EF68A91B996109915": "Определяет необходимость показывать непрочитанные новости при запуске или постоянно",
     "5E83F86A41FD565912384293DB9FAA84": "^ Добавить родительский элемент",
@@ -188,6 +190,11 @@
     "CommandletInfo": "После изменения значения карты шаблона или точек карты шаблона в файле карты, вам нужно будет сгенерировать инструкции по сборке, чтобы просмотреть свои изменения.\nВы можете сгенерировать инструкции по сборке, запустив файл EXE редактора со следующей командной строкой: \"-run=FortBuildingInstructionsCommandlet\".\nЗапуск файла EXE редактора с такой командной строкой не откроет редактор, но запустит вместо этого консольную программу, которая повторно создаст все инструкции по сборке и удалит любые инструкции по сборке, претерпевшие изменения.",
     "CommandletInfoRowName": "Информация консольной программы"
   },
+  "CatalogFulfillment": {
+    "MissingTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} не содержит допустимых токенов для передачи. Убедитесь, что он передаёт токен типа {1}",
+    "InvalidTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который не может быть преобразован в ресурс. Исправьте или удалите идентификатор этого шаблона.",
+    "ImproperTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который преобразовывается в ресурс {2}, используя неподходящий подкласс {3}. Убедитесь, что вместо этого передаётся токен типа {4}"
+  },
   "CharacterModifier_CosmeticSpawn": {
     "MissingCharacterBlueprintDefinition": "Отсутствует схема персонажа в модификаторе появления!",
     "MissingCharacterCosmeticDefinition": "Отсутствует или не найдено косметическое определение персонажа в модификаторе создания!"
@@ -228,7 +235,8 @@
   },
   "ContentResolver": {
     "ResolveVersePathAttempt": "Попытка преобразовать путь в Verse {VersePath} для платформы {PlatformName} {Role}",
-    "ResolveVersePathComplete": "Выполнено разрешение ссылочного кода {LinkId} с использованием поставщика {ProviderName} для платформы {PlatformName} {Role}, ошибка {Error}",
+    "ResolveVersePathCompleteError": "Выполнено разрешение ссылочного кода {LinkId} с использованием поставщика {ProviderName} для платформы {PlatformName} {Role}, ошибка {Error}",
+    "ResolveVersePathComplete": "Выполнено разрешение ссылочного кода {LinkId} с использованием поставщика {ProviderName} для платформы {PlatformName} {Role}",
     "ExecResolveIDError": "Ошибка при преобразовании параметра {PlatformName} роли {Role} клиента {ID}, errordetails {Error}",
     "ExecResolveLinkError": "Ошибка разрешения параметра {LinkCode}, errordetails {Error}",
     "ExecResolveVersePathError": "Ошибка разрешения параметра {VersePath}, errordetails {Error}",
@@ -347,8 +355,16 @@
   },
   "DynamicUIEditorTypes": {
     "ContextMenuSection_Actions": "Действия",
+    "Allowed": "Допустимо",
+    "CurrentPanelState": "Текущее состояние",
+    "Details": "Сведения",
+    "DynamicUIEditor": "Редактор динамического интерфейса",
+    "DynamicUIPanel": "Панель динамического интерфейса",
     "DynamicUIEditorCommands": "Команды редактора DynamicUI",
-    "ContextMenu.OpenWidgetBlueprint": "Редактировать {0}"
+    "ContextMenu.OpenWidgetBlueprint": "Редактировать {0}",
+    "Preload": "Выполнить предварительную загрузку",
+    "Scenes": "Сцены",
+    "Unallowed": "Запрещено"
   },
   "DynamicUIInspector": {
     "DebugDisplayMode": "Режим отладки отображения",
@@ -455,6 +471,9 @@
   },
   "FAthenaRewardItemReferenceCustomization": {
     "CategoryText": "Категория инициализации"
+  },
+  "FDynamicUIEditorToolkit": {
+    "FDynamicUIEditorToolkit_ToolTipText": "Редактор, используемый для модификации сцены динамического интерфейса"
   },
   "FeedbackHandleCustomization": {
     "EventLabel": "Событие",
@@ -631,6 +650,7 @@
     "DataAssetDirectoryExportTab": "Инструменты экспорта DAD",
     "FortMakeDesignAssetTab": "Инструменты создания дизайна",
     "MakeDesignAssetButton": "Инструменты создания дизайна",
+    "McpBackendSelectorSelectBackend_Tooltip": "Разрешить выбор сервера для учётных записей",
     "KeyExportError": "Не удалось полностью экспортировать ключи шифрования. См. подробности в журнале.",
     "EncryptionNotConfiguredError": "Кажется, не удалось сконфигурировать шифрование.",
     "ExportAchievementsTitle": "Экспорт достижений…",
@@ -687,6 +707,7 @@
     "PickZoneDescription": "Выбрать зону Fortnite, в которую выполняется загрузка",
     "PickZoneButton": "Выбор зоны",
     "QuestBundleCreator": "Автор пакета задания",
+    "QuestCopier": "Копировщик заданий",
     "QuestTools": "Инструменты задания",
     "LetoRemoveButton": "Удалить",
     "LetoRemoveDescription": "Удаляет игрока в режиме разделения экрана в текущем сеансе игры в редакторе",
@@ -977,6 +998,7 @@
     "BlueprintCompilation.Info.ValidationSkipped": "Схема пропустила проверку компиляции, так как её статус компиляции был нескомпилированным. (FortValidator_BlueprintCompilation)",
     "StaticMesh_CannotAccessMeshDescription": "Не удалось получить доступ к HiResMeshDescription для статичной сетки",
     "PlaylistAthenaValidator_CompetitivePointClampLte0": "Competitive Point Clamp ({0}) не может быть <= 0, если Is Tournament имеет значение TRUE.",
+    "RestrictedNames_NameFail": "Содержит недопустимое название '{0}'. Переименуйте или переместите этот ресурс, чтобы путь к нему не содержал этого названия.",
     "PlaylistAthenaValidator_EnableDynamicBotBackfillTrue": "Enable Dynamic Bot Backfill не может иметь значение TRUE, если Use Player Rating имеет значение FALSE.",
     "FortValidator_Blueprints.ReferencerErrors": "Обнаружены ошибки при загрузке копии ресурса для проверки",
     "FortValidator_MaterialFunction.ReferencerErrors": "Обнаружены ошибки при ссылке на ресурс",
@@ -1052,9 +1074,9 @@
     "DataValidation.LoadWarnings": "Предупреждения при загрузке ресурса {0}",
     "ValidationError.GameFeature_Optional": "но не является необязательной ссылкой. Задайте для 'Optional' значение 'true'. Это необходимо для GameFeaturePlugins категории 'Root'.",
     "AnimationBlueprint_DefaultMeshSimulation": "ресурс физики сетки по умолчанию",
-    "ValidationError.GameFeature_NewerReleaseDepends": "зависит от",
     "ValidationError.GameFeature_NoRedistDepends": "зависит от",
-    "ValidationError.GameFeature_NoRootAssociation": "не связан ни с одним корневым GameFeaturePlugin. Добавьте {0} в соответствующие корневые элементы в качестве новой зависимости. Все плагины GameFeaturePlugin должны быть связаны как минимум с одним корневым элементом, если они не помечены как EditorOnly, NoRedist",
+    "ValidationError.GameFeature_NewerReleaseDepends": "зависит от шифрованного плагина",
+    "ValidationError.GameFeature_NoRootAssociation": "не связан ни с одним корневым GameFeaturePlugin. Добавьте {0} в соответствующие корневые элементы в качестве новой зависимости. Все плагины GameFeaturePlugin должны быть связаны как минимум с одним корневым элементом, если они не помечены как EditorOnly, NoRedist или Encrypted",
     "ValidationError.GameFeature_EditorOnlyDepends": "не предназначено только для редактора, но зависит от",
     "ValidationError.GameFeature_SunsetUnsetDepends": "не удаляется из проекта, но зависит от",
     "ValidationError.GameFeature_EditorOnly": "что предназначается только для редактора. В результате {0} активируется в тех версиях выпуска, где этого не должно происходить. Удалить эту зависимость, выбрать для {1} режим 'только для редактора', или отключите для {0} режим 'только для редактора'.",
@@ -1446,6 +1468,20 @@
     "SelectBundleTemplate": "Выбрать шаблон пакета задания",
     "UpdateButtonText": "Обновить"
   },
+  "QuestCopier": {
+    "ColumnHeader_State": "Название скопированного задания",
+    "CopyButtonText": "Скопировать задания",
+    "ColumnHeader_ExpectedObject": "Ожидаемый сезонный объект",
+    "ColumnHeader_FoundObject": "Найден сезонный объект задания",
+    "QuestCopierActions": "Действия с копировщиком заданий",
+    "QuestCopierSetings": "Настройки копировщика заданий",
+    "ColumnHeader_Name": "Название задания",
+    "RemoveQuestLabel": "Удалить выбранные задания",
+    "RemoveQuestTooltip": "Удалить выбранные в данный момент задания из списка.",
+    "ColumnHeader_ExpectedObjectStatus": "Статус",
+    "UnableToSetFortReleaseVersion": "Невозможно задать ReleaseVersion (версию для распространения) {0} для задания {1}, так как её не существует. Для ReleaseVersion будет задано значение \"Будущая\".",
+    "ViewGameplayTags": "Посмотреть теги игрового процесса"
+  },
   "QuestEditorHeader": {
     "CreateNewQuestAsset": "Создать новое задание",
     "MakeNextInTheSeries": "Создать следующий в серии"
@@ -1484,6 +1520,11 @@
     "LocationGridSnap_ToolTip": "Задать значение привязки к решётке",
     "CurrentGridSnapValue": "Значение привязки",
     "Width": "Ширина"
+  },
+  "SDynamicUIEditorSceneList": {
+    "ContextMenuSection_Actions": "Действия",
+    "AddScene": "Добавить сцену",
+    "ContextMenu.RemoveScene": "Удалить {0}"
   },
   "SearchableStringComboBox": {
     "Input": "Ввод"
@@ -2271,7 +2312,8 @@
     "ErrorGatheringProjects": "Ошибка при сборе проектов",
     "FoundProject": "Найдено: '{0}'",
     "NoProjectToArchive": "Проекты для архивации не найдены",
-    "GatherProjects": "Сбор проектов…"
+    "GatherProjects": "Сбор проектов…",
+    "GatheringWorkspaces": "Сбор рабочих пространств…"
   },
   "ValkyrieConvertIslandProjectFlow": {
     "ConvertedBeforeWarning_Cancelled": "Отменено при получении предупреждения о выполненном ранее преобразовании острова.",

@@ -246,6 +246,7 @@
     "C6C496FB4F79B55279A1FDA7745EC038": "Оазис модификаций",
     "9EDB32BB4916E804B2B71AA04CA3CB77": "Утро",
     "2E8F8B7141E5904F9925A0A5F5E87E71": "Спасательная операция",
+    "2321C3E04BB8D9FBE235B1AED8A88971": "Множитель",
     "F9F65E87479161D9020AB7A1347412DC": "Множитель",
     "E70688824ECD7596B2B21EBAD140FAEE": "Умножить",
     "CC5AF1854201E62A718DE484BBE97413": "Музыка",
@@ -308,7 +309,6 @@
     "89DB8833489FDD9CA44F1C9DBCADDDC6": "Восстань, стрелок. Неприятель что-то замышляет.",
     "22648BFE4EF6F4B2FFE97C9B1E49A9C6": "Магазин у дороги",
     "C37885C4410D508E61073D9C6449F85F": "Каменный особняк",
-    "86CBAC5942E2B47D2E14478F116B908E": "Вращение",
     "1D8E23B742FB9265064BBC85F6046193": "Грубость",
     "4A32E94F4E43DC4C082269B39FDCA822": "Грубость",
     "CF65FB4C442CF008FC58EA9C1F7F659D": "Грубость",
@@ -471,6 +471,9 @@
     "8DA190F24BCFD2B3FD9E3FAE09B893B2": "{a} : BP_CalendarEventBase — NavMesh: готово! Попытка загрузки слоёв события.",
     "7E4D45834548B91FDF1771993AD160FC": "{a} : BP_CalendarEventBase — Ожидание NavMesh: готово"
   },
+  "MaterialLayersFunctions": {
+    "Background": "Фон"
+  },
   "UserOptionDefinition": {
     "Agency_IntBalcony_Inr_Crn_C.LabelOverride.CustomCategory": "Скрыто",
     "Agency_IntBalcony_Str_C.LabelOverride.CustomCategory": "Скрыто",
@@ -566,7 +569,6 @@
     "BP_Blockout_Balcony_Rail_C_A_C.LabelOverride.CustomCategory": "Скрыто",
     "BP_Blockout_Corner_A_A_C.LabelOverride.CustomCategory": "Скрыто",
     "BP_Blockout_Floor_A_A_C.LabelOverride.CustomCategory": "Скрыто",
-    "BP_Blockout_Floor_A_A_NoSnap_C.LabelOverride.CustomCategory": "Скрыто",
     "BP_Blockout_Floor_A_B_C.LabelOverride.CustomCategory": "Скрыто",
     "BP_Blockout_Floor_Curved_A_A_C.LabelOverride.CustomCategory": "Скрыто",
     "BP_Blockout_Floor_Curved_B_A_C.LabelOverride.CustomCategory": "Скрыто",

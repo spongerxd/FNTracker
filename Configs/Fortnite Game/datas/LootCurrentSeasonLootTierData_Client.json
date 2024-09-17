@@ -4244,6 +4244,64 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_NPC_SMG_M;LPKG:World.PKG.NPC.SMGM.Loot"
       },
+      "Loot_NPC_BikeMold_01": {
+        "TierGroup": "Loot_NPC_BikeMold",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "World.PKG.NPC.BikeMold",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 3.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_NPC_BikeMold;LPKG:World.PKG.NPC.BikeMold"
+      },
       "Loot_HeistHench_Shotgun_01": {
         "TierGroup": "Loot_HeistHench_Shotgun",
         "Weight": 0.0,
@@ -15507,7 +15565,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.S26.Apple",
+        "LootPackage": "NPCItemList.S26.Apple",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 5.0,
         "LootPackageCategoryWeightArray": [
@@ -15552,7 +15610,7 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S26_Apple;LPKG:NPCItemPKG.S26.Apple"
+        "Annotation": "TG:LTG_NPC_Item_S26_Apple;LPKG:NPCItemList.S26.Apple"
       },
       "LTG_NPC_Item_S26_BushGrenade_01": {
         "TierGroup": "LTG_NPC_Item_S26_BushGrenade",
@@ -15565,7 +15623,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.S26.BushGrenade",
+        "LootPackage": "NPCItemList.S26.BushGrenade",
         "LootPreviewPackage": "None",
         "NumLootPackageDrops": 5.0,
         "LootPackageCategoryWeightArray": [
@@ -15610,7 +15668,7 @@
         "GameplayTags": [],
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_S26_BushGrenade;LPKG:NPCItemPKG.S26.BushGrenade"
+        "Annotation": "TG:LTG_NPC_Item_S26_BushGrenade;LPKG:NPCItemList.S26.BushGrenade"
       },
       "LTG_NPC_Item_S26_SuppressedPistol.C_01": {
         "TierGroup": "LTG_NPC_Item_S26_SuppressedPistol.C",
@@ -24892,64 +24950,6 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Item_MoonFlax_Shotgun_Combat_VR;LPKG:NPCItemPKG.MoonFlax.Shotgun.Combat.VR"
       },
-      "LTG_NPC_Item_HighTower_Assault_Tomato_VR_01": {
-        "TierGroup": "LTG_NPC_Item_HighTower_Assault_Tomato_VR",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG.HighTower.Assault.Tomato.VR",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 4.0,
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          3,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredGameplayTags": [],
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Item_HighTower_Assault_Tomato_VR;LPKG:NPCItemPKG.HighTower.Assault.Tomato.VR"
-      },
       "LTG_NPC_Item_Ashton_Shield_UR_01": {
         "TierGroup": "LTG_NPC_Item_Ashton_Shield_UR",
         "Weight": 1.0,
@@ -25297,6 +25297,64 @@
         "RequiredGameplayTags": [],
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Item_FlexLegend_SMG_MicroDual_UR;LPKG:NPCItemPKG.FlexLegend.SMG.DualMicro.UR"
+      },
+      "LTG_NPC_Item_HighTower_Assault_Tomato_VR_01": {
+        "TierGroup": "LTG_NPC_Item_HighTower_Assault_Tomato_VR",
+        "Weight": 0.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG.HighTower.Assault.Tomato.VR",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDrops": 4.0,
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredGameplayTags": [],
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Item_HighTower_Assault_Tomato_VR;LPKG:NPCItemPKG.HighTower.Assault.Tomato.VR"
       }
     }
   }
