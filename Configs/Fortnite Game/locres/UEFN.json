@@ -204,6 +204,7 @@
     "CommandletInfoRowName": "Информация консольной программы"
   },
   "CatalogFulfillment": {
+    "MissingTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} не содержит допустимых токенов для передачи. Убедитесь, что он передаёт хотя бы 1 токен типа {1}",
     "InvalidTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который не может быть преобразован в ресурс. Исправьте или удалите идентификатор этого шаблона.",
     "ImproperTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который преобразовывается в ресурс {2}, используя неподходящий подкласс {3}. Убедитесь, что вместо этого передаётся токен типа {4}"
   },
@@ -454,12 +455,15 @@
     "ExternalContentNoPublicModule": "Контент не имеет общедоступного модуля",
     "ExternalContentNotPublished": "Контент не опубликован",
     "CannotFindArtifact": "Не удалось найти дефект: {0}",
+    "UnableToResolveContentUnknownError": "Не удалось разрешить контент: неизвестная ошибка",
     "UnableToResolveContent": "Не удалось разрешить контент: {0}",
     "DownloadingExternalContent": "Загрузка внешнего контента",
     "ErrorLoadingPlugin": "Ошибка загрузки плагина {0}: {1}",
     "FailedLoadExternalContent": "Не удалось загрузить внешний контент",
     "FetchingExternalContentInfo": "Получение информации о внешнем контенте",
+    "InvalidExternalContentVersePath": "Неправильный формат пути к внешнему контенту Verse\n{0}",
     "InvalidVersePathFormat": "Путь Verse имеет некорректный формат",
+    "MissingContentResolver": "Внутренняя ошибка: отсутствует арбитр контента",
     "LoadedExternalContent": "Загружен внешний контент",
     "LoadingExternalContent": "Загрузка внешнего контента",
     "EmptyResolvedContent": "Получен пустой преобразованный контент",
@@ -481,7 +485,8 @@
     "CategoryText": "Категория инициализации"
   },
   "FDynamicUIEditorToolkit": {
-    "FDynamicUIEditorToolkit_ToolTipText": "Редактор, используемый для модификации сцены динамического интерфейса"
+    "FDynamicUIEditorToolkit_ToolTipText_NoScene": "Редактор, используемый для модификации сцены динамического интерфейса",
+    "FDynamicUIEditorToolkit_ToolTipText": "Сцены:{0}"
   },
   "FeedbackHandleCustomization": {
     "EventLabel": "Событие",
@@ -647,6 +652,7 @@
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
     "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
+    "DynamicBRLevels": "Уровни Королевской битвы",
     "AssetsStillScanningError_ExportAvatars": "Невозможно экспортировать аватары, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
     "AssetsStillScanningError_Synchronous": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов.",
     "AssetsStillScanningError_ExportKeyChain": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
@@ -667,6 +673,7 @@
     "DataAssetDirectoryExportTab": "Инструменты экспорта DAD",
     "FortMakeDesignAssetTab": "Инструменты создания дизайна",
     "MakeDesignAssetButton": "Инструменты создания дизайна",
+    "MakeBRLevelsMenu": "Редактировать",
     "McpBackendSelectorSelectBackend_Tooltip": "Разрешить выбор сервера для учётных записей",
     "KeyExportError": "Не удалось полностью экспортировать ключи шифрования. См. подробности в журнале.",
     "EncryptionNotConfiguredError": "Кажется, не удалось сконфигурировать шифрование.",
@@ -936,7 +943,10 @@
     "CreateNewQuestAsset": "Создать новое задание в Fortnite"
   },
   "FortQuestItemDefComponentsWidget": {
-    "OnItemComponentStateChanged": "Изменить {0}"
+    "OnItemComponentStateChanged": "Изменить {0}",
+    "ComponentActions": "Действия с компонентом",
+    "PasteComponentLabel": "Вставить компонент",
+    "PasteComponentTooltip": "Вставить компонент из буфера обмена"
   },
   "FortQuestLog": {
     "ClearLog": "Удалить",
@@ -954,12 +964,17 @@
     "SetCvarForWindow": "Настроить команды ведения журнала"
   },
   "FortQuestObjectiveEditor": {
+    "ComponentActions": "Действия с компонентом",
+    "CopyComponentTooltip": "Копирует компонент в буфер обмена",
     "CopyObjectiveTooltip": "Копирует цель в буфер обмена",
+    "CopyComponentLabel": "Копировать компонент",
     "CopyObjectiveLabel": "Копировать цель",
     "ObjectiveActions": "Действия с целью",
-    "ObjectiveComponentMissing": "Цель вставлена без расширения данных для компонента задания: {0} потому что она не добавлена в задание. В результате данные расширения были утеряны.",
+    "ObjectiveComponentMissing": "Цель вставлена без расширения данных для компонента задания: {0}; для сохранения целостности данных компонент был добавлен автоматически.",
     "ObjectiveIndex": "Цель {0}",
+    "PasteComponentLabel": "Вставить компонент",
     "PasteObjectiveLabel": "Вставить цель",
+    "PasteComponentTooltip": "Вставить компонент из буфера обмена",
     "ObjectiveFilterPasteTooltip": "Вставить цель из буфера обмена"
   },
   "FortQuestObjectiveFiltersEditor": {
@@ -1582,6 +1597,7 @@
     "DialogTitle": "Добавить внешний контент",
     "CancelButton": "Отменить",
     "UserNotLoggedIn": "Не удалось запросить внешний контент: пользователь не вошёл в систему",
+    "InvalidVersePath": "Недопустимый путь Verse\n\n{0}",
     "VersePathHint": "Путь Verse"
   },
   "ScriptDeviceActorDetails": {
@@ -2332,15 +2348,6 @@
     "ActivityInvalidState": "Неизвестно",
     "UnknownChannel": "Неизвестный канал"
   },
-  "ValkyrieActorContextMenu": {
-    "ConnectedPlayerList": "Подключившиеся игроки",
-    "NoPlayersConnected.Label": "Нет подключившихся игроков",
-    "NoPlayersConnected.Tooltip": "Нет игроков, подключившихся к телепорту",
-    "PlayerNumber": "Игрок {0} ({1})",
-    "Teleport.Label": "Телепортировать",
-    "TeleportLabel": "Телепортировать",
-    "Teleport.Tooltip": "Подключившийся игрок телепортируется в место, где находился курсор при нажатии"
-  },
   "ValkyrieActorDetails": {
     "AddEntityComponent": "Добавить компонент",
     "NewScriptComponentNoProjectRoot": "Невозможно создать новый компонент сценария Verse — не удалось найти корневую папку проекта",
@@ -2423,6 +2430,7 @@
     "ConversionWarningTitle": "Преобразовать остров",
     "CreatedProjectIsInvalid": "Созданный проект недействителен",
     "InvalidProjectFilePath": "Не удалось проверить проект, расположенный в \"{0}\" под названием \"{1}\": {2}",
+    "ExperimentalIslandWarning": "Импортированы экспериментальные устройства. Проект нельзя опубликовать, если он включает эти устройства.",
     "InvalidProjectDocument": "Предоставлен недопустимый документ проекта при попытке преобразовать проект острова. Сетевые данные необходимы для получения информации об острове для этого проекта.",
     "InvalidProjectWhenSyncingWithContentService": "Неверный проект при попытке синхронизации со службой управления контентом для применения обновлений к документам проекта",
     "InvalidProjectWhenUpdatingMetadata": "Недопустимый проект при попытке обновить метаданные после создания проекта.",
@@ -2443,7 +2451,7 @@
   },
   "ValkyrieEditor": {
     "ApplyingPermissions": "Идёт применение разрешений…",
-    "BlankTemplateMapDisplayNameText": "Пусто",
+    "BlankTemplateMapDisplayNameText": "Пустой",
     "VerseVersion.Dismiss": "Игнорировать",
     "VerseVersion.Dismiss.Tooltip": "Игнорировать дальнейшие уведомления об обновлении этого проекта до версии Verse {0}",
     "MemoryTestResults": "Результаты теста памяти",
@@ -2459,6 +2467,7 @@
     "RefSourceProjectsUploadFailed": "Не удалось загрузить исходные проекты с внешним контентом",
     "VerseVersion.RemindMeLater": "Напомнить позже",
     "RemoveEntityComponent": "Удалить компонент",
+    "PromptForDestructiveAPIAction": "Выбранный(-е) ресурс(-ы) имеют общедоступные ссылки в опубликованном проекте.\n{0}\n\nЧтобы продолжить это действие, вам необходимо создать новую ветку проекта.\nТам вы можете изменить общедоступные ресурсы перед публикацией в составе нового проекта",
     "SimpleTemplateMapDisplayNameText": "Простой уровень",
     "SimpleTemplateMapDescriptionText": "Пример простого уровня.",
     "BlankTemplateMapDescriptionText": "Простой уровень с двумя генераторами.",
@@ -2718,7 +2727,7 @@
     "ResetProjectBindingsConfirmation.Title": "Подтвердить новый проект",
     "ValkyriePlaySubMenuConnectToPlatform": "Подключиться к платформе",
     "PlayStatusWidget_Connected": "Подключён",
-    "PlayerListConnectedMembers": "Подключённые участники",
+    "ConnectedPlayerList": "Подключившиеся игроки",
     "PlayStatusWidget_ConnectedWSession": "Подключён, запущен сеанс",
     "PlayStatusWidget_ConnectionHeaderText": "Подключение:",
     "CreateBuild.PublishButton": "Продолжить",
@@ -2768,7 +2777,6 @@
     "LaunchSessionButtonLabel": "Запуск сеанса",
     "UploadingStatusBox": "Запуск сеанса",
     "ValkyrieTestOnLocalMachine_MenuEntry": "Запустить на этом компьютере",
-    "ValkyrieLiveEdit": "Редактирование по сети",
     "ValkyriePlaySubMenuLiveEdit": "Редактирование по сети",
     "ActiveButIncompleteButtonToolTip": "Редактирование по сети работает, но представлены не все изменения.",
     "RefreshButtonToolTipPaused": "Редактирование по сети приостановлено на время игрового тестирования.",
@@ -2797,6 +2805,8 @@
     "ValkyrieNews": "Новости",
     "PlayStatusWidget_NoAccountEditorSubsystem": "AccountEditorSubsystem не найдено",
     "PlayerListNoConnectedMembers": "Нет подключённых участников",
+    "NoPlayersConnected.Label": "Нет подключившихся игроков",
+    "NoPlayersConnected.Tooltip": "Нет игроков, подключившихся к телепорту",
     "ResetProjectBindingsConfirmation.No": "Нет, оставить как есть",
     "PlayStatusWidget_NotConnected": "Не подключён",
     "PlayerListNotConnected": "Не подключены к сеансу",
@@ -2839,6 +2849,7 @@
     "PushChangesButton": "Применить изменения",
     "PushVerseChangesButton": "Применить изменения Verse",
     "PushChangesButtonToolTip_PushRequired": "Для просмотра изменений требуется их применить.",
+    "QueryingIslandCode": "Запрашивается код острова…",
     "RefreshButtonToolTip": "Выгрузите файлы с изменениями на сервер ещё раз, чтобы они отображались в клиенте Fortnite.",
     "PlayStatusWidget_StatusRefresh": "Обновить, чтобы выгрузить файлы с изменениями.",
     "UnregisteredLevelDialog.RegisterButton": "Зарегистрировать уровень",
@@ -2864,8 +2875,8 @@
     "StartActionToolTipUploading": "Сеанс загружается, подождите, пожалуйста.",
     "StartActionToolTipPushingChanges": "Сеанс обновляется, подождите, пожалуйста.",
     "SetDefaultLevelDialog.Title": "Задать уровень по умолчанию",
+    "PlayerListConnectedMembersSubMenuCameraSet": "Установить вид от лица игрока в окне просмотра камеры",
     "SetDefaultLevelDialog.SetDefaultLevelButton": "Задать как уровень по умолчанию и начать игру",
-    "PlayerListConnectedMembersSubMenuCameraSet": "Перевести камеру к пользователю",
     "ShareWithTeam": "Поделиться с командой",
     "ShareWithTeamTooltip": "Поделиться с командой",
     "CreatorPortalNoTeamSubMenuCreateNewTeamToolTip": "Поделиться проектом с новой командой",
@@ -2880,7 +2891,11 @@
     "StartGameToolTip": "Запустите свою игру.",
     "ValkyrieStatusBoxGameStarting": "Идёт запуск игры",
     "ValkyrieStatusBoxGameStopping": "Идёт остановка игры…",
-    "PlayerListConnectedMembersSubMenuTeleportUser": "Телепортировать пользователя ко мне",
+    "ValkyriePlaySubMenuRegularSyncSection": "Синхронизация",
+    "Teleport.Label": "Телепортировать",
+    "TeleportLabel": "Телепортировать",
+    "PlayerListConnectedMembersSubMenuTeleportUser": "Телепортировать игрока в окно просмотра камеры",
+    "Teleport.Tooltip": "Подключившийся игрок телепортируется в место, где находился курсор при нажатии",
     "NonDefaultLevelDialog.Message": "Текущий уровень ({0}) не является уровнем по умолчанию ({1}).\n\nКакой уровень запустить?",
     "SetDefaultLevelDialog.Message": "В проекте GameFeatureData не задан уровень по умолчанию.\n\nЗадать {0} как уровень по умолчанию?",
     "MemorySamplingStateDialog.Success": "Последний подсчёт объёма памяти по этому проекту укладывается в выделенный объём.\n\n{0}\n\nС тех пор вы не внесли никаких изменений в свой проект, поэтому новый подсчёт не требуется.",
@@ -2906,6 +2921,8 @@
     "UploadToTestCode": "Выгрузить закрытую версию…",
     "UploadToTestCodeMessage": "Выгрузка закрытой версии…",
     "PlayStatusWidget_StatusSpinner": "Выгрузка…",
+    "ValkyrieUseTestClient": "Использовать клиент тестирования",
+    "ValkyrieUseTestClient_ToolTip": "Использовать клиент конфигурации тестирования",
     "UtilityMenu": "Утилита",
     "UtilityMenu_ToolTip": "Утилиты и виджеты для ускорения разработки.",
     "ValkyrieValidateProject_MenuEntry": "Проверка проекта",
@@ -2927,6 +2944,7 @@
     "CreateBuild.PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут.",
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionError": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}",
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionOverride": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
+    "PlayerNameNumber": "{0} (Игрок {1})",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
   },
   "ValkyrieFortniteTemplateItem": {
@@ -2940,6 +2958,8 @@
     "FeatureExamples.GameExamplesSection": "Примеры игр",
     "FeatureExamples.GettingStartedSection": "Начало работы",
     "IslandTemplatesCategory": "Шаблоны острова",
+    "BrandTemplates.LimeSection": "Острова LEGO®",
+    "IslandTemplates.ReloadSection": "Перезагрузка",
     "IslandTemplates.StarterIslandsSection": "Начальные острова",
     "BrandTemplates.MeltedIronSection": "Черепашки-ниндзя"
   },
@@ -2993,7 +3013,7 @@
     "LocalSkeinProjectAnnotationText": "У этого проекта имеется резервная копия в системе контроля версий Unreal Revision Control."
   },
   "ValkyrieModuleStagingContext": {
-    "PluginNameNoLongerMatchModuleId": "Название плагина '{0}' больше не соответствует идентификатору модуля в сервисе управления контентом '{1}'\n\nВ результате этого исходный контент проекта '{2}' больше нельзя использовать в редакторе в качестве замены сконвертированному в формат платформы внешнему контенту, который используется другим проектом\n\nВозможные решения этой проблемы:\n1. Вручную переименовать плагин для соответствия текущему идентификатору модуля и соответственно обновить файл uefnproject\n2. Если проект владеет модулем с тем же идентификатором, что и название плагина, связать их через раздел \"bindings\" (привязки) файла uefnproject"
+    "PluginNameNoLongerMatchModuleId": "Название плагина '{0}' больше не соответствует идентификатору его модуля сервиса управления контентом '{1}'\n\nПоэтому исходный контент проекта '{2}' больше не может заменить его опубликованный контент в рабочем процессе редактирования нескольких проектов\n\nВозможные решения этой проблемы:\n1. Переименуйте плагин вручную для приведения в соответствие с идентификатором его модуля и обновите файл uefnproject соответствующим образом\n2. Если в проекте есть идентификатор модуля, совпадающий с названием плагина, свяжите их, отредактировав раздел \"bindings\" файла uefnproject"
   },
   "ValkyrieOnlineAccount": {
     "AllowCreativeSettingInvalidMsg": "Недопустимое значение разрешения доступа к творческому режиму",
@@ -3018,12 +3038,20 @@
     "ChangesSaved": "Все изменения сохранены.",
     "CloseNoSave": "Закрыть",
     "WarningToast_Dismiss": "Игнорировать",
+    "IdleToast_Enabled": "Похоже, вы отошли. Отсчёт времени в рамках лимита поставлен на паузу.",
     "CreateTimeExpiredTitle": "Время истекло",
-    "WarningToast_SaveToPreventLoss": "Пожалуйста, сохраните проект.",
+    "CloseRevisionControl": "Открыть контроль версий",
+    "WarningToast_SaveToPreventLoss": "Сохраните свой проект.",
     "CloseSave": "Сохранить всё",
     "WarningToast_Save": "Сохранить всё",
-    "CreateTimeExpiredWithRevisionControlMessageText": "Время истекло. Сохраните проект и зафиксируйте изменения, чтобы не потерять данные при закрытии.",
-    "CreateTimeExpiredNoRevisionControlMessageText": "Время истекло. Сохраните проект, чтобы не потерять данные при закрытии.",
+    "IdleToast_Disabled": "Отсчёт времени в рамках лимита возобновлён.",
+    "WarningToast_NoTimeLeft": "У вас не осталось времени. Теперь вам будет предложено сохранить свой проект.",
+    "WarningToast_SecondsRemaining": "Осталось времени: {0} {1}.",
+    "WarningToast_MinutesRemaining": "Осталось времени: {0}:{1} {2}.",
+    "WarningToast_SaveToPreventLossUrgent": "Во избежание потерь данных вам будет предложено сохранить свой проект в ближайшее время.",
+    "WarningToast_LeadText": "Ваш родитель или опекун установил лимит времени на игру для вашей учётной записи в Fortnite и Unreal Editor для Fortnite (UEFN).",
+    "CreateTimeExpiredWithRevisionControlMessageText": "Ваше время истекло. Перед закрытием сохраните свой проект и зафиксируйте изменения, чтобы не потерять данные.",
+    "CreateTimeExpiredNoRevisionControlMessageText": "Ваше время истекло. Перед закрытием сохраните свой проект, чтобы не потерять данные.",
     "MinuteSingular": "Минута",
     "MinutePlural": "мин.",
     "SecondSingular": "Второй",
@@ -3296,7 +3324,8 @@
     "FailLoadBindings": "Не удалось загрузить привязки для проекта '{0}'",
     "FailSyncWithContentService": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом",
     "FailSyncWithContentServiceNotLoggedIn": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом, так как пользователь не вошёл в систему\nОшибка: {1}",
-    "UnauthorizedAccessDialog.No": "Нет, оставить как есть",
+    "UnauthorizedAccessDialog.No": "Оставить проект как есть",
+    "UnauthorizedAccessDialog.Yes": "Новый проект на творческом портале",
     "FValkyrieFortniteModerationStatus_ErrorNotificationContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале.",
     "FValkyrieFortniteModerationStatus_ErrorDialogContent": "Один или несколько из ваших ресурсов нарушают <a id=\"epic_guidelines\" href=\"https://www.epicgames.com/site/en-US/content-guidelines\" style=\"ValkyrieEditor.HyperlinkStyle\">Рекомендации по контенту Epic</>.\n\nСм. список таких ресурсов на Творческом портале. Вы должны обеспечить соответствие всех ваших ресурсов рекомендациям. Если нарушение не будет устранено, ваш проект будет заблокирован.",
     "OpenCreatorPortal": "Открывает Творческий портал",
@@ -3304,8 +3333,7 @@
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "UnauthorizedAccess.Title": "Несанкционированный доступ",
     "VersePathNotInProjectSysMetadata": "Путь в Verse не был успешно установлен в системных метаданных проекта",
-    "UnauthorizedAccessDialog.Yes": "Да, изменить проект",
-    "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту '{0}' в сервисе управления контентом.\n\nПривязать этот локальный проект к новому проекту в сервисе управления контентом?"
+    "UnauthorizedAccessDialog.Message": "У вас нет доступа к проекту '{0}' (идентификатор: {1}) на Творческом портале\n\nОбычно проект следует оставлять как есть и решить проблему, используя учётную запись создателя проекта, или став членом команды, владеющей проектом.\n\nТакже вы можете связать этот локальный проект с совершенно новым проектом на Творческом портале."
   },
   "ValkyrieProjectUtils": {
     "OpenRefSourceProjects.BrowseDialogTitle": "Перейти к файлу проекта '{0}'",
@@ -3353,8 +3381,10 @@
     "RemapLocalVsReferencedContent.ProjectIsNotOpened": "Проект должен быть открыт",
     "VkNewProjectNameInUse": "Название проекта уже используется",
     "RemapLocalVsReferencedContent.ProjectPluginsWithSameName": "Проектный плагин {0} игнорируется, так как имеет то же понятное название '{1}', что и плагин {2}",
+    "PreOpenReferencedContentSourceProjects.MissingProject": "Не удалось открыть исходный проект с внешним контентом '{0}', так как он не найден в локальном хранилище",
     "OpenRefSourceProjects.IncompatibleProject": "Исходный проект с внешним контентом '{0}' несовместим с опубликованным контентом",
     "OpenRefSourceProjects.IncompatibleProjects": "Исходный проект с внешним контентом не совместимы со своим опубликованным контентом:",
+    "PreOpenReferencedContentSourceProjects.MissingProjects": "Не удалось открыть исходный проект с внешним контентом, так как он не найден в локальном хранилище:",
     "RemapLocalVsReferencedContent.ModulesWithSameName": "Указанный модуль {0} игнорируется, так как его название '{1}' точно такое же, как у модуля {2}",
     "CloseRefSourceProjects.ProjectReload.Reload": "Перезагрузка",
     "OpenRefSourceProjects.ProjectReload.Reload": "Перезагрузка",
