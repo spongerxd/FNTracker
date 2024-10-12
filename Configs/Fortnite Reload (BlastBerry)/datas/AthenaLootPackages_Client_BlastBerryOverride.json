@@ -1,0 +1,582 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AthenaLootPackages_Client_BlastBerryOverride",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLootPackageData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "WorldList.AthenaAmmoLarge.07": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 2,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.05": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 2,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Rockets.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Rockets",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 2,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Rockets.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.07": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 2,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.01": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 8,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.02": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 0.8,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 30,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.03": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 1,
+        "MaxWorldLevel": 1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.04": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 18,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 2,
+        "MaxWorldLevel": 2,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaMediumDuos",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.05": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 24,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 3,
+        "MaxWorldLevel": 3,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaMediumSquads",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoLarge.06": {
+        "LootPackageID": "WorldList.AthenaAmmoLarge",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 6,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoLarge.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.01": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 1.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 6,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.02": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 1.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.03": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 1.25,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 16,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaAmmoSmall.04": {
+        "LootPackageID": "WorldList.AthenaAmmoSmall",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 4,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaAmmoSmall.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Shells.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Shells",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 4,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Shells.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Light.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Light",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Light.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Medium.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 16,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 1,
+        "MaxWorldLevel": 1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Medium.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Medium.02": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 2,
+        "MaxWorldLevel": 2,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Medium.C0;Item:Ammo.AthenaMediumDuos",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Medium.03": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 18,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 3,
+        "MaxWorldLevel": 3,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Medium.C0;Item:Ammo.AthenaMediumSquads",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.MediumRevolver.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.MediumRevolver",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 12,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.MediumRevolver.C0;Item:Ammo.AthenaMediumRevolver",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Heavy.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 6,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Heavy.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.7,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 4,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.02": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 30,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.03": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.9,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 18,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 1,
+        "MaxWorldLevel": 1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.04": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.9,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 20,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 2,
+        "MaxWorldLevel": 2,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaMediumDuos",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.05": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.9,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 24,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": 3,
+        "MaxWorldLevel": 3,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaMediumSquads",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.06": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo",
+        "Weight": 0.25,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "Count": 6,
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredTag": "None",
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      }
+    }
+  }
+]
