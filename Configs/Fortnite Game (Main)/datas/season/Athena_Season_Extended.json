@@ -1,7 +1,7 @@
 [
   {
     "Type": "DataTable",
-    "Name": "Athena_Season31_Extended",
+    "Name": "Athena_Season32_Extended",
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
@@ -10,914 +10,1184 @@
       }
     },
     "Rows": {
-      "100": {
+      "70": {
         "XpPerLevel": 80000,
-        "UntilLevel": 101,
+        "UntilLevel": 71,
         "RewardItemAssetPerLevel": {
           "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
           "SubPathString": ""
         },
         "RewardItemCountPerLevel": 5
+      },
+      "71": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 72,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "72": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 73,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "73": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 74,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "74": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 75,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "75": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 76,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "76": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 77,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "77": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 78,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "78": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 79,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "79": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 80,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "80": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 81,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "81": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 82,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "82": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 83,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "83": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 84,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "84": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 85,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "85": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 86,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "86": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 87,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "87": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 88,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "88": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 89,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "89": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 90,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "90": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 91,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "91": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 92,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "92": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 93,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "93": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 94,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "94": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 95,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "95": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 96,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "96": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 97,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "97": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 98,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "98": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 99,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "99": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 100,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
+      },
+      "100": {
+        "XpPerLevel": 80000,
+        "UntilLevel": 101,
+        "RewardItemAssetPerLevel": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RewardItemCountPerLevel": 0
       },
       "101": {
         "XpPerLevel": 80000,
         "UntilLevel": 102,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "102": {
         "XpPerLevel": 80000,
         "UntilLevel": 103,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "103": {
         "XpPerLevel": 80000,
         "UntilLevel": 104,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "104": {
         "XpPerLevel": 80000,
         "UntilLevel": 105,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "105": {
         "XpPerLevel": 80000,
         "UntilLevel": 106,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "106": {
         "XpPerLevel": 80000,
         "UntilLevel": 107,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "107": {
         "XpPerLevel": 80000,
         "UntilLevel": 108,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "108": {
         "XpPerLevel": 80000,
         "UntilLevel": 109,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "109": {
         "XpPerLevel": 80000,
         "UntilLevel": 110,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "110": {
         "XpPerLevel": 80000,
         "UntilLevel": 111,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "111": {
         "XpPerLevel": 80000,
         "UntilLevel": 112,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "112": {
         "XpPerLevel": 80000,
         "UntilLevel": 113,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "113": {
         "XpPerLevel": 80000,
         "UntilLevel": 114,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "114": {
         "XpPerLevel": 80000,
         "UntilLevel": 115,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "115": {
         "XpPerLevel": 80000,
         "UntilLevel": 116,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "116": {
         "XpPerLevel": 80000,
         "UntilLevel": 117,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "117": {
         "XpPerLevel": 80000,
         "UntilLevel": 118,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "118": {
         "XpPerLevel": 80000,
         "UntilLevel": 119,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "119": {
         "XpPerLevel": 80000,
         "UntilLevel": 120,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "120": {
         "XpPerLevel": 80000,
         "UntilLevel": 121,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "121": {
         "XpPerLevel": 80000,
         "UntilLevel": 122,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "122": {
         "XpPerLevel": 80000,
         "UntilLevel": 123,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "123": {
         "XpPerLevel": 80000,
         "UntilLevel": 124,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "124": {
         "XpPerLevel": 80000,
         "UntilLevel": 125,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "125": {
         "XpPerLevel": 80000,
         "UntilLevel": 126,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "126": {
         "XpPerLevel": 80000,
         "UntilLevel": 127,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "127": {
         "XpPerLevel": 80000,
         "UntilLevel": 128,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "128": {
         "XpPerLevel": 80000,
         "UntilLevel": 129,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "129": {
         "XpPerLevel": 80000,
         "UntilLevel": 130,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "130": {
         "XpPerLevel": 80000,
         "UntilLevel": 131,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "131": {
         "XpPerLevel": 80000,
         "UntilLevel": 132,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "132": {
         "XpPerLevel": 80000,
         "UntilLevel": 133,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "133": {
         "XpPerLevel": 80000,
         "UntilLevel": 134,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "134": {
         "XpPerLevel": 80000,
         "UntilLevel": 135,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "135": {
         "XpPerLevel": 80000,
         "UntilLevel": 136,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "136": {
         "XpPerLevel": 80000,
         "UntilLevel": 137,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "137": {
         "XpPerLevel": 80000,
         "UntilLevel": 138,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "138": {
         "XpPerLevel": 80000,
         "UntilLevel": 139,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "139": {
         "XpPerLevel": 80000,
         "UntilLevel": 140,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "140": {
         "XpPerLevel": 80000,
         "UntilLevel": 141,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "141": {
         "XpPerLevel": 80000,
         "UntilLevel": 142,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "142": {
         "XpPerLevel": 80000,
         "UntilLevel": 143,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "143": {
         "XpPerLevel": 80000,
         "UntilLevel": 144,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "144": {
         "XpPerLevel": 80000,
         "UntilLevel": 145,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "145": {
         "XpPerLevel": 80000,
         "UntilLevel": 146,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "146": {
         "XpPerLevel": 80000,
         "UntilLevel": 147,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "147": {
         "XpPerLevel": 80000,
         "UntilLevel": 148,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "148": {
         "XpPerLevel": 80000,
         "UntilLevel": 149,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "149": {
         "XpPerLevel": 80000,
         "UntilLevel": 150,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "150": {
         "XpPerLevel": 80000,
         "UntilLevel": 151,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "151": {
         "XpPerLevel": 80000,
         "UntilLevel": 152,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "152": {
         "XpPerLevel": 80000,
         "UntilLevel": 153,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "153": {
         "XpPerLevel": 80000,
         "UntilLevel": 154,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "154": {
         "XpPerLevel": 80000,
         "UntilLevel": 155,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "155": {
         "XpPerLevel": 80000,
         "UntilLevel": 156,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "156": {
         "XpPerLevel": 80000,
         "UntilLevel": 157,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "157": {
         "XpPerLevel": 80000,
         "UntilLevel": 158,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "158": {
         "XpPerLevel": 80000,
         "UntilLevel": 159,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "159": {
         "XpPerLevel": 80000,
         "UntilLevel": 160,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "160": {
         "XpPerLevel": 80000,
         "UntilLevel": 161,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "161": {
         "XpPerLevel": 80000,
         "UntilLevel": 162,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "162": {
         "XpPerLevel": 80000,
         "UntilLevel": 163,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "163": {
         "XpPerLevel": 80000,
         "UntilLevel": 164,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "164": {
         "XpPerLevel": 80000,
         "UntilLevel": 165,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "165": {
         "XpPerLevel": 80000,
         "UntilLevel": 166,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "166": {
         "XpPerLevel": 80000,
         "UntilLevel": 167,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "167": {
         "XpPerLevel": 80000,
         "UntilLevel": 168,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "168": {
         "XpPerLevel": 80000,
         "UntilLevel": 169,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "169": {
         "XpPerLevel": 80000,
         "UntilLevel": 170,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "170": {
         "XpPerLevel": 80000,
         "UntilLevel": 171,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "171": {
         "XpPerLevel": 80000,
         "UntilLevel": 172,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "172": {
         "XpPerLevel": 80000,
         "UntilLevel": 173,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "173": {
         "XpPerLevel": 80000,
         "UntilLevel": 174,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "174": {
         "XpPerLevel": 80000,
         "UntilLevel": 175,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "175": {
         "XpPerLevel": 80000,
         "UntilLevel": 176,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "176": {
         "XpPerLevel": 80000,
         "UntilLevel": 177,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "177": {
         "XpPerLevel": 80000,
         "UntilLevel": 178,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "178": {
         "XpPerLevel": 80000,
         "UntilLevel": 179,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "179": {
         "XpPerLevel": 80000,
         "UntilLevel": 180,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "180": {
         "XpPerLevel": 80000,
         "UntilLevel": 181,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "181": {
         "XpPerLevel": 80000,
         "UntilLevel": 182,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "182": {
         "XpPerLevel": 80000,
         "UntilLevel": 183,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "183": {
         "XpPerLevel": 80000,
         "UntilLevel": 184,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "184": {
         "XpPerLevel": 80000,
         "UntilLevel": 185,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "185": {
         "XpPerLevel": 80000,
         "UntilLevel": 186,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "186": {
         "XpPerLevel": 80000,
         "UntilLevel": 187,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "187": {
         "XpPerLevel": 80000,
         "UntilLevel": 188,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "188": {
         "XpPerLevel": 80000,
         "UntilLevel": 189,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "189": {
         "XpPerLevel": 80000,
         "UntilLevel": 190,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "190": {
         "XpPerLevel": 80000,
         "UntilLevel": 191,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "191": {
         "XpPerLevel": 80000,
         "UntilLevel": 192,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "192": {
         "XpPerLevel": 80000,
         "UntilLevel": 193,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "193": {
         "XpPerLevel": 80000,
         "UntilLevel": 194,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "194": {
         "XpPerLevel": 80000,
         "UntilLevel": 195,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "195": {
         "XpPerLevel": 80000,
         "UntilLevel": 196,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "196": {
         "XpPerLevel": 80000,
         "UntilLevel": 197,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "197": {
         "XpPerLevel": 80000,
         "UntilLevel": 198,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "198": {
         "XpPerLevel": 80000,
         "UntilLevel": 199,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "199": {
         "XpPerLevel": 80000,
         "UntilLevel": 200,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "200": {
         "XpPerLevel": 80000,
         "UntilLevel": 201,
         "RewardItemAssetPerLevel": {
-          "AssetPathName": "/Game/Items/PersistentResources/AthenaBattleStar.AthenaBattleStar",
+          "AssetPathName": "",
           "SubPathString": ""
         },
-        "RewardItemCountPerLevel": 5
+        "RewardItemCountPerLevel": 0
       },
       "201": {
         "XpPerLevel": 80000,

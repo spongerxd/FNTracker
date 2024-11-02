@@ -20,1424 +20,1889 @@
         "AssetPathName": "/Game/Athena/UI/Challenges/Art/MapIcons/M_UI_MapMarker_Default.M_UI_MapMarker_Default",
         "SubPathString": ""
       },
-      "QuestOjectiveTypeToIconMap": [
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Kill",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Elim.UI_ChallengeIcon_Elim",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Damage",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Damage.UI_ChallengeIcon_Damage",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Visit",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Visit.UI_ChallengeIcon_Visit",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Land",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Land.UI_ChallengeIcon_Land",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Emote",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Emote.UI_ChallengeIcon_Emote",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Collect",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Collect.UI_ChallengeIcon_Collect",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Destroy",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Destroy.UI_ChallengeIcon_Destroy",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Heal",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Heal.UI_ChallengeIcon_Heal",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Interact",
-          "Value": {
-            "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Replay/T-Icon-Replay-Exclamation-L.T-Icon-Replay-Exclamation-L",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Key": "EFortQuestObjectiveStatEvent::Spray",
-          "Value": {
-            "AssetPathName": "/Game/Athena/UI/Challenges/Art/ChallengeTypeIcons/UI_ChallengeIcon_Mark.UI_ChallengeIcon_Mark",
-            "SubPathString": ""
-          }
-        }
-      ],
       "QuestTagToCategoryDataTable": {
         "ObjectName": "DataTable'QuestTagToCategoryDataRows'",
         "ObjectPath": "/Game/Quests/QuestTagToCategoryDataRows.0"
       },
       "CaptureCameraName": "MinimapCaptureCamera",
       "CaptureCameraData": {
-        "OrthoWidth": 299926,
-        "WorldOffset": {
-          "X": 8500.0,
-          "Y": 508.0
-        },
+        "OrthoWidth": 263601,
         "Rotation": -90.0
       },
       "ChallengeMapPoiData": [
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrainStation_02",
-            "SourceString": "Orchard Station",
-            "LocalizedString": "Садовая станция"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MilitaryCamp_1",
+            "SourceString": "E.G.O. Hangar",
+            "LocalizedString": "Ангар ЭГО"
           },
           "WorldLocation": {
-            "X": -70368.0,
-            "Y": -6528.0,
-            "Z": 5220.0
+            "X": -28640.0,
+            "Y": -93312.0,
+            "Z": -1752.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.TrainStation.02"
+            "TagName": "Athena.Location.UnnamedPOI.MilitaryCamp.1"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_VineyardTrainStation",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MilitaryCamp1",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_NitroDome",
-            "SourceString": "NITRODROME",
-            "LocalizedString": "НИТРОДРОМ"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Red",
+            "SourceString": "Red Steel Bridge",
+            "LocalizedString": "Красный стальной мост"
           },
           "WorldLocation": {
-            "X": -41552.0,
-            "Y": -13839.999,
-            "Z": 2584.0
+            "X": 35904.0,
+            "Y": -27648.0,
+            "Z": -1280.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.NitroDome"
+            "TagName": "Athena.Location.UnnamedPOI.BigBridge.Red"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_NitroDome",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgeRed",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BeachRentals",
+            "SourceString": "Rainbow Rentals",
+            "LocalizedString": "Радужные рейки"
+          },
+          "WorldLocation": {
+            "X": -37444.0,
+            "Y": -101388.0,
+            "Z": -1752.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BeachRentals"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BeachRentals",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BoatLaunch",
+            "SourceString": "Boat Launch",
+            "LocalizedString": "Воздушная пристань"
+          },
+          "WorldLocation": {
+            "X": -112704.0,
+            "Y": 3760.0,
+            "Z": 5312.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BoatLaunch"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BoatLaunch",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_RiskyReels",
+            "SourceString": "Risky Reels",
+            "LocalizedString": "Кошмарный кинотеатр"
+          },
+          "WorldLocation": {
+            "X": 31768.0,
+            "Y": 10888.0,
+            "Z": -832.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.RiskyReels"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_RiskyReel",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_ShipwreckCove",
+            "SourceString": "Shipwreck Cove",
+            "LocalizedString": "Бухта кораблекрушения"
+          },
+          "WorldLocation": {
+            "X": -90816.0,
+            "Y": 109888.0,
+            "Z": -2880.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.ShipwreckCove"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_ShipwreckCove",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BobsBluff",
+            "SourceString": "Bob's Bluff",
+            "LocalizedString": "Бездельник Боб"
+          },
+          "WorldLocation": {
+            "X": 95420.0,
+            "Y": 107156.0,
+            "Z": -2400.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BobsBluff"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BobsBluff",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_PleasantPark",
+            "SourceString": "PLEASANT PARK",
+            "LocalizedString": "ПРИЯТНЫЙ ПАРК"
+          },
+          "WorldLocation": {
+            "X": 61312.0,
+            "Y": -22656.0,
+            "Z": -1280.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.PleasantPark"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_PleasantPark",
           "ActiveDiscoverableBlodIds": [
-            15
+            1
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SocietyCemetery",
-            "SourceString": "The Cemetery",
-            "LocalizedString": "Кладбище"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_DirtyDocks",
+            "SourceString": "DIRTY DOCKS",
+            "LocalizedString": "ДРЯННЫЕ ДОКИ"
           },
           "WorldLocation": {
-            "X": 57176.0,
-            "Y": 33784.004,
-            "Z": 4756.0
+            "X": 13568.0,
+            "Y": 113920.0,
+            "Z": -1024.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.SocietyCemetery"
+            "TagName": "Athena.Location.POI.DirtyDocks"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_SocietyCemetery",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_DirtyDocks",
           "ActiveDiscoverableBlodIds": [
-            35
+            135
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SummitTemple",
-            "SourceString": "Summit Temple",
-            "LocalizedString": "Храм на вершине"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CliffsideRuinedHouses",
+            "SourceString": "Pristine Point",
+            "LocalizedString": "Плато покоя"
           },
           "WorldLocation": {
-            "X": -30260.0,
-            "Y": 93544.0,
-            "Z": 4756.0
+            "X": 108752.0,
+            "Y": 76384.0,
+            "Z": 224.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.SummitTemple"
+            "TagName": "Athena.Location.UnnamedPOI.CliffsideRuinedHouses"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CliffsideRuinedHouse",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FuelDepot",
-            "SourceString": "Megalo Depot",
-            "LocalizedString": "Депо Дона"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MountainVault",
+            "SourceString": "**REDACTED**",
+            "LocalizedString": "**ДАННЫЕ УДАЛЕНЫ**"
           },
           "WorldLocation": {
-            "X": -104408.0,
-            "Y": -16304.0,
-            "Z": 2584.0
+            "X": -74656.0,
+            "Y": 89472.0,
+            "Z": 5480.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.FuelDepot"
+            "TagName": "Athena.Location.UnnamedPOI.MountainVault"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MountainVault",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CharonsCrossing",
-            "SourceString": "Charon's Crossing",
-            "LocalizedString": "Переправа Харона"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Yellow",
+            "SourceString": "Yellow Steel Bridge",
+            "LocalizedString": "Жёлтый стальной мост"
           },
           "WorldLocation": {
-            "X": 17124.0,
-            "Y": -85092.0,
-            "Z": 5220.0
+            "X": -85328.0,
+            "Y": 61108.0,
+            "Z": -1280.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.CharonsCrossing"
+            "TagName": "Athena.Location.UnnamedPOI.BigBridge.Yellow"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgeYellow",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_AbandonedMansion",
-            "SourceString": "REBEL'S ROOST",
-            "LocalizedString": "ПРИБЕЖИЩЕ ПОВСТАНЦЕВ"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_Hatch_B",
+            "SourceString": "??",
+            "LocalizedString": "??"
           },
           "WorldLocation": {
-            "X": 88364.0,
-            "Y": -59552.0,
-            "Z": 3092.0
+            "X": -46084.0,
+            "Y": 122872.0,
+            "Z": -1116.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.AbandonedMansion"
+            "TagName": "Athena.Location.UnnamedPOI.Hatch.B"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_AbandonedMansion",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HatchB",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_WaterfallGorge",
+            "SourceString": "Gorgeous Gorge",
+            "LocalizedString": "Великий водопад"
+          },
+          "WorldLocation": {
+            "X": -25472.0,
+            "Y": 27072.0,
+            "Z": -832.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.WaterfallGorge"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_WaterfallGorge",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BaseCampHotel",
+            "SourceString": "Base Camp Hotel",
+            "LocalizedString": "Оперативная база «Отель»"
+          },
+          "WorldLocation": {
+            "X": -65240.0,
+            "Y": 110456.0,
+            "Z": 5480.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BaseCampHotel"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BaseCampHotel",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_DurrrBurger",
+            "SourceString": "Durrr Burger Food Truck",
+            "LocalizedString": "Мобильное кафе «ДаррБургер»"
+          },
+          "WorldLocation": {
+            "X": 87840.0,
+            "Y": -26460.0,
+            "Z": -964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.DurrrBurger"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_DurrBurgerTruck",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CrashedCargo",
+            "SourceString": "Crashed Cargo",
+            "LocalizedString": "Рассыпанный груз"
+          },
+          "WorldLocation": {
+            "X": 31632.0,
+            "Y": -115352.0,
+            "Z": -1408.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CrashedCargo"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CrashedCargo",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_AngryApples",
+            "SourceString": "The Orchard",
+            "LocalizedString": "Фруктовый сад"
+          },
+          "WorldLocation": {
+            "X": 61392.0,
+            "Y": 51576.0,
+            "Z": 176.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.AngryApples"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_AngryApples",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CaptainCarpsTruck",
+            "SourceString": "Cap'n Carp Delivery Truck",
+            "LocalizedString": "Грузовик доставки «Капитан Карп»"
+          },
+          "WorldLocation": {
+            "X": 16652.0,
+            "Y": 20552.0,
+            "Z": -1344.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CaptainCarpsTruck"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CaptainCarpsTruck",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MountF8",
+            "SourceString": "Mount F8",
+            "LocalizedString": "Гора F8"
+          },
+          "WorldLocation": {
+            "X": -108892.0,
+            "Y": 33200.0,
+            "Z": 17608.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MountF8"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MountF8",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_ClayPlug",
+            "SourceString": "SPAGHETTI GROTTO",
+            "LocalizedString": "ГРОТ «СПАГЕТТИ»"
+          },
+          "WorldLocation": {
+            "X": -10955.645,
+            "Y": 116613.805,
+            "Z": 512.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.ClayPlug"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_Grotto",
           "ActiveDiscoverableBlodIds": [
-            20
+            120
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SecretLab",
-            "SourceString": "Weapon X Lab",
-            "LocalizedString": "Лаборатория оружия Икс"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_WeepingWoods",
+            "SourceString": "WEEPING WOODS",
+            "LocalizedString": "РЫДАЮЩАЯ РОЩА"
           },
           "WorldLocation": {
-            "X": -3696.0,
-            "Y": 105900.0,
-            "Z": 10864.0
+            "X": -29696.0,
+            "Y": -36096.0,
+            "Z": 0.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.SecretLab"
+            "TagName": "Athena.Location.POI.WeepingWoods"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_ArchOlympus",
-            "SourceString": "Pantheon Path",
-            "LocalizedString": "Путь пантеона"
-          },
-          "WorldLocation": {
-            "X": -49516.0,
-            "Y": 31772.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.ArchOlympus"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_DoomsCourtyard",
-            "SourceString": "DOOM'S COURTYARD",
-            "LocalizedString": "ВЛАДЕНИЯ ДУМА"
-          },
-          "WorldLocation": {
-            "X": 93844.0,
-            "Y": 52464.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.DoomsCourtyard"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_DoomsCourtyard",
-          "ActiveDiscoverableBlodIds": [
-            60
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_RiverCapital",
-            "SourceString": "Freaky Fields",
-            "LocalizedString": "Поля причуд"
-          },
-          "WorldLocation": {
-            "X": 20536.0,
-            "Y": 44096.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.RiverCapital"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_RiverCapital",
-          "ActiveDiscoverableBlodIds": [
-            95
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_02",
-            "SourceString": "Placid Pumps",
-            "LocalizedString": "Бойкие бензоколонки"
-          },
-          "WorldLocation": {
-            "X": 6742.007,
-            "Y": 13315.195,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.GasStation.02"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_GasStation02",
-          "ActiveDiscoverableBlodIds": [
-            220
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_MountainRescue",
-            "SourceString": "Rescue Station",
-            "LocalizedString": "Спасательная станция"
-          },
-          "WorldLocation": {
-            "X": 46376.0,
-            "Y": 73168.0,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.MountainRescue"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_MountainRescue",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Castle",
-            "SourceString": "CASTLE DOOM",
-            "LocalizedString": "ЗАМОК ДУМА"
-          },
-          "WorldLocation": {
-            "X": 74508.0,
-            "Y": 87560.0,
-            "Z": 6652.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Castle"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_CastleDoom",
-          "ActiveDiscoverableBlodIds": [
-            230
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_IslandMansion",
-            "SourceString": "No Moored Manor",
-            "LocalizedString": "Пустынная усадьба"
-          },
-          "WorldLocation": {
-            "X": -84308.0,
-            "Y": 17264.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.IslandMansion"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_NorthTunnel",
-            "SourceString": "Hazy Hillside Tunnel",
-            "LocalizedString": "Туннель у Холмистых хижин"
-          },
-          "WorldLocation": {
-            "X": -35756.0,
-            "Y": 37492.0,
-            "Z": 5848.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.NorthTunnel"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_NorthTunnel",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_01",
-            "SourceString": "Primo Pumps",
-            "LocalizedString": "Бодрые бензоколонки"
-          },
-          "WorldLocation": {
-            "X": -54804.0,
-            "Y": -51948.0,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.GasStation.01"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_GasStation",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_ResearchStation",
-            "SourceString": "Research Rock",
-            "LocalizedString": "Ледовитая станция"
-          },
-          "WorldLocation": {
-            "X": -93740.0,
-            "Y": 88344.0,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.ResearchStation"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_ResearchSttion",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WaterMill",
-            "SourceString": "The Ol' Mill",
-            "LocalizedString": "Старая мельница"
-          },
-          "WorldLocation": {
-            "X": 62551.594,
-            "Y": 14564.083,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WaterMill"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WaterMill",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_CostalCity",
-            "SourceString": "SANDY STEPPES",
-            "LocalizedString": "СУРОВЫЕ СТЕПИ"
-          },
-          "WorldLocation": {
-            "X": -78214.0,
-            "Y": -70796.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.CostalCity"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_RivieraSteppedTown",
-          "ActiveDiscoverableBlodIds": [
-            125
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrainStation_04",
-            "SourceString": "Latverian Station",
-            "LocalizedString": "Латверийская станция"
-          },
-          "WorldLocation": {
-            "X": 79376.836,
-            "Y": 33710.324,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.TrainStation.04"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CostalAirstrip",
-            "SourceString": "Sandy Strip",
-            "LocalizedString": "Взлётное побережье"
-          },
-          "WorldLocation": {
-            "X": -60280.0,
-            "Y": -107036.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.CostalAirstrip"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_LandingStrip",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_WeepingWoods",
           "ActiveDiscoverableBlodIds": [
             80
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Megalodon",
-            "SourceString": "BRUTAL BEACHHEAD",
-            "LocalizedString": "БРУТАЛЬНАЯ БАЗА"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Blue",
+            "SourceString": "Blue Steel Bridge",
+            "LocalizedString": "Синий стальной мост"
           },
           "WorldLocation": {
-            "X": -105460.0,
-            "Y": -47044.0,
-            "Z": 2584.0
+            "X": 67368.0,
+            "Y": 13812.0,
+            "Z": -1280.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.Megalodon"
+            "TagName": "Athena.Location.UnnamedPOI.BigBridge.Blue"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Megalodon",
-          "ActiveDiscoverableBlodIds": [
-            40
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Stadt",
-            "SourceString": "Doomstadt",
-            "LocalizedString": "Думштадт"
-          },
-          "WorldLocation": {
-            "X": 67144.0,
-            "Y": -14024.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Stadt"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Doomstadt",
-          "ActiveDiscoverableBlodIds": [
-            110
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_YardDock",
-            "SourceString": "Lil Dirty Dock",
-            "LocalizedString": "Малый дрянной док"
-          },
-          "WorldLocation": {
-            "X": -119632.0,
-            "Y": 44560.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.YardDock"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgeBlue",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_AbandonedRuins",
-            "SourceString": "RESTORED REELS",
-            "LocalizedString": "КУЛЬТУРНЫЙ КИНОТЕАТР"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BaseCampFoxtrot",
+            "SourceString": "Base Camp Foxtrot",
+            "LocalizedString": "Оперативная база «Фокстрот»"
           },
           "WorldLocation": {
-            "X": -1892.0,
-            "Y": -17236.0,
-            "Z": 112.0
+            "X": -106768.0,
+            "Y": 45724.0,
+            "Z": 5480.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.AbandonedRuins"
+            "TagName": "Athena.Location.UnnamedPOI.BaseCampFoxtrot"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_AbandonedRuins",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BaseCampFoxtrot",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_SawMill",
+            "SourceString": "Logjam Woodworks",
+            "LocalizedString": "Лесопилка"
+          },
+          "WorldLocation": {
+            "X": -38080.0,
+            "Y": -69184.0,
+            "Z": -2624.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.SawMill"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_SawMill",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BonfireCampsite",
+            "SourceString": "Timber Tent",
+            "LocalizedString": "Лагерь лесорубов"
+          },
+          "WorldLocation": {
+            "X": 11136.0,
+            "Y": -72576.0,
+            "Z": -1408.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BonfireCampsite"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BonnfireCampsite",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_OvergrownHeads",
+            "SourceString": "Greasy Graves",
+            "LocalizedString": "Заплесневевшая закуска"
+          },
+          "WorldLocation": {
+            "X": -22092.0,
+            "Y": -59180.0,
+            "Z": -2448.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.OvergrownHeads"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_OvergrownHeads",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_FlopperPond",
+            "SourceString": "Flopper Pond",
+            "LocalizedString": "Пруд с рыбками"
+          },
+          "WorldLocation": {
+            "X": -668.0,
+            "Y": -57484.0,
+            "Z": -1408.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.FlopperPond"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_FloppedPond",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_SwampVille",
+            "SourceString": "Shanty Town",
+            "LocalizedString": "Лачужный городок"
+          },
+          "WorldLocation": {
+            "X": -61376.0,
+            "Y": -82304.0,
+            "Z": -3776.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.SwampVille"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_SwampVille",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_LoversLookout",
+            "SourceString": "Scenic Spot",
+            "LocalizedString": "Панорамная площадка"
+          },
+          "WorldLocation": {
+            "X": 50708.0,
+            "Y": 30012.0,
+            "Z": 116.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.LoversLookout"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_LoversLookout",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BeachBus",
+            "SourceString": "Beach Bus",
+            "LocalizedString": "Пляжный автобус"
+          },
+          "WorldLocation": {
+            "X": 84512.0,
+            "Y": 78344.0,
+            "Z": -2400.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BeachBus"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BeachBus",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MountH7",
+            "SourceString": "Mount H7",
+            "LocalizedString": "Гора H7"
+          },
+          "WorldLocation": {
+            "X": -72424.0,
+            "Y": 105352.0,
+            "Z": 17608.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MountH7"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MountH7",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_HilltopHouse",
+            "SourceString": "Hilltop House",
+            "LocalizedString": "Вилла на возвышенности"
+          },
+          "WorldLocation": {
+            "X": 83508.0,
+            "Y": 84.0,
+            "Z": -964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.HilltopHouse"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HilltopHouse",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_RetailRow",
+            "SourceString": "RETAIL ROW",
+            "LocalizedString": "ТОРГОВАЯ ТОЧКА"
+          },
+          "WorldLocation": {
+            "X": -39040.0,
+            "Y": 89984.0,
+            "Z": 5376.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.RetailRow"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_RetailRow",
           "ActiveDiscoverableBlodIds": [
-            45
+            65
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_03",
-            "SourceString": "Piney Pumps",
-            "LocalizedString": "Бывалые бензоколонки"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_TallestMountain",
+            "SourceString": "Mount Kay",
+            "LocalizedString": "Высокая гора"
           },
           "WorldLocation": {
-            "X": 57140.0,
-            "Y": -36760.0,
-            "Z": 9428.0
+            "X": -93060.0,
+            "Y": 85640.0,
+            "Z": 17608.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.GasStation.03"
+            "TagName": "Athena.Location.UnnamedPOI.TallestMountain"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_GasStation03",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_TallestMountain",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CampCod",
+            "SourceString": "Camp Cod",
+            "LocalizedString": "Ладный лагерь"
+          },
+          "WorldLocation": {
+            "X": -119040.0,
+            "Y": 72704.0,
+            "Z": -2048.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CampCod"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CampCod",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_SlurpySwamp",
+            "SourceString": "SLURPY SWAMP",
+            "LocalizedString": "НЕКТАРНАЯ НИЗИНА"
+          },
+          "WorldLocation": {
+            "X": -65536.0,
+            "Y": -47680.0,
+            "Z": 0.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SlurpySwamp"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_SlurpySwamp",
           "ActiveDiscoverableBlodIds": [
-            240
+            90
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_NitroTown",
-            "SourceString": "REDLINE RIG",
-            "LocalizedString": "ПЫЛАЮЩАЯ ПЛАТФОРМА"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Green",
+            "SourceString": "Green Steel Bridge",
+            "LocalizedString": "Зелёный стальной мост"
           },
           "WorldLocation": {
-            "X": -103404.0,
-            "Y": 17264.0,
-            "Z": 2584.0
+            "X": 16752.0,
+            "Y": 64308.0,
+            "Z": -1280.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.NitroTown"
+            "TagName": "Athena.Location.UnnamedPOI.BigBridge.Green"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_NitroTown",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgeGreen",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_PipePlayground",
+            "SourceString": "Plumberton",
+            "LocalizedString": "Лабиринт из труб"
+          },
+          "WorldLocation": {
+            "X": -98432.0,
+            "Y": -26944.0,
+            "Z": -2048.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.PipePlayground"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_PipePlayground",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MilitaryCamp_3",
+            "SourceString": "E.G.O. Science Station",
+            "LocalizedString": "Научная база ЭГО"
+          },
+          "WorldLocation": {
+            "X": 70944.0,
+            "Y": -42800.0,
+            "Z": -344.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MilitaryCamp.3"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MilitaryCamp3",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_SunnyShores",
+            "SourceString": "SWEATY SANDS",
+            "LocalizedString": "БЕСПЕЧНЫЙ БЕРЕГ"
+          },
+          "WorldLocation": {
+            "X": 35136.0,
+            "Y": -74992.0,
+            "Z": -1280.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SunnyShores"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_SweatySands",
+          "ActiveDiscoverableBlodIds": [
+            25
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_RadioStation",
+            "SourceString": "FN Radio",
+            "LocalizedString": "Радио FN"
+          },
+          "WorldLocation": {
+            "X": 93720.0,
+            "Y": 51720.0,
+            "Z": 3648.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.RadioStation"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_RadioStation",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_LawnmowerRaces",
+            "SourceString": "Mowdown",
+            "LocalizedString": "Скоростные газонокосилки"
+          },
+          "WorldLocation": {
+            "X": 77456.0,
+            "Y": 50672.0,
+            "Z": 928.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.LawnmowerRaces"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_LawmowerRaces",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_Hatch_C",
+            "SourceString": "???",
+            "LocalizedString": "???"
+          },
+          "WorldLocation": {
+            "X": -49152.0,
+            "Y": -96252.0,
+            "Z": -4800.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.Hatch.C"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HatchC",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CoralCove",
+            "SourceString": "Coral Cove",
+            "LocalizedString": "Безмятежная бухта"
+          },
+          "WorldLocation": {
+            "X": 83904.0,
+            "Y": -95808.0,
+            "Z": -2560.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CoralCove"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CoralCove",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_TheRig",
+            "SourceString": "THE RIG",
+            "LocalizedString": "НЕФТЕВЫШКА"
+          },
+          "WorldLocation": {
+            "X": -75056.0,
+            "Y": -87856.0,
+            "Z": -1696.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.TheRig"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_TheRig",
+          "ActiveDiscoverableBlodIds": [
+            30
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MilitaryCamp_5",
+            "SourceString": "E.G.O. Barracks",
+            "LocalizedString": "ЭГО Казармы"
+          },
+          "WorldLocation": {
+            "X": -20992.0,
+            "Y": 42048.0,
+            "Z": 3520.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MilitaryCamp.5"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MilitaryCamp5",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_SnowCone",
+            "SourceString": "Snow Cone Food Truck",
+            "LocalizedString": "Фургон мороженщика"
+          },
+          "WorldLocation": {
+            "X": -82636.0,
+            "Y": 88134.0,
+            "Z": 7272.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.SnowCone"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_SnowConeTruck",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MilitaryCamp_2",
+            "SourceString": "E.G.O. Staging Post",
+            "LocalizedString": "Перевалочный пункт ЭГО"
+          },
+          "WorldLocation": {
+            "X": 40992.0,
+            "Y": 99008.0,
+            "Z": -344.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MilitaryCamp.2"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_MilitaryCamp2",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_PowerDam",
+            "SourceString": "Hydro 16",
+            "LocalizedString": "Гидростанция 16"
+          },
+          "WorldLocation": {
+            "X": -69888.0,
+            "Y": -7744.0,
+            "Z": -256.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.PowerDam"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_PowerDam",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_ScrapYard",
+            "SourceString": "Compact Cars",
+            "LocalizedString": "Мятые машины"
+          },
+          "WorldLocation": {
+            "X": 25952.0,
+            "Y": 86776.0,
+            "Z": -2936.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.ScrapYard"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_Scrapyard",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_HollyHedges",
+            "SourceString": "HOLLY HEDGES",
+            "LocalizedString": "ОСТРОЛИСТНЫЕ ОГРАДЫ"
+          },
+          "WorldLocation": {
+            "X": -9856.0,
+            "Y": -82432.0,
+            "Z": -128.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.HollyHedges"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_HollyHedges",
+          "ActiveDiscoverableBlodIds": [
+            50
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CanoeRentals",
+            "SourceString": "Lake Canoe",
+            "LocalizedString": "Каноэ на озере"
+          },
+          "WorldLocation": {
+            "X": -10632.0,
+            "Y": 80896.0,
+            "Z": 1296.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CanoeRentals"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CanoeRentals",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_PizzaPete",
+            "SourceString": "Pizza Pete's Food Truck",
+            "LocalizedString": "Мобильное кафе «Пицца Пита»"
+          },
+          "WorldLocation": {
+            "X": 2340.0,
+            "Y": -18176.0,
+            "Z": -900.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.PizzaPete"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_PizzaPete",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_SaltySprings",
+            "SourceString": "SALTY SPRINGS",
+            "LocalizedString": "КОЛКИЕ КЛЮЧИ"
+          },
+          "WorldLocation": {
+            "X": 14464.0,
+            "Y": -27648.0,
+            "Z": -1280.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SaltySprings"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_SaltySrpings",
+          "ActiveDiscoverableBlodIds": [
+            70
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_PowerPlant",
+            "SourceString": "STEAMY STACKS",
+            "LocalizedString": "ГИГАНТСКИЕ ГРАДИРНИ"
+          },
+          "WorldLocation": {
+            "X": 82880.0,
+            "Y": 96064.0,
+            "Z": -1088.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.PowerPlant"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_SteamyStacks",
+          "ActiveDiscoverableBlodIds": [
+            150
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_StumpyRidge",
+            "SourceString": "Stumpy Ridge",
+            "LocalizedString": "Гряда лесорубов"
+          },
+          "WorldLocation": {
+            "X": -47988.0,
+            "Y": 3136.0,
+            "Z": -832.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.StumpyRidge"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_StumpyRidge",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_HayHillbilly",
+            "SourceString": "Hayman",
+            "LocalizedString": "Соломенное чучело"
+          },
+          "WorldLocation": {
+            "X": 19268.0,
+            "Y": 29712.0,
+            "Z": -1344.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.HayHillbilly"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HayHillBilly",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_ForkKnife",
+            "SourceString": "Fork Knife Food Truck",
+            "LocalizedString": "Мобильное кафе «Нож и вилка»"
+          },
+          "WorldLocation": {
+            "X": -17804.0,
+            "Y": 56132.0,
+            "Z": 3120.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.ForkKnife"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_LandmarksForkKnife",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_StackShack",
+            "SourceString": "Stack Shack",
+            "LocalizedString": "Изолированная избушка"
+          },
+          "WorldLocation": {
+            "X": 3376.0,
+            "Y": -119208.0,
+            "Z": -1408.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.StackShack"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_StackShack",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_UnremarkableShack",
+            "SourceString": "Unremarkable Shack",
+            "LocalizedString": "Неприметная хижина"
+          },
+          "WorldLocation": {
+            "X": 112928.0,
+            "Y": -3044.0,
+            "Z": -964.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.UnremarkableShack"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_UnremarkableShack",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BeachsideMansion",
+            "SourceString": "Fancy View",
+            "LocalizedString": "Смотровая точка"
+          },
+          "WorldLocation": {
+            "X": 19712.0,
+            "Y": -114496.0,
+            "Z": -1408.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BeachsideMansion"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BeachsideMansion",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_CrashedAirplane",
+            "SourceString": "Crash Site",
+            "LocalizedString": "Место крушения"
+          },
+          "WorldLocation": {
+            "X": 73088.0,
+            "Y": -62080.0,
+            "Z": -320.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.CrashedAirplane"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_CrashedAirplane",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_Hatch_A",
+            "SourceString": "?",
+            "LocalizedString": "?"
+          },
+          "WorldLocation": {
+            "X": 107008.0,
+            "Y": 3072.0,
+            "Z": -2988.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.Hatch.A"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HatchA",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_LazyLake",
+            "SourceString": "LAZY LAKE",
+            "LocalizedString": "ОДИНОКОЕ ОЗЕРО"
+          },
+          "WorldLocation": {
+            "X": -48384.0,
+            "Y": 53184.0,
+            "Z": 4352.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LazyLake"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_LazyLake",
           "ActiveDiscoverableBlodIds": [
             55
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_CostalRuins",
-            "SourceString": "Coastal Columns",
-            "LocalizedString": "Курортные колонны"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_MountainMeadow",
+            "SourceString": "MISTY MEADOWS",
+            "LocalizedString": "ГОРНЫЙ ГОРОДОК"
           },
           "WorldLocation": {
-            "X": -21156.0,
-            "Y": -105320.0,
-            "Z": 2584.0
+            "X": -88320.0,
+            "Y": 25856.0,
+            "Z": 3584.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.CostalRuins"
+            "TagName": "Athena.Location.POI.MountainMeadow"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_CostalRuins",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_MistyMeawdows",
           "ActiveDiscoverableBlodIds": [
-            190
+            45
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_HeadStatue",
-            "SourceString": "Doom's Watch",
-            "LocalizedString": "Дозор Дума"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_WeatherStation",
+            "SourceString": "Weather Station",
+            "LocalizedString": "Метеостанция"
           },
           "WorldLocation": {
-            "X": 89876.0,
-            "Y": 52128.004,
-            "Z": 6497.3486
+            "X": -94496.0,
+            "Y": 77504.0,
+            "Z": 7272.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.HeadStatue"
+            "TagName": "Athena.Location.UnnamedPOI.WeatherStation"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_WeatherStation",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WindMill_01",
-            "SourceString": "The Wreckmill",
-            "LocalizedString": "Перемельница"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BaseCampGolf",
+            "SourceString": "Base Camp Golf",
+            "LocalizedString": "Оперативная база «Гольф»"
           },
           "WorldLocation": {
-            "X": -69676.0,
-            "Y": -26968.0,
-            "Z": 5220.0
+            "X": -80884.0,
+            "Y": 92076.0,
+            "Z": 5480.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WindMill.01"
+            "TagName": "Athena.Location.UnnamedPOI.BaseCampGolf"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WindMill",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BaseCampGolf",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Oasis_05",
-            "SourceString": "The Dam Bridge",
-            "LocalizedString": "Длинная дамба"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_Yacht",
+            "SourceString": "THE YACHT",
+            "LocalizedString": "ЯХТА"
           },
           "WorldLocation": {
-            "X": -63396.0,
-            "Y": -40840.0,
-            "Z": 4756.0
+            "X": 114368.0,
+            "Y": 113456.0,
+            "Z": -1280.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.Oasis.05"
+            "TagName": "Athena.Location.POI.Yacht"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WindMill_02",
-            "SourceString": "The Other Windmill",
-            "LocalizedString": "Другая мельница"
-          },
-          "WorldLocation": {
-            "X": 35128.0,
-            "Y": -38044.0,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WindMill.02"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WindMill02",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_TheYacht",
           "ActiveDiscoverableBlodIds": [
-            215
+            95
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Greenhouse",
-            "SourceString": "Shipwreck Shallows",
-            "LocalizedString": "Кладбище кораблей"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_PipePerson",
+            "SourceString": "Pipeman",
+            "LocalizedString": "Железный человек"
           },
           "WorldLocation": {
-            "X": -10000.0,
-            "Y": 9788.0,
-            "Z": 2584.0
+            "X": -117312.0,
+            "Y": 36352.0,
+            "Z": 4480.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.Greenhouse"
+            "TagName": "Athena.Location.UnnamedPOI.PipePerson"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "None",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_PipePerson",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WoodedIsle",
-            "SourceString": "Piney Lane",
-            "LocalizedString": "Сосновый остров"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_Lighthouse",
+            "SourceString": "Lockie's Lighthouse",
+            "LocalizedString": "Мигающий маяк"
           },
           "WorldLocation": {
-            "X": 114357.664,
-            "Y": -10051.995,
-            "Z": 4756.0
+            "X": 117952.0,
+            "Y": -54720.0,
+            "Z": 320.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WoodedIsle"
+            "TagName": "Athena.Location.UnnamedPOI.Lighthouse"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WoodedIsle",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_LightHouse",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_FortRuin",
+            "SourceString": "Fort Crumpet",
+            "LocalizedString": "Развалины форта"
+          },
+          "WorldLocation": {
+            "X": 50368.0,
+            "Y": -107840.0,
+            "Z": -320.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.FortRuin"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_FortRuin",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Purple",
+            "SourceString": "Purple Steel Bridge",
+            "LocalizedString": "Фиолетовый стальной мост"
+          },
+          "WorldLocation": {
+            "X": -48528.0,
+            "Y": -40716.0,
+            "Z": -1280.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.BigBridge.Purple"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgePurple",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_MilitaryCamp_4",
+            "SourceString": "E.G.O. Comm Tower",
+            "LocalizedString": "Коммуникационная вышка ЭГО"
+          },
+          "WorldLocation": {
+            "X": -103808.0,
+            "Y": -3648.0,
+            "Z": 5312.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnnamedPOI.MilitaryCamp.4"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_LandmarksMilitaryCamp4",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_BeachyBluffs",
+            "SourceString": "CRAGGY CLIFFS",
+            "LocalizedString": "ПЛЯЖНЫЙ ПОСЁЛОК"
+          },
+          "WorldLocation": {
+            "X": 99328.0,
+            "Y": 27904.0,
+            "Z": -1536.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.BeachyBluffs"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_CraggyCliffs",
           "ActiveDiscoverableBlodIds": [
-            185
+            35
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Jankyard",
-            "SourceString": "Dumpenhausen",
-            "LocalizedString": "Свалкенхаузен"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_RapidsRest",
+            "SourceString": "Rapid's Rest",
+            "LocalizedString": "Дом дровосека"
           },
           "WorldLocation": {
-            "X": -12132.0,
-            "Y": 62364.0,
-            "Z": 4756.0
+            "X": -50240.0,
+            "Y": 70656.0,
+            "Z": 3120.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.Jankyard"
+            "TagName": "Athena.Location.UnnamedPOI.RapidsRest"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_Jankyard",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_LandmarksRapidsRest",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_FishFarm",
-            "SourceString": "Catcher's Cove",
-            "LocalizedString": "Лагуна ловцов"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_HomelyHills",
+            "SourceString": "Homely Hills",
+            "LocalizedString": "Хмурые холмы"
           },
           "WorldLocation": {
-            "X": 113116.0,
-            "Y": 39620.004,
-            "Z": 4756.0
+            "X": 100536.0,
+            "Y": -33784.0,
+            "Z": -344.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.FishFarm"
+            "TagName": "Athena.Location.UnnamedPOI.HomelyHills"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_FishFarm",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_HomelyHills",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrainStation_01",
-            "SourceString": "Snooty Station",
-            "LocalizedString": "Славная станция"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnnamedPOI_LazyLakeIsland",
+            "SourceString": "Lazy Lake Island",
+            "LocalizedString": "Остров на Одиноком озере"
           },
           "WorldLocation": {
-            "X": -61676.0,
-            "Y": -67180.0,
-            "Z": 2584.0
+            "X": -67836.0,
+            "Y": 33128.0,
+            "Z": -256.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.TrainStation.01"
+            "TagName": "Athena.Location.UnnamedPOI.LazyLakeIsland"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_RivieraTrainStation",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_LazyLakeIsland",
           "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_WinterIsland",
-            "SourceString": "Winterburg",
-            "LocalizedString": "Зимбург"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_LemonCart",
+            "SourceString": "THE DOGGPOUND",
+            "LocalizedString": "ГОРОДОГГ"
           },
           "WorldLocation": {
-            "X": 117724.0,
-            "Y": 18744.004,
-            "Z": 4756.0
+            "X": 11585.905,
+            "Y": 4685.2773,
+            "Z": 512.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.WinterIsland"
+            "TagName": "Athena.Location.POI.LemonCart"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_WinterIsland",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_PeaBoisHQ",
-            "SourceString": "Pea Bois HQ",
-            "LocalizedString": "Штаб-квартира Горошков"
-          },
-          "WorldLocation": {
-            "X": -78152.0,
-            "Y": -7844.0,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.PeaBoisHQ"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Gate",
-            "SourceString": "GRIM GATE",
-            "LocalizedString": "ВЕЛИКИЕ ВРАТА"
-          },
-          "WorldLocation": {
-            "X": 23608.0,
-            "Y": -55336.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Gate"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Gate",
-          "ActiveDiscoverableBlodIds": [
-            85
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Hades",
-            "SourceString": "THE UNDERWORLD",
-            "LocalizedString": "ТЁМНОЕ ЦАРСТВО"
-          },
-          "WorldLocation": {
-            "X": 56712.0,
-            "Y": -84900.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Hades"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Hades",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_Agency",
           "ActiveDiscoverableBlodIds": [
             100
           ]
         },
         {
           "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_RaceCarFactory",
-            "SourceString": "Ship it! Station",
-            "LocalizedString": "Станция «Доставь-ка»"
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_FrenzyFarm",
+            "SourceString": "FRENZY FARM",
+            "LocalizedString": "ФАТАЛЬНАЯ ФЕРМА"
           },
           "WorldLocation": {
-            "X": -28088.0,
-            "Y": -42764.0,
-            "Z": 5220.0
+            "X": 29952.1,
+            "Y": 45056.0,
+            "Z": 512.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.RaceCarFactory"
+            "TagName": "Athena.Location.POI.FrenzyFarm"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
             "SubPathString": ""
           },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_RaceCarFactory",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "CultureInvariantString": null
-          },
-          "WorldLocation": {
-            "X": -80604.0,
-            "Y": -24072.0,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.RadioTower"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_MountOlympus",
-            "SourceString": "MOUNT OLYMPUS",
-            "LocalizedString": "ГОРА ОЛИМП"
-          },
-          "WorldLocation": {
-            "X": -61820.0,
-            "Y": 69184.0,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.MountOlympus"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_MountOlympus",
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_FranzyFields",
           "ActiveDiscoverableBlodIds": [
-            205
+            10
           ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Logo",
-            "SourceString": "Fractured Four",
-            "LocalizedString": "Фантастический раскол"
-          },
-          "WorldLocation": {
-            "X": 49928.0,
-            "Y": -25591.998,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.Logo"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Arena",
-            "SourceString": "Brawler's Patch",
-            "LocalizedString": "Город-огород"
-          },
-          "WorldLocation": {
-            "X": -92352.0,
-            "Y": 59634.0,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Arena"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Arena",
-          "ActiveDiscoverableBlodIds": [
-            75
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_RadioTower",
-            "SourceString": "Coastal Comms",
-            "LocalizedString": "Пригорный пункт"
-          },
-          "WorldLocation": {
-            "X": 104212.0,
-            "Y": 74100.0,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.RadioTower"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_RadioTower",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_SummitCamp",
-            "SourceString": "Summit Base Camp",
-            "LocalizedString": "Горная база"
-          },
-          "WorldLocation": {
-            "X": -18320.0,
-            "Y": 96240.0,
-            "Z": 6888.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.SummitCamp"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_SummitCamp",
-          "ActiveDiscoverableBlodIds": [
-            145
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_Raft",
-            "SourceString": "THE RAFT",
-            "LocalizedString": "РАФТ"
-          },
-          "WorldLocation": {
-            "X": -6890.0,
-            "Y": -75716.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.Raft"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_Raft",
-          "ActiveDiscoverableBlodIds": [
-            170
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrainStation_05",
-            "SourceString": "Estate Station",
-            "LocalizedString": "Элитная станция"
-          },
-          "WorldLocation": {
-            "X": 48058.406,
-            "Y": -15.614234,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.TrainStation.05"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_EstateTrainStation",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_AbandonedVilla",
-            "SourceString": "Reclaimed Villa",
-            "LocalizedString": "Присвоенная вилла"
-          },
-          "WorldLocation": {
-            "X": -49592.0,
-            "Y": -98936.0,
-            "Z": 2584.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.AbandonedVilla"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_AbandonedVilla",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_POI_GrandGlacierHotel",
-            "SourceString": "GRAND GLACIER",
-            "LocalizedString": "ОБЛЕДЕНЕВШИЙ ОТЕЛЬ"
-          },
-          "WorldLocation": {
-            "X": 27536.0,
-            "Y": 99132.0,
-            "Z": 112.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.POI.GrandGlacierHotel"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_NamedLocations.Quest_Ch5_Discover_NamedLocations",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_NamedLocations_GrandGlacierHotel",
-          "ActiveDiscoverableBlodIds": [
-            200
-          ]
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_TrainStation_06",
-            "SourceString": "Underworld Station",
-            "LocalizedString": "Станция Тёмного царства"
-          },
-          "WorldLocation": {
-            "X": 45540.0,
-            "Y": -57416.0,
-            "Z": 5220.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.TrainStation.06"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "None",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Glacier",
-            "SourceString": "Zenith Wall",
-            "LocalizedString": "Стена зенита"
-          },
-          "WorldLocation": {
-            "X": 4349.0,
-            "Y": 95908.0,
-            "Z": 9362.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.Glacier"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_Glacier",
-          "ActiveDiscoverableBlodIds": []
-        },
-        {
-          "Text": {
-            "Namespace": "DisplayNamesForPOIs_Helios_Terrain",
-            "Key": "NameForLocation_Athena_Location_UnNamedPOI_RockMansion",
-            "SourceString": "Cloistered Castle",
-            "LocalizedString": "Замок затворника"
-          },
-          "WorldLocation": {
-            "X": 101336.0,
-            "Y": 8788.003,
-            "Z": 4756.0
-          },
-          "LocationTag": {
-            "TagName": "Athena.Location.UnNamedPOI.RockMansion"
-          },
-          "CalendarEventsRequired": [],
-          "DiscoveryQuest": {
-            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5_Discover_Landmarks.Quest_Ch5_Discover_Landmarks",
-            "SubPathString": ""
-          },
-          "DiscoverObjectiveBackendName": "Quest_Ch5_Discover_Landmarks_RockMansion",
-          "ActiveDiscoverableBlodIds": []
         },
         {
           "Text": {
