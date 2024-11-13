@@ -29,12 +29,12 @@
 
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
-|  1.11   |                                                                    |
-|  2.1.0  |                                                                    |
-|  2.2.0  |                                                                    |
-|  2.3.0  |                                                                    |
-|  2.3.2  |                                                                    |
-|  2.4.0  |                                                                    |
+|  1.11   | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
+|  2.1.0  | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
+|  2.2.0  | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
+|  2.3.0  | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
+|  2.3.2  | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
+|  2.4.0  | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
 |  2.4.2  | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4 |
 |  2.5.0  | 0x2CCDFD22AD74FBFEE693A81AC11ACE57E6D10D0B8AC5FA90E793A130BC540ED4 |
 
@@ -57,45 +57,44 @@
 |  4.00   | 0xBB3FE1D6E9296C2C0DBC880D07C7BFD6B4A6D8277D486446353B079B790CC434 |
 |  4.10   | 0x094E272E681207E061897192FEB7DB8C6B6DB228D5B53080645348C18B8FB5D7 |
 |  4.20   | 0x9D8C9A4A4FA082F213EED604B6E756237181685EEDA82216437617D7AA5231AF |
-|  4.30   |                                                                    |
+|  *4.30*   | ?                                                                |
 |  4.40   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
-|  4.4.x  |                                                                    |
 |  4.50   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
 
 ## Chapter 1 Season 5 (Worlds Collide)
 
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
-|  5.00   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
-|  5.10   | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
-|  5.20   |                                                                    |
-|  5.21   |                                                                    |
-|  5.30   |                                                                    |
-|  5.40   |                                                                    |
-|  5.41   |                                                                    |
+|  5.00   																						 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
+|  5.10   																						 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
+|  *5.20*   																					 | ?                                                                   |
+| [5.21](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/5.21.md) 		 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
+|  5.30   																						 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
+| [5.40](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/5.40.md) 		 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
+| [5.41](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/5.41.md) 		 | 0x81C42E03B21760A5C457C8DB7D52BA066F0633D0891FD9E37CF118F27687924A |
 
 ## Chapter 1 Season 6 (Darkness Rises)
 
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
-|  6.00   | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
-|  6.01   | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
-|  6.02   | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
-|  6.10   | 0x47C3245CFAB0F785D4DB3FA8E9967F887ECD623FA51308F1BD6BDB58FCFC6583 |
-|  6.20   | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
-|  6.21   | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
-|  6.22   | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
-|  6.30   | 0xDA62D5DBF537499EF82351FC4751D2AFC82E35CAF19945BDD02E3C6BB9462491 |
-|  6.31   | 0x9342FF75017B9502F0BDA699431876241436FC556F1AE12E285E96D143FC8BDC |
+| [6.00](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.00.md) 		 | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
+| [6.01](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.01.md) 		 | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
+| [6.02](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.02.md) 		 | 0xD99660BBE70346E5BBEC944E0921051408B41CCB753F0CFA945A0F941C333E3B |
+| [6.10](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.10.md) 		 | 0x47C3245CFAB0F785D4DB3FA8E9967F887ECD623FA51308F1BD6BDB58FCFC6583 |
+|  6.20   																						 | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
+|  6.21   																						 | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
+|  6.22   																						 | 0x60D1D252C5996FAC112A74EC72F84A6BCD2C61F7050812F70D0928B41A3D682A |
+| [6.30](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.30.md) 		 | 0xDA62D5DBF537499EF82351FC4751D2AFC82E35CAF19945BDD02E3C6BB9462491 |
+| [6.31](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/6.31.md) 		 | 0x9342FF75017B9502F0BDA699431876241436FC556F1AE12E285E96D143FC8BDC |
 
 ## Chapter 1 Season 7 (You Better Watch Out)
 
 |                                            Version                                             | Key                                                                |
 |:----------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
-|                                              7.00                                              |                                                                    |
-|                                              7.01                                              |                                                                    |
+| [7.00](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.00.md) 		 | 0x9342FF75017B9502F0BDA699431876241436FC556F1AE12E285E96D143FC8BDC |
+| [7.01](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.01.md) 		 | 0x9342FF75017B9502F0BDA699431876241436FC556F1AE12E285E96D143FC8BDC |
 | [7.10](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.10.md) 		 | 0x73C95026DDCE5F8CE52BB69C55B8FA027E9FF58C6211D9001095AAC2ABDE6714 |
-|                                              7.20                                              | 0x265E1A5E2741895843D75728B73AEB6A814D3B0302FC69BE39BB3F408B9B54E6 |
+| [7.20](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.20.md) 		 | 0x265E1A5E2741895843D75728B73AEB6A814D3B0302FC69BE39BB3F408B9B54E6 |
 | [7.30](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.30.md) 		 | 0xD23E6F3CF45A2E31081CB7D5F94C85EC50CCB1A804F8C90248F72FA3896912E4 |
 | [7.40](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/7.40.md) 		 | 0xF2A0859F249BC9A511B3A8766420C6E943004CF0EAEE5B7CFFDB8F10953E994F |
 
@@ -104,13 +103,13 @@
 |                                            Version                                             | Key                                                                |
 |:----------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
 | [8.00](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.00.md) 		 | 0xAC7AF84B59C4BD4F916F7EFCB292B3A5897CFF7DD7A688AC8B3791A4EDF32E7B |
-|                                              8.01                                              |                                                                    |
+|                                              *8.01*                                            |                                                                    |
 | [8.10](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.10.md) 		 | 0x52C122AC39C8D56ED15834768A87D18AA26E74CA694060B9E6BCC1C39C0852FA |
 | [8.11](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.11.md)          |                                                                    |
 | [8.20](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.20.md) 		 | 0x5F3B1AE176BF56D5FD1AA073DC01868692ABC11B9186BB12D9235072BBAEE8E2 |
 | [8.30](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.30.md) 		 | 0x808029B1FA7BD3108E3AD5D81E03B9CD001471FE1546B9B902A52113E3C01CEE |
 | [8.40](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.40.md) 		 | 0x67D061EFA8E049F7C62F1C460F14CD5AD7E601C13F3FB66F0FB090B72B721ACC |
-| [8.50](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.50.md) 		 |                                                                    |
+| [8.50](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.50.md) 		 | 0x67D061EFA8E049F7C62F1C460F14CD5AD7E601C13F3FB66F0FB090B72B721ACC |
 | [8.51](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/dynamic/8.51.md) 		 | 0x67D061EFA8E049F7C62F1C460F14CD5AD7E601C13F3FB66F0FB090B72B721ACC |
 
 ## Chapter 1 Season 9 (The Future Is Yours)
