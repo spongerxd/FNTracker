@@ -1,12 +1,12 @@
-<h4 align="center">Tracking files from Fortnite in Russian: AES Keys, locres, data, ini and map images!</h4>
+<h4 align="center">Отслеживание файлов из Fortnite на русском языке: AES Ключи, файлы локализации, дата файлы, ini файлы и изображения карт Королевской Битвы!</h4>
 
-<h6 align="center">FNTracker version: 32.00</h4>
+<h6 align="center">Текущая версия FNTracker: 32.00</h4>
 
-## Credits
+## Огромное спасибо
 
-- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere, Blenux, Bizzfarts, 0x41414141, FunGames (BenBot), GMatrixGames API](https://github.com/dippyshere/fortnite-aes-archive) (AES Keys & Design)
-- [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (configs and locres)
-- [fortnitegg](https://fortnite.gg/map-evolution) (map images)
+- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere, Blenux, Bizzfarts, 0x41414141, FunGames (BenBot), GMatrixGames API](https://github.com/dippyshere/fortnite-aes-archive) (AES Ключи и оформление)
+- [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (ini файлы, дата файлы и файлы локализации)
+- [fortnitegg](https://fortnite.gg/map-evolution) (изображения карт Королевской Битвы)
 
 <p align="center">
   </a>
