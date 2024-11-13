@@ -2,7 +2,7 @@
 
 Служат для разблокировки основных файлов Fortnite.
 
-### [Текущий AES Ключ - 32.10]()
+### [Текущий AES Ключ](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/32.10.md)
 
 ## Cert
 
