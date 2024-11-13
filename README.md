@@ -6,7 +6,7 @@
 - Изображения карт Королевской Битвы
 
 <h6 align="center">Текущая версия FNTracker: 32.10</h4>
-
+<h6 align="center">обновления трекера происходят в течении 1-2 дней после выхода патча в fortnite</h5>
 ## Огромное спасибо
 
 - [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere, Blenux, Bizzfarts, 0x41414141, FunGames (BenBot), GMatrixGames API](https://github.com/dippyshere/fortnite-aes-archive) (AES Ключи и оформление)
