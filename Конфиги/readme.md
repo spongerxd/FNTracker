@@ -1,6 +1,6 @@
 # Архив конфигов игры
 
-Коллекция дата файлов, ini файлов, файлов локализации, карт.
+Коллекция дата файлов, ini файлов, файлов локализации, изображений карт (кб и перезарядка).
 ___
 ## Навигация по разделам
 - [Fortnite Fall Guys](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Fall%20Guys%20(Beanstalk))

@@ -1,17 +1,14 @@
 # Отслеживание файлов из Fortnite на русском языке:
-- AES Ключи
-- Файлы локализации
-- Дата файлы
-- ini файлы
-- Изображения карт Королевской Битвы
+- [AES Ключи](https://github.com/spongerxd/FNTracker/tree/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8)
+- [Файлы локализации, дата файлы, ini файлы, изображения карт режимов (КБ и Перезарядка)](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8)
 
 <h6 align="center">Текущая версия FNTracker: 32.10</h4>
 <h6 align="center">обновления трекера происходят в течении 1-2 дней после выхода патча в fortnite</h5>
 
 ## Огромное спасибо
-- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere, Blenux, Bizzfarts, 0x41414141, FunGames (BenBot), GMatrixGames API](https://github.com/dippyshere/fortnite-aes-archive) (AES Ключи и оформление)
-- [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (ini файлы, дата файлы и файлы локализации)
-- [fortnitegg](https://fortnite.gg/map-evolution) (изображения карт Королевской Битвы)
+- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere](https://github.com/dippyshere/fortnite-aes-archive), [GMatrixGames API](https://fortnitecentral.genxgames.gg/api/v1/aes) (AES Ключи и оформление)
+- [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (исходники ini файлов, дата файлов и файлов локализации)
+- [fortnitegg](https://fortnite.gg/map-evolution) (изображения карт КБ)
 
 <p align="center">
   </a>
