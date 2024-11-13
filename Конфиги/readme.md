@@ -1,16 +1,11 @@
-# AES Keys Archive
+# Архив конфигов игры
 
-Collection of main + dynamic AES Keys (with GUID, HiRes)
+Коллекция дата файлов, ini файлов, файлов локализации, карт.
 ___
-
-### [Latest AES Key](https://github.com/spongerxd/FNTracker/tree/main/AES%20Keys/main#chapter-5-season-5-chapter-2-remix)
-
-| Version |                                Key                                 |
-|:-------:|:------------------------------------------------------------------:|
-|  32.10  | 0xEF7CC91D735CC2F5316477F780026CD7B2226600A001168B6CB062D7EA9D3121 |
-
-___
-
-### [Main AES Keys](https://github.com/spongerxd/FNTracker/blob/main/AES%20Keys/main/readme.md)
-
-### [Dynamic AES Keys](https://github.com/spongerxd/FNTracker/tree/main/AES%20Keys/dynamic)
+## Навигация по разделам
+- [Fortnite Fall Guys](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Fall%20Guys%20(Beanstalk))
+- [Fortnite Festival](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Festival%20(FM))
+- [Основные файлы игры](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Game%20(Main))
+- [Fortnite Перезарядка](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Reload%20(BlastBerry%20%26%20PunchBerry))
+- [LEGO Fortnite](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/LEGO%20Fortnite%20(Juno))
+- [Rocket Racing](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Rocket%20Racing%20(DelMar))
