@@ -1,4 +1,4 @@
-# Main AES Keys ([Latest AES Key](https://github.com/spongerxd/FNResources/blob/main/AES%20Keys/readme.md#chapter-5-season-5))
+# Main AES Keys ([Latest AES Key](https://github.com/spongerxd/FNTracker/blob/main/AES%20Keys/readme.md#chapter-5-season-5-remix))
 
 ## Cert
 
@@ -6,7 +6,8 @@
 |:-------:|--------------------------------------------------------------------|
 |   1.2   | 0x79323938716A53623131354E71513341676164333044576E3251597254493843 |
 
-## Chapter 1 Season 0 (Pre-Season)
+## Chapter 1 Season 0
+### (Pre-Season)
 
 | Version | Key                                                                |
 |:-------:|--------------------------------------------------------------------|
