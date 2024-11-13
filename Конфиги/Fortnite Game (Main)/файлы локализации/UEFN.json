@@ -37,6 +37,8 @@
     "0E382E1948E24794DFE690B17029145A": "Изучите способы создания и подходы к организации в UEFN настраиваемого освещения для интерьера и экстерьера. Этот уровень учитывает ограничения платформ с низкой и высокой производительностью, позволяя сделать опыт в UEFN максимально целостным.",
     "D3AF322F4EE75BAAC57EC8973B0766A5": "Узнайте, как можно сделать свои уровни более захватывающими, добавляя на них свет, постобработку и визуальные эффекты высокого качества. Демонстрируем, как можно это сделать, на примере этого уровня.",
     "310BF5F942CB152931478BAE9315B9D7": "Узнайте, как вы можете использовать устройство создания персонажей и аниматор MetaHuman для добавления новых уровней творческих способностей к вашим островам. Используйте стул и устройства входных триггеров для разблокировки игрового процесса, что ранее было невозможно в UEFN.",
+    "7B3D226F4011B0B941EF95BF9B6B97DB": "Научитесь создавать игры, в которые игрокам хочется возвращаться. В этом шаблоне объясняется и демонстрируется функция сохранения параметров после завершения сеанса, механики смены времени суток и способы создания игр, которые продолжают развиваться даже в отсутствие игроков. Ознакомьтесь с шаблоном и станьте мастером по удержанию внимания игроков.",
+    "D9EB88304F56B03B45B70DB2E4F43D7F": "Научитесь создавать собственные жуткие миры в духе Хэллоуина со страшными монстрами, черепами, тыквами и многим другим. Узнайте, как создавался этот мир ужасов, и как сделать собственные страшилки, которые будут выскакивать и пугать, с помощью Verse!",
     "2E8ADB88426F311647A810A15807495C": "Освещение",
     "44879C174A60DB82AB62E8952784D36F": "Идёт загрузка",
     "7B1C419A4304D8A74EDC138135C2FBD3": "Металл",
@@ -50,6 +52,7 @@
     "5BBEA8124D8C74173BF7CA99F8970141": "Прятки (с предметами)",
     "A77A92374D0A6CEE8247628CF37CF6B2": "Шероховатость",
     "F9EE356F4182D306BB3C428F28B90919": "Шероховатость",
+    "82F0A3AB47C62AE9FC1CF28A7AD61F0D": "Фабрика игрушек Санты",
     "F571C4E541E1E2D3482882B4D5BE866F": "Сохранить",
     "A60687B342E02285E2AEB7B6EF754AD5": "Масштаб U",
     "6D718A684F6E631D925FE2B5D0638366": "Масштаб V",
@@ -247,10 +250,6 @@
   "Code Outliner": {
     "Code Outliner": "Структура кода"
   },
-  "ComponentTypeRegistry": {
-    "EntityClassGroup": "Сущность",
-    "NewHeading": "Новое"
-  },
   "ContentCmdlets": {
     "FortResaveAssetCommandlet": "Пересохранение ресурса.\n#skipci"
   },
@@ -431,13 +430,6 @@
     "PlaceObjects": "Расстановка объектов",
     "CanCreateActorFrom.Error.NoVersePath": "Для этой фабрики не задан путь Verse, и она не может создавать акторов."
   },
-  "EntityComponentClassCombo": {
-    "AddComponentButtonLabel": "Добавить компонент",
-    "NewVerseScriptComponentToolTip": "Создать новый компонент с использованием сценариев Verse",
-    "MultipleAssetsForComponentAnnotation": "Несколько ресурсов",
-    "NewVerserScriptComponent": "Новый компонент сценария Verse…",
-    "BlueprintAddComponentSearchBoxHint": "Поиск компонентов"
-  },
   "Errors": {
     "Errors": "Ошибки"
   },
@@ -484,10 +476,7 @@
   },
   "Fab": {
     "Fab.AlphaLabel": "Fab (альфа-версия)",
-    "FabSettingsLabel": "Настройки Fab (альфа-версия)",
     "WebBrowserModuleNotEnabled": "Не удалось загрузить подключаемый модуль. Для использования Emporium включите WebBrowserWindow в диспетчере подключаемых модулей.",
-    "GetContentText": "Получить контент",
-    "Fab.Tooltip": "Получить контент от Fab",
     "Fab.AlphaTooltip": "Получить контент из Fab (альфа-версия)",
     "Fab.TooltipLoggedOut": "Для получения контента от Fab необходимо войти в систему",
     "Fab.AlphaTooltipLoggedOut": "Для получения контента из Fab (альфа-версия) необходимо войти в систему"
@@ -806,7 +795,9 @@
     "ExposeToFN1_ToolTip": "Открыть выбранные ресурсы для использования командами FN1.",
     "ExposeToFN1_Label": "Открыть для FN1",
     "RemoveFromFN1_Label": "Удалить из FN1",
-    "RemoveFromFN1_ToolTip": "Удалить выбранные ресурсы из FN1. Это полезно, если ресурсы были открыты случайно или бесполезны для команд FN1."
+    "RemoveFromFN1_ToolTip": "Удалить выбранные ресурсы из FN1. Это полезно, если ресурсы были открыты случайно или бесполезны для команд FN1.",
+    "ExposeToFN1_DisabledToolTip": "Выбранные ресурсы уже выведены для FN1.",
+    "RemoveFromFN1_DisabledToolTip": "Выбранные ресурсы больше не выведены для FN1."
   },
   "FortExposedContentValidationDashboard": {
     "CurrentValidationActors.Column.Actions": "Действия",
@@ -2155,7 +2146,9 @@
   },
   "SVkWorkspaceSelector": {
     "WorkspaceCreationDate": "\nДата создания: {0}",
+    "WorkspaceLastPublish": "\nПоследняя публикация: {0}",
     "NoWorkspaceTooltip": "Не использовать рабочее пространство и определять/публиковать контент в онлайн-среде.",
+    "WorkspaceLastPublishNever": "Никогда",
     "NoWorkspaceName": "Без рабочего пространства (онлайн)"
   },
   "SVVDialog": {
@@ -2203,7 +2196,7 @@
     "LoadBindingsFailed": "Не удалось загрузить привязки: {0}",
     "FailedToRequestContentUpdate": "Не удалось запросить обновление контента",
     "StagingFailed": "Не удалось подготовить проект к выгрузке\n{0}",
-    "SyncWithContentServiceFailed": "Не удалось синхронизировать информацию о проекте с сервисом управления контентом. Ошибка: {0}",
+    "SyncWithContentServiceFailed": "Не удалось синхронизировать проект с сервисом управления контентом. Ошибка: {0}",
     "UpdateProjectMetadataFailed": "Не удалось обновить метаданные проекта в сервисе управления контентом. Ошибка: {0}",
     "FailedToUploadFiles": "Не удалось выгрузить файлы",
     "FailedToUploadProject": "Не удалось выгрузить проект\n{0}",
@@ -2398,10 +2391,8 @@
   "UICommands.ValkyrieEditorCommands": {
     "ToggleValkyrieRestrictiveMode_ToolTip": "Включить/отключить ограниченный режим Valkyrie",
     "ToggleValkyrieMode_ToolTip": "Включить/отключить режим Valkyrie",
-    "ToggleVerseComponentMode_ToolTip": "Включить/отключить режим компонента Verse",
     "ToggleValkyrieMode": "Режим Valkyrie",
-    "ToggleValkyrieRestrictiveMode": "Ограниченный режим Valkyrie",
-    "ToggleVerseComponentMode": "Режим компонента Verse"
+    "ToggleValkyrieRestrictiveMode": "Ограниченный режим Valkyrie"
   },
   "UICommands.ValkyrieFortniteEditorToolbarMenus": {
     "ValkyrieLaunchCookStatusURL": "URL-адрес состояния запуска экспорта",
@@ -2416,6 +2407,8 @@
     "ValkyrieRefreshVerse_ToolTip": "Отправить измененный исходный код Verse на сервер.",
     "ValkyrieRefresh_ToolTip": "Отправить измененные данные на сервер.",
     "ValkyrieRefresh": "Обновить",
+    "ValkyrieReloadEditorSettings": "Настройки редактора перезарядки",
+    "ValkyrieReloadEditorSettings_ToolTip": "Файлы настройки редактора перезарядки",
     "ValkyrieStartGame": "Запустить игру",
     "ValkyrieStartGame_ToolTip": "Запустить мини-игру на сервере",
     "ValkyrieStopGame": "Остановить игру",
@@ -2551,15 +2544,6 @@
     "ActivityInvalidState": "Неизвестно",
     "UnknownChannel": "Неизвестный канал"
   },
-  "ValkyrieActorDetails": {
-    "AddEntityComponent": "Добавить компонент",
-    "NewScriptComponentNoProjectRoot": "Невозможно создать новый компонент сценария Verse — не удалось найти корневую папку проекта",
-    "NewScriptComponentNoProjectOpened": "Невозможно создать новый компонент сценария Verse без открытия проекта",
-    "CreateVerseScriptComponent": "Создать компонент сценария Verse",
-    "CreateNewScriptComponentModuleFailed": "Не удалось создать модуль компонент сценария Verse с названием {0}",
-    "CreateNewScriptComponentFailed": "Не удалось создать компонент сценария Verse с названием {0}",
-    "VerseComponentModeToggle_ToolTip": "Переключить режим компонента Verse"
-  },
   "ValkyrieActorFactory": {
     "NoPlaysetItemAsset": "Необходимо указать допустимый ресурс определения предмета сюжетной обстановки.",
     "NoPlaysetPropItemAsset": "Необходимо указать допустимый ресурс определения предмета окружения сюжетной обстановки.",
@@ -2679,9 +2663,6 @@
     "InvalidIslandTemplate": "Этот шаблон острова не поддерживается и не может быть преобразован.",
     "ConvertedBeforeMessage": "Проект содержит данные UEFN, сгенерированные ранее, но мы не можем найти их на этом устройстве. Эти данные можно сгенерировать ещё раз из острова, созданного в творческом режиме, но в них не будут включены изменения, которые вы внесли с помощью UEFN.\n\nВы уверены?"
   },
-  "ValkyrieDetailsViewObjectFilter": {
-    "RemoveEntityComponent_ToolTip": "Удаляет компонент"
-  },
   "ValkyrieDiagnosticNotifications": {
     "ValkyrieDiagnostics_LogCategoryName": "Диагностика Verse"
   },
@@ -2697,8 +2678,6 @@
     "MemoryTestResults": "Результаты теста памяти",
     "VerseVersion.Title": "Доступна новая версия Verse",
     "VerseVersion.RemindMeLater.Tooltip": "Уведомить повторно при следующем открытии, если в этом проекте не установлена последняя стабильная версия Verse",
-    "VerseVersion.ProjectSettings": "Открыть параметры проекта",
-    "VerseVersion.Msg": "Целевая версия Verse для проекта'{0}' — {1}.\nВы можете обновить Verse до версии {2} сейчас или изменить её позже в настройках проекта.",
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "InvalidReferenceToAnotherProject": "Проект {0} не может содержать внешние ресурсы из локального проекта {1}\nСсылки на другой проект могут приводиться только через внешний контент",
     "InvalidReferenceToPlugin": "Проект {0} не может ссылаться на плагин {1}",
@@ -2706,9 +2685,8 @@
     "InvalidReferenceToAssetWithNoAlias": "Проект {1} не может ссылаться на ресурс, не имеющий псевдонима",
     "RefSourceProjectsUploadFailed": "Не удалось загрузить исходные проекты с внешним контентом",
     "VerseVersion.RemindMeLater": "Позже",
-    "RemoveEntityComponent": "Удалить компонент",
     "PromptForDestructiveAPIAction": "Выбранный(-е) ресурс(-ы) имеют общедоступные ссылки в опубликованном проекте.\n{0}\n\nЧтобы продолжить это действие, вам необходимо создать новую ветку проекта.\nТам вы можете изменить общедоступные ресурсы перед публикацией в составе нового проекта",
-    "SimpleTemplateMapDisplayNameText": "Простой уровень",
+    "SimpleTemplateMapDisplayNameText": "Простой",
     "SimpleTemplateMapDescriptionText": "Пример простого уровня.",
     "BlankTemplateMapDescriptionText": "Простой уровень с двумя генераторами.",
     "UEFNValidation": "Проверка UEFN",
@@ -2776,7 +2754,6 @@
     "ValkyrieCloseProject_ToolTip": "Закрывает текущий проект.",
     "Coming Soon": "Уже скоро!",
     "ContinueToLoad": "Продолжить загрузку",
-    "UploadProjectToPrivateVersionTooltip": "Создать частную версию проекта, к которому будет предоставлен доступ членам команды.",
     "ValkyrieOpenProject_ToolTip": "Создать новый проект или открыть существующий",
     "VkProjectSubMenuDebugSection": "Отладка",
     "ExportProjectLocalization.ErrorTitle": "Ошибка",
@@ -2815,12 +2792,6 @@
     "RunProjectAutoLocalization.Tooltip": "Запустить автоматическую локализацию экспортированных данных локализации для этого проекта",
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
-    "ToggleVerseComponentMode_ToolTip": "Переключить режим компонента Verse",
-    "UploadProjectLabel": "Выгружает проект (только DEV)",
-    "UploadProjectToPrivateVersionLabel": "Выгрузить проект в закрытую версию",
-    "UploadToTestCodeMessage": "Выгрузка закрытой версии…",
-    "UploadProjectTooltip": "Выгружает этот проект (только DEV)",
-    "ToggleVerseComponentMode": "Компоненты Verse",
     "ValkyrieProjectSize_Tooltip": "Посмотреть размер проекта с разбивкой по категориям",
     "LiveEditWarningTitle": "Предупреждение"
   },
@@ -2989,7 +2960,6 @@
     "ValkyrieBindToNewProjectOnContentService_MenuEntry_ToolTip": "Создать новый проект в сервисе управления контентом и привязать этот локальный проект к нему",
     "ValkyrieProjectSubMenuCreatorPortalSection": "Творческий портал",
     "VkProjectSubMenuDebugSection": "Отладка",
-    "ValkyrieDebugSession": "Отладка…",
     "ValkyriePlaySubMenuDebugSection": "Отладка разработчиком",
     "ValkyriePlaySubMenuPlayOptionsSection": "Настройки игры для разработчика",
     "ValkyriePlaySubMenuDevSection": "Статус разработчика",
@@ -3052,8 +3022,6 @@
     "ShowMemorySamplingResultModal.MemoryRatio": "Используемая память: {0} / {1}",
     "MemorySamplingDialog.Message": "Подсчёт объёма памяти автоматически запускается после загрузки частной версии. Чтобы продолжить, нажмите ниже.",
     "MemorySamplingStateDialog.Failure": "Память уже рассчитана, и проект превышает выделенный объём памяти.\n\n{0}\n\nС момента последнего подсчёта вы не внесли никаких изменений в свой проект. Необходимо внести изменения, чтобы уменьшить потребление памяти.",
-    "ValkyrieDebugSession_Tooltip": "НЕ РЕАЛИЗОВАНО",
-    "ValkyrieSessionStatus_Tooltip": "НЕ РЕАЛИЗОВАНО",
     "ValkyrieNews": "Новости",
     "PlayStatusWidget_NoAccountEditorSubsystem": "AccountEditorSubsystem не найдено",
     "PlayerListNoConnectedMembers": "Нет подключённых участников",
@@ -3121,7 +3089,6 @@
     "ValkyrieStatusBoxDisconnected": "Сеанс отключён",
     "ValkyrieStatusBoxSessionLoading": "Загрузка сеанса…",
     "ValkyriePlaySubMenuSessionOptionsSection": "Настройки сеанса",
-    "ValkyrieSessionStatus": "Статус сеанса…",
     "ValkyrieStatusBoxSessionUpdated": "Сеанс обновлён",
     "ValkyrieStatusBoxSessionUpdating": "Обновление сеанса…",
     "StartActionToolTipUploading": "Сеанс загружается, подождите, пожалуйста.",
@@ -3575,7 +3542,6 @@
     "InstallSizeError": "Не удалось выполнить запрос размера",
     "InstallError": "Сбой установки",
     "InternalError": "Внутренняя ошибка",
-    "NeverUploadedError": "Никогда не выгружался",
     "ProjectSizeTabLabel": "Размер проекта",
     "Error.ContentServiceNotAvailable": "Сервис управления контентом недоступен.",
     "ProjectSizeTabToolTip": "Посмотреть размер проекта с разбивкой по категориям"
@@ -3619,11 +3585,12 @@
     "VKFailLoadFeatureSetPlugin": "Не удалось загрузить плагин {0}",
     "RemapLocalVsReferencedContent.FailedToLoadAsset": "Не удалось загрузить {0}",
     "RemapLocalVsReferencedContent.FailedToRemap": "Не удалось переназначить ссылки в {0}",
-    "OpenRefSourceProjects.FailGetProjectInfo": "Не удалось получить сведения о '{0}'",
+    "OpenRefSourceProjects.FailGetProjectInfo": "Не удалось получить сведения о {0}",
     "RemapLocalVsReferencedContent.FailSave": "Не удалось сохранить некоторые ресурсы (см. журнал сообщений)",
     "VKFailTerminateGameFeaturePlugin": "Не удалось завершить плагин игровой функции, в котором произошла ошибка \n{0}\n\n{1}",
     "VKFailUnloadFeatureSetPlugin": "Не удалось выгрузить плагин {0}",
     "FixingProjectSlowTask": "Идёт исправление проекта...",
+    "OpenRefSourceProjects.InaccessibleProject": "Исходный проект недоступен",
     "LoadPlugin.SlowTask": "Загрузка плагина {0}",
     "RemapLocalVsReferencedContent.NothingToRemap": "Нет ссылок для переназначения!",
     "OpenRefSourceProjects.ProjectReload.Title": "Открыть исходный проект с внешним контентом",
@@ -3645,8 +3612,6 @@
     "VkNewProjectNameInUse": "Название проекта уже используется",
     "RemapLocalVsReferencedContent.ProjectPluginsWithSameName": "Проектный плагин {0} игнорируется, так как имеет то же понятное название '{1}', что и плагин {2}",
     "PreOpenReferencedContentSourceProjects.MissingProject": "Не удалось открыть исходный проект с внешним контентом '{0}', так как он не найден в локальном хранилище",
-    "OpenRefSourceProjects.IncompatibleProject": "Исходный проект с внешним контентом '{0}' несовместим с опубликованным контентом",
-    "OpenRefSourceProjects.IncompatibleProjects": "Исходный проект с внешним контентом не совместимы со своим опубликованным контентом:",
     "PreOpenReferencedContentSourceProjects.MissingProjects": "Не удалось открыть исходный проект с внешним контентом, так как он не найден в локальном хранилище:",
     "RemapLocalVsReferencedContent.ModulesWithSameName": "Указанный модуль {0} игнорируется, так как его название '{1}' точно такое же, как у модуля {2}",
     "CloseRefSourceProjects.ProjectReload.Reload": "Перезагрузка",
@@ -3659,6 +3624,7 @@
     "RemapReferencedContentToLocalContentTask": "Перепривязка внешнего контента к локальному контенту…",
     "RemapLocalVsReferencedContent.Cancelled": "Сохранение переназначенных ссылок ресурса отменено",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
+    "OpenRefSourceProjects.IncompatibleProject": "Исходный проект с несовместим с опубликованным контентом",
     "RemapLocalVsReferencedContent.Success": "Ссылки на ресурсы успешно переназначены",
     "OpenRefSourceProjects.InvalidProject": "Выбран недопустимый файл.\n\n{0}",
     "OpenRefSourceProjects.WrongProjectId": "Проект, который вы выбрали, не является '{0}'.\n\nПоиск проекта с идентификатором: {1}",
@@ -3669,8 +3635,6 @@
     "VKUnloadPlugins": "Идёт выгрузка плагинов...",
     "UploadRefSourceProject": "Выгрузка исходного проекта с внешним контентом '{0}'…",
     "UploadRefSourceProjects": "Выгрузка исходных проектов с внешним контентом…",
-    "OpenRefSourceProjects.InaccessibleProject": "У вас нет доступа к исходному проекту с внешним контентом '{0}'",
-    "OpenRefSourceProjects.InaccessibleProjects": "У вас нет доступа к исходным проектам с внешним контентом:",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "OpenRefSourceProjects.KeepBrowsing": "{0}\n\nПродолжить поиск?",
     "VerseIdentifierTerm": "{0} — наименование",
@@ -3819,10 +3783,17 @@
     "TextureFixedText": "Текстура исправлена.",
     "NonUITextureNotPow2Text": "Чтобы текстура поддерживала подгрузку, значения как высоты, так и ширины должны быть степенью двойки (например, 128×256 или 512×1024).",
     "ProjectTextureBudgetExceeded": "Общий объем памяти, потребляемый неподгружаемыми текстурами в этом проекте превышает предел, установленный для этого сеанса ({MaxSize} Мбайт).\n Убедитесь, что размеры вашей текстуры соответствуют степени двойки (например, 256×256 или 512×1024), если это возможно,\n и что свойство \"Не подгружать\" отключено.",
+    "UITextureMaxSizeText": "Размер этой текстуры, относящейся к интерфейсу, в игре слишком большой, чтобы её можно было использовать для интерфейса (хотя она и определена, как текстура группы 'UI').",
+    "NonUITextureTooBigText": "Эта текстура, не относящаяся к интерфейсу, имеет слишком большой размер в игре.",
     "NonUITextureNotStreamableText": "Эта текстура должна поддерживать подгрузку. Сейчас она её не поддерживает, так как включено свойство \"Не подгружать\".",
+    "TextureTooBigForUploadText": "Исходный файл этой текстуры слишком большой для загрузки.",
+    "AutoFixText": "Чтобы автоматически исправить свойства текстуры, нажмите на ресурс правой кнопкой мыши и выберите \"Подогнать текстуру\" или нажмите \"Исправить\" ниже.",
+    "NonUITextureNotPow2": "{LeadText}\n  Её текущее размер в игре {SizeX}×{SizeY}. Измените свойство текстуры \"Заполнение и растяжение\".",
+    "UITextureTooBig": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}.\n  Измените размеры исходного файла текстуры до {MaxSize}×{MaxSize} или меньше.",
     "NonUITextureNotStreamable": "{LeadText}\n  Отключите для текстуры свойство \"Не подгружать\".",
     "Tooltip_UITextureMaxSize": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}",
-    "Tooltip_NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}."
+    "Tooltip_NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.",
+    "NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.\n  Её текущее размер в игре {SizeX}×{SizeY}. Измените свойство \"Предпочтительный уровень детализации виртуальных текстур\"."
   },
   "ValkyrieValidator_Widget": {
     "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
@@ -3974,9 +3945,6 @@
   "VkSpeechNodeDetails": {
     "MessageName": "Сообщение",
     "Category": "Речь"
-  },
-  "VkWorkspaceSelectorTest": {
-    "WorkspaceSelectorDialogTitle": "Выбрать рабочее пространство проекта"
   },
   "VSCodeNotFound": {
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",

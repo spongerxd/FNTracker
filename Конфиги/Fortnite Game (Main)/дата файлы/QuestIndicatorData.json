@@ -267,6 +267,31 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_BerryTart",
+            "SourceString": "ICE ISLE",
+            "LocalizedString": "СПАЙСБЕРГ"
+          },
+          "WorldLocation": {
+            "X": 113173.17,
+            "Y": -84175.46,
+            "Z": 512.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.BerryTart"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_BerryTart",
+          "ActiveDiscoverableBlodIds": [
+            210
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
             "Key": "NameForLocation_Athena_Location_UnnamedPOI_MountainVault",
             "SourceString": "**REDACTED**",
             "LocalizedString": "**ДАННЫЕ УДАЛЕНЫ**"
@@ -566,6 +591,31 @@
           },
           "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_BigBridgeBlue",
           "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_POI_CattyCorner",
+            "SourceString": "CATTY CORNER",
+            "LocalizedString": "УКРОМНЫЙ УГОЛ"
+          },
+          "WorldLocation": {
+            "X": -74667.34,
+            "Y": 78271.88,
+            "Z": 9553.409
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.CattyCorner"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_NamedLocations.Quest_Ch5S5_Discover_NamedLocations",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_NamedLocations_CattyCorner",
+          "ActiveDiscoverableBlodIds": [
+            185
+          ]
         },
         {
           "Text": {
@@ -896,6 +946,29 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_KelpLinen",
+            "SourceString": "WRLD'S POINT",
+            "LocalizedString": "ДЖУСАДЬБА"
+          },
+          "WorldLocation": {
+            "X": -31508.0,
+            "Y": -109880.0,
+            "Z": -1752.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.KelpLinen"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuest": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/LocationDiscoveryQuests/Quest_Ch5S5_Discover_Landmarks.Quest_Ch5S5_Discover_Landmarks",
+            "SubPathString": ""
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch5S5_Discover_Landmarks_KelpLinen",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
             "Key": "NameForLocation_Athena_Location_UnnamedPOI_BigBridge_Green",
             "SourceString": "Green Steel Bridge",
             "LocalizedString": "Зелёный стальной мост"
@@ -1082,7 +1155,7 @@
         {
           "Text": {
             "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
-            "Key": "NameForLocation_Athena_Location_POI_TheRig",
+            "Key": "NameForLocation_Athena_Location_POI_OilRig",
             "SourceString": "THE RIG",
             "LocalizedString": "НЕФТЕВЫШКА"
           },
@@ -1092,7 +1165,7 @@
             "Z": -1696.0
           },
           "LocationTag": {
-            "TagName": "Athena.Location.POI.TheRig"
+            "TagName": "Athena.Location.POI.OilRig"
           },
           "CalendarEventsRequired": [],
           "DiscoveryQuest": {
