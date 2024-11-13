@@ -8,6 +8,7 @@
 ## Огромное спасибо
 - [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere](https://github.com/dippyshere/fortnite-aes-archive), [GMatrixGames API](https://fortnitecentral.genxgames.gg/api/v1/aes) (AES Ключи и оформление)
 - [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (исходники ini файлов, дата файлов и файлов локализации)
+- [4sval](https://github.com/4sval/FModel) (программа для датамайнинга игры)
 - [fortnitegg](https://fortnite.gg/map-evolution) (изображения карт КБ)
 
 <p align="center">
