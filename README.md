@@ -4,7 +4,7 @@
 
 ## Credits
 
-- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere](https://github.com/dippyshere/fortnite-aes-archive) (AES Keys & Design)
+- [kem0x](https://github.com/kem0x/Fortnite-Aes-Keys-Archive) & [dippyshere, Blenux, Bizzfarts, 0x41414141, FunGames (BenBot), GMatrixGames API](https://github.com/dippyshere/fortnite-aes-archive) (AES Keys & Design)
 - [iFireMonkey](https://github.com/iFireMonkey/FortniteTracker) & [GhostScissors](https://github.com/GhostScissors/Fort-Tracker) (configs and locres)
 - [fortnitegg](https://fortnite.gg/map-evolution) (map images)
 
