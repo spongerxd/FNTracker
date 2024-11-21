@@ -3,6 +3,7 @@
     "Type": "DataTable",
     "Name": "OfferPopupDataTable",
     "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'OfferPopUpData'",
@@ -3376,6 +3377,14 @@
           "Key": "EC5DBE054C492D04E44FBC8FA215F1D9",
           "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the Porsche 911 GT3 RS car body. This Car will fill the Sports Car slot in relevant Fortnite experiences.",
           "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Porsche 911 GT3 RS. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "sixty": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "814107BA4FA70C609F67D5A49664222A",
+          "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the BMW 240i car body. This Car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает машину, варианты внешнего вида машины и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом BMW 240i. Эта машина будет занимать ячейку спортивного автомобиля в соответствующих режимах Fortnite."
         }
       }
     }

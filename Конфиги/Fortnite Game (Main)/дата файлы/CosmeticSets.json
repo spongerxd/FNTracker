@@ -3,6 +3,7 @@
     "Type": "DataTable",
     "Name": "CosmeticSets",
     "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CosmeticSetDataRow'",
@@ -15487,8 +15488,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "9E1E674C43D4D8B8701DA0990EB95CB9",
-          "SourceString": "Set01",
-          "LocalizedString": "Набор01"
+          "SourceString": "Juice WRLD",
+          "LocalizedString": "Juice WRLD"
         },
         "Description": {
           "CultureInvariantString": null

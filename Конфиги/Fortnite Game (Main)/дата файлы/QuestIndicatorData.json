@@ -3,6 +3,7 @@
     "Type": "FortQuestIndicatorData",
     "Name": "QuestIndicatorData",
     "Class": "UScriptClass'FortQuestIndicatorData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "QuestTagToLocationDataTable": {
         "ObjectName": "CompositeDataTable'QuestLocationDataRows'",
@@ -948,7 +949,7 @@
             "Namespace": "DisplayNamesForPOIs_Apollo_Terrain_Retro",
             "Key": "NameForLocation_Athena_Location_UnNamedPOI_KelpLinen",
             "SourceString": "WRLD'S POINT",
-            "LocalizedString": "ДЖУСАДЬБА"
+            "LocalizedString": "ДОЛИНА JUICE WRLD"
           },
           "WorldLocation": {
             "X": -31508.0,
