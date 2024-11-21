@@ -381,3 +381,9 @@
 | [32.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/32.00.md) | 0x6CC7E301422E841F6E8BBB015D06EF3DB6FD29AEE7DBEC3BC659747C39F3745B |
 | [32.10](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/32.10.md) | 0xEF7CC91D735CC2F5316477F780026CD7B2226600A001168B6CB062D7EA9D3121 |
 | [32.11](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/32.11.md) | 0x7535763BD818F9E92EECEBBD14B9B2C12BDC939086AF433F37E0156CCD18819F |
+
+## Глава 6 Сезон 1 (Неизвестно)
+
+|                                                                                       Версия игры                                                                                |                             AES Ключ                               |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
+| [*33.00*](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/33.00.md) | ? |
