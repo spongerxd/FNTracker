@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BeanChar_Config_Beanstalk_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BeanCharConfig_Base_C'",
+      "ObjectPath": "/Beanstalk/Config/BP_BeanCharConfig_Base.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BeanChar_Config_Beanstalk_C'Default__BP_BeanChar_Config_Beanstalk_C'",
+      "ObjectPath": "/Beanstalk/Config/BP_BeanChar_Config_Beanstalk.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Const"
+    }
+  },
+  {
+    "Type": "BP_BeanChar_Config_Beanstalk_C",
+    "Name": "Default__BP_BeanChar_Config_Beanstalk_C",
+    "Class": "BlueprintGeneratedClass'/Beanstalk/Config/BP_BeanChar_Config_Beanstalk.BP_BeanChar_Config_Beanstalk_C'",
+    "Template": {
+      "ObjectName": "BP_BeanCharConfig_Base_C'Default__BP_BeanCharConfig_Base_C'",
+      "ObjectPath": "/Beanstalk/Config/BP_BeanCharConfig_Base.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

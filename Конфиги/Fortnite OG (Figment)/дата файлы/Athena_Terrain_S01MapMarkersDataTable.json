@@ -1,0 +1,6250 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "Athena_Terrain_S01MapMarkersDataTable",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'Athena_Terrain_S01QuestTagToLocationDataRows'",
+          "ObjectPath": "/Game/Quests/QuestTagLocations/Athena_Terrain_S01QuestTagToLocationDataRows.0"
+        },
+        {
+          "ObjectName": "DataTable'Athena_Terrain_S01ManualQuestTagToLocationDataRows'",
+          "ObjectPath": "/Game/Quests/QuestTagLocations/Athena_Terrain_S01ManualQuestTagToLocationDataRows.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'FortQuestTagToLocationDataRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Athena.Quests.Building.TelephonePoles": {
+        "WorldLocation": {
+          "X": 104752.0,
+          "Y": 30272.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences": {
+        "WorldLocation": {
+          "X": 69888.0,
+          "Y": 29184.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair": {
+        "WorldLocation": {
+          "X": 86356.0,
+          "Y": -105800.0,
+          "Z": 6920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.TomatoTown": {
+        "WorldLocation": {
+          "X": 80576.0,
+          "Y": 15552.0,
+          "Z": -2872.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_0": {
+        "WorldLocation": {
+          "X": 53760.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_1": {
+        "WorldLocation": {
+          "X": 30208.0,
+          "Y": 73472.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_2": {
+        "WorldLocation": {
+          "X": 63488.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm": {
+        "WorldLocation": {
+          "X": 59136.004,
+          "Y": 26383.996,
+          "Z": 2832.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_0": {
+        "WorldLocation": {
+          "X": 97992.0,
+          "Y": 75576.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_0": {
+        "WorldLocation": {
+          "X": 114347.0,
+          "Y": -50014.0,
+          "Z": 6.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_1": {
+        "WorldLocation": {
+          "X": 37176.0,
+          "Y": -46792.0,
+          "Z": -1528.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_3": {
+        "WorldLocation": {
+          "X": 69120.0,
+          "Y": 61184.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_4": {
+        "WorldLocation": {
+          "X": -19200.0,
+          "Y": -41984.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_2": {
+        "WorldLocation": {
+          "X": 108096.0,
+          "Y": 51952.0,
+          "Z": 1394.4506
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_3": {
+        "WorldLocation": {
+          "X": -12088.0,
+          "Y": -82632.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_5": {
+        "WorldLocation": {
+          "X": 92160.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer": {
+        "WorldLocation": {
+          "X": 31572.318,
+          "Y": -3590.733,
+          "Z": 1072.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_6": {
+        "WorldLocation": {
+          "X": 66048.0,
+          "Y": 69376.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_1": {
+        "WorldLocation": {
+          "X": 117080.0,
+          "Y": -113384.0,
+          "Z": 1904.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_7": {
+        "WorldLocation": {
+          "X": 82176.0,
+          "Y": 22528.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_4": {
+        "WorldLocation": {
+          "X": 69954.94,
+          "Y": 3551.414,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television": {
+        "WorldLocation": {
+          "X": 69972.0,
+          "Y": 3404.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_2": {
+        "WorldLocation": {
+          "X": 120496.0,
+          "Y": 42928.0,
+          "Z": -336.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_8": {
+        "WorldLocation": {
+          "X": 120832.0,
+          "Y": 30464.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_9": {
+        "WorldLocation": {
+          "X": 127488.0,
+          "Y": -75008.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_0": {
+        "WorldLocation": {
+          "X": 31136.318,
+          "Y": -3598.733,
+          "Z": 928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_5": {
+        "WorldLocation": {
+          "X": -16194.9375,
+          "Y": -90079.414,
+          "Z": 4232.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_0": {
+        "WorldLocation": {
+          "X": -16212.0,
+          "Y": -89932.0,
+          "Z": 4232.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified": {
+        "WorldLocation": {
+          "X": 67950.84,
+          "Y": 12320.0,
+          "Z": 1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_10": {
+        "WorldLocation": {
+          "X": -12288.0,
+          "Y": -83200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_11": {
+        "WorldLocation": {
+          "X": 80384.0,
+          "Y": 26880.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_0": {
+        "WorldLocation": {
+          "X": -59879.55,
+          "Y": 13196.183,
+          "Z": 1664.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_1": {
+        "WorldLocation": {
+          "X": 59136.004,
+          "Y": 26383.996,
+          "Z": 2832.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_12": {
+        "WorldLocation": {
+          "X": 26624.0,
+          "Y": 68352.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_13": {
+        "WorldLocation": {
+          "X": 100864.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_14": {
+        "WorldLocation": {
+          "X": 25600.0,
+          "Y": -115456.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_15": {
+        "WorldLocation": {
+          "X": 3584.0,
+          "Y": -20224.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_16": {
+        "WorldLocation": {
+          "X": -68608.0,
+          "Y": -31488.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_17": {
+        "WorldLocation": {
+          "X": 65280.0,
+          "Y": 67072.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_18": {
+        "WorldLocation": {
+          "X": 109056.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_19": {
+        "WorldLocation": {
+          "X": 126464.0,
+          "Y": -51456.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_20": {
+        "WorldLocation": {
+          "X": 62464.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_3": {
+        "WorldLocation": {
+          "X": 118960.0,
+          "Y": 46752.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_2": {
+        "WorldLocation": {
+          "X": 45040.004,
+          "Y": 33247.996,
+          "Z": 1215.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_21": {
+        "WorldLocation": {
+          "X": 95232.0,
+          "Y": -117504.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_3": {
+        "WorldLocation": {
+          "X": 31136.318,
+          "Y": -3598.733,
+          "Z": 928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_1": {
+        "WorldLocation": {
+          "X": 31240.318,
+          "Y": -3622.7327,
+          "Z": 1940.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_4": {
+        "WorldLocation": {
+          "X": 42560.0,
+          "Y": 1392.0,
+          "Z": 744.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_6": {
+        "WorldLocation": {
+          "X": -16928.586,
+          "Y": 1213.0625,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_1": {
+        "WorldLocation": {
+          "X": -17076.0,
+          "Y": 1196.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_22": {
+        "WorldLocation": {
+          "X": -28160.0,
+          "Y": -63744.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_23": {
+        "WorldLocation": {
+          "X": 103424.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_4": {
+        "WorldLocation": {
+          "X": 46720.0,
+          "Y": -66048.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_5": {
+        "WorldLocation": {
+          "X": 36352.004,
+          "Y": 39791.996,
+          "Z": 1151.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_24": {
+        "WorldLocation": {
+          "X": 5632.0,
+          "Y": -19200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_25": {
+        "WorldLocation": {
+          "X": -23040.0,
+          "Y": -21248.0,
+          "Z": 4608.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_26": {
+        "WorldLocation": {
+          "X": 114688.0,
+          "Y": -49920.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_7": {
+        "WorldLocation": {
+          "X": 70466.94,
+          "Y": -6176.586,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_2": {
+        "WorldLocation": {
+          "X": 70484.0,
+          "Y": -6324.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_8": {
+        "WorldLocation": {
+          "X": -16696.0,
+          "Y": -103112.0,
+          "Z": 8.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_27": {
+        "WorldLocation": {
+          "X": 73728.0,
+          "Y": -124672.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_28": {
+        "WorldLocation": {
+          "X": 47616.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_29": {
+        "WorldLocation": {
+          "X": 18944.0,
+          "Y": 54016.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_30": {
+        "WorldLocation": {
+          "X": -18176.0,
+          "Y": -40960.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_5": {
+        "WorldLocation": {
+          "X": 50464.0,
+          "Y": -67472.0,
+          "Z": 928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_31": {
+        "WorldLocation": {
+          "X": 40448.0,
+          "Y": 58624.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_6": {
+        "WorldLocation": {
+          "X": 103127.94,
+          "Y": 12839.953,
+          "Z": -0.001465
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_6": {
+        "WorldLocation": {
+          "X": 106800.0,
+          "Y": 26944.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_32": {
+        "WorldLocation": {
+          "X": 82944.0,
+          "Y": 21760.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_33": {
+        "WorldLocation": {
+          "X": 101632.0,
+          "Y": 10752.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_34": {
+        "WorldLocation": {
+          "X": -34560.0,
+          "Y": -19456.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_35": {
+        "WorldLocation": {
+          "X": 12288.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_36": {
+        "WorldLocation": {
+          "X": 99840.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_7": {
+        "WorldLocation": {
+          "X": 86804.0,
+          "Y": 21696.0,
+          "Z": 1192.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_37": {
+        "WorldLocation": {
+          "X": 51712.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_38": {
+        "WorldLocation": {
+          "X": 9728.0,
+          "Y": 70400.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_0": {
+        "WorldLocation": {
+          "X": 62310.844,
+          "Y": 5072.0,
+          "Z": 1904.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_7": {
+        "WorldLocation": {
+          "X": 44378.47,
+          "Y": 27195.34,
+          "Z": 1247.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_39": {
+        "WorldLocation": {
+          "X": 12800.0,
+          "Y": 49920.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_40": {
+        "WorldLocation": {
+          "X": 38144.0,
+          "Y": -95232.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_41": {
+        "WorldLocation": {
+          "X": 84992.0,
+          "Y": -43776.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_42": {
+        "WorldLocation": {
+          "X": -5120.0,
+          "Y": -26368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_43": {
+        "WorldLocation": {
+          "X": 103680.0,
+          "Y": 34816.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_44": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 31744.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.AnarchyAcres": {
+        "WorldLocation": {
+          "X": 102528.0,
+          "Y": -19200.0,
+          "Z": -1976.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_3": {
+        "WorldLocation": {
+          "X": -54436.0,
+          "Y": -52416.0,
+          "Z": 2312.0007
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_9": {
+        "WorldLocation": {
+          "X": -54296.0,
+          "Y": -52440.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_45": {
+        "WorldLocation": {
+          "X": 47616.0,
+          "Y": 65280.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_46": {
+        "WorldLocation": {
+          "X": 98048.0,
+          "Y": 44544.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_47": {
+        "WorldLocation": {
+          "X": 55040.0,
+          "Y": 62976.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_8": {
+        "WorldLocation": {
+          "X": 75416.0,
+          "Y": 7696.0,
+          "Z": 32.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_48": {
+        "WorldLocation": {
+          "X": 14592.0,
+          "Y": 48128.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_9": {
+        "WorldLocation": {
+          "X": -61584.0,
+          "Y": -10512.0,
+          "Z": -368.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_49": {
+        "WorldLocation": {
+          "X": 35584.0,
+          "Y": 73216.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_50": {
+        "WorldLocation": {
+          "X": 40960.0,
+          "Y": 60672.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_51": {
+        "WorldLocation": {
+          "X": 91904.0,
+          "Y": 19968.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.SaltySprings": {
+        "WorldLocation": {
+          "X": 4160.0,
+          "Y": -8448.0,
+          "Z": -120.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_8": {
+        "WorldLocation": {
+          "X": 84110.62,
+          "Y": 86220.99,
+          "Z": 1494.1879
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_52": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -58880.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_53": {
+        "WorldLocation": {
+          "X": 50944.0,
+          "Y": 62976.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_54": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 46080.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_9": {
+        "WorldLocation": {
+          "X": 55744.04,
+          "Y": 42447.99,
+          "Z": 2768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_10": {
+        "WorldLocation": {
+          "X": 26624.0,
+          "Y": 68224.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_55": {
+        "WorldLocation": {
+          "X": 19712.0,
+          "Y": -23552.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_56": {
+        "WorldLocation": {
+          "X": -5632.0,
+          "Y": -26368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_2": {
+        "WorldLocation": {
+          "X": 31692.318,
+          "Y": -3590.7322,
+          "Z": 1308.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_57": {
+        "WorldLocation": {
+          "X": 19200.0,
+          "Y": -24576.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_10": {
+        "WorldLocation": {
+          "X": 7495.9995,
+          "Y": -32940.0,
+          "Z": -376.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_58": {
+        "WorldLocation": {
+          "X": 64512.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_59": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -58368.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_60": {
+        "WorldLocation": {
+          "X": -19712.0,
+          "Y": -38912.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_10": {
+        "WorldLocation": {
+          "X": 110065.54,
+          "Y": 9104.518,
+          "Z": -780.87854
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_61": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -57856.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.LonelyLodge": {
+        "WorldLocation": {
+          "X": 59613.906,
+          "Y": 71807.98,
+          "Z": 2154.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_62": {
+        "WorldLocation": {
+          "X": 14336.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_11": {
+        "WorldLocation": {
+          "X": 58708.0,
+          "Y": -86344.0,
+          "Z": 8072.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_63": {
+        "WorldLocation": {
+          "X": -33536.0,
+          "Y": 41472.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_4": {
+        "WorldLocation": {
+          "X": 50340.0,
+          "Y": -117568.0,
+          "Z": 1544.0007
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_12": {
+        "WorldLocation": {
+          "X": 50200.0,
+          "Y": -117544.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_64": {
+        "WorldLocation": {
+          "X": 89344.0,
+          "Y": 22016.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_65": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 16896.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_66": {
+        "WorldLocation": {
+          "X": 57600.0,
+          "Y": -126464.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_67": {
+        "WorldLocation": {
+          "X": 26880.0,
+          "Y": 68096.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.GreasyGrove": {
+        "WorldLocation": {
+          "X": 2048.0,
+          "Y": -96512.0,
+          "Z": -1848.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_68": {
+        "WorldLocation": {
+          "X": -20480.0,
+          "Y": -24832.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_69": {
+        "WorldLocation": {
+          "X": 128000.0,
+          "Y": -75008.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_70": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 46592.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_11": {
+        "WorldLocation": {
+          "X": 55744.04,
+          "Y": 42447.99,
+          "Z": 2768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_13": {
+        "WorldLocation": {
+          "X": 38712.0,
+          "Y": -140088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_14": {
+        "WorldLocation": {
+          "X": 14013.0625,
+          "Y": 25120.586,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_5": {
+        "WorldLocation": {
+          "X": 13996.0,
+          "Y": 25268.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_71": {
+        "WorldLocation": {
+          "X": -20992.0,
+          "Y": -26880.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_11": {
+        "WorldLocation": {
+          "X": 89904.0,
+          "Y": 16560.0,
+          "Z": 32.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_72": {
+        "WorldLocation": {
+          "X": -70144.0,
+          "Y": -12544.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_12": {
+        "WorldLocation": {
+          "X": 103728.0,
+          "Y": 34112.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_73": {
+        "WorldLocation": {
+          "X": 34816.0,
+          "Y": 73984.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_74": {
+        "WorldLocation": {
+          "X": 52224.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_15": {
+        "WorldLocation": {
+          "X": -34476.0,
+          "Y": -54600.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_75": {
+        "WorldLocation": {
+          "X": 95488.0,
+          "Y": -17920.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_12": {
+        "WorldLocation": {
+          "X": -19376.0,
+          "Y": -24640.0,
+          "Z": 4984.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_76": {
+        "WorldLocation": {
+          "X": 7424.0,
+          "Y": -21504.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_77": {
+        "WorldLocation": {
+          "X": 64768.0,
+          "Y": 11264.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_78": {
+        "WorldLocation": {
+          "X": 15104.0,
+          "Y": 56832.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_79": {
+        "WorldLocation": {
+          "X": 50176.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_13": {
+        "WorldLocation": {
+          "X": 103127.94,
+          "Y": 12839.953,
+          "Z": -0.001465
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_80": {
+        "WorldLocation": {
+          "X": 104448.0,
+          "Y": -115456.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_16": {
+        "WorldLocation": {
+          "X": 1208.0004,
+          "Y": 25260.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_81": {
+        "WorldLocation": {
+          "X": 12544.0,
+          "Y": 69632.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_82": {
+        "WorldLocation": {
+          "X": 54272.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_17": {
+        "WorldLocation": {
+          "X": -38210.938,
+          "Y": -32223.414,
+          "Z": -1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_6": {
+        "WorldLocation": {
+          "X": -38228.0,
+          "Y": -32076.0,
+          "Z": -1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_83": {
+        "WorldLocation": {
+          "X": 80640.0,
+          "Y": 27136.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_13": {
+        "WorldLocation": {
+          "X": 100000.0,
+          "Y": 19856.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_14": {
+        "WorldLocation": {
+          "X": 95952.0,
+          "Y": 19776.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_14": {
+        "WorldLocation": {
+          "X": -63179.0,
+          "Y": -22815.0,
+          "Z": -1874.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_15": {
+        "WorldLocation": {
+          "X": -62855.176,
+          "Y": -21305.281,
+          "Z": -1144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_84": {
+        "WorldLocation": {
+          "X": 19200.0,
+          "Y": -123392.0,
+          "Z": 6144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_85": {
+        "WorldLocation": {
+          "X": 20480.0,
+          "Y": -122112.0,
+          "Z": 6144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_16": {
+        "WorldLocation": {
+          "X": 36352.004,
+          "Y": 39791.996,
+          "Z": 1151.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_86": {
+        "WorldLocation": {
+          "X": 15104.0,
+          "Y": 56320.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_18": {
+        "WorldLocation": {
+          "X": -1858.9375,
+          "Y": -36831.414,
+          "Z": -1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_7": {
+        "WorldLocation": {
+          "X": -1876.0,
+          "Y": -36684.0,
+          "Z": -1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.RetailRow": {
+        "WorldLocation": {
+          "X": 26130.008,
+          "Y": 47323.617,
+          "Z": 1776.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.GreasyGrove": {
+        "WorldLocation": {
+          "X": -500.00003,
+          "Y": -96986.14,
+          "Z": 1052.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_87": {
+        "WorldLocation": {
+          "X": 20480.0,
+          "Y": -131328.0,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_15": {
+        "WorldLocation": {
+          "X": 59264.0,
+          "Y": -72672.0,
+          "Z": 1696.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.LonelyLodge_0": {
+        "WorldLocation": {
+          "X": 59685.93,
+          "Y": 71555.98,
+          "Z": 2168.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_19": {
+        "WorldLocation": {
+          "X": 108352.0,
+          "Y": 52080.0,
+          "Z": 1392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_88": {
+        "WorldLocation": {
+          "X": 132352.0,
+          "Y": -82432.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_89": {
+        "WorldLocation": {
+          "X": 122624.0,
+          "Y": 39936.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_90": {
+        "WorldLocation": {
+          "X": 103424.0,
+          "Y": -115456.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_91": {
+        "WorldLocation": {
+          "X": 19200.0,
+          "Y": -122880.0,
+          "Z": 6144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_16": {
+        "WorldLocation": {
+          "X": 85584.0,
+          "Y": -43840.0,
+          "Z": 32.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_92": {
+        "WorldLocation": {
+          "X": 51200.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_17": {
+        "WorldLocation": {
+          "X": 67037.0,
+          "Y": -73504.0,
+          "Z": 1878.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_17": {
+        "WorldLocation": {
+          "X": -63544.0,
+          "Y": -36664.0,
+          "Z": 8.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_18": {
+        "WorldLocation": {
+          "X": 108961.97,
+          "Y": 71007.7,
+          "Z": 1901.9124
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_18": {
+        "WorldLocation": {
+          "X": 125816.0,
+          "Y": -98600.0,
+          "Z": 1872.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_3": {
+        "WorldLocation": {
+          "X": 31344.318,
+          "Y": -3582.7327,
+          "Z": 1364.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_93": {
+        "WorldLocation": {
+          "X": 98304.0,
+          "Y": 43776.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_94": {
+        "WorldLocation": {
+          "X": 84224.0,
+          "Y": 22016.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_95": {
+        "WorldLocation": {
+          "X": -19712.0,
+          "Y": -39424.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_20": {
+        "WorldLocation": {
+          "X": 43709.062,
+          "Y": 39968.586,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_8": {
+        "WorldLocation": {
+          "X": 43692.0,
+          "Y": 40116.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_96": {
+        "WorldLocation": {
+          "X": 85504.0,
+          "Y": -43776.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_97": {
+        "WorldLocation": {
+          "X": -28672.0,
+          "Y": -63744.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_98": {
+        "WorldLocation": {
+          "X": 106752.0,
+          "Y": 26624.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_99": {
+        "WorldLocation": {
+          "X": 87552.0,
+          "Y": 15104.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_1": {
+        "WorldLocation": {
+          "X": 46960.0,
+          "Y": -40160.0,
+          "Z": -784.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_100": {
+        "WorldLocation": {
+          "X": -68352.0,
+          "Y": -32256.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_19": {
+        "WorldLocation": {
+          "X": 101568.0,
+          "Y": -8592.0,
+          "Z": 16.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.LootLake": {
+        "WorldLocation": {
+          "X": 64960.0,
+          "Y": -45120.0,
+          "Z": -1528.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_4": {
+        "WorldLocation": {
+          "X": -22064.0,
+          "Y": -23088.0,
+          "Z": 5120.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_101": {
+        "WorldLocation": {
+          "X": 105472.0,
+          "Y": -53504.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_9": {
+        "WorldLocation": {
+          "X": 22336.0,
+          "Y": -81244.0,
+          "Z": 3848.0007
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_21": {
+        "WorldLocation": {
+          "X": 22312.0,
+          "Y": -81384.0,
+          "Z": 3848.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_22": {
+        "WorldLocation": {
+          "X": 63165.062,
+          "Y": -105439.414,
+          "Z": 5768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_10": {
+        "WorldLocation": {
+          "X": 63148.0,
+          "Y": -105292.0,
+          "Z": 5768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_19": {
+        "WorldLocation": {
+          "X": 104944.0,
+          "Y": 24064.0,
+          "Z": -144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_102": {
+        "WorldLocation": {
+          "X": 79872.0,
+          "Y": 26880.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_20": {
+        "WorldLocation": {
+          "X": 45040.004,
+          "Y": 33247.996,
+          "Z": 1215.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_103": {
+        "WorldLocation": {
+          "X": -61696.0,
+          "Y": -10240.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_21": {
+        "WorldLocation": {
+          "X": -61403.29,
+          "Y": 18620.395,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_23": {
+        "WorldLocation": {
+          "X": 23368.0,
+          "Y": -48812.0,
+          "Z": -1912.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_22": {
+        "WorldLocation": {
+          "X": 18508.938,
+          "Y": -70009.0,
+          "Z": 748.3052
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_104": {
+        "WorldLocation": {
+          "X": 40960.0,
+          "Y": 77568.0,
+          "Z": 3456.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_5": {
+        "WorldLocation": {
+          "X": -112384.0,
+          "Y": -121620.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_6": {
+        "WorldLocation": {
+          "X": -123542.0,
+          "Y": -117396.0,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes": {
+        "WorldLocation": {
+          "X": -112296.0,
+          "Y": -122480.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_7": {
+        "WorldLocation": {
+          "X": -113592.0,
+          "Y": -122064.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_8": {
+        "WorldLocation": {
+          "X": -123969.984,
+          "Y": -119041.984,
+          "Z": 3842.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_9": {
+        "WorldLocation": {
+          "X": -113072.0,
+          "Y": -121328.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_0": {
+        "WorldLocation": {
+          "X": -112808.0,
+          "Y": -117132.0,
+          "Z": 3936.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_1": {
+        "WorldLocation": {
+          "X": -113545.984,
+          "Y": -122085.984,
+          "Z": 4222.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_10": {
+        "WorldLocation": {
+          "X": -113052.016,
+          "Y": -117551.99,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_2": {
+        "WorldLocation": {
+          "X": -112296.0,
+          "Y": -122360.0,
+          "Z": 3936.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_11": {
+        "WorldLocation": {
+          "X": -124219.984,
+          "Y": -119045.984,
+          "Z": 4136.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_12": {
+        "WorldLocation": {
+          "X": -113444.0,
+          "Y": -118132.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_13": {
+        "WorldLocation": {
+          "X": -113460.0,
+          "Y": -120520.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_14": {
+        "WorldLocation": {
+          "X": -112128.0,
+          "Y": -122432.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_3": {
+        "WorldLocation": {
+          "X": -124261.984,
+          "Y": -119683.984,
+          "Z": 4130.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_23": {
+        "WorldLocation": {
+          "X": -124247.97,
+          "Y": -117139.98,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_4": {
+        "WorldLocation": {
+          "X": -124225.984,
+          "Y": -118923.984,
+          "Z": 4424.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_15": {
+        "WorldLocation": {
+          "X": -113472.0,
+          "Y": -122336.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_16": {
+        "WorldLocation": {
+          "X": -124219.984,
+          "Y": -119045.984,
+          "Z": 3842.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_5": {
+        "WorldLocation": {
+          "X": -112671.98,
+          "Y": -117187.984,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_6": {
+        "WorldLocation": {
+          "X": -112912.04,
+          "Y": -117132.03,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_7": {
+        "WorldLocation": {
+          "X": -113868.0,
+          "Y": -121100.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_8": {
+        "WorldLocation": {
+          "X": -124145.984,
+          "Y": -119685.984,
+          "Z": 4130.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_17": {
+        "WorldLocation": {
+          "X": -113496.0,
+          "Y": -121472.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_18": {
+        "WorldLocation": {
+          "X": -112776.0,
+          "Y": -122832.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_9": {
+        "WorldLocation": {
+          "X": -112904.0,
+          "Y": -123000.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_10": {
+        "WorldLocation": {
+          "X": -124189.984,
+          "Y": -119607.984,
+          "Z": 4250.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_19": {
+        "WorldLocation": {
+          "X": -113236.0,
+          "Y": -117752.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_20": {
+        "WorldLocation": {
+          "X": -112592.0,
+          "Y": -121056.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_21": {
+        "WorldLocation": {
+          "X": -113040.016,
+          "Y": -117299.99,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_11": {
+        "WorldLocation": {
+          "X": -113144.0,
+          "Y": -122944.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_22": {
+        "WorldLocation": {
+          "X": -112352.0,
+          "Y": -121120.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_23": {
+        "WorldLocation": {
+          "X": -113504.0,
+          "Y": -121232.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_24": {
+        "WorldLocation": {
+          "X": -112272.0,
+          "Y": -121448.0,
+          "Z": 4400.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_25": {
+        "WorldLocation": {
+          "X": -112368.0,
+          "Y": -122688.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_12": {
+        "WorldLocation": {
+          "X": -124217.984,
+          "Y": -118803.984,
+          "Z": 4424.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_13": {
+        "WorldLocation": {
+          "X": -113457.984,
+          "Y": -122141.984,
+          "Z": 4114.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_24": {
+        "WorldLocation": {
+          "X": -124455.97,
+          "Y": -118363.98,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_14": {
+        "WorldLocation": {
+          "X": -113008.0,
+          "Y": -123000.0,
+          "Z": 3936.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_26": {
+        "WorldLocation": {
+          "X": -112376.0,
+          "Y": -120832.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_24": {
+        "WorldLocation": {
+          "X": -123997.0,
+          "Y": -109597.0,
+          "Z": 5000.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_27": {
+        "WorldLocation": {
+          "X": -112196.0,
+          "Y": -121920.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_15": {
+        "WorldLocation": {
+          "X": -112296.0,
+          "Y": -122224.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_28": {
+        "WorldLocation": {
+          "X": -113444.0,
+          "Y": -118952.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_29": {
+        "WorldLocation": {
+          "X": -112816.0,
+          "Y": -121336.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_30": {
+        "WorldLocation": {
+          "X": -126866.26,
+          "Y": -102544.93,
+          "Z": 3741.848
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_31": {
+        "WorldLocation": {
+          "X": -113460.0,
+          "Y": -119712.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_16": {
+        "WorldLocation": {
+          "X": -113688.0,
+          "Y": -121028.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_32": {
+        "WorldLocation": {
+          "X": -124385.984,
+          "Y": -119681.984,
+          "Z": 3842.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_17": {
+        "WorldLocation": {
+          "X": -113649.984,
+          "Y": -122041.984,
+          "Z": 4114.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_33": {
+        "WorldLocation": {
+          "X": -113376.0,
+          "Y": -121776.0,
+          "Z": 4112.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_34": {
+        "WorldLocation": {
+          "X": -112168.0,
+          "Y": -121364.0,
+          "Z": 3824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_25": {
+        "WorldLocation": {
+          "X": 128701.06,
+          "Y": -16863.414,
+          "Z": 392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_11": {
+        "WorldLocation": {
+          "X": 128684.0,
+          "Y": -16716.0,
+          "Z": 392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_105": {
+        "WorldLocation": {
+          "X": 130048.0,
+          "Y": -75008.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_106": {
+        "WorldLocation": {
+          "X": 50176.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_26": {
+        "WorldLocation": {
+          "X": 25922.938,
+          "Y": -71200.586,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_12": {
+        "WorldLocation": {
+          "X": 25940.0,
+          "Y": -71348.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_20": {
+        "WorldLocation": {
+          "X": 71761.0,
+          "Y": -73458.0,
+          "Z": 1838.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_13": {
+        "WorldLocation": {
+          "X": 11456.0,
+          "Y": -123044.0,
+          "Z": 2696.0007
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_27": {
+        "WorldLocation": {
+          "X": 11480.0,
+          "Y": -122904.0,
+          "Z": 2696.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_107": {
+        "WorldLocation": {
+          "X": 55808.0,
+          "Y": -126208.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_28": {
+        "WorldLocation": {
+          "X": 109245.06,
+          "Y": -63967.414,
+          "Z": 6152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_14": {
+        "WorldLocation": {
+          "X": 109228.0,
+          "Y": -63820.0,
+          "Z": 6152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_108": {
+        "WorldLocation": {
+          "X": -33792.0,
+          "Y": 40704.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_109": {
+        "WorldLocation": {
+          "X": 41472.0,
+          "Y": 60672.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_110": {
+        "WorldLocation": {
+          "X": 100096.0,
+          "Y": 19968.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_111": {
+        "WorldLocation": {
+          "X": -18176.0,
+          "Y": -40448.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_112": {
+        "WorldLocation": {
+          "X": 4608.0,
+          "Y": -23808.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_113": {
+        "WorldLocation": {
+          "X": 38400.0,
+          "Y": -95488.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_114": {
+        "WorldLocation": {
+          "X": -33536.0,
+          "Y": 41984.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_115": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 16384.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_35": {
+        "WorldLocation": {
+          "X": 31344.318,
+          "Y": -3582.7327,
+          "Z": 1072.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_116": {
+        "WorldLocation": {
+          "X": 126208.0,
+          "Y": -103936.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_15": {
+        "WorldLocation": {
+          "X": -53761.086,
+          "Y": 21121.375,
+          "Z": 2739.3772
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.MoistyMire": {
+        "WorldLocation": {
+          "X": -40384.0,
+          "Y": 58496.0,
+          "Z": -5336.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_29": {
+        "WorldLocation": {
+          "X": 1736.0,
+          "Y": -17608.0,
+          "Z": 2696.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_117": {
+        "WorldLocation": {
+          "X": 14336.0,
+          "Y": -81664.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_118": {
+        "WorldLocation": {
+          "X": 54784.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_25": {
+        "WorldLocation": {
+          "X": 108067.0,
+          "Y": -52932.0,
+          "Z": -658.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_21": {
+        "WorldLocation": {
+          "X": 132500.0,
+          "Y": -83075.0,
+          "Z": 1916.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_119": {
+        "WorldLocation": {
+          "X": 70400.0,
+          "Y": 58880.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_120": {
+        "WorldLocation": {
+          "X": 7424.0,
+          "Y": -20992.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_26": {
+        "WorldLocation": {
+          "X": 27273.455,
+          "Y": -87174.63,
+          "Z": 1016.1585
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_121": {
+        "WorldLocation": {
+          "X": -19200.0,
+          "Y": -42496.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_27": {
+        "WorldLocation": {
+          "X": 44378.47,
+          "Y": 27195.34,
+          "Z": 1247.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_122": {
+        "WorldLocation": {
+          "X": 108544.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_123": {
+        "WorldLocation": {
+          "X": 29696.0,
+          "Y": 73472.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_124": {
+        "WorldLocation": {
+          "X": 13568.0,
+          "Y": 25600.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_30": {
+        "WorldLocation": {
+          "X": 29000.0,
+          "Y": 73556.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_22": {
+        "WorldLocation": {
+          "X": 111536.0,
+          "Y": 28016.0,
+          "Z": -480.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_23": {
+        "WorldLocation": {
+          "X": 75608.0,
+          "Y": 10528.0,
+          "Z": 40.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_125": {
+        "WorldLocation": {
+          "X": 95744.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_126": {
+        "WorldLocation": {
+          "X": 104960.0,
+          "Y": -53504.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_127": {
+        "WorldLocation": {
+          "X": 76032.0,
+          "Y": -101888.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.DustyDepot": {
+        "WorldLocation": {
+          "X": 45184.0,
+          "Y": -4160.0,
+          "Z": -1976.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_24": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -62448.0,
+          "Z": 80.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_128": {
+        "WorldLocation": {
+          "X": 70656.0,
+          "Y": 58112.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_31": {
+        "WorldLocation": {
+          "X": 18760.0,
+          "Y": -44716.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_32": {
+        "WorldLocation": {
+          "X": -65208.0,
+          "Y": 46420.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_129": {
+        "WorldLocation": {
+          "X": 73216.0,
+          "Y": -124672.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_130": {
+        "WorldLocation": {
+          "X": 9728.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_131": {
+        "WorldLocation": {
+          "X": 92672.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_132": {
+        "WorldLocation": {
+          "X": 75776.0,
+          "Y": -102656.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_133": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 15872.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_134": {
+        "WorldLocation": {
+          "X": 110592.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_36": {
+        "WorldLocation": {
+          "X": -22064.0,
+          "Y": -23088.0,
+          "Z": 5120.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_135": {
+        "WorldLocation": {
+          "X": 121088.0,
+          "Y": 30208.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_33": {
+        "WorldLocation": {
+          "X": 39736.0,
+          "Y": 17608.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_136": {
+        "WorldLocation": {
+          "X": 134400.0,
+          "Y": -93184.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_34": {
+        "WorldLocation": {
+          "X": 90312.0,
+          "Y": 7992.0,
+          "Z": 392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_25": {
+        "WorldLocation": {
+          "X": 95360.0,
+          "Y": -117384.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.PleasantPark": {
+        "WorldLocation": {
+          "X": 86528.0,
+          "Y": -82176.0,
+          "Z": -1848.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_137": {
+        "WorldLocation": {
+          "X": 64512.0,
+          "Y": -75008.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_35": {
+        "WorldLocation": {
+          "X": -59935.27,
+          "Y": 13402.231,
+          "Z": 1956.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_138": {
+        "WorldLocation": {
+          "X": -34560.0,
+          "Y": -18944.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_139": {
+        "WorldLocation": {
+          "X": 71680.0,
+          "Y": 58112.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_140": {
+        "WorldLocation": {
+          "X": 117248.0,
+          "Y": 30464.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_141": {
+        "WorldLocation": {
+          "X": 37632.0,
+          "Y": 53248.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_142": {
+        "WorldLocation": {
+          "X": 82944.0,
+          "Y": -118528.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_28": {
+        "WorldLocation": {
+          "X": 42560.0,
+          "Y": 1392.0,
+          "Z": 744.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_26": {
+        "WorldLocation": {
+          "X": 89296.0,
+          "Y": 22720.0,
+          "Z": 752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_143": {
+        "WorldLocation": {
+          "X": 79104.0,
+          "Y": 27648.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_29": {
+        "WorldLocation": {
+          "X": 117632.0,
+          "Y": 29952.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_144": {
+        "WorldLocation": {
+          "X": 7424.0,
+          "Y": -20480.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_145": {
+        "WorldLocation": {
+          "X": -33536.0,
+          "Y": 40960.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_146": {
+        "WorldLocation": {
+          "X": -11264.0,
+          "Y": -83200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_147": {
+        "WorldLocation": {
+          "X": 72704.0,
+          "Y": 59648.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_148": {
+        "WorldLocation": {
+          "X": 70400.0,
+          "Y": 58368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_149": {
+        "WorldLocation": {
+          "X": 97792.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_150": {
+        "WorldLocation": {
+          "X": 71168.0,
+          "Y": 58112.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_151": {
+        "WorldLocation": {
+          "X": 72960.0,
+          "Y": 58880.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_152": {
+        "WorldLocation": {
+          "X": 9472.0,
+          "Y": 72192.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_153": {
+        "WorldLocation": {
+          "X": 89088.0,
+          "Y": 22784.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_27": {
+        "WorldLocation": {
+          "X": 104144.0,
+          "Y": 16736.0,
+          "Z": 64.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_2": {
+        "WorldLocation": {
+          "X": 18374.846,
+          "Y": -13448.0,
+          "Z": 6520.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_154": {
+        "WorldLocation": {
+          "X": 75520.0,
+          "Y": 10752.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_155": {
+        "WorldLocation": {
+          "X": 95488.0,
+          "Y": -17408.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_28": {
+        "WorldLocation": {
+          "X": 92192.0,
+          "Y": 19776.0,
+          "Z": -16.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_30": {
+        "WorldLocation": {
+          "X": 58210.11,
+          "Y": 11249.096,
+          "Z": 367.82697
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_37": {
+        "WorldLocation": {
+          "X": 56117.363,
+          "Y": 42042.66,
+          "Z": 2949.8804
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.FatalFields": {
+        "WorldLocation": {
+          "X": -36544.0,
+          "Y": -384.0,
+          "Z": -440.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_156": {
+        "WorldLocation": {
+          "X": 11264.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_29": {
+        "WorldLocation": {
+          "X": 62724.0,
+          "Y": -75568.0,
+          "Z": 1936.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_30": {
+        "WorldLocation": {
+          "X": 91514.0,
+          "Y": -47777.0,
+          "Z": -11.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_157": {
+        "WorldLocation": {
+          "X": 68096.0,
+          "Y": 61184.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_36": {
+        "WorldLocation": {
+          "X": -5304.0005,
+          "Y": -17068.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_31": {
+        "WorldLocation": {
+          "X": 131064.0,
+          "Y": -96952.0,
+          "Z": 2152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_37": {
+        "WorldLocation": {
+          "X": 19284.0,
+          "Y": -23880.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_38": {
+        "WorldLocation": {
+          "X": 30408.0,
+          "Y": -5944.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_158": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 39424.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_39": {
+        "WorldLocation": {
+          "X": 9900.0,
+          "Y": 81052.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_159": {
+        "WorldLocation": {
+          "X": 116992.0,
+          "Y": 29696.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_31": {
+        "WorldLocation": {
+          "X": 18508.938,
+          "Y": -70009.0,
+          "Z": 748.3052
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_32": {
+        "WorldLocation": {
+          "X": 120656.68,
+          "Y": 29754.697,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_40": {
+        "WorldLocation": {
+          "X": -839.9997,
+          "Y": -109908.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_160": {
+        "WorldLocation": {
+          "X": 13568.0,
+          "Y": 26112.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_161": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 51712.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_162": {
+        "WorldLocation": {
+          "X": -11776.0,
+          "Y": -83200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_163": {
+        "WorldLocation": {
+          "X": 106752.0,
+          "Y": 27136.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_164": {
+        "WorldLocation": {
+          "X": -60160.0,
+          "Y": 62464.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_38": {
+        "WorldLocation": {
+          "X": 31112.318,
+          "Y": -3598.7327,
+          "Z": 1072.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_165": {
+        "WorldLocation": {
+          "X": 53760.0,
+          "Y": 50944.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.RetailRow": {
+        "WorldLocation": {
+          "X": 24512.0,
+          "Y": 36480.0,
+          "Z": -1656.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_166": {
+        "WorldLocation": {
+          "X": 72704.0,
+          "Y": -124672.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_33": {
+        "WorldLocation": {
+          "X": 117917.94,
+          "Y": 29624.004,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_32": {
+        "WorldLocation": {
+          "X": 120192.0,
+          "Y": 36256.0,
+          "Z": -464.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_167": {
+        "WorldLocation": {
+          "X": 40704.0,
+          "Y": 58368.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_168": {
+        "WorldLocation": {
+          "X": -34560.0,
+          "Y": -19968.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_169": {
+        "WorldLocation": {
+          "X": 95744.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_170": {
+        "WorldLocation": {
+          "X": 40704.0,
+          "Y": 60416.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_41": {
+        "WorldLocation": {
+          "X": -56008.0,
+          "Y": -33080.0,
+          "Z": -376.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_171": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 39936.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_172": {
+        "WorldLocation": {
+          "X": 48640.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_173": {
+        "WorldLocation": {
+          "X": 55296.0,
+          "Y": -126208.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_174": {
+        "WorldLocation": {
+          "X": 119552.0,
+          "Y": 32256.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_42": {
+        "WorldLocation": {
+          "X": 32957.062,
+          "Y": -30687.414,
+          "Z": 776.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_16": {
+        "WorldLocation": {
+          "X": 32940.0,
+          "Y": -30540.0,
+          "Z": 776.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_175": {
+        "WorldLocation": {
+          "X": 36864.0,
+          "Y": -93440.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_176": {
+        "WorldLocation": {
+          "X": 98816.0,
+          "Y": 45824.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_33": {
+        "WorldLocation": {
+          "X": -70216.0,
+          "Y": -12696.0,
+          "Z": 8.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_177": {
+        "WorldLocation": {
+          "X": 64512.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_178": {
+        "WorldLocation": {
+          "X": 11776.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_179": {
+        "WorldLocation": {
+          "X": 126208.0,
+          "Y": -102912.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_34": {
+        "WorldLocation": {
+          "X": 83728.0,
+          "Y": 22012.0,
+          "Z": 1512.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_180": {
+        "WorldLocation": {
+          "X": 44544.0,
+          "Y": 57600.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_181": {
+        "WorldLocation": {
+          "X": 49664.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_39": {
+        "WorldLocation": {
+          "X": 56100.203,
+          "Y": 42660.168,
+          "Z": 2878.3098
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_182": {
+        "WorldLocation": {
+          "X": 91648.0,
+          "Y": -47872.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_183": {
+        "WorldLocation": {
+          "X": 37120.0,
+          "Y": -93696.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_184": {
+        "WorldLocation": {
+          "X": 9984.0,
+          "Y": 69632.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_40": {
+        "WorldLocation": {
+          "X": 56100.203,
+          "Y": 42660.168,
+          "Z": 2878.3098
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_185": {
+        "WorldLocation": {
+          "X": 65024.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_186": {
+        "WorldLocation": {
+          "X": 37632.0,
+          "Y": 52224.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_187": {
+        "WorldLocation": {
+          "X": 49408.0,
+          "Y": 65024.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_188": {
+        "WorldLocation": {
+          "X": 134656.0,
+          "Y": -93440.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_189": {
+        "WorldLocation": {
+          "X": 15104.0,
+          "Y": 55296.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_35": {
+        "WorldLocation": {
+          "X": 15808.0,
+          "Y": 70160.0,
+          "Z": 1328.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_190": {
+        "WorldLocation": {
+          "X": 13312.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.FlushFactory": {
+        "WorldLocation": {
+          "X": -62976.0,
+          "Y": -64000.0,
+          "Z": -2360.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_43": {
+        "WorldLocation": {
+          "X": 108368.0,
+          "Y": 52224.0,
+          "Z": 1395.2822
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_36": {
+        "WorldLocation": {
+          "X": 22416.0,
+          "Y": 65984.0,
+          "Z": 1296.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_191": {
+        "WorldLocation": {
+          "X": 15872.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_41": {
+        "WorldLocation": {
+          "X": 31584.318,
+          "Y": -3590.733,
+          "Z": 1364.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_192": {
+        "WorldLocation": {
+          "X": 61952.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_34": {
+        "WorldLocation": {
+          "X": -53936.6,
+          "Y": 21093.076,
+          "Z": 2608.8696
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_193": {
+        "WorldLocation": {
+          "X": 41472.0,
+          "Y": 79104.0,
+          "Z": 3456.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_194": {
+        "WorldLocation": {
+          "X": 2560.0,
+          "Y": -66816.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_195": {
+        "WorldLocation": {
+          "X": 98816.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_196": {
+        "WorldLocation": {
+          "X": 14592.0,
+          "Y": 47616.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.WailingWoods": {
+        "WorldLocation": {
+          "X": 85504.0,
+          "Y": 54336.0,
+          "Z": -120.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_197": {
+        "WorldLocation": {
+          "X": 106496.0,
+          "Y": 27904.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_198": {
+        "WorldLocation": {
+          "X": 44032.0,
+          "Y": 57600.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_44": {
+        "WorldLocation": {
+          "X": 48456.0,
+          "Y": -88236.0,
+          "Z": 4232.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_45": {
+        "WorldLocation": {
+          "X": 23752.0,
+          "Y": -1224.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_199": {
+        "WorldLocation": {
+          "X": 132608.0,
+          "Y": -83200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_37": {
+        "WorldLocation": {
+          "X": 108016.0,
+          "Y": 30048.0,
+          "Z": -400.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_200": {
+        "WorldLocation": {
+          "X": 37632.0,
+          "Y": 51712.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_201": {
+        "WorldLocation": {
+          "X": -4608.0,
+          "Y": -26368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_202": {
+        "WorldLocation": {
+          "X": 69632.0,
+          "Y": 28928.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_203": {
+        "WorldLocation": {
+          "X": 98048.0,
+          "Y": 44032.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_204": {
+        "WorldLocation": {
+          "X": 12800.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_205": {
+        "WorldLocation": {
+          "X": 108288.0,
+          "Y": 11264.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_206": {
+        "WorldLocation": {
+          "X": 37632.0,
+          "Y": 53760.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_38": {
+        "WorldLocation": {
+          "X": 96085.0,
+          "Y": -49553.0,
+          "Z": 555.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_207": {
+        "WorldLocation": {
+          "X": 83456.0,
+          "Y": -118528.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_208": {
+        "WorldLocation": {
+          "X": 87040.0,
+          "Y": 21760.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_209": {
+        "WorldLocation": {
+          "X": 86528.0,
+          "Y": 21760.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_210": {
+        "WorldLocation": {
+          "X": 52736.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_35": {
+        "WorldLocation": {
+          "X": -5488.0,
+          "Y": 48976.0,
+          "Z": 2256.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_46": {
+        "WorldLocation": {
+          "X": 141000.0,
+          "Y": -109256.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb": {
+        "WorldLocation": {
+          "X": 68272.0,
+          "Y": 43376.0,
+          "Z": 1440.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_39": {
+        "WorldLocation": {
+          "X": 119984.0,
+          "Y": -110344.0,
+          "Z": 1712.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_211": {
+        "WorldLocation": {
+          "X": 66048.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_212": {
+        "WorldLocation": {
+          "X": 72192.0,
+          "Y": 58112.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_213": {
+        "WorldLocation": {
+          "X": 96512.0,
+          "Y": -34816.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_214": {
+        "WorldLocation": {
+          "X": 52736.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_47": {
+        "WorldLocation": {
+          "X": -19144.0,
+          "Y": 18120.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_215": {
+        "WorldLocation": {
+          "X": 12544.0,
+          "Y": 69120.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_48": {
+        "WorldLocation": {
+          "X": 63800.0,
+          "Y": 53048.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_216": {
+        "WorldLocation": {
+          "X": 103424.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_49": {
+        "WorldLocation": {
+          "X": 11064.0,
+          "Y": 34504.0,
+          "Z": 776.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_217": {
+        "WorldLocation": {
+          "X": 84224.0,
+          "Y": 77312.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_50": {
+        "WorldLocation": {
+          "X": 133832.0,
+          "Y": -81720.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_40": {
+        "WorldLocation": {
+          "X": 75510.0,
+          "Y": -74073.0,
+          "Z": 2447.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_218": {
+        "WorldLocation": {
+          "X": 13568.0,
+          "Y": 49664.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_36": {
+        "WorldLocation": {
+          "X": -61486.65,
+          "Y": 17969.35,
+          "Z": 1296.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.GreasyGrove_0": {
+        "WorldLocation": {
+          "X": 730.2096,
+          "Y": -96280.0,
+          "Z": 1024.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_37": {
+        "WorldLocation": {
+          "X": 135237.0,
+          "Y": -94537.0,
+          "Z": 1558.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_219": {
+        "WorldLocation": {
+          "X": 35328.0,
+          "Y": 73984.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_220": {
+        "WorldLocation": {
+          "X": 20480.0,
+          "Y": -133888.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_221": {
+        "WorldLocation": {
+          "X": 95488.0,
+          "Y": -16896.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_222": {
+        "WorldLocation": {
+          "X": 71680.0,
+          "Y": 59648.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_223": {
+        "WorldLocation": {
+          "X": 48384.0,
+          "Y": -58880.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_224": {
+        "WorldLocation": {
+          "X": 18688.0,
+          "Y": 54272.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_225": {
+        "WorldLocation": {
+          "X": 55296.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_226": {
+        "WorldLocation": {
+          "X": 24576.0,
+          "Y": -125696.0,
+          "Z": 7680.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_227": {
+        "WorldLocation": {
+          "X": 104192.0,
+          "Y": 40448.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_228": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 31232.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_38": {
+        "WorldLocation": {
+          "X": 59136.004,
+          "Y": 26383.996,
+          "Z": 2832.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_39": {
+        "WorldLocation": {
+          "X": 18508.938,
+          "Y": -70009.0,
+          "Z": 748.3052
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb_0": {
+        "WorldLocation": {
+          "X": 99472.0,
+          "Y": 45744.0,
+          "Z": 672.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_229": {
+        "WorldLocation": {
+          "X": 20992.0,
+          "Y": -131328.0,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_230": {
+        "WorldLocation": {
+          "X": 120320.0,
+          "Y": 30464.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_40": {
+        "WorldLocation": {
+          "X": -5488.0,
+          "Y": 48976.0,
+          "Z": 2256.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_41": {
+        "WorldLocation": {
+          "X": -59960.633,
+          "Y": 13347.873,
+          "Z": 1252.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_51": {
+        "WorldLocation": {
+          "X": 34488.0,
+          "Y": 29868.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_42": {
+        "WorldLocation": {
+          "X": 45040.004,
+          "Y": 33247.996,
+          "Z": 1215.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_231": {
+        "WorldLocation": {
+          "X": 80640.0,
+          "Y": 27648.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_232": {
+        "WorldLocation": {
+          "X": -21760.0,
+          "Y": -26112.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_233": {
+        "WorldLocation": {
+          "X": 125440.0,
+          "Y": -51456.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_234": {
+        "WorldLocation": {
+          "X": 68608.0,
+          "Y": 61184.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_235": {
+        "WorldLocation": {
+          "X": 57344.0,
+          "Y": -126208.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_236": {
+        "WorldLocation": {
+          "X": 25600.0,
+          "Y": -121600.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_43": {
+        "WorldLocation": {
+          "X": 109634.23,
+          "Y": 11176.731,
+          "Z": -187.46286
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_237": {
+        "WorldLocation": {
+          "X": 12032.0,
+          "Y": -81920.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_238": {
+        "WorldLocation": {
+          "X": 48384.0,
+          "Y": -60416.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_239": {
+        "WorldLocation": {
+          "X": 26112.0,
+          "Y": -121600.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_240": {
+        "WorldLocation": {
+          "X": 47104.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_44": {
+        "WorldLocation": {
+          "X": 118768.0,
+          "Y": 57792.0,
+          "Z": 1456.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_241": {
+        "WorldLocation": {
+          "X": 53248.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_52": {
+        "WorldLocation": {
+          "X": 6456.0,
+          "Y": 19656.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_242": {
+        "WorldLocation": {
+          "X": 119296.0,
+          "Y": 51968.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_45": {
+        "WorldLocation": {
+          "X": -61403.29,
+          "Y": 18620.395,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_243": {
+        "WorldLocation": {
+          "X": 126208.0,
+          "Y": -103424.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_244": {
+        "WorldLocation": {
+          "X": 62720.0,
+          "Y": 66560.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_41": {
+        "WorldLocation": {
+          "X": 55008.0,
+          "Y": -70016.0,
+          "Z": 1632.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_245": {
+        "WorldLocation": {
+          "X": 40704.0,
+          "Y": 77824.0,
+          "Z": 3456.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb_1": {
+        "WorldLocation": {
+          "X": 82800.0,
+          "Y": 22864.0,
+          "Z": 1824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_42": {
+        "WorldLocation": {
+          "X": 112456.0,
+          "Y": -114296.0,
+          "Z": 1976.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_53": {
+        "WorldLocation": {
+          "X": 129736.0,
+          "Y": 44232.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_54": {
+        "WorldLocation": {
+          "X": 108304.0,
+          "Y": 52352.0,
+          "Z": 1395.2822
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_246": {
+        "WorldLocation": {
+          "X": 96256.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_55": {
+        "WorldLocation": {
+          "X": 56509.062,
+          "Y": 58400.586,
+          "Z": 3080.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_17": {
+        "WorldLocation": {
+          "X": 56492.0,
+          "Y": 58548.0,
+          "Z": 3080.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_247": {
+        "WorldLocation": {
+          "X": 101632.0,
+          "Y": 11264.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_248": {
+        "WorldLocation": {
+          "X": 25088.0,
+          "Y": -115456.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_249": {
+        "WorldLocation": {
+          "X": 45568.0,
+          "Y": 57600.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_250": {
+        "WorldLocation": {
+          "X": -60416.0,
+          "Y": 62208.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_251": {
+        "WorldLocation": {
+          "X": 122624.0,
+          "Y": 39424.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_56": {
+        "WorldLocation": {
+          "X": -49464.0,
+          "Y": -19768.0,
+          "Z": -760.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_252": {
+        "WorldLocation": {
+          "X": 84480.0,
+          "Y": 79104.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_253": {
+        "WorldLocation": {
+          "X": -19712.0,
+          "Y": -39936.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_254": {
+        "WorldLocation": {
+          "X": 98304.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_255": {
+        "WorldLocation": {
+          "X": 125696.0,
+          "Y": -68608.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_57": {
+        "WorldLocation": {
+          "X": 13000.0,
+          "Y": 61240.0,
+          "Z": 2696.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_256": {
+        "WorldLocation": {
+          "X": -18176.0,
+          "Y": -39936.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_58": {
+        "WorldLocation": {
+          "X": 10050.9375,
+          "Y": 11231.414,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_18": {
+        "WorldLocation": {
+          "X": 10068.0,
+          "Y": 11084.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_46": {
+        "WorldLocation": {
+          "X": 14576.0,
+          "Y": 70880.0,
+          "Z": 1216.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_257": {
+        "WorldLocation": {
+          "X": 19456.0,
+          "Y": -122112.0,
+          "Z": 6144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_258": {
+        "WorldLocation": {
+          "X": 5120.0,
+          "Y": -23808.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_259": {
+        "WorldLocation": {
+          "X": 55040.0,
+          "Y": 62464.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_43": {
+        "WorldLocation": {
+          "X": -28028.0,
+          "Y": -63620.0,
+          "Z": 1856.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_59": {
+        "WorldLocation": {
+          "X": -21688.0,
+          "Y": -26796.0,
+          "Z": 5000.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_260": {
+        "WorldLocation": {
+          "X": 119296.0,
+          "Y": 32000.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_261": {
+        "WorldLocation": {
+          "X": 12032.0,
+          "Y": -81408.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_262": {
+        "WorldLocation": {
+          "X": 50944.0,
+          "Y": 62464.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_263": {
+        "WorldLocation": {
+          "X": 54016.0,
+          "Y": 52224.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_47": {
+        "WorldLocation": {
+          "X": -53936.6,
+          "Y": 21093.076,
+          "Z": 2608.8696
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_264": {
+        "WorldLocation": {
+          "X": 100096.0,
+          "Y": 20480.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_265": {
+        "WorldLocation": {
+          "X": 103168.0,
+          "Y": 19968.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_266": {
+        "WorldLocation": {
+          "X": 62976.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb_2": {
+        "WorldLocation": {
+          "X": 71024.0,
+          "Y": 58704.0,
+          "Z": 1824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_44": {
+        "WorldLocation": {
+          "X": 103336.0,
+          "Y": -115360.0,
+          "Z": 2256.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_267": {
+        "WorldLocation": {
+          "X": 108288.0,
+          "Y": 10752.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_268": {
+        "WorldLocation": {
+          "X": 82688.0,
+          "Y": 22016.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_269": {
+        "WorldLocation": {
+          "X": -4096.0,
+          "Y": -32000.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_270": {
+        "WorldLocation": {
+          "X": 114176.0,
+          "Y": -49920.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_271": {
+        "WorldLocation": {
+          "X": 58880.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_272": {
+        "WorldLocation": {
+          "X": 15616.0,
+          "Y": 72192.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_60": {
+        "WorldLocation": {
+          "X": 84680.0,
+          "Y": 78024.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_273": {
+        "WorldLocation": {
+          "X": 62720.0,
+          "Y": 67072.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_274": {
+        "WorldLocation": {
+          "X": 72960.0,
+          "Y": 59392.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_42": {
+        "WorldLocation": {
+          "X": 31240.318,
+          "Y": -3622.7327,
+          "Z": 1940.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_43": {
+        "WorldLocation": {
+          "X": 31235.533,
+          "Y": -3470.7517,
+          "Z": 1652.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_48": {
+        "WorldLocation": {
+          "X": 36352.004,
+          "Y": 39791.996,
+          "Z": 1151.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_49": {
+        "WorldLocation": {
+          "X": -61469.46,
+          "Y": 17999.77,
+          "Z": 1984.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_275": {
+        "WorldLocation": {
+          "X": 53248.0,
+          "Y": 50944.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_276": {
+        "WorldLocation": {
+          "X": 57600.0,
+          "Y": -127488.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_277": {
+        "WorldLocation": {
+          "X": 48640.0,
+          "Y": 65280.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_278": {
+        "WorldLocation": {
+          "X": 57600.0,
+          "Y": -126976.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_279": {
+        "WorldLocation": {
+          "X": 75520.0,
+          "Y": 10240.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_280": {
+        "WorldLocation": {
+          "X": 49152.0,
+          "Y": 65280.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_281": {
+        "WorldLocation": {
+          "X": 49664.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_282": {
+        "WorldLocation": {
+          "X": 65536.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_283": {
+        "WorldLocation": {
+          "X": 65792.0,
+          "Y": 69120.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_284": {
+        "WorldLocation": {
+          "X": 53248.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_285": {
+        "WorldLocation": {
+          "X": 64000.0,
+          "Y": 13056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_286": {
+        "WorldLocation": {
+          "X": 54784.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_61": {
+        "WorldLocation": {
+          "X": 19768.0,
+          "Y": -58168.0,
+          "Z": 4608.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_287": {
+        "WorldLocation": {
+          "X": 129536.0,
+          "Y": -75008.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_50": {
+        "WorldLocation": {
+          "X": 58210.11,
+          "Y": 11249.096,
+          "Z": 367.82697
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_288": {
+        "WorldLocation": {
+          "X": 96512.0,
+          "Y": -33792.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_289": {
+        "WorldLocation": {
+          "X": 50688.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_51": {
+        "WorldLocation": {
+          "X": 43991.0,
+          "Y": -71455.0,
+          "Z": 702.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_290": {
+        "WorldLocation": {
+          "X": 91392.0,
+          "Y": -47104.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_291": {
+        "WorldLocation": {
+          "X": -71168.0,
+          "Y": -35072.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_62": {
+        "WorldLocation": {
+          "X": 96456.0,
+          "Y": 27960.0,
+          "Z": 392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_63": {
+        "WorldLocation": {
+          "X": 128322.94,
+          "Y": -107552.586,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_19": {
+        "WorldLocation": {
+          "X": 128340.0,
+          "Y": -107700.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_292": {
+        "WorldLocation": {
+          "X": 125696.0,
+          "Y": -69632.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_293": {
+        "WorldLocation": {
+          "X": 125952.0,
+          "Y": -51456.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_64": {
+        "WorldLocation": {
+          "X": -46792.0,
+          "Y": -64824.0,
+          "Z": 5376.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_294": {
+        "WorldLocation": {
+          "X": 65024.0,
+          "Y": -75008.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_52": {
+        "WorldLocation": {
+          "X": -63544.0,
+          "Y": -36664.0,
+          "Z": 8.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_295": {
+        "WorldLocation": {
+          "X": 19456.0,
+          "Y": -23296.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_53": {
+        "WorldLocation": {
+          "X": 26473.4,
+          "Y": 67775.12,
+          "Z": 2348.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_296": {
+        "WorldLocation": {
+          "X": 54016.0,
+          "Y": 51200.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_297": {
+        "WorldLocation": {
+          "X": 115968.0,
+          "Y": -48640.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_298": {
+        "WorldLocation": {
+          "X": 134400.0,
+          "Y": -92160.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_299": {
+        "WorldLocation": {
+          "X": 84736.0,
+          "Y": 78848.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_300": {
+        "WorldLocation": {
+          "X": 116992.0,
+          "Y": 30208.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_301": {
+        "WorldLocation": {
+          "X": 106752.0,
+          "Y": 27648.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_54": {
+        "WorldLocation": {
+          "X": 27273.455,
+          "Y": -87174.63,
+          "Z": 1016.1585
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_45": {
+        "WorldLocation": {
+          "X": 107928.0,
+          "Y": -114848.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_302": {
+        "WorldLocation": {
+          "X": 4096.0,
+          "Y": -20224.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_46": {
+        "WorldLocation": {
+          "X": 124544.0,
+          "Y": -108880.0,
+          "Z": 1880.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_303": {
+        "WorldLocation": {
+          "X": 61440.0,
+          "Y": 67328.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_47": {
+        "WorldLocation": {
+          "X": 18320.0,
+          "Y": 66848.0,
+          "Z": 1312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_304": {
+        "WorldLocation": {
+          "X": 12800.0,
+          "Y": 68864.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_305": {
+        "WorldLocation": {
+          "X": 103680.0,
+          "Y": 19456.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_306": {
+        "WorldLocation": {
+          "X": 110080.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_307": {
+        "WorldLocation": {
+          "X": 103680.0,
+          "Y": 4096.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_308": {
+        "WorldLocation": {
+          "X": 101120.0,
+          "Y": 4096.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_309": {
+        "WorldLocation": {
+          "X": 103936.0,
+          "Y": 3840.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_310": {
+        "WorldLocation": {
+          "X": 102656.0,
+          "Y": 4608.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_311": {
+        "WorldLocation": {
+          "X": 102912.0,
+          "Y": 4352.001,
+          "Z": -2.2737368E-13
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_312": {
+        "WorldLocation": {
+          "X": 102656.0,
+          "Y": 10240.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_313": {
+        "WorldLocation": {
+          "X": 101120.0,
+          "Y": 4608.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_314": {
+        "WorldLocation": {
+          "X": 102656.0,
+          "Y": 9728.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_315": {
+        "WorldLocation": {
+          "X": 102656.0,
+          "Y": 10752.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_316": {
+        "WorldLocation": {
+          "X": 101376.0,
+          "Y": 4864.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_317": {
+        "WorldLocation": {
+          "X": 101376.0,
+          "Y": 9472.001,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_55": {
+        "WorldLocation": {
+          "X": 108961.97,
+          "Y": 71007.7,
+          "Z": 1901.9124
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_318": {
+        "WorldLocation": {
+          "X": 84736.0,
+          "Y": 78336.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_56": {
+        "WorldLocation": {
+          "X": 84115.805,
+          "Y": 86247.086,
+          "Z": 1511.9663
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_319": {
+        "WorldLocation": {
+          "X": 9472.0,
+          "Y": 71680.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_320": {
+        "WorldLocation": {
+          "X": 49408.0,
+          "Y": 64512.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.FDS.Grill": {
+        "WorldLocation": {
+          "X": 40424.0,
+          "Y": 59936.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_321": {
+        "WorldLocation": {
+          "X": 89344.0,
+          "Y": 22528.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_322": {
+        "WorldLocation": {
+          "X": 96512.0,
+          "Y": -34304.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_323": {
+        "WorldLocation": {
+          "X": -3072.0,
+          "Y": -32000.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_324": {
+        "WorldLocation": {
+          "X": 19200.0,
+          "Y": -122368.0,
+          "Z": 6144.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_325": {
+        "WorldLocation": {
+          "X": 95744.0,
+          "Y": -117504.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_326": {
+        "WorldLocation": {
+          "X": -70656.0,
+          "Y": -12544.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_327": {
+        "WorldLocation": {
+          "X": 99840.0,
+          "Y": 45312.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_48": {
+        "WorldLocation": {
+          "X": 119232.0,
+          "Y": 31904.0,
+          "Z": -496.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_20": {
+        "WorldLocation": {
+          "X": 103104.0,
+          "Y": -67236.0,
+          "Z": 7304.0005
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_65": {
+        "WorldLocation": {
+          "X": 103128.0,
+          "Y": -67096.0,
+          "Z": 7304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_328": {
+        "WorldLocation": {
+          "X": 50944.0,
+          "Y": 61952.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_66": {
+        "WorldLocation": {
+          "X": 106306.94,
+          "Y": 55775.414,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_21": {
+        "WorldLocation": {
+          "X": 106324.0,
+          "Y": 55628.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_329": {
+        "WorldLocation": {
+          "X": 48384.0,
+          "Y": -59904.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_330": {
+        "WorldLocation": {
+          "X": 13312.0,
+          "Y": 49920.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_331": {
+        "WorldLocation": {
+          "X": 20992.0,
+          "Y": -133888.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_332": {
+        "WorldLocation": {
+          "X": -23552.0,
+          "Y": -21248.0,
+          "Z": 4608.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_67": {
+        "WorldLocation": {
+          "X": 79544.0,
+          "Y": -22356.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_333": {
+        "WorldLocation": {
+          "X": 25088.0,
+          "Y": -125696.0,
+          "Z": 7680.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_334": {
+        "WorldLocation": {
+          "X": 55040.0,
+          "Y": 61952.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_335": {
+        "WorldLocation": {
+          "X": 40960.0,
+          "Y": 79104.0,
+          "Z": 3456.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_336": {
+        "WorldLocation": {
+          "X": -19200.0,
+          "Y": -25088.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_49": {
+        "WorldLocation": {
+          "X": 100850.0,
+          "Y": -51710.0,
+          "Z": 543.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_337": {
+        "WorldLocation": {
+          "X": -61696.0,
+          "Y": -10752.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_338": {
+        "WorldLocation": {
+          "X": -60672.0,
+          "Y": 61952.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_339": {
+        "WorldLocation": {
+          "X": 84736.0,
+          "Y": -44032.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.FDS.Grill_0": {
+        "WorldLocation": {
+          "X": -19439.922,
+          "Y": -45423.965,
+          "Z": -1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_3": {
+        "WorldLocation": {
+          "X": 66894.84,
+          "Y": 12808.0,
+          "Z": 888.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_340": {
+        "WorldLocation": {
+          "X": 82432.0,
+          "Y": -118528.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_341": {
+        "WorldLocation": {
+          "X": 76032.0,
+          "Y": -101376.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_342": {
+        "WorldLocation": {
+          "X": 11264.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_343": {
+        "WorldLocation": {
+          "X": 3584.0,
+          "Y": -66816.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_344": {
+        "WorldLocation": {
+          "X": 26624.0,
+          "Y": -121600.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_22": {
+        "WorldLocation": {
+          "X": 31040.0,
+          "Y": -41308.0,
+          "Z": 392.00073
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_68": {
+        "WorldLocation": {
+          "X": 31016.0,
+          "Y": -41448.0,
+          "Z": 392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_69": {
+        "WorldLocation": {
+          "X": 68936.0,
+          "Y": 3412.0007,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_4": {
+        "WorldLocation": {
+          "X": 17872.0,
+          "Y": -13160.0,
+          "Z": 7288.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_345": {
+        "WorldLocation": {
+          "X": 119040.0,
+          "Y": 51200.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_50": {
+        "WorldLocation": {
+          "X": -31044.0,
+          "Y": -25794.0,
+          "Z": 1484.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_346": {
+        "WorldLocation": {
+          "X": 13312.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_51": {
+        "WorldLocation": {
+          "X": 114880.0,
+          "Y": 30192.0,
+          "Z": -368.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_347": {
+        "WorldLocation": {
+          "X": 52224.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_348": {
+        "WorldLocation": {
+          "X": 37632.0,
+          "Y": 54272.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_349": {
+        "WorldLocation": {
+          "X": 48128.0,
+          "Y": 63232.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_350": {
+        "WorldLocation": {
+          "X": 91392.0,
+          "Y": -47616.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_5": {
+        "WorldLocation": {
+          "X": 71318.84,
+          "Y": 11912.0,
+          "Z": 1520.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_44": {
+        "WorldLocation": {
+          "X": 31344.318,
+          "Y": -3582.7327,
+          "Z": 1364.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.LonelyLodge": {
+        "WorldLocation": {
+          "X": 54336.0,
+          "Y": 71104.0,
+          "Z": -24.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_70": {
+        "WorldLocation": {
+          "X": 57544.0,
+          "Y": -74440.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_351": {
+        "WorldLocation": {
+          "X": -71936.0,
+          "Y": -34816.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_71": {
+        "WorldLocation": {
+          "X": 106306.94,
+          "Y": 55775.414,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_23": {
+        "WorldLocation": {
+          "X": 106324.0,
+          "Y": 55628.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_72": {
+        "WorldLocation": {
+          "X": -80568.0,
+          "Y": -5803.999,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_352": {
+        "WorldLocation": {
+          "X": 12288.0,
+          "Y": 49920.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_24": {
+        "WorldLocation": {
+          "X": 91840.0,
+          "Y": -98980.0,
+          "Z": 6536.0005
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_73": {
+        "WorldLocation": {
+          "X": 91864.0,
+          "Y": -98840.0,
+          "Z": 6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_57": {
+        "WorldLocation": {
+          "X": 101568.0,
+          "Y": -8592.0,
+          "Z": 16.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_353": {
+        "WorldLocation": {
+          "X": 19968.0,
+          "Y": -133888.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_354": {
+        "WorldLocation": {
+          "X": 134400.0,
+          "Y": -92672.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_355": {
+        "WorldLocation": {
+          "X": 87296.0,
+          "Y": 15360.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_356": {
+        "WorldLocation": {
+          "X": 13312.0,
+          "Y": 26368.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_74": {
+        "WorldLocation": {
+          "X": 45384.0,
+          "Y": -77996.0,
+          "Z": 1160.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_25": {
+        "WorldLocation": {
+          "X": -71844.0,
+          "Y": -18112.0,
+          "Z": -759.99927
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_75": {
+        "WorldLocation": {
+          "X": -71704.0,
+          "Y": -18136.0,
+          "Z": -760.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_357": {
+        "WorldLocation": {
+          "X": 116224.0,
+          "Y": -48896.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_76": {
+        "WorldLocation": {
+          "X": 39456.586,
+          "Y": -24253.062,
+          "Z": 4616.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_26": {
+        "WorldLocation": {
+          "X": 39604.0,
+          "Y": -24236.0,
+          "Z": 4616.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_358": {
+        "WorldLocation": {
+          "X": 65024.0,
+          "Y": 67328.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_359": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -66560.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_77": {
+        "WorldLocation": {
+          "X": 41504.586,
+          "Y": 78146.94,
+          "Z": 3464.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_27": {
+        "WorldLocation": {
+          "X": 41652.0,
+          "Y": 78164.0,
+          "Z": 3464.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_360": {
+        "WorldLocation": {
+          "X": 13824.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_361": {
+        "WorldLocation": {
+          "X": -34560.0,
+          "Y": -18944.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_362": {
+        "WorldLocation": {
+          "X": 65792.0,
+          "Y": 68608.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_363": {
+        "WorldLocation": {
+          "X": 14848.0,
+          "Y": 57088.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_52": {
+        "WorldLocation": {
+          "X": 122720.0,
+          "Y": 39808.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_364": {
+        "WorldLocation": {
+          "X": 61184.0,
+          "Y": 67072.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_78": {
+        "WorldLocation": {
+          "X": -22338.938,
+          "Y": -68063.414,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_28": {
+        "WorldLocation": {
+          "X": -22356.0,
+          "Y": -67916.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_365": {
+        "WorldLocation": {
+          "X": 115200.0,
+          "Y": -49920.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_366": {
+        "WorldLocation": {
+          "X": 132352.0,
+          "Y": -82944.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_367": {
+        "WorldLocation": {
+          "X": 48384.0,
+          "Y": -59392.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_368": {
+        "WorldLocation": {
+          "X": 121088.0,
+          "Y": 29696.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_58": {
+        "WorldLocation": {
+          "X": 43991.0,
+          "Y": -71455.0,
+          "Z": 702.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_45": {
+        "WorldLocation": {
+          "X": 31243.533,
+          "Y": -3702.749,
+          "Z": 1652.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_46": {
+        "WorldLocation": {
+          "X": 56117.363,
+          "Y": 42042.66,
+          "Z": 2949.8804
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_53": {
+        "WorldLocation": {
+          "X": 126304.0,
+          "Y": -103168.0,
+          "Z": 1824.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_54": {
+        "WorldLocation": {
+          "X": 133748.0,
+          "Y": -87476.0,
+          "Z": 1409.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_369": {
+        "WorldLocation": {
+          "X": 12288.0,
+          "Y": -82176.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_59": {
+        "WorldLocation": {
+          "X": 135237.0,
+          "Y": -94537.0,
+          "Z": 1558.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_79": {
+        "WorldLocation": {
+          "X": 24904.0,
+          "Y": 17236.0,
+          "Z": 1928.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_370": {
+        "WorldLocation": {
+          "X": -69632.0,
+          "Y": -35072.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.ShippingContainer_47": {
+        "WorldLocation": {
+          "X": 31108.318,
+          "Y": -3582.7327,
+          "Z": 1364.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_371": {
+        "WorldLocation": {
+          "X": -3584.0,
+          "Y": -32000.0,
+          "Z": 384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_372": {
+        "WorldLocation": {
+          "X": 96768.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_29": {
+        "WorldLocation": {
+          "X": 63296.0,
+          "Y": -98652.0,
+          "Z": 2696.0007
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_80": {
+        "WorldLocation": {
+          "X": 63272.0,
+          "Y": -98792.0,
+          "Z": 2696.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_373": {
+        "WorldLocation": {
+          "X": -19712.0,
+          "Y": -40448.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_374": {
+        "WorldLocation": {
+          "X": 96256.0,
+          "Y": -117504.0,
+          "Z": 2688.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb_3": {
+        "WorldLocation": {
+          "X": 66224.0,
+          "Y": 67952.0,
+          "Z": 2208.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_375": {
+        "WorldLocation": {
+          "X": -512.0,
+          "Y": -26368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_376": {
+        "WorldLocation": {
+          "X": 100352.0,
+          "Y": 18176.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_377": {
+        "WorldLocation": {
+          "X": 16896.0,
+          "Y": 49408.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_55": {
+        "WorldLocation": {
+          "X": 99008.0,
+          "Y": -117104.0,
+          "Z": 2720.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_56": {
+        "WorldLocation": {
+          "X": 103312.0,
+          "Y": 19808.0,
+          "Z": -16.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_378": {
+        "WorldLocation": {
+          "X": 24832.0,
+          "Y": -115712.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_379": {
+        "WorldLocation": {
+          "X": 24832.0,
+          "Y": -116224.0,
+          "Z": 10752.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_6": {
+        "WorldLocation": {
+          "X": 71870.84,
+          "Y": 11152.0,
+          "Z": 888.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_380": {
+        "WorldLocation": {
+          "X": 64512.0,
+          "Y": 67328.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Chrome.CanBePetrified_7": {
+        "WorldLocation": {
+          "X": 46448.0,
+          "Y": -45032.0,
+          "Z": -784.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_81": {
+        "WorldLocation": {
+          "X": 2744.0002,
+          "Y": 42156.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_381": {
+        "WorldLocation": {
+          "X": 17408.0,
+          "Y": 49408.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_60": {
+        "WorldLocation": {
+          "X": 44378.47,
+          "Y": 27195.34,
+          "Z": 1247.9999
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_382": {
+        "WorldLocation": {
+          "X": 88320.0,
+          "Y": -45568.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_82": {
+        "WorldLocation": {
+          "X": -59957.29,
+          "Y": 13290.691,
+          "Z": 1956.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_383": {
+        "WorldLocation": {
+          "X": 83456.0,
+          "Y": 21760.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_384": {
+        "WorldLocation": {
+          "X": 38912.0,
+          "Y": -95488.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_385": {
+        "WorldLocation": {
+          "X": 9984.0,
+          "Y": 70144.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_386": {
+        "WorldLocation": {
+          "X": 64000.0,
+          "Y": 11520.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_387": {
+        "WorldLocation": {
+          "X": -68352.0,
+          "Y": -31744.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_83": {
+        "WorldLocation": {
+          "X": 44733.062,
+          "Y": -30175.414,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Television_30": {
+        "WorldLocation": {
+          "X": 44716.0,
+          "Y": -30028.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_388": {
+        "WorldLocation": {
+          "X": 60672.0,
+          "Y": 66048.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_389": {
+        "WorldLocation": {
+          "X": 83968.0,
+          "Y": 21760.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_84": {
+        "WorldLocation": {
+          "X": 44204.0,
+          "Y": 52552.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_390": {
+        "WorldLocation": {
+          "X": 88320.0,
+          "Y": -45056.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_391": {
+        "WorldLocation": {
+          "X": 125696.0,
+          "Y": -68096.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_57": {
+        "WorldLocation": {
+          "X": 48480.0,
+          "Y": -58800.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_58": {
+        "WorldLocation": {
+          "X": 88211.0,
+          "Y": -44878.0,
+          "Z": 30.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_392": {
+        "WorldLocation": {
+          "X": 48128.0,
+          "Y": 65280.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.RetailRow_0": {
+        "WorldLocation": {
+          "X": 25893.357,
+          "Y": 47053.043,
+          "Z": 1428.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_59": {
+        "WorldLocation": {
+          "X": 104963.0,
+          "Y": -53424.0,
+          "Z": -398.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_393": {
+        "WorldLocation": {
+          "X": 0.0,
+          "Y": -26368.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_394": {
+        "WorldLocation": {
+          "X": 82432.0,
+          "Y": 22272.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_395": {
+        "WorldLocation": {
+          "X": 96256.0,
+          "Y": 19712.0,
+          "Z": 0.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_396": {
+        "WorldLocation": {
+          "X": 35584.0,
+          "Y": 73728.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_60": {
+        "WorldLocation": {
+          "X": -34368.0,
+          "Y": -19360.0,
+          "Z": 1536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_397": {
+        "WorldLocation": {
+          "X": 103680.0,
+          "Y": 34304.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_398": {
+        "WorldLocation": {
+          "X": 58368.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_399": {
+        "WorldLocation": {
+          "X": 37120.0,
+          "Y": -94208.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_400": {
+        "WorldLocation": {
+          "X": -22528.0,
+          "Y": -21248.0,
+          "Z": 4608.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_401": {
+        "WorldLocation": {
+          "X": 65280.0,
+          "Y": 66560.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_402": {
+        "WorldLocation": {
+          "X": 103936.0,
+          "Y": -115456.0,
+          "Z": 2304.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_61": {
+        "WorldLocation": {
+          "X": 119120.0,
+          "Y": 51472.0,
+          "Z": -384.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_403": {
+        "WorldLocation": {
+          "X": 87296.0,
+          "Y": 21504.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_404": {
+        "WorldLocation": {
+          "X": -27648.0,
+          "Y": -63744.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_85": {
+        "WorldLocation": {
+          "X": 110792.0,
+          "Y": -97992.0,
+          "Z": 7680.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_405": {
+        "WorldLocation": {
+          "X": 3072.0,
+          "Y": -66816.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_62": {
+        "WorldLocation": {
+          "X": 87408.0,
+          "Y": 15152.0,
+          "Z": 16.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_406": {
+        "WorldLocation": {
+          "X": -71680.0,
+          "Y": -35072.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_407": {
+        "WorldLocation": {
+          "X": 54272.0,
+          "Y": 61696.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Destroy.Cobweb_4": {
+        "WorldLocation": {
+          "X": 84112.0,
+          "Y": 43696.0,
+          "Z": 1440.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_63": {
+        "WorldLocation": {
+          "X": 134479.0,
+          "Y": -92163.0,
+          "Z": 1539.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Vehicle.NoAlarm_61": {
+        "WorldLocation": {
+          "X": 14576.0,
+          "Y": 70880.0,
+          "Z": 1216.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_408": {
+        "WorldLocation": {
+          "X": 46848.0,
+          "Y": -66048.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.RetailRow_1": {
+        "WorldLocation": {
+          "X": 25893.836,
+          "Y": 46527.027,
+          "Z": 1394.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_409": {
+        "WorldLocation": {
+          "X": 75264.0,
+          "Y": -102656.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_410": {
+        "WorldLocation": {
+          "X": 64000.0,
+          "Y": -75008.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_86": {
+        "WorldLocation": {
+          "X": 97464.0,
+          "Y": -57684.0,
+          "Z": 1544.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_411": {
+        "WorldLocation": {
+          "X": -20736.0,
+          "Y": -25088.0,
+          "Z": 4992.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_18": {
+        "WorldLocation": {
+          "X": 109454.836,
+          "Y": 71262.95,
+          "Z": 2063.9143
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_412": {
+        "WorldLocation": {
+          "X": 19456.0,
+          "Y": 54016.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_413": {
+        "WorldLocation": {
+          "X": 5120.0,
+          "Y": -19200.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Palettes_19": {
+        "WorldLocation": {
+          "X": 109032.914,
+          "Y": 71019.06,
+          "Z": 2046.7965
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.TelephonePoles_64": {
+        "WorldLocation": {
+          "X": 110498.0,
+          "Y": -51859.0,
+          "Z": -371.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_414": {
+        "WorldLocation": {
+          "X": 88832.0,
+          "Y": 22528.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_415": {
+        "WorldLocation": {
+          "X": 51200.0,
+          "Y": 64256.0,
+          "Z": 1920.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Chair_87": {
+        "WorldLocation": {
+          "X": 108224.0,
+          "Y": 52032.0,
+          "Z": 1392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.DancingFishVisuals.RetailRow_2": {
+        "WorldLocation": {
+          "X": 26631.988,
+          "Y": 45192.402,
+          "Z": 1806.6277
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_416": {
+        "WorldLocation": {
+          "X": 11776.0,
+          "Y": 72448.0,
+          "Z": 1152.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_417": {
+        "WorldLocation": {
+          "X": 76032.0,
+          "Y": -102400.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.Building.Wood.Fences_418": {
+        "WorldLocation": {
+          "X": 41216.0,
+          "Y": 77312.0,
+          "Z": 3456.0
+        },
+        "EventsWorldLocation": []
+      }
+    }
+  }
+]

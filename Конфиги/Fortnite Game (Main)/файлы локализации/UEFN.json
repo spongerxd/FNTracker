@@ -19,7 +19,7 @@
     "CE391E25458168C2A56DC1BA8045C882": "Заброшенный завод. Доминирование",
     "53AE242D485C66789B5D378CB1475AA3": "\"Заброшенный завод. Доминирование\" — игра в стиле \"Доминирование\", в которой две команды игроков стараются захватывать цели. В игровом процессе используются такие устройства, как \"Область захвата\", а также пользовательские устройства, созданные с помощью Verse.",
     "74D6D0744C1DBDD819753C968E9E869E": "Детонация",
-    "CC2E9B6747E19D2828AF0880530ED0B6": "Готово",
+    "07392A82485F94F33B1619B10375E0F4": "Не показывать до следующего обновления",
     "92C6C5A247A44E6BC0DF5F8FC19E539D": "Редактировать",
     "AAB8C7744E44AF3AEA754E8A60313AE0": "Редактировать",
     "997E73E547DE5A156B61FBA2A0D6A4D9": "Устранение",
@@ -39,6 +39,7 @@
     "310BF5F942CB152931478BAE9315B9D7": "Узнайте, как вы можете использовать устройство создания персонажей и аниматор MetaHuman для добавления новых уровней творческих способностей к вашим островам. Используйте стул и устройства входных триггеров для разблокировки игрового процесса, что ранее было невозможно в UEFN.",
     "7B3D226F4011B0B941EF95BF9B6B97DB": "Научитесь создавать игры, в которые игрокам хочется возвращаться. В этом шаблоне объясняется и демонстрируется функция сохранения параметров после завершения сеанса, механики смены времени суток и способы создания игр, которые продолжают развиваться даже в отсутствие игроков. Ознакомьтесь с шаблоном и станьте мастером по удержанию внимания игроков.",
     "D9EB88304F56B03B45B70DB2E4F43D7F": "Научитесь создавать собственные жуткие миры в духе Хэллоуина со страшными монстрами, черепами, тыквами и многим другим. Узнайте, как создавался этот мир ужасов, и как сделать собственные страшилки, которые будут выскакивать и пугать, с помощью Verse!",
+    "CC2E9B6747E19D2828AF0880530ED0B6": "Приступим!",
     "2E8ADB88426F311647A810A15807495C": "Освещение",
     "44879C174A60DB82AB62E8952784D36F": "Идёт загрузка",
     "7B1C419A4304D8A74EDC138135C2FBD3": "Металл",
@@ -46,7 +47,6 @@
     "911D856A4ECDFD1A33140E92A68D571B": "Подходящие названия состояний не найдены…",
     "0816944E4852B4E3CC1342B75D67150C": "Смещение U",
     "3EAA29E14CE57D5A93C79B88A85AC21C": "Смещение V",
-    "07392A82485F94F33B1619B10375E0F4": "При запуске показывать только непрочитанные новости",
     "449C6D19488D0556A388BB86AA381531": "Паркур",
     "533F62264C805143D07A9E85F3220973": "Заготовки",
     "5BBEA8124D8C74173BF7CA99F8970141": "Прятки (с предметами)",
@@ -283,6 +283,7 @@
     "FortItemDefinitionAssetEditor": "Определение предмета Fortnite Редактор ресурсов",
     "FortConversationEditor": "Редактор диалогов Fortnite",
     "FortniteEditorCommands": "Редактор Fortnite",
+    "SpatialMetricsHistogram": "Гистограмма",
     "SpatialMetricsGrid": "SpatialMetrics",
     "SpatialMetricsViewerCommands": "Средство просмотра пространственных показателей",
     "ValkyrieEditor": "Редактор Valkyrie"
@@ -472,17 +473,18 @@
     "EmptyResolvedContent": "Получен пустой преобразованный контент",
     "EmptyArtifactId": "Получен пустой идентификатор дефекта",
     "CookingExternalContent": "Сервер выполняет сборку внешнего контента",
+    "ContentServiceNotAvailable": "Сервис управления контентом недоступен.",
     "UserNotLoggedIn": "Пользователь не вошёл в систему"
   },
   "Fab": {
     "Fab.AlphaLabel": "Fab (альфа-версия)",
+    "FabSettingsLabel": "Настройки Fab (альфа-версия)",
     "WebBrowserModuleNotEnabled": "Не удалось загрузить подключаемый модуль. Для использования Emporium включите WebBrowserWindow в диспетчере подключаемых модулей.",
+    "GetContentText": "Получить контент",
+    "Fab.Tooltip": "Получить контент от Fab",
     "Fab.AlphaTooltip": "Получить контент из Fab (альфа-версия)",
     "Fab.TooltipLoggedOut": "Для получения контента от Fab необходимо войти в систему",
     "Fab.AlphaTooltipLoggedOut": "Для получения контента из Fab (альфа-версия) необходимо войти в систему"
-  },
-  "FAthenaRewardItemReferenceCustomization": {
-    "CategoryText": "Категория инициализации"
   },
   "FDynamicUIEditorToolkit": {
     "FDynamicUIEditorToolkit_ToolTipText_NoScene": "Редактор, используемый для модификации сцены динамического интерфейса",
@@ -549,6 +551,9 @@
   "Fort.Building.SMActor.Defaults": {
     "EditorMirrorBuildingActor": "Копия актора строительства",
     "EditorResetTextureBuildingActor": "Сбросить текстуру актора здания"
+  },
+  "FortAIDefendSpotsBuilder": {
+    "BuildingDefenseSpots": "Места обороны постройки"
   },
   "FortAISpawnGroupDetails": {
     "SpawnPointValueFmt": "Значение точки появления: {0}"
@@ -672,7 +677,6 @@
     "PersistDADError": "Не удалось сохранить ресурс DAD. См. подробности в журнале.",
     "DataAssetDirectoryExportTab": "Инструменты экспорта DAD",
     "FortMakeDesignAssetTab": "Инструменты создания дизайна",
-    "MakeDesignAssetButton": "Инструменты создания дизайна",
     "MakeBRLevelsMenu": "Редактировать",
     "McpBackendSelectorSelectBackend_Tooltip": "Разрешить выбор сервера для учётных записей",
     "KeyExportError": "Не удалось полностью экспортировать ключи шифрования. См. подробности в журнале.",
@@ -718,7 +722,6 @@
     "MakePerkDefinition": "Создать определение предмета умения",
     "MakeTrapDefinition": "Создать определение предмета ловушки",
     "MakeWeaponDefinition": "Создать определение предмета оружия",
-    "MakeDesignAssetDescription": "Создание ресурса для дизайна.",
     "TitleForPotentiallyExposedAssetDestruction": "Изменение потенциально предоставленного ресурса",
     "FortGameFeaturePluginProfileNone": "Никакие",
     "FortReleaseVersionSelectorOlderVersions": "Предыдущие версии",
@@ -730,8 +733,8 @@
     "PersistDADAssetsTitle": "Сохраненные ресурсы DAD…",
     "PersistingDADAssets": "Сохраненные ресурсы DAD…",
     "PersistDADAssetsTooltip": "Сохраняет изменения ресурсов из DAD и записывает их в P4.",
-    "PickZoneDescription": "Выбрать зону Fortnite, в которую выполняется загрузка",
-    "PickZoneButton": "Выбор зоны",
+    "PickZoneDescription": "Выбрать зону СсБ Fortnite, в которую выполняется загрузка",
+    "PickZoneButton": "Выбрать зону СсБ",
     "QuestBundleCreator": "Автор пакета задания",
     "QuestCopier": "Копировщик заданий",
     "QuestTools": "Инструменты задания",
@@ -742,6 +745,7 @@
     "RespawnDaySequenceActorTooltip": "Актор смены дня и ночи при возрождении",
     "FortGameFeaturePluginProfile_None_Tooltip": "Восстанавливает включение GameFeaturePlugin по умолчанию без использования профилей",
     "CheckContentDescription": "Запускает задание проверки контента всех выбранных ресурсов для выявления ошибок и предупреждений",
+    "Save the World": "Сражение с Бурей",
     "McpBackendSelectorSelectBackend": "Выбрать сервер",
     "DynamicBRLevels_ToolTip": "Выбрать загружаемый уровень",
     "FortReleaseVersionSelectorOlderVersions_Tooltip": "Выберите предыдущую версию, которая будет использоваться как версия выпуска Fortnite",
@@ -764,6 +768,7 @@
     "ValidatingDataTask": "Проверка данных…",
     "VerbDebugger": "Отладчик команды",
     "FortReleaseVersionSelector_Label": "Версия: {0}",
+    "ReusingRedirectorNameProhibited": "Вы не можете создать новый ресурс с именем/путём '{0}', потому что это имя ранее использовалось указателем перенаправления, который уже удалён.",
     "FortZoneSelectTab": "Выбор зоны",
     "LongDescription_NeedsFilledOut": "[Более развёрнутый текст/описание элемента для пользователя]",
     "DisplayName_NeedsFilledOut": "[Название предмета, которое видит пользователь]",
@@ -786,7 +791,7 @@
     "HeaderChangeAssetValidation": "{0} добавляет проверку {1} зависимых ресурсов"
   },
   "FortExposedAssetEditorUtils": {
-    "MakeFilesWritable": "Файл(ы) доступен(ы) только для чтения. Сделать файл(ы) доступным(и) для записи?\n\nСначала вручную синхронизируйте и откройте для редактирования последнюю версию файлов, а затем нажмите \"Да\" в этом диалоговом окне или повторите действие.\n\n{Paths}"
+    "ExposedAssetsCheckoutFailed": "Не удалось извлечь следующие файлы:\n\n{Paths}"
   },
   "FortExposedAssets": {
     "UEFNDestructiveActionMessageTitle": "Следующие ресурсы размещены в открытом доступе в UEFN, и их изменение приведёт к сбою всех проектов, созданных пользователями с использованием этих ресурсов. Если вы:\n  1. Пытаетесь удалить опубликованный ресурс — оставьте его\n  2. Вносите изменения, несовместимые с API — создайте новый ресурс и оставьте исходный без изменений\n  3. Пытаетесь переместить/переименовать опубликованный ресурс — отмените публикацию предыдущей версии ресурса (если вам нужны пошаговая инструкция или подтверждение, спросите на канале), создайте резервную копию исходного ресурса, переместите его, исправьте указатели перенаправления, а затем восстановите исходный ресурс\n  4. Что-то ещё? Задайте вопрос на канале #fne-dev-help-ext.\n\nОперация заблокирована."
@@ -985,6 +990,12 @@
     "IncludeTextHint": "Требуемый текст",
     "SetCvarForWindow": "Настроить команды ведения журнала"
   },
+  "FortQuestMapMarkerSettingsCustomization": {
+    "CreateDataTablesButton": "Добавить карту",
+    "CreateDataTablesTooltip": "Создаёт и подключает таблицы данных на основе предоставленного названия карты.",
+    "MapNameHint": "Введите название карты (например, Helios_Terrain)",
+    "MapNameLabel": "Название карты"
+  },
   "FortQuestObjectiveEditor": {
     "ComponentActions": "Действия с компонентом",
     "CopyComponentTooltip": "Копирует компонент в буфер обмена",
@@ -1077,8 +1088,6 @@
     "FortExposedContent.FailedToSpawnValidationActor": "Не удалось создать открытый актор проверки контента",
     "FailedToUpdateState": "Не удалось обновить состояние файлов плагина",
     "ItemDefinition_InvalidReleaseVersion": "Версии выпуска Fortnite '{0}' не существует. Вы можете использовать только значения, входящие в массив AllVersions в файле DefaultFortReleaseVersion.ini",
-    "ValidationError.GameFeatureNotAddedToRoot": "GameFeaturePlugin {0} не зависит от плагина корневой игровой функции. Используйте игровую функцию \"Добавить  в RootGFP\".",
-    "ValidationError.GameFeatureMap": "GameFeaturePlugin {0} использует тип первичного ресурса 'Карта', который зарезервирован для плагинов StW. Данный тип обеспечивает конвертацию карт и ресурсов в блок данных 12, что, скорее всего, вам не понравится.",
     "IllegalReference_CookedEditorDisabledPlugin": "Недопустимая ссылка для отключения в ресурсы редактора, сконвертированном в формат платформы",
     "IllegalReference_HardDependency": "Недопустимые жёсткие ссылки {0}",
     "IllegalReference_AssetFilterFail": "Недопустимая ссылка на ресурс {0}. {1}",
@@ -1139,10 +1148,7 @@
     "ValidationError.GameFeature_Disallowed_Chain": "Через цепочку {0}",
     "SkeletalMeshes_TooManyVerts": "Слишком много вершин в уровне(-ях) детализации: {0}, допускается только {1}. Сейчас — {2}. Уменьшите, чтобы было не более {3}",
     "FortValidator_CreativeCost.NoGeneratedClass": "Не удаётся найти сгенерированный класс Blueprint. Он скомпилирован?",
-    "ValidationError.NoSuchPlugin": "Не удалось найти плагин {0} в диспетчере плагинов. Контрольная проверка не пройдена!",
-    "ValidationError.NoGameFeatureData": "Невозможно получить GameFeatureData для GameFeaturePlugin {0}. Проверка не выполнена в качестве перестраховки!",
     "PlaylistAthenaValidator_UnableToGetDepsForPlaylist": "Не удалось получить зависимости для плейлиста. Не удалось проверить зависимости плейлиста!",
-    "ValidationError.GameFeaturePluginNotRegistered": "Невозможно получить данные от GameFeaturesSubsystem для GameFeaturePlugin {0}. Контрольная проверка не пройдена!",
     "PluginNotFound": "Не удалось открыть свойства плагина для {0}, поскольку плагин не найден.",
     "PlaylistAthenaValidator_UseMultidivisionQueuesTrue": "Use Multidivision Queues не может иметь значение TRUE, если Is Tournament имеет значение FALSE.",
     "Particles_SkelVertSurface": "Использование каскадного модуля SkelVertSurface в Fortnite не допускается. Замените его на модуль BoneSocket. Генератор: {0}",
@@ -1258,9 +1264,6 @@
   "ItemComponentData_OwnerPose": {
     "PoseAsset": "Данные элемента позы владельца '{0}' должны содержать допустимый ресурс позы!"
   },
-  "ItemComponentData_Rarity": {
-    "ItemRarity": "Данные редкости элемента '{0}' должны содержать допустимую редкость элемента!"
-  },
   "ItemComponentData_SlotSize": {
     "SlotSize": "Данные элемента размера ячейки '{0}' избыточны. Они требуются, только если SlotSize имеет значение, отличающееся от 1."
   },
@@ -1269,9 +1272,6 @@
   },
   "ItemComponentData_Traits": {
     "EmptyValidation": "Данные элемента признаков '{0}' не содержат допустимых признаков!"
-  },
-  "ItemComponentData_Type": {
-    "ItemType": "Данные типа элемента '{0}' должны содержать допустимый тип элемента!"
   },
   "ItemDefinitionBase": {
     "SetItemData_MissingInputProperty": "Не удалось получить входной параметр для SetItemData.",
@@ -1282,7 +1282,6 @@
     "Playlist": "Плейлист"
   },
   "Itemization": {
-    "ItemType": "Обнаружена круговая зависимость для ItemType {0} - Тип родительского элемента {1} также использует его в качестве родительского элемента",
     "EquipmentSlotDoesNotHaveOneSlot": "Ячейки оборудования могут содержать только одну ячейку.",
     "EquippableInventoryHasTooManySlotBindings": "Количество привязок ввода ячеек превышает количество ячеек.",
     "ItemAbilityEffectAssetHasNullClass": "Эффект способности предмета требует установки GameplayEffectClass",
@@ -1421,9 +1420,6 @@
     "PlaceRowHere": "Разместить строку здесь",
     "ResetToDefaultPropertyValueToolTip": "Вернуть этому свойству значение по умолчанию.",
     "ResetToDefault": "Сброс настроек"
-  },
-  "PropertyEditor": {
-    "Label": "Сведения"
   },
   "ProtoLem": {
     "ControlIf": "  Если",
@@ -1704,9 +1700,15 @@
     "SkeinCannotDeleteExistingFile": "Не удалось удалить файл '{Filename}'.",
     "SkeinCannotDeleteNonExistingFile": "Не удалось удалить файл '{Filename}'. Он не существует.",
     "CreatedByUE": "Создано в Unreal Editor.",
+    "SkeinCheckInWithoutPushSuccessWithId": "Созданный локальный снимок состояния '{0}'.",
+    "SkeinCheckInWithoutPushSuccessWithSequence": "Созданный локальный снимок состояния {0}.",
+    "SkeinCheckInWithoutPushSuccess": "Созданный локальный снимок состояния.",
     "SkeinCheckInSuccessWithId": "Созданный снимок состояния '{0}'.",
+    "SkeinCheckInWithPushSuccessWithId": "Созданный снимок состояния '{0}'.",
     "SkeinCheckInSuccessWithSequence": "Созданный снимок состояния {0}.",
+    "SkeinCheckInWithPushSuccessWithSequence": "Созданный снимок состояния {0}.",
     "SkeinCheckInSuccess": "Созданный снимок состояния.",
+    "SkeinCheckInWithPushSuccess": "Созданный снимок состояния.",
     "SkeinCheckoutErrorNotCurrent": "Доступна более новая версия файла '{Filename}'.",
     "SkeinCheckoutErrorLocked": "Файл '{Filename}' получен другим пользователем.",
     "Tab_ConflictResolution_ToolTip": "Открывает вкладку для разрешения конфликтов в редакторе.",
@@ -1719,8 +1721,11 @@
     "SkeinDirectoryNotCreated": "Невозможно создать каталог проекта Unreal Revision Control.",
     "SkeinDirectoryNotFound": "Невозможно найти каталог проекта Unreal Revision Control.",
     "SkeinProjectIdError": "Не удалось определить идентификатор проекта Unreal Revision Control.",
+    "SkeinNoProjectId": "Идентификатор проекта для Unreal Revision Control не задан.",
     "SkeinStatusError": "Не удалось определить статус проекта Unreal Revision Control.",
+    "SkeinMigrateError": "Не удалось перенести проект в новую версию Unreal Revision Control. Свяжитесь со службой поддержки, чтобы разрешить эту проблему.",
     "SkeinOutOfSyncError": "Каталог проекта содержит данные Unreal Revision Control для другого проекта.",
+    "SkeinLegacyError": "Каталог проекта содержит устаревшие данные Unreal Revision Control.",
     "SkeinNotEnabled": "Проект Unreal Revision Control не инициализирован.",
     "SkeinCheckoutErrorLockedPlural": "{Count} файлов получены другим пользователем.",
     "SkeinCheckoutErrorNotCurrentPlural": "Доступны более новые версии для {Count} файлов."
@@ -1786,7 +1791,6 @@
     "SkeinEditorLoggedOut": "Среда Unreal Revision Control не подключена.\nВойдите в учётную запись редактора.",
     "SkeinLoggedOut": "Среда Unreal Revision Control не подключена.\nПовторите процедуру аутентификации.",
     "SkeinLoggedOutWithReason": "Среда Unreal Revision Control не подключена.\nПричина: {Reason}",
-    "SkeinNotImplemented": "Операция Unreal Revision Control не реализована.",
     "SkeinProjectMissing": "Проект Unreal Revision Control не инициализирован.",
     "SkeinServerDataChanged": "Необходимо повторно установить проект Unreal Revision Control через каталог проектов.",
     "SkeinServerDown": "Сервер Unreal Revision Control недоступен.",
@@ -1932,7 +1936,8 @@
   "SpatialMetricsConnectorServer": {
     "MetricClassInvalidText": "Недействительный класс показателя.",
     "NoValidSubsystemText": "Отсутствует действительная подсистема пространственных показателей.",
-    "NoValidWorldText": "Отсутствует действительный мир."
+    "NoValidWorldText": "Отсутствует действительный мир.",
+    "SamplerNotEnabledText": "Устройство выборки не включено."
   },
   "SpatialMetricsEditorModule": {
     "SpatialViewerTabLabel": "Пространственный профайлер",
@@ -1941,7 +1946,8 @@
   "SpatialMetricsEditorUtil": {
     "LoadSampleFileTitle": "Открыть выборку…",
     "LoadSampleFileFilter": "Файлы выборок (*.json)|*.json",
-    "SaveSampleFileTitle": "Сохранить выборку…"
+    "SaveSampleFileTitle": "Сохранить выборку…",
+    "LegacyPrefixLabel": "[Устарело] {0}"
   },
   "Splash Page": {
     "Splash PageSplash Page": "Страница-заставка"
@@ -1968,37 +1974,43 @@
     "AutoUndoDisabled_ToolTip": "Эта настройка не применяется, и её нельзя изменить в состоянии возврата."
   },
   "SSpatialMetricsDiagram": {
-    "BoundsTooltipText": "Мин. границы: {MinBounds}\nМакс. границы: {MaxBounds}",
     "CurrentLocationLabel": "Текущее местоположение:",
     "CurrentValueLabel": "Текущее значение:",
-    "CalculatedTimeLabel": "Последний расчёт:",
-    "ProjectVersionLabel": "Версия проекта:",
     "SpatialPrecisionLabel": "Пространственная точность:",
-    "BoundsSizeLabel": "Общий размер границ:",
+    "SummaryViewCollapsableSectionHeader": "Сводка",
     "SampleMetricValue": "{CurrentValue} / {ThresholdValue}"
   },
   "SSpatialMetricsGrid": {
     "CurrentLocationText": "Местоположение: {Location}\nЗначение: {Value}",
     "SpatialMetricsGridContextualMenu": "SpatialMetrics",
-    "ThresholdUnitLabel": "Пороговая единица (настройки профилирования)",
-    "ThresholdValueLabel": "Пороговое значение (настройки профилирования)"
+    "SettingsThresholdUnitLabel": "Пороговая единица (настройки профилирования)",
+    "SettingsThresholdValueLabel": "Пороговое значение (настройки профилирования)",
+    "SampleThresholdValueLabel": "Пороговое значение (пример)",
+    "SampleUnitLabel": "Единица (пример)"
   },
-  "SSpatialMetricsSummaryView": {
-    "AboveThresholdLabel": "Выше порога: ",
-    "MeanLabel": "Среднее значение: ",
-    "MaxSampleLabel": "Макс. значение: ",
-    "MedianSampleLabel": "Медианное значение: ",
-    "MinSampleLabel": "Мин. значение: ",
-    "NumValuesLabel": "Кол-во значений: ",
-    "SummaryViewCollapsableSectionHeader": "Показатели"
+  "SSpatialMetricsHistogram": {
+    "SpatialMetricsHistogramContextualMenu": "Гистограмма"
+  },
+  "SSpatialMetricsStats": {
+    "AboveThresholdLabel": "> порог.:",
+    "MeanLabelToolTip": "Среднее значение",
+    "MeanLabel": "Средн.:",
+    "MaxSampleLabel": "Maкс.:",
+    "MaxSampleLabelToolTip": "Максимальное значение",
+    "MedianSampleLabel": "Мед.:",
+    "MedianSampleLabelToolTip": "Медианная величина",
+    "MinSampleLabel": "Мин.:",
+    "MinSampleLabelToolTip": "Минимальное значение",
+    "AboveThresholdLabelToolTip": "Количество значений выше порогового",
+    "NumValuesLabelTooltip": "Общее количество значений",
+    "NumValuesLabel": "Значения:"
   },
   "SSpatialMetricsToolBar": {
     "ThresholdNumericEntryBoxToolTip": "Настройте пороговое значение.",
     "AlphaExpNumericEntryBoxWidget": "Показатель альфа-канала",
     "AlphaSettings": "Настройки альфа-канала",
     "SampleBoundsColorBlock": "Границы",
-    "DisplayUnitTooltip": "Изменение единиц отображения, используемых в средстве просмотра",
-    "ReductionMethodTooltip": "Изменение метода уменьшения этого показателя",
+    "ReductionMethod": "Метод ячейки",
     "SampleBoundsColorBlockToolTip": "Цвет линий границ.",
     "MaximumColorBlockToolTip": "Цвет максимального значения.",
     "MidpointColorBlockToolTip": "Цвет средней точки смешивания.",
@@ -2009,7 +2021,7 @@
     "HeatColors": "Цвета ресурсов памяти",
     "MaxAlphaNumericEntryBoxWidget": "Макс. значение альфа-канала",
     "MaximumColorBlock": "Максимум",
-    "ReductionMethod": "Метод",
+    "MetricSettings": "Настройки показателей",
     "MidpointColorBlock": "Средняя точка",
     "MidpointNumericEntryBoxWidget": "Средняя точка",
     "MinAlphaNumericEntryBoxWidget": "Мин. значение альфа-канала",
@@ -2017,21 +2029,18 @@
     "MidpointNumericEntryBoxToolTip": "Соотношение значений, в соответствии с которым смешивается цвет средней точки.",
     "ShowMenuTitle": "Показать",
     "ShowFlags": "Показать флаги",
+    "ReductionMethodTooltip": "Метод подсчёта значения ячейки для данного показателя",
     "MaxAlphaNumericEntryBoxToolTip": "Требуемые максимальные значения выборки альфа-канала.",
     "MinAlphaNumericEntryBoxToolTip": "Требуемые минимальные значения выборки альфа-канала.",
+    "DisplayUnitTooltip": "Предпочтительная отображаемая единица для значений показателей",
     "ThresholdColorBlock": "Порог",
-    "ThresholdNumericEntryBoxWidget": "Порог",
-    "ThresholdSettings": "Пороговые значения",
-    "ValueReduction": "Уменьшение значения",
-    "ViewerSettings": "Настройки средства просмотра"
+    "ThresholdNumericEntryBoxWidget": "Порог"
   },
   "SSpatialMetricsViewer": {
     "ConfirmSaveBeforeReplaceSession": "Начинается новый сеанс, и вы потеряете свои данные, если не сохраните их сейчас. Сохранить их?",
     "RemoteSnapshotAbortedNotificationText": "Получение снимка состояния прервано",
     "MetricAddedReceivedErrorNotificationText": "Ошибка добавления показателя",
     "MetricAddedReceivedNotificationText": "Получена информация о добавлении показателя",
-    "CancelPendingSnapshotButtonText": "Отмена",
-    "CancelPendingSnapshotButtonToolTipText": "Отменить необработанный запрос на снимок состояния.",
     "MetricsComboButton_ToolTip": "Выберите показатели.",
     "ClientSessionsComboBox_ToolTipText": "Выберите сеанс.",
     "MetricsComboButton_EntryToolTip": "Включить/отключить показатель {0}.",
@@ -2055,7 +2064,6 @@
     "UnknownSession": "Неизвестный сеанс",
     "UnsavedSampleData": "Несохранённые данные выборки",
     "UnsupportedMetric": "Неподдерживаемые данные показателя",
-    "RemoteSnapshotPendingNotificationText": "Ожидание данных удалённого снимка состояния",
     "DisconnectedSessionDisplayName": "{0} (Отключено)"
   },
   "SValkyrieInitializeProjectSettingsDialog": {
@@ -2366,6 +2374,12 @@
     "TrackFocusLocation_ToolTip": "Переключить местоположение фокуса отслеживания",
     "TrackFocusLocation": "Местоположение фокуса отслеживания"
   },
+  "UICommands.SSpatialMetricsHistogram": {
+    "AutoScroll": "Автопрокрутка",
+    "AutoScroll_ToolTip": "Автоматически прокручивать до новейшего значения гистограммы",
+    "GuidelinesVisibility": "Рекомендации касательно предельных значений видимости",
+    "GuidelinesVisibility_ToolTip": "Показать/скрыть рекомендации касательно предельных значений"
+  },
   "UICommands.SSpatialMetricsViewer": {
     "StartRecording_ToolTip": "Начать запись выборки.",
     "DeveloperMode": "Режим разработчика",
@@ -2381,9 +2395,9 @@
     "SaveSample_ToolTip": "Сохранить данные выборки в файле.",
     "ShowData": "Показать представление данных",
     "NotifyNetworkEvents": "Показать сетевые уведомления",
-    "ShowStats": "Просмотр показателей",
+    "ShowSummary": "Показать сводку",
     "ShowData_ToolTip": "Показать представление данных показателей.",
-    "ShowStats_ToolTip": "Показать панель статистики показателей.",
+    "ShowSummary_ToolTip": "Показать представление сводки.",
     "StartRecording": "Начать запись",
     "StopRecording": "Остановить запись",
     "StopRecording_ToolTip": "Остановить запись выборки."
@@ -2407,8 +2421,8 @@
     "ValkyrieRefreshVerse_ToolTip": "Отправить измененный исходный код Verse на сервер.",
     "ValkyrieRefresh_ToolTip": "Отправить измененные данные на сервер.",
     "ValkyrieRefresh": "Обновить",
-    "ValkyrieReloadEditorSettings": "Настройки редактора перезарядки",
-    "ValkyrieReloadEditorSettings_ToolTip": "Файлы настройки редактора перезарядки",
+    "ValkyrieReloadEditorSettings": "Перезагрузить .json файлы конфигурации разрешений",
+    "ValkyrieReloadEditorSettings_ToolTip": "Перезагрузить .json файлы конфигурации разрешений",
     "ValkyrieStartGame": "Запустить игру",
     "ValkyrieStartGame_ToolTip": "Запустить мини-игру на сервере",
     "ValkyrieStopGame": "Остановить игру",
@@ -2672,12 +2686,15 @@
   },
   "ValkyrieEditor": {
     "ApplyingPermissions": "Идёт применение разрешений…",
+    "ApplyingPermissionsUncooked": "Применяются разрешения… (из папки, не конвертированной в формат платформы)",
     "BlankTemplateMapDisplayNameText": "Пустой",
     "VerseVersion.Dismiss": "Игнорировать",
     "VerseVersion.Dismiss.Tooltip": "Игнорировать дальнейшие уведомления об обновлении этого проекта до версии Verse {0}",
+    "VerseVersion.DocHyperlink": "Узнайте больше о версиях Verse здесь",
     "MemoryTestResults": "Результаты теста памяти",
     "VerseVersion.Title": "Доступна новая версия Verse",
     "VerseVersion.RemindMeLater.Tooltip": "Уведомить повторно при следующем открытии, если в этом проекте не установлена последняя стабильная версия Verse",
+    "VerseVersion.Msg": "В проекте '{0}' используется версия Verse {1}.\nВы можете обновить Verse до версии {2} сейчас или позже в настройках проекта.",
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "InvalidReferenceToAnotherProject": "Проект {0} не может содержать внешние ресурсы из локального проекта {1}\nСсылки на другой проект могут приводиться только через внешний контент",
     "InvalidReferenceToPlugin": "Проект {0} не может ссылаться на плагин {1}",
@@ -2698,6 +2715,8 @@
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "Настройка функций {0}",
+    "SetValkyrieRestrictiveModeOff": "Ограничение настроек выключено…",
+    "SetValkyrieRestrictiveModeOn": "Ограничение настроек включено…",
     "SectionText": "Настройки"
   },
   "ValkyrieEditorFlows": {
@@ -2802,6 +2821,7 @@
     "AppName": "Редактор Valkyrie"
   },
   "ValkyrieEditorUtils": {
+    "CopyFiles": "Копирование файлов…",
     "FeatureSetNoAccess": "Отсутствует доступ к {0} набору функций",
     "FeatureSetUnknown": "{0} набор функций неизвестен"
   },
@@ -2843,6 +2863,9 @@
     "EulaDeclineText": "Отклонить",
     "ValkyrieEulaTitle": "ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ",
     "EulaScrollMessage": "Внимательно прочитайте следующее лицензионное соглашение и прокрутите вниз до конца."
+  },
+  "ValkyrieExperimentalSettingsDetailCustomization": {
+    "ProjectSettings.ExperimentalSettings": "Учтите, что вы не сможете опубликовать проект, если используете в нем экспериментальные функции. \"При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\n\"Рекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов,\" поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
   },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
@@ -3163,6 +3186,7 @@
     "CreateBuild.PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут.",
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionError": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}",
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionOverride": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
+    "ValkyrieReloadEditorSettingsFromUncooked_MenuEntry": "{0} (Из неконвертированной в формат платформы корневой папки)",
     "PlayerNameNumber": "{0} (Игрок {1})",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
   },
@@ -3380,8 +3404,6 @@
   "ValkyrieProjectCreationDefaults": {
     "BrandSelection": "Выбор бренда",
     "CreateTeamHyperlinkText": "Создать команду…",
-    "UseNewInventorySystemHyperlinkText": "Подробнее",
-    "UseItemizationInventoryCheckBoxText": "Новая система инвентаря\n(ранний доступ)",
     "NoSelectedTeamText": "Не выбрано",
     "ProjectDefaults": "Настройки проекта по умолчанию",
     "TeamSelectionText": "Выбор команды",
@@ -3444,13 +3466,14 @@
     "CreatePluginTask": "Создание плагина {0}…",
     "CreateProjectTask": "Создание проекта {0}…",
     "DeleteProjectTask": "Удаление проекта '{0}'…",
-    "CopyTemplatePluginAssets.DiscoveringAssets": "Идёт обнаружение ресурсов…",
     "ExternalContentLoadFail.DontOpen": "Не открывать",
     "LoadingTemplateProjectExternalDeps": "Загрузка/выгрузка внешнего контента для '{0}'…",
     "LoadingProjectExternalDeps": "Скачивание/загрузка внешнего контента…",
     "ExternalContentLoadFail.EditorPref": "Настройки редактора",
     "FailBranchVKProject": "Не удалось создать ветку проекта\n{0}\n\n{1}",
     "FailCloseVKProject": "Не удалось закрыть текущий проект",
+    "CopyTemplateError": "Не удалось скопировать некоторые файлы; подробности см. в журнале",
+    "CreatePlugin.CopyError": "Не удалось скопировать некоторые файлы; подробности см. в журнале",
     "FailedToCopyVKTemplateProjectPluginFile": "Не удалось скопировать файл-дескриптор шаблона проекта\nиз: {0}\nв: {1}",
     "FailCreatePlugin": "Не удалось создать плагин {0}\n\n{1}",
     "FailCreateVKProject": "Не удалось создать проект\n{0}\n\n{1}",
@@ -3470,7 +3493,6 @@
     "OpenProjectTask": "Открытие проекта {0}…",
     "ProjectTrustDialog.Message": "Открытие этого проекта может запустить файлы, которые могут быть опасны для вашего компьютера.\n\nДоверяете ли вы авторам файлов в проекте '{0}'?",
     "CreatePlugin.DestinationDirectoryNotUnderProject": "Целевой каталог плагина должен находиться в каталоге проекта",
-    "CopyTemplatePluginAssets.PreparingAssets": "Идёт подготовка ресурсов…",
     "VKProjectAlreadyExists": "В этом месте уже есть проект",
     "ReloadProject.FailCloseProject": "Не удалось закрыть проект",
     "CreateProjectCanceled": "Создание проекта отменено",
@@ -3534,7 +3556,6 @@
   "ValkyrieProjectSettingsEditor": {
     "ValkyrieProjectSettingsTabToolTip": "Изменение настроек текущего проекта",
     "NoCurrentProject": "Нет открытых проектов",
-    "ProjectSettings.ExperimentalSettings": "Учтите, что вы не сможете опубликовать проект, если используете в нем экспериментальные функции. \"При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\n\"Рекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов,\" поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным.",
     "ValkyrieProjectSettingsEditorTabSpawnerName": "Настройки проекта",
     "ValkyrieProjectSettingsTabLabel": "Настройки проекта"
   },
@@ -3574,6 +3595,10 @@
     "CloseRefSourceProjects.ProjectReload.Title": "Закрытие исходного проекта с внешним контентом",
     "CloseRefSourceProject": "Закрытие исходного проекта '{0}' с внешним контентом…",
     "CloseRefSourceProjects": "Закрытие исходных проектов с внешним контентом…",
+    "CopyVerseFiles": "Копирование файлов Verse…",
+    "CopyNonContentFiles": "Копирование файлов плагина…",
+    "VKProjectFolderNotEmpty": "Целевая папка проекта должна быть пустой\n{0}",
+    "CopyPluginAssets.DiscoveringAssets": "Идёт обнаружение ресурсов…",
     "CloseRefSourceProjects.ProjectReload.DontReopen": "Не открывать повторно",
     "VKProjectLocationIsEmpty": "Расположение проекта не должно быть пустым",
     "PreOpenReferencedContentSourceProjects.ErrorOpeningProject": "Ошибка при открытии исходного проекта с внешним контентом '{0}'",
@@ -3590,6 +3615,8 @@
     "VKFailTerminateGameFeaturePlugin": "Не удалось завершить плагин игровой функции, в котором произошла ошибка \n{0}\n\n{1}",
     "VKFailUnloadFeatureSetPlugin": "Не удалось выгрузить плагин {0}",
     "FixingProjectSlowTask": "Идёт исправление проекта...",
+    "GatherVerseFiles": "Сбор файлов Verse…",
+    "GatherNonContentFiles": "Сбор файлов плагина…",
     "OpenRefSourceProjects.InaccessibleProject": "Исходный проект недоступен",
     "LoadPlugin.SlowTask": "Загрузка плагина {0}",
     "RemapLocalVsReferencedContent.NothingToRemap": "Нет ссылок для переназначения!",
@@ -3598,6 +3625,7 @@
     "OpenRefSourceProjects": "Открытие исходных проектов внешнего контента…",
     "PluginTerm": "Плагин",
     "VKPluginIsStillMounted": "Плагин всё ещё смонтирован",
+    "CopyPluginAssets.PreparingAssets": "Идёт подготовка ресурсов…",
     "ProjectTerm": "Проект",
     "ProjectMissingGameFeatureData": "Проект '{0}' не работает, потому что в нём нет GameFeatureData.\n\nИсправить автоматически?",
     "CloseRefSourceProjects.ProjectReload.Msg": "Необходимо перезагрузить проект '{0}', чтоб закрыть исходный проект с внешним контентом\n\nВ качестве альтернативы вы можете оставить исходный проект с внешним контентом открытым и не открывать его автоматически при следующем открытии '{0}'",
@@ -3606,7 +3634,6 @@
     "ProjectDependencyCycle": "Обнаружена циклическая зависимость в проекте '{0}'",
     "ProjectDependencyCycles": "Обнаружены циклические зависимости в проекте:",
     "VKProjectFolderIsFile": "Недопустимая папка проекта. Мешает следующий файл:\n{0}",
-    "VKProjectFolderNotEmpty": "Папка проекта должна быть пустой\n{0}",
     "VKProjectLocationIsNotValidPath": "Недопустимое расположение проекта\n{0}",
     "RemapLocalVsReferencedContent.ProjectIsNotOpened": "Проект должен быть открыт",
     "VkNewProjectNameInUse": "Название проекта уже используется",
@@ -3656,6 +3683,7 @@
     "ConnectToBeaconFailInit": "Не удалось инициализировать маяк",
     "QueryUserSessionIdTokenFailed": "Не удалось запросить токен сеанса игры",
     "QueryEncryptionKeyFailed": "Не удалось запросить ключ шифрования сеанса",
+    "ValkyrieRequestManagerEditor_Failed": "Первоначальное отсутствие результата",
     "Matchmaking": "Подбор игроков ...",
     "MatchmakingFail": "Не удалось подоборать игроков",
     "PlatformCook": "Платформа приготовления",
@@ -3666,7 +3694,8 @@
     "QueryEncryptionKeyInvalidState": "Диспетчер запросов больше недействителен, невозможно продолжить",
     "QueryUserSessionIdTokenInvalidState": "Диспетчер запросов уже недействителен, невозможно продолжить",
     "ValkyrieRequestManagerEditor_StartingUpdateContent": "Отправка обновлений проекта",
-    "ValkyrieRequestManagerEditor_StartingUnload": "Выгрузка старой версии"
+    "ValkyrieRequestManagerEditor_StartingUnload": "Выгрузка старой версии",
+    "QueryUserSessionIdTokenLoggedOut": "Пользователь вышел из системы"
   },
   "ValkyrieResizeTextures": {
     "Texture_Resize": "Изменение размера данных текстуры для импорта",
@@ -3758,12 +3787,16 @@
     "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта(-ов) были автоматически обновлены,many=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
   },
   "ValkyrieValidator": {
+    "MetaSoundValidationFail_PresetInvalidObject": "Ресурс, на который ссылается готовая настройка MetaSound, должен представлять собой допустимый объект",
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
     "Properties.Fixer.NullObject": "Не удалось найти объект: {0}",
     "Properties.Fixer.NullPropertyValue": "Не удалось сбросить значение {0} на {1}",
     "Hard Reference": "Недопустимая жесткая ссылка с {0} на {1}",
     "Properties.Error.IllegalPropertyOverride": "Недопустимое переопределение свойства: значение \"{ObjectPath}.{PropertyPath}\" содержит переопределение \"{OverrideValue}\" (по умолчанию \"{DefaultValue}\") для свойства \"{PropertyPathName}\" в экземпляре \"{InstanceTypePathName}\". ({ValidatorClass})",
     "Soft Reference": "Недопустимая мягкая ссылка с {0} на {1}",
+    "MetaSoundValidationFail_NotPreset": "Ресурс MetaSound должен быть готовой настройкой",
+    "MetaSoundValidationFail_NotPresetFromBuiltIn": "Готовую настройку MetaSound необходимо создать из встроенного графа MetaSound",
+    "MetaSoundValidationFail_PresetInvalidReference": "Готовая настройка MetaSound должна ссылаться на допустимый ресурс",
     "MessageLogPageTitle": "Проверка проекта: {0}",
     "Properties.Fixer.ResetToDefault": "Сбросить свойство к значению по умолчанию",
     "Properties.Fixer.Transaction": "Сброс настроек",
@@ -3894,6 +3927,7 @@
     "ScriptError": "{DiagnosticFile}({DiagnosticRowSpanX},{DiagnosticColSpanX}, {DiagnosticRowSpanY},{DiagnosticColSpanY}): Сценарий {DiagnosticSeverity} {DiagnosticReferenceCode}: {DiagnosticMessage}"
   },
   "VerseDeviceCustomization": {
+    "SetDeviceTransaction": "Редактировать ресурс",
     "VerseDeviceCustomization": "В этом контексте невозможно ссылаться на устройства."
   },
   "VerseDevicesEditorModule": {
@@ -3962,5 +3996,8 @@
     "SchematicOutputDirectoryPicker": "Выходной каталог чертежей",
     "Instructions": "Это шаблонная форма. Заполните её, указав самую низкую редкость и уровень оружия, которое вы создаёте. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже.",
     "WeaponOutputDirectoryPicker": "Выходной каталог оружия…"
+  },
+  "WorldPartition": {
+    "FortCellTransformerMass": "Простой разрушаемый преобразователь ячейки объекта"
   }
 }

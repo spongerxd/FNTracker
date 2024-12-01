@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Hermes_TerrainManualQuestTagToLocationDataRows",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortQuestTagToLocationDataRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Athena.Quests.S33.Story.GateLocation.01": {
+        "WorldLocation": {
+          "X": -90892.29,
+          "Y": 90112.0,
+          "Z": 8144.1562
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.02": {
+        "WorldLocation": {
+          "X": -35328.0,
+          "Y": -88759.0,
+          "Z": 3850.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.03": {
+        "WorldLocation": {
+          "X": -30848.0,
+          "Y": -38400.0,
+          "Z": 1664.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.05": {
+        "WorldLocation": {
+          "X": 31378.686,
+          "Y": -82450.2,
+          "Z": 1246.9144
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.06": {
+        "WorldLocation": {
+          "X": 107400.164,
+          "Y": -2561.458,
+          "Z": 4608.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.07": {
+        "WorldLocation": {
+          "X": 87096.695,
+          "Y": 61335.31,
+          "Z": 2682.863
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S33.Story.GateLocation.08": {
+        "WorldLocation": {
+          "X": 8064.0,
+          "Y": 105216.0,
+          "Z": 3487.7705
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.PolishedJade": {
+        "WorldLocation": {
+          "X": -64823.816,
+          "Y": -16447.797,
+          "Z": 1000.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.PolishedJade": {
+        "WorldLocation": {
+          "X": -64823.816,
+          "Y": -16447.797,
+          "Z": 1000.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.CubicVice": {
+        "WorldLocation": {
+          "X": -64238.55,
+          "Y": -17200.281,
+          "Z": 1000.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.CubicVice": {
+        "WorldLocation": {
+          "X": -64238.55,
+          "Y": -17200.281,
+          "Z": 1000.0
+        },
+        "EventsWorldLocation": []
+      }
+    }
+  }
+]

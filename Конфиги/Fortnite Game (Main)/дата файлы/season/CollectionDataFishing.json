@@ -2,27 +2,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_1",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.Flopper.Orange"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "567AF6194EB5E03CA5C4E39099A9379C",
+        "Key": "54CF9EEF4124E367EC772C92328AE3E6",
         "SourceString": "Orange Flopper",
         "LocalizedString": "Оранжевая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "2DF5379A49AB459CA2CDC9A12D193740",
+        "Key": "2091603C47C9BE3EB37CE799BBB6B386",
         "SourceString": "Eat me! I'll Give You Health!",
         "LocalizedString": "Съешь меня! Я дам тебе здоровье!"
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "1AFA1D104BCE05DF3151F385C78CF603",
+        "Key": "BD926DF44C8C15C1841CB393AE22A05A",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -49,27 +50,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_10",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.EffectiveFlopper.Yellow"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "2CF5C9DE468290281306DD974B5FEB54",
+        "Key": "09D0C7D24E9FC1EA49E13C87A3D1BC14",
         "SourceString": "Yellow Slurpfish",
         "LocalizedString": "Жёлтая прыскучая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "4D1BD9A54853AC3B1FE4E5B756C12492",
+        "Key": "F8C8D4534FF7759EBC43269FAFECA6CC",
         "SourceString": "Consume for juicy health or shield.",
         "LocalizedString": "Съешьте, чтобы восполнить здоровье или заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "AEA6F7FF404FDE1CB385AD8A3D1FB14C",
+        "Key": "08AB6F8D42BB4E59EF98028DBFC3F48C",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Desert Areas</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">водоёмах пустынь</>"
       },
@@ -96,27 +98,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_11",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.EffectiveFlopper.Purple"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "2A6C39A14B35AD88599B52BAA82F4B96",
+        "Key": "7F818D59454E7CB1E124348E1369622C",
         "SourceString": "Purple Slurpfish",
         "LocalizedString": "Фиолетовая прыскучая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "814F640D43FC1B64C5A2A6AEBC4D356D",
+        "Key": "2C8C18D7431181460D19C696E57AD513",
         "SourceString": "Consume for juicy health or shield.",
         "LocalizedString": "Съешьте, чтобы восполнить здоровье или заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "ABD459B745E23E66729D859A4AA19F5B",
+        "Key": "340F559F4E7F6F956AEBF29270A80F3B",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Mountainous Areas</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">горных водоёмах</>"
       },
@@ -143,27 +146,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_12",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.EffectiveFlopper.BlackBlue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "6C195C804CCA4D34D6BF2CB7E17ED1A1",
+        "Key": "769BDB17473C11EB3EE4109FBCB1183D",
         "SourceString": "Black Slurpfish",
         "LocalizedString": "Чёрная прыскучая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "4E47620C414E1C93E94CE3806C1A7386",
+        "Key": "9DBB5B99455D6AA6D4E335A75477A395",
         "SourceString": "Consume for juicy health or shield.",
         "LocalizedString": "Съешьте, чтобы восполнить здоровье или заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "B8B74FEF43B40A1CEFEBA8BD93BF9E3E",
+        "Key": "620712F64CC3825170454EBE39B05546",
         "SourceString": "Found near <text color=\"fff\" fontface=\"black\" case=\"upper\">Coastal Areas</> Found at <text color=\"fff\" fontface=\"black\" case=\"upper\">Night</>",
         "LocalizedString": "Обитает возле <text color=\"fff\" fontface=\"black\" case=\"upper\">побережий</> Можно поймать в <text color=\"fff\" fontface=\"black\" case=\"upper\">тёмное время суток</>"
       },
@@ -190,27 +194,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_13",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.EffectiveFlopper.White"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "1CD528F444135ECFC564788DA5C1F59C",
+        "Key": "C6ED202F4DB0E66BDD4F5DACECDCC97F",
         "SourceString": "White Slurpfish",
         "LocalizedString": "Белая прыскучая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "5EF94B87494B5F6E340A23A476A2AC54",
+        "Key": "CCFFF675432D31ACD83439951A67C8F0",
         "SourceString": "Consume for juicy health or shield.",
         "LocalizedString": "Съешьте, чтобы восполнить здоровье или заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "5A7F2F3D48CDA1AB26CB0EB593582A2E",
+        "Key": "26B36E964394A5E4D2BCA9B23E874207",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Mountainous Areas</> Found at <text color=\"fff\" fontface=\"black\" case=\"upper\">Night</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">горных водоёмах</> Можно поймать в <text color=\"fff\" fontface=\"black\" case=\"upper\">тёмное время суток</>"
       },
@@ -238,27 +243,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_14",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.LessEffectiveFlopper.LightBlue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "3300A6814784A48C4E4887849A545CED",
+        "Key": "4A9AA1664D14200B83052E8789DD0B2D",
         "SourceString": "Light Blue Small Fry",
         "LocalizedString": "Голубая рыбёшка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "3D80465C4D5C7D7C44A73BB63B7F96DD",
+        "Key": "AF8056184DE9A4A78D385CAE0A5FCD80",
         "SourceString": "Consume for some light healing.",
         "LocalizedString": "Съешьте, чтобы восстановить немного здоровья."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "6E9D608E4F806B2097AE0CB51E8E0C75",
+        "Key": "E3CC36AA4EE8844A9521808DADD323D6",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -285,27 +291,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_15",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.LessEffectiveFlopper.Tan"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "2CC17A14448A3A66356EB1BACC4A168E",
+        "Key": "EDC4E5EB47AEF18D6FA4E8AFF29B4A42",
         "SourceString": "Tan Small Fry",
         "LocalizedString": "Песочная рыбёшка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "045E29024666B977FBB0539B4F4ADD12",
+        "Key": "7441659A4E08432E022A6581A3349E27",
         "SourceString": "Consume for some light healing.",
         "LocalizedString": "Съешьте, чтобы восстановить немного здоровья."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "FCB8B03446F0E789F67A958E52D36E44",
+        "Key": "92A9E64C48D099DD4D48C1835AF29DEB",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -332,27 +339,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_16",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.LessEffectiveFlopper.Blue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "47E568C6414BFB59C41FDFB04E1ACDE7",
+        "Key": "100C31EB49C21A48DD2216BE0DDA596B",
         "SourceString": "Purple Top Small Fry",
         "LocalizedString": "Фиолетовая рыбёшка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "8331FDD14863F15AD8A3E8A863C6A84F",
+        "Key": "ECE5A49047B40B497D2BC9AA19475FDE",
         "SourceString": "Consume for some light healing.",
         "LocalizedString": "Съешьте, чтобы восстановить немного здоровья."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "00BEAFDF4F1581166B1DE0AA7F0D20B4",
+        "Key": "500E56304CB81713B83577A55D4A3BE8",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -379,27 +387,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_17",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.LessEffectiveFlopper.Black"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "9620256C483B9626FD6E6BA9A854BF77",
+        "Key": "AE669429494247E6C0C716A617DB7D33",
         "SourceString": "Black Small Fry",
         "LocalizedString": "Чёрная рыбёшка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "D7C34E0A47ED2375C145F58F3E6E0747",
+        "Key": "8698496E4D360DB32DA1ABA85195950E",
         "SourceString": "Consume for some light healing.",
         "LocalizedString": "Съешьте, чтобы восстановить немного здоровья."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "87367CD742E2B4EAC9F7C9A76F132E39",
+        "Key": "46BF6BC44CAA892832852E8593BDA07B",
         "SourceString": "Found at <text color=\"fff\" fontface=\"black\" case=\"upper\">Night</>",
         "LocalizedString": "Можно поймать в <text color=\"fff\" fontface=\"black\" case=\"upper\">тёмное время суток</>"
       },
@@ -426,27 +435,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_18",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.LessEffectiveFlopper.Purple"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "4132E67B468106843F6B2E903315E8CA",
+        "Key": "EFA860B34F3572904D16139F18C5932D",
         "SourceString": "Blue Small Fry",
         "LocalizedString": "Синяя рыбёшка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "F3E0D36349C19B90565B12B124B95784",
+        "Key": "7F9B92A140228D8DE76B7F9C6421BF2A",
         "SourceString": "Consume for some light healing.",
         "LocalizedString": "Съешьте, чтобы восстановить немного здоровья."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "ADA2E79D4884BA163A9872A1C0D4BFDA",
+        "Key": "3B0F3FB74B1D87B3C3C2C6AA6EC38DB2",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Coastal areas </>",
         "LocalizedString": "Обитает возле <text color=\"fff\" fontface=\"black\" case=\"upper\">побережий</>"
       },
@@ -473,27 +483,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_2",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.Flopper.Green"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "4CCC8F054518F253E1363988B04367C5",
+        "Key": "BA15E4E74E8A3F21B8B33F8C0F5E0740",
         "SourceString": "Green Flopper",
         "LocalizedString": "Зелёная рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "9CCC3F204614E44046DD059EB7085B23",
+        "Key": "16E57C7340370586272305A6C1DAB5C8",
         "SourceString": "Eat me! I'll Give You Health!",
         "LocalizedString": "Съешь меня! Я дам тебе здоровье!"
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "3AE168144E38A710379922835F5DCED4",
+        "Key": "CFA4167A4C8D80A164699FAB62356384",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -520,27 +531,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_29",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.JellyFish.LightBlue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "E8367270403F53F22146D3B380FEE3C5",
+        "Key": "08CEC2104079F4D99397FA9474AEB571",
         "SourceString": "Slurp Jellyfish",
         "LocalizedString": "Прыскучая медуза"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "6D1F147B4A6C903B11C2FAA342244624",
+        "Key": "5AD71F644A34A879FAB2FFB93145C148",
         "SourceString": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
         "LocalizedString": "Раздавите, чтобы помочь игрокам поблизости и мгновенно восстановить их здоровье и щиты."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "96B81D984E4817F1238F7E9C2F9DC648",
+        "Key": "5C8CB49049B6B26F4CC4AD89058E8B64",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -567,27 +579,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_3",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.Flopper.Blue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "3E128AFC4A2353B480F422A93CF5DA6D",
+        "Key": "86FBF997493C1E3B410BA3B929E55395",
         "SourceString": "Blue Flopper",
         "LocalizedString": "Синяя рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "A1CECB2446F801BB22304BB07994D43E",
+        "Key": "DDEF65634EC9A43C0A039A82F80B1BD3",
         "SourceString": "Eat me! I'll Give You Health!",
         "LocalizedString": "Съешь меня! Я дам тебе здоровье!"
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "146BD4464DB3297477497596830EB918",
+        "Key": "D22EB56B483BEBC9ABDF63954EF598B4",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -614,27 +627,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_30",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.JellyFish.Yellow"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "D18CF5EC4BA6E85408AA33AA723C2875",
+        "Key": "51C22541483F40FACAD2498182F05C4A",
         "SourceString": "Peely Jellyfish",
         "LocalizedString": "Банановая медуза"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "83E59B774AA3B200F057F08B6C90DBDC",
+        "Key": "B2AB82864E03FBD7DDE3928F3A2F10C0",
         "SourceString": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
         "LocalizedString": "Раздавите, чтобы помочь игрокам поблизости и мгновенно восстановить их здоровье и щиты."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "7EEA331D44D7B30EDA663593E37723B3",
+        "Key": "84B64D8B422BBA4DA34C8FBA93B4E43B",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Desert Areas</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">водоёмах пустынь</>"
       },
@@ -662,27 +676,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_31",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.JellyFish.Purple"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "9E682B534B0223CAD5305B98F4EC1B3D",
+        "Key": "2D4FF6DA4665394824CA348C73D508FA",
         "SourceString": "Purple Jellyfish",
         "LocalizedString": "Фиолетовая медуза"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "ED9C8AFC4D98FCD1EDA250AF06A24BD8",
+        "Key": "8CBE416141406E607516AC8E89CF024C",
         "SourceString": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
         "LocalizedString": "Раздавите, чтобы помочь игрокам поблизости и мгновенно восстановить их здоровье и щиты."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "027A8F5744F61687135A8A951A7E5B88",
+        "Key": "F5CE65AC4E8385C67072519C700D5A4C",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Coastal areas </>",
         "LocalizedString": "Обитает возле <text color=\"fff\" fontface=\"black\" case=\"upper\">побережий</>"
       },
@@ -709,27 +724,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_32",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.JellyFish.Black"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "9D1235F343648336C465108922A3AC33",
+        "Key": "599DFE4A44413498367F4B8C91ED0A9E",
         "SourceString": "Dark Vangaurd Jellyfish",
         "LocalizedString": "Тёмная медуза"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "9CF46A334A13416DA85F78B2DF2F10D3",
+        "Key": "EA5EA6FB416B36534BC27C857B02BE39",
         "SourceString": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
         "LocalizedString": "Раздавите, чтобы помочь игрокам поблизости и мгновенно восстановить их здоровье и щиты."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "BEFB528148A0AE063824B39ABBC68B4B",
+        "Key": "07CED1194E44FB2428988EB78C59D69F",
         "SourceString": "Found at <text color=\"fff\" fontface=\"black\" case=\"upper\">Night</>",
         "LocalizedString": "Можно поймать в <text color=\"fff\" fontface=\"black\" case=\"upper\">тёмное время суток</>"
       },
@@ -756,27 +772,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_33",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.JellyFish.Pink"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "22C5FE1B406135DCCF028E8D75C8298D",
+        "Key": "5E162EAF48C744F233617E8E83A73DD5",
         "SourceString": "Cuddle Jellyfish",
         "LocalizedString": "Медуза-обнимашка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "5751A938448B6BC5841828B4C3609130",
+        "Key": "10436C624773AF8CFC82149C57A5B1AD",
         "SourceString": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
         "LocalizedString": "Раздавите, чтобы помочь игрокам поблизости и мгновенно восстановить их здоровье и щиты."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "3C67C535449539E3CC99A7B021C2BD40",
+        "Key": "6131CBA54543E7554699AD96B4B655FC",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Swamp Areas</> ",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">болотах</> "
       },
@@ -803,27 +820,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_4",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.ShieldFish.BlackBlue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "5813BEBE44C7177E8C5ADBAC20B9CB30",
+        "Key": "FF51A00F4AC68905E818A7BA44D5A23C",
         "SourceString": "Black and Blue Shield Fish",
         "LocalizedString": "Чёрно-синяя рыба-щит"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "C1D901594327FF567465CCB84C63B5EC",
+        "Key": "A17B16C747CE9ED28BD085AEF7639DAB",
         "SourceString": "Consume for juicy Shields.",
         "LocalizedString": "Съешьте, чтобы восполнить заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "AE0BED0543BE0742095A8C9D4E3543CF",
+        "Key": "886B2E1B459987F29885F5B0A57244BE",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -850,27 +868,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_5",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.ShieldFish.BlackStripes"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "74EF3C9C4189DACFA5CED992B4B634ED",
+        "Key": "8348319F47DCFB567F4CD981C8E024E8",
         "SourceString": "Black Striped Shield Fish",
         "LocalizedString": "Рыба-щит в чёрную полоску"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "193957BC481E0D2054122788662E0C41",
+        "Key": "6B5CA0B64D6EEBB0CC4C3088DF559ADA",
         "SourceString": "Consume for juicy Shields.",
         "LocalizedString": "Съешьте, чтобы восполнить заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "0982C2F74F02CB5027A48A8AE06F3754",
+        "Key": "531065E44D1D72C043642AB71FC16DBE",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Coastal areas </>",
         "LocalizedString": "Обитает возле <text color=\"fff\" fontface=\"black\" case=\"upper\">побережий</>"
       },
@@ -897,27 +916,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_6",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.ShieldFish.Green"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "20FFEAC646EC335EF98887A35488AB27",
+        "Key": "21CFF9234A619CADE3E4A39F94572942",
         "SourceString": "Green Shield Fish",
         "LocalizedString": "Зелёная рыба-щит"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "03C17E6949F37693FD25E7B6681FBD97",
+        "Key": "A0138A074BDFFDB929B1D19B3BB58C9D",
         "SourceString": "Consume for juicy Shields.",
         "LocalizedString": "Съешьте, чтобы восполнить заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "EE9A0375420BDA951E13B7AD1705C6B5",
+        "Key": "EE7F6E4142AF33591CD06FBAD9477E6E",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Forest Areas</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">лесных водоёмах</>"
       },
@@ -944,27 +964,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_7",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.ShieldFish.Pink"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "7E96993C40CC4DAC07979B9203C287BE",
+        "Key": "51D024A147CE96A0AF355CABE81C242A",
         "SourceString": "Pink Shield Fish",
         "LocalizedString": "Розовая рыба-щит"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "F2F8D691426EBD2E50F81383B13E4013",
+        "Key": "BA61825848AA7838DD4F6F8AA4C31BC8",
         "SourceString": "Consume for juicy Shields.",
         "LocalizedString": "Съешьте, чтобы восполнить заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "829618524DE05A3F5960EFB042103F54",
+        "Key": "B3E141D34BB32D60F2BB5D8B105F7A70",
         "SourceString": "Found in <text color=\"fff\" fontface=\"black\" case=\"upper\">Desert Areas</>",
         "LocalizedString": "Обитает в <text color=\"fff\" fontface=\"black\" case=\"upper\">водоёмах пустынь</>"
       },
@@ -992,27 +1013,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_8",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.ShieldFish.LightBlue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "8D65391D4966515878BC35997F4E29D2",
+        "Key": "C30166D7408A23BAC5FFEAB58F1E1DC5",
         "SourceString": "Light Blue Shield Fish",
         "LocalizedString": "Голубая рыба-щит"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "8AD48BFD40701DAF45E57F864525CDDE",
+        "Key": "29A9CAFA4259B3F73FBCD3AF04D8D4E0",
         "SourceString": "Consume for juicy Shields.",
         "LocalizedString": "Съешьте, чтобы восполнить заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "F889FAD04BCD0708E66E5B8B0F9F9E15",
+        "Key": "B4DA6DBA4C950CE50F0EB382503A5A5C",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -1039,27 +1061,28 @@
   {
     "Type": "FortCollectionDataEntryFish",
     "Name": "FortCollectionDataEntryFish_9",
-    "Outer": "CollectionDataFishing_S32",
+    "Outer": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataEntryFish'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "EntryTag": {
         "TagName": "Fish.EffectiveFlopper.Blue"
       },
       "EntryName": {
         "Namespace": "",
-        "Key": "74DB0A9445F8A76D8339ED996B490068",
+        "Key": "5B223646430256363C72A5A9E03733F8",
         "SourceString": "Blue SlurpFish",
         "LocalizedString": "Синяя прыскучая рыбка"
       },
       "EntryDescription": {
         "Namespace": "",
-        "Key": "25AA6F074BB604FF530EEEB7859A2893",
+        "Key": "A84B6918436E67D1515FA3A040995192",
         "SourceString": "Consume for juicy health or shield.",
         "LocalizedString": "Съешьте, чтобы восполнить здоровье или заряд щита."
       },
       "AdditionalEntryDescription": {
         "Namespace": "",
-        "Key": "B11CA82842F6B62C3D4DF9939C13E93A",
+        "Key": "95FB87DB4F675758051A868BFBD9EC38",
         "SourceString": "Found <text color=\"fff\" fontface=\"black\" case=\"upper\">Anywhere</>",
         "LocalizedString": "Встречается <text color=\"fff\" fontface=\"black\" case=\"upper\">повсеместно</>"
       },
@@ -1085,101 +1108,102 @@
   },
   {
     "Type": "FortCollectionDataFishing",
-    "Name": "CollectionDataFishing_S32",
+    "Name": "CollectionDataFishing_S33",
     "Class": "UScriptClass'FortCollectionDataFishing'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Entries": [
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_1'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.0"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_1'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.0"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_2'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.10"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_2'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.10"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_3'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.12"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_3'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.12"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_4'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.17"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_4'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.17"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_5'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.18"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_5'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.18"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_6'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.19"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_6'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.19"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_7'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.20"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_7'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.20"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_8'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.21"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_8'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.21"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_9'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.22"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_9'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.22"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_10'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.1"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_10'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.1"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_11'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.2"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_11'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.2"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_12'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.3"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_12'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.3"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_13'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.4"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_13'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.4"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_14'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.5"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_14'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.5"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_15'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.6"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_15'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.6"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_16'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.7"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_16'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.7"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_17'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.8"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_17'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.8"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_18'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.9"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_18'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.9"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_29'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.11"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_29'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.11"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_30'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.13"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_30'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.13"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_31'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.14"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_31'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.14"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_32'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.15"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_32'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.15"
         },
         {
-          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S32:FortCollectionDataEntryFish_33'",
-          "ObjectPath": "/BattlePassS32_Quests/SeasonData/CollectionDataFishing_S32.16"
+          "ObjectName": "FortCollectionDataEntryFish'CollectionDataFishing_S33:FortCollectionDataEntryFish_33'",
+          "ObjectPath": "/BattlePassS33_Quests/SeasonData/CollectionDataFishing_S33.16"
         }
       ]
     }

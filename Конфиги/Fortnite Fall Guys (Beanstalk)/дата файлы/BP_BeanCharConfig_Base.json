@@ -1,0 +1,655 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BeanCharConfig_Base_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'BeanCharConfigObject'",
+      "ObjectPath": "/Script/BeanstalkRuntime"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BeanCharConfig_Base_C'Default__BP_BeanCharConfig_Base_C'",
+      "ObjectPath": "/Beanstalk/Config/BP_BeanCharConfig_Base.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Const"
+    }
+  },
+  {
+    "Type": "BP_BeanCharConfig_Base_C",
+    "Name": "Default__BP_BeanCharConfig_Base_C",
+    "Class": "BlueprintGeneratedClass'/Beanstalk/Config/BP_BeanCharConfig_Base.BP_BeanCharConfig_Base_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Interaction": {
+        "PersistentTags": [
+          "Gameplay.Status.DisableEquipAnim",
+          "Granted.Athena.EnvItem.HidingProp.BlockEntrance",
+          "Granted.Athena.EnvItem.HidingProp.BlockInteract",
+          "Granted.Athena.EnvItem.HidingProp.BlockExit",
+          "Granted.WallStick.Blocked",
+          "Granted.WallJump.Blocked",
+          "Granted.RollLanding.Blocked",
+          "Granted.BoostedJump.Blocked"
+        ],
+        "DisallowedPlayerActions": [
+          "Gameplay.Action.Player.InteractiveConsumableUse",
+          "Gameplay.Action.Player.AbilityWeapon",
+          "Gameplay.Action.Player.Clamber",
+          "Gameplay.Action.Player.Hurdle",
+          "Gameplay.Action.Player.OpenParachute",
+          "Gameplay.Action.Player.ForceOpenParachute",
+          "Gameplay.Action.Player.Inventory",
+          "Gameplay.Action.Player.Slide",
+          "Gameplay.Action.Player.Sprint",
+          "Gameplay.Action.Player.SprintAnyDirection",
+          "Gameplay.Action.Player.SprintJumping",
+          "Gameplay.Action.Player.TacticalSprint",
+          "Gameplay.Action.Player.BeCarried",
+          "Gameplay.Action.Player.InterrogatingPlayer",
+          "Gameplay.Action.Player.Emote.SquadChat"
+        ],
+        "BlockedGameplayAbilityTags": [
+          "Ability.DamageSource",
+          "Ability.HeavyAttack",
+          "Ability.InsectSwarm",
+          "Gameplay.Action.Player.Heavy",
+          "Gameplay.Action.Player.Light",
+          "Gameplay.Action.Player.Medium",
+          "Gameplay.Action.Player.Massive",
+          "Gameplay.Action.Player.Melee",
+          "Event.Secondary.Pressed",
+          "Gameplay.Action.Player.Hurdle",
+          "Gameplay.Action.Player.InteractPet"
+        ],
+        "AllowedItems": [
+          "phoebe.items.BuildingTool",
+          "Beanstalk.Weapon.Melee.EmptyHands",
+          "Weapon.EditTool",
+          "Item.Trap",
+          "Trap.Floor",
+          "Trap.Wall",
+          "Trap.Ceiling"
+        ],
+        "BlockedInteractableTags": [
+          "Athena.Vehicle",
+          "Event.Vehicle",
+          "Vehicle"
+        ],
+        "BlockedInteractableContextText": {
+          "TableId": "/BeanstalkLocalization/DataTables/StringTable_Beanstalk_Common.StringTable_Beanstalk_Common",
+          "Key": "BS_InteractionBlocked",
+          "SourceString": "Fall Guys can't use this.",
+          "LocalizedString": "Недоступно для бобов."
+        }
+      },
+      "InventoryMode": {
+        "ActionsToAllow": [
+          "Gameplay.Action.Player.Inventory"
+        ],
+        "GameplayAbilityTagsToUnblock": [
+          "Gameplay.Action.Player.Heavy",
+          "Gameplay.Action.Player.Light",
+          "Gameplay.Action.Player.Medium",
+          "Gameplay.Action.Player.Massive",
+          "Gameplay.Action.Player.Melee"
+        ],
+        "HUDElementsToUnhide": [
+          "HUD.Athena.Inventory",
+          "HUD.Quickbar"
+        ],
+        "ItemsToAllow": [
+          "Item.Consumable.ImpulseGrenade",
+          "Item.Consumable.HookGun",
+          "Item.Resource.Gold",
+          "phoebe.items.key.vaultkeycard",
+          "Item.Consumable.AppleSun",
+          "Item.Gadget.Jetpack",
+          "Item.Consumable.Pepper",
+          "Item.ExclusivePickupGroup.ChronoCloak",
+          "Bacchus.Throw.Grenade",
+          "Creative.Item.ChannelManager.Handheld.1",
+          "Creative.Item.ChannelManager.Handheld.2",
+          "Creative.Item.ChannelManager.Handheld.3",
+          "Creative.Item.ChannelManager.Handheld.4",
+          "Creative.Item.ChannelManager.Handheld.5",
+          "Creative.Item.ChannelManager.Handheld.Default",
+          "Gameplay.DamageSource.Weapon"
+        ]
+      },
+      "Movement": {
+        "NormalMaxAccelerationCurve": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 450.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.0,
+                "Value": 1950.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "NormalMaxDecelerationCurve": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 200.0,
+                "ArriveTangent": 4127.09,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 2927.5044,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.0,
+                "Value": 600.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "TurnYawMultiplierGrounded": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": -1.0,
+                "Value": 3.0,
+                "ArriveTangent": -10.169871,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": -4.847577,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": -0.2,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.0,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "Turn180Duration": 0.42,
+        "Turn180YawMultiplier": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": -1.0,
+                "Value": 3.0,
+                "ArriveTangent": -10.169871,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": -4.847577,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": -0.2,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.0,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "MaxFallDuration": 7.5
+      },
+      "Jump": {
+        "JumpZVelocity": 1950.0,
+        "LandingVelocityConserve": 0.5
+      },
+      "Dive": {
+        "GroundDiveVelocity": 1725.0,
+        "AirDiveVelocity": 1500.0,
+        "AirDiveAngle": 50.0,
+        "HorizontalVelocityConservePercentageNormalized": 0.2,
+        "DiveRotationCurve": {
+          "ObjectName": "CurveVector'CA_BeanCharDiveRotation'",
+          "ObjectPath": "/Beanstalk/Animation/RootMotionCurves/CA_BeanCharDiveRotation.0"
+        }
+      },
+      "Impact": {
+        "CollisionResponseData": [
+          {
+            "ImpactThreshold": 0.0,
+            "bActivateKnockback": false,
+            "bActivateRagdoll": false,
+            "ImpactAnimType": "EBeanImpactAnimType::None",
+            "bPlayImpactVFX": true,
+            "ForceFeedbackEffect": null,
+            "bPlayFeedbackOnLand": false,
+            "bPlayFeedbackOnLaunch": false
+          },
+          {
+            "ImpactThreshold": 400.0,
+            "bActivateKnockback": false,
+            "bActivateRagdoll": false,
+            "ImpactAnimType": "EBeanImpactAnimType::Low",
+            "bPlayImpactVFX": true,
+            "ForceFeedbackEffect": {
+              "ObjectName": "ForceFeedbackEffect'FF_Bean_Impact_Low'",
+              "ObjectPath": "/Beanstalk/ForceFeedback/FF_Bean_Impact_Low.0"
+            },
+            "bPlayFeedbackOnLand": true,
+            "bPlayFeedbackOnLaunch": true
+          },
+          {
+            "ImpactThreshold": 2000.0,
+            "bActivateKnockback": true,
+            "bActivateRagdoll": false,
+            "ImpactAnimType": "EBeanImpactAnimType::Medium",
+            "bPlayImpactVFX": true,
+            "ForceFeedbackEffect": {
+              "ObjectName": "ForceFeedbackEffect'FF_Bean_Impact_Medium'",
+              "ObjectPath": "/Beanstalk/ForceFeedback/FF_Bean_Impact_Medium.0"
+            },
+            "bPlayFeedbackOnLand": false,
+            "bPlayFeedbackOnLaunch": false
+          },
+          {
+            "ImpactThreshold": 2800.0,
+            "bActivateKnockback": false,
+            "bActivateRagdoll": true,
+            "ImpactAnimType": "EBeanImpactAnimType::High",
+            "bPlayImpactVFX": true,
+            "ForceFeedbackEffect": {
+              "ObjectName": "ForceFeedbackEffect'FF_Bean_Impact_High'",
+              "ObjectPath": "/Beanstalk/ForceFeedback/FF_Bean_Impact_High.0"
+            },
+            "bPlayFeedbackOnLand": false,
+            "bPlayFeedbackOnLaunch": false
+          }
+        ],
+        "ImpactThresholdLarge": 3000.0,
+        "ImpactThresholdMedium": 1000.0,
+        "ImpactThresholdSmall": 400.0,
+        "IgnoreImpactStates": [
+          "EBeanCharStateID::Ragdoll",
+          "EBeanCharStateID::Mantle"
+        ],
+        "RootUnpinnedBone": "Torso_C_jnt_NoStrechSquash",
+        "BasePinStrength": 1.0,
+        "PinningResetCurve": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.0,
+                "Value": 0.194619,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.75,
+                "Value": 0.3,
+                "ArriveTangent": 0.315382,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.315382,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 2.553667,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "PinningCollisionChannels": [
+          "ECC_PhysicsBody",
+          "ECC_WorldStatic",
+          "ECC_WorldDynamic"
+        ],
+        "PinningPhysicalAnimationData": {
+          "bIsLocalSimulation": false,
+          "OrientationStrength": 1000.0,
+          "AngularVelocityStrength": 100.0,
+          "PositionStrength": 1000.0,
+          "VelocityStrength": 100.0
+        }
+      },
+      "Stagger": {
+        "VelocityMultiplierOnStagger": 1.0
+      },
+      "Ragdoll": {
+        "LaunchForceMultiplier": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Linear",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1000.0,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Break",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 2000.0,
+                "Value": 1.115,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 2500.0,
+                "Value": 1.2,
+                "ArriveTangent": 0.000432679,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.00043273793,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 3000.0,
+                "Value": 1.705,
+                "ArriveTangent": 0.000768,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.000768,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_User",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 4000.0,
+                "Value": 2.1,
+                "ArriveTangent": 0.000273,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.000273,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "GroundedRagdollControlForce": 221153.0,
+        "InAirRagdollControlForce": 221153.0,
+        "RagdollControlVelocityThreshold": 0.0,
+        "ExitLinearVelocity": 600.0,
+        "ExitAngularVelocity": 800.0,
+        "MaxActiveSeconds": 3600.0,
+        "HighImpactMaxAnimThreshold": 3300.0,
+        "SkeletalMeshAnchorBone": "spine_02",
+        "PhysicsBlendWeight": 0.85,
+        "MeshCapsuleRotationalOffset": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 270.0
+        },
+        "DebugTriggerRagdollForce": 5600.0,
+        "SpeedForRollGetup": 260.0,
+        "MinimumTimeOnGround": 0.05,
+        "MeshCollisionChannels": [
+          "ECC_WorldStatic",
+          "ECC_WorldDynamic"
+        ],
+        "MeshBonesWithCCD": [
+          "spine_01",
+          "spine_02"
+        ],
+        "ReplicationHardsnapDistanceOverride": 1600.0
+      },
+      "Roll": {
+        "ScaleSpeed": 227.5,
+        "MinimumDuration": 0.38,
+        "MaximumDurationBeforeForcedExit": 0.75
+      },
+      "Grab": {
+        "GrabbedJumpForceMultiplier": 0.425,
+        "GrabRadius": 80.0,
+        "UngrabDistanceVertical": 60.0,
+        "HoldingMaxTurnSpeed": 38.0,
+        "HoldPositionForwardOffset": 60.0,
+        "DragSpeed": 70.0,
+        "GrabberVelocityFactor": 0.0,
+        "MaxForceOnGrabber": 500.0,
+        "GrabbeeVelocityFactor": 0.0,
+        "GrabBreakTime": 1.6,
+        "GrabbeeJumpBreakTimeReduction": 0.4,
+        "PlayerGrabOffsetIK": {
+          "X": 25.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "LeftHandRotationAdjustment": {
+          "X": 180.0,
+          "Y": 0.0,
+          "Z": 15.0
+        },
+        "RightHandRotationAdjustment": {
+          "X": 180.0,
+          "Y": 0.0,
+          "Z": -15.0
+        }
+      },
+      "Getup": {
+        "AnimationRate": 1.1,
+        "MotionTimeCurve": {
+          "ObjectName": "CurveFloat'CA_BeanCharGetupTime'",
+          "ObjectPath": "/Beanstalk/Animation/RootMotionCurves/CA_BeanCharGetupTime.0"
+        }
+      },
+      "Mantle": {
+        "AcceptedCollisionChannels": [
+          "ECC_WorldStatic",
+          "ECC_PhysicsBody",
+          "ECC_Vehicle"
+        ],
+        "WallCheckLength": 20.0,
+        "WallTopCheckRadius": 20.0,
+        "HangingSpotMaxInclineDot": 0.85,
+        "RestoreMovementAfterDurationNormalized": 0.84,
+        "RestoreMovementVelocityMultiplier": 1.725,
+        "CooldownTime": 0.25
+      },
+      "Jostle": {
+        "JostleInnerRadius": 65.0,
+        "JostleeMaxSpeedToTrigger": 65.0,
+        "PositionToleranceDuringJostle": 2.0
+      },
+      "Camera": {
+        "CameraMode": {
+          "ObjectName": "BlueprintGeneratedClass'BP_BeanCameraMode_Default_C'",
+          "ObjectPath": "/Beanstalk/Camera/BP_BeanCameraMode_Default.0"
+        }
+      },
+      "Cosmetics": {
+        "DefaultEmotes": [
+          {
+            "ObjectName": "AthenaDanceItemDefinition'EID_Bean_Chicken'",
+            "ObjectPath": "/Beanstalk/Emotes/EID_Bean_Chicken.0"
+          },
+          {
+            "ObjectName": "AthenaDanceItemDefinition'EID_Bean_MexWave'",
+            "ObjectPath": "/Beanstalk/Emotes/EID_Bean_MexWave.0"
+          },
+          {
+            "ObjectName": "AthenaDanceItemDefinition'EID_Bean_ThumbsUp'",
+            "ObjectPath": "/Beanstalk/Emotes/EID_Bean_ThumbsUp.0"
+          },
+          {
+            "ObjectName": "AthenaDanceItemDefinition'EID_Bean_Wave'",
+            "ObjectPath": "/Beanstalk/Emotes/EID_Bean_Wave.0"
+          }
+        ]
+      },
+      "Swimming": {
+        "HeadingAdjustmentStrength": 5.0,
+        "TargetImmersionDepth": 60.0,
+        "JumpMinVelocityZ": 1014.0,
+        "JumpMaxVelocityZ": 1521.0,
+        "JumpForceZ": 2535.0,
+        "JumpForceDuration": 0.507
+      },
+      "Jiggle": {
+        "BoneWeights": [
+          0.3,
+          0.3,
+          0.2
+        ],
+        "StateWeightOverrides": [
+          {
+            "StateID": "EBeanCharStateID::Getup",
+            "Weighting": 0.0
+          },
+          {
+            "StateID": "EBeanCharStateID::Dive",
+            "Weighting": 0.2
+          },
+          {
+            "StateID": "EBeanCharStateID::GetupRoll",
+            "Weighting": 0.0
+          },
+          {
+            "StateID": "EBeanCharStateID::Roll",
+            "Weighting": 0.0
+          },
+          {
+            "StateID": "EBeanCharStateID::Ragdoll",
+            "Weighting": 0.0
+          },
+          {
+            "StateID": "EBeanCharStateID::Mantle",
+            "Weighting": 0.0
+          },
+          {
+            "StateID": "EBeanCharStateID::Grab",
+            "Weighting": 0.0
+          }
+        ]
+      },
+      "HUD": {
+        "HiddenHUDElements": [
+          "HUD.Athena.Player.Shield",
+          "HUD.Athena.Player.Health",
+          "HUD.Athena.Inventory",
+          "HUD.Athena.AmmoIndicator",
+          "HUD.TopLeft.PickupManager",
+          "HUD.Athena.MapPackKeys",
+          "HUD.Weapon",
+          "HUD.Quickbar",
+          "HUD.Athena.AIKills",
+          "HUD.Athena.Bounty",
+          "HUD.Athena.TeamKills",
+          "HUD.Athena.Kills",
+          "HUD.Athena.Player.Overshield"
+        ]
+      }
+    }
+  }
+]
