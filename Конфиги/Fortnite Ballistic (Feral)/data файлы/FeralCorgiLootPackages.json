@@ -1,0 +1,4372 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "FeralCorgiLootPackages",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLootPackageData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "WorldPKG.Test.Ammo.01": {
+        "LootPackageID": "WorldPKG.Test.Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaTest",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.Test.Ammo.C0;Call:WorldList.AthenaTest",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.Pistol.Option1.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.Pistol.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.Pistol.Option1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.Pistol.Option1.C0;Call:WorldList.FeralCorgi.Weapon.Pistol.Option1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.Shotgun.Option1.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.Shotgun.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.Shotgun.Option1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.Shotgun.Option1.C0;Call:WorldList.FeralCorgi.Weapon.Shotgun.Option1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.Shotgun.Option2.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.Shotgun.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.Shotgun.Option2",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.Shotgun.Option2.C0;Call:WorldList.FeralCorgi.Weapon.Shotgun.Option2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.SMG.Option1.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.SMG.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.SMG.Option1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.SMG.Option1.C0;Call:WorldList.FeralCorgi.Weapon.SMG.Option1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.SMG.Option2.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.SMG.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.SMG.Option2",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.SMG.Option2.C0;Call:WorldList.FeralCorgi.Weapon.SMG.Option2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.AssaultRifle.Option1.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.AssaultRifle.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.AssaultRifle.Option1.C0;Call:WorldList.FeralCorgi.Weapon.AssaultRifle.Option1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.AssaultRifle.Option2.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.AssaultRifle.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option2",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.AssaultRifle.Option2.C0;Call:WorldList.FeralCorgi.Weapon.AssaultRifle.Option2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.AssaultRifle.Option3.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.AssaultRifle.Option3",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option3",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.AssaultRifle.Option3.C0;Call:WorldList.FeralCorgi.Weapon.AssaultRifle.Option3",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.Sniper.Option1.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.Sniper.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.Sniper.Option1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.Sniper.Option1.C0;Call:WorldList.FeralCorgi.Weapon.Sniper.Option1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FeralCorgi.Sniper.Option2.01": {
+        "LootPackageID": "WorldPKG.FeralCorgi.Sniper.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FeralCorgi.Weapon.Sniper.Option2",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FeralCorgi.Sniper.Option2.C0;Call:WorldList.FeralCorgi.Weapon.Sniper.Option2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "MedVending.Consumable.Health.01": {
+        "LootPackageID": "MedVending.Consumable.Health",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.MedVend.Heal",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:MedVending.Consumable.Health.C0;Call:WorldList.MedVend.Heal",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "MedVending.Consumable.Shield.01": {
+        "LootPackageID": "MedVending.Consumable.Shield",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.MedVend.Shield",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:MedVending.Consumable.Shield.C0;Call:WorldList.MedVend.Shield",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaPH.01": {
+        "LootPackageID": "WorldPKG.AthenaPH",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaPH.Resources",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaPH.C1;Call:WorldList.AthenaPH.Resources",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaTest.01": {
+        "LootPackageID": "WorldList.AthenaTest",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 20,
+          "Y": 20
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaTest.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Medium.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 16,
+          "Y": 16
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Medium.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Light.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Light",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 20,
+          "Y": 20
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Light.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Shells.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Shells",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 6,
+          "Y": 6
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Shells.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Heavy.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 4,
+          "Y": 4
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Heavy.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Ammo.Rockets.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Ammo.Rockets",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Ammo.Rockets.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyAmmo.Medium.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyAmmo.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 32,
+          "Y": 32
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyAmmo.Medium.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyAmmo.Light.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyAmmo.Light",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 40,
+          "Y": 40
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyAmmo.Light.C0;Item:Ammo.AthenaLight",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyAmmo.Shells.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyAmmo.Shells",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 12,
+          "Y": 12
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyAmmo.Shells.C0;Item:Ammo.AthenaShells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyAmmo.Heavy.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyAmmo.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 8,
+          "Y": 8
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyAmmo.Heavy.C0;Item:Ammo.AthenaHeavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyAmmo.Rockets.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyAmmo.Rockets",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 4,
+          "Y": 4
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets.AmmoDataRockets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyAmmo.Rockets.C0;Item:Ammo.AthenaRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Resources.01": {
+        "LootPackageID": "WorldList.AthenaLoot.Resources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 30,
+          "Y": 30
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Wood",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Resources.02": {
+        "LootPackageID": "WorldList.AthenaLoot.Resources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 30,
+          "Y": 30
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Stone",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Resources.03": {
+        "LootPackageID": "WorldList.AthenaLoot.Resources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 30,
+          "Y": 30
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Metal",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyResources.01": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyResources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 140,
+          "Y": 140
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyResources.C0;Item:Resource.Wood",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyResources.02": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyResources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 120,
+          "Y": 120
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyResources.C0;Item:Resource.Stone",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.SupplyResources.03": {
+        "LootPackageID": "WorldList.AthenaLoot.SupplyResources",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 100,
+          "Y": 100
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.SupplyResources.C0;Item:Resource.Metal",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.Pistol.Option1.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.Pistol.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_Pistol/WID_Pistol_FeralCorgiPap_Auto_Athena_R.WID_Pistol_FeralCorgiPap_Auto_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.Pistol.Option1.C0;Item:WID.Pistol.Paprika.Auto.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.Shotgun.Option1.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.Shotgun.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_Shotgun_Pump/WID_Shotgun_Pump_FeralCorgiPap_Athena_R.WID_Shotgun_Pump_FeralCorgiPap_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.Shotgun.Option1.C0;Item:WID.Shotgun.Pump.Paprika.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.Shotgun.Option2.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.Shotgun.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_Shotgun_DPS/WID_Shotgun_Auto_FeralCorgiPap_Athena_R.WID_Shotgun_Auto_FeralCorgiPap_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.Shotgun.Option2.C0;Item:WID.Shotgun.Auto.Paprika.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.SMG.Option1.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.SMG.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_SMG_Burst/WID_SMG_FeralCorgiPap_Burst_Athena_R.WID_SMG_FeralCorgiPap_Burst_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.SMG.Option1.C0;Item:WID.SMG.Paprika.Burst.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.SMG.Option2.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.SMG.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_SMG_DPS/WID_SMG_FeralCorgiPap_DPS_Athena_R.WID_SMG_FeralCorgiPap_DPS_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.SMG.Option2.C0;Item:WID.SMG.Paprika.DPS.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.AssaultRifle.Option1.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPapAR_DPS/WID_Assault_FeralCorgiPap_DPS_Athena_R.WID_Assault_FeralCorgiPap_DPS_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.AssaultRifle.Option1.C0;Item:WID.Assault.Paprika.DPS.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.AssaultRifle.Option2.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_AR_Heavy/WID_Assault_FeralCorgiPap_Heavy_Athena_R.WID_Assault_FeralCorgiPap_Heavy_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.AssaultRifle.Option2.C0;Item:WID.Assault.Paprika.Heavy.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.AssaultRifle.Option3.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.AssaultRifle.Option3",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_AR_Infantry/WID_Assault_FeralCorgiPap_Infantry_Athena_R.WID_Assault_FeralCorgiPap_Infantry_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.AssaultRifle.Option3.C0;Item:WID.Assault.Paprika.Infantry.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.Sniper.Option1.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.Sniper.Option1",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_Sniper/WID_Sniper_FeralCorgiPap_Athena_R.WID_Sniper_FeralCorgiPap_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.Sniper.Option1.C0;Item:WID.Paprika.DMR.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FeralCorgi.Weapon.Sniper.Option2.01": {
+        "LootPackageID": "WorldList.FeralCorgi.Weapon.Sniper.Option2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FeralCorgiGameplay/Gameplay/Weapons/FeralPap_Sniper/WID_Sniper_FeralCorgiPap_Athena_R.WID_Sniper_FeralCorgiPap_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FeralCorgi.Weapon.Sniper.Option2.C0;Item:WID.Sniper.Paprika.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.01": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.02": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.03": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.04": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.05": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.06": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/KnockGrenade/Athena_KnockGrenade.Athena_KnockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaKnockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.07": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaShockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.08": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaRiftShard",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.09": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Gadget.Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.10": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 10,
+          "Y": 10
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.11": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/GliderItem/Athena_Glider_Item.Athena_Glider_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Gadget.Glider",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.12": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.18,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Gadget.GrapplingHook",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.13": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade.Athena_BushGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.BushGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.14": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.ShieldBubbleJr",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.15": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.PortAShack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.16": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/Athena_Grenade.Athena_Grenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.17": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.3,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.MiniCrashPad",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.18": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.ShieldKeg",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.19": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion.Athena_RejuvenationPotion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.RejuvenationJuice",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.20": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.PizzaParty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.21": {
+        "LootPackageID": "WorldList.AthenaHighConsumables",
+        "Weight": 0.025,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.Slurp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.01": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.02": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.03": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.04": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.45,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.05": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.35,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.06": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/KnockGrenade/Athena_KnockGrenade.Athena_KnockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaKnockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.07": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaShockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.08": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaRiftShard",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.09": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.10": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 10,
+          "Y": 10
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.11": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/GliderItem/Athena_Glider_Item.Athena_Glider_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.Glider",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.12": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.15,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.GrapplingHook",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.13": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade.Athena_BushGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.BushGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.14": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.ShieldBubbleJr",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.15": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.PortAShack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.16": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/Athena_Grenade.Athena_Grenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.17": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.3,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.MiniCrashPad",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.18": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.Athena.ShieldKeg",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.19": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion.Athena_RejuvenationPotion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.Athena.RejuvenationJuice",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.20": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.Athena.PizzaParty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropConsumables.21": {
+        "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
+        "Weight": 0.025,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID.Athena.Slurp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.01": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.02": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.03": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.04": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.05": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.06": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID.Athena.ShieldKeg",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.07": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion.Athena_RejuvenationPotion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID.Athena.RejuvenationJuice",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.08": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID.Athena.PizzaParty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.09": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.025,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID.Athena.Slurp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.01": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/KnockGrenade/Athena_KnockGrenade.Athena_KnockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.AthenaKnockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.02": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.AthenaShockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.03": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.AthenaRiftShard",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.04": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Gadget.Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.05": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 10,
+          "Y": 10
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.06": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/GliderItem/Athena_Glider_Item.Athena_Glider_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Gadget.Glider",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.07": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.15,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Gadget.GrapplingHook",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.08": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade.Athena_BushGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.BushGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.09": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.ShieldBubbleJr",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.10": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.PortAShack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.11": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/Athena_Grenade.Athena_Grenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.AthenaGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.12": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.33,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:Consumable.MiniCrashPad",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.01": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.75,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.02": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.55,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.03": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.55,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.04": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.3,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.05": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.3,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.06": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/KnockGrenade/Athena_KnockGrenade.Athena_KnockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.AthenaKnockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.07": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.35,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.AthenaShockGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.08": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.AthenaRiftShard",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.09": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.10": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 10,
+          "Y": 10
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.11": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/GliderItem/Athena_Glider_Item.Athena_Glider_Item",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.Glider",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.12": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.12,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.GrapplingHook",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.13": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade.Athena_BushGrenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.BushGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.14": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldBubbleJr",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.15": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.PortAShack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.16": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/Athena_Grenade.Athena_Grenade",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.AthenaGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.17": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.3,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.MiniCrashPad",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.18": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.ShieldKeg",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.19": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion.Athena_RejuvenationPotion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.RejuvenationJuice",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.20": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.PizzaParty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.21": {
+        "LootPackageID": "WorldList.AthenaConsumables",
+        "Weight": 0.02,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.Slurp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.MythicGFish.01": {
+        "LootPackageID": "WorldList.MythicGFish",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Bucket/Nice/WID_Athena_Bucket_Nice.WID_Athena_Bucket_Nice",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.MythicGFish.C0;Item:WID.Athena.GFish.UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.MedVend.Heal.01": {
+        "LootPackageID": "WorldList.MedVend.Heal",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.MedVend.Heal.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.MedVend.Heal.02": {
+        "LootPackageID": "WorldList.MedVend.Heal",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.MedVend.Heal.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.MedVend.Shield.01": {
+        "LootPackageID": "WorldList.MedVend.Shield",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.MedVend.Shield.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.MedVend.Shield.02": {
+        "LootPackageID": "WorldList.MedVend.Shield",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.MedVend.Shield.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaPH.Consumables.01": {
+        "LootPackageID": "WorldList.AthenaPH.Consumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaPH.Consumables.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaPH.Resources.01": {
+        "LootPackageID": "WorldList.AthenaPH.Resources",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaPH.Resources.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      }
+    }
+  }
+]

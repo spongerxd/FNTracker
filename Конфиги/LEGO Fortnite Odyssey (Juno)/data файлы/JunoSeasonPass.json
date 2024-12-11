@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "SeasonPassItemDefinition",
+    "Name": "JunoSeason1Pass",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CommonData": {
+        "AssetPathName": "/S1Pass/PassData/CommonData.CommonData",
+        "SubPathString": ""
+      },
+      "PassData": {
+        "AssetPathName": "/S1Pass/PassData/JunoSeason1PassData.JunoSeason1PassData",
+        "SubPathString": ""
+      },
+      "LevelData": {
+        "AssetPathName": "/S1Pass/PassData/JunoSeason1PassLevelData.JunoSeason1PassLevelData",
+        "SubPathString": ""
+      },
+      "Categories": [
+        {
+          "AssetPathName": "/S1Pass/PassData/JunoSeason1PassCategory1.JunoSeason1PassCategory1",
+          "SubPathString": ""
+        }
+      ],
+      "SeasonNumber": 1,
+      "ItemName": {
+        "Namespace": "",
+        "Key": "2341F7CB41B3E257A92790B694E2B02D",
+        "SourceString": "LEGO® Pass",
+        "LocalizedString": "Пропуск \nLEGO®"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "42ADEE804BA08A64634D89AFFF19AAD3",
+        "SourceString": "Chill & Thrill",
+        "LocalizedString": "Зимние чары"
+      },
+      "ItemShortDescription": {
+        "Namespace": "",
+        "Key": "FC7F26C041A2E4A9EBDA4B9721BAD229",
+        "SourceString": "Chill & Thrill",
+        "LocalizedString": "Зимние чары"
+      },
+      "DataList": [
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        },
+        {
+          "MinLevel": 1,
+          "MaxLevel": 100
+        }
+      ]
+    }
+  }
+]

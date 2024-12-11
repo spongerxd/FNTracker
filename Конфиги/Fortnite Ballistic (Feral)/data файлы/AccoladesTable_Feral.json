@@ -1,0 +1,1915 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AccoladesTable_Feral",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortAccoladesTableRow'",
+        "ObjectPath": "/Script/AccoladesRuntime"
+      }
+    },
+    "Rows": {
+      "Acknowledgement_Feral_Elimination": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "EliminatedPawn": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Pawn.Athena.Player"
+                    },
+                    {
+                      "TagName": "Pawn.Athena.NonParticipant"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ALL(  ALL( Pawn.Athena.Player ),  NONE( Pawn.Athena.NonParticipant ) )"
+                }
+              },
+              "Killer": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "EliminationSource": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "AllowedTeamAffiliations": [],
+              "ProhibitedTeamAffiliations": [],
+              "AllowedKilledPawnTypes": [],
+              "ProhibitedKilledPawnTypes": [],
+              "bAllowSelfEliminations": false,
+              "bRequirePawnWasEliminatedByConvertedPawn": false,
+              "bUseDistance": false,
+              "bIncrementByDistance": false,
+              "bUseKillStreak": false,
+              "Distance": {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 0.0
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Open",
+                  "Value": 0.0
+                }
+              },
+              "KillStreak": {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 0
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Open",
+                  "Value": 0
+                }
+              },
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "726BCEA4-98CD390F-A8BBD905-5426FCCD",
+                "ResourceCount": 200,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C55FC81C498DC29408C0E3BDDFD09396",
+          "SourceString": "Elimination",
+          "LocalizedString": "Устранение"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ARSpecialist128px.T_UI_accolades_ARSpecialist128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Apparatus_Plant": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Apparatus.Plant"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "A9B39BC5-FF7B34FD-8C35FAA4-419B1838",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F3BA638648ECF8AE099985A05CB67996",
+          "SourceString": "Rift Point Device Planted",
+          "LocalizedString": "Устройство «Точка разлома» установлено"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_CanOfWorms128px.T_UI_accolades_CanOfWorms128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Apparatus_Explode": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Apparatus.Explode"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "01348894-AF9A35F1-9EED348E-3EC21CF6",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DA232EDC4E8C16F2DBC35DB4507197F6",
+          "SourceString": "Rift Point Device Detonated",
+          "LocalizedString": "Устройство «Точка разлома» взорвано"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_RoundWin": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.RoundWin"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "A99F96C7-13303048-AFEF5913-D8E96132",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3D84DF3642FF290E3B9311BA0C190F73",
+          "SourceString": "Round Won",
+          "LocalizedString": "Победа в раунде"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_TheRoyalParty_128px_png.T_UI_accolades_TheRoyalParty_128px_png",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_EliminateInRound_Double": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.EliminateInRound.Double"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "3FD07ADD-D9F033F1-9D8C6EDC-540CFBBF",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "200FFB3841F74FD9B94A64837D8971D0",
+          "SourceString": "Double",
+          "LocalizedString": "Двойка"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/2Elims_Spree128px.2Elims_Spree128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_EliminateInRound_Triple": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.EliminateInRound.Triple"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Large",
+                "DynamicResourceGuid": "6F295630-A5AE352E-872F72E1-BC87970B",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3C60A78F42D0D536BEA81C9765877373",
+          "SourceString": "Triple",
+          "LocalizedString": "Тройка"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/3Elims_Spree128px.3Elims_Spree128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_EliminateInRound_Quadra": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.EliminateInRound.Quadra"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Large",
+                "DynamicResourceGuid": "F7D8173D-AA4038D0-AF1EC083-7FA8FD79",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4FF552C14C946A9F2187E3A67D4EAA7D",
+          "SourceString": "Ultra",
+          "LocalizedString": "Ультра"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/4Elims_Spree128px.4Elims_Spree128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_EliminateInRound_Penta": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.EliminateInRound.Penta"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::VeryLarge",
+                "DynamicResourceGuid": "826590A4-D98A386C-B832D4BE-CD93F664",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3D058F1947F91BB00B9EF6AD94ED6619",
+          "SourceString": "Ace",
+          "LocalizedString": "Ас"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/5Elims_Spree128px.5Elims_Spree128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Clutch_1v1": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Clutch.1v1"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "03956F4A-635F326C-8CBDA048-F9DCC4DF",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "790F258948622B3A6944BAB626279277",
+          "SourceString": "Clutch",
+          "LocalizedString": "Стальная хватка"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_TwoToOneOdds128px.T_UI_accolades_TwoToOneOdds128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Clutch_1v2": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Clutch.1v2"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "E9A3C89C-2D943BD5-9FA909E9-85D6E3E9",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F6F6815F4AF533D68CDE1A8FE6D1A283",
+          "SourceString": "Clutch - 1 vs 2",
+          "LocalizedString": "Стальная хватка: 1 против 2"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_TwoToOneOdds128px.T_UI_accolades_TwoToOneOdds128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Clutch_1v3": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Clutch.1v3"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Large",
+                "DynamicResourceGuid": "90632FB2-97463940-84D6C9CC-DEC20EFA",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "24D320444C58B6B8D09A3FABF9F60914",
+          "SourceString": "Clutch - 1 vs 3",
+          "LocalizedString": "Стальная хватка: 1 против 3"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ThreeToOneOdds128px.T_UI_accolades_ThreeToOneOdds128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Clutch_1v4": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Clutch.1v4"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Large",
+                "DynamicResourceGuid": "02E4AC5E-49A23301-8F226939-B1EFDC70",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E9A1DD994ADC185683234597890FCA0E",
+          "SourceString": "Clutch - 1 vs 4",
+          "LocalizedString": "Стальная хватка: 1 против 4"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ThreeToOneOdds128px.T_UI_accolades_ThreeToOneOdds128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Clutch_1v5": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Clutch.1v5"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::VeryLarge",
+                "DynamicResourceGuid": "9240B84B-AD0D3D0A-B8CF44F3-A9FE749A",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "00FB9DAF4789C5FB4F8256B3C736E65E",
+          "SourceString": "Clutch - 1 vs 5",
+          "LocalizedString": "Стальная хватка: 1 против 5"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ThreeToOneOdds128px.T_UI_accolades_ThreeToOneOdds128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Apparatus_Defuse": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Apparatus.Defuse"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "9726B12F-9A6E3F5E-93931482-12D7276F",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6B2522504C6DF337694BD482696D04B2",
+          "SourceString": "Rift Point Device Defused",
+          "LocalizedString": "Устройство «Точка разлома» обезврежено"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Spend_MoreThanXInRound": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Spend.MoreThanXInRound"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "0264E862-7E2F37FC-9ED44D44-BB0D9BA2",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3D7F959E4DC5E57A3FF8C69CD04D3E9A",
+          "SourceString": "Big Spender",
+          "LocalizedString": "Транжира"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Spend_LessThanZInRound": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.Spend.LessThanZInRound"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Medium",
+                "DynamicResourceGuid": "29EA7E51-4B153F51-9D8F99F3-420CE074",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "AA018C54437D4B208AA24ABA69E39947",
+          "SourceString": "Super Saver",
+          "LocalizedString": "Ультрабюджетность"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Spend_PurchaseItems": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Feral.ItemPurchased"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::VerySmall",
+                "DynamicResourceGuid": "D8B4A1C4-411D3BCA-B34B86FE-251895CC",
+                "ResourceCount": 100,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B24D104B430E5C0914C8F7A26B793712",
+          "SourceString": "Purchase items",
+          "LocalizedString": "Купите предметы"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      },
+      "Accolade_Feral_Spend_Headshots": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "bIncrementByDistance": false,
+              "bUseDistance": false,
+              "bAllowSelfInflictedDamage": false,
+              "bRequireCriticalHit": true,
+              "Distance": {
+                "LowerBound": {
+                  "Type": "ERangeBoundTypes::Inclusive",
+                  "Value": 0.0
+                },
+                "UpperBound": {
+                  "Type": "ERangeBoundTypes::Open",
+                  "Value": 0.0
+                }
+              },
+              "DamageSource": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "DamagedActor": {
+                "bCanGainProgressForThisObjective": false,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [
+                    {
+                      "TagName": "Homebase.Class"
+                    }
+                  ],
+                  "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  "UserDescription": "",
+                  "AutoDescription": " ANY( Homebase.Class )"
+                }
+              },
+              "DamageType": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "TeamDamage": "EObjectiveProcessorPropertyRequirement::Prohibited",
+              "SelfInflictedDamage": "EObjectiveProcessorPropertyRequirement::Prohibited",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 10
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::Small",
+                "DynamicResourceGuid": "3598B071-64153918-9FD79F6E-6F5FD379",
+                "ResourceCount": 100,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                }
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F24313D7449E133D25B3E1A05DFE2832",
+          "SourceString": "Headhunter",
+          "LocalizedString": "Охотник за головами"
+        },
+        "DisplayDescription": {
+          "Namespace": "",
+          "Key": "39EBF1174189CF6BA1DDAE89699BC6B6",
+          "SourceString": "hit headshots",
+          "LocalizedString": "совершите попадания в голову"
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Accolade",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Splash_Cue.Fort_XP_Splash_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "/FeralCorgiAccolades/AccoladeIcons/T_UI_accolades_ColdEliminatedHands128px.T_UI_accolades_ColdEliminatedHands128px",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Accolade"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Feral"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Product.Feral )"
+        }
+      }
+    }
+  }
+]
