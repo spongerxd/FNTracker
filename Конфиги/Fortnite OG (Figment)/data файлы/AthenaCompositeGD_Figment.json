@@ -48630,30 +48630,6 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.Weapons.EnableScopedViewToggle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": -1.0
-          },
-          {
-            "Time": 1.0,
-            "Value": -1.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 0.0
-          },
-          {
-            "Time": 21.0,
-            "Value": 0.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
       "Default.Consumables.BlockThrowableDeployVolumesEnabled": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -51091,11 +51067,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 2000.0
+            "Value": 1800.0
           },
           {
             "Time": 1.0,
-            "Value": 2000.0
+            "Value": 1800.0
           },
           {
             "Time": 2.0,
@@ -54555,6 +54531,30 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Weapons.EnableScopedViewToggle": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -74759,26 +74759,6 @@
           },
           {
             "Time": 20.0,
-            "Value": 0.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Default.Creative.MoveTool.AllowTransparentMaterials": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.0
-          },
-          {
-            "Time": 21.0,
             "Value": 0.0
           }
         ],

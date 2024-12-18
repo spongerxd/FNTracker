@@ -2874,6 +2874,12 @@
   "ValkyrieExperimentalSettingsDetailCustomization": {
     "ProjectSettings.ExperimentalSettings": "Учтите, что использование экспериментальных функций в проекте не позволит вам опубликовать его. При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\nРекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов, поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
   },
+  "ValkyrieExperimentalSettingsManager": {
+    "ValkyrieExperimentalSettingsManager.ButtonDismiss": "Игнорировать",
+    "ValkyrieExperimentalSettingsManager.FirstPersonModeInBeta": "Режим с видом от первого лица в бета-версии!",
+    "ValkyrieExperimentalSettingsManager.FirstPersonModeDocumentaion": "Узнать подробнее о режиме с видом от первого лица",
+    "ValkyrieExperimentalSettingsManager.FirstPersonModePublishable": "Теперь вы можете публиковать острова, на которых используется это устройство."
+  },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
     "EmptyProjectId": "Попытка получить остров с идентификатором пустого проекта",

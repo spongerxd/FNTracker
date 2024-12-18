@@ -1351,6 +1351,73 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BirthdayPresents;LPKG:WorldPKG.BirthdayPresent.Theme"
       },
+      "Loot_BrickSoupHolidayGiftBox_01": {
+        "TierGroup": "Loot_BrickSoupHolidayGiftBox",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.BrickSoupHolidayGiftBox",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_BrickSoupHolidayGiftBox;LPKG:WorldPKG.BrickSoupHolidayGiftBox"
+      },
       "Loot_AthenaHolidayGiftBox_01": {
         "TierGroup": "Loot_AthenaHolidayGiftBox",
         "Weight": 1.0,
@@ -1362,7 +1429,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Weapons",
+        "LootPackage": "WorldPKG.AthenaHolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 7.0,
@@ -1416,141 +1483,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_AthenaHolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Weapons"
-      },
-      "Loot_AthenaHolidayGiftBox_02": {
-        "TierGroup": "Loot_AthenaHolidayGiftBox",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Recovery",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 6.0,
-          "Y": 6.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_AthenaHolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Recovery"
-      },
-      "Loot_AthenaHolidayGiftBox_03": {
-        "TierGroup": "Loot_AthenaHolidayGiftBox",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Mobility",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 5.0,
-          "Y": 5.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_AthenaHolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Mobility"
+        "Annotation": "TG:Loot_AthenaHolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox"
       },
       "Loot_Flipper_SgtWinter_HolidayGiftBox_01": {
         "TierGroup": "Loot_Flipper_SgtWinter_HolidayGiftBox",
@@ -1563,7 +1496,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Weapons",
+        "LootPackage": "WorldPKG.AthenaHolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 7.0,
@@ -1617,7 +1550,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Weapons"
+        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox"
       },
       "Loot_Flipper_SgtWinter_HolidayGiftBox_02": {
         "TierGroup": "Loot_Flipper_SgtWinter_HolidayGiftBox",
@@ -1630,7 +1563,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Weapons",
+        "LootPackage": "WorldPKG.AthenaHolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 13.0,
@@ -1684,7 +1617,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Weapons"
+        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox"
       },
       "Loot_Flipper_SgtWinter_HolidayGiftBox_03": {
         "TierGroup": "Loot_Flipper_SgtWinter_HolidayGiftBox",
@@ -1697,7 +1630,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Recovery",
+        "LootPackage": "WorldPKG.AthenaHolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 6.0,
@@ -1751,7 +1684,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Recovery"
+        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox"
       },
       "Loot_Flipper_SgtWinter_HolidayGiftBox_04": {
         "TierGroup": "Loot_Flipper_SgtWinter_HolidayGiftBox",
@@ -1764,7 +1697,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaHolidayGiftBox.Mobility",
+        "LootPackage": "WorldPKG.AthenaHolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 5.0,
@@ -1818,7 +1751,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": true,
-        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox.Mobility"
+        "Annotation": "TG:Loot_Flipper_SgtWinter_HolidayGiftBox;LPKG:WorldPKG.AthenaHolidayGiftBox"
       },
       "Loot_AthenaHolidayGiftBox_Bad_01": {
         "TierGroup": "Loot_AthenaHolidayGiftBox_Bad",
@@ -37329,6 +37262,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Duel_Rewards_Assault;LPKG:NPCItemPKG_Duel_Rewards_Assault"
+      },
+      "LTG_NPC_Loot_FlavorShotgun_01": {
+        "TierGroup": "LTG_NPC_Loot_FlavorShotgun",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG_Loot_FlavorShotgun",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_Loot_FlavorShotgun;LPKG:NPCItemPKG_Loot_FlavorShotgun"
       }
     }
   }
