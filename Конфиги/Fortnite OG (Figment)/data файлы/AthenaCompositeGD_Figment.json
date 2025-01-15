@@ -6539,7 +6539,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 65.0
+            "Value": 100.0
           },
           {
             "Time": 1.0,
@@ -6559,7 +6559,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 80.0
+            "Value": 100.0
           },
           {
             "Time": 1.0,
@@ -6619,7 +6619,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 90.0
+            "Value": 100.0
           },
           {
             "Time": 1.0,
@@ -6915,14 +6915,10 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 20.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -6935,14 +6931,10 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -49214,6 +49206,54 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.MilitaryLauncher.ExtraDamageFromTag": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.MilitaryLauncher.DoubleCheckProjectiles": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.DBNO.InitialHealth": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -52422,7 +52462,7 @@
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -52438,7 +52478,7 @@
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -52454,7 +52494,7 @@
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -52470,7 +52510,7 @@
             "Value": 0.0
           },
           {
-            "Time": 21.0,
+            "Time": 20.0,
             "Value": 0.0
           }
         ],
@@ -52483,10 +52523,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -52503,10 +52539,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -52523,10 +52555,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {

@@ -7998,14 +7998,14 @@
         "LootPackage": "WorldPKG.NPC.LD.Neutral",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0,
@@ -8017,8 +8017,8 @@
         "LootPackageCategoryMinArray": [
           1,
           1,
+          1,
           2,
-          0,
           0,
           0,
           0,
@@ -8519,6 +8519,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_MaskShop_Container;LPKG:WorldPKG.MaskShop"
+      },
+      "Loot_MMO_SliceVine_01": {
+        "TierGroup": "Loot_MMO_SliceVine",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.MMO.SliceVine",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_MMO_SliceVine;LPKG:WorldPKG.MMO.SliceVine"
       },
       "Loot_MMO_Bunker_FloorLoot_MythicWep_01": {
         "TierGroup": "Loot_MMO_Bunker_FloorLoot_MythicWep",
@@ -22872,14 +22939,14 @@
         "LootPackage": "WorldPKG.AK.Loot",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 3.0,
-          "Y": 3.0
+          "X": 11.0,
+          "Y": 11.0
         },
         "LootPackageCategoryWeightArray": [
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0,
@@ -22891,8 +22958,8 @@
         "LootPackageCategoryMinArray": [
           1,
           1,
-          1,
-          0,
+          6,
+          3,
           0,
           0,
           0,
@@ -31448,8 +31515,8 @@
         "LootPackage": "NPCItemPKG_FirePetal_Masamune",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 2.0,
+          "Y": 2.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -31465,7 +31532,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          3,
+          1,
           1,
           0,
           0,
@@ -37262,73 +37329,6 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_Duel_Rewards_Assault;LPKG:NPCItemPKG_Duel_Rewards_Assault"
-      },
-      "LTG_NPC_Loot_FlavorShotgun_01": {
-        "TierGroup": "LTG_NPC_Loot_FlavorShotgun",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "NPCItemPKG_Loot_FlavorShotgun",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 2.0,
-          "Y": 2.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "Annotation": "TG:LTG_NPC_Loot_FlavorShotgun;LPKG:NPCItemPKG_Loot_FlavorShotgun"
       }
     }
   }
