@@ -653,6 +653,7 @@
     "LetoDescription": "Добавить/удалить игрока в режиме разделения экрана в текущем сеансе игры в редакторе",
     "DataValidationError": "Во время проверки данных возникла ошибка. См. подробности в журнале.",
     "ApplyValetRaisinTags": "Применить автоматически сгенерированные теги Valet Raisin (МЕДЛЕННО!)",
+    "Audio": "Аудио",
     "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
     "DynamicBRLevels": "Уровни Королевской битвы",
     "AssetsStillScanningError_ExportAvatars": "Невозможно экспортировать аватары, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
@@ -688,7 +689,7 @@
     "ExportItemShopTitle": "Экспортировать магазин предметов…",
     "ExportTemplatesTitleDA": "Шаблоны экспорта MCP [Поиск ресурсов]",
     "ExportTemplatesTitle": "Шаблоны экспорта MCP…",
-    "ExportAchievementTooltip": "Экспорт файлов достижений для PSN и Xbox Live.",
+    "ExportAchievementTooltip": "Экспорт файлов достижений для сетей PSN и Xbox.",
     "ExportAvatarsTooltip": "Экспортировать данные аватара в формате JSON для MCP.",
     "ExportKeyChainTooltip": "Экспорт ключей шифрования контента.",
     "ExportingAchievementsTask": "Экспорт достижений…",
@@ -846,8 +847,8 @@
     "MessageLog.Label": "Проверка раскрытого контента",
     "SavingActorForValidationTask": "Сохранение актора '{0}' для проверки…",
     "MessageLog.ValidationFailedWithErrors": "Возникли ошибки при проверке {0} {0}|plural(пакета,other=пакетов)!",
-    "MessageLog.ValidationPassedWithWarnings": "Проверка {0} {0}|plural(one=пакета,other=пакетов) завершена с предупреждениями!",
-    "MessageLog.ValidationPassed": "Проверка {0} {0}|plural(one=пакета,other=пакетов) завершена!"
+    "MessageLog.ValidationPassedWithWarnings": "Проверка {0} {0}|plural(one=пакета,few=пакетов,many=пакетов,other=пакетов) завершена с предупреждениями!",
+    "MessageLog.ValidationPassed": "Проверка {0} {0}|plural(one=пакета,few=пакетов,many=пакетов,other=пакетов) завершена!"
   },
   "FortGameFeatures": {
     "RootPluginList": "Добавить к корневым плагинам",
@@ -2794,6 +2795,7 @@
     "ContinueToLoad": "Продолжить загрузку",
     "ValkyrieOpenProject_ToolTip": "Создать новый проект или открыть существующий",
     "VkProjectSubMenuDebugSection": "Отладка",
+    "ValkyrieRevisionControlToggle_ToolTip": "Включить/отключить {0} контроль версий для каждого конкретного проекта",
     "ExportProjectLocalization.ErrorTitle": "Ошибка",
     "ExportProjectLocalization.Label": "Экспорт локализации",
     "FixValidationIssues.ActorOptions.Label": "Исправление ошибок при проверке",
@@ -2832,7 +2834,8 @@
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
     "ValkyrieProjectSize_Tooltip": "Посмотреть размер проекта с разбивкой по категориям",
-    "LiveEditWarningTitle": "Предупреждение"
+    "LiveEditWarningTitle": "Предупреждение",
+    "ValkyrieRevisionControlToggle": "{0} Контроль версий проекта"
   },
   "ValkyrieEditorPermissionSettings": {
     "MultiPluginProjectDenied": "У вас недостаточно прав доступа для создания проекта с несколькими плагинами"
@@ -2886,12 +2889,6 @@
   },
   "ValkyrieExperimentalSettingsDetailCustomization": {
     "ProjectSettings.ExperimentalSettings": "Учтите, что использование экспериментальных функций в проекте не позволит вам опубликовать его. При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\nРекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов, поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
-  },
-  "ValkyrieExperimentalSettingsManager": {
-    "ValkyrieExperimentalSettingsManager.ButtonDismiss": "Игнорировать",
-    "ValkyrieExperimentalSettingsManager.FirstPersonModeInBeta": "Режим с видом от первого лица в бета-версии!",
-    "ValkyrieExperimentalSettingsManager.FirstPersonModeDocumentaion": "Узнать подробнее о режиме с видом от первого лица",
-    "ValkyrieExperimentalSettingsManager.FirstPersonModePublishable": "Теперь вы можете публиковать острова, на которых используется это устройство."
   },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
@@ -3814,20 +3811,21 @@
     "AssetNamesBelow": "См. список ресурсов ниже"
   },
   "ValkyrieValidationFixer": {
-    "LoadAndFixAssets.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=ресурса,other=ресурсов)…",
-    "FixObjects.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,other=объектов)…",
-    "FixPackages.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=пакета,other=пакетов)…",
+    "LoadAndFixAssets.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=ресурса,few=ресурсов,many=ресурсов,other=ресурсов)…",
+    "FixObjects.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,few=объектов,many=объектов,other=объектов)…",
+    "FixPackages.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=пакета,few=пакетов,many=пакетов,other=пакетов)…",
     "FixObjects.SlowTaskProgress": "Обработка {0}…",
     "FixPackages.SlowTaskProgress": "Обработка {0}…",
     "LoadAndFixAssets.SlowTaskProgress": "Обработка {0}…",
     "Transaction.ResetToDefault": "Сброс настроек",
     "MessageLogCategory": "Исправление после проверки",
     "MessageLogPageTitle": "Исправление после проверки: {0}",
-    "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта(-ов) были автоматически обновлены,many=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
+    "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта были автоматически обновлены,many=объектов было автоматически обновлено,other=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
   },
   "ValkyrieValidator": {
     "MetaSoundValidationFail_PresetInvalidObject": "Ресурс, на который ссылается готовая настройка MetaSound, должен представлять собой допустимый объект",
     "Invalid Parent": "Ресурс {0} является дочерним ресурсом недопустимого класса {1}",
+    "VirtualizedDataValidate": "Содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "Properties.Fixer.NullObject": "Не удалось найти объект: {0}",
     "Properties.Fixer.NullPropertyValue": "Не удалось сбросить значение {0} на {1}",
     "Hard Reference": "Недопустимая жесткая ссылка с {0} на {1}",
@@ -3835,12 +3833,14 @@
     "Soft Reference": "Недопустимая мягкая ссылка с {0} на {1}",
     "MetaSoundValidationFail_NotPreset": "Ресурс MetaSound должен быть готовой настройкой",
     "MetaSoundValidationFail_NotPresetFromBuiltIn": "Готовую настройку MetaSound необходимо создать из встроенного графа MetaSound",
+    "VirtualizedDataNotify": "Один или более пакетных файлов содержат виртуальные данные и не работают в UEFN!",
     "MessageLogPageTitle": "Проверка проекта: {0}",
     "Properties.Fixer.ResetToDefault": "Сбросить свойство к значению по умолчанию",
     "Properties.Fixer.Transaction": "Сброс настроек",
     "Properties.Fixer.ResetValue": "Сбросить значение {0} на {1}",
     "WorldLimits.TooManyIslandSettings": "Уровень '{0}' содержит следующее количество устройств настройки острова: {1}. На уровне его не должно быть больше одного",
     "WorldLimits.NoIslandSettingsAllowed": "Уровень '{0}' помечен флагом как игровой набор и содержит следующее количество устройств настройки острова: {1}. Игровые наборы не должны содержать какие-либо",
+    "VirtualizedData": "содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData"
   },
@@ -4022,6 +4022,12 @@
   "VkSpeechNodeDetails": {
     "MessageName": "Сообщение",
     "Category": "Речь"
+  },
+  "VkTextureNodeDetails": {
+    "Category": "Текстура"
+  },
+  "VkTitleNodeDetails": {
+    "Category": "Имя говорящего"
   },
   "VSCodeNotFound": {
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",

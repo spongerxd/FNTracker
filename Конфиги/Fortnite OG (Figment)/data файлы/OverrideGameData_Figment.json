@@ -2303,10 +2303,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -2323,10 +2319,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -5663,11 +5655,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
+            "Value": 75.0
           },
           {
             "Time": 1.0,
-            "Value": 50.0
+            "Value": 75.0
           },
           {
             "Time": 2.0,
@@ -5687,11 +5679,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
+            "Value": 0.33
           },
           {
             "Time": 1.0,
-            "Value": 1.0
+            "Value": 0.33
           },
           {
             "Time": 2.0,
@@ -5711,11 +5703,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 25.1
+            "Value": 24.85
           },
           {
             "Time": 1.0,
-            "Value": 25.1
+            "Value": 24.85
           },
           {
             "Time": 2.0,
@@ -5735,6 +5727,14 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -5903,6 +5903,226 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.DanceGrenade.Duration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.DanceGrenade.SpeedMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.DanceGrenade.JumpMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.AddToZBeforeLaunch": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.AddToZBeforeLaunch.Vehicle": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 7.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.LaunchVelocity": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2500.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.LaunchVelocity.Vehicle": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 6.5
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.PhysicsPawnObjectImpulseMult": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.8
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.OnHitExplodeDelay": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.Radius": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 500.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.KnockGrenade.FriendlyFire": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
