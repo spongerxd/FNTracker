@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "SeasonPassData",
+    "Name": "SeasonPassData_S34",
+    "Class": "UScriptClass'SeasonPassData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Product": {
+        "TagName": "Product.BR"
+      },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "06AA0AD8453A5F00A600718174541F7B",
+        "SourceString": "Chapter 6 - Season 2",
+        "LocalizedString": "Сезон 2 главы 6"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "A2EC797A413E3C1D88DAE7B9B7429063",
+        "SourceString": "Battle Pass",
+        "LocalizedString": "Боевой пропуск"
+      },
+      "SeasonStorefront": "BRSeason34",
+      "SeasonPassOfferId": "39586D20442D358F200A2888BB5C72EC",
+      "SeasonPassBundleOfferId": "2127C1DE4192DD6C8BB64182BBC68F15",
+      "SeasonPassLevelOfferId": "D71ADE1F499453C23B918C9CA4EB10DC",
+      "SeasonPassLevelBundleOfferId": "0CB149274EF8E5A8C625D3ABB3CAE72F",
+      "LargeIcon": {
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_BattlePass.MI_UI_NexusHeaderIcon_BattlePass",
+        "SubPathString": ""
+      },
+      "SmallIcon": {
+        "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_BattlePass.MI_UI_SideNavIcon_BattlePass",
+        "SubPathString": ""
+      },
+      "BuyPassButtonName": {
+        "Namespace": "",
+        "Key": "86DC27DF45B4EC64028E76A5A1059641",
+        "SourceString": "Get Battle Pass",
+        "LocalizedString": "Получить пропуск"
+      },
+      "ThemeData": {
+        "SeasonColor": {
+          "R": 0.042013,
+          "G": 0.660146,
+          "B": 0.89627,
+          "A": 1.0,
+          "Hex": "3AD5F3"
+        },
+        "ProgressionColor": {
+          "R": 1.0,
+          "G": 0.025352,
+          "B": 0.379046,
+          "A": 1.0,
+          "Hex": "FF2CA6"
+        },
+        "VaultBackgroundMaterial": {
+          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_BG_Nexus_CH6S2.MI_BG_Nexus_CH6S2",
+          "SubPathString": ""
+        },
+        "UIBackgroundMaterial": {
+          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_BG_Nexus_CH6S2_UI.MI_BG_Nexus_CH6S2_UI",
+          "SubPathString": ""
+        },
+        "UpsellBackgroundMaterial": {
+          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6S2.MI_UI_Crew_Upsell_CH6S2",
+          "SubPathString": ""
+        },
+        "CrewCategoryBackgroundMaterial": {
+          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_UI_S34_CategoryButton_BattlePassRewards.MI_UI_S34_CategoryButton_BattlePassRewards",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

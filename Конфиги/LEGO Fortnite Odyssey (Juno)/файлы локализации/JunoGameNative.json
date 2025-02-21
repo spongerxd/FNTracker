@@ -24,6 +24,7 @@
   },
   "JunoPlayerPersistenceHandler": {
     "PlayerCheckpointHandlerReinitializationNotAllowedErrorMessage": "Попытка инициализировать состояние игрока после завершённой инициализации",
+    "InvalidPlayerPersistenceStorageErrorMessage": "Некорректное хранилище сохранений игрока",
     "PlayerCheckpointHandlerCreationFailedErrorMessage": "Не удалось создать обработчик контрольной точки"
   },
   "JunoPlayerPersistenceManager": {
@@ -31,7 +32,8 @@
     "DuplicatePlayerPersistenceInitializationErrorMessage": "Многократные попытки инициализации состояния игрока",
     "InitializePlayerPersistenceWithInvalidIdErrorMessage": "Попытка инициализировать состояние игрока с неверным идентификатором игрока",
     "StalePlayerPersistenceHandlerErrorMessage": "Устаревший обработчик состояния игрока после завершения инициализации",
-    "UnableToCreatePlayerPersistenceErrorMessage": "Не удалось создать обработчик состояния игрока"
+    "UnableToCreatePlayerPersistenceErrorMessage": "Не удалось создать обработчик состояния игрока",
+    "InvalidPlayerPersistenceStorageErrorMessage": "Не удалось извлечь корректное хранилище сохранений"
   },
   "JunoStorageChest": {
     "Open": "Открыть",

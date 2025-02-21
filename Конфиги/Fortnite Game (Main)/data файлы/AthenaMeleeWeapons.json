@@ -44,13 +44,22 @@
         "RngMid": 0.0,
         "RngLong": 0.0,
         "RngMax": 0.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.05,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.05,
         "SurfaceRatioRowName": "AthenaMeleeHarvest",
@@ -70,13 +79,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "Default_Melee",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -102,7 +114,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 0.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -145,13 +160,22 @@
         "RngMid": 0.0,
         "RngLong": 0.0,
         "RngMax": 0.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.05,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.05,
         "SurfaceRatioRowName": "AthenaMeleeHarvest",
@@ -171,13 +195,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "Default_Melee",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -203,7 +230,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 0.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -246,13 +276,22 @@
         "RngMid": 0.0,
         "RngLong": 0.0,
         "RngMax": 0.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.05,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.05,
         "SurfaceRatioRowName": "AthenaMeleeHarvest",
@@ -272,13 +311,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "Default_Melee",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -304,7 +346,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 0.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -347,13 +392,22 @@
         "RngMid": 0.0,
         "RngLong": 0.0,
         "RngMax": 0.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.05,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.05,
         "SurfaceRatioRowName": "AthenaMeleeHarvest",
@@ -373,13 +427,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "Default_Melee",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -405,7 +462,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 0.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -448,13 +508,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -474,13 +543,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -506,7 +578,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -549,13 +624,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -575,13 +659,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -607,7 +694,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -650,13 +740,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -676,13 +775,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -708,7 +810,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -751,13 +856,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -777,13 +891,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -809,7 +926,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -852,13 +972,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -878,13 +1007,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -910,7 +1042,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,

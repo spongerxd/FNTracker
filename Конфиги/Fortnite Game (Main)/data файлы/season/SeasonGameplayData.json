@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BRSeasonGameplayData",
+    "Name": "SeasonGameplayData_S34",
+    "Class": "UScriptClass'BRSeasonGameplayData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SeasonDataTables": [
+        {
+          "Key": {
+            "TagName": "Conversation.Table.NPC.Services"
+          },
+          "Value": {
+            "ObjectName": "DataTable'NPCServices_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/NPCServices_S34.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Conversation.Table.NPC.Sales"
+          },
+          "Value": {
+            "ObjectName": "DataTable'NPCSales_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/NPCSales_S34.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.VendingMachine.GiftItems"
+          },
+          "Value": {
+            "ObjectName": "DataTable'Station_GiftItems'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/Station_GiftItems.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.VendingMachine.Gifts"
+          },
+          "Value": {
+            "ObjectName": "DataTable'Station_Gifts'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/Station_Gifts.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.VendingMachine.StationServices"
+          },
+          "Value": {
+            "ObjectName": "DataTable'StationServices_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/StationServices_S34.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.VendingMachine.StationSales"
+          },
+          "Value": {
+            "ObjectName": "DataTable'StationSales_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/StationSales_S34.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.PricingKeyRemapping"
+          },
+          "Value": {
+            "ObjectName": "DataTable'NPCPricingKeyRemaps_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/NPCPricingKeyRemaps_S34.0"
+          }
+        }
+      ],
+      "SeasonDataAssets": [
+        {
+          "Key": {
+            "TagName": "Tandem.Data.VendingMachine.GiftTypeDefinitions"
+          },
+          "Value": {
+            "ObjectName": "FortConversationGiftTypeDefinitions'Station_GiftTypeDefinitions'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/Station_GiftTypeDefinitions.1"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Tandem.Data.ConditionalBenefits"
+          },
+          "Value": {
+            "ObjectName": "FortConditionalBenefitsConfigCollection'NPCReputationBenefits_S34'",
+            "ObjectPath": "/BattlePassS34_Quests/DataTables/NPCReputationBenefits_S34.0"
+          }
+        }
+      ],
+      "PlayerAugmentDefinition": {
+        "ObjectName": "FortPlayerAugmentsAccountItemDefinition'MusterPlayerAugmentsAccountItemDefinition'",
+        "ObjectPath": "/Game/Athena/PersistenceItems/MusterPlayerAugmentsAccountItemDefinition.0"
+      }
+    }
+  }
+]

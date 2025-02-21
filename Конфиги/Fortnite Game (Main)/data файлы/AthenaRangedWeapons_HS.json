@@ -118,6 +118,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -237,13 +238,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -263,13 +273,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -295,7 +308,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -412,6 +428,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -531,13 +548,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -557,13 +583,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -589,7 +618,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -706,6 +738,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -825,13 +858,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -851,13 +893,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -883,7 +928,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -1000,6 +1048,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -1119,13 +1168,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -1145,13 +1203,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -1177,7 +1238,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -1294,6 +1358,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -1413,13 +1478,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -1439,13 +1513,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -1471,7 +1548,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -1588,6 +1668,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -1707,13 +1788,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -1733,13 +1823,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -1765,7 +1858,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -1882,6 +1978,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -1986,13 +2083,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -2012,13 +2118,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -2044,7 +2153,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -2161,6 +2273,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -2265,13 +2378,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -2291,13 +2413,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -2323,7 +2448,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -2440,6 +2568,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -2544,13 +2673,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -2570,13 +2708,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -2602,7 +2743,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -2719,6 +2863,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -2823,13 +2968,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -2849,13 +3003,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -2881,7 +3038,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -2998,6 +3158,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -3102,13 +3263,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -3128,13 +3298,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -3160,7 +3333,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -3277,6 +3453,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -3381,13 +3558,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -3407,13 +3593,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -3439,7 +3628,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -3556,6 +3748,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -3665,13 +3858,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -3691,13 +3893,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -3723,7 +3928,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -3840,6 +4048,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -3949,13 +4158,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -3975,13 +4193,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -4007,7 +4228,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -4124,6 +4348,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -4233,13 +4458,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -4259,13 +4493,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -4291,7 +4528,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -4408,6 +4648,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -4517,13 +4758,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -4543,13 +4793,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -4575,7 +4828,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -4692,6 +4948,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -4801,13 +5058,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -4827,13 +5093,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -4859,7 +5128,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -4976,6 +5248,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -5085,13 +5358,22 @@
         "RngMid": 7500.0,
         "RngLong": 10000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -5111,13 +5393,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -5143,7 +5428,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -5260,6 +5548,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -5528,13 +5817,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -5554,13 +5852,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -5586,7 +5887,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -5703,6 +6007,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -5971,13 +6276,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -5997,13 +6311,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -6029,7 +6346,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -6146,6 +6466,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -6414,13 +6735,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -6440,13 +6770,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -6472,7 +6805,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -6589,6 +6925,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -6857,13 +7194,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -6883,13 +7229,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -6915,7 +7264,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -7032,6 +7384,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -7300,13 +7653,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -7326,13 +7688,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -7358,7 +7723,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -7475,6 +7843,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -7743,13 +8112,22 @@
         "RngMid": 6500.0,
         "RngLong": 8000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -7769,13 +8147,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -7801,7 +8182,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -7918,6 +8302,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -8102,13 +8487,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -8128,13 +8522,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -8160,7 +8557,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -8277,6 +8677,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -8461,13 +8862,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -8487,13 +8897,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -8519,7 +8932,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -8636,6 +9052,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -8820,13 +9237,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -8846,13 +9272,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -8878,7 +9307,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -8995,6 +9427,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -9179,13 +9612,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -9205,13 +9647,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -9237,7 +9682,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -9354,6 +9802,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -9538,13 +9987,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -9564,13 +10022,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -9596,7 +10057,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -9713,6 +10177,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -9897,13 +10362,22 @@
         "RngMid": 3000.0,
         "RngLong": 4000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -9923,13 +10397,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -9955,7 +10432,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -10072,6 +10552,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -10168,13 +10649,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -10194,13 +10684,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -10226,7 +10719,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -10343,6 +10839,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -10439,13 +10936,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -10465,13 +10971,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -10497,7 +11006,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -10614,6 +11126,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -10710,13 +11223,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -10736,13 +11258,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -10768,7 +11293,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -10885,6 +11413,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -10981,13 +11510,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -11007,13 +11545,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -11039,7 +11580,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -11156,6 +11700,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -11252,13 +11797,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -11278,13 +11832,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -11310,7 +11867,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -11427,6 +11987,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -11523,13 +12084,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -11549,13 +12119,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -11581,7 +12154,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -11698,6 +12274,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -11794,13 +12371,22 @@
         "RngMid": 4750.0,
         "RngLong": 7000.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -11820,13 +12406,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -11852,7 +12441,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -11969,6 +12561,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -11998,13 +12591,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -12024,13 +12626,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -12056,7 +12661,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -12173,6 +12781,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -12202,13 +12811,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -12228,13 +12846,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -12260,7 +12881,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -12377,6 +13001,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -12406,13 +13031,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -12432,13 +13066,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -12464,7 +13101,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -12581,6 +13221,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -12610,13 +13251,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -12636,13 +13286,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -12668,7 +13321,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -12785,6 +13441,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -12814,13 +13471,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -12840,13 +13506,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -12872,7 +13541,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -12989,6 +13661,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -13018,13 +13691,22 @@
         "RngMid": 1400.0,
         "RngLong": 2000.0,
         "RngMax": 3100.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -13044,13 +13726,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -13076,7 +13761,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -13193,6 +13881,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -13222,13 +13911,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -13248,13 +13946,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -13280,7 +13981,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -13397,6 +14101,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -13426,13 +14131,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -13452,13 +14166,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -13484,7 +14201,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -13601,6 +14321,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -13630,13 +14351,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -13656,13 +14386,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -13688,7 +14421,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -13805,6 +14541,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -13834,13 +14571,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -13860,13 +14606,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -13892,7 +14641,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -14009,6 +14761,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -14038,13 +14791,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -14064,13 +14826,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -14096,7 +14861,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -14213,6 +14981,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -14242,13 +15011,22 @@
         "RngMid": 2000.0,
         "RngLong": 3500.0,
         "RngMax": 5000.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -14268,13 +15046,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -14300,7 +15081,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 1.25,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -14417,6 +15201,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -14446,13 +15231,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -14472,13 +15266,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -14504,7 +15301,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -14621,6 +15421,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -14650,13 +15451,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -14676,13 +15486,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -14708,7 +15521,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -14825,6 +15641,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -14854,13 +15671,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -14880,13 +15706,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -14912,7 +15741,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -15029,6 +15861,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -15058,13 +15891,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -15084,13 +15926,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -15116,7 +15961,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -15233,6 +16081,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -15262,13 +16111,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -15288,13 +16146,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -15320,7 +16181,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,
@@ -15437,6 +16301,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
@@ -15466,13 +16331,22 @@
         "RngMid": 1.0,
         "RngLong": 1.0,
         "RngMax": 27500.0,
-        "DmgScaleTable": null,
+        "DmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DmgScaleTableRow": "None",
         "DmgScale": 0.0,
-        "EnvDmgScaleTable": null,
+        "EnvDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EnvDmgScaleTableRow": "None",
         "EnvDmgScale": 0.0,
-        "ImpactDmgScaleTable": null,
+        "ImpactDmgScaleTable": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "ImpactDmgScaleTableRow": "None",
         "ImpactDmgScale": 0.0,
         "SurfaceRatioRowName": "AllWithFriendlyFire",
@@ -15492,13 +16366,16 @@
         "StunTime": 0.0,
         "StunScale": 0.0,
         "Durability": {
-          "ObjectName": "DataTable'WeaponDurabilityRarity'",
-          "ObjectPath": "/Game/Items/Datatables/WeaponDurabilityRarity.0"
+          "AssetPathName": "/Game/Items/Datatables/WeaponDurabilityRarity.WeaponDurabilityRarity",
+          "SubPathString": ""
         },
         "DurabilityRowName": "TrapDurability_Infinite",
         "DurabilityScale": 0.0,
         "DurabilityPerUse": 0.0,
-        "DurabilityCooldown": null,
+        "DurabilityCooldown": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "DurabilityCooldownRowName": "None",
         "DurabilityCooldownScale": 0.0,
         "FullChargeDurabilityPerUse": 0.0,
@@ -15524,7 +16401,10 @@
         "MaxChargeTimeUntilDischarge": 0.0,
         "MinChargeDamageMultiplier": 1.0,
         "MaxChargeDamageMultiplier": 1.0,
-        "ChargeDamageMultiplierCurve": null,
+        "ChargeDamageMultiplierCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "EquipAnimRate": 1.0,
         "QuickBarSlotCooldownDuration": 0.0,
         "AimAssistPullStrengthMultiplier": 1.0,

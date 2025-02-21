@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "FortCosmeticItemMarkupTable",
+    "Name": "CosmeticMarkupTable",
+    "Class": "UScriptClass'FortCosmeticItemMarkupTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SetDescriptions": [
+        {
+          "ObjectName": "DataTable'CosmeticSets'",
+          "ObjectPath": "/Game/Athena/Items/Cosmetics/Metadata/CosmeticSets.0"
+        }
+      ],
+      "MarkupTagDescriptions": [
+        {
+          "ObjectName": "DataTable'CosmeticUserFacingTags'",
+          "ObjectPath": "/Game/Athena/Items/Cosmetics/Metadata/CosmeticUserFacingTags.0"
+        }
+      ]
+    }
+  }
+]

@@ -133,6 +133,56 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_40",
+                  "SourceString": "Masked Motorway Bank",
+                  "LocalizedString": "Банк Мотоклуба масочника"
+                },
+                "WorldLocation": {
+                  "X": 10827.179,
+                  "Y": 80628.3,
+                  "Z": 4152.1436
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.40"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_46",
+                  "SourceString": "The Great Turtle",
+                  "LocalizedString": "Большая черепаха"
+                },
+                "WorldLocation": {
+                  "X": 81989.0,
+                  "Y": 100025.0,
+                  "Z": -812.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.46"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_03",
                   "SourceString": "BURD To Go",
                   "LocalizedString": "Мини-заправка BURD"
@@ -262,6 +312,31 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_41",
+                  "SourceString": "Predator Peak",
+                  "LocalizedString": "Хищный холм"
+                },
+                "WorldLocation": {
+                  "X": -54370.656,
+                  "Y": 40928.176,
+                  "Z": 11411.996
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.41"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_POI_Generic_04",
                   "SourceString": "CANYON CROSSING",
                   "LocalizedString": "МОГУЧИЕ МОСТЫ"
@@ -285,6 +360,31 @@
                 "ActiveDiscoverableBlodIds": [
                   40
                 ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_38",
+                  "SourceString": "Crime City Bank",
+                  "LocalizedString": "Банк Криминограда"
+                },
+                "WorldLocation": {
+                  "X": -53001.652,
+                  "Y": 20135.723,
+                  "Z": 5171.2734
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.38"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
               },
               {
                 "Text": {
@@ -443,33 +543,6 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_POI_Generic_12",
-                  "SourceString": "TWINKLE TERRACE",
-                  "LocalizedString": "ГОРОД ГИРЛЯНД"
-                },
-                "WorldLocation": {
-                  "X": -83173.0,
-                  "Y": -26970.0,
-                  "Z": 4432.0
-                },
-                "LocationTag": {
-                  "TagName": "Athena.Location.POI.Generic.12"
-                },
-                "CalendarEventsRequired": [],
-                "DiscoveryQuestPrimaryAssetId": {
-                  "PrimaryAssetType": {
-                    "Name": "Quest"
-                  },
-                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
-                },
-                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_LanternTown",
-                "ActiveDiscoverableBlodIds": [
-                  35
-                ]
-              },
-              {
-                "Text": {
-                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_24",
                   "SourceString": "Pumpin' Pipes",
                   "LocalizedString": "Тёплый трубопровод"
@@ -481,31 +554,6 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.Landmark.24"
-                },
-                "CalendarEventsRequired": [],
-                "DiscoveryQuestPrimaryAssetId": {
-                  "PrimaryAssetType": {
-                    "Name": "None"
-                  },
-                  "PrimaryAssetName": "None"
-                },
-                "DiscoverObjectiveBackendName": "None",
-                "ActiveDiscoverableBlodIds": []
-              },
-              {
-                "Text": {
-                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_02",
-                  "SourceString": "Battle's End",
-                  "LocalizedString": "Поле победы"
-                },
-                "WorldLocation": {
-                  "X": -66619.59,
-                  "Y": 12582.449,
-                  "Z": -812.0
-                },
-                "LocationTag": {
-                  "TagName": "Athena.Location.UnNamedPOI.Landmark.02"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -597,27 +645,29 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_37",
-                  "SourceString": "Sakura Plunge",
-                  "LocalizedString": "Сад сакур"
+                  "Key": "NameForLocation_Athena_Location_POI_Generic_19",
+                  "SourceString": "Crime City",
+                  "LocalizedString": "Криминоград"
                 },
                 "WorldLocation": {
-                  "X": -70208.7,
-                  "Y": -11012.834,
-                  "Z": 3284.0
+                  "X": -54923.0,
+                  "Y": 13200.0,
+                  "Z": 4432.0
                 },
                 "LocationTag": {
-                  "TagName": "Athena.Location.UnNamedPOI.Landmark.37"
+                  "TagName": "Athena.Location.POI.Generic.19"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
                   "PrimaryAssetType": {
-                    "Name": "None"
+                    "Name": "Quest"
                   },
-                  "PrimaryAssetName": "None"
+                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
                 },
-                "DiscoverObjectiveBackendName": "None",
-                "ActiveDiscoverableBlodIds": []
+                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_CrimeTown",
+                "ActiveDiscoverableBlodIds": [
+                  65
+                ]
               },
               {
                 "Text": {
@@ -673,8 +723,8 @@
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_POI_Generic_EE_02",
-                  "SourceString": "SHATTERED SPAN",
-                  "LocalizedString": "МРАЧНЫЙ МОСТ"
+                  "SourceString": "SHINING SPAN",
+                  "LocalizedString": "МОДНЫЙ МОСТ"
                 },
                 "WorldLocation": {
                   "X": 89518.0,
@@ -749,6 +799,31 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_45",
+                  "SourceString": "Boom Hole Black Market",
+                  "LocalizedString": "Чёрный рынок Взрывной воронки"
+                },
+                "WorldLocation": {
+                  "X": -52386.79,
+                  "Y": -3658.101,
+                  "Z": 5822.591
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.45"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_03",
                   "SourceString": "Yōkina Boardwalk",
                   "LocalizedString": "Комплекс «Кокаё»"
@@ -773,37 +848,7 @@
               },
               {
                 "Text": {
-                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_POI_Generic_05",
-                  "SourceString": "WARRIOR'S WATCH",
-                  "LocalizedString": "ВОТЧИНА ВОИНА"
-                },
-                "WorldLocation": {
-                  "X": -49672.0,
-                  "Y": 27494.0,
-                  "Z": 4432.0
-                },
-                "LocationTag": {
-                  "TagName": "Athena.Location.POI.Generic.05"
-                },
-                "CalendarEventsRequired": [],
-                "DiscoveryQuestPrimaryAssetId": {
-                  "PrimaryAssetType": {
-                    "Name": "Quest"
-                  },
-                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
-                },
-                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_Castle",
-                "ActiveDiscoverableBlodIds": [
-                  65
-                ]
-              },
-              {
-                "Text": {
-                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_POI_Generic_13",
-                  "SourceString": "BURD",
-                  "LocalizedString": "Заправка BURD"
+                  "CultureInvariantString": null
                 },
                 "WorldLocation": {
                   "X": -90402.0,
@@ -878,6 +923,33 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_POI_Generic_22",
+                  "SourceString": "Lonewolf Lair",
+                  "LocalizedString": "Лунное логово"
+                },
+                "WorldLocation": {
+                  "X": -29803.0,
+                  "Y": -47424.0,
+                  "Z": 4432.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.Generic.22"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_BaronsMansion",
+                "ActiveDiscoverableBlodIds": [
+                  75
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_31",
                   "SourceString": "Base Tunnel",
                   "LocalizedString": "Типичный тоннель"
@@ -914,6 +986,31 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.Landmark.16"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_39",
+                  "SourceString": "Seaport City Bank",
+                  "LocalizedString": "Банк Квартала Камуро"
+                },
+                "WorldLocation": {
+                  "X": 48553.31,
+                  "Y": 11609.482,
+                  "Z": 976.19824
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.39"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -1001,33 +1098,6 @@
                 },
                 "DiscoverObjectiveBackendName": "None",
                 "ActiveDiscoverableBlodIds": []
-              },
-              {
-                "Text": {
-                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_POI_Generic_14",
-                  "SourceString": "NIGHTSHIFT FOREST",
-                  "LocalizedString": "ПОЛУНОЧНОЕ ПРОЛЕСЬЕ"
-                },
-                "WorldLocation": {
-                  "X": -82555.0,
-                  "Y": 7074.0,
-                  "Z": 4432.0
-                },
-                "LocationTag": {
-                  "TagName": "Athena.Location.POI.Generic.14"
-                },
-                "CalendarEventsRequired": [],
-                "DiscoveryQuestPrimaryAssetId": {
-                  "PrimaryAssetType": {
-                    "Name": "Quest"
-                  },
-                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
-                },
-                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_NightForest",
-                "ActiveDiscoverableBlodIds": [
-                  20
-                ]
               },
               {
                 "Text": {
@@ -1163,6 +1233,33 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_POI_Generic_20",
+                  "SourceString": "Outlaw Oasis",
+                  "LocalizedString": "Рай разбойников"
+                },
+                "WorldLocation": {
+                  "X": -98107.0,
+                  "Y": 11680.0,
+                  "Z": 4432.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.Generic.20"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_HotSpringHotel",
+                "ActiveDiscoverableBlodIds": [
+                  20
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_02",
                   "SourceString": "BURD To Go",
                   "LocalizedString": "Мини-заправка BURD"
@@ -1174,6 +1271,31 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.GasStation.02"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_43",
+                  "SourceString": "Rouge Repairs Black Market",
+                  "LocalizedString": "Чёрный рынок Стильного салона"
+                },
+                "WorldLocation": {
+                  "X": 36782.0,
+                  "Y": 50369.234,
+                  "Z": 2097.747
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.43"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -1224,6 +1346,31 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.Landmark.05"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_42",
+                  "SourceString": "Predator Peak Overlook",
+                  "LocalizedString": "Смотровая площадка на Хищном холме"
+                },
+                "WorldLocation": {
+                  "X": -71255.875,
+                  "Y": 8149.7676,
+                  "Z": 6216.038
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.42"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -1544,17 +1691,17 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_POI_Generic_15",
-                  "SourceString": "LOST LAKE",
-                  "LocalizedString": "ОЗЕРО ОТРАЖЕНИЙ"
+                  "Key": "NameForLocation_Athena_Location_POI_Generic_21",
+                  "SourceString": "Shiny Shafts",
+                  "LocalizedString": "Шикарные шахты"
                 },
                 "WorldLocation": {
-                  "X": -29552.0,
-                  "Y": -42878.0,
+                  "X": -79387.0,
+                  "Y": -20064.0,
                   "Z": 4432.0
                 },
                 "LocationTag": {
-                  "TagName": "Athena.Location.POI.Generic.15"
+                  "TagName": "Athena.Location.POI.Generic.21"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -1563,10 +1710,35 @@
                   },
                   "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
                 },
-                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_OldWaterTown",
+                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_GoldMine",
                 "ActiveDiscoverableBlodIds": [
-                  75
+                  35
                 ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_44",
+                  "SourceString": "Backwoods Black Market",
+                  "LocalizedString": "Чёрный рынок Далёких дебрей"
+                },
+                "WorldLocation": {
+                  "X": 10625.104,
+                  "Y": -63619.13,
+                  "Z": 2040.2238
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.44"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
               }
             ]
           }
@@ -3016,7 +3188,7 @@
                   "LocalizedString": "Засаленная закусочная"
                 },
                 "WorldLocation": {
-                  "X": 2048.0,
+                  "X": 4548.0,
                   "Y": -96512.0,
                   "Z": -1848.0
                 },
@@ -3448,7 +3620,7 @@
                   "LocalizedString": "Шаткие шахты"
                 },
                 "WorldLocation": {
-                  "X": 196.0,
+                  "X": -2304.0,
                   "Y": -61728.0,
                   "Z": -1848.0
                 },

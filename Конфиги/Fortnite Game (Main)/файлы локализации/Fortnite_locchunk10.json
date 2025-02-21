@@ -24,9 +24,38 @@
     "8D56ED064BDBC9A9CA7519AAF3E0F472": "<Emphasized>Урон от кирки</> возрастает при <Emphasized>каждом попадании</> по врагам",
     "F098D2D04AC64FEAABFAD4A9370613CE": "Ваш персонаж <Emphasized>меньше вздрагивает</> при получении урона",
     "DDA8D03F4DEA0238335DC484544906BD": "Противники постоянно получают <Emphasized>информацию о вашем местоположении</>",
+    "14EB69E8451CFA3720025789DCD5057F": "<TeamKiller>{ConfirmingPlayer}</> может подлечить игрока {MarkerOwner}",
+    "72DA0B3C4DDD24840AC09EBB31DD1269": "<TeamKiller>{ConfirmingPlayer}</> может дать крупнокалиберные патроны игроку {MarkerOwner}",
+    "5FBDF1AE4CAE8BAF32749EA7C9461800": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} малокалиберные патроны",
+    "3337037F4AC29CE302F7E18449270106": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} среднекалиберные патроны",
+    "5402A5F6466452B1EA2374A9ECB98CC2": "<TeamKiller>{ConfirmingPlayer}</> может дать металл игроку {MarkerOwner}",
+    "0A32C1104455530F9F53F3B0A91F2D0B": "<TeamKiller>{ConfirmingPlayer}</> может дать ракеты игроку {MarkerOwner}",
+    "21501ABC458E1A6C312E308EB1B28672": "<TeamKiller>{ConfirmingPlayer}</> может дать охотничьи патроны игроку {MarkerOwner}",
+    "13F327E84249D18148C103AEB1052CAF": "<TeamKiller>{ConfirmingPlayer}</> может дать камень игроку {MarkerOwner}",
+    "D51B7B4948CA9680794F69BDD9606610": "<TeamKiller>{ConfirmingPlayer}</> может дать древесину игроку {MarkerOwner}",
+    "A6ECB4B043D47477AC2611B8BC49EFDB": "<TeamKiller>{ConfirmingPlayer}</> спешит на помощь игроку {MarkerOwner}",
+    "5A5F96FF49E2D091393AEC90F11E6F79": "<TeamKiller>{PlayerName}</> подтверждает место атаки, которое указывает {MarkerOwner}",
+    "9F1ADCC84CAACE9179C392821E4142B9": "<TeamKiller>{PlayerName}</> предлагает игроку {MarkerOwner} проехаться",
+    "B51E846243739177C4159D8DB4317994": "<TeamKiller>{PlayerName}</> отмечает место назначения",
+    "973E45B544F52AC70001A399716836ED": "<TeamKiller>{PlayerName}</> указывает место <red>атаки</>",
+    "1ADF8C6E4219CE80298818B3277A6C76": "<TeamKiller>{PlayerName}</> призывает <red>отступить</>!",
+    "A741863B4DA85D6AA8D995BE4E373C39": "<TeamKiller>{PlayerName}</> сообщает, что <red>тут кто-то был</>",
+    "03FCCF0B4EC53B3F08FAF9A9AB1E20F5": "<TeamKiller>{PlayerName}</> собирается присоединиться к игроку {MarkerOwner}",
+    "D127C33E45859EE70C98E39F92F5330E": "<TeamKiller>{PlayerName}</> просит о <blue>помощи</>",
+    "C821633E410822F1AEE947A1DABFDAF9": "<TeamKiller>{PlayerName}</> хочет <green>подлечиться</>",
+    "5DBABCEC4C17F8FFE062319672AEFF23": "<TeamKiller>{PlayerName}</> ищет транспорт",
+    "0ED15AF3454AD084CC29E886DE0310A7": "<TeamKiller>{PlayerName}</> просит крупнокалиберные патроны",
+    "300EEA27439994BFD373FC80B84E842F": "<TeamKiller>{PlayerName}</> просит малокалиберные патроны",
+    "6AE6F5B447A4455B4FA0B7B4F570EA5E": "<TeamKiller>{PlayerName}</> просит среднекалиберные патроны",
+    "E724DB754D5330A514922BA6216A80B5": "<TeamKiller>{PlayerName}</> просит металл",
+    "8657D46D44F9DB1BE731109003357C85": "<TeamKiller>{PlayerName}</> просит ракеты",
+    "7BCCD91545F4134B69E3049C4C30772E": "<TeamKiller>{PlayerName}</> просит охотничьи патроны",
+    "10E7D290415923EA6A984FB6D534D7D6": "<TeamKiller>{PlayerName}</> просит камень",
+    "0CD79A7142058339A75B418245AD317D": "<TeamKiller>{PlayerName}</> просит древесину",
     "231AF36049841BCCCB72619C0346D63B": "Стиль Глюка",
     "31CD900F4FA8D77724E2058309069ADF": "Клинок с дополнительной мощной атакой в прыжке.",
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Клинок с дополнительной мощной атакой в прыжке.",
+    "5CA4C768442DACE154F650919AEBF7CC": "Веселье на полную катушку. Чтобы активировать, подпрыгните, находясь в воздухе.",
     "62060089487721326B23BBA33709B481": "Веселье на полную катушку. Чтобы активировать, подпрыгните, находясь в воздухе.",
     "C9915DA648EFCD8E2185FD816CDBBAA2": "Веселье на полную катушку. Чтобы активировать, подпрыгните, находясь в воздухе.",
     "E3CC934341A94BE69FC6B09CFA0692FB": "Веселье на полную катушку. Чтобы активировать, подпрыгните, находясь в воздухе.",
@@ -48,6 +77,7 @@
     "FC7458584E93A2CCE3222B9CB21FFF51": "Жетон за полученное достижение",
     "647B590E4A6D893A4E58DB921F805840": "Активность",
     "9FEF179645D8A343518563AEFE302A2A": "Активность",
+    "6C51924A4C22709445F1668C1CBC44FA": "Добавьте к предмету (вроде гранаты-обманки), чтобы мы знали, что для него нужно создать навигационную сетку в проекте UEFN.",
     "1D013DBE46F3ED9DB75A63B9A80CA751": "Дополнительные задания Заражённого Ронина.",
     "C0AD274548543104E8F3ABB507431A91": "Дополнительные задания для набора «Тайны хранителя»",
     "916DE7F248E76BE44BE7559B52C8814B": "Дополнительные испытания для набора заданий «Ядовитые клыки»",
@@ -206,7 +236,6 @@
     "0A9381554E499FD10B15438EDCFD41B0": "Супербольшая бочка",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Биплан",
     "5B5236944941BFD7DE82B8B05FE11D94": "Биплан",
-    "DF56207843F6244003548CA79CFAA0F4": "Биплан",
     "AD9DF9A2455C274907AE29971466ADBA": "Блэйд",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Блэйд",
     "7641CC0743ADBB2B2B04ED9883DD8214": "Украшение",
@@ -219,6 +248,7 @@
     "1AA9AB014D937FFA56E28D93AE330484": "Прыжковый ускоритель",
     "219647494F4BA404D31755B9FB3B0F7C": "Прыжковый ускоритель",
     "32E5EFAA40F4FB2EA9C968B7003FF7E5": "Прыжковый ускоритель",
+    "6C10D462407A599C6133C48FDDAD2E16": "Прыжковый ускоритель",
     "1173101B499715638D94D7A76BA852F6": "Бутылочная ракета",
     "F008BC9741473EF16B7DDD96C977E321": "Подбрасывает игроков в сторону, в которую направлена ловушка.  Ловушки должны быть прикреплены к подходящему элементу строения.",
     "25BECD6E4D71E9FE2E4D60A1CDB22CE1": "Награда",
@@ -1091,6 +1121,7 @@
     "C8074EE14AC9A4E1D5B5AF8809072D41": "НАБОР ОСНОВАТЕЛЯ 4",
     "D3FB59734B08E81911D0A19A44AE4ACA": "НАБОР ОСНОВАТЕЛЯ 5",
     "F0CE215A4C43A35A4F9FAA975385DD4B": "Устройство «Ткань»",
+    "06008C0946E45C609F2F8BA89B94AE05": "Отступаем!",
     "Filter Friends Hint": "Фильтр",
     "FilterList": "Отфильтровать список",
     "04B9B92F4F72E0530969FAA3713B380E": "Ну и, наконец, хранитель должен защищать храм от непрошенных гостей.",
@@ -1162,7 +1193,7 @@
     "E0A7D8494FDD59B9719B639C9A2F4FC6": "Игровая функция Fortnite (с кодом)",
     "1AB37EA64A1C7061DB8B6C92915E95A8": "Глава 2 Fortnite: «Ремикс»",
     "5FA09E37434E8B8FA4B4D494E65D80D9": "Плагин корневой игровой функции Fortnite.",
-    "C4228E304A1E5D6FF266A5A25671C9BA": "Fortnite «Линия огня»",
+    "BF3721FB4415FF394E9A33B9BAC74CDB": "Fortnite «Линия огня»",
     "CB572F8C4A66B67E2E064FBDAB06C068": "Fortnite: «Как раньше»",
     "2CB1797942F961B6ED6C68A7091888F1": "Значок за испытание «Fortnite: кошмары»",
     "30E33C724420C42AFE94899DD58721F9": "Вперёд",
@@ -1216,6 +1247,7 @@
     "3EE66B45445529688679ECA705E465CD": "Значок за первый этап испытания «Галилео»",
     "EB0D224A42376A7E5CE1F59DEF264700": "Значок за второй этап испытания «Галилео»",
     "8E59C6C24CF0E3A29AEFF39469F1D1B5": "Значок за третий этап испытания «Галилео»",
+    "AABA721F494384FA4BB400B577A3D77E": "Экспериментальная поддержка общей физики",
     "813C217146D9D093654CB2B70AC8F306": "Получите фору в следующем сезоне с помощью усилителя опыта за матч.\r\nБудет использован автоматически в начале следующего сезона.",
     "CE7AD16A48F6051FE29990BCA62C7659": "Получите фору в следующем сезоне с помощью этих бесплатных уровней.",
     "C7392E354E2D0E97216FBE92E9BEDB07": "Испытания «Гульпанк»",
@@ -1370,6 +1402,7 @@
     "BBFF5C7B47A36BDC4D5696A1969E38D6": "Я никак не могла с ним справиться. Что я решила сделать? Выстроить новые границы.",
     "2FE737664382787DC8208C8E62DA707A": "Предмет",
     "529CA22849760850B61CF2818E7CF43B": "Одноразовое оружие",
+    "0960E74F422CDB844E149EAFCBFD3252": "Реактивный ранец",
     "3F71B030493D924F66F6868E19EBF3F6": "Реактивный ранец",
     "DACA67B54BD3A972CC90A49224E233C8": "Реактивный ранец",
     "FC35C92B491FB39A858C71B2C3E73E0A": "Реактивный ранец (бесконечный запас топлива)",
@@ -1419,6 +1452,7 @@
     "0F7B64234D0A0DA8CDE07586E6CD0394": "Запускает взрывчатый контейнер с фиолетовой краской.",
     "88806CFB4EB0682488D1C7AE774E0122": "Запускает взрывчатый контейнер с фиолетовой краской.",
     "B36B4C124DAD23E03A2E7E883E7A5294": "Подбрасывает игроков в воздух.",
+    "E2DA1CD14AC4F4D275B8CA86AE16AC85": "Вне закона",
     "2D0B839F4F8468BBC8E434A930003EC0": "Ленивая большая бочка",
     "F70FCB1B48FBE8B96384CA9E36C5E7EF": "Ленивая растяжка",
     "CA6D0D87420CCE166090BAB2B3B09E44": "Ленивый переворот",
@@ -1526,6 +1560,16 @@
     "1C6847F04727ADFA238CEE8F3CC62B4D": "Мифы и герои",
     "0DD368AE4439FC99C95A4595D62837AC": "Испытания набора «Прирождённый конструктор»",
     "688E65C943BC171D5807FE974D7E59A9": "Испытания Бессмертного Неда",
+    "CB755A5B4F36E65C32CFE8BDC6BE489B": "Нужно лечение!",
+    "BC4D1EFE4D6E94175A763DA67D371CAE": "Нужны крупнокалиберные патроны!",
+    "AACA776E492359A4D8D3C48E155631F1": "Нужны малокалиберные патроны!",
+    "17FF64F34A5E5CB0AA2EABB8CF6C8DE3": "Нужны среднекалиберные патроны!",
+    "B87CC91942CAEEB321D235BD80056DDB": "Нужен металл!",
+    "3E05C58446BDD7156C7F6D9360C80CF4": "Нужны ракеты!",
+    "DD4C70E3404574787E8EECA594D7501F": "Нужны охотничьи патроны!",
+    "420F8FF743D3D6EF7A0DCC845A4C5AB8": "Нужны щиты!",
+    "5196202449A577044AD2259D555A97DF": "Нужен камень!",
+    "B75FEE214C5FBA33C7745F95A1408428": "Нужна древесина!",
     "NetworkConnectionLost": "Сетевое соединение разорвано",
     "3DBC7C6E4965FCC0298EB89E59E290BB": "Новое снаряжение",
     "489B637D45AA679EE623BB91084E4502": "Новое снаряжение",
@@ -1603,6 +1647,7 @@
     "0A0DAE2B4FE1793623CB7CBC3C61CB5D": "Быть может, она пыталась найти смысл жизни? А может, просто зёрнышки.",
     "42BE8AEA47AC24A46AC90FBAC18CF477": "Персональный усилитель опыта",
     "9A0379234914781523C92E86524D9CAE": "Персональный усилитель опыта",
+    "CEA0FBF443439C8479DD90A1C9D3318E": "Подними повыше!",
     "B3CFEDE943AA56C0AEE82CA08F806463": "Подобрать",
     "91F4A2794D81253C6E03C7A0B78CC383": "Подобрать огнетушитель",
     "5420A1B24353C5F6DBB3BD990912171C": "Пушка",
@@ -1691,7 +1736,7 @@
     "F5BCCB244A957943767D688D51D7862D": "Скорострельный ПП",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Новобранец",
     "167CC2194EACDD44651600B615B1A49C": "Красный",
-    "CC185F254E43E911EF36D6BF927DB81F": "Пылающая платформа",
+    "5DC02D724D91964247194388E4FCCF11": "Пылающая платформа",
     "7125E4704BEA318C6BD3D69B5893D080": "Качественное сырьё. Его можно изготовить из других компонентов. Часто попадается в сундуках.",
     "24AFC7CB4E6519D2D27262A969A547FF": "Перезарядка отключена",
     "E3F05AA241FB26B25ECA579A24C851D6": "Перезарядка отключена",
@@ -1725,6 +1770,7 @@
     "977E9BFB45C1866F6E808EB566475306": "Грубость",
     "24A34EC54C5C6860E198EDABECBBDAA3": "Супероборот",
     "14286CBB48B5F1ED65845BA3FE5C891C": "Жетон задания Тёмной Руби",
+    "8EAB0D0A41B155832EE5A6AD8A102CA5": "Раскидистые руины",
     "E2FDD2F448867B818FA0EA80CDF99D73": "Миссия уровня десятого сезона (жетон)",
     "70B5E1F944A54D9F37B036B9A2FA37EB": "Миссия десятого сезона недели 1A (жетон)",
     "7E0683DE413ABC014D89D48A84BA123F": "Миссия десятого сезона недели 1B (жетон)",
@@ -1776,6 +1822,7 @@
     "5464E4A846DED49CA96CC7B5AF584EAC": "Набор_01_OB",
     "59AAAA4D494F08A4A8EEA0B852F8CC0B": "Теневая бомба",
     "0C8019A64E58CE38EE7E2AA578270235": "Зловещий камень",
+    "4625A5F441CB0921986D50A8EFBA8BA1": "Тенистые топи",
     "484502334A928A65854932AFD2634D25": "Ключ-карточка к Акуле",
     "671540624E3B8F2A70C7D6B88182F30F": "Ключ-карточка к Акуле",
     "32499E5A4E84DEE0D1A9C582C870A222": "Меткий глаз",
@@ -1787,7 +1834,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "93D0AAC643B7CCE0B45615ADBC124BFD": "Выстрелить/Притянуть",
     "8F2CB8B14C13300867F38FB05719A4D2": "Праздничная бутылочная ракета, взмывающая в воздух. Расходуется при использовании.\r\nНе действует вне миссии.",
@@ -1835,6 +1881,7 @@
     "CC5EC4C247D4751DCE756FBD2B6794E0": "Ограниченное предложение — улучшите свой боевой пропуск на 10 уровней (100 звёзд) со скидкой!",
     "FFC43D234E85697EE57FB695EC1E1BAC": "Ограниченное предложение — улучшите свой боевой пропуск на 10 уровней (100 звёзд) со скидкой!",
     "E3CB72D7464A4616C818CCB54324F540": "Особое предложение, которое позволит повысить уровень боевого пропуска.",
+    "B4EF96A445130B1D9502DFAFB0E89546": "Обозначает, что этому предмету требуется эта навигационная сетка.",
     "062950214BC78ACD70D592873D68EB06": "Зрительный",
     "CD5B0A744223502F67BABD81B1230D5D": "Распылить",
     "0F3E554B4DC8C535967C939D8FA178F0": "Нарисуйте граффити на фургоне с мороженым",
@@ -2093,6 +2140,7 @@
     "BEFB1C8E4A05A8450B035E97B3885725": "Эксперимент VK",
     "6761758B4844F0DAEB5AB99029439F84": "VK: фильтр",
     "0C21390543CC60D3A0B708A196F493AA": "Прежние настройки VK",
+    "452B0D514DA75A60F936BA85333C2B3D": "Экспериментальная поддержка физики VK",
     "474D73BE47CF7BA331EA8EA9AD70BEAC": "Появление в VK",
     "454B71ED42ED250EDBECF59B7A7D9643": "VK: не проверено",
     "494DF9DA4B4484A4D9AB2BB0EDA97C20": "Валюта для покупки товаров в магазине.",
@@ -2264,6 +2312,7 @@
   },
   "AHoverDronePawn": {
     "CameraFocusActorFormat": "Название объекта: {0}",
+    "CameraFocusActorFormatCharBone": "Имя выделенного персонажа: {0}, название кости: {1}",
     "CameraFocusActor": "Фокусировка на цели"
   },
   "AntiCheat": {
@@ -2564,7 +2613,9 @@
   "AthenaInventoryPanel": {
     "ConfirmDrop": "Выбросить",
     "DropItems": "Выбросить предметы",
-    "DropStack": "Бросить неск. предметов ({StackCount})"
+    "DropStack": "Бросить неск. предметов ({StackCount})",
+    "RequestAmmo": "Запросить боеприпасы",
+    "RequestMaterial": "Потребовать материал"
   },
   "AthenaItemDetailsHeaderBase": {
     "SlotsTaken": "{0} ЯЧ."
@@ -2609,7 +2660,7 @@
     "AthenaIndicatorDistanceFormatText": "{0} м"
   },
   "AthenaMarkerComponent": {
-    "QuickChatNeedHelp": "<{SpectatorStyle}>{PlayerName}</> просит о <{Color}>помощи</>!"
+    "FallbackPlayerName": "Игрок"
   },
   "AthenaMatchXPScreenWidget": {
     "KeepPlayingTogether.PartyMemberInLobbyOptedOutText": "Участник группы находится в лобби",
@@ -2837,6 +2888,9 @@
   "CollectionBook": {
     "SecondaryNotificationExpired Reason": "Не удалось получить ответ от сервера уведомлений. Пожалуйста, попробуйте позже."
   },
+  "CompeteUI": {
+    "SeriesPointTournamentName": "Список лидеров"
+  },
   "ConditionalBenefitsLevel": {
     "RequiresRep": "Необходимая репутация: {0}"
   },
@@ -2897,9 +2951,6 @@
   "ContentBeaconHostObjectV2": {
     "ThrottlingVerseLogs": "Регулировка копий записей в журнале Verse"
   },
-  "ContentbeaconV2": {
-    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}"
-  },
   "ContentBeaconV2": {
     "ClientCancelledDownload": "Клиент {Client} отменил загрузку.",
     "FailedToSetProjectId": "Клиенту {Client} не удалось установить проект: {VkProjectId}, модуль: {VkModuleId}",
@@ -2914,6 +2965,7 @@
     "ProjectDuplicationErrorTitle": "Ошибка дублирования проекта",
     "RequestInvalid": "Запрос был обработан некорректно{RequestDescription}\n{ShortErrorCode}",
     "InvalidSourceVersionShort": "Запрашиваемый материал не совместим с данной версией Fortnite. \n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "InvalidSourceVersionShortErrCd": "Запрашиваемый материал не совместим с данной версией Fortnite. {ShortErrorCode}",
     "TimeoutServerGenericShort": "Слишком долгое время отклика сервера при попытке установить требуемый материал.\n{ShortErrorCode}",
     "ServerReadyForClientsTimeout": "Подготовка сервера для присоединения клиентов заняла слишком много времени.",
     "TimeoutServerGenericLong": "Время ожидания перехода сервера от состояния «{StartState}» к состоянию «{DestinationState}» для требуемого материала ({VkProjectId}, {VkModuleId}) превышено.",
@@ -2926,12 +2978,23 @@
     "FailedToConnect": "Ошибка соединения с сервером\n{ShortErrorCode}",
     "FailedToInstallModule": "Не удалось установить запрашиваемый материал.\n{ShortErrorCode}",
     "CookFailureErrorMessageShort": "Произошла ошибка при сборке материала\n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "CookFailureErrorMessageShortErrCd": "Произошла ошибка при сборке материала\n{ShortErrorCode}",
     "CookFailureOutOfMemoryErrorMessageShort": "Произошла ошибка при сборке материала, попробуйте уменьшить размер проекта\n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "CookFailureOutOfMemoryErrorMessageShortErrCd": "Произошла ошибка при сборке материала, попробуйте уменьшить размер проекта\n{ShortErrorCode}",
     "ContentServiceFailureShort": "Произошла ошибка запроса материала у сервиса управления контентом\n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "ContentServiceFailureShortErrCd": "Произошла ошибка запроса материала у сервиса управления контентом\n{ShortErrorCode}",
     "InternalDownloadingErrorShort": "Внутренняя ошибка загрузки\n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "InternalDownloadingErrorShortErrCd": "Внутренняя ошибка загрузки\n{ShortErrorCode}",
     "DiskspaceErrorShort": "Не хватает места на диске\n{ErrorCode}\nCookJobId:{CookJobId}\n{InnerErrorMessage}",
+    "DiskspaceErrorShortErrCd": "Не хватает места на диске\n{ShortErrorCode}",
+    "TimeoutClientGenericShortCheckDownloadSpd": "Превышено время ожидания установки требуемого материала. Проверьте скорость загрузки.\n{ShortErrorCode}",
+    "TimeoutClientGenericShort": "Превышено время ожидания установки требуемого материала.\n{ShortErrorCode}",
     "UnauthorizedClient": "У вас нет разрешения на воспроизведение данного материала\n{ShortErrorCode}",
     "TimeoutClientGenericLong": "{Client}: время ожидания перехода от состояния «{StartState}» к состоянию «{DestinationState}» для требуемого материала ({VkProjectId}, {VkModuleId}) превышено."
+  },
+  "ContentbeaconV2": {
+    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
+    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
   },
   "ContentOnDemand": {
     "WrongDataReceived": "Не удалось загрузить дополнительные данные игрока."
@@ -3393,7 +3456,9 @@
     "SeasonLaunchBenefitText": "Преимущество в начале сезона"
   },
   "CrewVMData": {
+    "SubscriptionButtonTextContMembership": "Продлить подписку",
     "SubscriptionButtonText": "Вступить в отряд Fortnite",
+    "SubscriptionButtonTextRejoinCrew": "Вернуться в отряд",
     "UserInformation_MultiAutoRenewAlertText": "В данный момент у вас оформлено несколько подписок на разных платформах. Чтобы не допустить многократного списания средств, рекомендуем отменить лишние подписки. Ознакомьтесь с информацией об отмене.",
     "UserInformation_ActiveFormat_NoPriceMultiAutoRenew": "Дата платежа на другой платформе с оформленной подпиской: {Date}.",
     "UserInformation_ActiveFormat": "В дату следующего платежа ({Date}) с вас будет списана следующая сумма: {Price}",
@@ -4012,7 +4077,6 @@
     "GamepadToggleFullScreenMapWhileBuilding": "Вкл/откл карту",
     "GamepadToggleFullScreenMapWhileEditing": "Вкл./откл. карту",
     "GamepadToggleHarvestWeaponOrAltInteract": "Достать/убрать или нести кирку",
-    "GamepadToggleTargetMode": "Вкл./откл. режим прицеливания",
     "GamepadTrapPicker": "Выбрать ловушку",
     "GamepadUseOrTrapPicker": "Выбрать ловушку или использовать",
     "GamepadUseOrTrapPickerAndPlace": "Выбрать/разместить ловушку или использовать",
@@ -4236,7 +4300,6 @@
     "ToggleInventory": "Вкл./откл. инвентарь",
     "ToggleFullScreenMap": "Вкл./откл. карту",
     "TogglePickAxe": "Достать кирку",
-    "ToggleTargetMode": "Вкл./откл. режим прицеливания",
     "TrapSlot": "Ловушка",
     "TrapPicker": "Выбрать ловушку",
     "TetherExit": "Отпустить",
@@ -4343,7 +4406,6 @@
     "GamepadToggleFullScreenMapWhileBuilding": "Вкл./выкл. карту",
     "GamepadToggleFullScreenMapWhileEditing": "Вкл./выкл. карту",
     "GamepadToggleHarvestWeaponOrAltInteract": "Достать/убрать или нести кирку",
-    "GamepadToggleTargetMode": "Вкл./откл. режим прицеливания",
     "GamepadTrapPicker": "Выбрать ловушку",
     "GamepadUseOrTrapPickerAndPlace": "Выбрать/разместить ловушку или использовать",
     "GamepadUseOrTrapPicker": "Выбрать ловушку или использовать",
@@ -4751,6 +4813,10 @@
   "FortCommunityVotingRevealScreen": {
     "ItemReturnsText": "<yellowcom>{ItemName}</>\r\n<whitecom>УЖЕ В ИГРЕ!</>"
   },
+  "FortCompeteUIManager": {
+    "AlternativeLeaderboardCategory": "Альт. #{0}",
+    "DefaultLeaderboardCategory": "Общ."
+  },
   "FortConnectionsUserListEntry": {
     "Social_MutualFriendsFormat": "{0} {0}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друзей)"
   },
@@ -4883,10 +4949,6 @@
   },
   "FortDuelBrief": {
     "DuelFormat": "Бросить вызов: <Name>{0}</>"
-  },
-  "FortDynamicXpComponent": {
-    "ToManyAccoladesDesc": "ВСЕ НАГРАДЫ ВЫКЛЮЧЕНЫ",
-    "ToManyAccoladesName": "Достигнут лимит наград: {0}."
   },
   "FortEliminationScreen": {
     "FortEliminationScreen.ContinueButtonDefaultText": "Продолжить",
@@ -5036,9 +5098,6 @@
     "GiftFromMyself": "Вы",
     "TitleWhenGiftFromSomeoneElse": "Вы получили подарок!"
   },
-  "FortItemPresentationScreen": {
-    "FortItemPresentationScreen": "Получено предметов: {0}"
-  },
   "FortItemRestrictionVM": {
     "ShoesLockerCompatibilityFormat": "Эта обувь совместима с {0} из {1} {1}|plural(one=экипировки,few=экипировок,many=экипировок,other=экипировки) в вашем шкафчике.",
     "ShoesIncompatibleEquippedText": "В настоящее время эта обувь несовместима с используемой экипировкой."
@@ -5151,7 +5210,7 @@
     "HideUnsupportedItemsText": "Скрыть неподдерж. предметы"
   },
   "FortLockerEquipUtilityVM": {
-    "CategoryNameWithArchetype": "{Category} ({CategoryGroup}):"
+    "CombinedCategoriesNames": "{0} и {1}"
   },
   "FortLoginInteractions": {
     "AccountLinkingFailed": "Не удалось связать учётные записи",
@@ -5220,8 +5279,10 @@
     "MemoryTestResults_Summary_HighestMemoryUsage": "Максимальное использование памяти: {MemoryValue} / {MemoryThreshold}",
     "MemoryTestResults_Summary_Header": "Результаты подсчёта объёма памяти",
     "MemoryTestResults_Summary_NumLocationsSampled": "Число выбранных областей: {0}",
+    "MemoryTestResults_ResourceSizesByType_Header": "Количество ресурсов (по типу)",
     "MemoryTestResults_Summary_Result": "Результат: {0}",
-    "MemoryTestResults_Summary_Result_Success": "УСПЕХ"
+    "MemoryTestResults_Summary_Result_Success": "УСПЕХ",
+    "MemoryTestResults_TopResources_Header": "Ресурсы (по количеству)"
   },
   "FortMessagesV3Controller": {
     "ErrorSendingMessage": "Ошибка при отправке сообщения:{0}",
@@ -5305,6 +5366,7 @@
     "Message.EstimatedTimeRemaining": "Примерное оставшееся время: {0}",
     "Fill": "ЗАПОЛНИТЬ",
     "TeamFill": "Заполнять",
+    "Message.FindingMatchNoETA": "Поиск матча…\nПрошло времени: {0}",
     "Message.FindingMatch": "Поиск матча…\nПрошло времени: {0}, время ожидания: {1}",
     "message.localplayerstreamer": "Скрытое ожидание при подборе игроков включено",
     "Message.InitiatingTravelToServer": "Запуск перемещения к серверу…",
@@ -5358,7 +5420,6 @@
     "Message.WaitingForServer": "Ожидание сервера…",
     "Message.WaitingForReadyFormat_Two": "Ждём игроков {0} и {1}...",
     "Message.WaitingForReadyFormat_More": "Ждём игроков ({0})...",
-    "Message.WaitingForPlayers": "Ожидаем ещё {0} {0}|plural(one=игрока,few=игроков,many=игроков,other=игрока)…\nВремя ожидания: {1}",
     "Message.WaitingForReadyFormat_Single": "Ждём игрока {0}...",
     "MatchmakingSettingsButtonText": "{0} — {1}"
   },
@@ -5391,6 +5452,47 @@
   "Fortnite.FortMatchmakingV2": {
     "MFAModalExitButton": "Выйти",
     "MFAModalDescription": "Требуется двухфакторная аутентификация (2FA) для участия в соревнованиях с денежными призами!"
+  },
+  "Fortnite.FortTournamentFilters": {
+    "TournamentFilterRegion.ASIA": "АЗИЯ",
+    "TournamentFilterEligibility.All": "Все требования",
+    "TournamentFilterExperience.All": "Всё (Fortnite)",
+    "TournamentFilterTeamSize.All": "Любая численность",
+    "TournamentFilterType.All": "Все типы",
+    "TournamentFilterRegion.BR": "Бразилия",
+    "TournamentFilterType.CashCup": "Турнир с денежными призами",
+    "TournamentFilterTeamSize.Duo": "Парные сражения",
+    "TournamentFilterRegion.EU": "Европейский союз (Европа)",
+    "TournamentFilterEligibility.Title": "Требования к участникам",
+    "TournamentFilterEligibility.Eligible": "Подходит",
+    "TournamentFilterExperience.Title": "Опыт",
+    "TournamentFilterType.FNCS": "Мини-чемпионат по Fortnite",
+    "TournamentFilterExperience.BR": "«Королевская битва» Fortnite",
+    "TournamentFilterExperience.ZB": "«Нулевая высота» в Fortnite",
+    "TournamentTileDate.Friday": "Пятница",
+    "TournamentFilterEligibility.Ineligible": "Нет доступа",
+    "TournamentFilterRegion.ME": "Ближний Восток",
+    "TournamentTileDate.Monday": "Понедельник",
+    "TournamentFilterRegion.NAC": "Северная Америка, центр",
+    "TournamentFilterRegion.NAE": "Северная Америка, восток",
+    "TournamentFilterRegion.NAW": "Северная Америка, запад",
+    "TournamentFilterRegion.OCE": "Океания",
+    "TournamentFilterType.Other": "Другие типы",
+    "TournamentFilterType.RankedCup": "Рейтинговый кубок",
+    "TournamentFilterRegion.Title": "Регион",
+    "TournamentTileDate.Saturday": "Суббота",
+    "TournamentFilterType.ShopCup": "Кубок магазина",
+    "TournamentFilterTeamSize.Solo": "Одиночки",
+    "TournamentFilterTeamSize.Squad": "Отряд",
+    "TournamentTileDate.Sunday": "Воскресенье",
+    "TournamentFilterTeamSize.Title": "Размер команды",
+    "TournamentTileDate.Thursday": "Четверг",
+    "TournamentFilterType.Title": "Тип турнира",
+    "TournamentFilterTeamSize.Trio": "Трио",
+    "TournamentTileDate.Tuesday": "Вторник",
+    "TournamentFilterType.VictoryCup": "Турнир с призами за победу",
+    "TournamentTileDate.Wednesday": "Среда",
+    "TournamentFilterType.WorkshopCup": "Кубок мастерской"
   },
   "Fortnite.MatchmakingSuggestionWidget": {
     "MissingTournamentName": "Название турнира отсутствует",
@@ -5451,6 +5553,7 @@
     "CrossplayRestricted_Remote_UnableToUseInput": "Устройство ввода требует разрешение для кроссплатформенной игры.  У игрока в вашей группе отсутствует данное разрешение, и его невозможно предоставить.  Используйте стандартное устройство ввода для данной платформы.",
     "JIPPartyFull": "В группе, к которой вы пытаетесь присоединиться, уже максимум участников.",
     "InvalidSessionId": "Идентификатор сеанса недействителен.",
+    "Error.TournamentPlaylistDisabled": "Турниры недоступны.",
     "NotServersDeployed": "Не подключены серверы для данной комбинации.",
     "MemberCrossplayRestricted": "Здесь обязательна кроссплатформенная игра.\n\nЧтобы присоединиться, остальные игроки должны включить в меню параметров возможность кроссплатформенной игры.",
     "JoinerCrossplayRestricted": "Чтобы присоединиться, включите кроссплатформенную игру.\n\nДля включения кроссплатформенной игры откройте меню параметров.",
@@ -5490,6 +5593,9 @@
   "Fortnite.McpConfig": {
     "InvalidMcpConfigExit": "Запрошен неверный сервер! Выход."
   },
+  "Fortnite.PoblanoTournamentTile": {
+    "TournamentTileTimeRange": "{0} — {1}"
+  },
   "Fortnite.UFortCreativeIslandSelect": {
     "Starter": "Начальные острова",
     "Templates": "Острова-шаблоны"
@@ -5510,7 +5616,6 @@
   },
   "FortniteEngineLoadingScreen": {
     "ErrorDialog_DefaultBody": "Произошла ошибка. Перезапустите Fortnite.",
-    "Connecting": "ПОДКЛЮЧЕНИЕ",
     "BootupRedesignConnecting": "Подключение",
     "ErrorDialog_DefaultTitle": "Ошибка"
   },
@@ -5593,7 +5698,6 @@
     "GamepadToggleFullScreenMapWhileBuilding": "Вкл./откл. карту",
     "GamepadToggleFullScreenMapWhileEditing": "Вкл./откл. карту",
     "GamepadToggleHarvestWeaponOrAltInteract": "Достать/убрать или нести кирку",
-    "GamepadToggleTargetMode": "Вкл./откл. режим прицеливания",
     "GamepadTrapPicker": "Выбрать ловушку",
     "GamepadUseOrTrapPicker": "Выбрать ловушку или использовать",
     "GamepadUseOrTrapPickerAndPlace": "Выбрать/разместить ловушку или использовать",
@@ -5953,6 +6057,7 @@
     "RoleText_Teammate": "Ваш союзник"
   },
   "FortPlayerFeedbackSubscreens": {
+    "ReportIDNumber": "<DefaultBold>Вы можете узнать о статусе жалобы и принятых мерах на странице отправленных жалоб: </><a id=\"url\" href=\"https://epic.gm/my-reports\" style=\"Hyperlink\">https://epic.gm/my-reports</> <DefaultBold>(идентификатор: {0}).</>",
     "EpicQASummary": "Сообщение об ошибке отправлено в JIRA.",
     "NoIslands": "Нет островов, на которые можно пожаловаться",
     "NoPlayers": "Нет игроков, на которых можно пожаловаться",
@@ -5962,10 +6067,9 @@
     "PlayerSummary": "Благодарим за отправку жалобы на игрока {0} по причине: {1}.",
     "WorldSummaryNoPlayer": "Благодарим за отправку жалобы на мир по причине: {0}.",
     "WorldSummary": "Благодарим за отправку жалобы на мир {0} по причине: {1}.",
-    "ReportIDNumber": "Вы можете узнать о статусе жалобы и принятых мерах на странице отправленных жалоб: <URL>https://epic.gm/my-reports</> (идентификатор: {0}).",
     "JunoSubmissionNoPlayer": "Вы подаёте жалобу на пользователя  по причине: {0}",
-    "CreativeSubmission": "Вы подаёте жалобу на пользователя {0} по причине: {1}",
     "CreatorSubmission": "Вы подаёте жалобу на пользователя {0} по причине: {1}",
+    "CreativeSubmission": "Вы подаёте жалобу на пользователя {0} по причине: {1}",
     "JunoSubmission": "Вы подаёте жалобу на пользователя {0} по причине: {1}",
     "PlayerSubmission": "Вы подаёте жалобу на пользователя {0} по причине: {1}",
     "BugSubmission": "Вы собираетесь отправить сообщение об ошибке: {0}",
@@ -6121,10 +6225,17 @@
     "HotspotDescriptionTether": "в зоне привязки",
     "DescriptionGenerateBuildingFoundations": "{DescriptionTitle}: генерация набора объектов для размещения/замены в этом запросе миссии."
   },
+  "FortQueryGenerator_DefendSpots": {
+    "DescriptionTitle": "{DescriptionTitle}: собрать все точки защиты из области защиты владельца."
+  },
   "FortQueryGenerator_OnRectangle": {
     "OnRectangleDescriptionDetailsByPoints": "Ширина прямоугольника: {0}, длина прямоугольника: {1}, количество очков : {2} x {3}",
     "OnRectangleDescriptionDetails": "Ширина прямоугольника: {0}, длина прямоугольника: {1}, пространство между элементами: {2}",
     "OnRectangleDescriptionTitle": "{0}: генерирует очки в прямоугольной области вокруг объекта — {1}"
+  },
+  "FortQueryGenerator_OnSphere": {
+    "OnSphereDescriptionDetails": "Радиус: {0}, кол-во частей: {1}, общее кол-во: {2}",
+    "OnSphereDescriptionTitle": "{0}: генерирует очки в сферической области вокруг объекта — {1}"
   },
   "FortQueryGenerator_ValidSpawnRiftActors": {
     "DescriptionGenerateActorsAroundContext": "{DescriptionTitle}: генерация набора активаторов разлома, где достаточно ячеек, чтобы создать каждую группу ИИ."
@@ -6142,6 +6253,17 @@
     "WorldGoalsAndEnemies": "глобальные цели и враги\n",
     "AssignmentsAndProhibitedAssignmentIDs": "{0} И {1}",
     "CategoriesAndSpecificAssignments": "{0} И {1}"
+  },
+  "FortQueryTest_DefendSpot": {
+    "CanShootDescriptionTitle": "{DescriptionTitle}: у точки защиты есть свободная линия огня до {TargetActorContext}.",
+    "AlreadyReservedDescriptionTitle": "{DescriptionTitle}: точка защиты ещё не занята другим неигровым персонажем.",
+    "PathfindLengthDescriptionTitle": "{DescriptionTitle}: расстояние от владельца до точки защиты.",
+    "ReservedDescriptionTitle": "{DescriptionTitle}: владелец времени был на точке защиты. 0 — точка защиты назначена, но владелец ещё не на ней.",
+    "PreviouslyOccupiedDescriptionTitle": "{DescriptionTitle}: время, прошедшее с момента, когда владелец в последний раз занимал точку защиты. Максимальное время, если никогда.",
+    "PenalizedDescriptionTitle": "{DescriptionTitle}: время, прошедшее с момента выставления штрафа точке защиты."
+  },
+  "FortQueryTest_DistanceClamped": {
+    "DescriptionTitle": "{DescriptionTitle}: измерение {MeasurementType} ({ContextLocation}) Нижняя граница: {LowerBound}. Верхняя граница: {UpperBound}"
   },
   "FortQueryTest_GoalNumberOfAIAssigned": {
     "TypeOfMatchAssignment": "Поручение",
@@ -6241,6 +6363,7 @@
   "FortSetting": {
     "OpenSqueegeeParentalSubscreen_Action": " Открыть",
     "OpenTimeLimitsParentalSubscreen_Action": " Открыть",
+    "SimpleBuild_PlacementTiming_Disabled": "Этот параметр доступен только в режимах «Второстепенный (стены)» или «Второстепенный (лестницы)».",
     "SuppressEmoteMusicInJam_Disabled": "Чтобы изменить эту настройку, выключите параметр «Синхронизация эмоций с джем-треками».",
     "LumenRequiresNanite": "Для использования Lumen необходимо включить параметр «Виртуальная геометрия Nanite»",
     "EFortGamepadSensitivity_Slow": "1 (низкая)",
@@ -6306,12 +6429,19 @@
     "TriggerHapticsStrength_Name": "Сила адаптивного триггера",
     "UserInterfaceContrast_Description": "Настройте контрастность интерфейса",
     "Brightness_Description": "Позволяет настроить яркость.",
+    "531C2DFC42577A28EC9D468375001303": "Позволяет регулировать громкость всех звуков. Определённые категории звуков можно настраивать под общую громкость.",
     "MasterVolume_Description": "Позволяет регулировать громкость всех звуков. Определённые категории звуков можно настраивать под общую громкость.",
+    "62698DEC4D5B1E0F27F85E836C1251D4": "Позволяет изменить громкость внутриигровых видеороликов.",
     "CinematicVolume_Description": "Позволяет изменить громкость внутриигровых видеороликов.",
+    "1657F25C48D8960E187280952F600712": "Позволяет настроить громкость речи игровых персонажей и реплик.",
     "DialogueVolume_Description": "Позволяет настроить громкость речи игровых персонажей и реплик.",
+    "2C89BD894DE8AB67A6509EA8E3F6FA4B": "Позволяет настроить громкость музыки.",
     "MusicVolume_Description": "Позволяет настроить громкость музыки.",
+    "64586EC2442E7978C4A72E9B26751470": "Позволяет настроить громкость картинки в картинке.",
     "PIPVolume_Description": "Позволяет настроить громкость картинки в картинке.",
+    "41BF8C544C3778813A4C04B33044F49B": "Позволяет изменить громкость звуковых эффектов.",
     "SoundEffectsVolume_Description": "Позволяет изменить громкость звуковых эффектов.",
+    "459F681D4E97124974E97C96FC78AFF2": "Позволяет настроить громкость голосового чата.",
     "VoiceChatVolume_Description": "Позволяет настроить громкость голосового чата.",
     "AdvancedAimSensitivityCollection_Name": "Продвинутые параметры: чувствительность прицеливания",
     "BasicLookOptionsCollection_Name": "Продвинутые параметры: чувствительность камеры",
@@ -6409,6 +6539,7 @@
     "AutoConfirmEditsBoth": "Оба варианта",
     "CameraResetAxisBoth": "Оба варианта",
     "QuickWeaponButtonGroupBoth": "Оба варианта",
+    "SimpleBuild_ItemSet_BoxAndBridge": "Ограничительная область и мост",
     "Brightness_Name": "Яркость",
     "BuildButtonsCollection_Name": "Кнопки строительства",
     "EnableTryBuildOnFocus_Name": "Построить немедленно (опытный строитель)",
@@ -6440,6 +6571,7 @@
     "AudioOutputDevice_Description": "Позволяет выбрать другое устройство вывода звука.",
     "VoiceChatInputDevice_Description": "Позволяет выбрать устройство с микрофоном, с помощью которого вы будете общаться с участниками голосового чата.",
     "VoiceChatOutputDevice_Description": "Позволяет выбрать устройство, с помощью которого вы будете слышать участников голосового чата.",
+    "SimpleBuild_ItemSet_Description": "Определяет, за какие постройки отвечают основной и второстепенный вводы.\n\n<strong>Второстепенный (стены):</> основной ввод отвечает за полы и лестницы, второстепенный — за стены.\n<strong>Второстепенный (лестницы):</> основной ввод отвечает за полы и стены, второстепенный — за лестницы.\n<strong>Ограничительная область и мост:</> классические режимы ограничительной области и моста.",
     "JunoCombatAnyDirection_Enabled": "Направление персонажа",
     "OpenBlog_Description": "Официальный веб-сайт Fortnite может помочь вам подобрать наиболее подходящие значения для параметров графики.",
     "SelectAndroidStore_Name": "Оплата",
@@ -6448,6 +6580,7 @@
     "SubtitleTextColor_Description": "Цвет текста субтитров.",
     "SubtitleTextSize_Description": "Размер текста субтитров.",
     "InstalledTextureQuality_Description": "Выберите уровень детализации текстур в Fortnite. При использовании текстур высокого качества мир Fortnite выглядит более детализированным, но при этом игра занимает больше места на устройстве.\n\nНизкое качество: Fortnite удалит загруженные текстуры высокого качества и будет использовать текстуры низкого качества.\n\nВысокое качество: Fortnite установит и будет использовать текстуры высокого качества.\n\n",
+    "CC5F0FCA49FC6B54695AAD9CBC05E2A7": "Видеоролики",
     "CinematicVolume_Name": "Видеоролики",
     "MinimapCircularShape_Name": "Круглая мини-карта",
     "EFortSubtitleBackgroundOpacity_Clear": "Без затемнения",
@@ -6508,6 +6641,7 @@
     "EnableCustomKeyboardDiagonals_Description": "Позволяет настроить направление движения по диагонали при управлении с клавиатуры.",
     "FortReticleColorCyan_Name": "Голубой",
     "QuickWeaponButtonGroupNoneDPad": "Крестовина",
+    "QuickWeaponButtonGroupNoneDPad_Switch": "Крестовина",
     "RenderingAPID3D11": "DirectX 11",
     "RenderingAPID3D12": "DirectX 12",
     "DLSS is Enabled": "Необходимо отключить DLSS.",
@@ -6529,6 +6663,7 @@
     "AllowedConfrontationalEmoteSources_Description": "Определяет, какие игроки смогут показывать вам вызывающие эмоции.\n\n<strong>«Все»</> — вы будете видеть вызывающие эмоции, используемые всеми игроками.\n\n<strong>«Друзья в команде»</> — вы будете видеть только те вызывающие эмоции, которые используют друзья в вашей команде.\n\n<strong>«Никто»</> — вы не будете видеть никакие вызывающие эмоции, используемые другими игроками.\n<strong>Эмоции:</>\n\t<strong>•</> «Обхохочешься»;\n\t<strong>•</> «Признание поражения»;\n\t<strong>•</> «Хлыст»;\n\t<strong>•</> «Всем по банану».\n",
     "ColorBlindRotatorSettingDeuteranope": "Дейтеранопия",
     "GamepadVibrationBlocksDevice_Name": "Отключение вибрации при подключении геймпада",
+    "49370FD8446BB8B6E61FD396B984CB89": "Речь",
     "DialogueVolume_Name": "Речь",
     "GyroButtonDisable": "Отключить гироскоп",
     "DisablePreEditsWhenPlacingBuilding_Name": "Отключить предварительное редактирование",
@@ -6615,6 +6750,7 @@
     "EFortSubtitleTextSize_ExtraLarge": "Очень большой",
     "EFortSubtitleTextSize_ExtraSmall": "Очень маленький",
     "QuickWeaponButtonGroupSecondaryFaceButtons": "Лицевые кнопки",
+    "QuickWeaponButtonGroupSecondaryFaceButtons_Switch": "Лицевые кнопки",
     "ViewDistanceFar": "Большое",
     "GyroAccelMultiplier_Name": "Быстрый множитель",
     "FilterControllerVibrationFromGyro_Name": "Фильтр вибрации геймпада",
@@ -6762,6 +6898,7 @@
     "FilterControllerVibrationFromGyro_Description": "Если вибрация геймпада включена, добавьте ограничительный фильтр, чтобы уменьшить дрожание камеры. В этом случае может возникнуть небольшая задержка ввода в момент прицеливания с помощью гироскопа. Если на вкладке настроек геймпада отключена вибрация, фильтр автоматически отключится.",
     "CrossplayPreference_Description": "Если активировать этот параметр, вы сможете играть и объединяться с пользователями других платформ. Если отключить, некоторые игровые режимы станут недоступны, а в других могут появиться ограничения для участников, которые приведут к таким проблемам, как долгое ожидание входа в игру, малое количество игроков или задержка в сети.",
     "HoldToSwapPickup_Description": "Если эта функция активна, вы можете подбирать оружие с земли на замену текущему, зажимая кнопку.",
+    "SwapFireInputsDualWieldShotgunSMG_Description": "Включите, чтобы поменять местами управляющие стрельбой кнопки мыши у «Помпового ломателя».",
     "GyroButtonHoldTime_Description": "Если кнопка модификатора гироскопа используется совместно с коротким нажатием, это время, в течение которого нужно удерживать кнопку, чтобы исключить срабатывание функции, назначенной на короткое нажатие.",
     "ShowQuickbarKeybinds_Description": "При значении «Истина» показывает назначения клавиш для ячеек быстрого доступа.",
     "LicensedAudioTreatment_Description": "Авторы материалов могут воспользоваться этим параметром, чтобы отключить воспроизведение лицензированной музыки и видеороликов, защищённых авторскими правами. Этот параметр не действует на мероприятиях, где представлены лицензированные материалы (например на концертах).\n\n<strong>Воспроизводить</>: звук будет проигрываться как обычно (выбрано по умолчанию).\n\n<strong>Заглушать</>: воспроизведение лицензированного звука отключено.",
@@ -6843,6 +6980,7 @@
     "ReflectionsHigh": "Lumen — выс.",
     "LumenUnavailableInGameMode": "Данный игровой режим не поддерживает Lumen",
     "FortReticleColorMagenta_Name": "Пурпурный",
+    "8656BDB34CE4A1E56F3F1584443491CD": "Общая",
     "MasterVolume_Name": "Общая",
     "ShowFriendRequest_Description": "Позволяет настроить уведомления для запросов на добавление в друзья. Они по-прежнему будут появляться в социальном меню.",
     "ShowFriendRequest_DescriptionMobile": "Позволяет настроить уведомления для запросов на добавление в друзья. Они по-прежнему будут появляться в социальном меню.\n\n      <Icon.Warning></> Также влияет на отображение <strong>всплывающих уведомлений на мобильных устройствах</>.",
@@ -6866,6 +7004,7 @@
     "MapPickupDotRarity_Name": "Индикаторы полезных предметов на мини-карте",
     "FOVMinimum_Name": "Минимальный угол обзора",
     "MobileFPSType_Name": "Частота кадров (мобильная версия)",
+    "SimpleBuild_ItemSet_Name": "Режим",
     "SimpleBuild_PlacementTiming_Hold": "Изменение (основной)",
     "GyroYawAxis_Name": "Ось движения",
     "MotionBlur_Name": "Размытие в движении",
@@ -6884,6 +7023,7 @@
     "MouseSensitivityMultiplierForAircraft_Name": "Коэффициент чувствительности мыши при управлении летательным аппаратом",
     "MovementCollection_Name": "Перемещение",
     "FollowCamera_Name": "Перемещение камеры при передвижении",
+    "8AC2F48B470B5C94D2D42C980BC3F872": "Музыка",
     "MusicVolume_Name": "Музыка",
     "LicensedAudioTreatment_Mute": "Отключить звук",
     "DLSS_Description": "NVIDIA DLSS (Deep Learning Super Sampling). NVIDIA DLSS использует машинное обучение для вывода детализированных изображений при меньшем количестве пикселей. Это увеличивает частоту смены кадров и позволяет вам выбрать более высокие параметры графики и разрешение.  Технология DLSS доступна только для видеокарт NVIDIA RTX.",
@@ -6970,6 +7110,7 @@
     "InvitePermissions_Description": "Выберите, кто может отправлять вам запросы на добавление в друзья.\n\n      <Icon.Warning></> Учтите, нерассмотренные запросы <strong>могут</> быть удалены.",
     "GyroV2HarvestingToolSensitivity_Name": "Коэффициент чувствительности кирки",
     "RadialPickersCollection_Name": "Читы для кругового меню выбора",
+    "A482A95A46AD9836C921E8AD678ED4A5": "Режим «Картинка в картинке»",
     "PIPVolume_Name": "Режим «Картинка в картинке»",
     "CameraResetAxisPitch": "По вертикали",
     "GyroV2InvertPitch_Name": "Направление оси наклона вперёд-назад",
@@ -7009,7 +7150,6 @@
     "OpenBlog_Name": "Руководство по настройке",
     "QuickWeaponInput_Name": "Быстрое оружие",
     "QuickWeaponToggle_Name": "Быстрое оружие",
-    "SimpleBuild_SecondaryBuild_Ramp": "Трамплин",
     "GyroTrackballDecay_Description": "Скорость замедления гиротрекбола (влияет только на механизмы параметров трекбола для кнопок гироскопа X и Y).",
     "AnnualRefundTokenRequests_Name": "Недавние покупки",
     "TSRRecommended": "Рекомендованные настройки",
@@ -7065,8 +7205,9 @@
     "ScopedSpeedMultiplier_Name": "Множитель скорости для оружия с прицелом",
     "ReflectionsMedium": "Экранное пространство",
     "SeasonalCheatsCollection_Name": "Сезонные читы",
-    "SimpleBuild_SecondaryBuild_Name": "Постройка (второстепенный)",
     "SimpleBuild_PlacementTiming_Name": "Второстепенный ввод",
+    "SimpleBuild_ItemSet_SecondaryStairs": "Второстепенный (лестницы)",
+    "SimpleBuild_ItemSet_SecondaryWall": "Второстепенный (стены)",
     "AllowedConfrontationalEmoteSources_Name": "Отображение вызывающих эмоций",
     "FortniteCredits_Description": "Люди, которые внесли вклад в создание Fortnite.",
     "SelectTouchFireMode_Action": "Выбрать режим стрельбы",
@@ -7123,6 +7264,7 @@
     "HUDScale_DescriptionMobile": "Позволяет выбрать размер элементов интерфейса, которые отображаются при использовании геймпада или клавиатуры с мышью. При значении 100% элементы будут иметь стандартный размер. Чем ниже значение, тем меньше элементы интерфейса.",
     "HUDScale_Description": "Определяет размер элементов интерфейса. При значении 100% элементы будут иметь стандартный размер, чем меньше значение — тем меньше элементы.",
     "SoundQuality_Description": "Определяет уровень качества звука. Высокое качество звука может отрицательно сказаться на производительности.",
+    "EForceMaxTouchpadSensitivity_Description": "Устанавливает такую чувствительность сенсорной панели, чтобы нажатия клавиш не подавляли её события мыши.  Значительно упрощает использование сенсорной панели в качестве устройства ввода, однако не предотвращает регистрацию случайных нажатий на панель в случае игры с мышью.",
     "Setting Enabled": "Если режим «производительность» отключён, параметр не действует.",
     "Setting Disabled": "Выбран режим «производительность», настройка отключена.",
     "ResolutionScale_Warning": "Если выбранное значение для разрешения 3D превышает технические возможности устройства, это может сказаться на производительности.",
@@ -7170,6 +7312,7 @@
     "UserInterfaceParallax_Description": "У некоторых меню, например в магазине предметов, может быть эффект параллакса. Отключите этот параметр, чтобы эти эффекты были статичными.",
     "MotionBlur_Description": "Эффект размытия в движении нравится не всем. Отключите этот эффект, если он вызывает дискомфорт, или оставьте его включённым для более плавной анимации движений.",
     "SoundCollection_Name": "Звук",
+    "496E14504BFA4221906EBE8D2CBCDA2C": "Звуковые эффекты",
     "SoundEffectsVolume_Name": "Звуковые эффекты",
     "SoundQuality_Name": "Качество звука",
     "AISpawningCollection_Name": "Появление",
@@ -7190,6 +7333,7 @@
     "Subtitles_Name": "Субтитры",
     "SuppressMusicInJam_Name": "Заглушение музыки эмоций при воспроизведении джем-треков",
     "AutoMulchMode_Survivors_Name": "Выжившие",
+    "SwapFireInputsDualWieldShotgunSMG_Name": "Поменять местами управляющие стрельбой кнопки у «Помпового ломателя»",
     "AllowEmoteBeatSyncing_Name": "Синхронизация эмоций с джем-треками",
     "AntiAliasingMethodTSREpic": "TSR — эпич.",
     "AntiAliasingMethodTSRHigh": "TSR — выс.",
@@ -7242,7 +7386,7 @@
     "AllowDiscoveryPersonalization_Description": "Этот параметр позволяет получать рекомендации островов, составленные на основе указанной вами информации и вашей игровой активности.\n\n<strong>«Вкл.»</>: вы будете получать дополнительные рекомендации островов, составленные на основе указанной вами информации и вашей игровой активности.\n\n<strong>«Выкл.»</>: вы не будете получать дополнительные рекомендации островов, составленные на основе указанной вами информации и вашей игровой активности, но по-прежнему сможете настраивать рекомендации с помощью списка избранных коллекций.",
     "SocialStatus_PartyJoinability_Description": "Эта настройка определяет, каким образом игроки могут присоединяться к вашей группе.\n\n<strong>«Только по приглашениям»</>: вы или кто-то из вашей группы должен пригласить игроков либо одобрить их запрос на присоединение.\n\n<strong>«Друзья»</>: к вашей группе смогут присоединяться игроки из вашего списка друзей и друзья участников вашей группы.\n\nПримечание: в группу всегда можно вступить по приглашению.",
     "MatureLanguageFilter_Description": "Этот параметр позволит вам установить языковой фильтр в текстовом чате, который будет действовать на личные сообщения и сообщения в каналах группы. Языковой фильтр всегда включён в каналах игры и у игроков младше 13 лет.\n\nЕсли этот параметр активен, ненормативная лексика во входящих и исходящих сообщениях будет заменяться символами-сердечками.\n\n\n<strong>«Вкл.»</>: ненормативная лексика будет заменяться символами-сердечками.\n<strong>«Выкл.»</>: ненормативная лексика будет появляться в текстовом чате без цензуры.",
-    "FilterMatureLanguage_Desc": "Этот параметр позволит вам установить языковой фильтр в текстовом чате, который будет действовать на личные сообщения и сообщения в каналах группы. Языковой фильтр всегда включён в каналах игры и у игроков младше 13 лет.\n\nЕсли этот параметр активен, ненормативная лексика во входящих и исходящих сообщениях будет заменяться символами-сердечками.\n\n\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">«Вкл.»</>: ненормативная лексика будет заменяться символами-сердечками.\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">«Выкл.»</>: ненормативная лексика будет появляться в текстовом чате без цензуры.",
+    "FilterMatureLanguage_Desc": "Этот параметр позволит вам установить языковой фильтр в текстовом чате, который будет действовать на личные сообщения и сообщения в каналах группы. Языковой фильтр всегда включён в каналах игры.\n\nЕсли этот параметр активен, ненормативная лексика во входящих и исходящих сообщениях будет заменяться символами-сердечками.\n\n\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">«Вкл.»</>: ненормативная лексика будет заменяться символами-сердечками.\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">«Выкл.»</>: ненормативная лексика будет появляться в текстовом чате без цензуры.",
     "PIIFilter_Description": "Этот параметр позволит вам скрывать личные данные, например адреса электронной почты и номера кредитных карт, в текстовом чате в личных сообщениях и каналах группы. Если этот параметр активен, некоторые личные данные во входящих и исходящих сообщениях будут заменяться символами-сердечками.\n\nФильтр личной информации всегда включён в каналах игры и у игроков младше 13 лет. \n\n<strong>«Вкл.»</>: личные данные будут заменяться символами-сердечками.\n<strong>«Выкл.»</>: личные данные будут появляться в текстовом чате без цензуры.",
     "PreferredFilledMatchAudioChannel_Description": "Данный параметр сработает только в том случае, если вы запустите игровой режим с включённым заполнением, находясь в группе.\n\nС функцией заполнения свободные места в отряде занимают случайные игроки. Примечание: данный параметр не сработает, если вы запустите режим для одиночной игры.\n\n<strong>ИГРА:</>\n\nвыбрав значение «Игра», вы автоматически покинете канал группы в голосовом чате, подключитесь к каналу игры и присоединитесь к чату со случайными участниками вашей команды.\n\n<strong>ГРУППА:</>\n\nвыбрав значение «Группа», вы останетесь в голосовом чате группы, но при этом сможете вручную переключиться на канал игры, чтобы присоединиться к чату со случайными участниками вашей команды.",
     "FlickSmoothingThreshold_Description": "При превышении этого порога не будет применяться сглаживание к вращению (вращений в секунду).",
@@ -7270,6 +7414,8 @@
     "TouchSensitivity_Name": "Чувствительность сенсорной панели",
     "TouchDragTargetingSensitivity_Name": "Чувствительность касания (прицеливание)",
     "TouchAndMotionCollection_Name": "Сенсор и движение",
+    "TouchpadCollection_Name": "Сенсорная панель",
+    "EForceMaxTouchpadSensitivity_Name": "Максимальная чувствительность сенсорной панели",
     "GyroButton_Touch": "Касание сенсорной панели",
     "GyroButtonTrackball": "Трекбол",
     "GyroTrackballDecay_Name": "Снижение скорости трекбола",
@@ -7358,6 +7504,7 @@
     "VirtualShadows_Name": "Качество теней",
     "VisualizeSoundEffects_Name": "Визуализация звуковых эффектов",
     "VisualizeSoundEffectsPriority_Name": "Приоритет визуализации звуковых эффектов",
+    "697471314AAE92B4E203BF9C98A59671": "Голосовой чат",
     "VoiceChat": "Голосовой чат",
     "VoiceChatCollection_Name": "Голосовой чат",
     "VoiceChatVolume_Name": "Голосовой чат",
@@ -7367,9 +7514,9 @@
     "ShowVoiceIndicators_Name": "Уведомления голосового чата",
     "VoiceChatOutputDevice_Name": "Устройство вывода звука для голосового чата",
     "VoiceChatRVR": "Отправка жалоб в голосовом чате",
+    "19AA46A24BAFD95FD134479893C4A4F7": "Громкость",
     "VolumeCollection_Name": "Громкость",
     "Vsync_Name": "Вертикальная синхронизация",
-    "SimpleBuild_SecondaryBuild_Wall": "Стена",
     "AutoMulchMode_Weapons_Name": "Оружие",
     "PlaytimeReportingFrequency_Name": "Отчёты об активности в игре",
     "ReticleColorForEnemy_Description": "Определяет, каким станет цвет прицела, если в зоне досягаемости появится противник.",
@@ -7399,7 +7546,6 @@
     "ResolutionForcedNative": "Если для параметра «Игровое окно» выбрано значение <strong>«Окно на весь экран»</>, разрешение окна должно совпадать с разрешением рабочего стола.",
     "CameraResetAxes_Description": "Определяет, какие оси сбрасывает кнопка «Сбросить настройки камеры».\n\nЕсли выбрано «поворот по вертикали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет направлена на горизонт.\n\nЕсли выбрано «поворот по горизонтали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет повёрнута в направлении, заданном джойстиком для перемещения. Так, вы сможете быстро развернуть камеру, выполнив движение назад и нажав на кнопку «Сбросить настройки камеры». Если джойстик для перемещения не используется, кнопка «Сбросить настройки камеры» не подействует на поворот камеры по горизонтали.",
     "CameraResetAxes_Description_Switch": "Определяет, какие оси сбрасывает кнопка «Сбросить настройки камеры».\n\nЕсли выбрано «поворот по вертикали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет направлена на горизонт.\n\nЕсли выбрано «поворот по горизонтали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет повёрнута в направлении, заданном джойстиком для перемещения. Так, вы сможете быстро развернуть камеру, выполнив движение назад и нажав на кнопку «Сбросить настройки камеры». Если джойстик для перемещения не используется, кнопка «Сбросить настройки камеры» не подействует на поворот камеры по горизонтали.",
-    "SimpleBuild_SecondaryBuild_Description": "Какой тип строительства будет закреплён за второстепенным вводом.\nДругой тип строительства будет закреплён за основным вводом.",
     "TouchADSFireMode_WhileHeld": "При зажатой кнопке",
     "QuickWeaponButtonGroup_Description": "Какая группа кнопок отвечает за выбор оружия, пока удерживается кнопка функции «Быстрое оружие»? Можно использовать кнопки направлений, лицевые кнопки или всё вместе.",
     "QuickWeaponButtonGroup_Description_Switch": "Какая группа кнопок отвечает за выбор оружия, пока удерживается кнопка функции «Быстрое оружие»? Можно использовать кнопки направлений, лицевые кнопки или всё вместе.",
@@ -8007,6 +8153,7 @@
     "ReportUser": "Пожаловаться",
     "UnmuteInteractionDisplayName": "Включить звук",
     "UnmuteTextInteractionDisplayName": "Отобразить сообщения",
+    "VoiceMuteInteractionDisplayNameUnmuteVoice": "Включить голос",
     "SpectateFriendsGameInteractionDisplayName": "Смотреть игру",
     "SlashCommand_Report": "пожаловаться",
     "SlashCommand_unmute": "включить звук"
@@ -8121,6 +8268,7 @@
     "GooglePlayRatingPopupTitle": "Нравится игра?",
     "GooglePlayRatingPopupLaterButtonText": "Позже",
     "SamsungPressureSensor_NeverShowAgain": "Больше никогда не показывать",
+    "NoNetworkConnectionError": "Нет доступной сети. Пожалуйста, проверьте настройки.",
     "GooglePlayRatingPopupDescription": "Пожалуйста, поставьте оценку.",
     "GooglePlayRatingPopupRateButtonText": "Оценить",
     "BadMatchPopup_ReportButton": "Пожаловаться",
@@ -8811,6 +8959,13 @@
     "WarningToastTitle": "Недостаточно памяти",
     "WarningToastDescription": "Сеанс может неожиданно прерваться."
   },
+  "JunoCVD": {
+    "JunoCVDConnectivityDataFlagsMenuLabel": "Флаги данных соединения Juno",
+    "JunoCVDConnectivityDataShowMenuLabel": "Визуализация данных соединения Juno",
+    "JunoCVDConnectivitySettingsMenuLabel": "Настройки визуализации соединения Juno",
+    "JunoCVDConnectivitySettingsMenuToolTip": "Параметры для изменения способа отладки записанных данных соединения Juno",
+    "JunoCVDConnectivityDataFlagsMenuToolTip": "Набор флагов включения и отключения видимости определённых типов данных соединения Juno"
+  },
   "JunoEditorModule": {
     "JunoExposedAssetsDestructionOperation": "Теоретически, на следующие материалы могут быть ссылки в постоянных данных Juno. Если вы:\n  1. Пытаетесь удалить опубликованный ресурс — оставьте его.\n  2. Вносите изменения, несовместимые с API, — создайте новый ресурс и оставьте оригинал как есть.\n  3. Что-то другое? Спросите на #juno-persistence-users-ext.\n\nОперация заблокирована."
   },
@@ -8845,6 +9000,7 @@
   },
   "K2Node_GuidedMotionMME": {
     "GuidedMotionMME_Title": "Применить MME с помощью при движении",
+    "GuidedMotionMME_TitleFormatClass": "Применить MME с помощью при движении — {MMEClass}",
     "GuidedMotionMME_InternalConnectionError": "K2Node_GuidedMotionMME: ошибка узла последовательности. @@",
     "GuidedMotionMME_TitleFormat": "[WorkInProgress] Применить MME с помощью при движении:\n{Data}"
   },
@@ -9227,7 +9383,7 @@
     "FailedLoginNoRealId": "Завершите проверку RealID перед выполнением дальнейших действий.",
     "FailedLoginAgeVerificationIncomplete": "Вам нужно разрешение от родителя, чтобы продолжить игру.  Если родитель не получил электронное письмо с запросом, посетите страницу epicgames.com/login, чтобы отправить его ещё раз.",
     "FailedLoginLockoutMsg": "Ваша учётная запись заблокирована из-за многократных неудачных попыток входа.",
-    "FailedLoginRequiresMFA": "Ваша учётная запись защищена двухфакторной аутентификацией. Введите код безопасности, отправленный на ваш электронный адрес\n{Email}.",
+    "FailedLoginRequiresMFA": "Ваша учётная запись защищена двухфакторной аутентификацией. Введите код безопасности, отправленный на ваш электронный адрес.",
     "FailedLoginRequiresAuthAppMFA": "Ваша учётная запись защищена двухфакторной аутентификацией. Введите код безопасности аутентификатора.",
     "FailedCorrectiveAction": "В вашей учётной записи отсутствуют данные, необходимые для запуска игры.",
     "PlayAccessRevoked": "У вашей учётной записи больше нет доступа к игре",
@@ -9590,6 +9746,9 @@
     "DebugCompatibility_NoDisplayName": "ВНИМАНИЕ: {0} — ОТСУТСТВУЕТ ОТОБРАЖАЕМОЕ ИМЯ!",
     "DebugCompatibility_Unsupported": "ВНИМАНИЕ: НЕДОПУСТИМОЕ ВЫРАЖЕНИЕ!"
   },
+  "QuestUITrackerVM": {
+    "DisplayName": "Отслеживаемые задания"
+  },
   "RangedWeapon": {
     "PrimaryActionName": "Выстрелить",
     "SecondaryActionName": "Приблизить"
@@ -9754,6 +9913,8 @@
     "UnknownRegion": "Неизвестный"
   },
   "SpatialMetricsProfiler": {
+    "SplashTextName": "Профайлер пространственных показателей",
+    "WindowTitle": "Профайлер пространственных показателей",
     "AppTitle": "Пространственный профайлер"
   },
   "SpectatorLensSettings": {
@@ -10020,6 +10181,18 @@
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "У FJunoGuidedBuildingDisplayActorDataEntry с индексом [{0}] пустой чертёж! В связи с этим при запуске могут возникать ошибки."
+  },
+  "UJunoValidator_Journal": {
+    "PrereqTownbuilderInvalidALINotValidIndexAPG": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] AwesomeLevelIndex не является действующим индексом AwesomePointGoals ({2}).",
+    "PrereqTownbuilderInvalidALINotValidIndexUpReq": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] AwesomeLevelIndex не является действующим индексом UpgradeRequirements ({2}).",
+    "PrereqTownbuilderInvalidCTCKNotMapFDT": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] CampTagConfigKey не соотносится с таблицей данных FJunoAwesomePoiConfigTableRow.",
+    "PrereqTownbuilderInvalidNoValidALI": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] нет действующего AwesomeLevelIndex.",
+    "PrerequistitesInvalidNoValidPreReqType": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] нет действующего типа предварительных требований.",
+    "PrereqQuestInvalidNotNeededPFComponent": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] имеется компонент PersistenceFramework, это не требуется.",
+    "PrereqTownbuilderInvalidUnsupportedType": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] есть неподдерживаемый тип [{2}]. Необходимо обновить данный валидатор.",
+    "PrereqTownbuilderInvalidRCButEmptyRL": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] ссылается на ResourceCost, однако {2} имеет пустой ResourceList.",
+    "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}], не удалось найти UpgradeStep с UpgradeStepIdentifer {2} для UpgradeStages ({3}).",
+    "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Таблица данных журнала [ряд {0}] настроена на самораскрытие с помощью NextTaskRowName. Уберите отметку с RevealNextTaskOnComplete, чтобы снять блокировку, и обратитесь к инженеру!"
   },
   "UpdateManager": {
     "NeedsUpdateMessage": "Чтобы продолжить, необходимо обновление. Для загрузки свежей версии Fortnite перезапустите игру.",
