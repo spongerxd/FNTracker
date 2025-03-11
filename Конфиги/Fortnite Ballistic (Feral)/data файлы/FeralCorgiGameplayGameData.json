@@ -230,6 +230,22 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.FeralCorgi.Apparatus.AutoPingItemPickup": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.FeralCorgi.Grenades.Default.Speed": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -358,6 +374,22 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.FeralCorgi.Grenades.Frag.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.FeralCorgi.Grenades.Bubble.Speed": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -422,6 +454,22 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.FeralCorgi.Grenades.Bubble.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.FeralCorgi.Grenades.Flashbang.Speed": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -479,7 +527,7 @@
           },
           {
             "Time": 1.0,
-            "Value": 5.0
+            "Value": 4.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -496,6 +544,22 @@
           {
             "Time": 1.0,
             "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Flashbang.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -576,6 +640,22 @@
           {
             "Time": 1.0,
             "Value": 500.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Impulse.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -678,6 +758,22 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.FeralCorgi.Grenades.ProxMine.CheckLOSInterval": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.1
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.1
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.FeralCorgi.Grenades.ProxMine.LaunchZ": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -720,6 +816,22 @@
           {
             "Time": 1.0,
             "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.ProxMine.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -811,11 +923,27 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 3.5
+            "Value": 2.0
           },
           {
             "Time": 1.0,
-            "Value": 3.5
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Recon.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -880,6 +1008,230 @@
           {
             "Time": 1.0,
             "Value": 750.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Smoke.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.Speed": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 5000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.MaxSpeed": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 5000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.FuseTime": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 5.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.Radius": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 500.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 500.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.Lifetime": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 6.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.HeightFromOrigin": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 200.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 200.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.SphereTraceRadius": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.LoSCheckInterval": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.1
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.1
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.DamageTickRate": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.AllyDamagePerTick": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 8.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.DamagePerTick": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 15.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.RadiusNumberOfPoints": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 36.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 36.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FeralCorgi.Grenades.Fire.MaxStack": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,

@@ -51143,6 +51143,14 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -51296,6 +51304,30 @@
           {
             "Time": 1.0,
             "Value": -1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.RebootVan.BuyRebootCard.Enable": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
           },
           {
             "Time": 2.0,

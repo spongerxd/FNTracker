@@ -848,30 +848,6 @@
               },
               {
                 "Text": {
-                  "CultureInvariantString": null
-                },
-                "WorldLocation": {
-                  "X": -90402.0,
-                  "Y": 41655.0,
-                  "Z": 4432.0
-                },
-                "LocationTag": {
-                  "TagName": "Athena.Location.POI.Generic.13"
-                },
-                "CalendarEventsRequired": [],
-                "DiscoveryQuestPrimaryAssetId": {
-                  "PrimaryAssetType": {
-                    "Name": "Quest"
-                  },
-                  "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
-                },
-                "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_LargeGasStation",
-                "ActiveDiscoverableBlodIds": [
-                  50
-                ]
-              },
-              {
-                "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_26",
                   "SourceString": "Dashi Dash",
@@ -1286,7 +1262,7 @@
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_43",
-                  "SourceString": "Rouge Repairs Black Market",
+                  "SourceString": "Rogue Repairs Black Market",
                   "LocalizedString": "Чёрный рынок Стильного салона"
                 },
                 "WorldLocation": {
@@ -1650,6 +1626,31 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.Landmark.08"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_46",
+                  "SourceString": "Mine Entrance 1",
+                  "LocalizedString": "Большая черепаха"
+                },
+                "WorldLocation": {
+                  "X": -96858.66,
+                  "Y": 52120.176,
+                  "Z": 11411.996
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.46"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {

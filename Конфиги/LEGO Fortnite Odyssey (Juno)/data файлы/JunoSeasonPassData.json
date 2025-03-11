@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "SeasonPassData",
+    "Name": "JunoSeason2PassData",
+    "Class": "UScriptClass'SeasonPassData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Product": {
+        "TagName": "Product.Juno"
+      },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "A56CD70941DB31DB5C07118805D8FEC3",
+        "SourceString": "Goldrush Gallery",
+        "LocalizedString": "Золотая лихорадка"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "7CFE7B034A1AE2ACE21E6B99FD86AA15",
+        "SourceString": "Goldrush Gallery is complete!",
+        "LocalizedString": "Галерея «Золотая лихорадка» собрана!"
+      },
+      "SeasonStorefront": "JunoSeason2Pass",
+      "SeasonPassOfferId": "4B0DE1AD4A4E9FCF552F9794A82D04AF",
+      "SeasonPassLevelOfferId": "D58AD0DF4500198B3E56A08BA72302A2",
+      "LargeIcon": {
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_JunoPass.MI_UI_NexusHeaderIcon_JunoPass",
+        "SubPathString": ""
+      },
+      "SmallIcon": {
+        "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_Juno.MI_UI_SideNavIcon_Juno",
+        "SubPathString": ""
+      },
+      "BuyPassButtonName": {
+        "Namespace": "",
+        "Key": "9D9E2A6A43D63A56C2388BB2BAB99DF0",
+        "SourceString": "Get LEGO® Pass",
+        "LocalizedString": "Получить пропуск"
+      },
+      "ThemeData": {
+        "SeasonColor": {
+          "R": 1.0,
+          "G": 0.768151,
+          "B": 0.187821,
+          "A": 1.0,
+          "Hex": "FFE378"
+        },
+        "ProgressionColor": {
+          "R": 1.0,
+          "G": 0.768151,
+          "B": 0.187821,
+          "A": 1.0,
+          "Hex": "FFE378"
+        },
+        "VaultBackgroundMaterial": {
+          "AssetPathName": "/S2Pass/UI/MaterialInstances/MI_BG_Nexus_OroPass_Inst.MI_BG_Nexus_OroPass_Inst",
+          "SubPathString": ""
+        },
+        "UIBackgroundMaterial": {
+          "AssetPathName": "/S2Pass/UI/MaterialInstances/MI_BG_Nexus_OroPass_UI.MI_BG_Nexus_OroPass_UI",
+          "SubPathString": ""
+        },
+        "UpsellBackgroundMaterial": {
+          "AssetPathName": "/S2Pass/UI/MaterialInstances/MI_UI_Crew_Upsell_OroPass.MI_UI_Crew_Upsell_OroPass",
+          "SubPathString": ""
+        },
+        "CrewCategoryBackgroundMaterial": {
+          "AssetPathName": "/S2Pass/UI/MaterialInstances/MI_UI_OroPass_CategoryButton_Crew.MI_UI_OroPass_CategoryButton_Crew",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

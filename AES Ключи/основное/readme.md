@@ -2,7 +2,7 @@
 
 Служат для разблокировки основных файлов Fortnite.
 
-### [Текущие AES Ключи - 34.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.00.md)
+### [Текущие AES Ключи - 34.10](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.10.md)
 
 ## Cert
 
@@ -397,3 +397,4 @@
 |                                                                                       Версия игры                                                                                |                             AES Ключ                               |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
 | [34.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.00.md) | 0x9B00653526286646CD053FAA0E3AAC2F56B8684899CD29EA62880CC2EEDF84C8 |
+| [34.10](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.10.md) | 0xB8137A10BD267EA444C2FF5816A9BB3741E1E00D84C6347BAC2BA9E8B0B21566 |

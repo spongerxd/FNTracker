@@ -251,6 +251,9 @@
   "CharacterType_FromPreset": {
     "CharacterType_FromPreset": "В типе персонажа отсутствует ИИ для создания!"
   },
+  "CharacterType_Randomize": {
+    "NPCCharacterType_Randomize": "Предоставьте минимум 2 определения персонажа для случайного выбора в типе случайного выбора персонажа!"
+  },
   "Code Outliner": {
     "Code Outliner": "Структура кода"
   },
@@ -296,7 +299,7 @@
     "ValkyrieEditor": "Редактор Valkyrie"
   },
   "ConversationGraph": {
-    "ConversationGraphToolTip": "Банк диалогов"
+    "ConversationGraphToolTip": "Хранилище диалогов"
   },
   "CRDummyProvider": {
     "DummyError": "У фиктивного поставщика возникла фиктивная ошибка."
@@ -660,6 +663,7 @@
     "Audio": "Аудио",
     "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
     "DynamicBRLevels": "Уровни Королевской битвы",
+    "BudgetCosmetics": "Не хватает выделенного объёма памяти для косметических предметов [Занято…]",
     "AssetsStillScanningError_ExportAvatars": "Невозможно экспортировать аватары, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
     "AssetsStillScanningError_Synchronous": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов.",
     "AssetsStillScanningError_ExportKeyChain": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
@@ -748,6 +752,7 @@
     "RespawnDaySequenceActor": "Актор смены дня и ночи при возрождении",
     "RespawnDaySequenceActorTooltip": "Актор смены дня и ночи при возрождении",
     "FortGameFeaturePluginProfile_None_Tooltip": "Восстанавливает включение GameFeaturePlugin по умолчанию без использования профилей",
+    "BudgetCosmeticParts": "Перебрать все косметические предметы Fortnite для определения объёма выделения памяти. В данный момент использует пространство на диске, оптимизированное для определённой платформы",
     "CheckContentDescription": "Запускает задание проверки контента всех выбранных ресурсов для выявления ошибок и предупреждений",
     "Save the World": "Сражение с Бурей",
     "McpBackendSelectorSelectBackend": "Выбрать сервер",
@@ -1087,7 +1092,7 @@
     "FortValidator_Skeleton.ReferencerErrors": "Обнаружены ошибки при ссылке на ресурс",
     "DataValidation.LoadErrors": "Ошибки при загрузке ресурса {0}",
     "FailedToCheckOutPlugins": "Не удалось получить файлы плагина",
-    "FailedToDuplicate": "Не удалось дублировать систему Niagara {0}",
+    "FailedToDuplicate": "Не удалось дублировать систему Niagara {0}, см. причины ошибок в журналах очистки памяти.",
     "DataValidation.FailedToLoadAsset": "Не удалось загрузить ресурс",
     "FortValidator_Blueprints.LoadFailure": "Не удалось загрузить копию объекта для проверки: {0}",
     "FortValidator_MaterialFunction.LoadFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
@@ -1122,7 +1127,6 @@
     "PlaylistAthenaValidator_MinBackfillMatchPlayersGtMax": "\"Минимальное количество игроков для заполнения матча\" ({0}) не может быть > \"Максимального количества игроков\" ({1}).",
     "PlaylistAthenaValidator_MinPlayersGtMaxTeamCountTimesMaxTeamSize": "Min Player Count ({0}) не может быть > Max Team Count ({1}) с множителем Max Team Size ({2}).",
     "PlaylistAthenaValidator_MinPlayersLte0": "Min Players ({0}) не может быть <= 0.",
-    "InvalidForValidation": "Система Niagara {0} не соответствует параметрам проверки и будет проигнорирована.  Оптимизировано для редактора = {1}",
     "IllegalReference_AssetFilterVersionFail": "Ресурс предыдущей версии {0} не может ссылаться на ресурс будущей версии {1}",
     "StaticMesh_NonNaniteTooManyVerts": "В статичной сетке, созданной не в Nanite, превышено количество вершин[уровень детализации {0} на {1} вершин превышает допустимое количество {2}]. Это приведёт к недопустимому перерасходу ресурсов при отрисовке!!",
     "TextureValidator_TooBig": "Слишком большая некинематографическая текстура. Размер — {0}×{1}. Используйте LODBias, чтобы уменьшить её размер до {2} или ниже",
@@ -1209,6 +1213,17 @@
   },
   "FValkyrieFortniteEditorSpatialMetrics": {
     "ServerSession": "Сервер"
+  },
+  "FVerseVectorStructCustomization": {
+    "ForwardToolTip": "Вперёд (ранее X)",
+    "TemporaryForwardDisplayName": "Вперёд (ранее X)",
+    "TemporaryForwardToolTip": "Вперёд (ранее X)",
+    "RightToolTip": "Вправо (ранее Y)",
+    "TemporaryRightDisplayName": "Вправо (ранее Y)",
+    "TemporaryRightToolTip": "Вправо (ранее Y)",
+    "TemporaryUpDisplayName": "Вверх (ранее Z)",
+    "TemporaryUpToolTip": "Вверх (ранее Z)",
+    "UpToolTip": "Вверх (ранее Z)"
   },
   "GameplayEventCachedBindingDetails": {
     "NullProperty": "Нет"
@@ -2009,6 +2024,7 @@
     "MetricClassInvalidText": "Недействительный класс показателя.",
     "NoValidSubsystemText": "Отсутствует действительная подсистема пространственных показателей.",
     "NoValidWorldText": "Отсутствует действительный мир.",
+    "SamplerEnabledText": "Устройство выборки включено.",
     "SamplerNotEnabledText": "Устройство выборки не включено."
   },
   "SpatialMetricsCsvProfilerImportSettings": {
@@ -2133,6 +2149,7 @@
   "SSpatialMetricsTreeView": {
     "HeaderRowMetricsColumn": "Показатели",
     "OtherCategory": "Другое",
+    "SearchHintText": "Поиск",
     "NumberOfMetrics": "{0} Показатели"
   },
   "SSpatialMetricsViewer": {
@@ -2155,7 +2172,8 @@
     "ResetHeatmapColorSettingsMessage": "Эта операция сбрасывает все настройки цвета карты ресурсов памяти до значения по умолчанию.",
     "ResetMetricSettingsMessage": "Эта операция сбрасывает все настройки показателей до значения по умолчанию.",
     "UndefinedProfilerSessionSource": "Неизвестный источник",
-    "UnsavedSampleData": "Несохранённые данные выборки"
+    "UnsavedSampleData": "Несохранённые данные выборки",
+    "DisconnectedProfilerSessionSource": "{0} (Отключено)"
   },
   "SValkyrieInitializeProjectSettingsDialog": {
     "Button.Cancel": "Отмена",
@@ -2897,9 +2915,7 @@
     "ModerationMenuEntryText": "Модерация",
     "ValkyrieOpenProject": "Новый/открыть проект…",
     "NewsWindowTitle": "Новости",
-    "ValkyrieOpenProjectFolder": "Открыть папку проекта…",
     "OpenReferenceContentSourceProjectLabel": "Проект с открытым исходным кодом",
-    "ValkyrieOpenProjectFolder_ToolTip": "Открыть папку текущего проекта на диске.",
     "ValkyrieProjectSettings_ToolTip": "Открыть настройки текущего проекта",
     "ProjectSectionLabel": "Проект",
     "ValkyrieProjectMenu_Label": "Проект",
@@ -2921,6 +2937,8 @@
     "ValkyrieRestrictiveMode": "Ограниченный режим",
     "ResolveModerationIssuesTooltip": "Просмотреть проблемы соответствия ресурсов, возникшие во время модерации проекта.",
     "RunProjectAutoLocalization.Tooltip": "Запустить автоматическую локализацию экспортированных данных локализации для этого проекта",
+    "ValkyrieOpenProjectFolder": "Отображать проект в {FileManagerName}",
+    "ValkyrieOpenProjectFolder_ToolTip": "Показать папку текущего проекта на диске.",
     "ExportProjectLocalization.SuccessTitle": "Успешно",
     "ValkyrieRestrictiveMode_ToolTip": "Переключить ограниченный режим",
     "ValkyrieProjectSize_Tooltip": "Посмотреть размер проекта с разбивкой по категориям",
@@ -3084,7 +3102,7 @@
     "ValkyrieAutoConnectInstrumentedClient": "Автоматически подключать клиент в инструментальном режиме",
     "ValkyrieAutoConnectInstrumentedClient_Tooltip": "Автоматически запускать отслеживание с клиента в инструментальном режиме.",
     "CreateBuild.MemoryCheckWarning": "Перед публикацией на творческом портале вы должны запустить подсчёт объёма памяти.\nВернитесь на эту стадию после создания окончательной закрытой версии для проверки использования вашим проектом памяти.\nРезультаты подсчёта объёма памяти обновятся на портале, что позволит вам опубликовать проект.\n<a id=\"memory_management_docs\" href=\"{0}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>",
-    "CreateBuild.ToolTip.Error.ExperimentalExecute": "Прежде чем публиковать этот проект, вы должны отключить все экспериментальные функции (см. `Настройки\tпроекта->Доступ к экспериментальным функциям`).",
+    "CreateBuild.ToolTip.Error.ExperimentalExecute": "Прежде чем публиковать этот проект, вы должны отключить экспериментальные функции, блокирующие публикации. (см. `Проект\tНастройки->Экспериментальный доступ`).",
     "CreateBuild.ToolTip.Error.ModerationSoftfail": "Прежде чем публиковать этот проект, необходимо устранить проблемы с модерацией, выявленные в Творческом портале.",
     "ValkyrieBindToNewProjectOnContentService_MenuEntry": "Привязать к новому проекту в сервисе управления контентом",
     "ResetProjectBindings.SlowTask": "Привязать к новому проекту в сервисе управления контентом…",
@@ -3405,6 +3423,7 @@
   },
   "ValkyrieLocalProjectCustomization": {
     "OpenProjectActionText": "Открыть",
+    "ProjectNotFoundOnContentServiceAnnotationText": "Не удалось найти этот проект в сервисе управления контентом. Вероятно, он был создан локально. При открытии этого проекта произойдёт подключение к сервису управления контентом.",
     "LocalSkeinProjectAnnotationText": "У этого проекта имеется резервная копия в системе контроля версий Unreal Revision Control."
   },
   "ValkyrieModuleStagingContext": {
@@ -3594,6 +3613,9 @@
     "TeamPropertyLabelText": "Команда",
     "InvalidDocsUrlMessage": "URL-адрес документации для этого проекта (\"{0}\") недействителен.\nПоддерживаются только полные URL-адреса (например: https://example.com) и {1} идентификаторы страницы документации (например: this-is-an-example-page-id)."
   },
+  "ValkyrieProjectLibrary": {
+    "Error.InvalidProjectHandle": "Указанный дескриптор проекта недопустим!"
+  },
   "ValkyrieProjectLocalization": {
     "GatherTextTask": "Сбор локализованного текста..."
   },
@@ -3637,6 +3659,7 @@
     "ReloadProject.NotifError": "Не удалось перезагрузить '{0}'",
     "FailRenameVKProject": "Не удалось переименовать проект\n{0}\n\n{1}",
     "InitialSnapshot": "Начальный снимок состояния",
+    "LoadMapLogPage": "Загрузка проекта: {ProjectTitle}",
     "ProjectTrustDialog.NoButton": "Нет, я не доверяю авторам",
     "ExternalContentLoadFail.OpenAnyway": "Открыть в любом случае",
     "OpenProjectTask": "Открытие проекта {0}…",
@@ -3676,6 +3699,9 @@
     "ArchiveStatusMessage": "Архивация проекта…",
     "BrowseButtonToolTip": "Найти и открыть проект на компьютере",
     "BrowseButtonText": "Обзор…",
+    "CopyProjectFilePathContextMenuEntry": "Скопировать путь к проекту",
+    "CopyProjectFilePathContextMenuEntry_ToolTip": "Скопировать путь к проекту на диске в буфер обмена.",
+    "UpdateArchiveStatusProjectNotFound": "Не удалось найти проект '{0}' в сервисе управления контентом.",
     "ProjectManagementSectionHeading": "Управление",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
@@ -3684,6 +3710,8 @@
     "OpenProjectActionText": "Открыть",
     "LoadingProjectDocumentMessage": "Получение информации о проекте...",
     "BrowseForProjectOnDiskTitleText": "Выбор проекта, который нужно открыть",
+    "OpenProjectFolderContextMenuEntry": "Отображать проект в {FileManagerName}",
+    "OpenProjectFolderContextMenuEntry_ToolTip": "Отображать папку проекта на диске.",
     "OnlineProjectWithNoLocalRepresentation": "Не удалось найти проект в ожидаемом месте. Если он есть на компьютере, нажмите кнопку Обзор, чтобы найти его. Если нет, может потребоваться синхронизация с системой контроля версий.",
     "LockedProject": "Проект заблокирован. Обратитесь в <a id=\"player_support\" href=\"{PlayerSupportURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">службу поддержки игроков Epic</> и укажите проект {ProjectId}.",
     "UnarchiveProjectContextMenuEntry": "Распаковать",
@@ -3920,13 +3948,16 @@
     "AssetNamesBelow": "См. список ресурсов ниже"
   },
   "ValkyrieValidationFixer": {
+    "FixObjects.SlowTaskTitle": "Исправляется {0} {0}|plural(one=объект,few=объекта,many=объектов,other=объектов)…",
     "LoadAndFixAssets.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=ресурса,few=ресурсов,many=ресурсов,other=ресурсов)…",
-    "FixObjects.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,few=объектов,many=объектов,other=объектов)…",
+    "FixObjectProperties.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=объекта,few=объектов,many=объектов,other=объектов)…",
     "FixPackages.SlowTaskTitle": "Идёт обработка {0} {0}|plural(one=пакета,few=пакетов,many=пакетов,other=пакетов)…",
-    "FixObjects.SlowTaskProgress": "Обработка {0}…",
+    "FixObjectProperties.SlowTaskProgress": "Обработка {0}…",
     "FixPackages.SlowTaskProgress": "Обработка {0}…",
     "LoadAndFixAssets.SlowTaskProgress": "Обработка {0}…",
     "Transaction.ResetToDefault": "Сброс настроек",
+    "FixBlueprintRestrictedContent.SlowTaskTitle": "Зачищается {0} {0}|plural(one=объект,few=объекта,many=объектов,other=объектов)…",
+    "FixBlueprintRestrictedContent.SlowTaskProgress": "Зачищается {0}…",
     "MessageLogCategory": "Исправление после проверки",
     "MessageLogPageTitle": "Исправление после проверки: {0}",
     "Report.Summary": "{0} {0}|plural(one=объект был автоматически обновлён,few=объекта были автоматически обновлены,many=объектов было автоматически обновлено,other=объектов было автоматически обновлено) для устранения проблем, выявленных при проверке."
@@ -3978,8 +4009,8 @@
     "UITextureTooBig": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}.\n  Измените размеры исходного файла текстуры до {MaxSize}×{MaxSize} или меньше.",
     "NonUITextureNotStreamable": "{LeadText}\n  Отключите для текстуры свойство \"Не подгружать\".",
     "Tooltip_UITextureMaxSize": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}",
-    "Tooltip_NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.",
-    "NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.\n  Её текущее размер в игре {SizeX}×{SizeY}. Измените свойство \"Предпочтительный уровень детализации виртуальных текстур\"."
+    "NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}.\n  Её текущее размер в игре {SizeX}×{SizeY}. Измените свойство \"Предпочтительный уровень детализации виртуальных текстур\".",
+    "Tooltip_NonUITextureTooBig": "{LeadText} Максимальный размер — {MaxSize}×{MaxSize}. Измените свойство \"Предпочтительный уровень детализации виртуальных текстур\"."
   },
   "ValkyrieValidator_Widget": {
     "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
@@ -4120,6 +4151,7 @@
     "ChoiceTextDisplayName": "Текст ответа"
   },
   "VkContentService": {
+    "CookedContentTimeout": "Произошла ошибка во время связи с серверами игры: истекло время ожидания",
     "StopAutoLocalizationJob.Error.FailedToStop": "Не удалось прервать задачу по локализации"
   },
   "VkEventNodeDetails": {
