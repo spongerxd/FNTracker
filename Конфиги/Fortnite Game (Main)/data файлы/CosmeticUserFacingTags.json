@@ -310,6 +310,23 @@
           "SourceString": "responds to receiving or delivering damage",
           "LocalizedString": "Реагирует на получение и нанесение урона."
         }
+      },
+      "Cosmetics.UserFacingFlags.Elimination": {
+        "Tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Elimination"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3075138541CB767C537ADD86F6BCDD34",
+          "SourceString": "Elim Reactive",
+          "LocalizedString": "Реакция на устранение"
+        },
+        "HelpText": {
+          "Namespace": "",
+          "Key": "86C0FD07412D642CAC29028401D2EECD",
+          "SourceString": "responds to eliminations",
+          "LocalizedString": "реагирует на устранения"
+        }
       }
     }
   }

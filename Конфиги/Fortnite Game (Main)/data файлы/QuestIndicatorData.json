@@ -14,10 +14,10 @@
           }
         },
         {
-          "Key": "Athena_Terrain_S02",
+          "Key": "Athena_Terrain_S03",
           "Value": {
-            "ObjectName": "CompositeDataTable'Athena_Terrain_S02MapMarkersDataTable'",
-            "ObjectPath": "/Game/Quests/QuestTagLocations/Athena_Terrain_S02MapMarkersDataTable.0"
+            "ObjectName": "CompositeDataTable'Athena_Terrain_S03MapMarkersDataTable'",
+            "ObjectPath": "/Game/Quests/QuestTagLocations/Athena_Terrain_S03MapMarkersDataTable.0"
           }
         },
         {
@@ -115,6 +115,17 @@
         },
         {
           "Key": "Athena_Terrain_S02",
+          "Value": {
+            "OrthoWidth": 262426,
+            "WorldOffset": {
+              "X": 28321.8,
+              "Y": -21131.031
+            },
+            "Rotation": -90.0
+          }
+        },
+        {
+          "Key": "Athena_Terrain_S03",
           "Value": {
             "OrthoWidth": 262426,
             "WorldOffset": {
@@ -606,6 +617,31 @@
                 },
                 "LocationTag": {
                   "TagName": "Athena.Location.UnNamedPOI.Landmark.27"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_47",
+                  "SourceString": "Mine Entrance 2",
+                  "LocalizedString": "Вход в шахту 2"
+                },
+                "WorldLocation": {
+                  "X": -25018.861,
+                  "Y": 4869.7866,
+                  "Z": 11411.996
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.47"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -3642,6 +3678,526 @@
               }
             ]
           }
+        },
+        {
+          "Key": "Athena_Terrain_S03",
+          "Value": {
+            "ChallengeMapsPoiData": [
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_PleasantPark",
+                  "SourceString": "Pleasant Park",
+                  "LocalizedString": "Приятный парк"
+                },
+                "WorldLocation": {
+                  "X": 86528.0,
+                  "Y": -82176.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.PleasantPark"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj8",
+                "ActiveDiscoverableBlodIds": [
+                  220
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_LonelyLodge",
+                  "SourceString": "Lonely Lodge",
+                  "LocalizedString": "Далёкий домик"
+                },
+                "WorldLocation": {
+                  "X": 54336.0,
+                  "Y": 71104.0,
+                  "Z": -24.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.LonelyLodge"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj5",
+                "ActiveDiscoverableBlodIds": [
+                  110
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_SaltySprings",
+                  "SourceString": "Salty Springs",
+                  "LocalizedString": "Колкие ключи"
+                },
+                "WorldLocation": {
+                  "X": 4160.0,
+                  "Y": -8448.0,
+                  "Z": -120.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.SaltySprings"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj10",
+                "ActiveDiscoverableBlodIds": [
+                  180
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_AnarchyAcres",
+                  "SourceString": "Anarchy Acres",
+                  "LocalizedString": "Акры Анархии"
+                },
+                "WorldLocation": {
+                  "X": 102528.0,
+                  "Y": -19200.0,
+                  "Z": -1976.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.AnarchyAcres"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj0",
+                "ActiveDiscoverableBlodIds": [
+                  125
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_MoistyMire",
+                  "SourceString": "Moisty Mire",
+                  "LocalizedString": "Топкая трясина"
+                },
+                "WorldLocation": {
+                  "X": -40384.0,
+                  "Y": 58496.0,
+                  "Z": -5336.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.MoistyMire"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj7",
+                "ActiveDiscoverableBlodIds": [
+                  150
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_JunkJunction",
+                  "SourceString": "Junk Junction",
+                  "LocalizedString": "Стихийная свалка"
+                },
+                "WorldLocation": {
+                  "X": 130404.0,
+                  "Y": -104072.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.JunkJunction"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj15",
+                "ActiveDiscoverableBlodIds": [
+                  155
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_WailingWoods",
+                  "SourceString": "Wailing Woods",
+                  "LocalizedString": "Ревущая роща"
+                },
+                "WorldLocation": {
+                  "X": 85504.0,
+                  "Y": 54336.0,
+                  "Z": -120.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.WailingWoods"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj12",
+                "ActiveDiscoverableBlodIds": [
+                  135
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_RetailRow",
+                  "SourceString": "Retail Row",
+                  "LocalizedString": "Торговая точка"
+                },
+                "WorldLocation": {
+                  "X": 24512.0,
+                  "Y": 36480.0,
+                  "Z": -1656.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.RetailRow"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj9",
+                "ActiveDiscoverableBlodIds": [
+                  170
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_LootLake",
+                  "SourceString": "Loot Lake",
+                  "LocalizedString": "Подлый пруд"
+                },
+                "WorldLocation": {
+                  "X": 64960.0,
+                  "Y": -45120.0,
+                  "Z": -1528.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.LootLake"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj6",
+                "ActiveDiscoverableBlodIds": [
+                  190
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_HauntedHills",
+                  "SourceString": "Haunted Hills",
+                  "LocalizedString": "Хмурые холмы"
+                },
+                "WorldLocation": {
+                  "X": 109312.0,
+                  "Y": -115072.0,
+                  "Z": -1920.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.HauntedHills"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj17",
+                "ActiveDiscoverableBlodIds": [
+                  250
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_TiltedTowers",
+                  "SourceString": "Tilted Towers",
+                  "LocalizedString": "Брошенные башни"
+                },
+                "WorldLocation": {
+                  "X": 34152.0,
+                  "Y": -61316.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.TiltedTowers"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj16",
+                "ActiveDiscoverableBlodIds": [
+                  245
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_LuckyLanding",
+                  "SourceString": "Lucky Landing",
+                  "LocalizedString": "Китайский квартал"
+                },
+                "WorldLocation": {
+                  "X": -73156.0,
+                  "Y": -5396.0,
+                  "Z": -5336.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.LuckyLanding"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj18",
+                "ActiveDiscoverableBlodIds": [
+                  230
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_DustyDepot",
+                  "SourceString": "Dusty Depot",
+                  "LocalizedString": "Старый склад"
+                },
+                "WorldLocation": {
+                  "X": 45184.0,
+                  "Y": -4160.0,
+                  "Z": -1976.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.DustyDepot"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj1",
+                "ActiveDiscoverableBlodIds": [
+                  140
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_FatalFields",
+                  "SourceString": "Fatal Fields",
+                  "LocalizedString": "Поля погибели"
+                },
+                "WorldLocation": {
+                  "X": -36544.0,
+                  "Y": -384.0,
+                  "Z": -440.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.FatalFields"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj2",
+                "ActiveDiscoverableBlodIds": [
+                  120
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_SnobbyShores",
+                  "SourceString": "Snobby Shores",
+                  "LocalizedString": "Богатый берег"
+                },
+                "WorldLocation": {
+                  "X": 45956.0,
+                  "Y": -133552.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.SnobbyShores"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj14",
+                "ActiveDiscoverableBlodIds": [
+                  115
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_TomatoTown",
+                  "SourceString": "Tomato Town",
+                  "LocalizedString": "Помидоровка"
+                },
+                "WorldLocation": {
+                  "X": 80576.0,
+                  "Y": 15552.0,
+                  "Z": -2872.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.TomatoTown"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj11",
+                "ActiveDiscoverableBlodIds": [
+                  240
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_GreasyGrove",
+                  "SourceString": "Greasy Grove",
+                  "LocalizedString": "Засаленная закусочная"
+                },
+                "WorldLocation": {
+                  "X": 2048.0,
+                  "Y": -96512.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.GreasyGrove"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj4",
+                "ActiveDiscoverableBlodIds": [
+                  160
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_FlushFactory",
+                  "SourceString": "Flush Factory",
+                  "LocalizedString": "Фабрика фаянса"
+                },
+                "WorldLocation": {
+                  "X": -62976.0,
+                  "Y": -64000.0,
+                  "Z": -2360.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.FlushFactory"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj3",
+                "ActiveDiscoverableBlodIds": [
+                  130
+                ]
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Athena_Terrain_S03",
+                  "Key": "NameForLocation_Athena_Location_POI_ShiftyShafts",
+                  "SourceString": "Shifty Shafts",
+                  "LocalizedString": "Шаткие шахты"
+                },
+                "WorldLocation": {
+                  "X": 196.0,
+                  "Y": -61728.0,
+                  "Z": -1848.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.ShiftyShafts"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_Figment_S01_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_Figment_S01_Discover_NamedLocations_obj13",
+                "ActiveDiscoverableBlodIds": [
+                  105
+                ]
+              }
+            ]
+          }
         }
       ],
       "ProductTagToMapName": [
@@ -3649,7 +4205,7 @@
           "Key": {
             "TagName": "Product.Figment"
           },
-          "Value": "Athena_Terrain_S02"
+          "Value": "Athena_Terrain_S03"
         },
         {
           "Key": {

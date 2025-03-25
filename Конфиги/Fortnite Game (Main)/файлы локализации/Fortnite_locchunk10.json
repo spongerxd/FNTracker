@@ -24,6 +24,9 @@
     "8D56ED064BDBC9A9CA7519AAF3E0F472": "<Emphasized>Урон от кирки</> возрастает при <Emphasized>каждом попадании</> по врагам",
     "F098D2D04AC64FEAABFAD4A9370613CE": "Ваш персонаж <Emphasized>меньше вздрагивает</> при получении урона",
     "DDA8D03F4DEA0238335DC484544906BD": "Противники постоянно получают <Emphasized>информацию о вашем местоположении</>",
+    "5A5F96FF49E2D091393AEC90F11E6F79": "<TeamKiller>{ConfirmingPlayer}</> подтверждает место атаки, которое указывает {MarkerOwner}",
+    "19282BA84EF014533A7D36ACA97CC820": "<TeamKiller>{ConfirmingPlayer}</> подтверждает местоположение врага, которое указывает {MarkerOwner}",
+    "9F1ADCC84CAACE9179C392821E4142B9": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} проехаться",
     "14EB69E8451CFA3720025789DCD5057F": "<TeamKiller>{ConfirmingPlayer}</> может подлечить игрока {MarkerOwner}",
     "72DA0B3C4DDD24840AC09EBB31DD1269": "<TeamKiller>{ConfirmingPlayer}</> может дать крупнокалиберные патроны игроку {MarkerOwner}",
     "5FBDF1AE4CAE8BAF32749EA7C9461800": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} малокалиберные патроны",
@@ -31,18 +34,17 @@
     "5402A5F6466452B1EA2374A9ECB98CC2": "<TeamKiller>{ConfirmingPlayer}</> может дать металл игроку {MarkerOwner}",
     "0A32C1104455530F9F53F3B0A91F2D0B": "<TeamKiller>{ConfirmingPlayer}</> может дать ракеты игроку {MarkerOwner}",
     "21501ABC458E1A6C312E308EB1B28672": "<TeamKiller>{ConfirmingPlayer}</> может дать охотничьи патроны игроку {MarkerOwner}",
+    "FC8FB3AF48F78FFAF4E1E1ABCBBF40AE": "<TeamKiller>{ConfirmingPlayer}</> может зарядить щиты игроку {MarkerOwner}",
     "13F327E84249D18148C103AEB1052CAF": "<TeamKiller>{ConfirmingPlayer}</> может дать камень игроку {MarkerOwner}",
     "D51B7B4948CA9680794F69BDD9606610": "<TeamKiller>{ConfirmingPlayer}</> может дать древесину игроку {MarkerOwner}",
     "A6ECB4B043D47477AC2611B8BC49EFDB": "<TeamKiller>{ConfirmingPlayer}</> спешит на помощь игроку {MarkerOwner}",
     "03FCCF0B4EC53B3F08FAF9A9AB1E20F5": "<TeamKiller>{ConfirmingPlayer}</> собирается присоединиться к игроку {MarkerOwner}",
-    "5A5F96FF49E2D091393AEC90F11E6F79": "<TeamKiller>{PlayerName}</> подтверждает место атаки, которое указывает {MarkerOwner}",
-    "9F1ADCC84CAACE9179C392821E4142B9": "<TeamKiller>{PlayerName}</> предлагает игроку {MarkerOwner} проехаться",
+    "B2B0AD6644B63FF0A9AAA7BD9EFB15C5": "<TeamKiller>{ConfirmingPlayer}</> отвечает игроку {MarkerOwner}: «Пожалуйста».",
+    "8D9C8CB744C60491C4D61A837E968A3F": "<TeamKiller>{PlayerName}</> говорит: «Спасибо».",
     "B51E846243739177C4159D8DB4317994": "<TeamKiller>{PlayerName}</> отмечает место назначения",
     "973E45B544F52AC70001A399716836ED": "<TeamKiller>{PlayerName}</> указывает место <red>атаки</>",
-    "1ADF8C6E4219CE80298818B3277A6C76": "<TeamKiller>{PlayerName}</> призывает <red>отступить</>!",
-    "A741863B4DA85D6AA8D995BE4E373C39": "<TeamKiller>{PlayerName}</> сообщает, что <red>тут кто-то был</>",
+    "7B9FFFAB42F3B77A2EAE568F794F581B": "<TeamKiller>{PlayerName}</> отмечает местоположение врага",
     "D127C33E45859EE70C98E39F92F5330E": "<TeamKiller>{PlayerName}</> просит о <blue>помощи</>",
-    "C821633E410822F1AEE947A1DABFDAF9": "<TeamKiller>{PlayerName}</> хочет <green>подлечиться</>",
     "5DBABCEC4C17F8FFE062319672AEFF23": "<TeamKiller>{PlayerName}</> ищет транспорт",
     "0ED15AF3454AD084CC29E886DE0310A7": "<TeamKiller>{PlayerName}</> просит крупнокалиберные патроны",
     "300EEA27439994BFD373FC80B84E842F": "<TeamKiller>{PlayerName}</> просит малокалиберные патроны",
@@ -234,6 +236,7 @@
     "0A9381554E499FD10B15438EDCFD41B0": "Супербольшая бочка",
     "1141551646D2B84FA4A5CD9BE56BC8B0": "Биплан",
     "5B5236944941BFD7DE82B8B05FE11D94": "Биплан",
+    "DF56207843F6244003548CA79CFAA0F4": "Биплан",
     "AD9DF9A2455C274907AE29971466ADBA": "Блэйд",
     "EDAA4E1A4AF1139677D30E85FACC53C2": "Блэйд",
     "Block": "Заблокировать {0}.",
@@ -503,7 +506,6 @@
     "98A8A87D4B82B773B107BD92E72C2C10": "Выполните задания из набора «Пылающая лава»",
     "F6B0D1364048320A2B59A48AFB43004E": "Выполните задания из набора «Пылающая лава»",
     "24E13026404A1C3BF8E304B1701D4196": "Выполните задания из набора «Пылающая лава» и получите экипировку Лавовой художницы!",
-    "AE7B1DE643AAC52B7DBDB588B9BC1282": "Завершено",
     "B87C73214CBE9B43354AC18A83CF9E75": "Считай, что мы тебя приняли. До встречи!",
     "B277435E41CF8D3D5DE281BB25A41C97": "Расходуемый предмет",
     "FE09D4504B9CCAAE0CF1CD8E52C927C2": "Съешьте, чтобы значительно зарядить щит.",
@@ -544,6 +546,7 @@
     "1EC519F64DE59D8F19C00AA24D5DA198": "«Найти и уничтожить», творческий режим: жетон выполнения задания «Война»",
     "2A4E7BE64FAE451A1933E1842FC2C22E": "Картонная коробка",
     "9624A1784D493CC5A0ED82892E736ACA": "Картонная коробка",
+    "ABD56DED4D965E5FA3C73698C66CA46D": "Криминоград",
     "BCDDA1D142A2B017257D488D239BF9C2": "Смертельная двойная бочка",
     "519E612F436C22ADE828A2A783F500CF": "Смертоносный гравипрыжок",
     "7BD382B3456961B38D3B11A2C26F52F2": "Смертоносный подъём",
@@ -649,7 +652,6 @@
     "2518953047DB9C4DDADB66B6557E68BC": "Эпическое цунами",
     "A690F7A048F3CED8AFAF8C8367F187E7": "Эпический колокол",
     "BCE9B6C54613E5474541D9B6DFBB98AF": "Преимущества Epic",
-    "3D50798D4C0BF22F2C10148E7D1D1B67": "Ошибка",
     "D31FD8904D12B64AC1D1DC85ACB6EF89": "Ключ-карточка к хранилищу в поместье",
     "E787593A4A14E0E8635FA8898EC81DA7": "Ключ-карточка к хранилищу в поместье",
     "15C567B14A9C7CE863842A8D04D915C5": "События",
@@ -670,7 +672,6 @@
     "C8074EE14AC9A4E1D5B5AF8809072D41": "НАБОР ОСНОВАТЕЛЯ 4",
     "D3FB59734B08E81911D0A19A44AE4ACA": "НАБОР ОСНОВАТЕЛЯ 5",
     "F0CE215A4C43A35A4F9FAA975385DD4B": "Устройство «Ткань»",
-    "06008C0946E45C609F2F8BA89B94AE05": "Отступаем!",
     "Filter Friends Hint": "Фильтр",
     "FilterList": "Отфильтровать список",
     "04B9B92F4F72E0530969FAA3713B380E": "Ну и, наконец, хранитель должен защищать храм от непрошенных гостей.",
@@ -1382,6 +1383,7 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
+    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "93D0AAC643B7CCE0B45615ADBC124BFD": "Выстрелить/Притянуть",
     "8F2CB8B14C13300867F38FB05719A4D2": "Праздничная бутылочная ракета, взмывающая в воздух. Расходуется при использовании.\r\nНе действует вне миссии.",
@@ -1409,7 +1411,6 @@
     "F24F341641A4FA3F48ABCB8574D8C08C": "Общение",
     "6975749C41271746F89557A170BC3440": "Одиночки",
     "C2AC491F482A085554AF0AAFC289DC0C": "Возможно, ещё наступит день, когда великая птица снова пролетит над островом.",
-    "C603C8AF48D4E001FA95D388CB63810F": "Здесь кто-то был",
     "0784C09346B728C02D1AF5902E492822": "Сезонный пропуск Sparks",
     "DAC933A8407FB35BAB93D480EBADA7CA": "Шаблон «На сцене» для Sparks",
     "BDDC2D064EA8BF85258C269823FFDBCD": "Возрождений осталось",
@@ -1446,8 +1447,6 @@
     "05011BBC46BC913CEB8E7294E096873C": "Смотри в оба. Будет жарко.",
     "515F956A441299A7C7E8F0A53ABEEF53": "Смотри в оба. Будет жарко.",
     "45ED60614319C3A6A58AC9802B025B9F": "Управлять пушкой",
-    "B17EB8EA49E57763A5EF2486B0ECCE79": "Шаг",
-    "FD03D1DE46FE6596D9A6228AAC8EB788": "Шаг",
     "1F73D3BA424CEEC0244715AA22383298": "Липнет и притягивает",
     "67B787224887A430EF752C8C36303455": "Липнет и притягивает",
     "A700825E43AA6B5E4A7A9DA406727C3B": "Липнет и притягивает",
@@ -1533,9 +1532,9 @@
     "080A97174D65E4FBE3FAB79275AB04E6": "Шаблон для создания новой пещеры или подземелья. Содержит все необходимые для работы файлы.",
     "B70DEE644B11C2F166E17DB392CFE702": "Тест",
     "CD41514E4F07AB6EE2D86EBA58BBCDDD": "Идёт проверка",
+    "3F4FB95D40AEAC69A10697A39527FB6F": "Спасибо!",
     "2A90B6A4486E0BF8E8E07DA8F5014A36": "Спасибо. Благодаря твоему обучению сегодня я смогу отдохнуть. ",
     "8AA5648C45337030F5261C97C78FF813": "Спасибо. Благодаря твоему обучению сегодня я смогу отдохнуть. ",
-    "14BBFF9145B131553B2340BA8C895BC2": "Спасибо",
     "B469A5B846E384CF3C7815B29B3FB883": "И вот тогда мне понадобилась легендарная сапфировая змея. ",
     "C87095C7474D03945A1F0FA8329E77AD": "<Emphasized>Золотой</> стандарт",
     "36ED0D7A44EE844C6C65F59275A915E7": "Пропуск «Большой взрыв»",
@@ -2056,7 +2055,9 @@
   },
   "AthenaFullScreenMapBrowsingControlsWidget": {
     "PlaceMapMarker": "Поставить метку",
-    "RemoveMapMarker": "Убрать метку"
+    "PlaceDangerMarker": "Поставить метку опасности (двойное касание)",
+    "RemoveMapMarker": "Убрать метку",
+    "RemoveDangerMarker": "Убрать метку опасности"
   },
   "AthenaFullScreenMapControlsWidget": {
     "RemoveQuestDesc": "Убрать выбранное задание?",
@@ -2137,7 +2138,7 @@
     "FiftyFifty_LivingPlayers": "<Team>{YourTeamAlive}</> на <EnemyTeam>{EnemyTeamAlive}</>",
     "ValkyriePerformanceHUDBase_MemorySamplerCompleted_Action": "Продолжить",
     "MemoryThermometerViewModelTitle": "Текущий расход оперативной памяти",
-    "PackageSizeThermometerViewModelTitle": "Использование текущего размера пакета",
+    "PackageSizeThermometerViewModelTitle": "Текущее использование ресурсов",
     "EnemyTeamAliveCountName": "ВРАЖЕСКАЯ КОМАНДА {EnemyTeamAliveIndex}:",
     "SingleEnemyTeamAliveCountName": "ВРАЖЕСКАЯ КОМАНДА:",
     "ValkyriePerformanceHUDBase_MemorySamplerCompleted_Failed": "ПРОВАЛ",
@@ -2434,6 +2435,7 @@
     "RequiresRep": "Необходимая репутация: {0}"
   },
   "ConfigCustom_Athena /Script/FortniteGame.FortPlayerInputSettings": {
+    "CustomControllerConfiguration_Description": "Пользовательские настройки геймпада по умолчанию.",
     "CustomControllerConfiguration": "Пользовательские настройки"
   },
   "ConfigD /Script/FortniteGame.FortPlayerInputSettings": {
@@ -2490,10 +2492,6 @@
   "ContentBeaconHostObjectV2": {
     "ThrottlingVerseLogs": "Регулировка копий записей в журнале Verse"
   },
-  "ContentbeaconV2": {
-    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
-    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
-  },
   "ContentBeaconV2": {
     "ClientCancelledDownload": "Клиент {Client} отменил загрузку.",
     "FailedToSetProjectId": "Клиенту {Client} не удалось установить проект: {VkProjectId}, модуль: {VkModuleId}",
@@ -2535,6 +2533,10 @@
     "UnauthorizedClient": "У вас нет разрешения на воспроизведение данного материала\n{ShortErrorCode}",
     "TimeoutClientGenericLong": "{Client}: время ожидания перехода от состояния «{StartState}» к состоянию «{DestinationState}» для требуемого материала ({VkProjectId}, {VkModuleId}) превышено."
   },
+  "ContentbeaconV2": {
+    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
+    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
+  },
   "ContentOnDemand": {
     "WrongDataReceived": "Не удалось загрузить дополнительные данные игрока."
   },
@@ -2560,19 +2562,30 @@
     "OutfitLockerDescriptionText": "Вместо экипировки используется стандартный облик вашего командира."
   },
   "CosmeticsGatingBlueprintLibrary": {
-    "CosmeticOfferRatingRestrictionSingleItemMRating": "<img id=\"WarningIcon\"/> Этот предмет можно использовать только в играх с рейтингом «{0}» или выше.",
-    "CosmeticOfferRatingRestrictionSingleItem": "<img id=\"WarningIcon\"/> Этот предмет можно использовать только в играх с рейтингом «{0}».",
-    "CosmeticOfferRatingRestrictionMRating": "Предметы, отмеченные символом <img id=\"WarningIcon\"/>, можно использовать только в играх с рейтингом не ниже «{0}».",
-    "CosmeticOfferRatingRestriction": "Предметы, отмеченные символом <img id=\"WarningIcon\"/>, можно использовать только в играх с возрастным рейтингом «{0}».",
-    "CosmeticOfferPurchaseConfirmationRestrictionSingleJamTrack": "На островах с рейтингом «{0}» и ниже будут доступны только инструментальные партии, без слов.",
-    "LobbyCharacterCosmeticRatingRestriction": "Некоторые предметы вашего персонажа не могут быть использованы в играх с этим рейтингом.",
-    "CosmeticOfferPurchaseConfirmationRestrictionUnderCap": "При запуске игр с рейтингом «{0}» или ниже эти предметы будут отображаться в стандартном виде.",
-    "CosmeticOfferRatingRestrictionJamTrack": "Текст этого джем-трека может подходить игрокам не всех возрастов. На островах с рейтингом «{0}» и ниже будут доступны только инструментальные партии, без слов.",
-    "CosmeticOfferRatingRestrictionJamTrackAlt": "Текст этого джем-трека может подходить игрокам не всех возрастов. На островах с рейтингом «{0}» будут доступны только инструментальные партии, без слов.",
-    "LockerCosmeticRatingRestriction": "Этот предмет нельзя использовать в играх с рейтингом «{0}» или ниже.",
-    "CosmeticOfferPurchaseConfirmationRestrictionMRating": "Вы сможете использовать эти предметы только в играх с рейтингом «{0}» или выше.",
-    "CosmeticOfferPurchaseConfirmationRestriction": "Вы сможете использовать эти предметы только в играх с рейтингом «{0}».",
-    "CosmeticOfferPurchaseConfirmationRestrictionJamTrack": "Вы сможете использовать эти предметы только в играх с рейтингом «{0}» или выше."
+    "SingularRestrictionFormat_OrAbove": "<img id=\"WarningIcon\"/> Этот предмет можно использовать только в играх с рейтингом «{Rating}» или выше.",
+    "SingularRestrictionFormat_OrBelow": "<img id=\"WarningIcon\"/> Этот предмет можно использовать только в играх с рейтингом «{Rating}» и ниже.",
+    "SingularRestrictionFormat": "<img id=\"WarningIcon\"/> Этот предмет можно использовать только в играх с рейтингом «{Rating}».",
+    "PluralRestrictionFormat_OrAbove": "Предметы, отмеченные символом <img id=\"WarningIcon\"/>, можно использовать только в играх с рейтингом не ниже «{Rating}».",
+    "PluralRestrictionFormat_OrBelow": "Предметы, отмеченные символом <img id=\"WarningIcon\"/>, можно использовать только в играх с рейтингом «{Rating}» и ниже.",
+    "PluralRestrictionFormat": "Предметы, отмеченные символом <img id=\"WarningIcon\"/>, можно использовать только в играх с возрастным рейтингом «{Rating}».",
+    "PurchaseConfirmationRestrictionFormat_VocalRestriction_OrAbove": "На островах с рейтингом «{Rating}» и выше будут доступны только инструментальные циклы, без слов.",
+    "PurchaseConfirmationRestrictionFormat_VocalRestriction_OrBelow": "На островах с рейтингом «{Rating}» и ниже будут доступны только инструментальные партии, без слов.",
+    "PurchaseConfirmationRestrictionFormat_VocalRestriction": "На островах с рейтингом «{Rating}» будут доступны только инструментальные партии, без слов.",
+    "PurchaseConfirmationRestrictionFormat_IneligibleToUse_OrAbove": "При запуске игр с рейтингом «{Rating}» и выше эти предметы будут отображаться в стандартном виде.",
+    "PurchaseConfirmationRestrictionFormat_IneligibleToUse_OrBelow": "При запуске игр с рейтингом «{Rating}» или ниже эти предметы будут отображаться в стандартном виде.",
+    "PurchaseConfirmationRestrictionFormat_IneligibleToUse": "При запуске игр с рейтингом «{Rating}» эти предметы будут отображаться в стандартном виде.",
+    "VocalRestrictionFormat_OrAbove": "Текст этого джем-трека может подходить игрокам не всех возрастов. На островах с рейтингом «{Rating}» и выше будут доступны только инструментальные партии, без слов.",
+    "VocalRestrictionFormat_OrBelow": "Текст этого джем-трека может подходить игрокам не всех возрастов. На островах с рейтингом «{Rating}» и ниже будут доступны только инструментальные партии, без слов.",
+    "VocalRestrictionFormat": "Текст этого джем-трека может подходить игрокам не всех возрастов. На островах с рейтингом «{Rating}» будут доступны только инструментальные партии, без слов.",
+    "LockerRestrictionFormat_OrAbove": "Вы не можете использовать этот предмет в играх, имеющих рейтинг «{Rating}» и выше.",
+    "LockerRestrictionFormat_OrBelow": "Этот предмет нельзя использовать в играх с рейтингом «{Rating}» или ниже.",
+    "LockerRestrictionFormat": "Вы не можете использовать этот предмет в играх, имеющих рейтинг «{Rating}».",
+    "PurchaseConfirmationRestrictionFormat_Wear_OrAbove": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}» или выше.",
+    "PurchaseConfirmationRestrictionFormat_Wear_OrBelow": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}» и ниже.",
+    "PurchaseConfirmationRestrictionFormat_Wear": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}».",
+    "PurchaseConfirmationRestrictionFormat_Use_OrAbove": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}» или выше.",
+    "PurchaseConfirmationRestrictionFormat_Use_OrBelow": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}» и ниже.",
+    "PurchaseConfirmationRestrictionFormat_Use": "Вы сможете использовать эти предметы только в играх с рейтингом «{Rating}»."
   },
   "CountdownWidget": {
     "FinalCountdown": "ПОСЛЕДНИЙ ОТСЧЁТ",
@@ -3079,6 +3092,15 @@
   },
   "DownloadOnDemandManagementTab": {
     "DownloadOnDemandNoProjectDescription": "Описание не найдено."
+  },
+  "EcosystemMatchmakingSettingsButton": {
+    "Fill": "Заполнить",
+    "NoFill": "Не заполнять",
+    "Options": "Параметры",
+    "Private": "Частная",
+    "Public": "Открытая",
+    "RankedOff": "Рейтинг: откл.",
+    "RankedOn": "Рейтинговая игра: вкл."
   },
   "EditTimeWindowModal": {
     "NoSetting": "Ой! Что-то пошло не так. Повторите попытку."
@@ -3773,6 +3795,7 @@
     "AlternateInteractPlace": "Положить предмет",
     "CreativeModeratorOpenPhotoMode": "Открыть фоторежим модератора",
     "CreativeModeratorOpenToolMode": "Открыть режим инструментов модератора",
+    "OpenQuests": "Открыть задания",
     "OpenVoteDialog": "Открыть окно голосования",
     "OstrichExitPassenger": "Выйти (пассажир)",
     "OstrichMissilesPassenger": "Ракеты (пассажир)",
@@ -3826,7 +3849,6 @@
     "QuadCrasherSwitchSeat": "Пересесть",
     "ShoppingCartSwitchSeat": "Пересесть",
     "Target": "Прицелиться",
-    "ToggleMatchObjectivePanel": "Вкл./выкл. предпросмотр интерфейса ежедневных заданий",
     "ToggleInventory": "Вкл./откл. инвентарь",
     "ToggleFullScreenMap": "Вкл./откл. карту",
     "TogglePickAxe": "Достать кирку",
@@ -3895,6 +3917,7 @@
     "GamepadNextBuilding": "След.",
     "GamepadSelectNextWeapon": "Следующее оружие",
     "GamepadNextWeaponOrAltInteractOrHarvestHold": "Следующее оружие или нести или инструмент (зажать)",
+    "GamepadOpenQuests": "Открыть задания",
     "GamepadBuildConfirm": "Разместить",
     "GamepadToggleMapCursor": "Поставить/убрать метку с карты",
     "PlaceMapMarkerInWorld": "Поставить метку / голосовой чат отряда (удерживать)",
@@ -3927,7 +3950,6 @@
     "GamepadSwitchModeOrEditBuilding": "Другой режим/изменить (зажать)",
     "GamepadTarget": "Цель",
     "GamepadToggleCrouchGyroModifier": "Пригнуться(коснуться)/скользить(зажать)/модификатор гироскопа(зажать)",
-    "GamepadToggleMatchObjectivePanel": "Вкл./выкл. предпросмотр интерфейса ежедневных заданий",
     "GamepadToggleHarvestGyroModifier": "Достать или убрать инструмент / модификатор гироскопа (зажать)",
     "GamepadToggleInventory": "Вкл./выкл. инвентарь",
     "GamepadToggleInventoryWhileBuilding": "Вкл./выкл. инвентарь",
@@ -4346,7 +4368,9 @@
   },
   "FortCompeteUIManager": {
     "AlternativeLeaderboardCategory": "Альт. #{0}",
-    "DefaultLeaderboardCategory": "Общ."
+    "FrontendToastNotification.DescriptionText": "Присоединяйтесь: {0}",
+    "DefaultLeaderboardCategory": "Общ.",
+    "FrontendToastNotification.TitleText": "Турнир начинается"
   },
   "FortConnectionsUserListEntry": {
     "Social_MutualFriendsFormat": "{0} {0}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друзей)"
@@ -4647,15 +4671,19 @@
     "ProgressiveCosmeticShortName": "Набор ветерана отряда",
     "LegoDecorOfferDescription": "Украшения",
     "JunoLegalText": "В LEGO® Fortnite Odyssey материалы можно размещать в вашем мире и не более чем в восьми мирах друзей за неделю. Для создания и размещения материалов в режиме «Выживание» в LEGO® Fortnite Odyssey необходимо собрать нужное количество ресурсов.",
+    "ShoesOfferIncompatibilityText": "Обувь можно использовать с большинством экипировок. Информация об исключениях и другие подробности на странице fn.gg/KicksUsability.",
     "LegoKitOfferDescription": "Комплект LEGO®",
     "PegiMusicWarning": "ЗАГРУЖАЕМАЯ МУЗЫКА НЕ ИМЕЕТ РЕЙТИНГОВ PEGI — www.pegi.info",
     "UndoCooldownConfirmation": "Пожалуйста, подтвердите покупку. Обратите внимание, что повторно воспользоваться функцией отмены покупки будет нельзя. Однако вы сможете вернуть средства, если у вас остались купоны на возврат.\n\nПодробности на странице fn.gg/cancelpurchase",
-    "ShoesOfferIncompatibilityText": "Нажмите «Совместимость», чтобы до покупки узнать, какие экипировки из вашего шкафчика подходят к обуви, или посетите страницу fn.gg/KicksUsability для подробной информации. Обувь совместима только с определёнными экипировками.",
     "DefaultLegalText": "Данные косметические предметы не дают преимуществ в бою. Оружие не прилагается к экипировкам и обёрткам. Некоторые косметические предметы можно использовать лишь в определённых режимах. Подробнее о разновидностях и ограничениях косметических предметов: fn.gg/cosmetics",
     "ShoesOutfitSpecificIncompatibilityText": "Эта экипировка несовместима с обувью. Подробности на странице fn.gg/KicksUsability.",
     "XPLegalText": "Очки опыта, полученные в период «{0}, {1} — {2}, {3}», засчитываются как очки опыта, необходимые для получения возможности совершать покупки.",
     "PercentOff": "Скидка: {0}",
     "AmountOff": "Скидка: {0} В-баксов"
+  },
+  "FortItemShopUtils": {
+    "SavingsLegalText": "* При подсчёте выгоды учитывается самая низкая цена в магазине предметов Fortnite за последние 30 дней до появления скидки.",
+    "PriceVatIncluded": "С учётом НДС"
   },
   "FortItemShopVM": {
     "ExpectedShopRefreshTimeText": "{0} по московскому времени ({1})"
@@ -4813,7 +4841,8 @@
     "MemoryTestResults_ResourceSizesByType_Header": "Количество ресурсов (по типу)",
     "MemoryTestResults_Summary_Result": "Результат: {0}",
     "MemoryTestResults_Summary_Result_Success": "УСПЕХ",
-    "MemoryTestResults_TopResources_Header": "Ресурсы (по количеству)"
+    "MemoryTestResults_TopUserResources_Header": "Пользовательские ресурсы (по количеству)",
+    "MemoryTestResults_UnknownName": "Неизвестно"
   },
   "FortMessagesV3Controller": {
     "ErrorSendingMessage": "Ошибка при отправке сообщения:{0}",
@@ -7095,8 +7124,8 @@
     "CameraResetAxes_Description": "Определяет, какие оси сбрасывает кнопка «Сбросить настройки камеры».\n\nЕсли выбрано «поворот по вертикали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет направлена на горизонт.\n\nЕсли выбрано «поворот по горизонтали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет повёрнута в направлении, заданном джойстиком для перемещения. Так, вы сможете быстро развернуть камеру, выполнив движение назад и нажав на кнопку «Сбросить настройки камеры». Если джойстик для перемещения не используется, кнопка «Сбросить настройки камеры» не подействует на поворот камеры по горизонтали.",
     "CameraResetAxes_Description_Switch": "Определяет, какие оси сбрасывает кнопка «Сбросить настройки камеры».\n\nЕсли выбрано «поворот по вертикали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет направлена на горизонт.\n\nЕсли выбрано «поворот по горизонтали» или «оба варианта», при нажатии на кнопку «Сбросить настройки камеры» камера будет повёрнута в направлении, заданном джойстиком для перемещения. Так, вы сможете быстро развернуть камеру, выполнив движение назад и нажав на кнопку «Сбросить настройки камеры». Если джойстик для перемещения не используется, кнопка «Сбросить настройки камеры» не подействует на поворот камеры по горизонтали.",
     "TouchADSFireMode_WhileHeld": "При зажатой кнопке",
+    "QuickWeaponButtonGroup_Description_Switch": "Какая группа кнопок отвечает за выбор оружия, пока удерживается кнопка функции «Быстрое оружие»? Можно использовать кнопки направлений, кнопки A, B, X, Y или всё вместе.",
     "QuickWeaponButtonGroup_Description": "Какая группа кнопок отвечает за выбор оружия, пока удерживается кнопка функции «Быстрое оружие»? Можно использовать кнопки направлений, лицевые кнопки или всё вместе.",
-    "QuickWeaponButtonGroup_Description_Switch": "Какая группа кнопок отвечает за выбор оружия, пока удерживается кнопка функции «Быстрое оружие»? Можно использовать кнопки направлений, лицевые кнопки или всё вместе.",
     "VoiceChat_ParentalControls_Description_Expanded": "Во время матча игроку доступен голосовой чат с друзьями или другими игроками, которые состоят в его отряде. Данный параметр определяет, с кем ваш ребёнок может общаться в голосовом чате.\n\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">Все</>: ваш ребёнок может общаться в голосовом чате со всеми игроками.\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">Друзья и союзники</>: ваш ребёнок может общаться в голосовом чате с друзьями в Epic, игроками из списка друзей по платформе и товарищами по команде.\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">Только друзья</>: ваш ребёнок может общаться в голосовом чате только с друзьями в Epic и игроками из списка друзей по платформе.\n<text color=\"00FFD6FF\" fontface=\"black\" case=\"upper\" size=\"20\">Никто</>: вашему ребёнку недоступен голосовой чат Epic.\n",
     "VoiceChat_VRR_ParentalControls_Description_Expanded": "Во время матча игроку доступен голосовой чат с друзьями или другими игроками, которые состоят в его отряде. Данный параметр определяет, с кем ваш ребёнок может общаться в голосовом чате. Если вы включите голосовой чат, будет включена и функция отправки жалоб.\n\n<strong>Все</>: ваш ребёнок может общаться в голосовом чате со всеми игроками.\n\n<strong>Друзья и союзники</>: ваш ребёнок может общаться в голосовом чате с друзьями в Epic, игроками из списка друзей по платформе и товарищами по команде.\n\n<strong>Только друзья</>: ваш ребёнок может общаться в голосовом чате только с друзьями в Epic и игроками из списка друзей по платформе.\n\n<strong>Выкл.</>: голосовой чат и функция отправки жалоб недоступны.\n\n\n\n<strong>О системе отправки жалоб в голосовом чате</>\nЕсли голосовой чат включён, устройство каждого участника хранит последний пятиминутный фрагмент голосового чата, который Epic Games получит лишь в том случае, если участник чата заявит о нарушении. Функция отправки жалоб обычно доступна во всех голосовых чатах, за исключением чатов, сформированных группой друзей, где все участники отказались от использования данной функции. Чтобы узнать, доступна ли отправка жалоб в голосовом чате, откройте боковую панель. Функция отправки жалоб в голосовом чате всегда включена у игроков младше 18 лет.\n\nОткройте меню параметров системы отправки жалоб в голосовом чате, чтобы узнать подробности и перейти к расширенным настройкам.",
     "VoiceChatRVR_Description": "При использовании голосового чата в Fortnite с возможностью отправки жалоб устройство каждого участника будет записывать и хранить последний пятиминутный фрагмент голосового чата, который Epic Games получит лишь в том случае, если участник чата заявит о нарушении.\n\nЧтобы узнать, доступна ли отправка жалоб в голосовом чате, откройте боковую панель.\n\n<strong>«Всегда включено»</>: возможность отправки жалоб будет доступна во всех беседах голосового чата.\n\n<strong>«По возможности выключено»</>: функция отправки жалоб будет недоступна в группах, состоящих из друзей, где все участники выбрали значение «по возможности выключено».\n\nФункция отправки жалоб будет доступна, если в группе состоит игрок, у которого выбрано значение «всегда включено», или если игрок присоединился с помощью функции «Поиск группы». Функция отправки жалоб также будет доступна во всех каналах игры.\nУзнайте больше об отправке жалоб на голосовой чат здесь: {0} \n\nФункция отправки жалоб на голосовой чат всегда включена у игроков младше 18 лет.",
@@ -7341,6 +7370,9 @@
   "FortSocialChatV3Manager": {
     "TextChatEnabled": "Текстовый чат включён.",
     "DisabledBySocialBan": "Текстовый чат отключён из-за того, что на учётную запись наложена социальная блокировка.",
+    "WelcomeGeneric": "Это публичный чат! Пожалуйста, относитесь к другим игрокам уважительно и не указывайте свои личные данные.",
+    "WelcomeSparks": "Приветствуем на Главной сцене! Обсудите с другими участниками группы, что будете играть.",
+    "WelcomeJuno": "Это {0}! Обменивайтесь текстовыми сообщениями с другими игроками и повышайте свой шанс выжить!",
     "TextChatDisabledByUser": "Вы отключили текстовый чат в настройках.",
     "YouJoinedGameMessage": "Вы присоединились к каналу игры.",
     "YouJoinedPartyMessage": "Вы присоединились к группе.",
@@ -7348,6 +7380,7 @@
     "YouLeftMessage": "Вы покинули группу.",
     "DisabledByParentalControls": "Чтобы воспользоваться этой функцией, вам нужно получить разрешение от родителя. Ваш родитель может предоставить требуемое разрешение с помощью средств родительского контроля.",
     "DisabledByPlatformParentalControls": "Чтобы воспользоваться этой функцией, вам нужно получить разрешение от родителя. Ваш родитель может предоставить требуемое разрешение, воспользовавшись средствами родительского контроля на вашей консоли.",
+    "WelcomeFeral": "Вы нападаете! Покупайте оружие, обсуждайте тактику в командном чате и не забудьте взять бомбу!",
     "UnmutedOtherPlayer": "Игрок {0} снова может писать в текстовом чате.",
     "JoinedGameMessage": "{0} присоединяется к игре.",
     "JoinedPartyMessage": "{0} присоединяется к группе.",
@@ -7484,11 +7517,8 @@
     "SittingOutPresence": "ОЖИДАНИЕ"
   },
   "FortSquadComsPicker": {
-    "QuickChatNeedBandages": "<{SpectatorStyle}>{PlayerName}</> не откажется от <{Color}>лечения</>!",
-    "QuickChatNeedShields": "<{SpectatorStyle}>{PlayerName}</> не откажется от <{Color}>щитов</>!",
     "QuickChatNeedWeapon": "<{SpectatorStyle}>{PlayerName}</> не откажется от оружия",
     "QuickChatNeedAmmo": "<{SpectatorStyle}>{PlayerName}</> и {AmmoType} хорошо бы смотрелись вместе",
-    "QuickChatThanks": "<{SpectatorStyle}>{PlayerName}</> проявляет благодарность!",
     "FortSquadComsPicker.NPCCommsCategory.FollowerCommands": "Связь с компаньоном",
     "FortSquadComsPicker.RequestCategory": "Запрос",
     "FortSquadComsPicker.SquadCommsCategory": "Связь с отрядом",
@@ -7622,6 +7652,7 @@
     "FriendToastInvalidPin": "Неверный ПИН-код родительского контроля",
     "FriendIsNowOnlineInvitePartyDescription": "Пригласите пользователя в группу",
     "PartyInvite": "Пригласить в группу",
+    "PartyJoin": "Присоединиться к группе",
     "PartyJoinedDetails": "Присоединение к группе игрока <Username>{0}</>",
     "PartyJoined": "Присоединение к группе",
     "FriendToastPinAttemptsExceeded": "Превышено максимальное количество попыток ввести ПИН-код",
@@ -8575,11 +8606,6 @@
     "Category": "Добавить событие|Помощь с миссией",
     "HandleMissionEventWithName": "Управлять событием миссии (версия 2): {EventName}"
   },
-  "K2Node_RootMotionMME": {
-    "RootMotionMME_Title": "Применить корневое движение MME",
-    "RootMotionMME_TitleFormat": "Применить корневое движение «{Mode}» MME",
-    "RootMotionMME_InternalConnectionError": "K2Node_RootMotionMME: внутренняя ошибка соединения. @@"
-  },
   "KeyboardKeyNames": {
     "AbbreviatedGamepad_FaceButton_Bottom": "А",
     "AbbreviatedBackSpace": "Backspace",
@@ -9392,10 +9418,11 @@
     "NumRewards": "{NumTier} {NumTier}|plural(one=уровень,few=уровня,many=уровней,other=уровня)"
   },
   "SeasonPassRewardVM": {
-    "Status_LockedByRewardsInTrack": "Получите все награды со страницы {IndexPage}",
-    "Status_LockedByRewardsInSeasonPass": "Получите все оставшиеся награды пропуска",
-    "Status_LockedByRewardsInDependentCategory": "Получите все награды из категории «{CategoryDependent}»",
+    "Status_LockedByAllRewardsInTrack": "Получите все награды со страницы {IndexPage}",
+    "Status_LockedByAllRewardsInCategory": "Получите все остальные награды",
     "Status_LockedByDependentRewards": "Получите базовые награды",
+    "Status_LockedByRewardsInCategory": "Получите больше наград ({Count} шт.) в категории «{CategoryName}»",
+    "Status_LockedByRewardsInTrack": "Получите больше наград ({Count} шт.) на странице {IndexPage}",
     "Status_WeeklyQuestEarnLevels": "Получите не менее {levels} уровней",
     "Status_LockedNotAffordableAutoClaimOn": "Заработайте {levels} {levels}|plural(one=уровень,few=уровня,many=уровней,other=уровня), чтобы получить автоматически",
     "Status_LockedFreeRewardNoCurrency": "Повысьте уровень {times} {times}|plural(one=раз,few=раза,many=раз,other=раза), чтобы получить награду"
@@ -9712,6 +9739,9 @@
     "WaitingForMatchmakingStartTime": "Ожидание начала подбора игроков",
     "WaitingForPlaylistPlugin": "Ожидание секретного ключа"
   },
+  "UFortValidator_SeasonPassData": {
+    "InvalidSeasonNumber": "Неверный номер сезона ({0}). Ожидаемое значение: {1} (номер последнего сезона + 1), фактическое: {2}"
+  },
   "UFortWinterfestPresentCounter": {
     "QuestCompletionBlockedSingle": "Откройте <text color=\"FFEFBA\" size=\"18\">{0} {0}|plural(one=подарок,few=подарка,many=подарков,other=подарка)!</>"
   },
@@ -9742,6 +9772,11 @@
   },
   "UJunoAssetListAssetFactory": {
     "MenuEntry": "Список материалов"
+  },
+  "UJunoValidator_Codex": {
+    "SubcategoryTagInvalid": "Таблица данных кодекса [ряд {0}], нет действующего тега подкатегории.",
+    "NeitherItemNorTag": "Таблица данных кодекса [ряд {0}], нет ни определения предмета, ни тега идентификатора. Должен быть хотя бы один элемент.",
+    "CategoryTagInvalid": "Таблица данных кодекса [ряд {0}], нет действующего тега категории."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "У FJunoGuidedBuildingDisplayActorDataEntry с индексом [{0}] пустой чертёж! В связи с этим при запуске могут возникать ошибки."
@@ -9803,12 +9838,32 @@
     "VehicleBouncyChassisController_Description": "Устройство управления прыгучим шасси транспорта",
     "VehicleBouncyChassisController_Title": "Устройство управления прыгучим шасси транспорта"
   },
+  "VehicleCosmetics": {
+    "CanCreateActorFrom_InvalidAsset": "Добавлен недопустимый ресурс.",
+    "CanCreateActorFrom_NoItemDefinition": "Не указано определение элемента."
+  },
+  "VehicleCosmeticsEditor": {
+    "MultipleValues": "Несколько значений"
+  },
   "VehicleModComponent": {
     "SwitchSeat": "Пересесть",
     "SwitchToWeapon": "Переключиться на оружие"
   },
   "VkChoiceNode": {
     "OutBoundError": "Диалоговые узлы не могут связываться с узлами такого же типа"
+  },
+  "VkColorNode": {
+    "BODYBACKGROUND": "Фон основной части",
+    "BODYBORDER": "Граница основной части",
+    "BODYTEXT": "Основной текст",
+    "BUTTONBACKGROUND": "Фон кнопки",
+    "BUTTONHOVERED": "Кнопка при наведении",
+    "BUTTONTEXT": "Текст кнопки",
+    "Format": "Выбранный цвет: {ELEMENTCHANGED}",
+    "OutBoundError": "Этот узел не может связываться с узлами такого же типа или узлами перезапуска",
+    "TITLEBORDER": "Граница заголовка",
+    "TITLETEXT": "Текст заголовка",
+    "TITLEBACKGROUND": "Фон заголовка"
   },
   "VKConnectionIndicator": {
     "EditMode": "Режим редактирования",

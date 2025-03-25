@@ -49256,6 +49256,140 @@
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_NPC_GrappleKnife_VR;LPKG:NPCItemPKG_GrappleKnife_VR"
       },
+      "LTG_NPC_VividRazor_VividBronco_01": {
+        "TierGroup": "LTG_NPC_VividRazor_VividBronco",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG_VividRazor_VividBronco",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_VividRazor_VividBronco;LPKG:NPCItemPKG_VividRazor_VividBronco"
+      },
+      "LTG_NPC_VividRazor_DiamondItemData_01": {
+        "TierGroup": "LTG_NPC_VividRazor_DiamondItemData",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "NPCItemPKG_VividRazor_DiamondItemData",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:LTG_NPC_VividRazor_DiamondItemData;LPKG:NPCItemPKG_VividRazor_DiamondItemData"
+      },
       "LTG_NPC_VividRazor_SMGShotgun_Athena_C_01": {
         "TierGroup": "LTG_NPC_VividRazor_SMGShotgun_Athena_C",
         "Weight": 1.0,
@@ -52352,8 +52486,8 @@
         "LootPackage": "NPCItemPKG_SellLoadout_TrafficHat",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -52364,7 +52498,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0
         ],
@@ -52377,7 +52511,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0
         ],

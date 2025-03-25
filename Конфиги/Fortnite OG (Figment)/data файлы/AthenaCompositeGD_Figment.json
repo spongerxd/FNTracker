@@ -12,7 +12,7 @@
         },
         {
           "ObjectName": "CurveTable'OverrideGameData_Figment'",
-          "ObjectPath": "/Figment_S01/DataTables/OverrideGameData_Figment.0"
+          "ObjectPath": "/Figment_LootTables/DataTables/OverrideGameData_Figment.0"
         }
       ]
     },
@@ -695,34 +695,34 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.006
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.008
-          },
-          {
-            "Time": 2.0,
             "Value": 0.01
           },
           {
-            "Time": 3.0,
-            "Value": 0.02
-          },
-          {
-            "Time": 4.0,
-            "Value": 0.05
+            "Time": 5.0,
+            "Value": 0.01
           },
           {
             "Time": 6.0,
-            "Value": 0.1
+            "Value": 0.02
+          },
+          {
+            "Time": 7.0,
+            "Value": 0.05
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.08
           },
           {
             "Time": 9.0,
             "Value": 0.1
           },
           {
-            "Time": 10.0,
+            "Time": 12.0,
+            "Value": 0.1
+          },
+          {
+            "Time": 13.0,
             "Value": 0.0
           },
           {
@@ -863,14 +863,34 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": -1.0
+            "Value": 100.0
           },
           {
-            "Time": 14.0,
-            "Value": -1.0
+            "Time": 1.0,
+            "Value": 80.0
           },
           {
-            "Time": 15.0,
+            "Time": 2.0,
+            "Value": 36.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 13.0,
             "Value": 0.0
           },
           {
@@ -887,14 +907,42 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": -1.0
+            "Value": 0.0
           },
           {
-            "Time": 14.0,
-            "Value": -1.0
+            "Time": 1.0,
+            "Value": 90.0
           },
           {
-            "Time": 15.0,
+            "Time": 2.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 75.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 45.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 10.0,
             "Value": 0.0
           },
           {
@@ -911,14 +959,42 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": -1.0
+            "Value": 0.0
           },
           {
-            "Time": 14.0,
-            "Value": -1.0
+            "Time": 1.0,
+            "Value": 90.0
           },
           {
-            "Time": 15.0,
+            "Time": 4.0,
+            "Value": 90.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 55.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 55.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 45.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 13.0,
             "Value": 0.0
           },
           {
@@ -935,14 +1011,50 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": -1.0
+            "Value": 150000.0
           },
           {
-            "Time": 14.0,
-            "Value": -1.0
+            "Time": 1.0,
+            "Value": 120000.0
           },
           {
-            "Time": 15.0,
+            "Time": 3.0,
+            "Value": 70000.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 55000.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 32500.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 20000.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 10000.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 5000.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 2500.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1650.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 1090.0
+          },
+          {
+            "Time": 12.0,
             "Value": 0.0
           },
           {
@@ -7207,6 +7319,10 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -7223,6 +7339,10 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 3.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -7239,27 +7359,23 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
             "Time": 2.0,
-            "Value": 0.0
+            "Value": 20.0
           },
           {
             "Time": 3.0,
-            "Value": 0.85
+            "Value": 20.0
           },
           {
             "Time": 4.0,
-            "Value": 0.75
+            "Value": 7.5
           },
           {
             "Time": 5.0,
-            "Value": 0.4
+            "Value": 5.0
           },
           {
             "Time": 6.0,
@@ -7279,19 +7395,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 40.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 80.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 110.0
+            "Value": 50.0
           },
           {
             "Time": 4.0,
-            "Value": 190.0
+            "Value": 250.0
           },
           {
             "Time": 5.0,
@@ -7311,19 +7419,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 40.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 80.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 110.0
+            "Value": 50.0
           },
           {
             "Time": 4.0,
-            "Value": 190.0
+            "Value": 250.0
           },
           {
             "Time": 5.0,
@@ -7343,19 +7443,11 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 40.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 80.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 110.0
+            "Value": 50.0
           },
           {
             "Time": 4.0,
-            "Value": 190.0
+            "Value": 250.0
           },
           {
             "Time": 5.0,
@@ -51230,6 +51322,30 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.RebootVan.MinimapDrawDistanceSquared.NoRebootCard": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.5E+09
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.5E+09
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.RebootVan.BuyRebootCard.Enable": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -51243,6 +51359,22 @@
           },
           {
             "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Mantis.DesiredTranslationDistanceToWarpTarget": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
             "Value": 0.0
           },
           {
@@ -74887,6 +75019,42 @@
           },
           {
             "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "RebootCards.AutoCollect.Override.Enabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.FigmentC4.Damage.LOSMultiplier.Pawn": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.334
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
             "Value": 0.0
           }
         ],
