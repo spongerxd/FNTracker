@@ -327,6 +327,40 @@
           "SourceString": "responds to eliminations",
           "LocalizedString": "реагирует на устранения"
         }
+      },
+      "Cosmetics.UserFacingFlags.Emote.Group": {
+        "Tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Emote.Group"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "4D596F934DB2DFD0604C36A6D8D64053",
+          "SourceString": "Group Emote",
+          "LocalizedString": "Групповая эмоция"
+        },
+        "HelpText": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "Cosmetics.UserFacingFlags.Synced_HelpText",
+          "SourceString": "This item can be synced with other players",
+          "LocalizedString": "Могут использовать одновременно несколько игроков."
+        }
+      },
+      "Cosmetics.UserFacingFlags.Emote.Dance": {
+        "Tag": {
+          "TagName": "Cosmetics.UserFacingFlags.Emote.Dance"
+        },
+        "DisplayName": {
+          "Namespace": "CosmeticUserFacingTags",
+          "Key": "2AF24BC54033DE03139B809E6B57C2D5",
+          "SourceString": "Dance Emote",
+          "LocalizedString": "Танцевальная эмоция"
+        },
+        "HelpText": {
+          "Namespace": "",
+          "Key": "E5047EBC48A16206B7702C9FE3302861",
+          "SourceString": "Dance Emotes sync to the tempo of nearby Jam Tracks and let any player join in the dance with you!",
+          "LocalizedString": "Танцевальные эмоции синхронизируются со звучащими поблизости джем-треками и позволяют другим игрокам присоединиться к вашему танцу!"
+        }
       }
     }
   }

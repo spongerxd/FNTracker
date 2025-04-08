@@ -1,4 +1,8 @@
 {
+  "Sprout_FortItemDefValidator": {
+    "UnregisteredPrimaryAssetError": "Определение предмета «{0}» не зарегистрировано в данных игровой функции и не может быть обнаружено.",
+    "DuplicatePrimaryAssetError": "Два разных ресурса делят один и тот же идентификатор первичного ресурса: «{0}» и «{1}»"
+  },
   "SproutHousingWorldValidator": {
     "OverlappingVolumesError": "Две области жилья «{0}» и «{1}» накладываются друг на друга"
   }

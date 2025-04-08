@@ -41562,7 +41562,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/Athena_SuperMedkit.Athena_SuperMedkit",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44103,7 +44103,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/Athena_SuperMedkit.Athena_SuperMedkit",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46215,7 +46215,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/Athena_SuperMedkit.Athena_SuperMedkit",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -61867,6 +61867,204 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.HopScotch.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.AthenaLoot.Weapon.Shotgun.42": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_C_Ore_T03.WID_Shotgun_Combat_Athena_C_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Shotgun.43": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_UC_Ore_T03.WID_Shotgun_Combat_Athena_UC_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Shotgun.44": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_R_Ore_T03.WID_Shotgun_Combat_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Shotgun.45": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_C.WID_Shotgun_Break_Cerberus_Athena_C",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Shotgun.46": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_UC.WID_Shotgun_Break_Cerberus_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Shotgun.47": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_R.WID_Shotgun_Break_Cerberus_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaLoot.Weapon.HighShotgun.37": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
         "Weight": 0.08,
@@ -62121,7 +62319,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR.WID_Shotgun_BreakBarrel_Dragon_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -62154,7 +62352,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR.WID_Shotgun_BreakBarrel_Dragon_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -62723,6 +62921,270 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.HopScotch.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.63": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_UC_Ore_T03.WID_Shotgun_Combat_Athena_UC_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.64": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_R_Ore_T03.WID_Shotgun_Combat_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.65": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_VR_Ore_T03.WID_Shotgun_Combat_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.66": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_SR_Ore_T03.WID_Shotgun_Combat_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.67": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_UC.WID_Shotgun_Break_Cerberus_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.68": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_R.WID_Shotgun_Break_Cerberus_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.69": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_VR.WID_Shotgun_Break_Cerberus_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.70": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_SR.WID_Shotgun_Break_Cerberus_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.09": {
@@ -65982,7 +66444,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR.WID_Shotgun_BreakBarrel_Dragon_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -66015,7 +66477,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR.WID_Shotgun_BreakBarrel_Dragon_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -66353,6 +66815,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.HopScotch.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighShotgun.35": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_VR_Ore_T03.WID_Shotgun_Combat_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighShotgun.36": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_SR_Ore_T03.WID_Shotgun_Combat_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Combat.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighShotgun.37": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_VR.WID_Shotgun_Break_Cerberus_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighShotgun.38": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_SR.WID_Shotgun_Break_Cerberus_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.07": {
@@ -68886,7 +69480,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_VR.WID_Shotgun_BreakBarrel_Dragon_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -68919,7 +69513,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Dragon_Athena_SR.WID_Shotgun_BreakBarrel_Dragon_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -69488,6 +70082,270 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.HopScotch.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.63": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_UC_Ore_T03.WID_Shotgun_Combat_Athena_UC_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.64": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_R_Ore_T03.WID_Shotgun_Combat_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.65": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_VR_Ore_T03.WID_Shotgun_Combat_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.66": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_SR_Ore_T03.WID_Shotgun_Combat_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Combat.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.67": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_UC.WID_Shotgun_Break_Cerberus_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.68": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_R.WID_Shotgun_Break_Cerberus_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.69": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_VR.WID_Shotgun_Break_Cerberus_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.70": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/WID_Shotgun_Break_Cerberus_Athena_SR.WID_Shotgun_Break_Cerberus_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Break.Cerberus.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.07": {
@@ -74310,7 +75168,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.18": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.18,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74463,7 +75321,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/Athena_SuperMedkit.Athena_SuperMedkit",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -75354,7 +76212,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperMedkit/Athena_SuperMedkit.Athena_SuperMedkit",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",

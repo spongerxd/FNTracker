@@ -42,6 +42,7 @@
     "Track": "Трасса"
   },
   "DelMarTrack": {
+    "SecondaryTrackBadConnection": "Ошибка подключения дополнительной трассы! Убедитесь, что все дополнительные трассы подключены к основной или к другим дополнительным трассам: {1}). Карта: {2}",
     "NoEndTrackConnection": "У дополнительной трассы не задан параметр EndTrackConnection в {0}. Карта: {1}",
     "NoStartTrackConnection": "У дополнительной трассы не задан параметр StartTrackConnection в {0}. Карта: {1}",
     "SecondaryTrackLoops": "Дополнительная трасса: обнаружено повторение! Обнаружено повторение на трассе {0} (стартовая трасса: {1}). Карта: {2}"
@@ -94,7 +95,8 @@
     "SelectLastSplinePointToolTip": "Выбрать последнюю точку на сплайне.",
     "SelectNextSplinePointToolTip": "Выбрать следующую точку на сплайне.",
     "SelectPrevSplinePointToolTip": "Выбрать предыдущую точку на сплайне.",
-    "SplitNodeConfirmation": "Разделить у выбранной точки?"
+    "SplitNodeConfirmation": "Разделить у выбранной точки?",
+    "SelectSplitSplinePointToolTip": "Разделить узлы по индексам."
   },
   "UICommands.DelMarTrackSplineComponentVisualizer": {
     "ToggleUseStableRoll_ToolTip": "Переключить флаг UseStableRoll (Использовать стабильное качение) для выбранной точки на сплайне.",

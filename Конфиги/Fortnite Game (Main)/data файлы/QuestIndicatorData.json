@@ -26,6 +26,13 @@
             "ObjectName": "CompositeDataTable'Hermes_TerrainMapMarkersDataTable'",
             "ObjectPath": "/Game/Quests/QuestTagLocations/Hermes_TerrainMapMarkersDataTable.0"
           }
+        },
+        {
+          "Key": "DashBerry",
+          "Value": {
+            "ObjectName": "CompositeDataTable'DashBerryMapMarkersDataTable'",
+            "ObjectPath": "/Game/Quests/QuestTagLocations/DashBerryMapMarkersDataTable.0"
+          }
         }
       ],
       "FallbackLocationDataTable": {
@@ -134,6 +141,2230 @@
             },
             "Rotation": -90.0
           }
+        },
+        {
+          "Key": "DashBerry",
+          "Value": {
+            "OrthoWidth": 174656,
+            "WorldOffset": {
+              "X": 8750.0,
+              "Y": 508.0
+            },
+            "Rotation": -90.0
+          }
+        }
+      ],
+      "ChallengeMapPoiData": [
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_LockdownLighthouse",
+            "SourceString": "Lockdown Lighthouse",
+            "LocalizedString": "Молчаливый маяк"
+          },
+          "WorldLocation": {
+            "X": -34700.0,
+            "Y": 49084.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LockdownLighthouse"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SlurpySwamp",
+            "SourceString": "Slurpy Swamp",
+            "LocalizedString": "Нектарная низина"
+          },
+          "WorldLocation": {
+            "X": -13388.0,
+            "Y": 27488.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SlurpySwamp"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_TheSlurpworks",
+            "SourceString": "The Slurpworks",
+            "LocalizedString": "Нектарняк"
+          },
+          "WorldLocation": {
+            "X": -14552.0,
+            "Y": 4972.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.TheSlurpworks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_LogJam",
+            "SourceString": "Logjam Logging",
+            "LocalizedString": "Людная лесопилка"
+          },
+          "WorldLocation": {
+            "X": 3052.0,
+            "Y": -33936.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LogJam"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SteamyStacks",
+            "SourceString": "Steamy Stacks",
+            "LocalizedString": "Гигантские градирни"
+          },
+          "WorldLocation": {
+            "X": 41000.0,
+            "Y": -27276.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SteamyStacks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_TheFortress",
+            "SourceString": "Fort Crumpet",
+            "LocalizedString": "Развалины форта"
+          },
+          "WorldLocation": {
+            "X": -33008.0,
+            "Y": -27172.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.TheFortress"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_DirtyDocks",
+            "SourceString": "Dirty Docks",
+            "LocalizedString": "Дрянные доки"
+          },
+          "WorldLocation": {
+            "X": 380.0,
+            "Y": 62856.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.DirtyDocks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_DustyDocks",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SplitTown",
+            "SourceString": "Stilt Town",
+            "LocalizedString": "Позабытый посёлок"
+          },
+          "WorldLocation": {
+            "X": -41140.0,
+            "Y": 19456.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SplitTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_WreckedWetlands",
+            "SourceString": "Wrecked Wetlands",
+            "LocalizedString": "Булькающее болото"
+          },
+          "WorldLocation": {
+            "X": 8480.0,
+            "Y": 27760.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.WreckedWetlands"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_BoominBase",
+            "SourceString": "Boomin Base",
+            "LocalizedString": "Броская база"
+          },
+          "WorldLocation": {
+            "X": 25092.0,
+            "Y": 23252.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.BoominBase"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_LockdownLighthouse",
+            "SourceString": "Lockdown Lighthouse",
+            "LocalizedString": "Молчаливый маяк"
+          },
+          "WorldLocation": {
+            "X": -34700.0,
+            "Y": 49084.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LockdownLighthouse"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj42",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SlurpySwamp",
+            "SourceString": "Slurpy Swamp",
+            "LocalizedString": "Нектарная низина"
+          },
+          "WorldLocation": {
+            "X": -13388.0,
+            "Y": 27488.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SlurpySwamp"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj36",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_TheSlurpworks",
+            "SourceString": "The Slurpworks",
+            "LocalizedString": "Нектарняк"
+          },
+          "WorldLocation": {
+            "X": -14552.0,
+            "Y": 4972.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.TheSlurpworks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj35",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_LogJam",
+            "SourceString": "Logjam Logging",
+            "LocalizedString": "Людная лесопилка"
+          },
+          "WorldLocation": {
+            "X": 3052.0,
+            "Y": -33936.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.LogJam"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj38",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SteamyStacks",
+            "SourceString": "Steamy Stacks",
+            "LocalizedString": "Гигантские градирни"
+          },
+          "WorldLocation": {
+            "X": 41000.0,
+            "Y": -27276.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SteamyStacks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj34",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_TheFortress",
+            "SourceString": "Fort Crumpet",
+            "LocalizedString": "Развалины форта"
+          },
+          "WorldLocation": {
+            "X": -33008.0,
+            "Y": -27172.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.TheFortress"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj41",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_DirtyDocks",
+            "SourceString": "Dirty Docks",
+            "LocalizedString": "Дрянные доки"
+          },
+          "WorldLocation": {
+            "X": 380.0,
+            "Y": 62856.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.DirtyDocks"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_DustyDocks",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_SplitTown",
+            "SourceString": "Stilt Town",
+            "LocalizedString": "Позабытый посёлок"
+          },
+          "WorldLocation": {
+            "X": -41140.0,
+            "Y": 19456.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.SplitTown"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj37",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_WreckedWetlands",
+            "SourceString": "Wrecked Wetlands",
+            "LocalizedString": "Булькающее болото"
+          },
+          "WorldLocation": {
+            "X": 8480.0,
+            "Y": 27760.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.WreckedWetlands"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj40",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_DashBerry",
+            "Key": "NameForLocation_Athena_Location_POI_BoominBase",
+            "SourceString": "Boomin Base",
+            "LocalizedString": "Броская база"
+          },
+          "WorldLocation": {
+            "X": 25092.0,
+            "Y": 23252.0,
+            "Z": 3592.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.BoominBase"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj39",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_57",
+            "SourceString": "The Dead Pool",
+            "LocalizedString": "Мёртвый бассейн"
+          },
+          "WorldLocation": {
+            "X": 14201.0,
+            "Y": 76668.0,
+            "Z": 2128.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.57"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_58",
+            "SourceString": "The Pit",
+            "LocalizedString": "Яма"
+          },
+          "WorldLocation": {
+            "X": 109545.0,
+            "Y": 5916.0,
+            "Z": 200.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.58"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_40",
+            "SourceString": "Masked Motorway Bank",
+            "LocalizedString": "Банк Мотоклуба масочника"
+          },
+          "WorldLocation": {
+            "X": 10827.179,
+            "Y": 80628.3,
+            "Z": 4152.1436
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.40"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_46",
+            "SourceString": "The Great Turtle",
+            "LocalizedString": "Большая черепаха"
+          },
+          "WorldLocation": {
+            "X": 81989.0,
+            "Y": 100025.0,
+            "Z": -812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.46"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_03",
+            "SourceString": "BURD To Go",
+            "LocalizedString": "Мини-заправка BURD"
+          },
+          "WorldLocation": {
+            "X": -8568.0,
+            "Y": -17134.0,
+            "Z": 2686.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GasStation.03"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_14",
+            "SourceString": "Kite's Flight",
+            "LocalizedString": "Воздушное взморье"
+          },
+          "WorldLocation": {
+            "X": 107605.0,
+            "Y": 89675.0,
+            "Z": 1115.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.14"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_20",
+            "SourceString": "Splitting Pins",
+            "LocalizedString": "Лучистая лесопилка"
+          },
+          "WorldLocation": {
+            "X": -44328.0,
+            "Y": 102776.0,
+            "Z": 3997.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.20"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_17",
+            "SourceString": "BRUTAL BOXCARS",
+            "LocalizedString": "ДОБРОЕ ДЕПО"
+          },
+          "WorldLocation": {
+            "X": 9691.0,
+            "Y": -34932.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.17"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_TrainYard",
+          "ActiveDiscoverableBlodIds": [
+            25
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_18",
+            "SourceString": "MASKED MEADOWS",
+            "LocalizedString": "МЕСТЕЧКО МАСОЧНИКА"
+          },
+          "WorldLocation": {
+            "X": 15134.0,
+            "Y": 76343.0,
+            "Z": 3598.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.18"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_MaskMakersTown",
+          "ActiveDiscoverableBlodIds": [
+            45
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_41",
+            "SourceString": "Predator Peak",
+            "LocalizedString": "Хищный холм"
+          },
+          "WorldLocation": {
+            "X": -54370.656,
+            "Y": 40928.176,
+            "Z": 11411.996
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.41"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_04",
+            "SourceString": "CANYON CROSSING",
+            "LocalizedString": "МОГУЧИЕ МОСТЫ"
+          },
+          "WorldLocation": {
+            "X": -57184.0,
+            "Y": 71601.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.04"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_CanyonTown",
+          "ActiveDiscoverableBlodIds": [
+            40
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_38",
+            "SourceString": "Crime City Bank",
+            "LocalizedString": "Банк Криминограда"
+          },
+          "WorldLocation": {
+            "X": -53001.652,
+            "Y": 20135.723,
+            "Z": 5171.2734
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.38"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_10",
+            "SourceString": "Yacht Stop",
+            "LocalizedString": "Яркие яхты"
+          },
+          "WorldLocation": {
+            "X": 6469.0,
+            "Y": -110943.0,
+            "Z": -812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.10"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_32",
+            "SourceString": "Way Station",
+            "LocalizedString": "Простая подстанция"
+          },
+          "WorldLocation": {
+            "X": 39927.0,
+            "Y": 88133.0,
+            "Z": 3115.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.32"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_08",
+            "SourceString": "WHIFFY WHARF",
+            "LocalizedString": "ПРОМЫСЛОВЫЙ ПРИЧАЛ"
+          },
+          "WorldLocation": {
+            "X": -88950.0,
+            "Y": -84496.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.08"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_FishingTown",
+          "ActiveDiscoverableBlodIds": [
+            15
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_53",
+            "SourceString": "Mine Entrance 3",
+            "LocalizedString": "Вход в шахту 3"
+          },
+          "WorldLocation": {
+            "X": -23131.34,
+            "Y": 6067.2275,
+            "Z": 2910.7786
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.53"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_10",
+            "SourceString": "PUMPED POWER",
+            "LocalizedString": "СИЛОВАЯ СТАНЦИЯ"
+          },
+          "WorldLocation": {
+            "X": 50225.0,
+            "Y": -57403.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.10"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_GeothermalPlant",
+          "ActiveDiscoverableBlodIds": [
+            70
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_11",
+            "SourceString": "Moisty Manor",
+            "LocalizedString": "Подтопленное поместье"
+          },
+          "WorldLocation": {
+            "X": -64686.0,
+            "Y": -72055.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.11"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_01",
+            "SourceString": "BURD To Go",
+            "LocalizedString": "Мини-заправка BURD"
+          },
+          "WorldLocation": {
+            "X": 36796.0,
+            "Y": 50951.0,
+            "Z": 3115.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GasStation.01"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_24",
+            "SourceString": "Pumpin' Pipes",
+            "LocalizedString": "Тёплый трубопровод"
+          },
+          "WorldLocation": {
+            "X": 99637.0,
+            "Y": -34983.0,
+            "Z": -812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.24"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_01",
+            "SourceString": "DEMON'S DOJO",
+            "LocalizedString": "БАСТИОН БУСИДО"
+          },
+          "WorldLocation": {
+            "X": 89381.0,
+            "Y": -66288.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.01"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_Academy",
+          "ActiveDiscoverableBlodIds": [
+            60
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_27",
+            "SourceString": "All You Can Catch!",
+            "LocalizedString": "Ресторан «Сам себе рыболов»"
+          },
+          "WorldLocation": {
+            "X": -40015.0,
+            "Y": -6505.0,
+            "Z": 2695.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.27"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_47",
+            "SourceString": "Mine Entrance 2",
+            "LocalizedString": "Вход в шахту 2"
+          },
+          "WorldLocation": {
+            "X": -85225.06,
+            "Y": 28898.514,
+            "Z": 11411.996
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.47"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_29",
+            "SourceString": "Boulder Gorge",
+            "LocalizedString": "Редкие раскопки"
+          },
+          "WorldLocation": {
+            "X": 85218.0,
+            "Y": 79389.0,
+            "Z": 813.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.29"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_19",
+            "SourceString": "Crime City",
+            "LocalizedString": "Криминоград"
+          },
+          "WorldLocation": {
+            "X": -54923.0,
+            "Y": 13200.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.19"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_CrimeTown",
+          "ActiveDiscoverableBlodIds": [
+            65
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_17",
+            "SourceString": "Overlook Lighthouse",
+            "LocalizedString": "Мечтательный маяк"
+          },
+          "WorldLocation": {
+            "X": 108866.43,
+            "Y": -3254.999,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.17"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_05",
+            "SourceString": "BURD To Go",
+            "LocalizedString": "Мини-заправка BURD"
+          },
+          "WorldLocation": {
+            "X": 82367.0,
+            "Y": -13166.0,
+            "Z": 3079.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GasStation.05"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_EE_02",
+            "SourceString": "SHINING SPAN",
+            "LocalizedString": "МОДНЫЙ МОСТ"
+          },
+          "WorldLocation": {
+            "X": 89518.0,
+            "Y": 8637.0,
+            "Z": 2432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.EE.02"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_BrokenBridge",
+          "ActiveDiscoverableBlodIds": [
+            55
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_04",
+            "SourceString": "Big Bend",
+            "LocalizedString": "Подземный проезд"
+          },
+          "WorldLocation": {
+            "X": -18661.0,
+            "Y": 83440.0,
+            "Z": 5507.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.04"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_04",
+            "SourceString": "Big Bend",
+            "LocalizedString": "Подземный проезд"
+          },
+          "WorldLocation": {
+            "X": -34980.0,
+            "Y": 66821.0,
+            "Z": 5507.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.04"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_45",
+            "SourceString": "Boom Hole Black Market",
+            "LocalizedString": "Чёрный рынок Взрывной воронки"
+          },
+          "WorldLocation": {
+            "X": -52386.79,
+            "Y": -3658.101,
+            "Z": 5822.591
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.45"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_03",
+            "SourceString": "Yōkina Boardwalk",
+            "LocalizedString": "Комплекс «Кокаё»"
+          },
+          "WorldLocation": {
+            "X": -112977.0,
+            "Y": 27192.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.03"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_26",
+            "SourceString": "Dashi Dash",
+            "LocalizedString": "Ресторан рамэна"
+          },
+          "WorldLocation": {
+            "X": 83752.0,
+            "Y": 39229.0,
+            "Z": 3115.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.26"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_30",
+            "SourceString": "Sakura Stadium",
+            "LocalizedString": "Стадион с сакурами"
+          },
+          "WorldLocation": {
+            "X": -114385.0,
+            "Y": -10804.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.30"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_22",
+            "SourceString": "Lonewolf Lair",
+            "LocalizedString": "Лунное логово"
+          },
+          "WorldLocation": {
+            "X": -29803.0,
+            "Y": -47424.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.22"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_BaronsMansion",
+          "ActiveDiscoverableBlodIds": [
+            75
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_31",
+            "SourceString": "Base Tunnel",
+            "LocalizedString": "Типичный тоннель"
+          },
+          "WorldLocation": {
+            "X": 39245.0,
+            "Y": -21040.0,
+            "Z": 2634.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.31"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_16",
+            "SourceString": "Cliffside Lighthouse",
+            "LocalizedString": "Мирный маяк"
+          },
+          "WorldLocation": {
+            "X": -88040.836,
+            "Y": -108498.84,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.16"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_39",
+            "SourceString": "Seaport City Bank",
+            "LocalizedString": "Банк Квартала Камуро"
+          },
+          "WorldLocation": {
+            "X": 48553.31,
+            "Y": 11609.482,
+            "Z": 976.19824
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.39"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_28",
+            "SourceString": "Placid Paddies",
+            "LocalizedString": "Рисовое ранчо"
+          },
+          "WorldLocation": {
+            "X": -55965.082,
+            "Y": -102581.57,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.28"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_09",
+            "SourceString": "FLOODED FROGS",
+            "LocalizedString": "ЛИПКИЕ ЛЯГУШКИ"
+          },
+          "WorldLocation": {
+            "X": -22754.0,
+            "Y": -89761.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.09"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_FrogTemple",
+          "ActiveDiscoverableBlodIds": [
+            85
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_34",
+            "SourceString": "Fightin' Frogs",
+            "LocalizedString": "Лютые лягушки"
+          },
+          "WorldLocation": {
+            "X": -31402.084,
+            "Y": -113688.57,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.34"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_31",
+            "SourceString": "Base Tunnel",
+            "LocalizedString": "Типичный тоннель"
+          },
+          "WorldLocation": {
+            "X": 39243.0,
+            "Y": -32793.0,
+            "Z": 2634.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.31"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_16",
+            "SourceString": "HOPEFUL HEIGHTS",
+            "LocalizedString": "ОСЬМИНОЖЬЯ ОКРАИНА"
+          },
+          "WorldLocation": {
+            "X": 63888.0,
+            "Y": 89955.0,
+            "Z": 2432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.16"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_SmallTown",
+          "ActiveDiscoverableBlodIds": [
+            5
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_21",
+            "SourceString": "Crabby Cove",
+            "LocalizedString": "Интересная инсталляция"
+          },
+          "WorldLocation": {
+            "X": 48494.0,
+            "Y": 116789.0,
+            "Z": -424.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.21"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_07",
+            "SourceString": "FOXY FLOODGATE",
+            "LocalizedString": "ЛИСИЙ ШЛЮЗ"
+          },
+          "WorldLocation": {
+            "X": -7058.0,
+            "Y": 14150.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.07"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_Dam",
+          "ActiveDiscoverableBlodIds": [
+            80
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_EE_01",
+            "SourceString": "KAPPA KAPPA FACTORY",
+            "LocalizedString": "ЗЕЛЁНЫЙ ЗАВОД"
+          },
+          "WorldLocation": {
+            "X": 100577.0,
+            "Y": 65593.0,
+            "Z": 813.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.EE.01"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_Factory",
+          "ActiveDiscoverableBlodIds": [
+            100
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_20",
+            "SourceString": "Outlaw Oasis",
+            "LocalizedString": "Рай разбойников"
+          },
+          "WorldLocation": {
+            "X": -98107.0,
+            "Y": 11680.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.20"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_HotSpringHotel",
+          "ActiveDiscoverableBlodIds": [
+            20
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_02",
+            "SourceString": "BURD To Go",
+            "LocalizedString": "Мини-заправка BURD"
+          },
+          "WorldLocation": {
+            "X": -75809.0,
+            "Y": -52624.0,
+            "Z": 1998.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GasStation.02"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_43",
+            "SourceString": "Rogue Repairs Black Market",
+            "LocalizedString": "Чёрный рынок Стильного салона"
+          },
+          "WorldLocation": {
+            "X": 36782.0,
+            "Y": 50369.234,
+            "Z": 2097.747
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.43"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_01",
+            "SourceString": "Spiral Shoots",
+            "LocalizedString": "Спираль секретов"
+          },
+          "WorldLocation": {
+            "X": 6966.0,
+            "Y": 104399.0,
+            "Z": 4350.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.01"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_05",
+            "SourceString": "The Living Forest",
+            "LocalizedString": "Живой лес"
+          },
+          "WorldLocation": {
+            "X": -50443.0,
+            "Y": -72796.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.05"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_42",
+            "SourceString": "Predator Peak Overlook",
+            "LocalizedString": "Смотровая площадка на Хищном холме"
+          },
+          "WorldLocation": {
+            "X": -71255.875,
+            "Y": 8149.7676,
+            "Z": 6216.038
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.42"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_06",
+            "SourceString": "SEAPORT CITY",
+            "LocalizedString": "КВАРТАЛ КАМУРО"
+          },
+          "WorldLocation": {
+            "X": 56067.0,
+            "Y": 18084.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.06"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_City",
+          "ActiveDiscoverableBlodIds": [
+            90
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_04",
+            "SourceString": "BURD To Go",
+            "LocalizedString": "Мини-заправка BURD"
+          },
+          "WorldLocation": {
+            "X": 50399.0,
+            "Y": -84844.0,
+            "Z": 2686.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.GasStation.04"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_12",
+            "SourceString": "Rolling Blossoms Farm",
+            "LocalizedString": "Фиалковая ферма"
+          },
+          "WorldLocation": {
+            "X": 54652.0,
+            "Y": 56231.0,
+            "Z": 2479.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.12"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_36",
+            "SourceString": "Rocky RVs",
+            "LocalizedString": "Уютное устье"
+          },
+          "WorldLocation": {
+            "X": -11103.0,
+            "Y": -63688.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.36"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_15",
+            "SourceString": "Crimson Lighthouse",
+            "LocalizedString": "Милый маяк"
+          },
+          "WorldLocation": {
+            "X": -106491.0,
+            "Y": 109544.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.15"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_06",
+            "SourceString": "Lovely Lane",
+            "LocalizedString": "Дивная дорога"
+          },
+          "WorldLocation": {
+            "X": -98848.0,
+            "Y": -63140.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.06"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_18",
+            "SourceString": "Lily Lake",
+            "LocalizedString": "Водоём викторий"
+          },
+          "WorldLocation": {
+            "X": -28424.0,
+            "Y": -67623.0,
+            "Z": 5784.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.18"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_03",
+            "SourceString": "SHOGUN'S SOLITUDE",
+            "LocalizedString": "ДВОР ДАЙМЁ"
+          },
+          "WorldLocation": {
+            "X": -88773.0,
+            "Y": 94154.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.03"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_BossCastle",
+          "ActiveDiscoverableBlodIds": [
+            10
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_35",
+            "SourceString": "Martial Maneuvers",
+            "LocalizedString": "Площадка претендентов"
+          },
+          "WorldLocation": {
+            "X": 39226.0,
+            "Y": -103508.0,
+            "Z": -812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.35"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_13",
+            "SourceString": "Open-Air Onsen",
+            "LocalizedString": "Очаровательный онсэн"
+          },
+          "WorldLocation": {
+            "X": 73774.0,
+            "Y": -29538.0,
+            "Z": -812.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.13"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_08",
+            "SourceString": "Salty Docks",
+            "LocalizedString": "Солёная пристань"
+          },
+          "WorldLocation": {
+            "X": 115422.0,
+            "Y": 40600.0,
+            "Z": 813.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.08"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_52",
+            "SourceString": "Mine Entrance 1",
+            "LocalizedString": "Вход в шахту 1"
+          },
+          "WorldLocation": {
+            "X": -96858.66,
+            "Y": 52120.176,
+            "Z": 11411.996
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.52"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_02",
+            "SourceString": "MAGIC MOSSES",
+            "LocalizedString": "МАГИЧЕСКИЕ МХИ"
+          },
+          "WorldLocation": {
+            "X": 13376.0,
+            "Y": -72450.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.02"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_BoonForest",
+          "ActiveDiscoverableBlodIds": [
+            30
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_POI_Generic_21",
+            "SourceString": "Shiny Shafts",
+            "LocalizedString": "Шикарные шахты"
+          },
+          "WorldLocation": {
+            "X": -79387.0,
+            "Y": -20064.0,
+            "Z": 4432.0
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.POI.Generic.21"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "Quest"
+            },
+            "PrimaryAssetName": "Quest_Ch6_Discover_NamedLocations"
+          },
+          "DiscoverObjectiveBackendName": "Quest_Ch6_Discover_NamedLocations_GoldMine",
+          "ActiveDiscoverableBlodIds": [
+            35
+          ]
+        },
+        {
+          "Text": {
+            "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+            "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_44",
+            "SourceString": "Backwoods Black Market",
+            "LocalizedString": "Чёрный рынок Далёких дебрей"
+          },
+          "WorldLocation": {
+            "X": 10625.104,
+            "Y": -63619.13,
+            "Z": 2040.2238
+          },
+          "LocationTag": {
+            "TagName": "Athena.Location.UnNamedPOI.Landmark.44"
+          },
+          "CalendarEventsRequired": [],
+          "DiscoveryQuestPrimaryAssetId": {
+            "PrimaryAssetType": {
+              "Name": "None"
+            },
+            "PrimaryAssetName": "None"
+          },
+          "DiscoverObjectiveBackendName": "None",
+          "ActiveDiscoverableBlodIds": []
         }
       ],
       "ChallengeMapsPoiData": [
@@ -141,6 +2372,56 @@
           "Key": "Hermes_Terrain",
           "Value": {
             "ChallengeMapsPoiData": [
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_57",
+                  "SourceString": "The Dead Pool",
+                  "LocalizedString": "Мёртвый бассейн"
+                },
+                "WorldLocation": {
+                  "X": 14201.0,
+                  "Y": 76668.0,
+                  "Z": 2128.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.57"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_58",
+                  "SourceString": "The Pit",
+                  "LocalizedString": "Яма"
+                },
+                "WorldLocation": {
+                  "X": 109545.0,
+                  "Y": 5916.0,
+                  "Z": 200.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.58"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
@@ -477,6 +2758,31 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_53",
+                  "SourceString": "Mine Entrance 3",
+                  "LocalizedString": "Вход в шахту 3"
+                },
+                "WorldLocation": {
+                  "X": -23131.34,
+                  "Y": 6067.2275,
+                  "Z": 2910.7786
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.53"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "None"
+                  },
+                  "PrimaryAssetName": "None"
+                },
+                "DiscoverObjectiveBackendName": "None",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_POI_Generic_10",
                   "SourceString": "PUMPED POWER",
                   "LocalizedString": "СИЛОВАЯ СТАНЦИЯ"
@@ -636,8 +2942,8 @@
                   "LocalizedString": "Вход в шахту 2"
                 },
                 "WorldLocation": {
-                  "X": -25018.861,
-                  "Y": 4869.7866,
+                  "X": -85225.06,
+                  "Y": 28898.514,
                   "Z": 11411.996
                 },
                 "LocationTag": {
@@ -1348,8 +3654,8 @@
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_05",
-                  "SourceString": "Sleepwalker's Peril ",
-                  "LocalizedString": "Стоянка скалолаза "
+                  "SourceString": "The Living Forest",
+                  "LocalizedString": "Живой лес"
                 },
                 "WorldLocation": {
                   "X": -50443.0,
@@ -1676,9 +3982,9 @@
               {
                 "Text": {
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
-                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_46",
+                  "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_52",
                   "SourceString": "Mine Entrance 1",
-                  "LocalizedString": "Большая черепаха"
+                  "LocalizedString": "Вход в шахту 1"
                 },
                 "WorldLocation": {
                   "X": -96858.66,
@@ -1686,7 +3992,7 @@
                   "Z": 11411.996
                 },
                 "LocationTag": {
-                  "TagName": "Athena.Location.UnNamedPOI.Landmark.46"
+                  "TagName": "Athena.Location.UnNamedPOI.Landmark.52"
                 },
                 "CalendarEventsRequired": [],
                 "DiscoveryQuestPrimaryAssetId": {
@@ -4198,6 +6504,213 @@
               }
             ]
           }
+        },
+        {
+          "Key": "DashBerry",
+          "Value": {
+            "ChallengeMapsPoiData": [
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_LockdownLighthouse",
+                  "SourceString": "Lockdown Lighthouse",
+                  "LocalizedString": "Молчаливый маяк"
+                },
+                "WorldLocation": {
+                  "X": -34700.0,
+                  "Y": 49084.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.LockdownLighthouse"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj42",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_SlurpySwamp",
+                  "SourceString": "Slurpy Swamp",
+                  "LocalizedString": "Нектарная низина"
+                },
+                "WorldLocation": {
+                  "X": -14204.0,
+                  "Y": 6328.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.SlurpySwamp"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj36",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_LogJam",
+                  "SourceString": "Logjam Logging",
+                  "LocalizedString": "Людная лесопилка"
+                },
+                "WorldLocation": {
+                  "X": 3052.0,
+                  "Y": -33936.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.LogJam"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj38",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_SteamyStacks",
+                  "SourceString": "Steamy Stacks",
+                  "LocalizedString": "Гигантские градирни"
+                },
+                "WorldLocation": {
+                  "X": 41000.0,
+                  "Y": -27276.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.SteamyStacks"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj34",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_TheFortress",
+                  "SourceString": "Fort Crumpet",
+                  "LocalizedString": "Развалины форта"
+                },
+                "WorldLocation": {
+                  "X": -33008.0,
+                  "Y": -27172.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.TheFortress"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj41",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_DirtyDocks",
+                  "SourceString": "Dirty Docks",
+                  "LocalizedString": "Дрянные доки"
+                },
+                "WorldLocation": {
+                  "X": 380.0,
+                  "Y": 62856.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.DirtyDocks"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_DustyDocks",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_SplitTown",
+                  "SourceString": "Stilt Town",
+                  "LocalizedString": "Позабытый посёлок"
+                },
+                "WorldLocation": {
+                  "X": -41140.0,
+                  "Y": 19456.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.SplitTown"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj37",
+                "ActiveDiscoverableBlodIds": []
+              },
+              {
+                "Text": {
+                  "Namespace": "DisplayNamesForPOIs_DashBerry",
+                  "Key": "NameForLocation_Athena_Location_POI_BoominBase",
+                  "SourceString": "Boomin Base",
+                  "LocalizedString": "Броская база"
+                },
+                "WorldLocation": {
+                  "X": 25092.0,
+                  "Y": 23252.0,
+                  "Z": 3592.0
+                },
+                "LocationTag": {
+                  "TagName": "Athena.Location.POI.BoominBase"
+                },
+                "CalendarEventsRequired": [],
+                "DiscoveryQuestPrimaryAssetId": {
+                  "PrimaryAssetType": {
+                    "Name": "Quest"
+                  },
+                  "PrimaryAssetName": "Quest_BlastBerry_Discover_NamedLocations"
+                },
+                "DiscoverObjectiveBackendName": "Quest_BlastBerry_Discover_NamedLocations_obj39",
+                "ActiveDiscoverableBlodIds": []
+              }
+            ]
+          }
         }
       ],
       "ProductTagToMapName": [
@@ -4212,6 +6725,12 @@
             "TagName": "Product.BR"
           },
           "Value": "Hermes_Terrain"
+        },
+        {
+          "Key": {
+            "TagName": "Product.BlastBerry"
+          },
+          "Value": "DashBerry"
         }
       ],
       "RotatedMapProductTags": [

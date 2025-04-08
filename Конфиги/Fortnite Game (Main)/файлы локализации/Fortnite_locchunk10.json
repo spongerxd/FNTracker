@@ -3,6 +3,7 @@
     "FriendToastAlreadyRequestedFmt": " Вы уже отправили запрос игроку {0}",
     "FriendToastPlayerBlockedFmt": " Игрок {0} заблокирован",
     "OneCharacterOverLimitFmt": "Допустимое число символов превышено на 1",
+    "2393A5C742D18201665DEDA270D675C1": "1-2 этажи",
     "152AB97749E90133A9C6D4A70AFAA7E4": "10 уровней (100 звёзд)",
     "21AB0E424D7109D6AD3DD697E2BFB48D": "10 уровней (100 звёзд)",
     "2D8725F548D2BD7A8C91628C5E4A0765": "10 уровней (100 звёзд)",
@@ -17,6 +18,7 @@
     "CC7FE0084C0A1A5FE6AA70B0936FF86F": "10 уровней (100 звёзд)",
     "F352DA1544834E2971678A8FD5FFB6EB": "10 уровней (100 звёзд)",
     "FC870B584C51C32E110B1C856197D9A5": "10 уровней (100 звёзд)",
+    "0152AAA04CDE85702E58DFACA3BAFC5A": "3-4 этажи",
     "2E0E045E44F3044E3E03ED912CBCA954": "Восьмой (Пул)",
     "9C17FC3C491AFAE6C5B10C82A4EE68F7": "Восьмой (Пул)",
     "BFBDD35A4FE3AD6EEE2C959B98A03380": "<Emphasized>Ба-бах!</>",
@@ -24,36 +26,40 @@
     "8D56ED064BDBC9A9CA7519AAF3E0F472": "<Emphasized>Урон от кирки</> возрастает при <Emphasized>каждом попадании</> по врагам",
     "F098D2D04AC64FEAABFAD4A9370613CE": "Ваш персонаж <Emphasized>меньше вздрагивает</> при получении урона",
     "DDA8D03F4DEA0238335DC484544906BD": "Противники постоянно получают <Emphasized>информацию о вашем местоположении</>",
-    "5A5F96FF49E2D091393AEC90F11E6F79": "<TeamKiller>{ConfirmingPlayer}</> подтверждает место атаки, которое указывает {MarkerOwner}",
-    "19282BA84EF014533A7D36ACA97CC820": "<TeamKiller>{ConfirmingPlayer}</> подтверждает местоположение врага, которое указывает {MarkerOwner}",
-    "9F1ADCC84CAACE9179C392821E4142B9": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} проехаться",
-    "14EB69E8451CFA3720025789DCD5057F": "<TeamKiller>{ConfirmingPlayer}</> может подлечить игрока {MarkerOwner}",
-    "72DA0B3C4DDD24840AC09EBB31DD1269": "<TeamKiller>{ConfirmingPlayer}</> может дать крупнокалиберные патроны игроку {MarkerOwner}",
-    "5FBDF1AE4CAE8BAF32749EA7C9461800": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} малокалиберные патроны",
-    "3337037F4AC29CE302F7E18449270106": "<TeamKiller>{ConfirmingPlayer}</> предлагает игроку {MarkerOwner} среднекалиберные патроны",
-    "5402A5F6466452B1EA2374A9ECB98CC2": "<TeamKiller>{ConfirmingPlayer}</> может дать металл игроку {MarkerOwner}",
-    "0A32C1104455530F9F53F3B0A91F2D0B": "<TeamKiller>{ConfirmingPlayer}</> может дать ракеты игроку {MarkerOwner}",
-    "21501ABC458E1A6C312E308EB1B28672": "<TeamKiller>{ConfirmingPlayer}</> может дать охотничьи патроны игроку {MarkerOwner}",
-    "FC8FB3AF48F78FFAF4E1E1ABCBBF40AE": "<TeamKiller>{ConfirmingPlayer}</> может зарядить щиты игроку {MarkerOwner}",
-    "13F327E84249D18148C103AEB1052CAF": "<TeamKiller>{ConfirmingPlayer}</> может дать камень игроку {MarkerOwner}",
-    "D51B7B4948CA9680794F69BDD9606610": "<TeamKiller>{ConfirmingPlayer}</> может дать древесину игроку {MarkerOwner}",
-    "A6ECB4B043D47477AC2611B8BC49EFDB": "<TeamKiller>{ConfirmingPlayer}</> спешит на помощь игроку {MarkerOwner}",
-    "03FCCF0B4EC53B3F08FAF9A9AB1E20F5": "<TeamKiller>{ConfirmingPlayer}</> собирается присоединиться к игроку {MarkerOwner}",
-    "B2B0AD6644B63FF0A9AAA7BD9EFB15C5": "<TeamKiller>{ConfirmingPlayer}</> отвечает игроку {MarkerOwner}: «Пожалуйста».",
-    "8D9C8CB744C60491C4D61A837E968A3F": "<TeamKiller>{PlayerName}</> говорит: «Спасибо».",
-    "B51E846243739177C4159D8DB4317994": "<TeamKiller>{PlayerName}</> отмечает место назначения",
+    "5A5F96FF49E2D091393AEC90F11E6F79": "<LocalKiller>{ConfirmingPlayer}</> подтверждает место атаки, которое указывает <TeamKiller>{MarkerOwner}</>",
+    "19282BA84EF014533A7D36ACA97CC820": "<LocalKiller>{ConfirmingPlayer}</> подтверждает местоположение врага, которое указывает <TeamKiller>{MarkerOwner}</>",
+    "9F1ADCC84CAACE9179C392821E4142B9": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> проехаться",
+    "14EB69E8451CFA3720025789DCD5057F": "<LocalKiller>{ConfirmingPlayer}</> может подлечить игрока <TeamKiller>{MarkerOwner}</>",
+    "72DA0B3C4DDD24840AC09EBB31DD1269": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> крупнокалиберные патроны",
+    "5FBDF1AE4CAE8BAF32749EA7C9461800": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> малокалиберные патроны",
+    "3337037F4AC29CE302F7E18449270106": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> среднекалиберные патроны",
+    "5402A5F6466452B1EA2374A9ECB98CC2": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> металл",
+    "0A32C1104455530F9F53F3B0A91F2D0B": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> ракеты",
+    "21501ABC458E1A6C312E308EB1B28672": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> охотничьи патроны",
+    "FC8FB3AF48F78FFAF4E1E1ABCBBF40AE": "<LocalKiller>{ConfirmingPlayer}</> может зарядить щиты игроку <TeamKiller>{MarkerOwner}</>",
+    "13F327E84249D18148C103AEB1052CAF": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> камень",
+    "D51B7B4948CA9680794F69BDD9606610": "<LocalKiller>{ConfirmingPlayer}</> предлагает игроку <TeamKiller>{MarkerOwner}</> древесину",
+    "A6ECB4B043D47477AC2611B8BC49EFDB": "<LocalKiller>{ConfirmingPlayer}</> спешит на помощь игроку <TeamKiller>{MarkerOwner}</>",
+    "03FCCF0B4EC53B3F08FAF9A9AB1E20F5": "<LocalKiller>{ConfirmingPlayer}</> собирается присоединиться к игроку <TeamKiller>{MarkerOwner}</>",
+    "B2B0AD6644B63FF0A9AAA7BD9EFB15C5": "<LocalKiller>{ConfirmingPlayer}</> отвечает игроку <TeamKiller>{MarkerOwner}</>: «Пожалуйста»",
+    "A347330A47B12C90CC91508002A10F7F": "<LocalKiller>{ConfirmingPlayer}</> хочет получить следующее: <b>{MarkedActorName}</>",
+    "8D9C8CB744C60491C4D61A837E968A3F": "<TeamKiller>{PlayerName}</> говорит: <b>«Спасибо»</>",
+    "87B2A4764994CD583C4B998859850D94": "<TeamKiller>{PlayerName}</> отмечает следующее: <b>{MarkedActorName}</>",
+    "B51E846243739177C4159D8DB4317994": "<TeamKiller>{PlayerName}</> отмечает <TeamKiller>место назначения</>",
     "973E45B544F52AC70001A399716836ED": "<TeamKiller>{PlayerName}</> указывает место <red>атаки</>",
-    "7B9FFFAB42F3B77A2EAE568F794F581B": "<TeamKiller>{PlayerName}</> отмечает местоположение врага",
-    "D127C33E45859EE70C98E39F92F5330E": "<TeamKiller>{PlayerName}</> просит о <blue>помощи</>",
-    "5DBABCEC4C17F8FFE062319672AEFF23": "<TeamKiller>{PlayerName}</> ищет транспорт",
-    "0ED15AF3454AD084CC29E886DE0310A7": "<TeamKiller>{PlayerName}</> просит крупнокалиберные патроны",
-    "300EEA27439994BFD373FC80B84E842F": "<TeamKiller>{PlayerName}</> просит малокалиберные патроны",
-    "6AE6F5B447A4455B4FA0B7B4F570EA5E": "<TeamKiller>{PlayerName}</> просит среднекалиберные патроны",
-    "E724DB754D5330A514922BA6216A80B5": "<TeamKiller>{PlayerName}</> просит металл",
-    "8657D46D44F9DB1BE731109003357C85": "<TeamKiller>{PlayerName}</> просит ракеты",
-    "7BCCD91545F4134B69E3049C4C30772E": "<TeamKiller>{PlayerName}</> просит охотничьи патроны",
-    "10E7D290415923EA6A984FB6D534D7D6": "<TeamKiller>{PlayerName}</> просит камень",
-    "0CD79A7142058339A75B418245AD317D": "<TeamKiller>{PlayerName}</> просит древесину",
+    "7B9FFFAB42F3B77A2EAE568F794F581B": "<TeamKiller>{PlayerName}</> отмечает местоположение <red>врага</>",
+    "0ED15AF3454AD084CC29E886DE0310A7": "<TeamKiller>{PlayerName}</> просит <b>крупнокалиберные патроны</>",
+    "D127C33E45859EE70C98E39F92F5330E": "<TeamKiller>{PlayerName}</> просит о <b>помощи</>",
+    "300EEA27439994BFD373FC80B84E842F": "<TeamKiller>{PlayerName}</> просит <b>малокалиберные патроны</>",
+    "6AE6F5B447A4455B4FA0B7B4F570EA5E": "<TeamKiller>{PlayerName}</> просит <b>среднекалиберные патроны</>",
+    "E724DB754D5330A514922BA6216A80B5": "<TeamKiller>{PlayerName}</> просит <b>металл</>",
+    "8657D46D44F9DB1BE731109003357C85": "<TeamKiller>{PlayerName}</> просит <b>ракеты</>",
+    "7BCCD91545F4134B69E3049C4C30772E": "<TeamKiller>{PlayerName}</> просит <b>охотничьи патроны</>",
+    "10E7D290415923EA6A984FB6D534D7D6": "<TeamKiller>{PlayerName}</> просит <b>камень</>",
+    "0CD79A7142058339A75B418245AD317D": "<TeamKiller>{PlayerName}</> просит <b>древесину</>",
+    "6817BE6D48D77007E31E9A9D2E586F03": "<TeamKiller>{PlayerName}</> просит зарядить <blue>щиты</>",
+    "152F9D4048DA33A1D8C19297D0E3346B": "<TeamKiller>{PlayerName}</> хочет <green>подлечиться</>",
+    "5DBABCEC4C17F8FFE062319672AEFF23": "<TeamKiller>{PlayerName}</> ищет <b>транспорт</>",
     "231AF36049841BCCCB72619C0346D63B": "Стиль Глюка",
     "31CD900F4FA8D77724E2058309069ADF": "Клинок с дополнительной мощной атакой в прыжке.",
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Клинок с дополнительной мощной атакой в прыжке.",
@@ -607,6 +613,8 @@
     "F40AB3D24D4CB8BD69E8DD9F2A9F8F37": "Позволяет спрятаться в коробку и таким образом скрыться от врагов. Перейдите в режим прицеливания, чтобы покинуть укрытие и напасть на противника!",
     "7A06DE884A995404177AD6A19FDC8892": "Раз — и я оказался прямо в вулкане! Целиком.",
     "F92A2BBA4871D636829900B0E138FA81": "Испытания доктора Виндербота",
+    "E1BED4D745D5C529FA212FB1F3F608E5": "Дробовик «Дыхание дракона»",
+    "E59090CF454893982874D2A50DE4A337": "Дробовик «Дыхание дракона»",
     "A40029FC4A42722819C81C98492196A1": "Заражённый Ронин",
     "F4DB413445A0B5E5D14DC589B7303967": "Заражённый Ронин",
     "94E50C1644E53700C42F0F929771E0F7": "Набор заданий Заражённого Ронина",
@@ -675,6 +683,7 @@
     "C8074EE14AC9A4E1D5B5AF8809072D41": "НАБОР ОСНОВАТЕЛЯ 4",
     "D3FB59734B08E81911D0A19A44AE4ACA": "НАБОР ОСНОВАТЕЛЯ 5",
     "F0CE215A4C43A35A4F9FAA975385DD4B": "Устройство «Ткань»",
+    "1B1226CD42C4EE72F24FE5B4C56A42A8": "Переменчивые поля",
     "Filter Friends Hint": "Фильтр",
     "FilterList": "Отфильтровать список",
     "04B9B92F4F72E0530969FAA3713B380E": "Ну и, наконец, хранитель должен защищать храм от непрошенных гостей.",
@@ -1388,7 +1397,6 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
-    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "93D0AAC643B7CCE0B45615ADBC124BFD": "Выстрелить/Притянуть",
     "8F2CB8B14C13300867F38FB05719A4D2": "Праздничная бутылочная ракета, взмывающая в воздух. Расходуется при использовании.\r\nНе действует вне миссии.",
@@ -1396,6 +1404,8 @@
     "D658A1654DD9535F6E60B9BCBDAC25CC": "Краткое описание",
     "F6BC2C5F4A81B72C1FDDFE85C17FE03C": "Краткое описание",
     "52A97CA746DE4B0EE0516A98998B6203": "Автоматический дробовик. Быстро стреляющее оружие с вместительным магазином.",
+    "25959F92401A01E7EE84698DBFC693FA": "Дробовик с переломным затвором. Наносит большой урон, обладает высокой скорострельностью, малой дальнобойностью и очень небольшим магазином.",
+    "4AF46CE74B74BCE26916CCA46D1E845F": "Дробовик с переломным затвором. Наносит большой урон, обладает высокой скорострельностью, малой дальнобойностью и очень небольшим магазином.",
     "877E6BD14AFCE21D134787A71842A605": "Дробовик: заряжаемый. Точный дробовик, который можно зарядить, чтобы в любой момент совершить мощный выстрел.",
     "82C81CEB4209B4F78F6DB894345EFEBF": "Помповый дробовик. Наносит большой урон на малом расстоянии, обладает умеренной скорострельностью. Имеет ограниченный размер магазина.",
     "029C79824756DFCA21B1AB85821FF31C": "Показ новостей",
@@ -2169,7 +2179,7 @@
     "DropItems": "Выбросить предметы",
     "DropStack": "Бросить неск. предметов ({StackCount})",
     "RequestAmmo": "Запросить боеприпасы",
-    "RequestMaterial": "Потребовать материал"
+    "RequestMaterial": "Запросить"
   },
   "AthenaItemDetailsHeaderBase": {
     "SlotsTaken": "{0} ЯЧ."
@@ -2214,6 +2224,7 @@
     "AthenaIndicatorDistanceFormatText": "{0} м"
   },
   "AthenaMarkerComponent": {
+    "FallbackMarkedActorName": "Объект",
     "FallbackPlayerName": "Игрок"
   },
   "AthenaMatchXPScreenWidget": {
@@ -2376,9 +2387,6 @@
     "Hat": "Головной убор",
     "Head": "Голова",
     "UnknownPart": "Неизвестная часть"
-  },
-  "ChatContainer": {
-    "CombinedChannelName": "Все"
   },
   "ChatEntryCommands": {
     "Chat Commands": "Управление чатом"
@@ -4254,6 +4262,7 @@
     "RefreshNotificationDescription": "Вы можете сделать {AvailableCount} {AvailableCount}|plural(one=запрос,few=запроса,many=запросов,other=запроса) на возврат"
   },
   "FortAthenaMatchmakingWidget": {
+    "Ranked_Feral_SeasonNameOverride": "Ранний доступ",
     "MapRotationMessage": "Следующая карта: {0}",
     "Ranked_Feral_ModeName": "Рейтинговая «Линия огня»",
     "Ranked_Figment_ModeName": "Рейтинговая лига «Как раньше»",
@@ -4264,7 +4273,6 @@
     "ReJoinMessage": "Вернитесь в текущий матч, чтобы избежать запрета на подбор игроков ({0}).",
     "Ranked_BattleRoyale_SeasonNameOverride": "Нулевой сезон",
     "Ranked_BlastBerry_SeasonNameOverride": "Нулевой сезон",
-    "Ranked_Feral_SeasonNameOverride": "Нулевой сезон",
     "Ranked_Figment_SeasonNameOverride": "Нулевой сезон",
     "BlackoutTimeCountdownFormat": "Недоступно через: {0}",
     "Ranked_Matchmaking_ReadyUpWelcome": "Представляем: {0}"
@@ -4340,28 +4348,15 @@
     "DeleteStateToolTipText": "Удалить это состояние.",
     "StateNameToolTipText": "Название состояния. Нажмите дважды, чтобы изменить."
   },
-  "FortChat": {
-    "SendError": "Чтобы отправить сообщение, вы должны находиться в канале.",
-    "SendDisabledError": "Вы отключили текстовый чат."
-  },
-  "FortChatContainer": {
-    "DisabledReasonLine_Parental": "Текстовый чат отключён согласно настройкам родительского контроля.",
-    "DisabledReasonLine": "Вы не можете использовать текстовый чат из-за действующих настроек чата.",
-    "DisabledReasonLine_Alt": "Чтобы воспользоваться этой функцией, вам нужно получить разрешение от родителя. Ваш родитель может предоставить требуемое разрешение с помощью средств родительского контроля."
-  },
   "FortChatManager": {
     "DisplayChannelText_Echo": "Проверка",
-    "FounderChatLabel": "Основатель",
     "DisplayChannelText_GameServer": "Игра",
-    "GlobalChatLabel": "Общий",
     "DisplayChannelText_None": "Нет",
     "DisplayChannelFormat_NoChannel": "Без канала",
     "DisplayChannelText_Party": "Группа",
     "VoiceChannelType_Platform_Generic": "Группа платформы",
     "VoiceChannelType_Platform_PS": "Группа PlayStation",
     "VoiceChannelType_Platform_XBL": "Группа сети Xbox",
-    "DisplayChannelFormat_ThreeChannels": "Каналы {0}, {1} и {2}",
-    "DisplayChannelFormat_TwoChannels": "Каналы {0} и {1}",
     "DisplayChannelFormat_OneChannel": "Канал {0}"
   },
   "FortColorPickerInternal": {
@@ -4659,10 +4654,6 @@
     "GiftFromMyself": "Вы",
     "TitleWhenGiftFromSomeoneElse": "Вы получили подарок!"
   },
-  "FortItemRestrictionVM": {
-    "ShoesLockerCompatibilityFormat": "Эта обувь совместима с {0} из {1} {1}|plural(one=экипировки,few=экипировок,many=экипировок,other=экипировки) в вашем шкафчике.",
-    "ShoesIncompatibleEquippedText": "В настоящее время эта обувь несовместима с используемой экипировкой."
-  },
   "FortItemShopOfferDetails": {
     "ConfirmationUndoOnCooldownMessage": "Пожалуйста, подтвердите покупку. Обратите внимание, что повторно воспользоваться функцией отмены покупки будет нельзя. Однако вы сможете вернуть средства, если у вас остались купоны на возврат.\n\nПодробности на странице fn.gg/cancelpurchase"
   },
@@ -4679,6 +4670,7 @@
     "JunoLegalText": "В LEGO® Fortnite Odyssey материалы можно размещать в вашем мире и не более чем в восьми мирах друзей за неделю. Для создания и размещения материалов в режиме «Выживание» в LEGO® Fortnite Odyssey необходимо собрать нужное количество ресурсов.",
     "ShoesOfferIncompatibilityText": "Обувь можно использовать с большинством экипировок. Информация об исключениях и другие подробности на странице fn.gg/KicksUsability.",
     "LegoKitOfferDescription": "Комплект LEGO®",
+    "LeavingToday": "Сегодня исчезнет",
     "PegiMusicWarning": "ЗАГРУЖАЕМАЯ МУЗЫКА НЕ ИМЕЕТ РЕЙТИНГОВ PEGI — www.pegi.info",
     "UndoCooldownConfirmation": "Пожалуйста, подтвердите покупку. Обратите внимание, что повторно воспользоваться функцией отмены покупки будет нельзя. Однако вы сможете вернуть средства, если у вас остались купоны на возврат.\n\nПодробности на странице fn.gg/cancelpurchase",
     "DefaultLegalText": "Данные косметические предметы не дают преимуществ в бою. Оружие не прилагается к экипировкам и обёрткам. Некоторые косметические предметы можно использовать лишь в определённых режимах. Подробнее о разновидностях и ограничениях косметических предметов: fn.gg/cosmetics",
@@ -4833,6 +4825,13 @@
     "NoIdentityInterface": "Нет интерфейса идентификации!",
     "NoSessionInterface": "Нет интерфейса сеанса!",
     "NoUniqueId": "Неизвестный игрок принял приглашение!"
+  },
+  "FortMatchmakingViewModel": {
+    "MatchmakingStatus_FindingServer": "Поиск сервера",
+    "MatchmakingStatus_InvalidIsland": "Неподходящий остров",
+    "MatchmakingStatus_MatchFound": "матч найден",
+    "MatchmakingStatus_Unready": "Не готов",
+    "MatchmakingStatus_WaitingForPlayersReadyUp": "Ждём готовности игроков"
   },
   "FortMatmakingWidget": {
     "BackOnContentDownloadDialog_Button": "Задняя"
@@ -5083,6 +5082,7 @@
     "Error.TeammateRankLevelTooHigh": "Товарищ по команде не может участвовать в этом турнире, поскольку его уровень рейтинга слишком высок.",
     "AlreadyInSession": "Вы уже присоединились к сеансу!",
     "ClientCellularDownloadRefusalError": "При выбранных параметрах загрузка материалов по сотовой связи до подключения к сеансу недоступна.",
+    "Header.ContentError": "Ошибка загрузки данных",
     "InvalidCustomMatchKey": "Длина пароля для подбора игроков должна составлять от 4 до 16 символов.",
     "DuplicatePlayer": "Хм. Кто-то вошёл в вашу учётную запись на другом устройстве. Если это не вы, срочно обратитесь в службу поддержки: {SupportURL}",
     "FailedToCleanupSession": "Не удалось очистить предыдущий сеанс!",
@@ -5099,12 +5099,19 @@
     "MMSCommunicationIssue": "Ошибка при обмене данными со службой подбора игроков.",
     "BucketTermination": "Похоже, что очередь подбора игроков рассеялась, пока вы в ней стояли. Попробуйте ещё раз!",
     "WinHttpTimeOut": "Похоже, возникли проблемы с подключением. Повторите попытку!",
+    "Header.JoinError": "Ошибка присоединения к сеансу",
     "SessionUnavailable": "Похоже, что все боевые автобусы забиты до отказа. Повторите попытку через пару минут. Если ошибка не исчезла, загляните на сайт {CheckStatusURL}",
     "PlaylistNoLongerAvailable": "Вы буквально на минуту разминулись с этим режимом! Увы, он уже недоступен. Выберите какой-нибудь другой режим.",
     "LeaderCanceled": "Подбор игроков отменён лидером группы",
     "Message.Canceled": "Подбор игроков отменён.",
+    "Header.MatchmakingError": "Ошибка при подборе игроков",
+    "Header.MatchmakingError.Number": "Ошибка при подборе игроков (#1)",
+    "Header.ContentError.Number": "Ошибка при подборе игроков (#2)",
+    "Header.JoinError.Number": "Ошибка при подборе игроков (#3)",
+    "Header.PartyError.Number": "Ошибка при подборе игроков (#4)",
     "NoIdentityInterface": "Нет интерфейса идентификации!",
     "NoSessionInterface": "Нет интерфейса сеанса!",
+    "Header.PartyError": "Ошибка группы",
     "PartyConnectTimeout": "Не удалось присоединить команду",
     "PartyMemberDisconnected": "Участник команды отключился",
     "FindSessionFailure": "Время сеанса истекло.",
@@ -5155,6 +5162,7 @@
     "Unauthorized": "Вы пока не можете играть в этом режиме.",
     "MfaRequiredForTournament": "Чтобы участвовать в турнире, необходимо включить двухфакторную аутентификацию для учётной записи Epic. Перейдите на {TurnOnMfaURL}, чтобы включить.",
     "WrongNumberOfEventPlayers": "Вы должны состоять в полной группе, чтобы принять участие в состязании.",
+    "InvalidDate": "В вашей системе Nintendo Switch неправильно установлено время. Синхронизируйте его через интернет в меню параметров даты и времени.",
     "Error.AccountLevelTooLow": "Уровень вашей учётной ({0}) записи не соответствует минимальным требованиям: {1}.",
     "Error.BRRankLevelTooLow": "Ваш текущий уровень рейтинга в «Королевской битве» ({0}) не соответствует минимальным требованиям: {1}.",
     "Error.BRRankLevelTooHigh": "Вы не можете участвовать в этом турнире, поскольку ваш текущий уровень рейтинга в «Королевской битве» ({0}) слишком высок. Максимально допустимый рейтинг для участия в турнире — {1}.",
@@ -5183,9 +5191,6 @@
   "Fortnite.UGCEdit": {
     "ExperimentalDeviceToastDescription": "Был добавлен экспериментальный ресурс.\nПубликация будет невозможной, пока вы не удалите все экспериментальные ресурсы.",
     "ExperimentalDeviceToastTitle": "Экспериментальный ресурс"
-  },
-  "FortniteChat": {
-    "BanMessage": "Чат отключён из-за социальной блокировки."
   },
   "FortniteCheatManager": {
     "Error_RetryCompilation": "Не удалось выполнить компиляцию модуля {0} C++! Подробные сведения в журнале событий. \r\nИсправьте ошибку и нажмите ОК, чтобы повторить попытку."
@@ -7023,7 +7028,9 @@
     "AutoPickupWeapons_Description": "Включает или отключает автоматический подбор оружия. При включении персонаж будет автоматически подбирать оружие, на которое наступает, пока в инвентаре есть место.",
     "AutoSortConsumablesToHigherSlots_Description": "Позволяет включить и отключить авторазмещение при поднятии для расходуемых предметов, повышающих параметры защиты и здоровья, в самую верхнюю из свободных ячеек.",
     "AutoSortConsumablesToRight_Description": "Позволяет включить и отключить авторазмещение при поднятии для расходуемых предметов, повышающих параметры защиты и здоровья, в самую правую из свободных ячеек.",
-    "GamepadAutoRun_Description": "Позволяет включить и отключить автоматический бег на геймпаде. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать мини-джойстик в наклоне.",
+    "GamepadAutoRun_Description_PS4_PS5": "Позволяет включить и отключить автоматический бег на контроллере. При включении двойное нажатие на кнопку L3 заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый джойстик в наклоне.",
+    "GamepadAutoRun_Description_Switch": "Позволяет включить и отключить автоматический бег на контроллере. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
+    "GamepadAutoRun_Description": "Позволяет включить и отключить автоматический бег на геймпаде. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
     "GamepadVibration_Description": "Позволяет включить и отключить вибрацию геймпада.",
     "GamepadVibrationMobile_Description": "Позволяет включить и отключить вибрацию устройства.",
     "EditModeAimAssist_Description": "Позволяет включить и отключить помощь в прицеливании в режиме редактирования. При включении прицел будет притягиваться к ближайшей редактируемой клетке, если используется геймпад.",
@@ -9821,9 +9828,13 @@
     "Status_LockedRewardFormat": "Получите ещё {NumRewards} {NumRewards}|plural(one=награду,few=награды,many=наград,other=награды)",
     "Status_NoRewardsToClaimCostOneFormat": "Повышайте уровень, чтобы получить больше наград!",
     "Status_NoRewardsToClaimFormat": "Повысьте уровень еще несколько раз ({Levels}), чтобы получить больше наград",
+    "Status_GoToCategoryForMoreRewards": "Больше наград в категории «{CategoryName}»",
+    "Status_GoToNextPageForRewards": "Вы можете получить больше наград на странице {PageNumber}",
     "Status_LockedLevelFormat": "ИЛИ получите {NumLevels} {NumLevels}|plural(one=уровень,few=уровня,many=уровней,other=уровня), чтобы открыть",
+    "Status_PurchaseBattlePassToUnlock": "Купите {PassName}, чтобы получить больше наград",
     "Status_LockedDateLockedFormat": "Откроется {Date}",
-    "Status_RewardsToClaimFormat": "Вам доступны награды"
+    "Status_RewardsToClaimFormat": "Вам доступны награды",
+    "Status_PassCompletedAllRewardsClaimed": "Вы получили все награды, которые предоставляет {PassName}!"
   },
   "UserOptionDefinition": {
     "ClassSlotMetaData.DisplayPattern": "Класс {0}",
@@ -9854,6 +9865,31 @@
   "VehicleModComponent": {
     "SwitchSeat": "Пересесть",
     "SwitchToWeapon": "Переключиться на оружие"
+  },
+  "VkAnimNode": {
+    "FADEINLEFT": "Появление слева",
+    "FADEINRIGHT": "Появление справа",
+    "FADEOUTLEFT": "Уход влево",
+    "FADEOUTRIGHT": "Уход вправо",
+    "JUMPFADEINLEFT": "Резкий переход с появлением слева",
+    "JUMPFADEINRIGHT": "Резкий переход с появлением справа",
+    "JUMPFADEOUTLEFT": "Резкий переход с уходом влево",
+    "JUMPFADEOUTRIGHT": "Резкий переход с уходом вправо",
+    "JUMPLEFT": "Резкий переход влево",
+    "JUMPRIGHT": "Резкий переход вправо",
+    "SHAKELEFT": "Тряска слева",
+    "SHAKERIGHT": "Тряска справа",
+    "SHAKEWOBBLELEFT": "Тряска с покачиванием слева",
+    "SHAKEWOBBLERIGHT": "Тряска с покачиванием справа",
+    "SLIDEINFASTLEFT": "Быстрый плавный вход влево",
+    "SLIDEINLEFT": "Плавный вход влево",
+    "SLIDEINRIGHT": "Плавный вход вправо",
+    "SLIDEOUTFLIPLEFT": "Плавный выход влево с поворотом",
+    "SLIDEOUTFLIPRIGHT": "Плавный выход вправо с поворотом",
+    "SLIDEOUTLEFT": "Плавный выход влево",
+    "SLIDEOUTRIGHT": "Плавный выход вправо",
+    "Format": "Анимация говорящего: {ANIMENUM}\nПользовательский индекс анимации:{ANIMINDEX}",
+    "OutBoundError": "Этот узел не может связываться с узлами такого же типа или узлами перезапуска"
   },
   "VkChoiceNode": {
     "OutBoundError": "Диалоговые узлы не могут связываться с узлами такого же типа"
@@ -9893,6 +9929,12 @@
     "OutBoundError": "Этот узел не может связываться с узлами такого же типа или узлами перезапуска"
   },
   "VkHideNode": {
+    "OutBoundError": "Этот узел не может связываться с узлами такого же типа или узлами перезапуска"
+  },
+  "VkMaterialNode": {
+    "ART01": "Рисунок 1",
+    "ART02": "Рисунок 2",
+    "Format": "Индекс материала: {NUMBER}\nPortraitSelection: {ARTINDEX}",
     "OutBoundError": "Этот узел не может связываться с узлами такого же типа или узлами перезапуска"
   },
   "VkRandomNode": {
