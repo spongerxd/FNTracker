@@ -12980,6 +12980,39 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
+          "AssetPathName": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_C.WID_Figment_Shotgun_SemiAuto_Athena_C",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Shells.C0;Item:WID.Shotgun.SemiAuto.Athena.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Shells.02": {
+        "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Shells",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
           "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_C.WID_Figment_Shotgun_Standard_Athena_C",
           "SubPathString": ""
         },
@@ -13442,14 +13475,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_VR.WID_Figment_Shotgun_SemiAuto_Athena_VR",
+          "AssetPathName": "/Figment_Shotgun_Heavy_Athena/Gameplay/WID_Figment_Shotgun_SlugFire_Athena_VR.WID_Figment_Shotgun_SlugFire_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells.C0;Item:WID.Shotgun.SemiAuto.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells.C0;Item:WID.Shotgun.SlugFire.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Light.01": {
@@ -13949,7 +13982,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -14048,7 +14081,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15236,7 +15269,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25004,7 +25037,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Crossbow.01": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Crossbow",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25037,7 +25070,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Crossbow.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Crossbow",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34706,7 +34739,7 @@
       },
       "WorldList.AthenaHighConsumables.06": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38006,7 +38039,7 @@
       },
       "WorldList.AthenaConsumables.06": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

@@ -271,8 +271,12 @@
     "UseGuitarLeftyFlip_Description": "Обратный порядок дорожек в Festival.",
     "Pilgrim_SelectPreset_Description": "Конфигурация для игры на Главной сцене",
     "TrackSpeed_Description": "Настроить скорость треков в Festival.",
-    "NonProTrackInputButtonVisibility_Name": "Показывать обозначения ввода (лид-партии и партии баса, ударные, вокал)",
-    "ProTrackInputButtonVisibility_Name": "Показывать обозначения ввода (партии внешних лид-устройства и бас-гитары)",
+    "NonProTrackInputButtonVisibility_Name": "Показывать обозначения кнопок (лид-партии, партии баса, ударные, вокал)",
+    "NonProTrackInputButtonVisibility_Name_PS4_PS5": "Показывать обозначения кнопок (лид-партии, партии баса, ударные, вокал)",
+    "NonProTrackInputButtonVisibility_Name_Switch": "Показывать обозначения кнопок (лид-партии, партии баса, ударные, вокал)",
+    "ProTrackInputButtonVisibility_Name": "Показывать обозначения кнопок (продвинутые лид-партии и партии баса)",
+    "ProTrackInputButtonVisibility_Name_PS4_PS5": "Показывать обозначения кнопок (продвинутые лид-партии и партии баса)",
+    "ProTrackInputButtonVisibility_Name_Switch": "Показывать обозначения кнопок (продвинутые лид-партии и партии баса)",
     "UseProColorsForAllParts_Description": "Показывать разноцветные ноты для лид-партий, партий баса, барабанов и вокала.",
     "NonProTrackInputButtonVisibility_Description": "Подсказывать управление для лид-партий, партий баса, барабанов и вокала.",
     "ProTrackInputButtonVisibility_Description": "Подсказывать управление для внешних лид-устройств и бас-гитары",
@@ -291,6 +295,8 @@
     "VideoOffset": "{0} мс."
   },
   "PilgrimSongCatalogVM": {
+    "SongCategoryGroupCollectionHeader_SongArtist": "Исполнитель",
+    "SongCategoryGroupCollectionHeader_SongArtistReverse": "Исполнитель",
     "PilgrimArtistSort": "Имя исполнителя",
     "UPilgrimSongCatalogItemFilterAvailableOnlyVM": "Доступные",
     "UPilgrimSongCatalogItemSecondaryFilterAvailableOnlyVM": "Доступные",
@@ -298,12 +304,22 @@
     "PilgrimSongCatalogItemSecondaryFilterFavoriteOnlyVM": "Избранное",
     "PilgrimFeaturedSort": "Рекомендуемое",
     "UPilgrimSongCatalogItemSecondaryFilterFeaturedOnlyVM": "Рекомендуемое",
-    "UPilgrimSongCatalogItemSecondaryFilterUnarchivedOnlyVM": "Показывать архив",
+    "UPilgrimSongCatalogItemSecondaryFilterNewOnlyVM": "Новые",
     "UPilgrimSongCatalogItemSecondaryFilterOwnedOnlyVM": "Ваши",
-    "PilgrimOwnedSort": "Владелец",
     "UPilgrimSongCatalogItemSecondaryFilterSharedOnlyVM": "Общее",
+    "UPilgrimSongCatalogItemSecondaryFilterUnarchivedOnlyVM": "Отображать архив",
+    "PilgrimAlphaSortShort": "Название песни",
     "PilgrimAlphaSort": "Название песни (по алфавиту)",
     "PilgrimAlphaSortReverse": "Название песни (в обр. порядке)",
-    "UPilgrimSongCatalogItemSecondaryFilterSpotlightOnlyVM": "В центре внимания"
+    "UPilgrimSongCatalogItemSecondaryFilterSpotlightOnlyVM": "В центре внимания",
+    "SongCategoryGroupCollectionHeader_SongTitle": "Название",
+    "SongCategoryGroupCollectionHeader_SongTitleReverse": "Название"
+  },
+  "PilgrimSongCategoryGroupVM": {
+    "SongCategoryGroupCollectionHeader_Featured": "Рекомендуемое",
+    "SongCategoryGroupCollectionHeader_Highlighted": "Рекомендуемое",
+    "SongCategoryGroupCollectionHeader_New": "Новинки",
+    "SongCategoryGroupCollectionHeader_Owned": "Ваши",
+    "SongCategoryGroupCollectionHeader_Spotlight": "На сцене"
   }
 }
