@@ -8,7 +8,7 @@
       "ObjectName": "Class'BeanCharConfigObject'",
       "ObjectPath": "/Script/BeanstalkRuntime"
     },
-    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassFlags": "CLASS_Const | CLASS_CompiledFromBlueprint",
     "ClassWithin": {
       "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
@@ -38,7 +38,8 @@
           "Granted.WallStick.Blocked",
           "Granted.WallJump.Blocked",
           "Granted.RollLanding.Blocked",
-          "Granted.BoostedJump.Blocked"
+          "Granted.BoostedJump.Blocked",
+          "Gameplay.Status.DisableSliding"
         ],
         "DisallowedPlayerActions": [
           "Gameplay.Action.Player.InteractiveConsumableUse",

@@ -3,6 +3,7 @@
     "Type": "DataTable",
     "Name": "BlastBerryTierData",
     "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortLootTierData'",
@@ -23,7 +24,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldList.AthenaTest",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -64,13 +68,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTest;LPKG:WorldList.AthenaTest"
       },
       "Loot_AthenaTreasure_15": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.0023,
+        "Weight": 0.0046,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -81,7 +91,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicRandom",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -122,13 +135,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.MythicRandom"
       },
       "Loot_AthenaTreasure_16": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.00168,
+        "Weight": 0.00334,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -139,7 +158,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticRandom",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -180,13 +202,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.ExoticRandom"
       },
       "Loot_AthenaTreasure_17": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.0009,
+        "Weight": 0.0018,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -197,7 +225,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicGFish",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -238,13 +269,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.MythicGFish"
       },
       "Loot_AthenaTreasure_18": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 9E-05,
+        "Weight": 0.00019,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -255,7 +292,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticBundle",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -296,13 +336,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.ExoticBundle"
       },
       "Loot_ApolloTreasure_Rare_15": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.004,
+        "Weight": 0.0081,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -313,7 +359,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicRandom",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -354,13 +403,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.MythicRandom"
       },
       "Loot_ApolloTreasure_Rare_16": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.003,
+        "Weight": 0.00596,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -371,7 +426,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticRandom",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -412,13 +470,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.ExoticRandom"
       },
       "Loot_ApolloTreasure_Rare_17": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.0024,
+        "Weight": 0.00488,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -429,7 +493,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicGFish",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -470,13 +537,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.MythicGFish"
       },
       "Loot_ApolloTreasure_Rare_18": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.0012,
+        "Weight": 0.00238,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -487,7 +560,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticBundle",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 6.0,
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -528,7 +604,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.ExoticBundle"
       },
@@ -545,7 +627,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.BlastBerrySupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -586,13 +671,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.BlastBerrySupply"
       },
       "Loot_AthenaSupplyDrop_15": {
         "TierGroup": "Loot_AthenaSupplyDrop",
-        "Weight": 0.003,
+        "Weight": 0.00605,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -603,7 +694,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicRandomSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -644,13 +738,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.MythicRandomSupply"
       },
       "Loot_AthenaSupplyDrop_16": {
         "TierGroup": "Loot_AthenaSupplyDrop",
-        "Weight": 0.0023,
+        "Weight": 0.00303,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -661,7 +761,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticRandomSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -702,13 +805,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.ExoticRandomSupply"
       },
       "Loot_AthenaSupplyDrop_17": {
         "TierGroup": "Loot_AthenaSupplyDrop",
-        "Weight": 0.0015,
+        "Weight": 0.00182,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -719,7 +828,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicGFishSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -760,13 +872,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.MythicGFishSupply"
       },
       "Loot_AthenaSupplyDrop_18": {
         "TierGroup": "Loot_AthenaSupplyDrop",
-        "Weight": 0.001,
+        "Weight": 0.0006,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -777,7 +895,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticBundleSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 15.0,
+        "NumLootPackageDropsRange": {
+          "X": 15.0,
+          "Y": 15.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -818,7 +939,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.ExoticBundleSupply"
       },
@@ -835,7 +962,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.BlastBerrySupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -876,13 +1006,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.BlastBerrySupply"
       },
       "Loot_BlastBerry_AthenaSupplyDrop_02": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
-        "Weight": 0.003,
+        "Weight": 0.00605,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -893,7 +1029,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicRandomSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -934,13 +1073,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.MythicRandomSupply"
       },
       "Loot_BlastBerry_AthenaSupplyDrop_03": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
-        "Weight": 0.0015,
+        "Weight": 0.00303,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -951,7 +1096,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticRandomSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -992,13 +1140,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.ExoticRandomSupply"
       },
       "Loot_BlastBerry_AthenaSupplyDrop_04": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
-        "Weight": 0.001,
+        "Weight": 0.00182,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -1009,7 +1163,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.MythicGFishSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 13.0,
+        "NumLootPackageDropsRange": {
+          "X": 13.0,
+          "Y": 13.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -1050,13 +1207,19 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.MythicGFishSupply"
       },
       "Loot_BlastBerry_AthenaSupplyDrop_05": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
-        "Weight": 0.0003,
+        "Weight": 0.0006,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -1067,7 +1230,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.ExoticBundleSupply",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 15.0,
+        "NumLootPackageDropsRange": {
+          "X": 15.0,
+          "Y": 15.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -1108,7 +1274,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.ExoticBundleSupply"
       },
@@ -1125,7 +1297,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.BlastBerryLlama",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 20.0,
+        "NumLootPackageDropsRange": {
+          "X": 20.0,
+          "Y": 20.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -1166,7 +1341,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaLlama;LPKG:WorldPKG.BlastBerryLlama"
       },
@@ -1183,7 +1364,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "MedVending.Consumable.Health",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 4.0,
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -1224,7 +1408,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_Vend_Item_Heal_Health;LPKG:MedVending.Consumable.Health"
       },
@@ -1241,7 +1431,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "MedVending.Consumable.Shield",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 4.0,
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -1282,7 +1475,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:LTG_Vend_Item_Heal_Shield;LPKG:MedVending.Consumable.Shield"
       },
@@ -1299,7 +1498,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldList.AthenaTest",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -1340,7 +1542,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTest;LPKG:WorldList.AthenaTest"
       },
@@ -1357,7 +1565,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldList.AthenaTest",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 1.0,
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           0,
@@ -1398,7 +1609,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTest;LPKG:WorldList.AthenaTest"
       },
@@ -1415,7 +1632,10 @@
         "StreakBreakerPointsSpend": 0,
         "LootPackage": "WorldPKG.AthenaPH",
         "LootPreviewPackage": "None",
-        "NumLootPackageDrops": 2.0,
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
         "LootPackageCategoryWeightArray": [
           1,
           1,
@@ -1456,7 +1676,13 @@
           -1
         ],
         "GameplayTags": [],
-        "RequiredGameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_Animal_PH;LPKG:WorldPKG.AthenaPH"
       }

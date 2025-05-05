@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "FortRepeatableDailiesCardItemDefinition",
+    "Name": "SparksSeason08_RepeatableDailiesCard",
+    "Class": "UScriptClass'FortRepeatableDailiesCardItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DailyQuestInfo": [
+        {
+          "GranterQuestPack": "sparksdaily_bass",
+          "Group": "SparksDaily_Bass",
+          "Count": 1,
+          "bShouldBackfill": true,
+          "bQuestsDontExpire": false,
+          "bDeleteTokensOnReset": true,
+          "CalendarEventName": "CalendarEvent_SparksS08",
+          "EmptyQuestWeight": 0.0
+        },
+        {
+          "GranterQuestPack": "sparksdaily_drums",
+          "Group": "SparksDaily_Drums",
+          "Count": 1,
+          "bShouldBackfill": true,
+          "bQuestsDontExpire": false,
+          "bDeleteTokensOnReset": true,
+          "CalendarEventName": "CalendarEvent_SparksS08",
+          "EmptyQuestWeight": 0.0
+        },
+        {
+          "GranterQuestPack": "sparksdaily_lead",
+          "Group": "SparksDaily_Lead",
+          "Count": 1,
+          "bShouldBackfill": true,
+          "bQuestsDontExpire": false,
+          "bDeleteTokensOnReset": true,
+          "CalendarEventName": "CalendarEvent_SparksS08",
+          "EmptyQuestWeight": 0.0
+        },
+        {
+          "GranterQuestPack": "sparksdaily_vocals",
+          "Group": "SparksDaily_Vocals",
+          "Count": 1,
+          "bShouldBackfill": true,
+          "bQuestsDontExpire": false,
+          "bDeleteTokensOnReset": true,
+          "CalendarEventName": "CalendarEvent_SparksS08",
+          "EmptyQuestWeight": 0.0
+        },
+        {
+          "GranterQuestPack": "sparksdaily_jam",
+          "Group": "SparksDaily_Jam",
+          "Count": 3,
+          "bShouldBackfill": false,
+          "bQuestsDontExpire": false,
+          "bDeleteTokensOnReset": true,
+          "CalendarEventName": "CalendarEvent_SparksS08",
+          "EmptyQuestWeight": 0.0
+        }
+      ],
+      "ItemName": {
+        "Namespace": "",
+        "Key": "DEE367EA405778DA1B3EEC886DE27C5D",
+        "SourceString": "Sparks Season 08 Daily Repeatable Card",
+        "LocalizedString": "Карточка ежедневных повторяющихся заданий сезона 8 Sparks"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "9F9B8D114C7F34B92B9CCFB3FDC040AC",
+        "SourceString": "This asset defines the pool of daily quests (make sure the group names match your quests)",
+        "LocalizedString": "Этот ресурс определяет фонд ежедневных заданий (убедитесь, что названия групп соответствуют вашим заданиям)"
+      },
+      "DataList": [
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        },
+        {},
+        {
+          "MinLevel": 1,
+          "MaxLevel": 1
+        }
+      ]
+    }
+  }
+]

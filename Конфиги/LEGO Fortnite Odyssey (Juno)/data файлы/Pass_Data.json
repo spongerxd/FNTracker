@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "SeasonPassData",
+    "Name": "S3Pass_Data",
+    "Class": "UScriptClass'SeasonPassData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Product": {
+        "TagName": "Product.Juno"
+      },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "81C9F0304A6198782BA34881A60280AD",
+        "SourceString": "First Order LEGO® Pass",
+        "LocalizedString": "Пропуск LEGO® «Первый Орден»"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "73078A53402E0355447A7EA449FDD379",
+        "SourceString": "First Order Pass is complete!",
+        "LocalizedString": "Пропуск Первого Ордена завершён!"
+      },
+      "SeasonStorefront": "JunoSeason3Pass",
+      "SeasonPassOfferId": "53178FBD47F5DBDB4C771F8C5E154B5D",
+      "SeasonPassLevelOfferId": "F7EDAA0942D66DFBBDC916BED664589F",
+      "LargeIcon": {
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_JunoPass.MI_UI_NexusHeaderIcon_JunoPass",
+        "SubPathString": ""
+      },
+      "SmallIcon": {
+        "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_Juno.MI_UI_SideNavIcon_Juno",
+        "SubPathString": ""
+      },
+      "BuyPassButtonName": {
+        "Namespace": "",
+        "Key": "4113A4344EC6A1D1223E78B2CF604D47",
+        "SourceString": "Get LEGO® Pass",
+        "LocalizedString": "Получить пропуск"
+      },
+      "ThemeData": {
+        "SeasonColor": {
+          "R": 1.0,
+          "G": 0.059511,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "FF4548"
+        },
+        "ProgressionColor": {
+          "R": 1.0,
+          "G": 0.059511,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "FF4548"
+        },
+        "VaultBackgroundMaterial": {
+          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_BG_Nexus_BinGrassPass.MI_BG_Nexus_BinGrassPass",
+          "SubPathString": ""
+        },
+        "UIBackgroundMaterial": {
+          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_BG_Nexus_BinGrassPass_UI.MI_BG_Nexus_BinGrassPass_UI",
+          "SubPathString": ""
+        },
+        "UpsellBackgroundMaterial": {
+          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_UI_Crew_Upsell_BinGrassPass.MI_UI_Crew_Upsell_BinGrassPass",
+          "SubPathString": ""
+        },
+        "CrewCategoryBackgroundMaterial": {
+          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_UI_BinGrassPass_CategoryButton_Crew.MI_UI_BinGrassPass_CategoryButton_Crew",
+          "SubPathString": ""
+        },
+        "CustomLogo": {
+          "AssetPathName": "/S3Pass/UI/Materials/M_UI_PassThemeLogo.M_UI_PassThemeLogo",
+          "SubPathString": ""
+        },
+        "CustomSeasonTitle": {
+          "Namespace": "",
+          "Key": "C952DD69450CECF25A239285F351728A",
+          "SourceString": "First Order LEGO® Pass",
+          "LocalizedString": "Пропуск LEGO® «Первый Орден»"
+        },
+        "CustomSeasonTitleColor": {
+          "R": 1.0,
+          "G": 0.059511,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "FF4548"
+        }
+      }
+    }
+  }
+]

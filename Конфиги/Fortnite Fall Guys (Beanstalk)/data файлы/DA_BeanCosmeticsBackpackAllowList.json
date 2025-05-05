@@ -2,6 +2,7 @@
   {
     "Type": "BeanCosmeticBackpackAllowList",
     "Name": "DA_BeanCosmeticsBackpackAllowList",
-    "Class": "UScriptClass'BeanCosmeticBackpackAllowList'"
+    "Class": "UScriptClass'BeanCosmeticBackpackAllowList'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

@@ -1,66 +1,42 @@
 [
   {
     "Type": "FortCollectionDataCharacter",
-    "Name": "CollectionDataCharacter_S34",
+    "Name": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataCharacter'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Entries": [
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_5'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.10"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_2'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.3"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_10'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.3"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_4'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.5"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_9'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.14"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_5'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.6"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_12'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.5"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_0'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.1"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_2'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.7"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_6'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.7"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_7'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.12"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_1'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.2"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_6'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.11"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_3'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.4"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_3'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.8"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_0'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.1"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_13'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.6"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_11'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.4"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_4'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.9"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_8'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.13"
-        },
-        {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S34:FortCollectionDataEntryCharacter_1'",
-          "ObjectPath": "/BattlePassS34_Quests/SeasonData/CollectionDataCharacter_S34.2"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S35:FortCollectionDataEntryCharacter_7'",
+          "ObjectPath": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.8"
         }
       ]
     }
@@ -68,12 +44,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_0",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/IronLilac/NPCCharacterData_IronLilac.NPCCharacterData_IronLilac",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/SmallDrum/NPCCharacterData_SmallDrum.NPCCharacterData_SmallDrum",
         "SubPathString": ""
       }
     }
@@ -81,64 +57,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_1",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/UndergroundRebel/NPCCharacterData_UndergroundRebel.NPCCharacterData_UndergroundRebel",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_10",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/CasinoReaper/NPCCharacterData_CasinoReaper.NPCCharacterData_CasinoReaper",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_11",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/Brat/Brat/NPCCharacterData_Brat.NPCCharacterData_Brat",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_12",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/Fishstick/Fishstick/NPCCharacterData_Fishstick.NPCCharacterData_Fishstick",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_13",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/SprocketPoppyNPC/NPCs/SprocketPoppy/NPCCharacterData_SprocketPoppy.NPCCharacterData_SprocketPoppy",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/MarkerDeer/NPCCharacterData_MarkerDeer.NPCCharacterData_MarkerDeer",
         "SubPathString": ""
       }
     }
@@ -146,12 +70,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_2",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/PolishedJade/NPCCharacterData_PolishedJade.NPCCharacterData_PolishedJade",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/HydraTrumpet/NPCCharacterData_HydraTrumpet.NPCCharacterData_HydraTrumpet",
         "SubPathString": ""
       }
     }
@@ -159,12 +83,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_3",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/CubicVice/NPCCharacterData_CubicVice.NPCCharacterData_CubicVice",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/IronLilac/Jethro_NPCCharacterData_IronLilac.Jethro_NPCCharacterData_IronLilac",
         "SubPathString": ""
       }
     }
@@ -172,12 +96,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_4",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/RoseDepth/NPCCharacterData_RoseDepth.NPCCharacterData_RoseDepth",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/MuffinLadle/NPCCharacterData_MuffinLadle.NPCCharacterData_MuffinLadle",
         "SubPathString": ""
       }
     }
@@ -185,12 +109,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_5",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/RageDebris/NPCCharacterData_RageDebris.NPCCharacterData_RageDebris",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/NovaCrab/NPCCharacterData_NovaCrab.NPCCharacterData_NovaCrab",
         "SubPathString": ""
       }
     }
@@ -198,12 +122,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_6",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/TealMink/NPCCharacterData_TealMink.NPCCharacterData_TealMink",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/SolarWaffle/NPCCharacterData_SolarWaffle.NPCCharacterData_SolarWaffle",
         "SubPathString": ""
       }
     }
@@ -211,38 +135,12 @@
   {
     "Type": "FortCollectionDataEntryCharacter",
     "Name": "FortCollectionDataEntryCharacter_7",
-    "Outer": "CollectionDataCharacter_S34",
+    "Outer": "CollectionDataCharacter_S35",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/TrafficHat/NPCCharacterData_TrafficHat.NPCCharacterData_TrafficHat",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_8",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/RoyalAngst/NPCCharacterData_RoyalAngst.NPCCharacterData_RoyalAngst",
-        "SubPathString": ""
-      }
-    }
-  },
-  {
-    "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_9",
-    "Outer": "CollectionDataCharacter_S34",
-    "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/WartyBrine/NPCCharacterData_WartyBrine.NPCCharacterData_WartyBrine",
+        "AssetPathName": "/JethroLager/NPCs/Tandem/UndergroundRebel/Jethro_NPCCharacterData_UndergroundRebel.Jethro_NPCCharacterData_UndergroundRebel",
         "SubPathString": ""
       }
     }

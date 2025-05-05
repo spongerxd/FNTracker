@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "SeasonPassCategoryData",
+    "Name": "MusicPassS08_Category",
+    "Class": "UScriptClass'SeasonPassCategoryData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Title": {
+        "Namespace": "",
+        "Key": "A0CD77B04107A8486C3DB3BDA1E5580F",
+        "SourceString": "Music Pass",
+        "LocalizedString": "Награды"
+      },
+      "Subtitle": {
+        "Namespace": "",
+        "Key": "A61930DD46F360B0A57D55A96E69E0CA",
+        "SourceString": "Rewards",
+        "LocalizedString": "музыкального пропуска"
+      },
+      "Image": {
+        "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_PassLandingTile.MI_UI_MusicPass_SO8_PassLandingTile",
+        "SubPathString": ""
+      },
+      "PreviewData": [
+        {
+          "LoadoutSlots": [],
+          "PreviewSettings": {
+            "PreviewBoost": null,
+            "PreviewDriftTrail": null,
+            "CanDisplayUserAccessories": null,
+            "AllowPawnOverride": null,
+            "AllowEquippedVariants": null,
+            "DefaultZoom": null,
+            "CycleDelay": 7.0
+          },
+          "Product": {
+            "TagName": "None"
+          },
+          "AllowExpanding": null,
+          "Item": {
+            "PrimaryAssetType": {
+              "Name": "CosmeticVariantToken"
+            },
+            "PrimaryAssetName": "VTID_Character_DimeBlanketKnot_StyleB"
+          },
+          "Variants": [],
+          "Quantity": 1
+        },
+        {
+          "LoadoutSlots": [],
+          "PreviewSettings": {
+            "PreviewBoost": null,
+            "PreviewDriftTrail": null,
+            "CanDisplayUserAccessories": null,
+            "AllowPawnOverride": null,
+            "AllowEquippedVariants": null,
+            "DefaultZoom": null,
+            "CycleDelay": 7.0
+          },
+          "Product": {
+            "TagName": "None"
+          },
+          "AllowExpanding": null,
+          "Item": {
+            "PrimaryAssetType": {
+              "Name": "CosmeticVariantToken"
+            },
+            "PrimaryAssetName": "VTID_Character_DimeBlanketKnot_StyleA"
+          },
+          "Variants": [],
+          "Quantity": 1
+        }
+      ],
+      "Pages": [
+        {
+          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage1'",
+          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage1.8"
+        },
+        {
+          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage2'",
+          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage2.7"
+        },
+        {
+          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage3'",
+          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage3.7"
+        },
+        {
+          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage4'",
+          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage4.8"
+        }
+      ]
+    }
+  }
+]

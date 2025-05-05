@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "SeasonPassData",
+    "Name": "MusicPassS08_Data",
+    "Class": "UScriptClass'SeasonPassData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Product": {
+        "TagName": "Product.BR"
+      },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "04602B7849A3B6BCE1FB1DBCF2E08346",
+        "SourceString": "Season 8",
+        "LocalizedString": "Сезон 8"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "A76A9CAA443C573F3863BAA4CD5BBFB7",
+        "SourceString": "Music Pass end of season",
+        "LocalizedString": "Музыкальный пропуск: конец сезона"
+      },
+      "SeasonStorefront": "MusicPassS08",
+      "SeasonPassOfferId": "1C5214F34123FF4FF01CCFA45A55B655",
+      "SeasonPassBundleOfferId": "0",
+      "SeasonPassLevelOfferId": "CE0F064C4001FCF74CCC5B86E831EF54",
+      "SeasonPassLevelBundleOfferId": "0",
+      "LargeIcon": {
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_FestivalPass.MI_UI_NexusHeaderIcon_FestivalPass",
+        "SubPathString": ""
+      },
+      "SmallIcon": {
+        "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_Music.MI_UI_SideNavIcon_Music",
+        "SubPathString": ""
+      },
+      "BuyPassButtonName": {
+        "Namespace": "",
+        "Key": "E0F8F56C4A3AF24A5648BDB1D057E032",
+        "SourceString": "Get Music Pass",
+        "LocalizedString": "Получить пропуск"
+      },
+      "ThemeData": {
+        "SeasonColor": {
+          "R": 1.0,
+          "G": 0.768151,
+          "B": 0.187821,
+          "A": 1.0,
+          "Hex": "FFE378"
+        },
+        "ProgressionColor": {
+          "R": 1.0,
+          "G": 0.745404,
+          "B": 0.278894,
+          "A": 1.0,
+          "Hex": "FFE090"
+        },
+        "VaultBackgroundMaterial": {
+          "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_Vault.MI_UI_MusicPass_SO8_Vault",
+          "SubPathString": ""
+        },
+        "UIBackgroundMaterial": {
+          "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_UI.MI_UI_MusicPass_SO8_UI",
+          "SubPathString": ""
+        },
+        "UpsellBackgroundMaterial": {
+          "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_Upsell.MI_UI_MusicPass_SO8_Upsell",
+          "SubPathString": ""
+        },
+        "CrewCategoryBackgroundMaterial": {
+          "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_CrewSecondaryTile.MI_UI_MusicPass_SO8_CrewSecondaryTile",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

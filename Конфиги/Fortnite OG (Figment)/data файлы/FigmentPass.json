@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "SeasonPassItemDefinition",
+    "Name": "FigmentPass_S03",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CommonData": {
+        "AssetPathName": "/Figment_SharedPassData/FigmentPass_CommonData.FigmentPass_CommonData",
+        "SubPathString": ""
+      },
+      "PassData": {
+        "AssetPathName": "/Figment_S03_PassData/SeasonData/FigmentPass_S03_Data.FigmentPass_S03_Data",
+        "SubPathString": ""
+      },
+      "LevelData": {
+        "AssetPathName": "/Figment_S03_PassData/SeasonData/FigmentPass_S03_Levels.FigmentPass_S03_Levels",
+        "SubPathString": ""
+      },
+      "Categories": [
+        {
+          "AssetPathName": "/Figment_S03_PassData/SeasonData/FigmentPass_S03_PassRewards.FigmentPass_S03_PassRewards",
+          "SubPathString": ""
+        }
+      ],
+      "SeasonNumber": 3,
+      "ItemName": {
+        "Namespace": "",
+        "Key": "3D20B1874AC9D9B08A187B8EC82C2022",
+        "SourceString": "OG Pass",
+        "LocalizedString": "Пропуск\n«Как раньше»"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "2C69A2524B495CEAF067E094EEF7C45A",
+        "SourceString": "Figment Desription",
+        "LocalizedString": "Figment Desription"
+      },
+      "ItemShortDescription": {
+        "Namespace": "",
+        "Key": "73FD5C484E27552D1E8029B19FBD18FF",
+        "SourceString": "Figment Short Description",
+        "LocalizedString": "Figment Short Description"
+      },
+      "DataList": [
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        },
+        {},
+        {
+          "MinLevel": 1,
+          "MaxLevel": 100
+        }
+      ]
+    }
+  }
+]

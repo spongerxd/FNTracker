@@ -12,11 +12,11 @@
         },
         {
           "ObjectName": "CurveTable'BlastBerry_OverrideGameData'",
-          "ObjectPath": "/BlastBerry/DataTables/BlastBerry_OverrideGameData.0"
+          "ObjectPath": "/BlastBerryLoot/DataTables/BlastBerry_OverrideGameData.0"
         },
         {
           "ObjectName": "CurveTable'BlastBerry_OverrideGameData_Backup'",
-          "ObjectPath": "/BlastBerry/DataTables/BlastBerry_OverrideGameData_Backup.0"
+          "ObjectPath": "/BlastBerryLoot/DataTables/BlastBerry_OverrideGameData_Backup.0"
         }
       ]
     },
@@ -6583,7 +6583,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 65.0
+            "Value": 100.0
           },
           {
             "Time": 1.0,
@@ -6603,7 +6603,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 70.0
+            "Value": 100.0
           },
           {
             "Time": 1.0,
@@ -6623,10 +6623,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 65.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -6643,10 +6639,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 80.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -31203,7 +31195,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1650.0
+            "Value": 2225.0
           },
           {
             "Time": 1.0,
@@ -46870,6 +46862,30 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.Sliding.MinSpeedToStartJumpSliding": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 150.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 150.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "MultiplayerLocks.Enabled": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
@@ -56003,6 +56019,22 @@
           },
           {
             "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Parachute.AllowCloseAfterForcedDeploy": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
             "Value": 0.0
           },
           {

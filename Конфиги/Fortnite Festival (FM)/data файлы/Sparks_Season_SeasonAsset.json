@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "SeasonPassItemDefinition",
+    "Name": "Sparks_Season08_SeasonAsset",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CommonData": {
+        "AssetPathName": "/MusicPassCommonData/MusicPassCommonData.MusicPassCommonData",
+        "SubPathString": ""
+      },
+      "PassData": {
+        "AssetPathName": "/MusicPassS08/SeasonData/MusicPassS08_Data.MusicPassS08_Data",
+        "SubPathString": ""
+      },
+      "LevelData": {
+        "AssetPathName": "/MusicPassS08/SeasonData/MusicPassS08_LevelData.MusicPassS08_LevelData",
+        "SubPathString": ""
+      },
+      "Categories": [
+        {
+          "AssetPathName": "/MusicPassS08/SeasonData/MusicPassS08_Category.MusicPassS08_Category",
+          "SubPathString": ""
+        }
+      ],
+      "RepeatableDailiesCard": {
+        "ObjectName": "FortRepeatableDailiesCardItemDefinition'SparksSeason08_RepeatableDailiesCard'",
+        "ObjectPath": "/MusicPassS08/SeasonData/SparksSeason08_RepeatableDailiesCard.0"
+      },
+      "SeasonNumber": 8,
+      "ItemName": {
+        "Namespace": "",
+        "Key": "175D69C043F51646915A2889898157ED",
+        "SourceString": "Music Pass",
+        "LocalizedString": "Fortnite\nFestival"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "1DF79C9A41CB178178B01DAA7CF3F77A",
+        "SourceString": "Item Description",
+        "LocalizedString": "Описание предмета"
+      },
+      "ItemShortDescription": {
+        "Namespace": "",
+        "Key": "05E43C7C487E3FC17AADC094DE416345",
+        "SourceString": "Item Short Description",
+        "LocalizedString": "Краткое описание предмета"
+      },
+      "DataList": [
+        {
+          "MinLevel": 1,
+          "MaxLevel": 100
+        },
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        },
+        {}
+      ]
+    }
+  }
+]

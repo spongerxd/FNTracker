@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "SeasonPassData_S34",
+    "Name": "SeasonPassData_S35",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,21 +10,21 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "06AA0AD8453A5F00A600718174541F7B",
-        "SourceString": "Chapter 6 - Season 2",
-        "LocalizedString": "Сезон 2 главы 6"
+        "Key": "0C6C22E64B181B7213DB76B20F356337",
+        "SourceString": "Galactic Battle Pass",
+        "LocalizedString": "Галактический боевой пропуск"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "A2EC797A413E3C1D88DAE7B9B7429063",
+        "Key": "D0DBCAAB48D765EC417D5D9AF2834CD0",
         "SourceString": "Battle Pass",
         "LocalizedString": "Боевой пропуск"
       },
-      "SeasonStorefront": "BRSeason34",
-      "SeasonPassOfferId": "39586D20442D358F200A2888BB5C72EC",
-      "SeasonPassBundleOfferId": "2127C1DE4192DD6C8BB64182BBC68F15",
-      "SeasonPassLevelOfferId": "D71ADE1F499453C23B918C9CA4EB10DC",
-      "SeasonPassLevelBundleOfferId": "0CB149274EF8E5A8C625D3ABB3CAE72F",
+      "SeasonStorefront": "BRSeason35",
+      "SeasonPassOfferId": "3AF45EC8408ED0A0758B02AB46E57025",
+      "SeasonPassBundleOfferId": "32258D1346BAF3F200F953B1CF203D10",
+      "SeasonPassLevelOfferId": "7C87F8A5425837A6FF0BE9A0EBEA52BA",
+      "SeasonPassLevelBundleOfferId": "305A567B499308CF5EE905A11B3A58AD",
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_BattlePass.MI_UI_NexusHeaderIcon_BattlePass",
         "SubPathString": ""
@@ -35,40 +35,57 @@
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "86DC27DF45B4EC64028E76A5A1059641",
+        "Key": "C662FE0E4C1FAA3E46E1CBA01FC73189",
         "SourceString": "Get Battle Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 0.042013,
-          "G": 0.660146,
+          "R": 0.0865,
+          "G": 0.672443,
           "B": 0.89627,
           "A": 1.0,
-          "Hex": "3AD5F3"
+          "Hex": "53D6F3"
         },
         "ProgressionColor": {
           "R": 1.0,
-          "G": 0.025352,
-          "B": 0.379046,
+          "G": 0.066608,
+          "B": 0.165329,
           "A": 1.0,
-          "Hex": "FF2CA6"
+          "Hex": "FF4971"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_BG_Nexus_CH6S2.MI_BG_Nexus_CH6S2",
+          "AssetPathName": "/BattlePassS35/UI/MaterialInstances/MI_BG_Nexus_CH6MS1.MI_BG_Nexus_CH6MS1",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_BG_Nexus_CH6S2_UI.MI_BG_Nexus_CH6S2_UI",
+          "AssetPathName": "/BattlePassS35/UI/MaterialInstances/MI_BG_Nexus_CH6MS1_UI.MI_BG_Nexus_CH6MS1_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6S2.MI_UI_Crew_Upsell_CH6S2",
+          "AssetPathName": "/BattlePassS35/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6MS1.MI_UI_Crew_Upsell_CH6MS1",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS34/UI/MaterialInstances/MI_UI_S34_CategoryButton_BattlePassRewards.MI_UI_S34_CategoryButton_BattlePassRewards",
+          "AssetPathName": "/BattlePassS35/UI/MaterialInstances/MI_UI_S35_CategoryButton_Crew.MI_UI_S35_CategoryButton_Crew",
           "SubPathString": ""
+        },
+        "CustomLogo": {
+          "AssetPathName": "/BattlePassS35/UI/Materials/M_UI_PassThemeLogo.M_UI_PassThemeLogo",
+          "SubPathString": ""
+        },
+        "CustomSeasonTitle": {
+          "Namespace": "",
+          "Key": "A9F4FD514CCFB84C6D6261A10A80A190",
+          "SourceString": "Galactic Battle Pass",
+          "LocalizedString": "Галактический боевой пропуск"
+        },
+        "CustomSeasonTitleColor": {
+          "R": 0.0865,
+          "G": 0.672443,
+          "B": 0.89627,
+          "A": 1.0,
+          "Hex": "53D6F3"
         }
       }
     }

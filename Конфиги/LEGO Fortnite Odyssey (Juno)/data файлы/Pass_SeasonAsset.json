@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "SeasonPassItemDefinition",
+    "Name": "S3Pass_SeasonAsset",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CommonData": {
+        "AssetPathName": "/JunoPassSharedData/CommonData.CommonData",
+        "SubPathString": ""
+      },
+      "PassData": {
+        "AssetPathName": "/S3Pass/SeasonPass/S3Pass_Data.S3Pass_Data",
+        "SubPathString": ""
+      },
+      "LevelData": {
+        "AssetPathName": "/S3Pass/SeasonPass/S3Pass_LevelData.S3Pass_LevelData",
+        "SubPathString": ""
+      },
+      "Categories": [
+        {
+          "AssetPathName": "/S3Pass/PassData/JunoSeason3PassCategory1.JunoSeason3PassCategory1",
+          "SubPathString": ""
+        }
+      ],
+      "SeasonNumber": 3,
+      "ItemName": {
+        "Namespace": "",
+        "Key": "21D1FCA144AB43F03BAE869EF7F3B93F",
+        "SourceString": "LEGO® Pass",
+        "LocalizedString": "Пропуск LEGO®"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "7C5DB49B453FA4CCD22F3C93D50ECD23",
+        "SourceString": "First Order",
+        "LocalizedString": "Первый Орден"
+      },
+      "ItemShortDescription": {
+        "Namespace": "",
+        "Key": "560916444CB91A21B97CC0A50176F819",
+        "SourceString": "First Order",
+        "LocalizedString": "Первый Орден"
+      },
+      "DataList": [
+        {
+          "MinLevel": 1,
+          "MaxLevel": 100
+        },
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        }
+      ]
+    }
+  }
+]
