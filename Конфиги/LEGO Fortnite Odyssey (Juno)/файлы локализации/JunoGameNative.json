@@ -1,7 +1,8 @@
 {
   "EnvQueryGenerator": {
     "PointsOutsideVolume": "расстояние между: {1}",
-    "PointsOutsideVolumeDescriptionContext": "{0}: генерация вне {1}"
+    "PointsOutsideVolumeDescriptionContext": "{0}: генерация вне {1}",
+    "PointsOutsideVolumeDescriptionWithProjection": "{Description}, {ProjectionDescription}"
   },
   "JunoControllerComponent": {
     "OnPlayerDiedGameEvent": "Игрок {0} <Yellow>устранён</>",

@@ -1,6 +1,9 @@
 {
   "": {
     "9C9D961E4805C1212C4029AF68A1C0DC": "(Зажать)",
+    "EAAD64154559805C06FAB5A34ED05C03": "+",
+    "6088664A43A2220469544A8FB38DD0DE": "-",
+    "D53C0AFD41781274D60256874411534D": "<75_24_T1>{OptionName}</>",
     "D350FCFA48DA5F7EE6C121A6267C58FE": "<text color=\"D5E8E4\">Все участники группы</> без ключа <text color=\"D5E8E4\">будут удалены</>, когда вы покинете группу или мир. ",
     "33AFA4C64C275BEE602A1A933D20E8B2": "<text color=\"D5E8E4\">Приглашайте игроков</>, чтобы они смогли <text color=\"D5E8E4\">присоединиться</> к вашему миру. ",
     "186AE0C34A34BA4E89C5BB9EA78F9343": "<text color=\"D5E8E4\">Дайте ключ</> другу из группы, если хотите разрешить ему играть в этом мире <text color=\"D5E8E4\">без вас</>. ",
@@ -93,6 +96,8 @@
     "B4A8A3184B200227F171EAB4E13FC756": "Удалить ключ?",
     "C89ED6624D0481983A2A4B9346C4273F": "Удалить ключ?",
     "6B2ED52E4B8346BAC10EB08C452B4E62": "Удалить поселение",
+    "6B2AFD0546988910A7C51291F9391805": "RemoveFromWorld_IsKeyholder",
+    "9F60A0B64FDB5E27BCC174B12E5D132C": "RemoveFromWorld_NotKeyholder",
     "55E2FA5946961B24D4AC9BB79310BA01": "Время запроса истекло",
     "2A8AB43C421D7EB674A986866CE253B2": "Сбросить фокусировку",
     "7860164D4EAF4A6361A54CA22B0BB394": "Сбросить фокусировку",
@@ -157,6 +162,15 @@
     "C76CEFE84626E2AA56731FAE9C51FD69": "красться",
     "8ACCDFC44FFCF249175E1C9FA4E2E423": "выбор: коснуться",
     "BFA7BD504EF7EB506E0A889087A78EA3": "Осталось ключей: {0}",
+    "729E6E064BDBE7DFCD9760B022269CD2": "{CurrentCharacterCount}/{MaxCharacterLimit}",
+    "CF76E1374B64EAE0799AC88E5ECEDB87": "{Option Name}",
+    "D924978A49863E7293FEF482E86C64B7": "{Option Name}",
+    "21796C4C474DD3FAA56B5898417458A6": "{PH} <75i_20_W>(Default)</>",
+    "191668534ACFF5B8EEA446B07813B723": "{button}",
+    "542305FC42F8D552DCF806B8499865FC": "{button}",
+    "75F7865B40506F585D6015AF3F83954A": "{button}",
+    "7BAA834D4C5BAE5D7B54A78BCE88DCCB": "{button}",
+    "A989A5CF4C0499F047E6528187C64E28": "{button}",
     "59C56F9F4A9AC8291E06BAA40D85F068": "{option name} <75i_20_W>(по умолч.)</>"
   },
   "Juno_UserGeneratedTextStringTable": {

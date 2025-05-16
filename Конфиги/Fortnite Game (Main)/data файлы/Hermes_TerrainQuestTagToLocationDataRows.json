@@ -11,6 +11,22 @@
       }
     },
     "Rows": {
+      "AISpawnerData.Type.Specialist.Medic.Jethro.WingBath": {
+        "WorldLocation": {
+          "X": -116044.0,
+          "Y": 11736.0,
+          "Z": 2924.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Jethro.AI.SpawnLocation.Specialist.WingBath.Medic": {
+        "WorldLocation": {
+          "X": -116044.0,
+          "Y": 11736.0,
+          "Z": 2924.0
+        },
+        "EventsWorldLocation": []
+      },
       "Quest.Location.Vault.City": {
         "WorldLocation": {
           "X": 47844.86,
@@ -131,6 +147,22 @@
         },
         "EventsWorldLocation": []
       },
+      "AISpawnerData.Type.Specialist.Scout.Jethro.WingBath": {
+        "WorldLocation": {
+          "X": -28824.0,
+          "Y": 53868.0,
+          "Z": 5704.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Jethro.AI.SpawnLocation.Specialist.WingBath.Scout": {
+        "WorldLocation": {
+          "X": -28824.0,
+          "Y": 53868.0,
+          "Z": 5704.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Location.UnNamedPOI.Landmark.50": {
         "WorldLocation": {
           "X": 47840.0,
@@ -155,6 +187,22 @@
         },
         "EventsWorldLocation": []
       },
+      "AISpawnerData.Type.Specialist.Supply.Jethro.WingBath": {
+        "WorldLocation": {
+          "X": 27464.0,
+          "Y": -90176.0,
+          "Z": 3976.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Jethro.AI.SpawnLocation.Specialist.WingBath.Supply": {
+        "WorldLocation": {
+          "X": 27464.0,
+          "Y": -90176.0,
+          "Z": 3976.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Location.UnNamedPOI.Landmark.Quest.01": {
         "WorldLocation": {
           "X": 26243.373,
@@ -176,6 +224,38 @@
           "X": -79496.0,
           "Y": -80200.0,
           "Z": 1276.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Heavy.Jethro.WingBath": {
+        "WorldLocation": {
+          "X": 105228.0,
+          "Y": -35432.0,
+          "Z": 4068.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Jethro.AI.SpawnLocation.Specialist.WingBath.Heavy": {
+        "WorldLocation": {
+          "X": 105228.0,
+          "Y": -35432.0,
+          "Z": 4068.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.Jethro.TinyBook": {
+        "WorldLocation": {
+          "X": -3348.0,
+          "Y": -8468.0,
+          "Z": 1672.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Jethro.AI.SpawnLocation.Tandem.TinyBook": {
+        "WorldLocation": {
+          "X": -3348.0,
+          "Y": -8468.0,
+          "Z": 1672.0
         },
         "EventsWorldLocation": []
       },
@@ -216,14 +296,6 @@
           "X": 75280.0,
           "Y": 89776.0,
           "Z": 1844.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.UnNamedPOI.Landmark.60": {
-        "WorldLocation": {
-          "X": -59245.38,
-          "Y": 67631.54,
-          "Z": 5501.1846
         },
         "EventsWorldLocation": []
       },
@@ -699,6 +771,14 @@
         },
         "EventsWorldLocation": []
       },
+      "Athena.Location.UnNamedPOI.Landmark.Quest.05": {
+        "WorldLocation": {
+          "X": -2220.0,
+          "Y": -8453.0,
+          "Z": 538.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Location.POI.Generic.EE.01": {
         "WorldLocation": {
           "X": 100577.0,
@@ -819,7 +899,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.60_0": {
+      "Athena.Location.UnNamedPOI.Landmark.60": {
         "WorldLocation": {
           "X": 27642.873,
           "Y": -18287.803,
@@ -896,14 +976,6 @@
           "X": 115422.0,
           "Y": 40600.0,
           "Z": 813.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.UnNamedPOI.Landmark.60_1": {
-        "WorldLocation": {
-          "X": 46864.375,
-          "Y": -80835.68,
-          "Z": 2910.7786
         },
         "EventsWorldLocation": []
       },
@@ -1371,14 +1443,6 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Quests.FoundQuest.FlightCrew": {
-        "WorldLocation": {
-          "X": -344.0,
-          "Y": -51291.0,
-          "Z": 3113.0
-        },
-        "EventsWorldLocation": []
-      },
       "Athena.Quests.S35.SolarWaffle.Ring.07": {
         "WorldLocation": {
           "X": -65692.164,
@@ -1387,27 +1451,11 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Quests.FoundQuest.FlightCrew_0": {
-        "WorldLocation": {
-          "X": -19390.0,
-          "Y": -73389.0,
-          "Z": 2921.0
-        },
-        "EventsWorldLocation": []
-      },
       "Athena.Quests.S35.Jethro.Complete": {
         "WorldLocation": {
           "X": -20204.13,
           "Y": -74921.164,
           "Z": 2951.0918
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Quests.FoundQuest.FlightCrew_1": {
-        "WorldLocation": {
-          "X": -76611.0,
-          "Y": -87000.0,
-          "Z": 421.0
         },
         "EventsWorldLocation": []
       },
@@ -1483,6 +1531,22 @@
         },
         "EventsWorldLocation": []
       },
+      "Athena.Quests.S35.WingBath.SDA.02": {
+        "WorldLocation": {
+          "X": -15856.0,
+          "Y": 86453.0,
+          "Z": 5447.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA": {
+        "WorldLocation": {
+          "X": -15856.0,
+          "Y": 86453.0,
+          "Z": 5447.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Quests.S35.SmallDrum.DataPad": {
         "WorldLocation": {
           "X": 27883.508,
@@ -1515,11 +1579,19 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Quests.FoundQuest.FlightCrew_2": {
+      "Athena.Quests.S35.WingBath.SDA.01": {
         "WorldLocation": {
-          "X": -80091.0,
-          "Y": -47347.0,
-          "Z": 1228.0
+          "X": -15542.0,
+          "Y": 88410.0,
+          "Z": 5453.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA_0": {
+        "WorldLocation": {
+          "X": -15542.0,
+          "Y": 88410.0,
+          "Z": 5453.0
         },
         "EventsWorldLocation": []
       },
@@ -1536,6 +1608,38 @@
           "X": -87148.37,
           "Y": -51938.18,
           "Z": 303.51053
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA.03": {
+        "WorldLocation": {
+          "X": -45363.0,
+          "Y": 50594.0,
+          "Z": 6231.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA_1": {
+        "WorldLocation": {
+          "X": -45363.0,
+          "Y": 50594.0,
+          "Z": 6231.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA.04": {
+        "WorldLocation": {
+          "X": -45369.0,
+          "Y": 56034.0,
+          "Z": 5538.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA_2": {
+        "WorldLocation": {
+          "X": -45369.0,
+          "Y": 56034.0,
+          "Z": 5538.0
         },
         "EventsWorldLocation": []
       },
@@ -1560,6 +1664,22 @@
           "X": -76578.78,
           "Y": -48492.355,
           "Z": 1413.928
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA.05": {
+        "WorldLocation": {
+          "X": -105988.0,
+          "Y": 4790.0,
+          "Z": 3304.83
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S35.WingBath.SDA_3": {
+        "WorldLocation": {
+          "X": -105988.0,
+          "Y": 4790.0,
+          "Z": 3304.83
         },
         "EventsWorldLocation": []
       },

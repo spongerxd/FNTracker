@@ -1,10 +1,13 @@
 {
   "": {
+    "StatusStringFormat": " - {0}",
     "FriendToastAlreadyRequestedFmt": " Вы уже отправили запрос игроку {0}",
     "FriendToastPlayerBlockedFmt": " Игрок {0} заблокирован",
     "8174243E457EDEBF64D1F3AFD7868B87": "0 — местный, 1 — дружественный, 2 — враждебный, 3 — нейтральный",
     "OneCharacterOverLimitFmt": "Допустимое число символов превышено на 1",
     "2393A5C742D18201665DEDA270D675C1": "1-2 этажи",
+    "F42E2868449E0804313B089A21566D1C": "1/2",
+    "0AC715144E18513791684B9692958897": "1/4",
     "152AB97749E90133A9C6D4A70AFAA7E4": "10 уровней (100 звёзд)",
     "21AB0E424D7109D6AD3DD697E2BFB48D": "10 уровней (100 звёзд)",
     "2D8725F548D2BD7A8C91628C5E4A0765": "10 уровней (100 звёзд)",
@@ -20,6 +23,7 @@
     "F352DA1544834E2971678A8FD5FFB6EB": "10 уровней (100 звёзд)",
     "FC870B584C51C32E110B1C856197D9A5": "10 уровней (100 звёзд)",
     "0152AAA04CDE85702E58DFACA3BAFC5A": "3-4 этажи",
+    "95C4FAC642A07BFB60EA05BF62EDEA25": "3/4",
     "2E0E045E44F3044E3E03ED912CBCA954": "Восьмой (Пул)",
     "9C17FC3C491AFAE6C5B10C82A4EE68F7": "Восьмой (Пул)",
     "BFBDD35A4FE3AD6EEE2C959B98A03380": "<Emphasized>Ба-бах!</>",
@@ -62,6 +66,8 @@
     "152F9D4048DA33A1D8C19297D0E3346B": "<TeamKiller>{PlayerName}</> хочет <green>подлечиться</>",
     "5DBABCEC4C17F8FFE062319672AEFF23": "<TeamKiller>{PlayerName}</> ищет <b>транспорт</>",
     "231AF36049841BCCCB72619C0346D63B": "Стиль Глюка",
+    "51F5AFD34466F4100C9FC2951F915F29": "?",
+    "60A3E9644DDBB10D58CF2F9303973C35": "? ? ?",
     "31CD900F4FA8D77724E2058309069ADF": "Клинок с дополнительной мощной атакой в прыжке.",
     "BEFEB0CC4887556D5F83EA8C31563F5F": "Клинок с дополнительной мощной атакой в прыжке.",
     "5CA4C768442DACE154F650919AEBF7CC": "Веселье на полную катушку. Чтобы активировать, подпрыгните, находясь в воздухе.",
@@ -77,6 +83,12 @@
     "Add": "ДОБАВИТЬ",
     "AddFriend": "ДОБАВИТЬ ДРУГА В EPIC",
     "F84C5E8E465D3FF6AA25D6B99E955E09": "Устранения ИИ",
+    "A4DD2F564ECD730D67049B86B20ADA75": "ATHENACREATECUSTOMGAME",
+    "146A746447192BD46009C1B8C4D50346": "ATHENAFORCEANONYMOUS",
+    "97F83DB64D438E0994AAA3B7620AB1A0": "ATHENALIVESPECTATE",
+    "CD0F09774353D53F69D42E831C2061F8": "ATHENASPECTATEAFTERDEATH",
+    "03F23188416EC5C376CB81946A01D350": "ATHENAVIEWREPLAYDATA",
+    "058F0C854297960A3CEE84AA8A58EC86": "ATHENAVIEWREPLAYMAGIC",
     "E2AF7732499F513EF0C987AE0F8B4ADE": "Властитель Дум",
     "Accept": "Принять",
     "Accept_All": "Принять всё",
@@ -120,7 +132,6 @@
     "FriendRequestAlreadyFriendsFmt": "Вы уже дружите с игроком {0}",
     "0802B35F41C78353417EF282A13C6C04": "Всегда загружать журнал",
     "A2223F2944E33C6AF09C19B6905EDFA1": "Боеприпасы",
-    "0A86A07C408C733394F3A3ACE7E16D3D": "Ящик с боеприпасами",
     "ECAA560D41B73558F01E48873C697CB7": "Боеприпасы углекислый газ",
     "1EB6BE6E4D8BBCE37F9E5F91D4AB0357": "Боеприпасы для оружия, использующего источники энергии вместо патронов. Вы можете взять с собой не больше 3000 батареек.",
     "D2DE83494017E931B9ED59AEA876373B": "Боеприпасы для оружия, использующего охотничьи патроны. Обычно используются в дробовиках.",
@@ -129,6 +140,7 @@
     "92FABCD640078A05ED77B4AB97827A12": "Граната",
     "7CCCC0DE4B86337F959E93859B923891": "Охотничьи патроны",
     "341C429044889AF7201302918265549F": "Эриза получает очко и-и-и… побеждает!",
+    "66F9E485445C1C5DB47314A3AF62BA25": "Android",
     "Sure": "Вы уверены?",
     "A74E84F74B8EB2199A8DBC85BFA4B289": "Ячейка арсенала",
     "399F58DD435AFBEB11A2DBBB02E8E8D6": "Но, как видишь, у меня всё получилось. И я даже обрела новый образ.",
@@ -155,6 +167,7 @@
     "82EDE31E4E31967D4FBD3C8B20E39DAE": "Замахнуться топором",
     "B9428089402236248DC9D69F1B47DB44": "Бросить топор",
     "8E3B542D4C1B5396611536AE16041781": "БРУТальный дэб",
+    "7415B10C47F2B3427C3C4993AE4AF799": "BakedAO",
     "355B4C34479EDC7565E078A61FFC34A3": "Шароход",
     "C38BC0E44DA8D1A01790399835D120D2": "Шароход",
     "A96717114C69924FA7A0E8B7C68B0300": "Бинты восстанавливают 15 ед. здоровья (но не выше 75 ед.)",
@@ -296,6 +309,7 @@
     "2CFAA2354AD69773B9FA83B5E9086609": "Залповый квадромёт",
     "24440BE24F3310C1F80C5684413462D4": "Шаблон сценария лагеря",
     "0AC5948743B7E318A5CEA1AF3945CB1A": "ЩИТ КАПИТАНА АМЕРИКИ",
+    "51842D4A48C7C6F05EF4E283D8AD6C2B": "CRoyale Filtered",
     "839653F64C5D149B49E6F39D4E36C7DA": "Остров творческой битвы",
     "DA18D7ED4C2DB755C97D3485C7E6DA15": "Инструмент перемещения для творческой битвы",
     "A4D559B140810321699BE0B8DD6309CB": "Ключевой предмет: «Захват флага» и «Доминирование»",
@@ -345,6 +359,7 @@
     "CAA945644FD45CCE5EE648B47C25145D": "Зарабатывайте медали",
     "47BD46F04FDC14DD913473A2C366E63C": "Заберите сокровища из сундука",
     "ABFEF8D648DE4BB710CE02844D6198C2": "Зарабатывайте опыт боевого пропуска, чтобы открыть новые уровни боевого пропуска.",
+    "DF97AA9C4754F9E3820BF88BBACE0402": "ColorSystemMask",
     "AB0BFEA044C2BFA998A443A85F1DEC79": "Боевое ружьё",
     "972C02064B9B4287AC234F8B9FFE030C": "Комбо-усилитель опыта",
     "8AF6B8224070F2AC149AD79D740106E8": "Давай, нападай!",
@@ -646,6 +661,9 @@
     "F6C1A0E546615518E3C89BB758B46426": "Позволяет превратиться в снеговика и таким образом скрыться от врагов.",
     "28870A4B479926C1D33A4194F4A914E5": "Позволяет превратиться в снеговика и таким образом скрыться от врагов. При уничтожении происходит ледяной взрыв.",
     "495BD0FC4058862FD2829EB36A13F1A3": "Позволяет превратиться в снеговика и таким образом скрыться от врагов. При уничтожении происходит ледяной взрыв.",
+    "51C5E7174CC3D32D1CC95F9AE41B80C7": "DisplayName",
+    "7F98A02747564D89DB990CA400F52B1E": "DisplayName",
+    "839B1DA64513162B774D6DA723CCF2DE": "DisplayName",
     "41718CF7440E7174515892A22EDE9AFB": "Сделайте двойной прыжок, чтобы активировать Рывок Эпицентра!",
     "5BBAE71344BDC5EE78D0BE81173835B2": "Сделайте двойной прыжок, чтобы активировать Рывок Эпицентра!",
     "8CCDBCBC4CC58BCFD13439A3637177E2": "Сделайте двойной прыжок, чтобы активировать Рывок Эпицентра!",
@@ -680,6 +698,7 @@
     "361177E94F74D3A9727A5395D9BEE81E": "Двойные пистолеты с глушителем: Полуавтоматическое.",
     "7C0792034D30C75A8D54EAB28996DBEC": "Двойные пистолеты с глушителем: Полуавтоматическое.",
     "3EC1D4304108BC1102AD90BF1CC5DC39": "Клейкая лента",
+    "1533CFC4469A8163C62B248C85E356E4": "E",
     "45D50EF04C5DC60B73011C88B11BB6AA": "Зарабатывайте награды, выполняя задания из набора «Пылающая лава»",
     "F333BE784F51ED06927F21AF3F842D14": "Так или иначе, она была самой крупной птицей, когда-либо появлявшейся на острове.",
     "F6B960F5462C99D53900E2A95EB8D800": "Староста",
@@ -726,6 +745,7 @@
     "F763E4C642F017EE1C08EEA4709767C5": "Расширенная защита",
     "622FD4934585D55382E3809958BE9D5F": "Значок за добавочное испытание",
     "0012BDF54E2B3A97E0DE29B342FA0DBB": "Добавочные испытания (проверка открытия образа)",
+    "4EF720434E88C66AC4442CA118626975": "F",
     "FC494D5E4E5BDEDB90FC028B0BF37FB2": "НАБОР ОСНОВАТЕЛЯ 1",
     "923FA11840D9B9D3FEF199BE7BA45E6E": "НАБОР ОСНОВАТЕЛЯ 2",
     "F602B03942D0C5AC39DE9E882605AE87": "НАБОР ОСНОВАТЕЛЯ 3",
@@ -735,7 +755,9 @@
     "1BDE680D4AC8E4A6198000B7D07CC674": "Переменчивые поля",
     "0E2ED4144B5E0092141A4088A129CDD7": "Кошмарник",
     "20ADAB204B68E7D196F6E5B0C1C834C5": "Кошмарник",
+    "60D1D03745EB8ABC351FB88EF780BB3E": "Figment Consumable Template",
     "1A7C84D84EA6F090235516B28604430B": "Шаблон плагина фантазии",
+    "83709366496215B44F9A2ABFB16705E2": "Figment Weapon Template",
     "Filter Friends Hint": "Фильтр",
     "FilterList": "Отфильтровать список",
     "04B9B92F4F72E0530969FAA3713B380E": "Ну и, наконец, хранитель должен защищать храм от непрошенных гостей.",
@@ -803,6 +825,7 @@
     "FBA7E50A408A6B4FE317D889E39FDED6": "Значок за испытание «Криптография»",
     "C035F8334B080244DC01419A3DE5B11C": "Ключ-карточка к плавучему штабу",
     "FB12037B47C8F2A55E20A88CBC9D8534": "Ключ-карточка к плавучему штабу",
+    "FortniteMainWindowTitle": "Fortnite",
     "5FA09E37434E8B8FA4B4D494EBASD91": "Коллекция объектов экосистемы Fortnite",
     "5FA09E37434E8B8FA4B4D494E612389": "Собрание объектов экосистемы Fortnite",
     "5FA09E37434E8B8FA4B4D494E65D82D9": "Игровая функция Fortnite (только контент)",
@@ -865,7 +888,6 @@
     "3EE66B45445529688679ECA705E465CD": "Значок за первый этап испытания «Галилео»",
     "EB0D224A42376A7E5CE1F59DEF264700": "Значок за второй этап испытания «Галилео»",
     "8E59C6C24CF0E3A29AEFF39469F1D1B5": "Значок за третий этап испытания «Галилео»",
-    "AABA721F494384FA4BB400B577A3D77E": "Экспериментальная поддержка общей физики",
     "813C217146D9D093654CB2B70AC8F306": "Получите фору в следующем сезоне с помощью усилителя опыта за матч.\r\nБудет использован автоматически в начале следующего сезона.",
     "CE7AD16A48F6051FE29990BCA62C7659": "Получите фору в следующем сезоне с помощью этих бесплатных уровней.",
     "C1B15B6F48058C0E9BC2649D2886CEFE": "Приготовьтесь к прыжку!",
@@ -882,6 +904,7 @@
     "7B0936A2458A998274ED3484DE00BCDA": "Золотой трюфель",
     "D9EE1A844254E2BCF325F0AC7DCF1E4C": "Тайны хранителя",
     "9561232349605EB6B23C67AB0EF2E9E0": "Набор заданий «Тайны хранителя»",
+    "E62512474A192002B6287BBD75366836": "Обледеневший отель",
     "9E2FC1E149997E0DDD27D29737305724": "Увеличивает опыт, получаемый вами за матчи на протяжении всего сезона.",
     "BF6423B0452AA6E3FEED2BA1A862D8D9": "Увеличивает опыт, получаемый вами за матчи, в которых вы участвуете вместе с друзьями на протяжении всего сезона.",
     "563CC660407AD849E23975A6D0785F51": "Присоска",
@@ -923,6 +946,7 @@
     "63798FB849ED58BB9BCDBCA02913F9E3": "Если бы мне кто-то сказал заранее, ноги бы моей не было на этом проклятом корабле.",
     "29E95B844E7CC62125EEC6861CFE01F9": "Тяжёлый пистолет",
     "85223E3A425E09126593BDA8330B7B47": "Тяжёлый пистолет",
+    "50894D884F5D8695DB841F90521FCF55": "Hangtime",
     "021C53F44CA3EC976AFA239699B31E41": "Добудьте ещё древесины, чтобы зажечь исцеляющий огонь!",
     "5E72648A4EAFDED06A6CE6B84BF20486": "Добудьте ещё древесины, чтобы зажечь исцеляющий огонь!",
     "DBCD2ED14387598FEEE241959CF1EEDF": "Добудьте ещё древесины, чтобы зажечь исцеляющий огонь!",
@@ -1076,11 +1100,13 @@
     "890B554C44E5E14D30DC7DA2026CC111": "Зонт Kingsman +",
     "AEA550724B83BFD509D7BB8AB7649FF6": "Зонт Kingsman, который <Emphasized>блокирует больше</> получаемого урона",
     "330D995D4F99BB677CE5FF8643A9B17A": "Заряжаемый дробовик Робокота",
+    "586C8B8742F62A2B5139ABB4D39BCDCB": "L",
     "5FA09E37434E8B8FA4B4FH98ASDKF08": "Коллекция объектов метавселенной LEGO",
     "5FA09E37434E8B8FA4B4D494EBDAHJ2": "Собрание объектов метавселенной LEGO",
     "2193EDFD4EB95B7EB4AE9EAF5A7B4DAE": "СЕЙЧАС",
     "63037FB94900FB1564D17B8D3B141318_Option 00": "Траектория приземления заблокирована",
     "D8AB24054765BDBC58DD6CA5CAD947BA": "Достопримечательность",
+    "8D91BC934942044BC4873BB569079939": "LandscapeStreamingProxy",
     "10677BD841D874E5C309C19D264CD83A": "Время круга",
     "5B11769D4F71D4885B2B89B1D6C94BDE": "Испытания Ларса",
     "C21BFCC843ECBDD4244B80BC06CC68DC": "Последний выживший побеждает",
@@ -1158,6 +1184,7 @@
     "4F43A9804FE092B503AB229AF5F1BE9F": "Светящийся Полип",
     "ABBBFB684F671975A3156FB3C485EB37": "Светящийся Полип",
     "FFCE3AD34F937C67A0369BB7707EF121": "Светящийся Полип",
+    "AC2BCA5D474311F5C1B371AA7547D95A": "M",
     "F828847949A4F09844D01D9AAD00C2EF": "КАМЕНЬ РАЗУМА",
     "204BAD474CE2C195C93F0A80AFE10F5A": "Активация кода для друга (Microsoft)",
     "6FD2704447A762230DD9E4BAAD89E16F": "Испытания Механика Мины",
@@ -1248,6 +1275,14 @@
     "InvalidChatTip_NoFriends": "В сети нет подходящих друзей",
     "InvalidChatTip_NoUnMuteFriends": "Никто не заглушён",
     "InvalidChatTip_NoMuteFriends": "Некого заглушать",
+    "13A4AC0C49D77892555C02B103479A43": "NoiseStrengthOffset_U",
+    "DDB8D6094CBF3C23C96012B9763AC630": "NoiseStrengthOffset_U",
+    "3AE82B4C49244F9B85DDAE862D358D05": "NoiseStrengthOffset_V",
+    "420D509B4893FD6AF94CFF88D05DC43C": "NoiseStrengthOffset_V",
+    "5CEDCC7F476925864E2FAEA1B9846BDC": "NoiseStrength_U",
+    "69BDBFE9467027532B76108A671A5E1F": "NoiseStrength_U",
+    "00CE2A83446A6AB21885C999D8B9B8E2": "NoiseStrength_V",
+    "E97870F541E65F99CCCC40AB78791D94": "NoiseStrength_V",
     "427E2051453AFDBFDF6A289348552B47": "Но это не тот остров. Я имею в виду старый, с вулканом.",
     "53C8CCFE41F2EFAEA2C216B9DCA95252": "Теперь я тут главная. Даже другие вампиры не рискуют бросать мне вызов.",
     "2A743E1048A4D22ED47940B99A99FD94": "Пропуск «Как раньше»",
@@ -1256,6 +1291,8 @@
     "FriendStatusDefaultOffline": "Не в сети",
     "FriendStatusOffline": "Не в сети",
     "Offline": "Не в сети",
+    "EA5E176B434131AD5E9C76B9B6B55672": "OffsetU",
+    "3C157F6D4023B78129A4EB9B17B8E7ED": "OffsetV",
     "47E49EA148663E246ED440982977DC80": "Ух ты, ещё что-то делаешь? Класс!",
     "7B946AA545A82C50BA26D2B8E19F9381": "Ой, да, он всё ещё проклят. Но это проклятие будет получше прежнего.",
     "5D3EA6E84845B6E5EDEB1CA826D92D1A": "Ключ-карточка к буровой вышке",
@@ -1272,6 +1309,7 @@
     "FriendStatusOnline": "В сети",
     "Online": "В сети",
     "6CAAE374438D74363F7C88B75F7AE16F": "Доступ к ID-сканеру имеют только участники организации.",
+    "727C404A464B00D40C1CC49EF8E77A16": "OpacityMask",
     "709647B949112371B4D68A9F077A5EA6": "Откройте сундук!",
     "C7E71D0D4E058D491A811FB31D42E65A": "Самую ценную добычу ищите в сундуках!",
     "71FD10164CB0C67EAE122F955F5385D1": "Оранжевый",
@@ -1296,12 +1334,17 @@
     "BA80BC654CFB8E01EB9956876F4F2480": "Название области",
     "49D6D31842D007DC166BF4A177D63B81": "Размер области",
     "86A84DD84459F5837773B3BF3ECA2AAB": "КАМЕНЬ СИЛЫ",
+    "5C02F996420B31860834818A09FD5C54": "PannerU",
+    "A575A5814FDAB6CD1C73FEB3CBB3D48F": "PannerU",
+    "FA6D48B846194B49AFA0A1B1630B87F4": "PannerV",
+    "FAE98EA346C4F11A2D4BAEBC2A3F2FDE": "PannerV",
     "GameInviteFmt": "Игрок {0} приглашает вас вступить в группу",
     "PartyInviteSentFmt": "Приглашение в группу отправлено игроку {0}",
     "624512C84047B2A6A8429D89CDCFDCE0": "Пассажир",
     "0A0DAE2B4FE1793623CB7CBC3C61CB5D": "Быть может, она пыталась найти смысл жизни? А может, просто зёрнышки.",
     "42BE8AEA47AC24A46AC90FBAC18CF477": "Персональный усилитель опыта",
     "9A0379234914781523C92E86524D9CAE": "Персональный усилитель опыта",
+    "AABA721F494384FA4BB400B577A3D77E": "Физика",
     "CEA0FBF443439C8479DD90A1C9D3318E": "Подними повыше!",
     "1E2756A24E84E31CB6EFA19AABE6CEEE": "Выберите точку высадки и начинайте искать снаряжение.",
     "B3CFEDE943AA56C0AEE82CA08F806463": "Подобрать",
@@ -1328,9 +1371,11 @@
     "0D1AEBB0427B4E21E54855818104BF8A": "Размещает меч бесконечности, который могут подбирать игроки.",
     "1F62B87A4BC128082F4198855D3F6FDE": "Размещает меч бесконечности, который могут подбирать игроки.",
     "798C71F24C3F08D81990969CA161CA72": "Воспроизведение монтажа анимации на компоненте скелетной сетке манекена{montage} включено {BOOL}",
+    "1DE180094B22275C9812948B8DD3F76C": "PlayLocalAnimMontage IsDBNO{is} WasDBNO{was} Swimming{swimming} Montage{montage}",
     "68641ED847A530CC18C82582E362B9E4": "Здоровье игрока",
     "FriendUnavailable_FriendMuted": "Игрок заглушён. Введите «/», чтобы открыть параметры ",
     "291AD5F7469E20890EFCD288976C3A9B": "Жетон полноправного участника опроса",
+    "65F0C77E4EA5605341D87AA41286CF8F": "PlayerPawnAthena",
     "0DD52B0B466C006A5B38E6AB78A93A98": "Вы получили ОП за игровое время!",
     "14164C9D434D02CF6E737F8644740969": "Вы получили ОП за игровое время!",
     "6779C1604610779BE7664DBCF1E63CDB": "Вы получили ОП за игровое время!",
@@ -1401,13 +1446,13 @@
     "FC76ACB6447EAE570DD706A82BC61BFB": "Отвечай, да или нет: хочешь сделать татуировку в виде змеи?",
     "43E272F8443991243556F0AB98EC9BBE": "КАМЕНЬ РЕАЛЬНОСТИ",
     "DC6689504C766864E2FC36BD56A22E2E": "Время гонки",
+    "B77005ED4314630FB7B94FB252797CDC": "RandomPerBlade",
     "16C7863A4929CA41BBBB67BC7A3CD14A": "Стрелковое, лук",
     "E6EE95714DC76EF72E9B299D4F14A675": "Стрелковое, лук, взрывчатка",
     "48A93B144C613DF7A97944BE79B974EC": "Кошмарник-стрелок",
     "1CBC3F3747EECA210049B99100CF9AFC": "Стрелковое оружие",
     "DF8DE162471A4D50B1379A9F5B67392A": "Стрелковое оружие",
     "F5BCCB244A957943767D688D51D7862D": "Скорострельный ПП",
-    "6083E9A340F646132B684096B008BC31": "Редкий ящик с боеприпасами",
     "E694E52F41ACFC2FEE2A83A81F3B4CF9": "Прибежище повстанцев",
     "101BBD144878EB1AA8CCD292737797AE": "Разведывательный сканер",
     "CD11F0974CF81C39A4CE2B82BDE7AF5A": "Новобранец",
@@ -1440,6 +1485,8 @@
     "9C2DFED947D75C9C890741AE52D1BBFA": "Пузырь (Всплеск)",
     "FB87FE0C4B4856C913163BAC4E25F764": "Испытания Робо-Кевина",
     "763FAEE040C8DDB5AF40818ED75DF641": "Испытания робота Лучика",
+    "13F091224520CE01B93586BC372E5A40": "Rocket League",
+    "704E59574D62DADBAF1223B77617FA67": "Rocket Pass Premium",
     "057A40F34CB77532E4A103877119D69C": "Испытания набора «Мятежный разведчик»",
     "F69E79734193FB5FAEFE54BA569B57A1": "Переворот",
     "E9050E854478FB1B0C55478C5473279E": "Крен влево",
@@ -1451,6 +1498,7 @@
     "24A34EC54C5C6860E198EDABECBBDAA3": "Супероборот",
     "14286CBB48B5F1ED65845BA3FE5C891C": "Жетон задания Тёмной Руби",
     "8EAB0D0A41B155832EE5A6AD8A102CA5": "Раскидистые руины",
+    "91555784446CCFE9B48292B312D9AAC4": "S",
     "E2FDD2F448867B818FA0EA80CDF99D73": "Миссия уровня десятого сезона (жетон)",
     "70B5E1F944A54D9F37B036B9A2FA37EB": "Миссия десятого сезона недели 1A (жетон)",
     "7E0683DE413ABC014D89D48A84BA123F": "Миссия десятого сезона недели 1B (жетон)",
@@ -1480,6 +1528,10 @@
     "F541F01F455273EAA98B2CA75E64059B": "Сражение с Бурей",
     "69F4428943BBEF2288B2F2A308845D31": "Испытания «Сражения с Бурей»",
     "E68FA3A046DF98FE9F0BADABA3393FB0": "Обучение «Сражению с Бурей» окончено",
+    "F92C50B6435C7E9791865D968A78478E": "ScaleU",
+    "FFDA86944123F7C85F1A6B9FEFD9E486": "ScaleU",
+    "DDB74EC54045221481208A8B3901E72E": "ScaleV",
+    "F823EDDC40FAF230E52A9893FFC87255": "ScaleV",
     "0ABBFCE741D0FACCA33EFF91E4C7E5B7": "Самокат",
     "3CD73BB04F7B2758CFB71598100436E0": "Револьвер с прицелом +",
     "CC3EFC2B43DA2250BFC4C3ADC20731C5": "Револьвер с оптическим прицелом, который обладает увеличенной <Emphasized>скорострельностью</> и <Emphasized>отдачей</>",
@@ -1524,6 +1576,7 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
+    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "93D0AAC643B7CCE0B45615ADBC124BFD": "Выстрелить/Притянуть",
     "8F2CB8B14C13300867F38FB05719A4D2": "Праздничная бутылочная ракета, взмывающая в воздух. Расходуется при использовании.\r\nНе действует вне миссии.",
@@ -1664,26 +1717,37 @@
     "6404EAEB424DAFF12025358915C1E97D": "Продержитесь несколько фаз Бури",
     "76AC9AA34DC99A1A37896F935B72E9D9": "Продержитесь несколько фаз Бури",
     "DDDAFD77445379EE9BAF399713A063D6": "Выживший",
+    "6D0C33224AC0E0AF4F3DF1AB2807B903": "Swish",
     "E928E3A54C017ABB67564BB0EE06B190": "Переключить профиль",
     "85D867BC4BF95138BD5A05A4705FB62F": "Пересесть",
     "8F0C992C457A0ED11DC7F089C2563C02": "Пересесть",
     "26F1D40B478FE0309AB1D98F3AC8DD97": "Меч в камне",
+    "07993C4B41D0B8030A205DBB569CDFF6": "TBD",
     "16C4DE7845814A305FFDBD8BC442C6CF": "Н\\А",
     "1AA8072246D8A35FBA5A83A4B111D8BC": "Н\\А",
+    "31FCAD1242705AFBB25ED4A05B40D1F4": "TBD",
     "3551416F44AE8355CA07EA8B649E9D7B": "Н\\А",
     "3ACC859B4325F84EBFF5FEA6184CE099": "Н\\А",
+    "3B3AB742483A1A41F391729DB4BF74D3": "TBD",
     "46462B974E587950C9B4A290C8562833": "Н\\А",
     "4DA7F6F8425A5A41A25166A617EE8B0D": "Н\\А",
     "55477D2D4EEC060298D1C8A8EE3A374E": "Н\\А",
+    "5D14C5F74CA277758C0476AA504D7CEA": "TBD",
     "655FDB4848392BD6E5BDB68E90305AAB": "Н\\А",
+    "6FEC601D4ED143E4D74A69AC29BC288B": "TBD",
     "8527D8714783BC3512DE3F98151A0B7F": "Н\\А",
     "935F35594E234FB69A274DB6A9CD66F2": "Н\\А",
     "9CD2DC9549DFC522A6267797E0629AC1": "Н\\А",
+    "ABEE55F844CD1A5496BD1094235591F4": "TBD",
+    "BE4770544FAD5EBF70EC8FAF62EE84F3": "TBD",
+    "BF5947C040190F6A9A3907A4B96FB52E": "TBD",
     "C44A08984E2BDAC26D9664832D1932C1": "Н\\А",
     "C54664414E4072A31F77BEAB272D34DE": "Н\\А",
     "CF389B5048F79B54E4842AAF2F3D36F4": "Н\\А",
+    "CFCAD33E47AD25FBE9AADBA505F2B4B9": "TBD",
     "D7D68623474853CA51407F994CB2A5D1": "Н\\А",
     "EB81A7EA4C0E2694168E58BFFF4D1FBB": "Н\\А",
+    "F353B9664768E68F308FD59C8BC3FEE8": "TBD",
     "F677598C4642E866B520C8B598BA53C5": "Н\\А",
     "F7E15C084B686CC4436E33A2C8659277": "Н\\А",
     "38459957446844E0F91F97BE3456F20E": "КАМЕНЬ ВРЕМЕНИ",
@@ -1815,7 +1879,6 @@
     "EDCF44D84FBAD5F36B32ADB7E446442F": "Помидор",
     "C74F625E42463681A48244BC83F68CAA": "Испытания Тони",
     "C085E97047AC665AE9DD79A99AD0CB42": "Слишком далеко. Подойдите ближе к другому телепорту.",
-    "768A6B4042EC9C2CFD6F9799319797CA": "Ящик с инструментами",
     "B77696AD481B06D6FFEB10B94FF582A7": "Факел",
     "06B8D6624AAC122415F9C0BFABD33BD4": "Тренировочный бот",
     "7937BB634B1121B84A040EB326C1A37F": "Ловушки",
@@ -1978,6 +2041,7 @@
     "C381D7E942FF9C710C1A6BB970A6DA68": "Ого, а ты молодец! Такое не каждому под силу!",
     "98D7CCAA4958E10FCC9C2BAFE1CCBF60": "Умертвие",
     "64F65F774E68F2F9DF15FB9B136E22DE": "Вдребезги",
+    "BA91BD8644CE1E1569CAB1B57A0C36BB": "X",
     "71184DB949BE8B082462B7B962C39E48": "Сокровища ждут!",
     "D40AA64648243870B6889FA424D3E046": "X-4 «Буревестник»",
     "E72472C640C3198FD9E8848B5B2134AD": "Огромный",
@@ -1985,6 +2049,7 @@
     "65B9B0DE4570371459A907B21230E739": "Гигантский",
     "8E958C994B789E4833F93EA328537468": "Усилитель опыта",
     "5C4B0A654B966FB2E8955198F4E3ACEA": "Гигантский",
+    "C12FDF6A42BDB0F6D984DA8EC8A01A31": "Y",
     "25417C1D45061B4CDA4DE885F42AF2D5": "Ар-р, сокровища!",
     "601F2A104CB05D0D5A9E4AA15C1330B9": "Да. Я не знал, что острова поменяли, и произошла беда.",
     "9611595B47D5EAC8032707BE934412FA": "Жёлтый",
@@ -2011,14 +2076,19 @@
     "27590332453BD67D91D385AECF6E9B81": "Ну, как мы их поджарили?",
     "0343BCC7465DF2C84C2AB3BEFB7FD506": "Вы наносите урон только при попадании в голову",
     "1F5E700F4E7812A72566538D7F6F0277": "Вы наносите урон только при попадании в голову",
+    "83DBC791407B4FB7361231AE104EF2FE": "Z",
     "48ED594F4D555BBCA7E4698529378FA9": "Зомби",
     "BB427A8B4ACBC1A3A2F55CAC83E78CC2": "Зомби",
+    "FriendList_SearchLabel": "[Enter Display Name]",
     "69178DF04E08EE783EAE9B877900BB5D": "добавить",
     "643166444A34BAF0BC76B8A83F11BBD5": "контрастность",
     "EnteredRoom": "входит в чат",
+    "CE9BB875451A8B074714BA9B6B36C3FE": "iOS",
     "7245BBCB4566D83AFE50249B5760C373": "Код приглашения в версию для iOS",
     "B2B14EC74411CE2F1FAEE792C4BD14A0": "Код приглашения в версию для iOS",
     "LeftRoom": "покидает чат",
+    "C29BFB554CAB7C3FFED46F8B10BCC630": "mul",
+    "5224F3784B9381481E7AFFAAE68E5FD9": "pow",
     "TooManyCharactersFmt": "Допустимое число символов превышено на {0}",
     "FriendAcceptedToastFmt": "Игрок {0} принял ваш запрос на добавление в друзья",
     "FriendAddedToastFmt": "Игрок {0} добавлен в друзья",
@@ -2076,7 +2146,8 @@
     "NotInterestedNotificationMessage": "Мы будем рекомендовать меньше островов такого типа в будущем"
   },
   "ActorValidator_PreventOverlaps": {
-    "AddingOverlappingActors": "В вашем проекте есть объекты LEGO, накладывающиеся друг на друга. Это нарушает требования LEGO. Внесите необходимые исправления в проект, иначе он может не пройти проверку.\nОбъект «{0}» накладывается на другие объекты {1} р.:"
+    "AddingOverlappingActors": "В вашем проекте есть объекты LEGO, накладывающиеся друг на друга. Это нарушает требования LEGO. Внесите необходимые исправления в проект, иначе он может не пройти проверку.\nОбъект «{0}» накладывается на другие объекты {1} р.:",
+    "AddingOverlappingActorsHitActor": "{0}\n{1}"
   },
   "AdHocSquads": {
     "SquadsTooBigToMerge": "Размер отрядов слишком велик для объединения"
@@ -2089,7 +2160,8 @@
     "FileLockedError": "Ой! Ваш остров застрял в прошлом портале.\nПопробуйте ещё раз через пару минут.",
     "ExperienceNotSupported": "На данный остров нельзя попасть через этот портал.\nВоспользуйтесь порталом подбора игроков.",
     "UnableToDeserialize": "Ваша платформа не поддерживает версию, в которой был создан этот остров.",
-    "UnloadingText": "Разгрузка…"
+    "UnloadingText": "Разгрузка…",
+    "GenericErrorFormat": "{0}\n{1}"
   },
   "AFortAthenaMutator_CreativeTutorial": {
     "HandleServerShuttingDown": "Данный сервер для творческого режима будет отключён через {0} м."
@@ -2139,6 +2211,7 @@
     "TraveLogWon": "<Time>{Time}</>: <{InstigatorStyle}>{InstigatorName}</> побеждает в матче!",
     "TravelLogAllyDeath": "<Time>{Time}</>: <{ReceiverStyle}>{ReceiverName}</> погибает от руки игрока <{InstigatorStyle}>{InstigatorName}</>.",
     "TravelLogAllyDNBO": "<Time>{Time}</>: <{ReceiverStyle}>{ReceiverName}</> получает тяжёлое ранение от руки игрока <{InstigatorStyle}>{InstigatorName}</>.",
+    "ToyPlayerNameWithStyle": "<{0}>{1}</>",
     "PlayerJoinedOtherIsland": "<{JoinedStyle}>{PlayerName}</> появляется на острове игрока <{JoinedStyle}>{OwnerPlayerName}</>",
     "PlayerJoinedFeaturedIslandUnknown": "<{JoinedStyle}>{PlayerName}</> появляется на рекомендуемом острове.",
     "PlayerJoinedFeaturedIsland": "<{JoinedStyle}>{PlayerName}</> появляется на острове <{JoinedStyle}>{IslandName}</>",
@@ -2155,6 +2228,7 @@
     "DidNotThankBusDriver2": "Игрок <{VictimStyle}>{PlayerName}</> не поблагодарил водителя автобуса",
     "ThankedBusDriver": "<{VictimStyle}>{PlayerName}</> благодарит водителя автобуса",
     "RebootedPlayerName": "Игрок <{VictimStyle}>{PlayerName}</> возродился",
+    "ThankedBusDriverCustom": "<{VictimStyle}>{PlayerName}</> {BusDriverMessage}",
     "IslandAlreadyExists": "Уже существует",
     "AnonymousMode_Anonymous": "Инкогнито",
     "BookLevelUpXpItem": "Повышение уровня книги: <Score>+{score}</>",
@@ -2173,6 +2247,7 @@
     "IslandDuplicateContentServiceCallbackFailure": "Не удалось создать копию проекта острова.",
     "FirstWinXpItem": "Первая победа: <Score>+{score}</>",
     "FlyingAnimalTrick": "Белка-летяга",
+    "RecentPlayerGameNameAthena": "Fortnite",
     "XpEventsXpItem": "ОП в матче <Score>+{score}</>",
     "InGameMMS.InQueue": "В очереди…",
     "DestroyCreativePlotErrorAlreadyDeleted": "Остров {MCPDestroyMissing} удалён",
@@ -2207,6 +2282,8 @@
     "IslandRenameDeletedIsland": "Нельзя переименовывать удалённые острова.",
     "IslandCreateMissingEntitlements": "У вас нет доступа к островам такого типа",
     "IslandRestoreCreativePlotFailure": "остров: {MCPIslandRestoreIslandID}, причина: {MCPIslandRestoreIslandResult}",
+    "HiddenPlayerPseudonymNameFormat": "{0}[{1}]",
+    "PlayingAthenaGameJunoPlaylist": "{IslandName} - {PlayersAlive} / {MaxPlayers}",
     "PlayingAthenaGameWithPlayersPlaylist": "{IslandName}, {PlayersAlive} в игре",
     "PlayingAthenaGameWithParentPlayersPlaylist": "{ParentSetName} — {IslandName}, {PlayersAlive} в игре",
     "VehicleStats": "← {0}м.  ↑ {1}м. / {2}с."
@@ -2248,6 +2325,10 @@
     "ChallengeLocked_UnlocksSoon": "<text color=\"FFF\">Скоро</> будет открыто",
     "ChallengeLocked_UnlocksIn": "Откроется: <text color=\"FFF\">{Timespan}</>"
   },
+  "AthenaChallengeEntry": {
+    "AthenaChallengeEntryCompletedText": "{0} <text case=\"upper\" fontface=\"black\"></>",
+    "AthenaChallengeEntryInProgressText": "{0} <text case=\"upper\" fontface=\"black\">{1} / {2}</>"
+  },
   "AthenaChallengeListEntry_NpcQuest": {
     "CountDownExpired": "Срок действия истёк"
   },
@@ -2268,13 +2349,20 @@
     "AthenaCompass_SpecialActorDistance": "{0} м."
   },
   "AthenaCosmeticUnlockingInfo": {
+    "CompletionProgressText": "<{Style}>{Achieved}</> / {Required}",
     "AcquireChallengeBundleFormat": "Можно получить в качестве награды за выполнение <{Style}>испытаний «{ChallengeBundleName}»</>",
     "SeasonPassUnlockingFormat": "Получено на <{Style}>{Tier}-м уровне</> <{Style}>боевого пропуска</> для {SeasonNumber}-го сезона",
     "CompletionRewardFormat_All": "Выполните <{Style}>{Required} исп.</> из <{Style}>«{ChallengeBundleName}»</>, чтобы <{Style}>{GetMethod}</>",
     "SingleRewardChallengeBundleFormat": "Выполните <{Style}> любое испытание</> из <{Style}> комплекта «{ChallengeBundleName}»</>, чтобы <{Style}>{GetMethod}</>",
     "CompletionRewardFormat": "Выполните <{Style}>{Required} исп.</> из <{Style}>«{ChallengeBundleName}»</>, чтобы <{Style}>{GetMethod}</>",
     "Unlock": "И ОТКРЫВАЙТЕ",
-    "Upgrade": "УЛУЧШИТЬ"
+    "Upgrade": "УЛУЧШИТЬ",
+    "STWHeroVariantUnlockingFormat": "{RarityUnlockRequirementText} {TierUnlockRequirementText}"
+  },
+  "AthenaCustomizationPickerSortAndFilterBlade": {
+    "FilterTextFormatCount": "{FilterName} ({NumItemsInFilter})",
+    "FilterTextFormatText": "{FilterName} {ItemText}",
+    "SortTextFormatText": "{SortName} {ItemText}"
   },
   "AthenaDuelOverlay": {
     "DuelLostTitleText": "ПОРАЖЕНИЕ В ДУЭЛИ",
@@ -2286,6 +2374,9 @@
   "AthenaDynamicMtxOfferButtonLegacy": {
     "DynamicMtxOfferWithBuy": "КУПИТЬ {0} В-БАКСОВ",
     "DynamicMtxOfferWithoutBuy": "В-БАКСЫ: {0}"
+  },
+  "AthenaEquippedItemBase": {
+    "EquippedItemPercentage": "{0}%"
   },
   "AthenaEventMatchStatusScreen": {
     "BusLaunchingInText": "ДО ЗАПУСКА БОЕВОГО АВТОБУСА",
@@ -2400,7 +2491,10 @@
     "DropItem": "{0}|plural(one=Выбросить предмет,other=Выбросить предметы)"
   },
   "AthenaItemDetailsHeaderBase": {
-    "SlotsTaken": "{0} ЯЧ."
+    "AmmoLoadedAbsolute": "x{0}",
+    "Amount": "x{0}",
+    "SlotsTaken": "{0} ЯЧ.",
+    "AmmoLoadedPercentage": "{0}%"
   },
   "AthenaItemShopDisplayAssetOfferDetails": {
     "BattlePassLevelErrorFormat": "Уровень боевого пропуска: {0}",
@@ -2414,11 +2508,18 @@
     "PurchaseComplete": "Покупка успешно совершена",
     "RedeemingOffer": "Активация…"
   },
+  "AthenaKeepPlayingTogetherScreenWidget": {
+    "IngameMatchmakingCountdownSeconds": "{0}"
+  },
+  "AthenaKeepPlayingTogetherWidget": {
+    "KeepPlayingTogetherCountdownSeconds": "{0}"
+  },
   "AthenaLobbyPlayerPanel": {
     "BattlePassTier": "СЕЗОННЫЙ УРОВЕНЬ: {0}"
   },
   "AthenaLocker": {
-    "DefaultLoadoutName": "Пресет {0}"
+    "DefaultLoadoutName": "Пресет {0}",
+    "CategoryNameIndexed": "{Category} {Index}"
   },
   "AthenaLockerUtils": {
     "AllGlidersArchivedWarningMessage": "Все дельтапланы в архиве, будет отображаться как стандартный дельтаплан.",
@@ -2432,6 +2533,9 @@
   },
   "AthenaMapLayerContainer": {
     "AthenaMapLayerTeleportToMarkerTimeChangedFormat": "Перемещение через {0}…"
+  },
+  "AthenaMapPlayersLeftWidget": {
+    "PlayersTeamsLeftFormat": "{NumPlayersLeft} ({NumTeamsLeft})"
   },
   "AthenaMapStormInfo": {
     "SafeZonePhaseFormat": "БУРЯ {SafeZonePhase} из {SafeZoneCount}",
@@ -2472,7 +2576,8 @@
     "KeepPlayingTogether.SquadOptedToDisbandText": "Команда покинула матч",
     "KeepPlayingTogether.YouCannotStayWithTeamText": "Вы не можете оставаться в команде.",
     "KeepPlayingTogether.PartySizeIncreasedOptedOutText": "В вашей группе стало больше игроков!",
-    "KeepPlayingTogether.PartyOptedOutOfSquadText": "Ваша группа покинула команду"
+    "KeepPlayingTogether.PartyOptedOutOfSquadText": "Ваша группа покинула команду",
+    "MenuItem.KeepPlayingTogetherCountdownFormat": "{0} {1}"
   },
   "AthenaProfileStatsBase": {
     "AllPlaylists": "Вместе"
@@ -2484,7 +2589,8 @@
     "ChallengCountFormat": "<text color=\"FFF\">{CompletedCount}</>/{RequiredCount}"
   },
   "AthenaReadyUpScreenWidget": {
-    "KeepPlayingTogether.PartyMembersOptedInText": "Участники решили остаться в команде."
+    "KeepPlayingTogether.PartyMembersOptedInText": "Участники решили остаться в команде.",
+    "IngameMatchmakingCountdownSeconds": "{0}"
   },
   "AthenaResurrectionComponent": {
     "AthenaResurrectionVanRebootMarkerLabel": "Фургон возрождения"
@@ -2496,9 +2602,15 @@
     "CannotOpenReason_2": "Отложите напоследок!",
     "CannotOpenReason_5": "Неизвестная ошибка"
   },
+  "AthenaRewardItemTypeRarityTag": {
+    "ItemType": "{0} - {1}",
+    "RarityTagItemRarity": "{ItemRarity}",
+    "RarityTagItemType": "{ItemType}"
+  },
   "AthenaSeasonItemDefinitionInternal": {
     "ChapterTextFormat": "Глава {0}",
-    "SeasonTextFormat": "Сезон {0}"
+    "SeasonTextFormat": "Сезон {0}",
+    "ChapterSeasonTextFormat": "{0}, {1}"
   },
   "AthenaStarterKitOfferButton": {
     "StarterKitOfferVBucks": "В-БАКСЫ: {0}",
@@ -2516,8 +2628,12 @@
   "AthenaVisitedAreaDisplay": {
     "ChallengeAvailable_Multiple": "Доступно {0} {0}|plural(one= испытание, few = испытания, many = испытаний, other = испытания)"
   },
+  "Augments": {
+    "AugmentsRerollContext": "/ {0}"
+  },
   "BacchusFriendCodes": {
-    "SupportedPlatformWarning": "<stronger>ПРИМЕЧАНИЕ:</> требуется iOS 11; игра несовместима с iPhone 5s, 6 и 6 Plus."
+    "SupportedPlatformWarning": "<stronger>ПРИМЕЧАНИЕ:</> требуется iOS 11; игра несовместима с iPhone 5s, 6 и 6 Plus.",
+    "BacchusFriendCodeFullURL": "{0}{1}"
   },
   "BattleMap": {
     "NodeTypeTeamFlight": "Автобусная линия",
@@ -2603,10 +2719,12 @@
   "CharacterParts": {
     "Backpack": "Рюкзак",
     "FullBody": "Туловище",
+    "ExtraPart": "ExtraPart",
     "Face": "Лицо",
     "Gameplay": "Игровой процесс",
     "Hat": "Головной убор",
     "Head": "Голова",
+    "MiscOrTail": "MiscOrTail",
     "UnknownPart": "Неизвестная часть"
   },
   "ChatEntryCommands": {
@@ -2699,6 +2817,9 @@
   "ConfigH_Athena /Script/FortniteGame.FortPlayerInputSettings": {
     "LimitedControllerConfiguration": "Огранич."
   },
+  "ConfigJCMS_RightHanded /Script/FortniteGame.FortPlayerInputSettings": {
+    "JCMS_RightHanded_ControllerConfiguration": "Мышь Joy-Con (правая рука)"
+  },
   "ConfigKBM_Athena /Script/FortniteGame.FortPlayerInputSettings": {
     "StandardConfiguration": "Клавиатура/мышь"
   },
@@ -2725,10 +2846,6 @@
   },
   "ContentBeaconHostObjectV2": {
     "ThrottlingVerseLogs": "Регулировка копий записей в журнале Verse"
-  },
-  "ContentbeaconV2": {
-    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
-    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
   },
   "ContentBeaconV2": {
     "ClientCancelledDownload": "Клиент {Client} отменил загрузку.",
@@ -2771,6 +2888,10 @@
     "UnauthorizedClient": "У вас нет разрешения на воспроизведение данного материала\n{ShortErrorCode}",
     "TimeoutClientGenericLong": "{Client}: время ожидания перехода от состояния «{StartState}» к состоянию «{DestinationState}» для требуемого материала ({VkProjectId}, {VkModuleId}) превышено."
   },
+  "ContentbeaconV2": {
+    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
+    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
+  },
   "ContentOnDemand": {
     "WrongDataReceived": "Не удалось загрузить дополнительные данные игрока."
   },
@@ -2780,6 +2901,9 @@
   "ConversationTask_SellItem": {
     "BuyX": "Купить {0}",
     "SoldOut": "Продано"
+  },
+  "CoreGamerScoreTracker": {
+    "TimeRemaining": "{Minutes}:{Seconds}"
   },
   "CosmeticLockerItemStrings": {
     "UnnamedPresetName": "ОБРАЗ 1"
@@ -2862,6 +2986,7 @@
     "CreativeIslandDescriptionTag_BaseBuilding": "Строительство базы",
     "CreativeIslandDescriptionTag_Battle": "Битва",
     "CreativeIslandDescriptionTag_BattleRoyale": "Королевская битва",
+    "CreativeIslandDescriptionTag_BedWars": "Bed Wars",
     "CreativeIslandDescriptionTag_BoardGame": "Настольная игра",
     "CreativeIslandDescriptionTag_BossBattle": "Битва с боссом",
     "CreativeIslandDescriptionTag_Boxfight": "Ближний бой",
@@ -2913,6 +3038,7 @@
     "CreativeIslandDescriptionTag_JamSystem": "Система импровизации",
     "CreativeIslandDescriptionTag_JustForFun": "Развлечение",
     "CreativeIslandDescriptionTag_KingOfTheHill": "Царь горы",
+    "CreativeIslandDescriptionTag_MOBA": "MOBA",
     "CreativeIslandDescriptionTag_Melee": "Холодное оружие",
     "CreativeIslandDescriptionTag_Memes": "Мемы",
     "CreativeIslandDescriptionTag_Minigame": "Мини-игра",
@@ -2926,9 +3052,12 @@
     "CreativeIslandDescriptionTag_OneShot": "Единственный выстрел",
     "CreativeIslandDescriptionTag_OneInTheChamber": "Последний патрон",
     "CreativeIslandDescriptionTag_OpenWorld": "Открытый мир",
+    "CreativeIslandDescriptionTag_PVE": "PVE",
+    "CreativeIslandDescriptionTag_PVP": "PVP",
     "CreativeIslandDescriptionTag_Parkour": "Паркур",
     "CreativeIslandDescriptionTag_PartyGame": "Игра для компании",
     "CreativeIslandDescriptionTag_PartyWorld": "Вечеринка",
+    "CreativeIslandDescriptionTag_Patchwork": "Patchwork",
     "CreativeIslandDescriptionTag_Peaceful": "Спокойный",
     "CreativeIslandDescriptionTag_Physics": "Физика",
     "CreativeIslandDescriptionTag_Pinball": "Пинбол",
@@ -2944,6 +3073,7 @@
     "CreativeIslandDescriptionTag_Race": "Гонка",
     "CreativeIslandDescriptionTag_Respawn": "Возрождение",
     "CreativeIslandDescriptionTag_Retro": "Ретро",
+    "CreativeIslandDescriptionTag_Roguelike": "Roguelike",
     "CreativeIslandDescriptionTag_RolePlaying": "Ролевая игра",
     "CreativeIslandDescriptionTag_Rounds": "Раунды",
     "CreativeIslandDescriptionTag_Runner": "Забег",
@@ -2974,6 +3104,7 @@
     "CreativeIslandDescriptionTag_Teams": "Команды",
     "CreativeIslandDescriptionTag_Timed": "На время",
     "CreativeIslandDescriptionTag_TopDown": "Вид сверху",
+    "CreativeIslandDescriptionTag_TowerDefense": "Tower Defense",
     "CreativeIslandDescriptionTag_Training": "Тренировка",
     "CreativeIslandDescriptionTag_Trios": "Трио",
     "CreativeIslandDescriptionTag_Trivia": "Викторина",
@@ -2983,7 +3114,8 @@
     "CreativeIslandDescriptionTag_UnbalancedTeams": "Разная численность команд",
     "CreativeIslandDescriptionTag_VisualNovel": "Визуальная новелла",
     "CreativeIslandDescriptionTag_Winterfest": "Зимний фестиваль",
-    "CreativeIslandDescriptionTag_WordGames": "Игры в слова"
+    "CreativeIslandDescriptionTag_WordGames": "Игры в слова",
+    "CreativeIslandDescriptionTag_ZoneWars": "ZoneWars"
   },
   "CreativeIslandInternalDescriptionTag": {
     "CreativeIslandInternalDescriptionTag_GuitarPeripheralEnabled": "Подходит для гитары",
@@ -3005,12 +3137,14 @@
   },
   "CreativeMatchmakingFeedback": {
     "CRMFeedbackOnMatchmakingConnecting": "Подключение к службе подбора игроков…",
+    "CRMFeedbackDownloadProgress": "Прогресс загрузки: {0}%",
     "CRMFeedbackOnMatchmakingAssignment": "Распределение завершено!",
     "CRMFeedbackOnMatchmakingCanceled": "Подбор игроков отменён!",
     "CRMFeedbackOnMatchmakingFinished": "Подбор игроков завершён!",
     "CRMFeedbackOnMatchmakingError": "Ошибка при подборе игроков: {0}",
     "CRMFeedbackOnMatchmakingStarted": "Начался подбор игроков…",
     "CRMFeedbackOnWaitingForAddtionalContentStarted": "Подготовка материалов перед перемещением…",
+    "CRMFeedbackIsPreDownloading": "Подготовка к загрузке",
     "CRMFeedbackStarting": "Начинается подбор игроков",
     "CRMFeedbackWaitingForReady": "Ожидание других игроков"
   },
@@ -3069,6 +3203,7 @@
     "Exotic_Name": "Экзотический",
     "Explosive_Name": "Взрывчатка",
     "Factory_Name": "Фабрика",
+    "Beanstalk_Name": "Fall Guys",
     "Fantasy_Name": "Фантастика",
     "FireStarting_Name": "Пожар",
     "Flipped_Name": "Переворот",
@@ -3132,11 +3267,16 @@
     "Neo_Name": "Будущее",
     "NewThisSeason_Name": "Новое в этом сезоне",
     "GameObjectiveDevice_Name": "Цель",
+    "OverrideCount_10_Name": "OverrideCount_10",
+    "OverrideCount_100_Name": "OverrideCount_100",
+    "OverrideCount_5_Name": "OverrideCount_5",
+    "OverrideCount_500_Name": "OverrideCount_500",
     "Pandora_Name": "Пандора",
     "Paradise_Name": "Дивный мир",
     "Palms_Name": "Пышные пальмы",
     "Parkour_Name": "Паркур",
     "ParticleGallery_Name": "Частица",
+    "Patchwork_Name": "Patchwork",
     "PatchworkAudioEffect_Name": "Звуковой эффект для компилятора",
     "PatchworkAudioGallery_Name": "Набор звуков компилятора",
     "PatchworkAudioGenerator_Name": "Звуковой генератор-компилятор",
@@ -3145,6 +3285,7 @@
     "PatchworkModulator_Name": "Модулятор-компилятор",
     "PatchworkNoteEffect_Name": "Эффект ноты компилятора",
     "PatchworkNoteGenerator_Name": "Нотный генератор-компилятор",
+    "PersistenceDevice_Name": "Persistence",
     "Pistol_Name": "Пистолет",
     "PlayerDevice_Name": "Игрок",
     "Suburban_Name": "Приятный парк",
@@ -3165,6 +3306,8 @@
     "Retail_Name": "Торговая точка",
     "RiskyReels_Name": "Кошмарный кинотеатр",
     "Roadside_Name": "Обочина",
+    "RocketLeague_Name": "Rocket League",
+    "DelMar_Name": "Rocket Racing",
     "Ammo:Rockets_Name": "Ракеты",
     "Ruined_Name": "Руины",
     "SMG_Name": "Пистолет-пулемёт",
@@ -3269,7 +3412,8 @@
     "AllowedTimeNoLimit": "Без ограничений",
     "DailyTimeWindowFormat": "{0} — {1}",
     "AllowedTimeHour": "{0} {0}|plural(one=час,few=часа,many=часов,other=часа)",
-    "AllowedTimeMinute": "{0} {0}|plural(one=минута,few=минуты,many=минут,other=минуты)"
+    "AllowedTimeMinute": "{0} {0}|plural(one=минута,few=минуты,many=минут,other=минуты)",
+    "AllowedTimeFormat": "{0}{1}{2}"
   },
   "DecoTool": {
     "PrimaryActionName": "Разместить",
@@ -3302,7 +3446,11 @@
   "DiscoverHomespace": {
     "DownloadStartedTooltip_Description": "{0}: началась загрузка материалов! Вы в любое время можете настроить параметры загрузок в «Библиотеке»."
   },
+  "DiscoWidgetBase": {
+    "DiscoScore": "{0}"
+  },
   "DisplayNameFormat": {
+    "DisplayNameFormatNoPrefix": "{0}",
     "DisplayNameFormatWithoutPrefix": "{1} ​({0})",
     "DisplayNameFormatForDefender": "{0}: {2} ({1})"
   },
@@ -3406,6 +3554,8 @@
     "EditTool_Plural": "Инструменты редактирования",
     "Emote": "Эмоция",
     "Emote_Plural": "Эмоции",
+    "EventDependentItem": "EventDependentItem",
+    "EventDependentItem_Plural": "EventDependentItems",
     "Expedition": "Экспедиция",
     "Expedition_Plural": "Экспедиции",
     "ExternalResource": "Внешние ресурсы",
@@ -3507,6 +3657,7 @@
     "WorldItem_Plural": "Предметы из инвентаря зоны"
   },
   "EliminatedOverlay": {
+    "PlaceNumberText": "#{Place}",
     "KilledBySomeoneText": "ВАС УСТРАНЯЕТ",
     "KilledYourselfText": "ВЫ САМОУСТРАНИЛИСЬ",
     "YouPlacedText": "ВЫ —",
@@ -3539,13 +3690,19 @@
     "PointsOutsideBoxDescriptionContext": "{0}: сгенерировать вне коробки с центром: {1} и границами: {2}",
     "DescriptionGenerateInfluenceMapPointsTitle": "{0}: генерация очков вокруг {1}",
     "DescriptionGenerateNavGraphTitle": "{0}: генерация очков вокруг {1}",
-    "DescriptionGenerateHotspotsAroundContext": "{DescriptionTitle}: {DescribeType} ячейки вокруг {DescribeContext}"
+    "DescriptionGeneratePointsInCylinderAroundContext": "{DescriptionTitle}: generate items in a cylinder around {DescribeContext}",
+    "DescriptionGenerateHotspotsAroundContext": "{DescriptionTitle}: {DescribeType} ячейки вокруг {DescribeContext}",
+    "DescriptionPointInCylinder": "{Description}, Height: {HeightMin} to {HeightMax} with {SpaceBetween} space",
+    "GridInVolumeDescriptionWithProjection": "{Description}, {ProjectionDescription}",
+    "PointsOutsideBoxDescriptionWithProjection": "{Description}, {ProjectionDescription}"
   },
   "ErrorDetailsHttpMcp": {
     "GenericError": "Произошла ошибка во время связи с серверами игры ({0}).",
     "JsonError": "Ошибка сервера (тип: {0})"
   },
   "EventTeamMatchHistoryEntry": {
+    "MatchNumber": "#{0}",
+    "Unknown": "??",
     "UnknownTime": "?? мин.",
     "TimeAlive": "{0} в живых"
   },
@@ -3554,10 +3711,29 @@
     "WatchHighlightsPromptTitle": "Смотреть ключевые моменты игры",
     "WatchHighlightsButtonBody": "Смотреть главное"
   },
+  "Fabric": {
+    "FabricNegativeElapsedTimeFormat": "-{Time}"
+  },
   "FabricDialogUI": {
     "UFabricUIDialogHelper_Confirmation_Action": "Продолжить"
   },
   "FabricMetaSound": {
+    "PlusIDesc": "+I",
+    "PlusITT": "+I",
+    "NegIDesc": "-I",
+    "NegITT": "-I",
+    "NegIIDesc": "-II",
+    "NegIITT": "-II",
+    "NegIIIDesc": "-III",
+    "NegIIITT": "-III",
+    "NegIVDesc": "-IV",
+    "NegIVTT": "-IV",
+    "NegVDesc": "-V",
+    "NegVTT": "-V",
+    "NegVIDesc": "-VI",
+    "NegVITT": "-VI",
+    "NegVIIDesc": "-VII",
+    "NegVIITT": "-VII",
     "InputAlphaDisplayName": "Альфа",
     "InputSampleAssetsTooltip": "Ресурсы для семплов ударных. Это значение должно быть кратно количеству ячеек.",
     "OutputAttackSecondsDisplayName": "Атака в секундах",
@@ -3565,6 +3741,7 @@
     "InputBeatSyncDurationDisplayName": "Длительность синхронизации ритма",
     "InputBeatSyncOffsetDisplayName": "Смещение синхронизации ритма",
     "InputBeatSyncStyleDisplayName": "Стиль синхронизации ритма",
+    "InputBlendDisplayName": "Blend",
     "OutputBoolValueDisplayName": "Вывод логического значения",
     "FabricUserOptionConverterNode_Description": "Преобразовывает значение [0, 1] в значение, установленное пользователем.",
     "InputEnabledDisplayName": "Включено",
@@ -3588,6 +3765,14 @@
     "OutputHoldSecondsDisplayName": "Удержание в секундах",
     "InputBarsPerShiftTooltip": "Определяет, какое количество тактов получает значение ввода от интервалов.",
     "InputBlendTooltip": "Насколько шаг должен смешиваться с соседним. 0 — без смешивания; отрицательное значение — смешивание с предыдущим шагом; положительное значение — смешивание со следующим шагом.",
+    "IDesc": "I",
+    "ITT": "I",
+    "IIDesc": "II",
+    "IITT": "II",
+    "IIIDesc": "III",
+    "IIITT": "III",
+    "IVDesc": "IV",
+    "IVTT": "IV",
     "InputSnapToScaleTooltip": "Если true, квантует ноту в выбранную гамму перед смещением.",
     "IgnoreSeeksInputDisplayName": "Игнорировать запросы",
     "OutputIntValueDisplayName": "Вывод целого числа",
@@ -3668,6 +3853,12 @@
     "InputThirdIntervalDisplayName": "Третий интервал",
     "OutputTriggerNoteDisplayName": "Запускающая нота",
     "InputTriggerNotesDisplayName": "Запускающие ноты",
+    "VDesc": "V",
+    "VTT": "V",
+    "VIDesc": "VI",
+    "VITT": "VI",
+    "VIIDesc": "VII",
+    "VIITT": "VII",
     "StepModulatorInputValueDisplayName": "Значение {0}",
     "OutputVelocityDisplayName": "Высота",
     "InputSampleAssetsDisplayName": "Ресурсы звука",
@@ -3676,6 +3867,7 @@
   },
   "FabricSettingsUISetting": {
     "FabricSettingsUITooltips_Description": "Показывать подсказки для устройств Patchwork",
+    "FabricSettingsUICollectionHUD_Name": "Patchwork",
     "FabricSettingsUITooltips_Name": "Подсказки"
   },
   "FabricToolsBlueprintFunctionLibrary": {
@@ -3699,6 +3891,8 @@
     "PlayerUnmuted": "Игроку {MuteName} включён звук"
   },
   "FJunoViewportToolsModule": {
+    "SectionName": "Juno",
+    "ExtensionName": "JunoTools",
     "ConfigurePrefabTool": "Готовые элементы"
   },
   "Fort.Actor.Building.Defaults": {
@@ -3748,9 +3942,14 @@
     "CapeRestrictionCallout": "Не отображается, если используется вместе с экипировкой «{0}»",
     "GenericExclusiveItemCallout": "Отображается, только если используется вместе с подходящей экипировкой.",
     "CapeRestrictionItemShopCallout": "Выбранная в шкафчике экипировка не может использоваться вместе с украшением на спину в виде плаща",
+    "DisplayNameTBDFormat": "TBD ({0})",
     "CosmeticDisabled_ErrorDescription": "Этот предмет <DisabledOrDenied>временно убран</> из игры или <DisabledOrDenied>недоступен для данной платформы</>.",
     "ItemWrapShortDescription": "Обёртка",
-    "CosmeticItemDescription_SubGameExclusion": "{0}\nЭтот предмет нельзя использовать (<SubGameExclusionText>{1}</>)."
+    "CosmetcItemDescription_FirstRichTag": "[<TagName>{0}</>]",
+    "CosmetcItemDescription_FirstTag": "[{0}]",
+    "CosmeticItemDescription_SubGameExclusion": "{0}\nЭтот предмет нельзя использовать (<SubGameExclusionText>{1}</>).",
+    "CosmetcItemDescription_SubsequentRichTag": "{0}, [<TagName>{1}</>]",
+    "CosmetcItemDescription_SubsequentTag": "{0}, [{1}]"
   },
   "Fort.CreativeItemListPanel": {
     "InteractionText": "Просмотреть предметы"
@@ -4230,6 +4429,7 @@
     "PickUpText": "Подобрать",
     "SameExclusivePickupGroupWarning": "Заменяет: {0}!",
     "SwapEquippedText": "Заменить",
+    "PickupContextTextSwapFormat": "{0} \n{1}",
     "OwnerTextFormat": "{0}: {1}"
   },
   "Fort.Player.Defaults": {
@@ -4332,6 +4532,10 @@
   "Fort.PlaysetInventoryPanel": {
     "InteractionText": "Просмотреть наборы"
   },
+  "Fort.PresentationWidget": {
+    "ItemReceivedVariance": "{VariantType} ({VariantName})",
+    "ItemVariance": "{VariantType} ({VariantName})"
+  },
   "Fort.Rarity": {
     "Common": "Обычный",
     "Epic": "Эпический",
@@ -4347,12 +4551,15 @@
   },
   "Fort.VariantChannel": {
     "VariantColorSelector_EmtpyVariant": "ПУСТО",
-    "VariantColorSelector_NoneVariant": "НЕТ"
+    "VariantColorSelector_NoneVariant": "НЕТ",
+    "VariantColorSelector_Concatenate_ChannelAndVariant": "{0} ( {1} )",
+    "VariantTileSelector_Concatenate_ChanneAndVariant": "{0} ( {1} )"
   },
   "Fort.VariantTile": {
     "VariantTileSelector_InvalidItem": "Ошибка",
     "VariantTileSelector_ExplicitlyNone": "Нет",
-    "VariantTileSelector_UnspecifiedItem": "Не выбрано"
+    "VariantTileSelector_UnspecifiedItem": "Не выбрано",
+    "VariantTileSelector_Concatenate_ChanneAndVariant": "{0} ( {1} )"
   },
   "Fort.Weapon.Defaults": {
     "EFortDisplayTier.Brightcore": "Светлое",
@@ -4368,7 +4575,11 @@
     "EFortDisplayTier.Sunbeam": "Солнечное"
   },
   "FortAbilitySystemUI": {
+    "PositiveMagnitudeText": "+{0}",
+    "NegativeMagnitudeText": "-{0}",
     "RequirementsText": "{0} — {1}",
+    "RequirementsDescriptionListDelimiter": "{0}, {1}",
+    "FlatText": "{Magnitude} {Attribute}",
     "PeriodText": "{Magnitude} {Attribute} каждые {Period} сек.",
     "PeriodDurationText": "{Magnitude} {Attribute} каждые {Duration} сек. в течение {Period} сек.",
     "DurationText": "{Magnitude} {Attribute} в течение {Duration} сек."
@@ -4398,11 +4609,16 @@
     "Manual_Tournament": "Турнир",
     "Manual_UserCreated": "Создано пользователями"
   },
+  "FortActivityDetailsDisplay": {
+    "ActivityDetails_EpicGamesDisplayName": "Epic Games"
+  },
   "FortActivityDetailsModal": {
     "IslandOptionsToolTip": "Здесь можно настроить параметры конфиденциальности и заполнения команды",
-    "IslandOptionsButtonText": "Настройки острова"
+    "IslandOptionsButtonText": "Настройки острова",
+    "IslandOptionsRespectPartyFormat": "{0} - {1}"
   },
   "FortActivityTileDetailsDisplay": {
+    "ActivityAndSettingDefaultSeparator": "+",
     "ActivityTag_LocalPlayers": "От 1 до {0} локальных игроков",
     "ActivityTile_BattleRoyal": "Королевская битва",
     "ActivityTag_EpicOriginalShort": "От Epic Games",
@@ -4416,7 +4632,9 @@
     "ActivityTile_PlayerCount1": "Одиночки",
     "ActivityTile_PlayerCount4": "Бои отрядов",
     "ActivityTile_PlayerCount3": "Трио",
-    "ActivityTag_MaxPlayers": "Макс. кол-во игроков: {Count}"
+    "ActivityAndSettingFormat": "{Activity} {Separator} {Setting}",
+    "ActivityTag_MaxPlayers": "Макс. кол-во игроков: {Count}",
+    "ActivityPlayerNumberIndicator": "{MinAmount}-{MaxAmount}"
   },
   "FortAIPawn": {
     "ReviveAI": "Воскресить",
@@ -4429,6 +4647,7 @@
     "BipedSlopeWarpingTooltip": "Отрегулируйте значение «Feet IK» в соответствии со значением позиции пола и нормальным значением двуногого",
     "BipedPredictiveSlopeWarpingTooltip": "Отрегулируйте значение «Feet IK» в соответствии со значением позиции пола и нормальным значением двуногого, предсказывая, как будут двигаться бёдра.",
     "QuadrupedSlopeWarpingTooltip": "Отрегулируйте значение «Feet IK» в соответствии со значением позиции пола и нормальным значением четвероногого",
+    "AttackIK": "Attack IK",
     "BipedSlopeWarping": "Деформация двуногого",
     "CurveFilterSlotListTitle_NoName": "Ячейка фильтра кривой: нет названия ячейки",
     "CurveFilterSlotNodeListTitle": "Ячейка фильтра кривой «{SlotName}»",
@@ -4497,6 +4716,7 @@
     "Ranked_BlastBerry_ModeName": "Рейтинговая «Перезарядка»",
     "Ranked_BattleRoyale_ModeName": "Рейтинговая игра: {0}",
     "ReJoinMessage": "Вернитесь в текущий матч, чтобы избежать запрета на подбор игроков ({0}).",
+    "Ranked_DelMar_HeaderName": "Rocket Racing",
     "Ranked_BattleRoyale_SeasonNameOverride": "Нулевой сезон",
     "Ranked_BlastBerry_SeasonNameOverride": "Нулевой сезон",
     "Ranked_Figment_SeasonNameOverride": "Нулевой сезон",
@@ -4515,8 +4735,26 @@
     "LetoCannotSwitchSubgamesContent": "Чтобы изменить игровой режим при игре с разделенным экраном, второй участник должен выйти из учётной записи.",
     "TimeLimitsSidebar": "Лимиты времени и отчёты"
   },
+  "FortBuffetInfo": {
+    "SocialEventRSVP_DateTime": "%l%P %b %e",
+    "SocialEventRSVP_AdditionalEvents": "+{0}"
+  },
   "FortBuilding": {
     "Error": "У актора строительства {BuildingActor} отсутствует компонент StaticMeshComponent!"
+  },
+  "FortBuildWatermark": {
+    "FortBuildWatermark_BuildIDOverrideFormat": "BuildID: {0}"
+  },
+  "FortCampaignTeamMemberDailyBonusXpBoost": {
+    "DailyBonusXpBoostFormatString": "+{0}%"
+  },
+  "FortCampaignTeamMemberInfo": {
+    "SoloStatFormatString": "<Base>{0}</>",
+    "TeamStatFormatString": "<Enhanced>+{0}</>",
+    "ModifiedStatFormatString": "<Enhanced>{0}</> <Base>({1})</>"
+  },
+  "FortCampaignTeamMemberXpBoost": {
+    "XpBoostFormatString": "+{0}%"
   },
   "FortChannelNotification": {
     "TeamChannelKey": "Канал: игра",
@@ -4535,8 +4773,10 @@
   },
   "FortCharacterDynamicsControl": {
     "Add": "Добавить",
+    "AddStateRow": "AddStateRow",
     "FailDeletePropertyToolTipText": "Невозможно удалить это свойство, так как на него ссылается логика состояния.",
     "FailDeleteStateToolTipText": "Невозможно удалить это состояние, так как на него ссылается логика состояния.",
+    "CharacterActivityStateLogicRow": "Character Activity State Logic",
     "CharacterDynamicsControlCopyState": "Копировать",
     "CharacterDynamicsControlStateHeaderCopy": "Копировать",
     "NamesCopy": "Копировать",
@@ -4554,13 +4794,18 @@
     "CharacterDynamicsControlStateHeaderPaste": "Вставить",
     "PasteFromBlueprintStruct": "Вставить из структуры чертежа",
     "CharacterDynamicsControlPasteStateToolTip": "Вставить значения параметра в состояние.",
+    "PasteFeedbackRow": "PasteFeedbackRow",
     "ExpressionInBranchPropertyText": "Невозможно добавить свойство к этой ветке, так как она уже ссылается на него.",
     "ExpressionAlreadyPropertyText": "Свойство уже упоминалось в дереве, однако его по-прежнему можно включить сюда.",
     "ExpressionUnusedPropertyText": "В древе нет ссылок на свойство.",
     "PropertyNameToolTipText": "Название свойства. Нажмите дважды, чтобы изменить.",
+    "PropertyNames": "PropertyNames",
     "DeletePropertyToolTipText": "Удалить это свойство.",
     "DeleteStateToolTipText": "Удалить это состояние.",
-    "StateNameToolTipText": "Название состояния. Нажмите дважды, чтобы изменить."
+    "StateNameToolTipText": "Название состояния. Нажмите дважды, чтобы изменить.",
+    "StateNames": "StateNames",
+    "BlueprintPropertiesRowText": "vvv Blueprint Properties vvv",
+    "NativePropertiesRowText": "vvv Native Properties vvv"
   },
   "FortChatManager": {
     "DisplayChannelText_Echo": "Проверка",
@@ -4623,6 +4868,9 @@
     "GrantPinInfo": "Не закрывайте эту страницу, пока выполняете вход. Она обновится, когда вы закончите.",
     "PinCodeError": "Невозможно создать новый код",
     "YearDateSelect": "ГГГГ"
+  },
+  "FortCraftingItemInfoWidget": {
+    "RarityTextFormat": "({Rarity})"
   },
   "FortCreative": {
     "TimeOfDaySpeedCrazy": "Огромная (х60)",
@@ -4702,6 +4950,10 @@
     "SelectLabel": "Выбрать",
     "SampleText": "Съешь ещё этих мягких французских булок"
   },
+  "FortCreativeServerOptionTile": {
+    "NoPlayerCount": "??",
+    "ServerPlayerCount": "{0}/{1}"
+  },
   "FortDamageFormulaExecutionCalculation": {
     "DamageCalculationMsg": "Наносит урон."
   },
@@ -4738,7 +4990,9 @@
     "FortEmotePicker.ShoutCategoryTitle": "Крики",
     "FortEmotePicker.SpecialEmotesPageTitle": "Особое",
     "FortEmotePicker.VehicleEmotesPageTitle": "Транспорт",
-    "FortEmotePicker.MimicItemTitleFormat": "[Мимик]\n{0}"
+    "FortEmotePicker.MimicItemTitleFormat": "[Мимик]\n{0}",
+    "FortEmotePicker.SpecialEmoteTitleFormat": "[Special]\n{0}",
+    "FortEmotePicker.VehicleEmoteTitleFormat": "[Vehicle]\n{0}"
   },
   "FortEmoteVolume": {
     "DefaultCategoryTitle": "Особое"
@@ -4753,6 +5007,9 @@
     "Decline": "Отклонить",
     "EULATitle": "ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ",
     "TournamentRules": "ПРАВИЛА ТУРНИРА"
+  },
+  "FortEulaWidgetsContainer": {
+    "EULAFormat": "{0}\n\n{1}"
   },
   "FortEventLeaderboardScreen": {
     "Alternative1LeaderboardButton": "Альт.",
@@ -4805,7 +5062,11 @@
   "FortHireBrief": {
     "HireFormat": "Нанять: <Name>{0}</>"
   },
+  "FortHUDPointCounter": {
+    "NoScoreText": "--"
+  },
   "FortHUDScoringAlert": {
+    "PositiveScore": "+",
     "VictoryRoyale": "Королевская победа",
     "ArenaScoreFormat": "ОЧКИ РЕЙТИНГА: {0}{1}",
     "TournamentScoreFormat": "{0}{1} {1}|plural(one=очко,few=очка,many=очков,other=очков)"
@@ -4846,6 +5107,10 @@
   "FortItemCountTextBlock": {
     "FractionFormatPattern": "{Numerator}/{Denominator}"
   },
+  "FortItemInfoPresentationWidget": {
+    "QuantityRep": "{Count} {DisplayName}",
+    "PercentageRep": "{Count}% {DisplayName}"
+  },
   "FortItemInfoWidget": {
     "CommonText": "Обычная",
     "EpicText": "Эпическая",
@@ -4854,6 +5119,7 @@
     "MythicText": "Мифическая",
     "RareText": "Редкая",
     "UncommonText": "Необычная",
+    "PercentageRep": "{0}% {1}",
     "QuantityRep": "{0}x{1}",
     "ItemNameNonWorker": "{ItemType}: {Rarity} ({Num})"
   },
@@ -4872,7 +5138,8 @@
     "OtherUserAsGifter": "От: {sender}",
     "TitleWhenGiftFromYourself": "Кто-то добрый сделал вам подарок!",
     "GiftFromMyself": "Вы",
-    "TitleWhenGiftFromSomeoneElse": "Вы получили подарок!"
+    "TitleWhenGiftFromSomeoneElse": "Вы получили подарок!",
+    "SanitizedUserMessage": "{message} -{sender}"
   },
   "FortItemShopOfferDetails": {
     "ConfirmationUndoOnCooldownMessage": "Пожалуйста, подтвердите покупку. Обратите внимание, что повторно воспользоваться функцией отмены покупки будет нельзя. Однако вы сможете вернуть средства, если у вас остались купоны на возврат.\n\nПодробности на странице fn.gg/cancelpurchase"
@@ -4883,6 +5150,7 @@
     "OwnershipOptionLabel": "Неприобретённые предметы "
   },
   "FortItemShopOfferVM": {
+    "AsteriskForLegalText": "*",
     "ShoesOutfitGenericIncompatibilityText": "Экипировка из данного предложения несовместима с обувью. Подробности на странице fn.gg/KicksUsability.",
     "PurchaseConfirmationGeneric": "Вы уверены, что хотите продолжить оформление покупки?",
     "DynamicBundleItemDescription": "Комплект",
@@ -4896,10 +5164,14 @@
     "UndoCooldownConfirmation": "Пожалуйста, подтвердите покупку. Обратите внимание, что повторно воспользоваться функцией отмены покупки будет нельзя. Однако вы сможете вернуть средства, если у вас остались купоны на возврат.\n\nПодробности на странице fn.gg/cancelpurchase",
     "DefaultLegalText": "Данные косметические предметы не дают преимуществ в бою. Оружие не прилагается к экипировкам и обёрткам. Некоторые косметические предметы можно использовать лишь в определённых режимах. Подробнее о разновидностях и ограничениях косметических предметов: fn.gg/cosmetics",
     "ShoesOutfitSpecificIncompatibilityText": "Эта экипировка несовместима с обувью. Подробности на странице fn.gg/KicksUsability.",
+    "OutDateFormat": "Этот предмет будет удалён из магазина {0} в {1} по местному времени ({2}).",
     "XPLegalText": "Очки опыта, полученные в период «{0}, {1} — {2}, {3}», засчитываются как очки опыта, необходимые для получения возможности совершать покупки.",
     "MatchmakingBanFormat": "На вашу учётную запись наложен запрет на участие в подборе игроков. Вы сможете использовать этот предмет в игре только после снятия запрета ({0}). Продолжить?",
+    "LegalTextNewLineAppendFormat": "{0}\n{1}",
     "PercentOff": "Скидка: {0}",
-    "AmountOff": "Скидка: {0} В-баксов"
+    "AmountOff": "Скидка: {0} В-баксов",
+    "LegalTextAppendFormat": "{0} {1}",
+    "XPOutDateFormat": "{0}|plural(one=Этот предмет может,other=Эти предметы могут) вернуться в магазин предметов. Для покупки может понадобиться опыт."
   },
   "FortItemShopUtils": {
     "SavingsLegalText": "* При подсчёте выгоды учитывается самая низкая цена в магазине предметов Fortnite за последние 30 дней до появления скидки.",
@@ -4932,13 +5204,16 @@
     "PartyInvite_Sidebar": "<text color=\"{0}\">ПРИГЛАШЕНИЕ В ГРУППУ!</>",
     "PartyStatus_NoTargetUser": "<text color=\"{0}\">ИГРАЕТ В FORTNITE</>",
     "JoinablePartyText_HasSentInvite": "<text color=\"{0}\">приглашает вас в группу!</>",
+    "PartyStatus_FoundTargetUser": "<text color=\"{0}\">{1}</>",
     "PartyStatus": "ИГРАЕТ В FORTNITE",
     "MemberNames_UnknownNumUsers": "{0} + {1} {1}|plural(one=другой,few=других,many=других,other=других)",
     "FriendNames": "{0} и {1}|plural(one=друг, few=друга, many=друзей, other=друзья) ({1})",
     "MemberNames": "{0} + ещё {1}",
     "MemberNames_UsersLeftToDisplay_Friends": "{0} <text color=\"{1}\">и {2}|plural(one=друг, few=друга, many=друзей, other=друзья) ({2})</>",
     "MemberNames_UsersLeftToDisplay_Others": "{0} <text color=\"{1}\">+ ещё {2}{2}</>",
-    "MemberNames_HasSentInvite": "{0} <text color=\"{1}\">приглашает вас в группу!</>"
+    "MemberNames_HasSentInvite": "{0} <text color=\"{1}\">приглашает вас в группу!</>",
+    "NameDisplayTextFormat": "{0} {1}",
+    "AdditionalNamesFollowFormat": "{0},"
   },
   "FortJoinPresence": {
     "InvalidSearchResult": "Неверный сеанс!",
@@ -4987,7 +5262,8 @@
     "FriendSubscription_On": "вкл."
   },
   "FortLocker": {
-    "HideUnsupportedItemsText": "Скрыть неподдерж. предметы"
+    "HideUnsupportedItemsText": "Скрыть неподдерж. предметы",
+    "SorItemstByRelevancyText": "Поиск по соответствию"
   },
   "FortLockerEquipUtilityVM": {
     "CombinedCategoriesNames": "{0} и {1}"
@@ -5062,8 +5338,10 @@
     "MemoryTestResults_ResourceSizesByType_Header": "Количество ресурсов (по типу)",
     "MemoryTestResults_Summary_Result": "Результат: {0}",
     "MemoryTestResults_Summary_Result_Success": "УСПЕХ",
+    "MemoryTestResults_TopTotalExclActors_Header": "Top Actors by Total Exclusive Size",
     "MemoryTestResults_TopUserResources_Header": "Пользовательские ресурсы (по количеству)",
-    "MemoryTestResults_UnknownName": "Неизвестно"
+    "MemoryTestResults_UnknownName": "Неизвестно",
+    "MemoryTestResults_VerseName": "Verse"
   },
   "FortMessagesV3Controller": {
     "ErrorSendingMessage": "Ошибка при отправке сообщения:{0}",
@@ -5080,7 +5358,8 @@
     "JoinInProgressTooLate": "Игра, к которой вы попытались присоединиться, уже завершена."
   },
   "FortMissionPopupWidget": {
-    "REWARD:": "НАГРАДА:"
+    "REWARD:": "НАГРАДА:",
+    "BluGloReward": "x{0}"
   },
   "FortMLDeformer": {
     "AddElementToolTipText": "Добавляет элемент на карту.",
@@ -5107,6 +5386,7 @@
     "GenericErrorMessages": "Не удалось получить таблицу лидеров"
   },
   "Fortnite.DateTimeLibrary": {
+    "NegativeTimespan": "-{0}",
     "NearlyExpired": "<1 мин.",
     "Days_Full": "{0} {0}|plural(one=день,few=дня,many=дней,other=дня)",
     "Hours_Full": "{0} {0}|plural(one=час,few=часа,many=часов,other=часа)",
@@ -5122,8 +5402,12 @@
     "Seconds": "{0} сек.",
     "Weeks": "{0} нед.",
     "Years": "{0} г.",
+    "TimeSpanColons_Days:Hours:Minutes:Seconds": "{Days}:{Hours}:{Minutes}:{Seconds}",
     "DaysFormatText": "{Days} д. {Hours} ч.",
+    "TimeSpanColons_Hours:Minutes:Seconds": "{Hours}:{Minutes}:{Seconds}",
     "HoursFormatText": "{Hours} ч. {Minutes} мин.",
+    "FortTimespanBuilder": "{LargerUnit} {SmallerUnits}",
+    "TimeSpanColons_Minutes:Seconds": "{Minutes}:{Seconds}",
     "TimeSpanColonsWithMillis_Minutes:Seconds.Milliseconds": "{Minutes}:{Seconds}:{Milliseconds}",
     "MinutesFormatText": "{Minutes}МИН.",
     "MinutesAndSecondsFormatText": "{Minutes} мин. {Seconds} сек.",
@@ -5204,20 +5488,24 @@
     "Message.WaitingForReadyFormat_Two": "Ждём игроков {0} и {1}...",
     "Message.WaitingForReadyFormat_More": "Ждём игроков ({0})...",
     "Message.WaitingForReadyFormat_Single": "Ждём игрока {0}...",
-    "MatchmakingSettingsButtonText": "{0} — {1}"
+    "MatchmakingSettingsButtonText": "{0} — {1}",
+    "ContentDownloadInstallPercent": "{0}%"
   },
   "Fortnite.FortCampaignNews": {
     "DefaultAthenaNewsHeader": "Новости"
   },
   "Fortnite.FortEventLeaderboard": {
+    "NameListDelimiter": ", ",
     "TeammateDisplayName.Hidden": "Скрытый соперник",
     "TeammateDisplayName.Unknown": "Таинственный участник",
     "None": "Нет",
     "LastNameOnListFormat": "{0} и {1}",
     "PairNameListEntryFormat": "{0} и {1}",
-    "LastNameOnListOxfordFormat": "{0} и {1}"
+    "LastNameOnListOxfordFormat": "{0} и {1}",
+    "NotLastPairNameOnListFormat": "{0}, {1},"
   },
   "Fortnite.FortMatchmakingContext": {
+    "SpaceDelimiter": " ",
     "CrossPlatform": "(РАЗНЫЕ ПЛАТФОРМЫ)",
     "MixedInputs": "(СМЕШАННЫЕ)",
     "PlayAgainstCrossPlatform": "разные платформы",
@@ -5390,6 +5678,7 @@
     "Error.BRRankNotReached": "Самый высокий уровень рейтинга в «Королевской битве», которого вы достигли ({0}), не соответствует минимальным требованиям: {1}.",
     "Error.ZBRankNotReached": "Самый высокий уровень рейтинга в «Нулевой высоте», которого вы достигли ({0}), не соответствует минимальным требованиям: {1}.",
     "JIPRejected": "Вам не позволили присоединиться к игре. Повторите попытку позже.",
+    "ServiceErrorTemplate": "{0}\n({1})",
     "Message.RegionTournament": "Турнир {0}"
   },
   "Fortnite.McpConfig": {
@@ -5428,7 +5717,8 @@
     "DynamicDetails_EnhancedKeyboardInputAction": "Привязка элемента управления",
     "DynamicDetails_KeyboardInputAction": "Привязка элемента управления",
     "DynamicDetails_PreviewInputAction": "Привязка элемента управления",
-    "FortSettingPreviewInput_PresetWarning": "Чтобы изменить назначения кнопок, выберите значение пользовательских настроек для параметра «Назначение кнопок контроллера»."
+    "FortSettingPreviewInput_PresetWarning": "Чтобы изменить назначения кнопок, выберите значение пользовательских настроек для параметра «Назначение кнопок контроллера».",
+    "PercentFormat": "{0}%"
   },
   "FortniteUI": {
     "Default Button Text": "Продолжить",
@@ -5464,6 +5754,7 @@
     "WidgetPaletteCategory": "Пользовательский интерфейс Fortnite — преобразование предметов"
   },
   "FortniteUI.LevelIndicator": {
+    "CurrentVersusMaximumLevelSeparator": "/",
     "LevelLabel": "УР."
   },
   "FortniteUI.SkillTree": {
@@ -5487,10 +5778,12 @@
     "UFortNotificationEntry_Reward_Quest": "Задание выполнено"
   },
   "FortNotificationEntry_Quest": {
+    "ProgressFraction": "<{Style}>{ObjectivesCompleted}</> / {TotalObjectives}",
     "UFortNotificationEntry_Quest_Daily": "Ежедневные испытания"
   },
   "FortNotificationEntryReceivedItem": {
-    "UFortNotificationEntry_ReceivedItem": "Получено"
+    "UFortNotificationEntry_ReceivedItem": "Получено",
+    "Received_item_type_quantity": "x{0}"
   },
   "FortOnlineAccount": {
     "DisplaynameRequired": "Требуется отображаемое имя.",
@@ -5624,6 +5917,12 @@
     "DefaultOfferName": "это предложение",
     "LocalPlayerYour": "вы",
     "LocalPlayerPossessive": "{LocalUsername}"
+  },
+  "FortPlayerAugmentInfoEntryWidget": {
+    "RarityTextFormat": "({Rarity})"
+  },
+  "FortPlayerAugmentInventoryInfoWidget": {
+    "RarityTextFormat": "({Rarity})"
   },
   "FortPlayerControllerAthenaXPComponent": {
     "quest_reward_grant": "ЗАДАЧА ВЫПОЛНЕНА"
@@ -5813,7 +6112,7 @@
     "GroupEmote": "Использовать эмоцию вместе",
     "PassiveHealing": "Подлечите меня",
     "RevivePlayer": "Воскресить",
-    "InterrogatePlayer": "Тряска"
+    "InterrogatePlayer": "Обыскать"
   },
   "FortPlayerPet": {
     "PetThePetInteraction": "{0} — погладить"
@@ -5828,7 +6127,8 @@
     "UPlaylistUserOptionSoftObjectReference.None": "Нет",
     "UPlaylistUserOptionBool.Off": "ОТКЛ.",
     "UPlaylistUserOptionBool.On": "ВКЛ.",
-    "UPlaylistUserOptionTeamIndex.DisplayPattern": "Команда {0}"
+    "UPlaylistUserOptionTeamIndex.DisplayPattern": "Команда {0}",
+    "UPlaylistUserOptionConfigIntRange.PrefixFmt": "{0} {1}"
   },
   "FortPlaytimeSchedule": {
     "PlaytimeScheduleEveryDay": "Каждый день",
@@ -5911,6 +6211,7 @@
   },
   "FortPresence": {
     "AthenaGameFE": "Королевская битва",
+    "RecentPlayerGameNameZone": "Fortnite",
     "InLobby": "В лобби",
     "LobbyPartySize": "Лобби: {PartySize} / {PartyMaxSize}",
     "PresenceUnknown": "Присутствие неизвестно",
@@ -5923,7 +6224,11 @@
     "STWLobby": "Сражение с Бурей: {ZoneType} ({Difficulty})",
     "FrontendDefault": "Выбор режима игры...",
     "PvELoading": "Запускает игру",
-    "Replay": "Смотрит повтор"
+    "Replay": "Смотрит повтор",
+    "LobbyPartyName": "{LobbyName}"
+  },
+  "FortPresenceUserListEntry": {
+    "StateAndPresence": "{State} - {Presence}"
   },
   "FortProgressiveItemDetails": {
     "DefaultStylesDisclaimer": "Все показанные здесь стили входят в комплект покупки. Вы можете изменить их в любой момент в шкафчике.",
@@ -5931,8 +6236,12 @@
   },
   "FortPurchaseHistoryEntry": {
     "FinalItemListSeparator": " и ",
+    "ItemListSeparator": ", ",
     "Purchased": "Приобретено: {0}",
     "Refunded": "Возвращено: {0}"
+  },
+  "FortPurchaseHistoryListView": {
+    "CombinedNames": "{0}"
   },
   "FortPurchaseHistoryScreen": {
     "ErrorResultTitle": "ОШИБКА",
@@ -5945,7 +6254,8 @@
     "ErrorResultHeader": "Произошла ошибка!",
     "ErrorResultDescription": "При обработке вашего запроса произошла ошибка.\nКоличество имеющихся у вас предметов, В-баксов и купонов на возврат осталось прежним.",
     "TokenlessRefundSuccessResultDescriptionFormat": "Вы вернули предмет «{0}», не используя купон на возврат.\nНа вашу учётную запись перечислены В-баксы: {1}.",
-    "ReturnTicketSuccessResultDescriptionFormat": "Вы вернули предмет «{0}».\nНа вашу учётную запись перечислены В-баксы: {1}. Вы получите новый купон на возврат {2}"
+    "ReturnTicketSuccessResultDescriptionFormat": "Вы вернули предмет «{0}».\nНа вашу учётную запись перечислены В-баксы: {1}. Вы получите новый купон на возврат {2}",
+    "RefundCounter": "{0}"
   },
   "FortQueryGenerator": {
     "BuildingCellsAbove": "Клетки для строительства сверху: {0}",
@@ -5956,7 +6266,12 @@
     "HotspotDescriptionRadius": "радиус: {Radius}",
     "DonutDescription": "радиус: {Radius}, ширина: {RadiusWidth}\nкольца: {NumRings}, промежутки: {Spacing}",
     "HotspotDescriptionTether": "в зоне привязки",
-    "DescriptionGenerateBuildingFoundations": "{DescriptionTitle}: генерация набора объектов для размещения/замены в этом запросе миссии."
+    "BuildingTypes": "{0}",
+    "DescriptionBuildingsOnCachedPathsGeneratorParams": "{BuildingTypes}",
+    "DescriptionBuildingGoalGeneratorParams": "{BuildingTypes}\n{HorizontalRadius}\n{BuildingCellsAbove}\n{BuildingCellsBelow}",
+    "DescriptionGenerateBuildingFoundations": "{DescriptionTitle}: генерация набора объектов для размещения/замены в этом запросе миссии.",
+    "DescriptionBuildingGoalGenerator": "{SentenceText}{ContextDescription}\n{FloatParams}",
+    "DescriptionBuildingOnCachedPathsGoalGenerator": "{SentenceText}{ContextDescription}\n{FloatParams}"
   },
   "FortQueryGenerator_DefendSpots": {
     "DescriptionTitle": "{DescriptionTitle}: собрать все точки защиты из области защиты владельца."
@@ -5974,6 +6289,7 @@
     "DescriptionGenerateActorsAroundContext": "{DescriptionTitle}: генерация набора активаторов разлома, где достаточно ячеек, чтобы создать каждую группу ИИ."
   },
   "FortQueryTest": {
+    "Invalid": "<INVALID - no assignment types or IDs specifed>\n",
     "AssignmentIDEmpty": "Поручения:\n    {0}\n",
     "AssignmentIDError": "ОШИБКА: Поручения находятся в указанном и запрещённом списках.",
     "ProhibitedAssignmentIDEmpty": "Не являются поручениями:\n    {0}\n",
@@ -5984,8 +6300,17 @@
     "OnlyEnemies": "только враги\n",
     "OnlyWorldGoals": "только глобальные цели\n",
     "WorldGoalsAndEnemies": "глобальные цели и враги\n",
+    "AssignmentID": "{0}    {1}\n",
+    "ProhibitedAssignmentID": "{0}    {1}\n",
     "AssignmentsAndProhibitedAssignmentIDs": "{0} И {1}",
-    "CategoriesAndSpecificAssignments": "{0} И {1}"
+    "CategoriesAndSpecificAssignments": "{0} И {1}",
+    "DescriptionDetailsPattern": "{0}{1}"
+  },
+  "FortQueryTest_AssignmentTypeInterest": {
+    "DescDetailsPattern": "{0}{1}"
+  },
+  "FortQueryTest_CanAttackTarget": {
+    "DescDetailsPattern": "{0}{1}"
   },
   "FortQueryTest_DefendSpot": {
     "CanShootDescriptionTitle": "{DescriptionTitle}: у точки защиты есть свободная линия огня до {TargetActorContext}.",
@@ -6000,10 +6325,14 @@
     "DescriptionTitle": "{DescriptionTitle}: измерение {MeasurementType} ({ContextLocation}) Нижняя граница: {LowerBound}. Верхняя граница: {UpperBound}"
   },
   "FortQueryTest_GoalNumberOfAIAssigned": {
+    "TypeOfMatchInvalid": "<INVALID>!",
     "TypeOfMatchAssignment": "Поручение",
     "TypeOfMatchGoal": "Цель",
     "TypeOfMatchGoalActor": "Активатор цели",
     "DescriptionNumberOfAIAssigned": "Цель: количество ИИ в {0}"
+  },
+  "FortQueryTest_PrimaryAssignment": {
+    "DescDetailsPattern": "{0}{1}"
   },
   "FortQuestBrief": {
     "QuestExpirationHoursFormatText": "{Hours} Ч.",
@@ -6021,6 +6350,7 @@
     "IsVisibleToUser_Hotfixed": "Определение задания исправлено.",
     "IsVisibleToUser_Hidden": "Определение задания отмечено как скрытое.",
     "IsVisibleToUser_NoDefinition": "У задания нет определения предмета.",
+    "IsVisibleToUser_VisibleWhenActive": "Задание активно, а у IsVisibleWhenActive выбрано значение false.",
     "IsVisibleToUser_VisibleWhenClaimed": "Задание принято, а параметр IsVisibleWhenClaimed имеет значение false.",
     "IsVisibleToUser_VisibleWhenCompleted": "Задание выполнено, а параметр IsVisibleWhenCompleted имеет значение false.",
     "IsVisibleToUser_UnclaimedRewards": "Задание выполнено или принято, но имеются неполученные премиальные награды.",
@@ -6066,6 +6396,7 @@
   "FortRootViewportLayout_Athena": {
     "LetoJoinActionPrompt": "Присоединиться",
     "LetoLoginActionPrompt": "Войти",
+    "ToggleDormancyFormat": "P{0}: {1}",
     "LetoTakeControlActionPrompt": "Управлять"
   },
   "FortSafeZoneEditor": {
@@ -6092,27 +6423,33 @@
     "ServerBrowserWarning_NotSuportedByLeto": "РЕЖИМ НЕ ПОДДЕРЖИВАЕТСЯ",
     "ServerBrowserWarning_NotPartyLeader": "НЕ ЯВЛЯЕТСЯ ЛИДЕРОМ ГРУППЫ",
     "ServerBrowserWarning_PartyTooBig": "В ГРУППЕ СЛИШКОМ МНОГО УЧАСТНИКОВ",
-    "ServerBrowserWarning_PartyTooSmall": "В ГРУППЕ СЛИШКОМ МАЛО УЧАСТНИКОВ"
+    "ServerBrowserWarning_PartyTooSmall": "В ГРУППЕ СЛИШКОМ МАЛО УЧАСТНИКОВ",
+    "FriendsPlayingOnServer": "{0}/{1}"
   },
   "FortSetting": {
     "OpenSqueegeeParentalSubscreen_Action": " Открыть",
     "OpenTimeLimitsParentalSubscreen_Action": " Открыть",
-    "AutoImportFriends_Description": "Функция «Автоматический импорт друзей» позволяет синхронизировать списки друзей на консоли и в Fortnite.\n\n<strong>Включите</> её для регулярной автоматической синхронизации вместо ручного управления списками контактов.",
     "SimpleBuild_PlacementTiming_Disabled": "Этот параметр доступен только в режимах «Второстепенный (стены)» или «Второстепенный (лестницы)».",
     "SuppressEmoteMusicInJam_Disabled": "Чтобы изменить эту настройку, выключите параметр «Синхронизация эмоций с джем-треками».",
     "LumenRequiresNanite": "Для использования Lumen необходимо включить параметр «Виртуальная геометрия Nanite»",
+    "ControllerHardware_Description": ".",
+    "ControllerPresets_Description": ".",
     "EFortGamepadSensitivity_Slow": "1 (низкая)",
     "GyroXStrength": "1: {0}",
     "QuickWeaponDelay_OneSecond": "1 секунда",
     "ParsleyIdleTime_1Minute": "1 минута",
     "EFortGamepadSensitivity_Insane": "10 (неистовая)",
     "ParsleyIdleTime_10Minutes": "10 минут",
+    "AspectRatio-10:16": "10:16",
     "120fps Mode": "Режим «120 кадров в секунду»",
     "Low Input Latency Mode Disable": "Необходимо отключить режим 120 кадров/с.",
     "ParsleyIdleTime_15Minutes": "15 минут",
+    "AspectRatio-16:10": "16:10",
+    "AspectRatio-16:9": "16:9",
     "EFortGamepadSensitivity_SlowPlus": "2 (низкая +)",
     "EFortGamepadSensitivity_SlowPlusPlus": "3 (низкая ++)",
     "ParsleyIdleTime_30Minutes": "30 минут",
+    "AspectRatio-3:4": "3:4",
     "HeadphoneMode_Name": "3D-наушники",
     "MobileResolutionToggle_Name": "Разрешение 3D",
     "ResolutionScale_Name": "Разрешение 3D",
@@ -6120,6 +6457,7 @@
     "ResolutionScale_Description": "Параметр «Разрешение 3D» влияет на разрешение предметов в игре. Низкое разрешение позволяет значительно увеличить частоту кадров.",
     "MobileResolutionToggle_Description": "Разрешение 3D определяет разрешение предметов в игре. Это не влияет на главное меню. \n\n Выберите <strong>«Авто»</>, чтобы в игре динамически менялось разрешение 3D в зависимости от производительности вашего устройства. \n\n Выберите <strong>«Пользовательские настройки»</>, чтобы вручную установить разрешение 3D, которое не будет меняться.",
     "EFortGamepadSensitivity_Normal": "4 (обычная)",
+    "AspectRatio-4:3": "4:3",
     "EFortGamepadSensitivity_NormalPlus": "5 (обычная +)",
     "ParsleyIdleTime_5Minutes": "5 минут",
     "EFortGamepadSensitivity_NormalPlusPlus": "6 (обычная ++)",
@@ -6127,6 +6465,7 @@
     "EFortGamepadSensitivity_Fast": "7 (высокая)",
     "EFortGamepadSensitivity_FastPlus": "8 (высокая +)",
     "EFortGamepadSensitivity_FastPlusPlus": "9 (высокая ++)",
+    "AspectRatio-9:16": "9:16",
     "PartyRiftRequestToJoin_Description": "<Icon.Warning></> Если для параметра «Доступ к группе» выбрано «частный», этот параметр необходимо включить, чтобы использовать командный сигнал.\n\n«Вкл.» — любой пользователь может отправить вам запрос на присоединение.\n«Откл.» — только друзья могут отправить вам запрос на присоединение.",
     "TouchInteractMode_Buttons_Description": "<strong>Упрощённое взаимодействие</>: значки интерфейса для таких действий, как взаимодействие и сбор добычи, увеличены.",
     "TouchInteractMode_InWorld_Description": "<strong>«В игре»</>: в трёхмерном пространстве возле объектов, с которыми можно совершить взаимодействие, отображаются значки интерфейса.",
@@ -6220,6 +6559,7 @@
     "ControllerBindingPreset_Description": "Позволяет выбирать конфигурации контроллера.\n\n<strong>«Классический»</>: оригинальная раскладка Fortnite;\n\n<strong>«Быстрое строительство»</>: конфигурация для быстрого строительства;\n\n<strong>«Опытный вояка»</>: конфигурация для сражений;\n\n<strong>«Опытный строитель» (по умолчанию)</>: конфигурация для строительства. <strong>Это рекомендуемая конфигурация для игры в Fortnite;</>\n\n<strong>«Пользовательская»</>: пользовательская конфигурация команд управления.",
     "GyroActiveBuildMode_All": "Всегда",
     "GyroActiveMode_All": "Всегда",
+    "ReducedDataUsageAlwaysOn": "Всегда вкл.",
     "TextChatRTR_Record": "Всегда включено",
     "VoiceChatRVR_Record": "Всегда включено",
     "GlobalIlluminationMedium": "Фоновое затенение",
@@ -6251,8 +6591,7 @@
     "CustomMobile_DynamicResolutionTrue": "Авто",
     "AutoConfirmEdits_Name": "Автоматическое подтверждение изменений",
     "AutoDownloadHighResTextures_Name": "Автоматическая загрузка текстур в высоком разрешении",
-    "STW_AutoEquipBetterItems_Name": "Использ. лучшие предметы",
-    "AutoImportFriends_Name": "Автоматический импорт друзей",
+    "STW_AutoEquipBetterItems_Name": "Использование лучших предметов",
     "AutoOpenDoors_Name": "Автооткрывание дверей",
     "AutoPickupWeaponsConsolePC_Name": "Автоподбор оружия",
     "AutoPickupWeapons_Name": "Автоподбор оружия",
@@ -6333,6 +6672,9 @@
     "CinematicVolume_Name": "Видеоролики",
     "MinimapCircularShape_Name": "Круглая мини-карта",
     "EFortSubtitleBackgroundOpacity_Clear": "Без затемнения",
+    "ClearGameCache_Action": "Очистить ({0})",
+    "ClearGameCache_Name": "Очистить кэш игры",
+    "ClearGameCache_Clearing": "Очистка",
     "ClippingAccountCollection_Name": "Моменты",
     "ColorBlindMode_Name": "Режим цветовой слепоты",
     "ColorBlindStrength_Name": "Интенсивность режима цветовой слепоты",
@@ -6393,6 +6735,7 @@
     "RenderingAPID3D11": "DirectX 11",
     "RenderingAPID3D12": "DirectX 12",
     "DLSS is Enabled": "Необходимо отключить DLSS.",
+    "DataCollection_Name": "Данные",
     "GyroDeadZone_Name": "Мёртвая зона",
     "DefaultVoiceChatInput": "Ввод по умолчанию",
     "DefaultVoiceChatOutput": "Вывод по умолчанию",
@@ -6506,6 +6849,7 @@
     "GameOptionsCollection_Name": "Дополнительные настройки игры",
     "EFortSubtitleTextSize_ExtraLarge": "Очень большой",
     "EFortSubtitleTextSize_ExtraSmall": "Очень маленький",
+    "AntiAliasingMethodFXAA": "FXAA",
     "QuickWeaponButtonGroupSecondaryFaceButtons": "Лицевые кнопки",
     "ViewDistanceFar": "Большое",
     "GyroAccelMultiplier_Name": "Быстрый множитель",
@@ -6522,6 +6866,8 @@
     "STW_FirstPersonCamera_Name": "Вид от первого лица",
     "EAutorunLockZonePreference_Fixed": "Фиксированное",
     "FlickDeadZone_Name": "Зона нечувствительности поворота",
+    "FlickStickSettings_Name": "Flick Stick",
+    "GamepadFlickStick_Name": "Flick Stick",
     "WarningAboutEnableFlickStick_Title": "Предупреждение об использовании Flick Stick",
     "WarningAboutEnableFlickStick_Message_Switch": "Flick Stick позволяет лишь поворачивать камеру влево и вправо. Поднимать и опускать камеру можно только с помощью гироскопа.\n\nЧтобы всегда иметь возможность поднимать и опускать камеру, настоятельно рекомендуем выбрать значение «Всегда» для активных режимов гироскопа или значение «Включает» для параметра действия правого мини-джойстика. В этом случае вы сможете в любой момент активировать прицеливание с помощью гироскопа.",
     "WarningAboutEnableFlickStick_Message": "Flick Stick позволяет лишь поворачивать камеру влево и вправо. Поднимать и опускать камеру можно только с помощью гироскопа.\n\nЧтобы всегда иметь возможность поднимать и опускать камеру, настоятельно рекомендуем выбрать значение «Всегда» для активных режимов гироскопа или значение «Включает» для параметра действия правого мини-джойстика. В этом случае вы сможете в любой момент активировать прицеливание с помощью гироскопа.",
@@ -6533,6 +6879,7 @@
     "RudderMaxThrottle_Name": "Макс. сила нажатия на ножном контроллере",
     "ReleaseToFire_Description": "Для снайперских винтовок. Данный параметр позволяет стрелять из снайперских винтовок, когда вы отпускаете, а не нажимаете сенсорную кнопку обзора и стрельбы. Таким образом, вы сможете и прицеливаться, и стрелять с помощью одного и того же пальца, только для выстрела нужно будет отпускать кнопку. Другие кнопки стрельбы по-прежнему будут активироваться нажатием.",
     "FortniteCredits_Name": "Авторы Fortnite",
+    "ClearGameCache_Description": "Fortnite загружает и кэширует данные игры, чтобы быстрее загружать игру и повысить её быстродействие. При необходимости кэшированные данные игры автоматически удаляются, чтобы не занимать слишком много места на вашем устройстве.\n\nОчистка кэша игры освободит определённый объём памяти вашего устройства, но во время следующего игрового сеанса некоторые игры будут загружаться медленнее, так как данные нужно загрузить заново.\n\n<strong>Очистка кэша игры не удалит данные ваших сохранений.</>",
     "PredownloadCosmetics_Description": "Загрузка текстур косметических предметов в Fortnite происходит по мере того, как они встречаются пользователю во время игры. Если вы включите эту функцию, все текстуры будут загружены до того, как встретятся вам в ходе игрового процесса. Когда эта функция включена, Fortnite занимает гораздо больше места на диске, но при этом игра выглядит более детализированной без дополнительной нагрузки на пропускную способность сети. Эта функция может улучшить качество изображения в Fortnite, если вы часто играете по сотовой связи.\n\nНет: Fortnite удалит все загруженные текстуры косметических предметов и не будет допускать их предварительную загрузку в будущем.\n\nДа: Fortnite заранее загрузит и установит все текстуры высокого качества.\n\n",
     "ParsleyIdle_Description": "Fortnite перейдёт в спящий режим после того, как вы будете неактивны в течение выбранного количества минут. Этот параметр применим ко всем устройствам, на которых выполнен вход в эту учётную запись Epic.",
     "FlickForwardDeadZone_Name": "Фронтальная зона нечувствительности",
@@ -6541,6 +6888,8 @@
     "FrameRateLimit_Name": "Лимит частоты кадров",
     "FrameRateLimit_Description": "Максимально допустимая частота смены кадров. Уменьшите это значение, чтобы добиться более стабильной частоты или увеличьте для максимальной производительности на быстром компьютере. Чтобы добиться высокой частоты смены кадров, вам, возможно, придётся отключить вертикальную синхронизацию.",
     "InvitePermissions_Name": "Разрешение на отправку запросов в друзья",
+    "InvitePermissions_Name_PS4_PS5": "Разрешение на отправку запросов в друзья",
+    "InvitePermissions_Name_Switch": "Разрешение на отправку запросов в друзья",
     "ShowFriendInvitesPush_Name": "Приглашения друзей",
     "TextChatSetting_Friends": "Только друзья",
     "VoiceChatSetting_FriendsOnly": "Только друзья",
@@ -6602,7 +6951,7 @@
     "HUDOptionsCollection_Name": "Параметры интерфейса",
     "HUDScale_Name": "Масштаб интерфейса",
     "HUDScale_NameMobile": "Масштаб интерфейса (несенсорные устройства)",
-    "GyroV2SpaceAttached_Name": "Гироскоп в мобильном режиме",
+    "GyroV2SpaceAttached_Name": "Гироскоп в портативном режиме",
     "ControllerHardwareCollection_Name": "Устройства",
     "EnableHardwareRayTracing_Name": "Аппаратная трассировка лучей",
     "EnableHardwareRayTracing_Description": "«Аппаратная трассировка лучей» включает высококачественные глобальное освещение и отражения Lumen, но может снизить производительность.",
@@ -6649,8 +6998,8 @@
     "LookVerticalSpeed_Description": "Скорость, с которой камера поднимается и опускается.",
     "LookSensitivityPresetAds_Description": "Скорость, с которой перемещается камера при прицеливании.",
     "LookSensitivityPreset_Description": "Скорость, с которой вращается камера.",
-    "GyroV2SpaceHandheld_Description": "Определяет, как камера определяет движения при игре в мобильном режиме.\n\nПараметр «Устройство» означает, что вращение определяется с точки зрения устройства, а также оно будет работать одинаково, если вы лежите, сидите, находитесь в невесомости и т. д. Этот параметр обычно удобнее всего использовать в мобильном режиме.\n\nПараметр «Игрок» будет определять движения относительно направления силы тяжести, предоставляя вам максимальную свободу действий и максимально естественное управление камерой при игре с помощью геймпада перед неподвижным экраном.",
-    "GyroV2SpaceSwitch_Description": "Определяет характер движения камеры по осям при игре с помощью контроллеров Pro или Joy-Con, отсоединённых от консоли.\n\nПараметр «Устройство» означает, что вращение определяется с точки зрения устройства, а также оно будет работать одинаково, если вы лежите, сидите, находитесь в невесомости и т. д. Этот параметр обычно удобнее всего использовать в мобильном режиме.\n\nПараметр «Игрок» будет определять движения относительно направления силы тяжести, предоставляя вам максимальную свободу действий и максимально естественное управление камерой при игре с помощью геймпада перед неподвижным экраном.",
+    "GyroV2SpaceHandheld_Description": "Определяет характер движения камеры по осям при игре в портативном режиме.\n\nПараметр «Устройство» означает, что вращение определяется с точки зрения консоли Nintendo Switch, а также оно будет работать одинаково, если вы лежите, сидите, находитесь в невесомости и т. д. Этот параметр обычно удобнее всего использовать в портативном режиме.\n\nПараметр «Игрок» будет определять движения относительно направления силы тяжести, предоставляя вам максимальную свободу действий и максимально естественное управление камерой при игре с помощью геймпада перед экраном или в настольном режиме.",
+    "GyroV2SpaceSwitch_Description": "Определяет характер движения камеры по осям при игре с помощью контроллеров Pro или Joy-Con, отсоединённых от консоли.\n\nПараметр «Устройство» означает, что вращение определяется с точки зрения консоли Nintendo Switch, а также оно будет работать одинаково, если вы лежите, сидите, находитесь в невесомости и т. д. Этот параметр обычно удобнее всего использовать в портативном режиме.\n\nПараметр «Игрок» будет определять движения относительно направления силы тяжести, предоставляя вам максимальную свободу действий и максимально естественное управление камерой при игре с помощью геймпада перед экраном или в настольном режиме.",
     "GyroV2Space_Description": "Определяет характер движения камеры по осям.\n\nПараметр «Устройство» означает, что вращение определяется с точки зрения устройства, а также оно будет работать одинаково, если вы лежите, сидите, находитесь в невесомости и т. д. Этот параметр обычно удобнее всего использовать в мобильном режиме.\n\nПараметр «Игрок» будет определять движения относительно направления силы тяжести, предоставляя вам максимальную свободу действий и максимально естественное управление камерой при игре с помощью геймпада перед неподвижным экраном.",
     "AutoHurdle_Name": "Преодоление препятствий",
     "FilterControllerVibrationFromGyro_Description": "Если вибрация геймпада включена, добавьте ограничительный фильтр, чтобы уменьшить дрожание камеры. В этом случае может возникнуть небольшая задержка ввода в момент прицеливания с помощью гироскопа. Если на вкладке настроек геймпада отключена вибрация, фильтр автоматически отключится.",
@@ -6679,12 +7028,15 @@
     "ControllerInputCollection_Name": "Управление",
     "InstantBoostWhenBuilding_Name": "Мгновенное ускорение во время строительства",
     "QuickWeaponOnPress_Name": "Мгновенное переключение",
+    "AntiAliasingMethodXeSS": "Intel XeSS",
+    "XeSS_Name": "Intel XeSS",
     "XeSS is Disabled": "В параметре «Сглаживание и сверхвысокое разрешение» отключена технология Intel XeSS.",
     "XeSS_Description": "Технология Intel® Xe Super Sampling (XeSS) задействует искусственный интеллект, чтобы повысить быстродействие и обеспечить наилучшее качество графики.",
     "GyroButtonInvert": "Инвертировать",
     "InvertPitchForAircraftPrimary_Name": "Инвертировать управление в воздухе",
     "InvertPitchForAircraftSecondary_Name": "Инвертировать управление летательным аппаратом (мышь)",
     "InvertPitch_Name": "Инверсия взгляда (геймпад)",
+    "InvertPitchForFighters_Name": "Инвертировать управление истребителем",
     "InvertMouse_Name": "Инверсия взгляда (мышь)",
     "InvertYawForMotion_Description": "Инверсия при повороте влево/вправо.",
     "GyroV2InvertPitch_Description": "Позволяет инвертировать или отключить ось наклона вперёд-назад.",
@@ -6697,11 +7049,13 @@
     "FlickDeadZone_Description_PS4_PS5": "Лучше, чтобы камера начинала поворачиваться при максимальном отклонении джойстика, потому что так будет точнее измеряться значение предполагаемого угла. Таким образом, границы этой зоны нечувствительности определяет зона нечувствительности правого джойстика и область, в которой срабатывает поворот камеры.",
     "GyroV2JoyConSelection_Name": "Гироскоп Joy-Con",
     "ControllerName_Switch": "Контроллер Joy-Con/Pro",
+    "AutoImportFriends_Description": "Синхронизирует список друзей на консоли.\n\n<strong>Включите</> для регулярной автоматической синхронизации вместо ручного управления списками друзей.",
     "KBMBindingPreset_Name": "Раскладки клавиатуры",
     "KeyboardMovementCollection_Name": "Перемещение с помощью клавиатуры",
     "LanguageSetting_Name": "Язык",
     "LanguageAndRegionCollection_Name": "Язык и регион",
     "EFortSubtitleTextSize_Large": "Большой",
+    "UseLatencyFlash_Name": "Latency Flash",
     "UseLatency_Name": "Отметки задержки",
     "UseLatency_Description": "Отметки задержки нужны для интерфейса отладки задержки. Необходима видеокарта NVIDIA и последняя версия драйверов.",
     "LatencyMarkersDisabledBecauseOfFrameGeneration": "Для использования технологии генерации кадров NVIDIA DLSS требуются отметки задержки.",
@@ -6731,6 +7085,8 @@
     "GyroV2StickMode_Name": "Режим обзора с помощью гироскопа",
     "LookSensitivityPreset_Name": "Чувствительность камеры",
     "LookVerticalSpeed_Name": "Вертикальная скорость камеры",
+    "FilterPII_Desc": "Lorem ipsum",
+    "FilterPII_Name": "Lorem ipsum",
     "EFortSubtitleBackgroundOpacity_Low": "Слабое",
     "GeometryQualityLow": "Низк.",
     "InstalledTextureQuality_Low_InstallSize": "Низкое",
@@ -6793,12 +7149,16 @@
     "8AC2F48B470B5C94D2D42C980BC3F872": "Музыка",
     "MusicVolume_Name": "Музыка",
     "LicensedAudioTreatment_Mute": "Отключить звук",
+    "AntiAliasingMethodDLSS": "NVIDIA DLSS",
+    "DLSS_Name": "NVIDIA DLSS",
     "DLSS_Description": "NVIDIA DLSS (Deep Learning Super Sampling). NVIDIA DLSS использует машинное обучение для вывода детализированных изображений при меньшем количестве пикселей. Это увеличивает частоту смены кадров и позволяет вам выбрать более высокие параметры графики и разрешение.  Технология DLSS доступна только для видеокарт NVIDIA RTX.",
     "EnableDLSSFrameGeneration_Name": "Генерация кадров NVIDIA DLSS",
     "DLSSFrameGenerationDisabledHardwareSchedulingDisabled": "Технология генерации кадров NVIDIA DLSS неактивна, поскольку в Windows выключена функция планирования графического процессора с аппаратным ускорением. Вы сможете активировать технологию генерации кадров NVIDIA DLSS после того, как включите функцию планирования графического процессора с аппаратным ускорением. Чтобы включить эту функцию, откройте меню параметров Windows, выберите «Система», затем — «Дисплей», после чего откройте параметры графики.",
     "DLSSFrameGenerationDisabledDriverOutOfDate": "Технология генерации кадров NVIDIA DLSS неактивна, поскольку вы используете устаревшую версию драйвера видеокарты. Обновите драйвер видеокарты, чтобы активировать технологию генерации кадров NVIDIA DLSS.",
     "DLSSFrameGenerationDisabledOperatingSystemOutOfDate": "Технология генерации кадров NVIDIA DLSS неактивна, поскольку вы используете устаревшую версию операционной системы. Выполните обновление ОС, чтобы активировать технологию генерации кадров NVIDIA DLSS.",
     "DLSS is Disabled": "В параметре «Сглаживание и сверхвысокое разрешение» отключена технология NVIDIA DLSS.",
+    "ShadowPlayHighlights_Name": "NVIDIA Highlights",
+    "UseLatency2_Name": "NVIDIA Reflex Low Latency",
     "UseLatency2_Description": "NVIDIA Reflex Low Latency снижает системную задержку при использовании графического процессора. Необходима видеокарта NVIDIA и последняя версия драйверов.",
     "LatencyTweakOffDisabledBecauseOfFrameGeneration": "Для использования технологии генерации кадров NVIDIA DLSS требуется NVIDIA Reflex.",
     "EnableNanite_Name": "Виртуальная геометрия Nanite",
@@ -6836,6 +7196,7 @@
     "MouseBuildRequireConfirm": "Откл.",
     "MouseZoomScaling_Off": "Откл.",
     "Off": "Выкл.",
+    "ReducedDataUsageOff": "Выкл.",
     "ReflectionsLow": "Откл.",
     "ShadowLow": "Откл.",
     "TouchInteractMode_Off": "Откл.",
@@ -6847,6 +7208,7 @@
     "LatencyTweak2On": "Вкл.",
     "On": "Вкл.",
     "LatencyTweak2OnB": "Вкл. +Boost",
+    "ReducedDataUsageOnCellular": "Мобильная связь",
     "TouchADSFireMode_OnPressed": "При нажатии",
     "ReticleShowsRecoil_Description": "Для оружия, которое поддерживает смещение при отдаче, можно выбрать, будет ли перекрестье прицела смещаться от центра экрана и показывать отдачу в игровых режимах с видом от первого лица.",
     "ReticleShowsRecoilThirdPerson_Description": "Для оружия, которое поддерживает смещение при отдаче, можно выбрать, будет ли перекрестье прицела смещаться от центра экрана и показывать отдачу в игровых режимах с видом от третьего лица.",
@@ -6877,6 +7239,8 @@
     "RenderingAPIPerf": "Производительность",
     "PeripheralLighting_Name": "Подсветка периферийных устройств",
     "InvitePermissions_Description": "Выберите, кто может отправлять вам запросы на добавление в друзья.\n\n      <Icon.Warning></> Учтите, нерассмотренные запросы <strong>могут</> быть удалены.",
+    "InvitePermissions_Description_PS4_PS5": "Выберите, кто может отправлять вам запросы на добавление в друзья.\n\n      <Icon.Warning></> Учтите, нерассмотренные запросы <strong>могут</> быть удалены.",
+    "InvitePermissions_Description_Switch": "Выберите, кто может отправлять вам запросы на добавление в друзья.\n\n      <Icon.Warning></> Учтите, нерассмотренные запросы <strong>могут</> быть удалены.",
     "GyroV2HarvestingToolSensitivity_Name": "Коэффициент чувствительности кирки",
     "RadialPickersCollection_Name": "Читы для кругового меню выбора",
     "A482A95A46AD9836C921E8AD678ED4A5": "Режим «Картинка в картинке»",
@@ -6884,6 +7248,8 @@
     "CameraResetAxisPitch": "По вертикали",
     "GyroV2InvertPitch_Name": "Направление оси наклона вперёд-назад",
     "LicensedAudioTreatment_Play": "Воспроизводить",
+    "ControllerName_PlayStation4": "PlayStation®4",
+    "ControllerName_PlayStation5": "PlayStation®5",
     "GyroSpaceSettingPlayer": "Игрок",
     "PlayerBotsCollection_Name": "Игроки-боты",
     "PlayerSurveys_Name": "Опросы для игроков",
@@ -6900,8 +7266,6 @@
     "PreferredItemSlotsCollection_Name": "Приоритетные ячейки для предметов",
     "PreferredItemSlotsPage_Name": "Приоритетные ячейки для предметов",
     "PreferredItemSlotsPage_Description": "Параметр позволяет помещать предметы или оружие определённого типа в приоритетную ячейку. При подбирании приоритетный предмет или оружие будут помещены в приоритетную ячейку.\n\nНажмите кнопку «Настроить», чтобы изменить ячейки инвентаря.",
-    "PreferredItemSlotsDisabled": "Приоритетные ячейки для предметов отключены.",
-    "PreferredItemSlotsEnabled": "Приоритетные ячейки для предметов включены.",
     "ControllerPresetCollection_Name": "Пресеты",
     "KBMPresetCollection_Name": "Конфигурации",
     "AutoHurdle_Off": "Нажать «Прыжок»",
@@ -6930,9 +7294,11 @@
     "FortReticleColorRed_Name": "Красный",
     "UsePowerSavingMode_Description": "Позволяет снизить параметры графики для экономии заряда батареи.",
     "GyroV2VerticalMultiplier_Description": "Чтобы понизить чувствительность по вертикали, сдвиньте ползунок влево. Чтобы понизить чувствительность по горизонтали, сдвиньте ползунок вправо.",
+    "ReducedDataUsage_Name": "Ограниченное использование данных",
     "WindingSpeedScaledByZoom_Description_Switch": "Автоматически уменьшает скорость вращения мини-джойстика с Flick Stick в зависимости от степени приближения. К примеру, это может помочь стабилизировать камеру во время прицеливания из снайперской винтовки. Не влияет на скорость самого первого поворота при отклонении мини-джойстика из нейтральной позиции.",
     "WindingSpeedScaledByZoom_Description": "Автоматически уменьшает скорость вращения мини-джойстика с Flick Stick в зависимости от степени приближения. К примеру, это может помочь стабилизировать камеру во время прицеливания из снайперской винтовки. Не влияет на скорость самого первого поворота при отклонении мини-джойстика из нейтральной позиции.",
     "WindingSpeedScaledByZoom_Description_PS4_PS5": "Автоматически уменьшает скорость вращения мини-джойстика с Flick Stick в зависимости от степени приближения. К примеру, это может помочь стабилизировать камеру во время прицеливания из снайперской винтовки. Не влияет на скорость самого первого поворота при отклонении мини-джойстика из нейтральной позиции.",
+    "ReducedDataUsage_Description": "Уменьшает количество автоматически загружаемых данных. \n\nЭта функция пригодится, если у вашего тарифного плана ограниченный объём интернет-данных, который может закончиться.",
     "GyroSensitivityScaledByZoom_Description": "Автоматически уменьшает чувствительность прицеливания в зависимости от степени приближения. Этот параметр может помочь при прицеливании из дальнобойного оружия.",
     "Reflections_Description": "Параметр «Качество отражений» влияет на разрешение и точность отражений.\n\nПараметры «Lumen — выс.» и «Lumen — эпич.» значительно повышают качество графики, но могут снижать быстродействие.\n\nОткл.: отражения отключены.\n\nЭкранное пространство: качество отражений зависит исключительно от текущего изображения на экране.\n\nLumen — выс./эпич.: высококачественные отражения с трассировкой лучей в режиме реального времени.",
     "Reflections_Name": "Отражения",
@@ -7110,7 +7476,9 @@
     "SuppressMusicInJam_Name": "Заглушение музыки эмоций при воспроизведении джем-треков",
     "AutoMulchMode_Survivors_Name": "Выжившие",
     "SwapFireInputsDualWieldShotgunSMG_Name": "Поменять местами управляющие стрельбой кнопки у «Помпового ломателя»",
+    "AutoImportFriends_Name": "Синхронизация списка друзей",
     "AllowEmoteBeatSyncing_Name": "Синхронизация эмоций с джем-треками",
+    "AntiAliasingMethodTAA": "TAA",
     "AntiAliasingMethodTSREpic": "TSR — эпич.",
     "AntiAliasingMethodTSRHigh": "TSR — выс.",
     "AntiAliasingMethodTSRLow": "TSR — низк.",
@@ -7138,6 +7506,9 @@
     "KeyboardMovementBackwardDiagonal_Description": "Угол, под которым будет осуществляться бег назад по диагонали при управлении с клавиатуры.",
     "KeyboardMovementForwardDiagonal_Description": "Угол, под которым будет осуществляться бег вперёд по диагонали при управлении с клавиатуры.",
     "KeyboardMovementStrafeDiagonal_Description": "Угол, под которым будет осуществляться бег вбок при управлении с клавиатуры.",
+    "DisableSetting_GameCacheInGame": "Кэш нельзя очистить во время игры.",
+    "DisableSetting_GameCacheEmpty": "Кэш уже пуст.",
+    "DisableSetting_GameCacheDeleting": "Происходит очистка кэша",
     "EditButtonHoldTime_Description": "Продолжительность удерживания кнопки для входа в режим редактирования.",
     "EditButtonHoldTime_Description_Switch": "Продолжительность удерживания кнопки для входа в режим редактирования.",
     "SimpleEditButtonHoldTime_Description": "Продолжительность удерживания кнопки для редактирования и сброса при использовании функции «Простая правка».",
@@ -7225,14 +7596,15 @@
     "AutoPickupWeapons_Description": "Включает или отключает автоматический подбор оружия. При включении персонаж будет автоматически подбирать оружие, на которое наступает, пока в инвентаре есть место.",
     "AutoSortConsumablesToHigherSlots_Description": "Позволяет включить и отключить авторазмещение при поднятии для расходуемых предметов, повышающих параметры защиты и здоровья, в самую верхнюю из свободных ячеек.",
     "AutoSortConsumablesToRight_Description": "Позволяет включить и отключить авторазмещение при поднятии для расходуемых предметов, повышающих параметры защиты и здоровья, в самую правую из свободных ячеек.",
-    "GamepadAutoRun_Description_PS4_PS5": "Позволяет включить и отключить автоматический бег на контроллере. При включении двойное нажатие на кнопку L3 заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый джойстик в наклоне.",
-    "GamepadAutoRun_Description_Switch": "Позволяет включить и отключить автоматический бег на контроллере. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
+    "GamepadAutoRun_Description_PS4_PS5": "Позволяет включить и отключить автоматический бег на геймпаде. При включении двойное нажатие на кнопку L3 заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
+    "GamepadAutoRun_Description_Switch": "Позволяет включить и отключить автоматический бег на геймпаде. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
     "GamepadAutoRun_Description": "Позволяет включить и отключить автоматический бег на геймпаде. При включении двойное нажатие на левый мини-джойстик заставит персонажа самостоятельно бежать вперёд, и вам не нужно будет удерживать левый мини-джойстик в наклоне.",
     "InvertPitch_Description": "Позволяет включить и выключить инверсию взгляда при использовании геймпада.  При включении персонаж будет смотреть вниз при нажатии кнопки «Вверх».",
     "GamepadVibration_Description": "Позволяет включить и отключить вибрацию геймпада.",
     "GamepadVibrationMobile_Description": "Позволяет включить и отключить вибрацию устройства.",
     "EditModeAimAssist_Description": "Позволяет включить и отключить помощь в прицеливании в режиме редактирования. При включении прицел будет притягиваться к ближайшей редактируемой клетке, если используется геймпад.",
     "TouchEdit_Description": "Вкл./откл. редактирование касанием.",
+    "InvertPitchForFighters_Description": "Позволяет включить или выключить инверсию при управлении истребителем. Если инверсия включена, нажмите на кнопку движения вперёд, чтобы направить истребитель вниз.",
     "BackgroundAudio_Description": "Позволяет включить и отключить звук, когда игра работает в фоновом режиме. Если параметр включён, звуки игры будут воспроизводиться, даже если окно игры свёрнуто или активно другое окно.",
     "ShowGlobalChat_Description": "Позволяет включить и отключить общий чат. При включении вы сможете читать и отправлять сообщения в общем чате.",
     "ReplayHighQualityRecording_Description": "Позволяет включить и отключить запись повторов в высоком качестве. Если включено, записывает больше данных повтора, отключив параметры, которые могут негативно сказаться на качестве графики при воспроизведении. Запись повторов в высоком качестве может снизить быстродействие, а для их хранения требуется свободное место на диске.",
@@ -7252,7 +7624,7 @@
     "ReplayRecordingIndicator_Description": "Позволяет включить и отключить индикатор записи. Если этот параметр включён, при записи матча в правом верхнем углу экрана будет отображаться красная точка и слово REC.",
     "VisualizeAudioSources_Description": "Позволяет включить и отключить круговой индикатор источников некоторых звуков.  Если параметр включён, вы будете видеть в игре визуальное отображение некоторых звуков, при этом игровые звуки будут отключены, и вы не сможете по ним ориентироваться. Авторы могут отключить эти индикаторы на своих островах. В таком случае параметры острова будут иметь приоритет перед вашим выбором.",
     "VisualizeAudioSourcesWithSpat_Description": "Позволяет включить и отключить круговой индикатор источников некоторых звуков.  При включении вы увидите в игре круги, обозначающие источники некоторых звуков. Авторы могут отключить эти индикаторы на своих островах. В таком случае параметры острова будут иметь приоритет перед вашим выбором.",
-    "TurboBuild_Description": "Позволяет включить и отключить турбостроительство. При включении, если зажата кнопка строительства, персонаж будет продолжать строить выбранный элемент, даже когда смотрит в другую сторону. При отключении для каждой постройки понадобится нажатие или щелчок.",
+    "TurboBuild_Description": "Позволяет включить и отключить турбостроительство. При включении, если зажата кнопка строительства, персонаж будет продолжать строить выбранный элемент, даже когда смотрит в другую сторону. При отключении для каждой постройки понадобится нажатие.",
     "TutorialCollection_Name": "Обучение",
     "XeSSUltraPerformance": "Максимальное быстродействие",
     "XeSSUltraQuality": "Максимальное качество",
@@ -7272,7 +7644,7 @@
     "STW_FirstPersonCamera_Description": "Использовать вид от первого лица.",
     "UserInterfaceContrast_Name": "Контраст интерфейса",
     "UserInterfaceParallax_Name": "Эффект параллакса пользовательского интерфейса",
-    "MoveStickAccelerates_Description_Switch": "Левый мини-джойстик позволяет увеличить или сбавить скорость транспортного средства, которым вы управляете. Если отключено, левый мини-джойстик используется только для управления транспортом, а за ускорение и торможение отвечают триггеры контроллера. Данный параметр действует только на те транспортные средства, которые позволяют набирать и сбрасывать скорость с помощью триггеров.",
+    "MoveStickAccelerates_Description_Switch": "Левый мини-джойстик позволяет увеличить или сбавить скорость транспортного средства, которым вы управляете. Если отключено, левый мини-джойстик используется только для управления транспортом, а за ускорение и торможение отвечают кнопки ZL/ZR. Данный параметр действует только на те транспортные средства, которые позволяют набирать и сбрасывать скорость с помощью кнопок ZL/ZR.",
     "MoveStickAccelerates_Description": "Левый мини-джойстик позволяет увеличить или сбавить скорость транспортного средства, которым вы управляете. Если отключено, левый мини-джойстик используется только для управления транспортом, а за ускорение и торможение отвечают триггеры геймпада. Данный параметр действует только на те транспортные средства, которые позволяют набирать и сбрасывать скорость с помощью триггеров.",
     "MoveStickAccelerates_Description_PS4_PS5": "Левый джойстик позволяет увеличить или сбавить скорость транспортного средства, которым вы управляете. Если отключено, левый джойстик используется только для управления транспортом, а за ускорение и торможение отвечают триггеры контроллера. Данный параметр действует только на те транспортные средства, которые позволяют набирать и сбрасывать скорость с помощью триггеров.",
     "ColorBlindStrength_Description": "Изменяйте настройки фильтров для просмотра изображений, пока не найдёте оптимальный вариант цветокоррекции. В центре каждого круга есть изображение ламы.",
@@ -7359,6 +7731,7 @@
     "WindowModeWindowedFullscreen": "Окно на весь экран",
     "MouseSensitivityYaw_Name": "Чувствительность (ось X)",
     "ControllerName_XBoxOne": "Xbox One",
+    "ControllerName_XboxSeriesX": "Xbox Series X|S",
     "XeSS is Enabled": "Необходимо отключить XeSS.",
     "MouseSensitivityPitch_Name": "Чувствительность (ось Y)",
     "CameraResetAxisYaw": "По горизонтали",
@@ -7373,6 +7746,9 @@
     "WindingSpeedScaledByZoom_Name": "Вращение при приближении",
     "GyroSensitivityScaledByZoom_Name": "Чувствительность при приближении",
     "MouseZoomScaling_Name": "Масштабирование приближения",
+    "TriggerHapticsStartPosition_Format": "{0}",
+    "TriggerHapticsStartStrength_Format": "{0}",
+    "GyroYStrength": "{0} : 1",
     "FOVMaximum_SliderUnits": "{0} град.",
     "FOVMinimum_SliderUnits": "{0} град.",
     "FlickForwardDeadZone_Display": "{0} град.",
@@ -7389,6 +7765,16 @@
     "QuickWeaponDelay_Seconds": "{0} сек.",
     "SimpleEditButtonHoldTime": "{0} сек.",
     "SlideButtonHoldTime": "{0} сек.",
+    "BrightnessFormat": "{0}%",
+    "ResolutionScalePercent": "{0}%",
+    "ContrastMultiplier": "{0}x",
+    "FPSMultiplierController_Format": "{0}x",
+    "GamepadBuildingMultiplier_Format": "{0}x",
+    "GamepadEditModeMultiplier_Format": "{0}x",
+    "LookBuildModeMultiplier_Format": "{0}x",
+    "LookEditModeMultiplier_Format": "{0}x",
+    "ScopedSpeedMultiplier_Format": "{0}x",
+    "DevDynamicDetailsFormat": "{0}{1}{2}",
     "AspectRatio": "{X}x{Y} {AspectRatio}",
     "MatureLanguageFilter_Disabled": "⚠ Отключено согласно настройкам родительского контроля.",
     "TextChatRTR_Description_Minor_Disabled": "⚠ Жалобы на текстовый чат всегда доступны для игроков младше 18 лет.",
@@ -7417,6 +7803,8 @@
     "Disabled_SocialBan": "Эта функция недоступна во время действия социальной блокировки."
   },
   "FortSettings": {
+    "DisabledReasonLine": "<Icon.Warning></> {0}",
+    "WarningReasonLine": "<Icon.Warning></> {0}",
     "SettingsErrorReason": "Не удаётся сохранить игру: серверы заняты.",
     "SettingsChanged": "Параметры изменены",
     "SettingsChangedContent": "Хотите сохранить изменения перед выходом?"
@@ -7453,6 +7841,7 @@
     "On": "Вкл."
   },
   "FortSettingValueDiscrete_ControllerHardware": {
+    "ControllerHardware_PS4": "PlayStation®4",
     "ControllerHardware_XboxOne": "Xbox One"
   },
   "FortSettingValueDiscrete_FortReleaseVersion": {
@@ -7593,6 +7982,7 @@
     "VoiceChatDisabledDescription_Other": "Ваш родитель или опекун ограничил доступ к данной функции с помощью средств родительского контроля. "
   },
   "FortSocialChatV3Manager": {
+    "UrlFilterPlaceholder": "<redacted URL>",
     "WelcomeGeneric": "Общайтесь в текстовом чате, поддерживая доброжелательную атмосферу!",
     "TextChatEnabled": "Текстовый чат включён.",
     "DisabledBySocialBan": "Текстовый чат отключён из-за того, что на учётную запись наложена социальная блокировка.",
@@ -7660,6 +8050,7 @@
     "LeavePlaystationParty": "Покинуть группу на PlayStation",
     "MatchChannelNotAvailable": "Недоступно",
     "VoiceNotAvailableText": "Недоступно",
+    "SonyVOIP": "PlayStation",
     "OtherChannelWithMembers": "Игроки находятся в этом канале",
     "GenericUserSearchQueryFailedError": "Не удалось выполнить поиск!",
     "SwitchToPartyChat": "Переключиться на голосовой чат группы Fortnite",
@@ -7675,6 +8066,9 @@
   },
   "FortSocialProfileMutualCount": {
     "MutualFriendsCount": "{NumMutualFriends} {NumMutualFriends}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друга)"
+  },
+  "FortSocialProfilePresence": {
+    "StateAndPresence": "{State} - {Presence}"
   },
   "FortSocialProfileRegion": {
     "MutualFriendsCount": "{NumMutualFriends} {NumMutualFriends}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общего друга)"
@@ -7707,6 +8101,8 @@
   "FortSocialToolkit": {
     "VoiceChatVRR_AcceptNewPlayerTitle": "О системе отправки жалоб в голосовом чате",
     "EpicFriendPlatformName": "Эпический",
+    "SwitchFriendPlatformName": "Nintendo Network",
+    "PlaystationFriendPlatformName": "PlayStation Network",
     "VoiceChatVRR_Accept_U18_NewPlayer": "Система отправки жалоб в голосовом чате помогает нам рассматривать случаи нарушения правил сообщества.\n\n• Если голосовой чат включён, устройство каждого участника хранит последний пятиминутный фрагмент голосового чата, который Epic Games получит лишь в том случае, если участник чата заявит о нарушении.\n\n• Функция отправки жалоб в голосовом чате всегда включена у игроков младше 18 лет.\n\nОткройте меню параметров голосового чата, чтобы узнать подробности и перейти к расширенным настройкам.",
     "VoiceChatVRR_Accept_O18_NewPlayer": "Система отправки жалоб в голосовом чате помогает нам рассматривать случаи нарушения правил сообщества.\n\n• Если голосовой чат включён, устройство каждого участника хранит последний пятиминутный фрагмент голосового чата, который Epic Games получит лишь в том случае, если участник чата заявит о нарушении.\n\n• Функция отправки жалоб обычно доступна во всех голосовых чатах, за исключением чатов, сформированных группой друзей, где все участники отказались от использования данной функции.\n\n• Чтобы узнать, доступна ли отправка жалоб в голосовом чате, откройте боковую панель.\n\nОткройте меню параметров голосового чата, чтобы узнать подробности и перейти к расширенным настройкам.",
     "XboxFriendPlatformName": "Сеть Xbox"
@@ -7737,14 +8133,16 @@
     "LastInteraction_HappenedMomentsAgo": "несколько секунд"
   },
   "FortSocialUserInfoViewModel": {
-    "Social_MutualFriendsFormat": "{0} {0}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друга)"
+    "Social_MutualFriendsFormat": "{0} {0}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друга)",
+    "StateAndPresence": "{State} - {Presence}"
   },
   "FortSocialUserPartyViewModel": {
     "AwayPresence": "НЕТ НА МЕСТЕ",
     "MemberInGameText": "В ИГРЕ",
     "NotReadyPresence": "НЕ ГОТОВ",
     "ReadyPresence": "ГОТОВ",
-    "SittingOutPresence": "ОЖИДАНИЕ"
+    "SittingOutPresence": "ОЖИДАНИЕ",
+    "StateAndPresence": "{State} - {Presence}"
   },
   "FortSquadComsPicker": {
     "QuickChatNeedWeapon": "<{SpectatorStyle}>{PlayerName}</> не откажется от оружия",
@@ -7752,7 +8150,8 @@
     "FortSquadComsPicker.NPCCommsCategory.FollowerCommands": "Связь с компаньоном",
     "FortSquadComsPicker.RequestCategory": "Запрос",
     "FortSquadComsPicker.SquadCommsCategory": "Связь с отрядом",
-    "FortSquadComsPicker.NPCCommsCategory.WildlifeCommands": "Команды для животных"
+    "FortSquadComsPicker.NPCCommsCategory.WildlifeCommands": "Команды для животных",
+    "FortSquadComsPicker.PaginationFormat": "[{PageNumber}/{NumberOfPagesInCategory}]"
   },
   "FortSquadSelectionMenu": {
     "CloseMenuAction": "Закрыть",
@@ -7780,6 +8179,9 @@
     "ConfirmationUndoOnCooldownMessage": "Пожалуйста, подтвердите покупку. Обратите внимание, что отменить её будет нельзя. Вы сможете вернуть средства, если у вас остались запросы на возврат.",
     "PurchaseComplete": "Покупка успешно совершена",
     "RedeemingOffer": "Активация…"
+  },
+  "FortStoreFrontOfferInfo": {
+    "LevelBundleDisplayName": "{0} {1}"
   },
   "FortSubGameSelect": {
     "BackOnContentDownloadDialog_Button": "Назад"
@@ -7819,6 +8221,7 @@
     "DownloadOnDemandProgress": "Обновление: {0}%"
   },
   "FortTextChatPlayerVM": {
+    "MessageDelayedFont": "<Message delayed, until we can load a new font>",
     "ClamOneMessage": "Помните, что вы всегда можете заглушить или заблокировать игрока, нажав кнопку с тремя точками или выбрав его сообщение в чате.",
     "DMWelcomeMessage": "Это начало вашей беседы с пользователем {0}!"
   },
@@ -7855,6 +8258,10 @@
   },
   "FortTrack": {
     "ToggleSwitchText": "Переключить путь"
+  },
+  "FortUIBattlePassPageUnlockNotification": {
+    "BattlePassPageUnlockToastTitle": "{0}",
+    "BattlePassPageUnlockToastDescription": "{0} {1}"
   },
   "FortUIManager": {
     "ControllerDisconnectedTitle": " Удалить игрока {0}?",
@@ -7920,6 +8327,7 @@
     "UpdateCheck": "Проверяем наличие обновлений…",
     "ConnectionCheckText": "Проверка подключения…",
     "TryingLonger": "Продолжаем попытки. Пожалуйста, наберитесь терпения.\nИнформация о состоянии серверов доступна на сайте {CheckStatusURL}.",
+    "OfferRHIChangeForStability_DX11": "DirectX 11",
     "FailedToLoadProfile": "Не удалось загрузить профиль.",
     "RefreshingContent": "Загрузка динамических материалов...",
     "FindBestSettings": "Определить оптимальные параметры?",
@@ -7992,8 +8400,12 @@
     "UnmuteTextInteractionDisplayName": "Отобразить сообщения",
     "VoiceMuteInteractionDisplayNameUnmuteVoice": "Включить голос",
     "SpectateFriendsGameInteractionDisplayName": "Смотреть игру",
+    "SlashCommand_JoinGame": "joingame",
+    "SlashCommand_MuteText": "mutetext",
+    "SlashCommand_MuteVoice": "mutevoice",
     "SlashCommand_Report": "пожаловаться",
-    "SlashCommand_unmute": "включить звук"
+    "SlashCommand_unmute": "включить звук",
+    "SlashCommand_unmutetext": "unmutetext"
   },
   "FortUserSearchResultListEntry": {
     "Social_MutualFriendsFormat": "{0} {0}|plural(one=общий друг,few=общих друга,many=общих друзей,other=общих друга)"
@@ -8029,6 +8441,8 @@
     "NameUnavailable": "(имя недоступно)"
   },
   "FriendsAndChat": {
+    "ListCountShort": "({0})",
+    "ListCount": "({0}/{1})",
     "GameJoinFail_InLauncher": "Убедитесь, что у вас установлена игра и все последние обновления.",
     "GameJoinFail_InSession": "Чтобы присоединиться к игре друга, выйдите в главное меню."
   },
@@ -8036,6 +8450,7 @@
     "MuteParam": "- Заглушить игрока",
     "ReplyParam": "- Ответить на последнее личное сообщение",
     "UnMuteParam": "- Включить звук игроку",
+    "EmptyShortcut": "/",
     "FounderShortcut": "/основатели",
     "GameShortcut": "/игра",
     "GlobalShortcut": "/общий",
@@ -8045,6 +8460,11 @@
     "TeamShortcut": "/отряд",
     "UnMuteTeamMember": "/включитьзвук",
     "WhisperShortcut": "/шепнуть",
+    "FounderParam": "<message>",
+    "GameParam": "<message>",
+    "GlobalParam": "<message>",
+    "PartyParam": "<message>",
+    "TeamParam": "<message>",
     "WhisperParam": "<player name>: <message>",
     "AcceptFriendRequest": "Принять",
     "Admin": "Админ",
@@ -8094,6 +8514,8 @@
     "OnboardingMcpFailure": "Ошибка сервера. Перезапустите клиент и попробуйте снова."
   },
   "FrontendInventoryFilter": {
+    "DelimiterForFiltering": " ",
+    "CommaForFiltering": ",",
     "ChapterFilteringText": "Глава",
     "Defenders": "Защитники",
     "Heroes": "Герои",
@@ -8185,6 +8607,7 @@
     "KoalaClipReminders_Name": "Напоминания о записи момента",
     "KoalaLinkSetting_LinkedAction": "Подключено",
     "KoalaLinkSetting_NotLinkedAction": "Не подключено",
+    "KoalaLinkSetting_Name": "Postparty",
     "KoalaClippingEnabled_Name": "Запись",
     "KoalaLinkSetting_Description": "В приложении Postparty можно записывать {0}-секундные ролики игрового процесса и делиться ими с друзьями.",
     "KoalaClipReminders_Description": "Включите или отключите напоминания о записи момента во время игры. Напоминания будут появляться в виде уведомлений, предлагающих записать интересный момент игрового процесса, например после устранения противника.",
@@ -8239,6 +8662,7 @@
     "VanOnWayPlural": "ФУРГОНЫ ДЛЯ ПОБЕГА СКОРО ПРИБУДУТ!",
     "VanArrivingFinal": "ПРИБЫВАЕТ ПОСЛЕДНИЙ ФУРГОН!",
     "VanOnWayFinal": "ПОСЛЕДНИЙ ФУРГОН СКОРО ПРИБУДЕТ!",
+    "VanIncomingTime": "{0}",
     "VanOnWayMinsSecs": "{0} мин. {1} сек."
   },
   "HidingProp": {
@@ -8277,14 +8701,57 @@
     "DroneSpeedDisplay": "Скорость беспилотника {0}х"
   },
   "HUD": {
-    "Cancel": "Отменить"
+    "Cancel": "Отменить",
+    "OK": "OK"
   },
   "HUDLayoutToolV2": {
     "HUDLayoutProfile_NewProfile": "Новый профиль макета"
   },
   "IARC": {
+    "USK_AGE_0_Abbreviated": "0",
+    "RUSSIA_AGE_0_Abbreviated": "0+",
+    "CLASSIND_AGE_10_Abbreviated": "10",
     "CLASSIND_AGE_10": "10 лет",
+    "FPB_AGE_10": "10-12 PG",
+    "FPB_AGE_10_Abbreviated": "10-12 PG",
+    "CERO_AGE_12_Abbreviated": "12",
+    "CLASSIND_AGE_12_Abbreviated": "12",
+    "GCAM_AGE_12": "12",
+    "GCAM_AGE_12_Abbreviated": "12",
+    "GRAC_AGE_12_Abbreviated": "12",
+    "MRO_AGE_12": "12",
+    "MRO_AGE_12_Abbreviated": "12",
+    "PEGI_AGE_12_Abbreviated": "12",
+    "USK_AGE_12_Abbreviated": "12",
     "CLASSIND_AGE_12": "12 лет",
+    "GEN_AGE_12": "12+",
+    "GEN_AGE_12_Abbreviated": "12+",
+    "RUSSIA_AGE_12": "12+",
+    "RUSSIA_AGE_12_Abbreviated": "12+",
+    "USK_AGE_12": "12+",
+    "FPB_AGE_13": "13",
+    "FPB_AGE_13_Abbreviated": "13",
+    "CERO_AGE_15_Abbreviated": "15",
+    "GCAM_AGE_3": "3",
+    "GCAM_AGE_3_Abbreviated": "3",
+    "MRO_AGE_3": "3",
+    "MRO_AGE_3_Abbreviated": "3",
+    "PEGI_AGE_3_Abbreviated": "3",
+    "GEN_AGE_3": "3+",
+    "GEN_AGE_3_Abbreviated": "3+",
+    "USK_AGE_6_Abbreviated": "6",
+    "RUSSIA_AGE_6": "6+",
+    "RUSSIA_AGE_6_Abbreviated": "6+",
+    "USK_AGE_6": "6+",
+    "GCAM_AGE_7": "7",
+    "GCAM_AGE_7_Abbreviated": "7",
+    "MRO_AGE_7": "7",
+    "MRO_AGE_7_Abbreviated": "7",
+    "PEGI_AGE_7_Abbreviated": "7",
+    "GEN_AGE_7": "7+",
+    "GEN_AGE_7_Abbreviated": "7+",
+    "FPB_AGE_7": "7-9 PG",
+    "FPB_AGE_7_Abbreviated": "7-9 PG",
     "USK_AbstrakteGewalt": "Вымышленное насилие",
     "ACB_ActionViolence_v10_0": "Насилие в действиях",
     "ClassInd_AdolescentThemes": "Темы для подростков",
@@ -8310,6 +8777,9 @@
     "ACB_BloodyViolence": "Кровавое насилие",
     "ACB_BullyingThemes_v10_0": "Тематика, связанная с травлей",
     "USK_BelastendeThemen_v9_0": "Эмоционально тяжелые темы",
+    "CERO_AGE_0": "CERO A",
+    "CERO_AGE_12": "CERO B",
+    "CERO_AGE_15": "CERO C",
     "TCA_CardOrCasualGames": "Карточные или казуальные игры",
     "ESRB_CartoonViolence": "Мультипликационное насилие",
     "ESRB_CashPrizes_v9_0": "Денежные призы",
@@ -8331,6 +8801,7 @@
     "ClassInd_AtosCriminosos": "Преступные действия",
     "GEN_CriminalTechniqueInstructions": "Указания по методам осуществления преступных действий",
     "PEGI_CriminalTechniqueInstructions": "Указания по методам осуществления преступных действий",
+    "FPB_CriminalTechniques": "Criminal Techniques",
     "ESRB_CrudeHumor": "Грубый юмор",
     "ACB_CrudeHumour": "Грубый юмор",
     "ACB_CrudeSexualHumour": "Грубый сексуальный юмор",
@@ -8360,6 +8831,8 @@
     "RUS_Drugs_v7_0": "Наркотики",
     "TCA_Drugs": "Наркотики",
     "USK_Drogen_v9_0": "Наркотики",
+    "ESRB_AGE_E_Abbreviated": "E",
+    "ESRB_AGE_E10_Abbreviated": "E10+",
     "ESRB_AGE_E": "Без ограничений",
     "USK_AGE_0": "Все",
     "ESRB_AGE_E10": "Без ограничений от 10 лет",
@@ -8384,6 +8857,9 @@
     "RUS_Fear_v7_0": "Устрашение",
     "GRAC_AGE_12": "Для лиц от 12 лет и старше",
     "GRAC_AGE_ALL": "Для лиц любого возраста",
+    "ACB_AGE_G_Abbreviated": "G",
+    "OFLC_AGE_0": "G",
+    "OFLC_AGE_0_Abbreviated": "G",
     "CERO_Gambling": "ギャンブル",
     "GEN_Gambling": "Азартные игры",
     "GRAC_Gambling_v7_1": "Азартные игры",
@@ -8436,6 +8912,7 @@
     "ClassInd_HighTension": "Высокое напряжение",
     "CERO_Horror": "恐怖",
     "ClassInd_Horror": "Ужасы",
+    "FPB_Horror": "Horror",
     "GEN_Horror": "Ужасы",
     "PEGI_Horror": "Ужасы",
     "TCA_Horror": "Ужасы",
@@ -8444,6 +8921,7 @@
     "ACB_HorrorViolence": "Ужасы и насилие",
     "ACB_HuntingViolence": "Насилие во время охоты",
     "ClassInd_DrogasIlicitas": "Незаконные наркотики",
+    "FPB_ImitativeActsAndTechniques": "Imitative Acts and Techniques",
     "ClassInd_ConteudoImpactante": "Содержимое, оказывающее влияние",
     "ACB_ImpliedSexualViolence": "Подразумеваемое сексуальное насилие",
     "GEN_ImpliedViolence": "Подразумеваемое насилие",
@@ -8463,7 +8941,9 @@
     "ACB_InjuryDetail_v10_0": "Подробности травм",
     "ESRB_IntenseViolence": "Грубое насилие",
     "ACB_InteractiveDrugUse_v9_0": "Интерактивное использование наркотиков",
+    "CLASSIND_AGE_LIVRE_Abbreviated": "L",
     "ESRB_Language": "Брань",
+    "FPB_Language": "Language",
     "GEN_Language": "Лексика",
     "GRAC_Language_v7_1": "Брань",
     "PEGI_Language": "Брань",
@@ -8475,6 +8955,9 @@
     "TCA_LoveAffair": "Любовные отношения",
     "ClassInd_LowTension": "Низкое напряжение",
     "ESRB_Lyrics": "Тексты песен",
+    "ACB_AGE_M_Abbreviated": "M",
+    "OFLC_AGE_15": "M",
+    "OFLC_AGE_15_Abbreviated": "M",
     "ACB_AGE_M": "Для взрослых",
     "ESRB_MatureHumor": "Юмор для взрослых",
     "ACB_MatureThemes": "Темы для взрослых",
@@ -8546,6 +9029,7 @@
     "ACB_Nudity": "Нагота",
     "ClassInd_Nudez": "Нагота",
     "ESRB_Nudity": "Нагота",
+    "FPB_Nudity": "Nudity",
     "GEN_Nudity_v7_0": "Нагота",
     "PEGI_Nudity_v7_0": "Нагота",
     "ACB_NudityRelatedIncentivesRewards": "Нагота, связанная с поощрениями и вознаграждениями",
@@ -8558,12 +9042,23 @@
     "ACB_GEMCO": "Сетевая интерактивность",
     "ACB_OnlineInteractivityAndChat_v10_0": "Сетевая интерактивность и чат",
     "PEGI_AGE_PG": "НЕОБХОДИМ РОДИТЕЛЬСКИЙ КОНТРОЛЬ",
+    "PEGI_AGE_12": "PEGI 12",
+    "PEGI_AGE_3": "PEGI 3",
+    "PEGI_AGE_7": "PEGI 7",
+    "ACB_AGE_PG_Abbreviated": "PG",
+    "FPB_AGE_0": "PG",
+    "FPB_AGE_0_Abbreviated": "PG",
+    "OFLC_AGE_8": "PG",
+    "OFLC_AGE_8_Abbreviated": "PG",
+    "PEGI_AGE_PG_Abbreviated": "PG",
     "GEN_ParentalGuidanceRecommended": "Необходим родительский контроль",
     "PEGI_ParentalGuidanceRecommended": "Необходим родительский контроль",
     "ACB_AGE_PG": "С разрешения родителей",
     "ESRB_PartialNudity": "Частичная нагота",
+    "FPB_PhotoPatternSensitivity": "Photo Pattern Sensitivity",
     "ACB_PokerMachineSimulation": "Имитация игровых автоматов",
     "ACB_PredatoryAnimalBehaviour": "Поведение хищных животных",
+    "FPB_Prejudice": "Prejudice",
     "USK_Handlungsdruck_v9_0": "Нажим, понуждающий к действию",
     "USK_DruckZumVielspielen_v10_0": "Чрезмерное давление начать игру",
     "USK_ProblematischeWerbeinhalte_v10_0": "Проблемное рекламное содержимое",
@@ -8609,6 +9104,7 @@
     "ACB_SexualThemes": "Сексуальная тематика",
     "ESRB_SexualThemes": "Сексуальная тематика",
     "ESRB_SexualViolence": "Сексуальное насилие",
+    "FPB_SexualViolence": "Sexual Violence",
     "GEN_SexualViolence": "Сексуальное насилие",
     "PEGI_SexualViolence": "Сексуальное насилие",
     "USK_SexuelleGewalt": "Сексуальное насилие",
@@ -8617,6 +9113,7 @@
     "ACB_SexualisedImagery": "Грубые образы с сексуальным подтекстом",
     "GRAC_Sex_v7_1": "Сексуальность",
     "USK_SexualisierteDarstellungen_v9_0": "Описания с подчеркнуто сексуальной тематикой",
+    "FPB_SexuallyRelatedActivity": "Sexually Related Activity",
     "IE_SharesInfo": "Предоставление данных",
     "IE_SharesLocation": "Предоставление местоположения",
     "USK_GruselHorror": "Шокирующий контент и/или ужасы",
@@ -8673,12 +9170,14 @@
     "GEN_StrongViolence": "Грубое насилие",
     "PEGI_StrongViolence": "Частое насилие",
     "ACB_StrongWarThemes": "Частая военная тематика",
+    "FPB_SubstanceAbuse": "Substance Abuse",
     "ACB_SuggestiveTheme": "Непристойные темы",
     "ESRB_SuggestiveThemes": "Непристойные темы",
     "ACB_SuicideReferences_v10_0": "Отсылки к суициду",
     "ACB_SuicideScenes_v10_0": "Сцены суицида",
     "ACB_SupernaturalThemes": "Сверхъестественная тематика",
     "ACB_SupernaturalViolence_v10_0": "Насилие в контексте сверхъестественных сил",
+    "ESRB_AGE_T_Abbreviated": "T",
     "ESRB_AGE_T": "Для подростков",
     "ClassInd_Tension": "Напряжение",
     "ACB_Threat": "Угроза",
@@ -8735,6 +9234,7 @@
     "CERO_Violence": "暴力",
     "ClassInd_Violencia": "Насилие",
     "ESRB_Violence": "Насилие",
+    "FPB_Violence": "Violence",
     "GEN_Violence": "Насилие",
     "GRAC_Violence_v7_1": "Насилие",
     "PEGI_Violence": "Насилие",
@@ -8761,10 +9261,12 @@
   "IslandTagInternal": {
     "ByLegoTag": "Создано LEGO",
     "CompetitiveRaceTag": "Соревновательная гонка",
+    "FallGuysTag": "Fall Guys",
     "LegoIslandTag": "Остров LEGO",
+    "RocketRacingTag": "Rocket Racing",
     "SpeedrunTag": "Скоростной заезд",
-    "AkitaIslandTag": "Звёздные войны",
     "TmntIslandTag": "Черепашки-ниндзя",
+    "DarkVortexIslandTag": "The Walking Dead Universe",
     "algorithmic_info": "Этот материал подобран на основе статистики меню «Поиск», учитывающей тренды, популярные острова и др., и может измениться в любой момент. Не является индивидуальной рекомендацией.",
     "friendrecommendations_info": "Этот остров подобран на основе игр, рекомендуемых вашими друзьями.\n\n Чтобы отказаться от получения индивидуальных рекомендаций, выключите параметр «Разрешить персонализировать рекомендации поиска» в разделе «Конфиденциальность игрового процесса» на вкладке «Учётная запись и конфиденциальность». В этом случае вы продолжите получать рекомендации, но уже не индивидуального, а общего характера.",
     "recommendations_info": "Этот остров подобран на основе игр, в которые вы недавно играли, и ваших избранных коллекций. Для составления рекомендаций алгоритм анализирует острова, недавно посещённые вами и другими получателями рекомендаций. \n\n Чтобы отказаться от получения индивидуальных рекомендаций, выключите параметр «Разрешить персонализировать рекомендации поиска» в разделе «Конфиденциальность игрового процесса» на вкладке «Учётная запись и конфиденциальность». В этом случае вы продолжите получать рекомендации, но уже не индивидуального, а общего характера.\n\n В меню «Поиск» можно добавить коллекции в избранное, а в «Библиотеке» — удалить из избранного.",
@@ -8795,13 +9297,26 @@
     "HighRarity_Animate_ND": "Вы собираетесь уволить не менее одного персонажа значительной степени редкости.",
     "HighLevel_Animate": "Вы собираетесь уволить не менее одного персонажа {LevelNumber} или более высокого уровня. Вы уверены?"
   },
+  "ItemSet": {
+    "ItemSetCustomName": "{SetName}\n{ItemName}"
+  },
   "ItemStackCount": {
+    "BillionsStackCount": "B",
     "KiloStackCount": " Т.",
-    "MegaStackCount": "М."
+    "MegaStackCount": "М.",
+    "StackCountFormat": "{0}{1}"
+  },
+  "JethroChandelierModerationComponent": {
+    "ViolationIndexDescription": "Какое из ограничений агента нарушает его ответ? Если никакое, возвращается значение -1",
+    "RestrictionLineFormat": "{Index}. {Restriction}"
   },
   "Juno_Toast_LowMemoryFallbackStrategy": {
     "WarningToastTitle": "Недостаточно памяти",
     "WarningToastDescription": "Сеанс может неожиданно прерваться."
+  },
+  "JunoBuildingSnapEditorDetails": {
+    "SnapEditorRotateInPlace": "In Place",
+    "Toolbar": "Snap Editor Toolbar"
   },
   "JunoCVD": {
     "JunoCVDConnectivityDataFlagsMenuLabel": "Флаги данных соединения Juno",
@@ -8818,17 +9333,38 @@
     "ConsolidatePrimitivesMeshes": "Создание редиректоров — /JunoAtomAssets/Meshes -> /JunoAtomAssets/ProcessedMeshes",
     "ConsolidatePrimitivesRender": "Создание перенаправлений — /JunoGame/Brick/Mesh/Render -> /JunoAtomAssets/ProcessedMeshes",
     "GetAssetsOfType": "Сбор результатов «{0}»",
+    "UpdateGeneratedMeshes": "Generating Dirty Meshes",
+    "PrintAtomModelsInfo": "Printing out a AtomModels info",
     "RepairGeneratedMeshes": "Восстановление моделей атома",
-    "RegeneratePrimitivesOnPrimitive": "Запуск простого процессора: {0} ({1})"
+    "RegeneratePrimitivesOnPrimitive": "Запуск простого процессора: {0} ({1})",
+    "RegeneratePrimitives": "Running Primitive Processor...",
+    "UpdateAllAtomModelsToUseProcessors": "Updating Atom Models"
+  },
+  "JunoValidator_AtomModel": {
+    "JunoValidator_AtomModel_NeedToGenerateMeshes": "Has a processor set but needs to generate the meshes.",
+    "JunoValidator_AtomModel_InvalidProcessorInstance": "Has no processor set but is referencing generated meshes"
   },
   "JunoValidator_GeometryCollection": {
+    "JunoValidator_GeometryCollection_NullAutoInstancedMesh": "Has a null Auto Instanced Mesh",
     "JunoValidator_GeometryCollection_NullProxyMeshes": "Имеет пустую сетку прокси",
+    "JunoValidator_GeometryCollection_ZeroAutoInstancedMesh": "Requires at least one Auto Instanced Mesh",
     "JunoValidator_GeometryCollection_ProxyMeshes": "Требуется хотя бы одна модель"
   },
   "JunoValidator_StaticMesh": {
+    "JunoValidator_StaticMesh_InvalidLODs": "Asset contains invalid LOD chain",
+    "JunoValidator_StaticMesh_OpaqueExport": "Can be deleted because it no longer contains transparent materials",
+    "JunoValidator_StaticMesh_CommonParts_Tag": "Common Parts mesh doesn't have 'Render.CommonParts' Atom tag",
+    "JunoValidator_StaticMesh_CommonParts_LODGroup": "Common Parts mesh doesn't have AtomMergedMesh_CommonParts LODGroup",
+    "JunoValidator_StaticMesh_CommonParts_NumLODs": "Common Parts mesh doesn't have only one LOD",
+    "JunoValidator_StaticMesh_WrongLODGroup": "LODGroup name does not start with 'AtomMergedMesh'",
+    "JunoValidator_StaticMesh_TransparentExport": "Needs to be regenerated without transparent materials",
     "JunoValidator_StaticMesh_NumLODs": "Только один уровень детализации"
   },
   "K2Node": {
+    "SpawnBuildingActor_BaseTitle": "Spawn Building Actor from Class",
+    "SpawnBuildingActor_Title_Unknown": "SpawnBuildingActor",
+    "SpawnBuildingActor_Title_NONE": "SpawnBuildingActor NONE",
+    "SpawnBuildingActor_Title_Class": "SpawnBuildingActor {ClassName}",
     "SwitchByRange_Name": "Перекл. по диапазону"
   },
   "K2Node_CountActorsInVolume": {
@@ -8845,7 +9381,15 @@
   "K2Node_GuidedMotionMME": {
     "GuidedMotionMME_Title": "Применить MME с помощью при движении",
     "GuidedMotionMME_TitleFormatClass": "Применить MME с помощью при движении — {MMEClass}",
+    "GuidedMotionMME_InternalConnectionErrorFinDelConErr": "K2Node_GuidedMotionMME: Finished Delegate Connection Error. @@",
+    "GuidedMotionMME_InternalConnectionErrorIntConErr": "K2Node_GuidedMotionMME: Internal connection error. @@",
+    "GuidedMotionMME_InternalConnectionErrorMvPinLnks": "K2Node_GuidedMotionMME: Pin @@ Error when MovePinLinksToIntermediate @@",
+    "GuidedMotionMME_InternalConnectionErrorErrCreatingCon": "K2Node_GuidedMotionMME: Pin @@ Error when creating Connection @@",
+    "GuidedMotionMME_InternalConnectionErrorSeq1stExPinErr": "K2Node_GuidedMotionMME: Sequence First Executution Pin Error. @@",
     "GuidedMotionMME_InternalConnectionError": "K2Node_GuidedMotionMME: ошибка узла последовательности. @@",
+    "GuidedMotionMME_InternalConnectionErrorSeq2ndExPinErr": "K2Node_GuidedMotionMME: Sequence Second Executution Pin Error. @@",
+    "GuidedMotionMME_InternalConnectionErrorIntermOnFinExErr": "K2Node_GuidedMotionMME: intermediate OnFinished event exec to original OnFinished output Error. @@",
+    "GuidedMotionMME_InternalConnectionErrorConRetValErr": "K2Node_GuidedMotionMME:Connect Return Value Error. @@",
     "GuidedMotionMME_TitleFormat": "[WorkInProgress] Применить MME с помощью при движении:\n{Data}"
   },
   "K2Node_HandleClientEvent": {
@@ -8856,16 +9400,59 @@
     "Category": "Добавить событие|Помощь с миссией",
     "HandleMissionEventWithName": "Управлять событием миссии (версия 2): {EventName}"
   },
+  "K2Node_SpawnBuildingActorFromClass": {
+    "NodeTooltip": "Attempts to spawn a new Building Actor with the specified transform",
+    "OwnerPinDescription": "Can be left empty; primarily used for replication (bNetUseOwnerRelevancy and bOnlyRelevantToOwner), or visibility (PrimitiveComponent's bOwnerNoSee/bOnlyOwnerSee)",
+    "SpawnActorNodeMissingClass_Error": "Spawn node @@ must have a @@ specified.",
+    "TransformPinDescription": "The transform to spawn the Actor with"
+  },
   "KeyboardKeyNames": {
     "AbbreviatedGamepad_FaceButton_Bottom": "А",
+    "AbbreviatedAcceleration": "Acc",
+    "AbbreviatedGamepad_FaceButton_Right": "B",
     "AbbreviatedBackSpace": "Backspace",
+    "AbbreviatedGamepad_DPad_Down": "D-Down",
+    "AbbreviatedGamepad_DPad_Left": "D-Left",
+    "AbbreviatedGamepad_DPad_Right": "D-Right",
+    "AbbreviatedGamepad_DPad_Up": "D-Up",
+    "AbbreviatedDelete": "Delete",
     "AbbreviatedDown": "Вниз",
+    "AbbreviatedEnd": "End",
+    "AbbreviatedEnter": "Enter",
+    "AbbreviatedEscape": "Esc",
+    "AbbreviatedF1": "F1",
+    "AbbreviatedF10": "F10",
+    "AbbreviatedF11": "F11",
+    "AbbreviatedF12": "F12",
+    "AbbreviatedF2": "F2",
+    "AbbreviatedF3": "F3",
+    "AbbreviatedF4": "F4",
+    "AbbreviatedF5": "F5",
+    "AbbreviatedF6": "F6",
+    "AbbreviatedF7": "F7",
+    "AbbreviatedF8": "F8",
+    "AbbreviatedF9": "F9",
+    "AbbreviatedGesture_Flick": "Flick",
+    "AbbreviatedGravity": "Grav",
+    "AbbreviatedHome": "Home",
+    "AbbreviatedInsert": "Insert",
     "AbbreviatedLeftAlt": "Левый Alt",
     "AbbreviatedLeftCommand": "Левый Cmd",
     "AbbreviatedLeftControl": "Левый Ctrl",
+    "AbbreviatedGamepad_LeftStick_Down": "L-Down",
+    "AbbreviatedGamepad_LeftStick_Left": "L-Left",
+    "AbbreviatedGamepad_LeftStick_Right": "L-Right",
     "AbbreviatedLeftShift": "Левый Shift",
+    "AbbreviatedGamepad_LeftTriggerAxis": "L-Trig",
+    "AbbreviatedGamepad_LeftStick_Up": "L-Up",
+    "AbbreviatedGamepad_LeftX": "L-X",
+    "AbbreviatedGamepad_LeftY": "L-Y",
+    "AbbreviatedGamepad_LeftShoulder": "LB",
     "AbbreviatedLeftMouseButton": "ЛКМ",
+    "AbbreviatedGamepad_LeftThumbstick": "LS",
+    "AbbreviatedGamepad_LeftTrigger": "LT",
     "AbbreviatedLeft": "Влево",
+    "AbbreviatedCapsLock": "Lock",
     "AbbreviatedMouseX": "Мышь X",
     "AbbreviatedMouseY": "Мышь Y",
     "AbbreviatedMiddleMouseButton": "СКМ",
@@ -8887,17 +9474,52 @@
     "AbbreviatedNumPadSeven": "7 (цифр. кл.)",
     "AbbreviatedNumPadEight": "8 (цифр. кл.)",
     "AbbreviatedNumPadNine": "9 (цифр. кл.)",
+    "AbbreviatedNumLock": "Num Lock",
+    "AbbreviatedPause": "Pause",
+    "AbbreviatedPageDown": "Pg Dn",
+    "AbbreviatedPageUp": "Pg Up",
+    "AbbreviatedGesture_Pinch": "Pinch",
     "AbbreviatedRightAlt": "Правый Alt",
     "AbbreviatedRightCommand": "Правый Cmd",
     "AbbreviatedRightControl": "Правый Ctrl",
+    "AbbreviatedGamepad_RightStick_Down": "R-Down",
+    "AbbreviatedGamepad_RightStick_Left": "R-Left",
+    "AbbreviatedGamepad_RightStick_Right": "R-Right",
     "AbbreviatedRightShift": "Правый Shift",
+    "AbbreviatedGamepad_RightTriggerAxis": "R-Trig",
+    "AbbreviatedGamepad_RightStick_Up": "R-Up",
+    "AbbreviatedGamepad_RightX": "R-X",
+    "AbbreviatedGamepad_RightY": "R-Y",
+    "AbbreviatedGamepad_RightShoulder": "RB",
     "AbbreviatedRightMouseButton": "ПКМ",
+    "AbbreviatedGamepad_RightThumbstick": "RS",
+    "AbbreviatedGamepad_RightTrigger": "RT",
     "AbbreviatedRight": "Вправо",
+    "AbbreviatedRotationRate": "Rot Rate",
+    "AbbreviatedGamepad_Special_Left": "S-Left",
+    "AbbreviatedGamepad_Special_Right": "S-Right",
     "AbbreviatedScrollLock": "Scroll Lock",
     "AbbreviatedSpaceBar": "Пробел",
+    "AbbreviatedTouch1": "T-1",
+    "AbbreviatedTouch10": "T-10",
+    "AbbreviatedTouch2": "T-2",
+    "AbbreviatedTouch3": "T-3",
+    "AbbreviatedTouch4": "T-4",
+    "AbbreviatedTouch5": "T-5",
+    "AbbreviatedTouch6": "T-6",
+    "AbbreviatedTouch7": "T-7",
+    "AbbreviatedTouch8": "T-8",
+    "AbbreviatedTouch9": "T-9",
     "AbbreviatedThumbMouseButton": "КМ1",
     "AbbreviatedThumbMouseButton2": "КМ2",
-    "AbbreviatedUp": "Вверх"
+    "AbbreviatedTab": "Tab",
+    "AbbreviatedTilt": "Tilt",
+    "AbbreviatedUp": "Вверх",
+    "AbbreviatedGamepad_FaceButton_Left": "X",
+    "AbbreviatedGamepad_FaceButton_Top": "Y"
+  },
+  "LabelOverrideInterface": {
+    "CabinModeStringFormat": "{BaseLabel} #{Number}"
   },
   "LatencyWidget": {
     "TweakLatency2Off": "B: откл.",
@@ -8920,6 +9542,9 @@
     "LaunchDataTitle": "Идёт запуск",
     "LaunchDataLaunch": "Идёт запуск: {Title}",
     "LaunchDataUnabledToLaunch": "Невозможно запустить программу"
+  },
+  "LfgFilterHeader": {
+    "EntryNumberParenthesis": "({0})"
   },
   "LFGShufflingButton": {
     "Shuffling Button Text No Time Remaining": "%s…",
@@ -8949,7 +9574,8 @@
     "InteractionMessage_PartyLeadOnly": "Требуется статус лидера группы"
   },
   "MatchmakingUtility": {
-    "CrossplayAccountNameEPIC": "Учётная запись Epic Games"
+    "CrossplayAccountNameEPIC": "Учётная запись Epic Games",
+    "LockedByQuestMessageFormat": "{QuestDescription} ({QuestProgress}/{QuestGoal})"
   },
   "MaterialLayersFunctions": {
     "Background": "Фон"
@@ -8991,10 +9617,20 @@
   "MetaSoundEditor": {
     "AssetSoundMetaSoundsNodeDataSubMenu": "Данные узла"
   },
+  "Minigame": {
+    "LimitedPlayerName": "{0}..."
+  },
+  "MinigameHUD_SpectatorLeaderboardEntry": {
+    "Standing": "#{0}"
+  },
   "Minigames": {
     "ScoreChange": "<{VictimStyle}>{PlayerName}</> получает {Score} оч. ({PlaysetName})",
+    "UnknownPlaysetName": "???",
     "TimeScoreMinutesSeconds": "{Minutes} мин. {Seconds} сек.",
     "TimeScoreSeconds": "{Seconds} сек."
+  },
+  "MinimapLocationNamesCodeDefined": {
+    "UndiscoveredLocationMapNameText": "???"
   },
   "Mission": {
     "Default Mission Info Description": "Описание миссии по умолчанию",
@@ -9032,6 +9668,100 @@
     "FortPushNotificationSelectScreen.Text_IOS": "ПОЛУЧИТЬ УВЕДОМЛЕНИЕ",
     "FortPushNotificationSelectScreen.Description_IOS": "Получайте уведомления о завершении загрузок материалов, запросах на добавление в друзья и приглашениях в группы, новых сезонах, временных событиях, анонсах и рекламных кампаниях. Эти параметры можно изменить в любой момент.",
     "FortPushNotificationSelectScreen.Description_Android": "Получайте уведомления о запросах на добавление в друзья и приглашениях в группы, новых сезонах, временных событиях, анонсах и рекламных кампаниях. Этот параметр можно изменить в настройках Fortnite."
+  },
+  "Monologue": {
+    "PerceivedEventsDelimiter": "\n",
+    "SpatialContextDescriptionDelim": "\n",
+    "MonologueEvent_GetInvalidDataWarning": "Не удалось разрешить данные для получения данных события монолога",
+    "MonologueEvent_MakeInvalidDataWarning": "Не удалось разрешить данные для создания структуры по экземпляру",
+    "MonologueFact_MakeInvalidDataWarning": "Не удалось разрешить данные для создания структуры по экземпляру",
+    "MonologueEvent_SetInvalidDataWarning": "Не удалось разрешить данные для задания данных структуры по экземпляру",
+    "PerceiveEventInvalidEventWarning": "Не удалось разрешить событие для события распространения",
+    "PropagateEventInvalidEventWarning": "Не удалось разрешить событие для события распространения",
+    "MonologueFact_GetInvalidDataWarning": "Не удалось разрешить значение для получения значения факта монолога",
+    "MonologuePromptDataAsset": "Запрос монолога",
+    "MonologueEventSummary": "Обобщение событий",
+    "PlayerDialogEventTemplate": "{Player} говорит: «{Dialogue}».",
+    "EventTimestampPrefixFormat": "{Timestamp} — {EventDescription}"
+  },
+  "MonologueAffordanceCollection": {
+    "AffordanceLineFormat": "* {0}",
+    "ObjectLineFormat": "* {0} - {1}"
+  },
+  "MonologueFactCustomization": {
+    "SetFactTemplate": "Задать шаблон факта",
+    "SetFactText": "Задать текст факта"
+  },
+  "MonologueFacts": {
+    "ImpliedArgTypeMismatch_2": "Несоответствие типа аргумента для делегата {0}, подразумевающего аргумент 0 и самостоятельный факт. Выражение: {1}",
+    "ImpliedArgTypeMismatch_1": "Несоответствие типа аргумента для делегата {0}, подразумевающего аргумент 0 {1} и самостоятельный факт. Выражение: {2}",
+    "DelegateCallMissingAnyArgs": "В обращении к делегату {0} отсутствуют требуемые аргументы, также не найден самостоятельный факт для неявной передачи. Выражение: {1}",
+    "CouldntDecodeReturn": "Не удалось декодировать {0} тип возврата ({1}) для факта. Выражение: {2}",
+    "CouldntFindFact": "Не удалось найти факты с названием {0}",
+    "InvalidDelegateObject_3": "Факт делегата {0} не возвращает допустимый тип факта. Выражение: {1}",
+    "InvalidDelegateObject_2": "Факт делегата {0} не привязан к допустимому названию объекта {1}. Выражение: {2}",
+    "InvalidDelegateObject_1": "Факт делегата {0} не привязан к допустимому объекту. Выражение: {1}",
+    "DelegateRecursionExceeded": "Превышена глубина рекурсии делегата {0}. Выражение: {1}",
+    "InfiniteDelegateRecursionDetected": "Обнаружена бесконечная рекурсия делегата в делегате {0}. Выражение: {1}",
+    "ExpectedQuote": "Ожидается \"",
+    "ExpectedElseIfCondition": "Ожидаемое выражение условия в пределах {% else if  %}",
+    "ExpectedIfCondition": "Ожидаемое выражение условия в пределах {% if  %}",
+    "ExpectedElseInnerTemplate": "Ожидаемый шаблон else между {% else %} и {% endif %}",
+    "ExpectedInnerTemplate": "Ожидаемый внутренний шаблон",
+    "ExpectedClosingBrace": "Ожидаемое закрытие выражения соответствующего факта }",
+    "InvalidFact_1": "Неверный факт {0} (ошибка: {1}) в выражении: {2}",
+    "InvalidFact_2": "Неверный факт {0} в выражении: {1}",
+    "InvalidDelegateParamCall": "Неверное параметризованное обращение к делегату {0}, которое не принимает аргументы. Выражение: {1}",
+    "ExpectedCloseBrace": "Отсутствует закрывающая скобка в выражении факта делегата: {0}",
+    "MissingRequiredArg": "Отсутствует требуемый аргумент {0} в обращении к делегату {1}. Выражение: {2}",
+    "ExpressionRecursionExceeded": "Превышена глубина рекурсии шаблона. Выражение: {0}",
+    "TooManyArgs": "Слишком много параметров в обращении к {0}. Выражение: {1}",
+    "UnexpectedElseAfterElse": "Неожиданный блок else после предыдущего else",
+    "UnexpectedElseIfAfterElse": "Неожиданный блок else if после предыдущего else",
+    "EOSExpectedConditionEnd": "Неожиданное завершение трансляции. Ожидаемое закрытие ' %}'",
+    "EOSExpectedEndIf": "Неожиданное завершение трансляции. Ожидаемый внутренний шаблон и закрытие {% endif %}",
+    "ExpectedOpenBrace": "Неожиданный токен \"{0}\" @ {1}:{2} после факта делегата, в выражении: {3}",
+    "UnexpectedFactExprToken": "Неожиданный токен \"{0}\" @ {1}:{2} в выражении факта: {3}",
+    "UnexpectedToken": "Неожиданный токен \"{0}\" @ {1}:{2} в выражении факта: {3}",
+    "ErrorFactualizingStringLiteral": "Неизвестная ошибка при фактологизации строковой константы",
+    "UnexpectedExpressionClose": "Несоответствующее закрытие выражения }"
+  },
+  "MonologuePromptEditor": {
+    "CompleterOverrideLabel": "Приоритет перед завершителем диалога",
+    "RunEnginePromptTooltip": "Выполните запрос с помощью подсистемы монолога (движок) для оценки ответа",
+    "RunWorldPromptTooltip": "Выполните запрос с помощью подсистемы монолога (мир) для оценки ответа",
+    "RefreshPreviewTooltip": "Принудительная рефактуализация шаблонов (например, для переоценки фактов динамического делегирования)",
+    "PromptNameLabel": "Имя",
+    "PromptPreviewSettings": "Настройки предпросмотра запроса",
+    "PromptResponse": "Ответ на запрос",
+    "SavePreviewTooltip": "Сохраните настройки предпросмотра в активе для повторного тестирования",
+    "SetMPChatCompleterOverride": "Установить приоритет перед параметром MonologuePrompt ChatCompleter",
+    "SetPromptName": "Задать название запроса",
+    "SetPromptPreviewSettings": "Задать настройки предпросмотра запроса",
+    "SetPromptSystemMessage": "Задать шаблон системного сообщения-запроса",
+    "SetPromptUserMessage": "Задать шаблон пользовательского сообщения-запроса",
+    "SystemMessageLabel": "Системное сообщение",
+    "CompleterOverrideTooltip": "UChatCompleter, который используется для этого запроса. Если значение не выбрано, подсистема движка монолога будет использовать стандартный завершитель диалога.",
+    "UserMessageLabel": "Пользовательское сообщение",
+    "WrapSystemMessageToolTip": "Текст",
+    "WrapUserMessageToolTip": "Текст"
+  },
+  "MonologueSubsystem": {
+    "CouldntFindDRFact": "Делегат факта DataRegistry: не удалось найти факты с названием «{0}» в регистре данных",
+    "NoDRSubsystem": "Делегат факта DataRegistry: подсистема регистрации данных недоступна, убедитесь, что плагин DataRegistry активен.",
+    "InvalidDRFactItemId": "Делегат факта DataRegistry: DataRegistryItemIdString \"{0}\" не является допустимым идентификатором предмета регистрации данных",
+    "FirstPersonName": "Я",
+    "NameNoSubject": "Субъекту не передан компонент IMonologueSubjectInterface для получения имени!",
+    "PerceivedEventsNoComponent": "Компоненту PerceivedEvents не передан компонент UMonologueComponent для получения подробностей события!",
+    "SecondPersonPerceivedEventsNoComponent": "Компоненту SecondPersonPerceivedEvents не передан компонент UMonologueComponent для получения подробностей события!",
+    "TimestampedPerceivedEventsNoComponent": "Компоненту TimestampedPerceivedEvents не передан компонент UMonologueComponent для получения подробностей события!",
+    "TimestampedSecondPersonPerceivedEventsNoComponent": "Компоненту TimestampedSecondPersonPerceivedEvents не передан компонент UMonologueComponent для получения подробностей события!",
+    "SecondPersonName": "Ты",
+    "ThisPersonPossessiveFormat": "{0}"
+  },
+  "MonologueWorldSubsystem": {
+    "SmartObjectBehaviorsNoPawn": "SmartObjectBehaviors: не удалось получить пешку от субъекта",
+    "SpatialContextNoPawn": "SpatialContext: не удалось получить пешку от субъекта"
   },
   "MyTownManager": {
     "MissingPersonalityName": "Нет локализации для: {0}",
@@ -9105,6 +9835,7 @@
     "PartyKickHardwareSpoofer": "Вас исключили из матча из-за использования инструментов, позволяющих скрыть или изменить аппаратные идентификаторы вашего компьютера. Подробности на странице fn.gg/HardwareIdentifiers Попытки обойти эту проверку могут вызвать блокировку вашей учётной записи.",
     "PartyKickPlayerDetailed": "Вас исключили из этого матча из-за ошибки {provider}: {reason}\n\nПерезапустите игру и обратитесь за подробной информацией к странице вопросов и ответов {provider}, если ошибка возникнет вновь.",
     "PartyKickDeviceNotEligible": "Ваша учётная запись или устройство не соответствует условиям участия в данном событии.",
+    "ModeratorKickAllPlayers": "Сеанс был прекращён из-за подтверждённого нарушения правил сообщества.",
     "SavedWorldOwnerLeft": "Сеанс пребывания в этом мире завершён, поскольку владелец покинул мир."
   },
   "NetworkFailure": {
@@ -9177,10 +9908,12 @@
     "FailedLoginConsole_Generic": "Не удалось войти в {0}",
     "FailedLoginConsole_UI": "Необходимо сначала выполнить вход: {0}.",
     "LightswitchCheckNetworkFailureMsg": "Ошибка сети при попытке проверить состояние службы.",
+    "PremiumAccountName_Nintendo": "Nintendo Switch Online",
     "Logout_Unlink": "С учётной записью «{0}» не связана учётная запись Epic. Попробуйте войти ещё раз.",
     "InvalidUser": "Пользователь не вошёл в систему.",
     "FailedLoginConsole_OnlinePlayRestriction": "Для этой учётной записи заблокирована игра по сети.",
     "FailedLoginParentalLock": "Ой, время игр закончилось! Ваша учётная запись будет временно заблокирована в соответствии с Законом о защите детей или в связи с окончанием установленного игрового времени.",
+    "PremiumAccountName_Sony": "PlayStation(R)Plus",
     "FailedLoginConsole_PatchAvailableInstruction_Default": "Выполните установку и попробуйте ещё раз.",
     "FailedLoginConsole_PatchAvailableInstruction_Xbox": "Пожалуйста, выйдите из игры и перезапустите её.",
     "FailedLoginConsole_PleaseSignIn": "Пожалуйста, войдите в вашу учётную запись {0} и попробуйте ещё раз.",
@@ -9217,6 +9950,7 @@
     "GeneralLoginFailure": "Неизвестная ошибка при входе.",
     "EulaCheck": "Проверка лицензионного соглашения…",
     "WaitingRoomWaiting": "Ожидание в очереди: {0}…",
+    "PremiumAccountName_XboxOne": "Xbox Live Gold",
     "BannedFromGame": "Вы заблокированы в игре {GameName}",
     "NoPlayEntitlement": "У вас нет разрешения на игру в {0}.",
     "DisconnectedFromMCP": "Произошло внезапное отключение от серверов {0}. Вы вернулись на главный экран.",
@@ -9298,7 +10032,24 @@
     "OnlineState_Online": "В сети"
   },
   "OnlineSubsystemMcp": {
+    "OnlineServiceName": "Epic Games",
     "InvalidMcpConfigExit": "Запрошен неверный сервер! Выход."
+  },
+  "OratorDialogue": {
+    "FirstPersonEventDescriptionTemplate": "Я говорю: «{Dialog}»{% if Interrupted %} — но меня прерывают.{% endif %}",
+    "SecondPersonEventDescriptionTemplate": "Вы говорите: «{Dialog}»{% if Interrupted %} — но вас прерывают.{% endif %}",
+    "ThirdPersonEventDescriptionTemplate": "{Name(Speaker)} начинает: «{Dialog}»{% if Interrupted %} — но не успевает договорить.{% endif %}"
+  },
+  "OratorGestureSomething": {
+    "DialogueDescription": "Жест, с которым должно быть произнесено это высказывание."
+  },
+  "OratorSaySomething": {
+    "EmotionDescription": "Эмоция, с которой должна быть произнесена эта реплика.",
+    "DialogueDescription": "Реплика, которая должна быть произнесена."
+  },
+  "OratorSubsystem": {
+    "SecondPersonPerceivedConversationalEventsNoComponent": "Компоненту SecondPersonPerceivedConversationalEvents не передан компонент UMonologueComponent для получения подробностей события!",
+    "SecondPersonPerceivedNonConversationalEventsNoComponent": "Компоненту SecondPersonPerceivedNonConversationalEvents не передан компонент UMonologueComponent для получения подробностей события!"
   },
   "OSSTest.McpConfig": {
     "InvalidMcpConfigExit": "Запрошен неверный сервер! Выход."
@@ -9452,7 +10203,8 @@
     "PickerWheelName_SpecialVehicleEmotes_SinglePage": "Транспорт",
     "PickerWheelName_SpecialVehicleEmotes_MultiPage": "Транспорт [{0}/{1}]",
     "MimicFormat": "[Повторить]\n{0}",
-    "SpecialVehicleFormat": "[Транспорт]\n{0}"
+    "SpecialVehicleFormat": "[Транспорт]\n{0}",
+    "UFortPickerContext.TitleMultipage": "{Title} [{0}/{1}]"
   },
   "Pickup text": {
     "On Picked up Backpack": "Рюкзак возвращён!"
@@ -9544,6 +10296,10 @@
   "Projectile": {
     "ThrowBack": "Отбросить"
   },
+  "PurchaseRestrictions": {
+    "PurchasesRestricted": "Ограничения на покупку",
+    "DeviceRestrictedFromMakingPurchases": "Возможность совершать покупки для вашей учётной записи заблокирована."
+  },
   "QuestFilterExpression": {
     "NotAGameplayTagError": "Запрос с условием — для условий проверки используются только теги игрового процесса",
     "ExpectedBool": "Результат выражения '{0}' не является булевым",
@@ -9564,7 +10320,9 @@
   },
   "QuestUICompatibilityVM": {
     "Compatibility_AndDelimiter": " и ",
+    "Compatibility_SubmodeDelimiter": " ВО ВКЛАДКЕ ",
     "Compatibility_OrDelimiter": " или ",
+    "Compatibility_ListDelimiter": ", ",
     "Compatibility_AvailableIn": "{0}",
     "Compatibility_Fallback": "Недоступно в текущем матче",
     "Compatibility_UnavailableIn": "Недоступно через: {0}",
@@ -9573,6 +10331,10 @@
   },
   "QuestUITrackerVM": {
     "DisplayName": "Отслеживаемые задания"
+  },
+  "RadioMenuPicker": {
+    "RadioStationCurrentArtistDesc": "{0}",
+    "RadioStationCurrentSongDesc": "{0}"
   },
   "RangedWeapon": {
     "PrimaryActionName": "Выстрелить",
@@ -9583,6 +10345,9 @@
   },
   "RebootRally": {
     "RallyEmBackHeader": "Пригласите друзей в игру"
+  },
+  "Received_item_type_rarity": {
+    "RarityFormat": "({0})"
   },
   "RenameLevelInstanceDevicePopupMessages": {
     "InvalidLevelName": "Недопустимое название"
@@ -9648,6 +10413,7 @@
     "Reset": "Сбросить"
   },
   "SChatWindow": {
+    "Space": " ",
     "ChatTo": "для "
   },
   "SeasonLevelConfirmation": {
@@ -9716,15 +10482,22 @@
     "InGameChat": "Переключайте каналы клавишей «Tab»"
   },
   "SnapEditorVisualizer": {
+    "DeleteSnapEntries": "Delete Snap Entries",
+    "DuplicateSnapEntries": "Duplicate Snap Entries",
+    "PasteSnapEntries": "Paste Snap Entries",
     "SelectSnapEntry": "Выбрать точку привязки"
   },
   "SocialBanModal": {
     "SocialBanTimeRemaining": "Осталось: {0}"
   },
+  "SocialChatMessageEntry": {
+    "ChatMessageFormat": "<text color=\"{HeaderColor}\" fontface=\"{HeaderFont}\" size=\"{HeaderSize}\">{Timestamp} {SenderName}:</> {Message}"
+  },
   "SocialProfileRegion": {
     "Arabic": "العربية [арабский]",
     "Asia": "Азия",
     "Brazil": "Бразилия",
+    "English": "English",
     "Europe": "Европа",
     "French": "Французский",
     "German": "Немецкий",
@@ -9751,6 +10524,7 @@
     "AppTitle": "Пространственный профайлер"
   },
   "SpectatorLensSettings": {
+    "ApertureFNumber": "f/{Aperture}",
     "FocalLength": "{FocalLengthMillimeters} мм"
   },
   "SquadMemberEntry": {
@@ -9760,6 +10534,7 @@
     "AtomLargePropLOD": "Атомная объединённая сетка",
     "AtomMergedMeshArchLOD": "Атомная объединённая модель, арка",
     "AtomMergedMeshBrickLOD": "Атомная объединённая модель, кирпич",
+    "AtomMergedMeshCommonPartsLOD": "Atom Merged Mesh Common Parts",
     "AtomMergedMeshCreatureLOD": "Атомная объединённая модель, существо",
     "AtomMergedMeshEmoteLOD": "Атомная объединённая модель, эмоция",
     "AtomMergedMeshGameplayDevicesLOD": "Атомная объединённая модель, игровые устройства",
@@ -9767,6 +10542,7 @@
     "AtomMergedMeshPropLOD": "Атомная объединённая модель, объект",
     "AtomMergedMeshRelicLOD": "Атомная объединённая модель, реликвия",
     "AtomLargePropLODV2": "Атомная объединённая сетка, в. 2",
+    "BREnvironmentLOD": "BREnvironment",
     "DefaultLOD": "По умолчанию"
   },
   "StatProfileSelector": {
@@ -9779,6 +10555,10 @@
     "StoreUpdated": "Магазин обновлён",
     "PayloadParseError": "Возникла проблема при получении ваших результатов с сервера (невозможно проанализировать ответ).",
     "PurchasePayloadParseError": "Возникла проблема при получении ваших результатов с сервера (невозможно увидеть предметы)."
+  },
+  "StoreSelectionPopup": {
+    "EpicRewardsEarnedBackAmount": "({0})",
+    "MonthlyFormat": "{0} / месяц"
   },
   "StormSurgeWarning": {
     "ActiveSubtitleText": "Наносите урон врагам, чтобы вас не уничтожили!",
@@ -9797,6 +10577,7 @@
     "STWInstallationRequired": "Установка «Сражения с Бурей»"
   },
   "SubGameNames": {
+    "Invalid": "<invalid>",
     "Athena": "Королевская битва",
     "Creative": "Творческий режим",
     "Campaign": "Сражение с Бурей"
@@ -9809,6 +10590,9 @@
     "CanMatchSubGameTitle": "{SubGameName}: доступ открыт!",
     "CanMatchSubGameDesc": "{SubGameName}: серверы готовы к игре!"
   },
+  "SupervisedSettingsManager": {
+    "TimezoneDisplayFormat": "{0} {1} ({2})"
+  },
   "SurvivorNameData": {
     "GenericSurvivorName": "Дж. Доу"
   },
@@ -9818,7 +10602,11 @@
   "TeamMemberEntry": {
     "MemberEmpty": "ПУСТО"
   },
+  "Tooltip": {
+    "FormatString": "[{0}]"
+  },
   "Tooltips": {
+    "%": "%",
     "SetBonusBuff": "{DisplayName} увеличится на {Magnitude}{MagnitudeUnits}",
     "AmmoCooldownFmtStrPre": "Перезарядка: {AmmoCooldown}",
     "CooldownFmtStrPre": "Перезарядка: {Cooldown}",
@@ -9827,38 +10615,89 @@
     "CharacterLevel": "{1} {0} уровня",
     "HeroLevel": "{1} {0} уровня",
     "HeroSubclassAndLevel": "{1} — {2} {0} уровня",
+    "[DisplayName]": "[DisplayName]",
     "DurabilityCostUnits": "ед. прочности",
     "EnergyCostUnits": "ед. энергии",
+    "QuestCompletionRatio": "{AchievedCount}/{RequiredCount}",
+    "AddBuff": "{AddSign}{Add}{Units}",
+    "AddMultBuff": "{AddSign}{Add}{Units}{MultSign}{Mult}%",
     "AmmoCooldownFmtStr": "{AmmoCooldown} сек.",
+    "CostFmtStr": "{CostValue} {CostType}",
+    "CostFmtStrCombine": "{ExistingCosts}, {CurrentCost}",
+    "MultBuff": "{MultSign}{Mult}%",
     "CooldownFmtStr": "{Time} сек.",
     "ArmTimeValue": "{Value} сек.",
     "AttackSpeedValue": "{Value} сек.",
     "ReloadTimeValue": "{Value} сек.",
-    "StunValue": "{Value} сек."
+    "StunValue": "{Value} сек.",
+    "DurabilityValueOutOfMax": "{Value}/{MaxValue}",
+    "FmtAttributeValue": "{Value}{Units}",
+    "DurabilityInfinite": "∞"
   },
   "TournamentLiveGames": {
+    "ListDelimiter": ", ",
+    "NameFormat": "{0} (#{1})",
     "NameListFormatAdditional": "{0} + ещё {1}",
     "DefaultCountDisplay": "{0}|plural(one=игрока,few=игроков,many=игроков,other=игроков)"
   },
   "TournamentPayout": {
+    "PayoutDelimiter": ", ",
     "TokenReward": "Перейти к следующему раунду",
     "PinReward": "Значок события",
     "TournamentRank": "{0} лучших",
     "TournamentRank_WithLeaderboard": "{1}:\r\n{0} лучших",
     "TournamentPercentile": "{0}% лучших",
     "TournamentPercentile_WithLeaderboard": "{1}:\r\n{0}% лучших",
+    "RarityFormat": "{0} ",
     "HypeScore": "ОЧКИ РЕЙТИНГА: {0}",
     "MtxCurrency": "В-баксы ({0})",
     "TournamentScore": "{0} {0}|plural(one=очко,few=очка,many=очков,other=очков)",
     "TournamentScore_WithLeaderboard": "{1}:\r\n{0} {0}|plural(one=очко,few=очка,many=очков,other=очка)",
+    "DivisionScore": "{0} {1}",
     "DivisionScore_WithLeaderboard": "{2}: \r\n{0} {1}",
-    "UnknownItem": "Неизвестный предмет ({Quantity})"
+    "UnknownItem": "Неизвестный предмет ({Quantity})",
+    "ItemFormat": "{Quantity} {Rarity}{ItemName} ({ItemType})",
+    "ThresholdFormat": "{Threshold}:"
   },
   "TwoTeamScoreWidgetBase": {
-    "TwoTeamTotalScore": "ЦЕЛЬ"
+    "TwoTeamTotalScore": "ЦЕЛЬ",
+    "TwoTeamScore": "{0}"
   },
   "UAthenaGiftConfirmedPanel": {
     "RecipientInfo": "Подарок для игрока <text color=\"FFF\">{DisplayName}</> успешно отправлен!"
+  },
+  "UAthenaLockerBM25SearchTextVM": {
+    "StopWord_a": "A",
+    "StopWord_an": "an",
+    "StopWord_and": "и",
+    "StopWord_as": "as",
+    "StopWord_at": "at",
+    "StopWord_be": "ЧТОБЫ",
+    "StopWord_but": "but",
+    "StopWord_by": "от",
+    "StopWord_for": "for",
+    "StopWord_from": "from",
+    "StopWord_if": "Если",
+    "StopWord_in": "через",
+    "StopWord_is": "is",
+    "StopWord_it": "it",
+    "StopWord_of": "из",
+    "StopWord_on": "вкл.",
+    "StopWord_or": "или",
+    "StopWord_out": "Выход",
+    "StopWord_so": "so",
+    "StopWord_such": "такой",
+    "StopWord_that": "that",
+    "StopWord_The": "новые",
+    "StopWord_then": "then",
+    "StopWord_this": "this",
+    "StopWord_to": "для",
+    "StopWord_was": "was",
+    "StopWord_were": "were",
+    "StopWord_when": "Когда",
+    "StopWord_which": "which",
+    "StopWord_while": "while",
+    "StopWord_with": "средство устранения:"
   },
   "UAthenaTeamSquadEntry": {
     "SquadLockedReason": "Необходимое количество \n<text size=\"18\" color=\"8ABBE6FF\">участников отряда</>: \n<text size=\"32\" color=\"FFF\">{0}</>",
@@ -9927,7 +10766,9 @@
     "DeferredPurchaseConfirmationMessage": "Дождитесь одобрения покупки.",
     "PurchaseExceededMaxMtxBalance": "Невозможно совершить покупку В-баксов, так как будет превышен их лимит. Потратьте часть В-баксов, чтобы добавить дополнительные В-баксы в свой бумажник.",
     "PurchaseFailedToStart": "При совершении покупки произошла критическая ошибка. Повторите попытку позже.",
-    "PurchaseHasNoNewEntitlements": "Произошла критическая ошибка с вашей покупкой. Наша команда уже работает над решением этой проблемы. Мы сообщим, когда покупка будет совершена!"
+    "PurchaseFailedToStartDueToMissingPrices": "При совершении покупки произошла критическая ошибка. Повторите попытку позже.",
+    "PurchaseHasNoNewEntitlements": "Произошла критическая ошибка с вашей покупкой. Наша команда уже работает над решением этой проблемы. Мы сообщим, когда покупка будет совершена!",
+    "EULAFormat": "{0}\n\n{1}"
   },
   "UFortMissionTimerComponent": {
     "Timer Label Text": "Оставшееся время"
@@ -9939,6 +10780,9 @@
   "UFortRegisteredPlayerInfo": {
     "McpErrorFmt_SetPlatformFailed": "Не удалось выбрать платформу: {0}",
     "MissingSubGameAccess": "Этот тип матчей вам недоступен."
+  },
+  "UFortSchematicItem": {
+    "SearchTags": "{0} {1}"
   },
   "UFortSeasonLevelConfirmationScreen": {
     "TierBundleOfferHeader": "{0} ур. (по 1)"
@@ -9963,6 +10807,9 @@
     "LastUpdateTimeHours": "{0} {0}|plural(one=час,few=часа,many=часов,other=часа)",
     "LastUpdateTimeMinutes": "{0} {0}|plural(one=минута,few=минуты,many=минут,other=минуты)",
     "OrdinalFormatText": "{Number}-й"
+  },
+  "UFortUIGlobals": {
+    "InfinitySymbol": "∞"
   },
   "UFortUIStateWidget_ForcedIntro": {
     "Failure": "Неудача",
@@ -10014,7 +10861,15 @@
   "UJunoValidator_Codex": {
     "SubcategoryTagInvalid": "Таблица данных кодекса [ряд {0}], нет действующего тега подкатегории.",
     "NeitherItemNorTag": "Таблица данных кодекса [ряд {0}], нет ни определения предмета, ни тега идентификатора. Должен быть хотя бы один элемент.",
-    "CategoryTagInvalid": "Таблица данных кодекса [ряд {0}], нет действующего тега категории."
+    "NPCNoSpawnerDat": "Codex data table [row {0}] looks like it is a friendly NPC but has no AI Spawner data set.",
+    "CategoryTagInvalid": "Таблица данных кодекса [ряд {0}], нет действующего тега категории.",
+    "ValidateLoadedAsset": "Codex data table [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+  },
+  "UJunoValidator_CraftingFormula": {
+    "ValidateLoadedAsset_Implementation": "FCraftingFormula [{0}] contains a blank RequiredIngredients tag!! This can cause issues at runtime."
+  },
+  "UJunoValidator_GuidedBuildingActorValidator": {
+    "ValidateLoadedAsset_Implementation": "FJunoGuidedBuildingData with ActorName [{0}] has a blank recipe!! This can cause issues at runtime."
   },
   "UJunoValidator_GuidedBuildingDisplayActorValidator": {
     "ValidateLoadedAsset_Implementation": "У FJunoGuidedBuildingDisplayActorDataEntry с индексом [{0}] пустой чертёж! В связи с этим при запуске могут возникать ошибки."
@@ -10024,12 +10879,31 @@
     "PrereqTownbuilderInvalidALINotValidIndexUpReq": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] AwesomeLevelIndex не является действующим индексом UpgradeRequirements ({2}).",
     "PrereqTownbuilderInvalidCTCKNotMapFDT": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] CampTagConfigKey не соотносится с таблицей данных FJunoAwesomePoiConfigTableRow.",
     "PrereqTownbuilderInvalidNoValidALI": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] нет действующего AwesomeLevelIndex.",
+    "PrereqTownbuilderInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] does not have valid CampTagConfigKey tag.",
     "PrerequistitesInvalidNoValidPreReqType": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] нет действующего типа предварительных требований.",
     "PrereqQuestInvalidNotNeededPFComponent": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] имеется компонент PersistenceFramework, это не требуется.",
     "PrereqTownbuilderInvalidUnsupportedType": "Таблица данных журнала [ряд {0}], у индекса предварительных требований [{1}] есть неподдерживаемый тип [{2}]. Необходимо обновить данный валидатор.",
+    "PrereqQuestInvalid": "Journal data table [row {0}], Prerequistites Index [{1}] has no QuestDef.",
     "PrereqTownbuilderInvalidRCButEmptyRL": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}] ссылается на ResourceCost, однако {2} имеет пустой ResourceList.",
     "PrereqTownbuilderInvalidNotFoundUpStpWithUStpsIdForUpStgs": "Таблица данных журнала [ряд {0}], индекс предварительных требований [{1}], не удалось найти UpgradeStep с UpgradeStepIdentifer {2} для UpgradeStages ({3}).",
-    "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Таблица данных журнала [ряд {0}] настроена на самораскрытие с помощью NextTaskRowName. Уберите отметку с RevealNextTaskOnComplete, чтобы снять блокировку, и обратитесь к инженеру!"
+    "PrerequistitesInvalid": "Journal data table [row {0}], does not have any Prerequistites.",
+    "CategoryTagInvalid": "Journal data table [row {0}], does not have valid Cateogry tag.",
+    "CompletionReactionsInvalid": "Journal data table [row {0}], is setup to reveal itself via CompletionReaction Index [{1}].",
+    "NextTaskRowNameInvalidUncheckRevealNTOnComplt": "Таблица данных журнала [ряд {0}] настроена на самораскрытие с помощью NextTaskRowName. Уберите отметку с RevealNextTaskOnComplete, чтобы снять блокировку, и обратитесь к инженеру!",
+    "NextTaskRowNameInvalid": "Journal data table [row {0}], uses RevealNextTaskOnComplete, but NextTaskRowName {1} is incorrect.  Please recheck the box.",
+    "ValidateLoadedAsset": "Journal data table [{0}] Prerequistites Index {1} references an quest [{2}] that won't exist when the package's plugin cooks in [{3}]. Remove the row, or update the item's release version to match."
+  },
+  "UJunoValidator_LootTables": {
+    "ValidateLoadedAsset": "LootPackage [{0}] references an item [{1}] that won't exist when the package's plugin cooks in [{2}]. Remove the row, or update the item's release version to match."
+  },
+  "UMultiInteractDisplayWidget": {
+    "CurrentCount": "x {0}"
+  },
+  "UObjectiveProcessorSubsystem": {
+    "VerbMessageContainsStrongObjectRef": "VerbMessages can only contain Weak Object References, please update {0}"
+  },
+  "UOratorInputControllerComponent": {
+    "TranscribedDialogueDescription": "Транскрибированная строчка диалога"
   },
   "UpdateManager": {
     "NeedsUpdateMessage": "Чтобы продолжить, необходимо обновление. Для загрузки свежей версии Fortnite перезапустите игру.",
@@ -10053,13 +10927,14 @@
     "Status_LockedRewardFormat": "Получите ещё {NumRewards} {NumRewards}|plural(one=награду,few=награды,many=наград,other=награды)",
     "Status_NoRewardsToClaimCostOneFormat": "Повышайте уровень, чтобы получить больше наград!",
     "Status_NoRewardsToClaimFormat": "Повысьте уровень еще несколько раз ({Levels}), чтобы получить больше наград",
-    "Status_GoToCategoryForMoreRewards": "Больше наград в категории «{CategoryName}»",
+    "Status_GoToCategoryForMoreRewards": "Больше наград в другой категории!",
     "Status_GoToNextPageForRewards": "Вы можете получить больше наград на странице {PageNumber}",
     "Status_LockedLevelFormat": "ИЛИ получите {NumLevels} {NumLevels}|plural(one=уровень,few=уровня,many=уровней,other=уровня), чтобы открыть",
     "Status_PurchaseBattlePassToUnlock": "Купите пропуск, чтобы получить больше наград",
     "Status_LockedDateLockedFormat": "Откроется {Date}",
     "Status_RewardsToClaimFormat": "Вам доступны награды",
-    "Status_PassCompletedAllRewardsClaimed": "Вы получили все награды, которые предоставляет {PassName}!"
+    "Status_PassCompletedAllRewardsClaimed": "Вы получили все награды, которые предоставляет {PassName}!",
+    "Status_LockedLevelRewardFormat": "{0} {1}"
   },
   "UserOptionDefinition": {
     "ClassSlotMetaData.DisplayPattern": "Класс {0}",
@@ -10079,6 +10954,8 @@
     "VehicleBouncyChassisController_Title": "Устройство управления прыгучим шасси транспорта"
   },
   "VehicleCosmetics": {
+    "FortVehicleCosmeticsActorFactoryDisplayName": "Fort Vehicle Cosmetics Preview Actor",
+    "FortVehicleCosmeticsVariantTokenFactoryDisplayName": "Fort Vehicle Cosmetics Variant Token",
     "CanCreateActorFrom_InvalidAsset": "Добавлен недопустимый ресурс.",
     "CanCreateActorFrom_NoItemDefinition": "Не указано определение элемента."
   },
@@ -10143,7 +11020,8 @@
     "MemorySamplerInProgress": "Подсчёт объёма памяти",
     "MemorySamplerFailure": "Проект использует слишком много ресурсов!",
     "MemorySamplerSuccess": "Проект не превышает лимит ресурсов!",
-    "StartingGame": "Запуск игры"
+    "StartingGame": "Запуск игры",
+    "DownloadOnDemandProgress": "{0}%"
   },
   "VkDefaultEntryPointNode": {
     "OutBoundError": "Альтернативная точка входа может связываться только с узлом речи или события",
@@ -10224,9 +11102,12 @@
     "WeaponModsUICustomModSetText": "Пользовательск."
   },
   "WinterfestDetailsScreen": {
-    "SetFormat": "Набор «{0}»"
+    "ItemDescription": "{0}",
+    "SetFormat": "Набор «{0}»",
+    "QuantityFormat": "{0} {1}"
   },
   "WorkerItem": {
+    "SearchTags2": "{0} {1} {2} {3}",
     "WorkerSetBonusTraitPattern": "{SetBonusName} (Набор из {SetSize} частей)"
   },
   "WorldItemGraphPin": {

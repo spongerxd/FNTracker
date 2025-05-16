@@ -1,6 +1,7 @@
 {
   "": {
     "FBB77C4F4E5E1B0E214282AEE0784933": "*С этими украшениями можно взаимодействовать. ",
+    "F92837C2400FECD4BC267B86E8D0B192": "1000",
     "48E48701450662286C34E4AD5088D6D2": "По алфавиту",
     "6F93E85E413E5A6654A3919A7A35FE7D": "По алфавиту",
     "348E3ED44399879FEE629AB5ECED94C9": "Все",
@@ -37,9 +38,17 @@
     "B7D977D444B85387203DEEA9B5F15E34": "У вас нет <B>ПОСТРОЕК SPROUT</>.",
     "56DDC92A4BE09A26480CC4B9BE7CF211": "У вас нет <B>КОМПЛЕКТОВ С ПРЕДМЕТАМИ ДЕКОРА SPROUT</> в архиве.",
     "AF2873DD42DEC8F23AF9A1909C9EEDB9": "У вас нет <B>КОМПЛЕКТОВ С ПРЕДМЕТАМИ ДЕКОРА SPROUT</>.",
+    "878236254271FB04E861D7932B3EEDBE": "{Count}",
     "8E2A7BF14B045B408E578CBB02EF80E6": "{Count}|plural(one=сооружение,few=сооружения,many=сооружений,other=сооружения)",
     "EC86A47F47B54459495AC0A6E1B4BD3B": "{Count}|plural(one=комплект с предметами декора,few=комплекта с предметами декора,many=комплектов с предметами декора,other=комплекта с предметами декора)",
     "66351C034886C4923379C295236D1747": "{Count}|plural(one=декоративный предмет,few=декоративных предмета,many=декоративных предметов,other=декоративных предмета)",
     "225D8D2B460BD617C337479ABDEB67A2": "{Name}*"
+  },
+  "JunoBuildingCosmetics": {
+    "PartQuantityAndName": "{0} {1}"
+  },
+  "JunoBuildingCosmeticsEditor": {
+    "ImGuiJunoAccountItemEditor": "Juno Account Item Editor",
+    "ImGuiJunoAccountItemEditorTooltip": "Tool for creating Juno Account Items in batches"
   }
 }

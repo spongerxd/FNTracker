@@ -33,7 +33,11 @@
     "DeviceDisplayName": "Устройство"
   },
   "AssetDefinition": {
-    "FortChallengeBundleItemDefinition": "Определение предмета серии испытаний Fortnite"
+    "FortChallengeBundleItemDefinition": "Определение предмета серии испытаний Fortnite",
+    "FortQuestItemDefinition": "FortQuestItemDefinition"
+  },
+  "AssetDefinition_AthenaCharacterItemDefinition": {
+    "AssetDisplayName": "AthenaCharacterItemDefinition"
   },
   "AssetDefinition_FortChallengeBundleItemDefinition": {
     "AssetDefinition_FortChallengeBundleItemDefinition": "Открыть в инспекторе пакетов",
@@ -44,12 +48,14 @@
     "CopyTemplateIdsToClipboardToolTip": "Копировать TemplateId для выбранных FortItemDefinition в буфер обмена системы. Если выбрано несколько ресурсов, каждый TemplateId отделяется символом новой строки.",
     "DefaultPlaylist": "Сюжетная обстановка по умолчанию",
     "FindInPlaylists": "Найти в плейлистах…",
+    "AssetDisplayName": "FortItemDefinition",
     "LookingItemDefinitionsReferences": "Поиск ссылок на определения предметов",
     "FindInPlaylistsToolTip": "Сообщает, когда определения выбранных предметов становятся доступны в выроненной добыче во всех плейлистах."
   },
   "AssetDefinition_FortPlaysetItemDefinition": {
     "CheckoutPlaysetRelatedFiles": "Извлечение ресурсов, связанных с сюжетной обстановкой",
     "CheckoutPlaysetRelatedFilesTooltip": "Извлечь ресурсы, связанные с определением предмета этого игрового набора: сам предмет, уровень его игрового набора, объекты окружения его игрового набора и их миниатюры.",
+    "AssetDisplayName": "FortPlaysetItemDefinition",
     "GeneratePlaysetProps": "Генерировать сюжетную обстановку",
     "GeneratePlaysetPropsTooltip": "Генерировать/обновить идентификаторы процессов и родительских процессов всех уровней, связанных с игровым набором.",
     "OpenVerseDef": "Открыть определение в Visual Studio Code",
@@ -71,6 +77,7 @@
     "GenerateAllPlaysetPropThumbnailsInTheGame": "(Повторно) генерировать все миниатюры предметов окружения сюжетной обстановки в игре",
     "GenerateAllPlaysetPropThumbnailsWithValidCreativeTags": "(Повторно) генерировать все миниатюры объектов окружения сюжетной обстановки в игровом наборе с допустимыми тегами творческого режима",
     "GeneratePlaysetPropThumbnails": "(Повторно) генерировать миниатюры предметов окружения сюжетной обстановки",
+    "AssetDisplayName": "FortPlaysetPropItemDefinition",
     "GenerateAllPlaysetsInTheGame": "Генерировать все сюжетные обстановки в игре",
     "GenerateAllPlaysetPropThumbnailsInTheGameTooltip": "Создать заново или повторно миниатюры объектов окружения игрового набора в творческом режиме игры.",
     "GenerateAllPlaysetPropThumbnailsWithValidCreativeTagsTooltip": "Создать заново или повторно миниатюры всех объектов окружения игрового набора с допустимыми тегами творческого режима в творческом режиме игры.",
@@ -89,15 +96,20 @@
     "AssetTypeActions_GameplayTagAssetBaseEditorTitle": "Редактор тегов: принадлежащие теги игрового процесса: {0}",
     "AssetTypeActions_GameplayTagAssetBaseMultipleAssets": "Ресурсов: {0}"
   },
+  "AssetDefinition_FortTrapItemDefinition": {
+    "AssetDisplayName": "FortTrapItemDefinition"
+  },
   "AssetFactory": {
     "AssetFactory_FortCustomizableObjectVersionBridgeAsset": "Вариант моста форта с возможностью настройки"
   },
   "AssetTypeActions": {
     "AssetAction_GenerateCreativePlaysetPropsDataAssets": "(Повторно) генерировать таблицы подстановки предметов окружения сюжетной обстановки",
+    "FortAssetTypeActions_CreativePlaysetPropsDataAsset": "CreativePlaysetPropsDataAsset",
     "UDynamicUISceneAssetDefinition": "Сцена динамического интерфейса",
     "FailedToOpenVerseEditableSubclass": "Не удалось открыть редактируемый класс Verse {0}.",
     "AssetTypeActions_FortCustomizableObjectVersionBridge": "Вариант моста форта с возможностью настройки",
     "FFortAssetTypeActions_FortHomebaseNodeGameplayEffectDataTable": "Таблица данных эффектов игрового процесса узла главной базы Fortnite",
+    "FortAssetTypeActions_FortConversation": "FortConversation",
     "AssetAction_GenerateCreativePlaysetPropsDataAssetsTooltip": "Генерировать заново или повторно таблицы подстановки предметов окружения сюжетной обстановки.",
     "VerseClass_OpenVSCodeWorkspace": "Открыть определение в Visual Studio Code",
     "HomebaseNodeDataTable_OpenInDataTable": "Открыть реактор таблиц данных",
@@ -112,6 +124,7 @@
     "FortConversation_StopConversation": "Стоп",
     "Thumbnail_StopConversationToolTip": "Остановить выбранный диалог",
     "FortConversation_StopConversationTooltip": "Останавливает выбранный диалог.",
+    "AssetVerseSubMenu": "Verse",
     "AssetTypeActions_VerseClass": "Класс Verse",
     "AssetTypeActions_VerseSubclass": "Подкласс Verse"
   },
@@ -394,6 +407,9 @@
   "DynamicUIInspectorModule": {
     "DynamicUIInspectorTab_DisplayName": "Динамический инспектор интерфейса"
   },
+  "DynamicUIMaxAspectRatioCustomization": {
+    "Equals": "="
+  },
   "DynamicUISceneCustomization": {
     "SelectedAllowedNameContent": "Допустимо: {0}",
     "InvalidAllowedWidget": "[Нет]"
@@ -516,7 +532,11 @@
     "VariantTagEdit": "Редактировать",
     "Invalid": "Недопустимо",
     "NoVariantChannel": "Недопустимый канал",
-    "NoVariant": "Недопустимый вариант"
+    "NoVariant": "Недопустимый вариант",
+    "VariantChannelText": "{0} ({1})",
+    "VariantText": "{0} ({1})",
+    "ShortTextCustomData": "{0} [{1} : {2}.{3}]",
+    "ShortTextNoCustomData": "{0} [{1} : {2}]"
   },
   "FGameplayTagEnumCustomization": {
     "NoneDefaultOption": "Никакие"
@@ -526,6 +546,9 @@
     "RewoundDialog_CheckBoxText": "Больше не показывать это окно",
     "RewoundDialog_ConfirmText": "ОК",
     "RewoundDialogTitle": "Предупреждение: снимок состояния возврата изменён"
+  },
+  "FileName": {
+    "FileName": "{0}"
   },
   "FMcpCatalogHelper": {
     "CatalogOutOfDateErrorMsg": "Цены и предложения могли измениться. Попробуйте совершить покупку ещё раз."
@@ -548,6 +571,9 @@
   "FortAISpawnGroupDetails": {
     "SpawnPointValueFmt": "Значение точки появления: {0}"
   },
+  "FortAssetDataUtilityToolPipeline": {
+    "RunToolLabel": "Выполнение операции конвейера FADUT"
+  },
   "FortAssetReferenceFilter": {
     "FailureRestrictedFolder": "Вы не можете использовать здесь ресурсы из {0}. Это папка с ограничениями.",
     "FailureEditorOnlyPlugin": "Вы не можете указать здесь ссылку на плагины только для редактора.",
@@ -562,9 +588,13 @@
     "FailureInvalidExternalReferenceFromTemp": "Необходимо сохранить этот уровень, чтобы использовать ссылки на частные ресурсы из {0}."
   },
   "FortAthenaAISpawnerDataComponent_Verse": {
-    "AISpawnerDataComponent_Verse": "Отсутствует класс компонента ИИ"
+    "AISpawnerDataComponent_Verse": "Отсутствует класс компонента ИИ",
+    "AISpawnerDataComponent_NPCBehaviorScript": "NPCBehaviorScriptOverride и NPCBehaviorScriptInstance не должны задаваться одновременно"
   },
   "FortBehaviorValueDetails": {
+    "PropertyFieldCreateDefaultValueWidgetClass": "DefaultValue",
+    "PropertyFieldCreateDefaultValueWidgetEnumDefault": "DefaultValue",
+    "PropertyFieldCreateDefaultValueWidgetObject": "DefaultValue",
     "PropertyFieldCreateDefaultValueWidgetEnum": "Тип перечисления",
     "PropertyFieldCustomizeChildren": "Название"
   },
@@ -698,6 +728,7 @@
     "FindGameplayCueReferences": "Найти ссылки GameplayCue",
     "FlashlightButton": "Фонарик",
     "ForceMobileAndTouchInputMenuLabel": "Применить мобильный и сенсорный ввод",
+    "Fortnite": "Fortnite",
     "WorkspaceMenu_FortniteGroup": "Инструменты Fortnite",
     "AssetsStillScanningError_AttemptToCreateForm": "Ресурсы Fortnite всё ещё загружаются. Подождите немного и попробуйте снова.",
     "FortGameFeaturePluginProfileSelector_Label": "Профиль GFP: {0}",
@@ -709,6 +740,7 @@
     "McpBackendSelectorOpenAdminHomepage": "Домашняя страница",
     "AutoMigrationDetected": "Были добавлены и требуют переноса элементы:\n{0}",
     "LoadZone": "Загрузить зону",
+    "McpBackendVersionSelector_Label": "MCP",
     "MakeAthenaDance": "Определение элемента пользовательского маркера",
     "MakeQuestDefinition": "Создать определение предмета задания кампании",
     "MakeHeroDefinition": "Создать определение предмета героя",
@@ -893,6 +925,7 @@
     "TokenMessage_Fort_WorldPartition_ReferenceStreamingDeviceFromNonStreaming": "Контент или устройства, не помеченные для подгрузки, не могут ссылаться на подгруженный контент или устройства.",
     "PlaysetCannotContainMinigameSettings": "Актор типа {0} обнаружен в игровом наборе {1}. Акторы этого типа не допускаются в игровых наборах.",
     "BuildHLODButtonText": "Создать уровень HLOD",
+    "BuildLevelHLOD": "BuildLevelHLOD",
     "ClearDebugActorDescMutator": "Очистить данные отладки",
     "LoggedInClientFailure": "Пользователю клиента не удалось войти в систему. {0}",
     "LoggedInClient": "Пользователь клиент вошел в систему",
@@ -920,6 +953,8 @@
     "TokenMessage_WorldPartition_References": "ссылается на",
     "RewardLevelRowHeadingLv": "{0} ур. {1}",
     "RewardLevelRowHeadingReward": "{0} Награда {1}",
+    "CreativeTag_Index_Desc": "{0} {1}",
+    "RandomAnimRow_Index_Desc": "{0}: {1}",
     "UnknownFileType": "{Filename} — неподдерживаемый тип файла. Поддерживаются только таблицы данных и таблицы кривых. Он будет пропущен."
   },
   "FortniteEditorLibrary": {
@@ -964,7 +999,8 @@
     "OnItemComponentStateChanged": "Изменить {0}",
     "ComponentActions": "Действия с компонентом",
     "PasteComponentLabel": "Вставить компонент",
-    "PasteComponentTooltip": "Вставить компонент из буфера обмена"
+    "PasteComponentTooltip": "Вставить компонент из буфера обмена",
+    "ActiveComponentText": "{0}  | "
   },
   "FortQuestLog": {
     "ClearLog": "Удалить",
@@ -1038,14 +1074,20 @@
     "RemoveRoot": "Удалить корень"
   },
   "FortTheaterDetails": {
+    "Left": "<",
+    "Right": ">",
     "Copy": "Копировать",
     "Paste": "Вставить",
-    "Swap": "Замена"
+    "Swap": "Замена",
+    "Up": "^",
+    "Down": "v"
   },
   "FortUserOptionPropertyReferenceDetails": {
     "Transaction.SetPropertyName": "Задать ссылку на свойство"
   },
   "FortValidator": {
+    "Newline": "\n",
+    "Arrow": " -> ",
     "UserGeneratedText.Error.UnlocalizableText": "Узел 'Задать свойство' '{0}' изменяет свойство текста пользовательского параметра '{1}' посредством автоматического преобразования 'Строка -> Текст'. Этот текст не будет подлежать локализации, поэтому рассмотрите использование параметра 'Редактировать исходную строку текста' для установки свойства текста вместо этого, или параметра 'Составить инвариантный текст', если не планировалось его локализовать.",
     "UserGeneratedText.Error.UnverifiedTextSource": "Узел 'Задать свойство' '{0}' изменяет свойство текста пользовательского параметра '{1}' посредством непроверенного метода. В результате этого сформированная история текста может сохраниться в полученном тексте, поэтому рассмотрите другие методы (например, 'Редактировать исходную строку текста') для настройки свойства текста вместо этого.",
     "ValidationError.GameFeature_SunsetAfter_Version": "(SunsetVer:{0}) удаляется из проекта после",
@@ -1084,6 +1126,15 @@
     "FortExposedContent.FailedToSpawnValidationActor": "Не удалось создать открытый актор проверки контента",
     "FailedToUpdateState": "Не удалось обновить состояние файлов плагина",
     "ItemDefinition_InvalidReleaseVersion": "Версии выпуска Fortnite '{0}' не существует. Вы можете использовать только значения, входящие в массив AllVersions в файле DefaultFortReleaseVersion.ini",
+    "ValidationError.GameFeature": "GameFeaturePlugin",
+    "ValidationError.GameFeature_Disallowed": "GameFeaturePlugin",
+    "ValidationError.GameFeature_EditorOnly": "GameFeaturePlugin",
+    "ValidationError.GameFeature_Encrypted": "GameFeaturePlugin",
+    "ValidationError.GameFeature_NewerRelease": "GameFeaturePlugin",
+    "ValidationError.GameFeature_NoRedist": "GameFeaturePlugin",
+    "ValidationError.GameFeature_Optional": "GameFeaturePlugin",
+    "ValidationError.GameFeature_SunsetAfter": "GameFeaturePlugin",
+    "ValidationError.GameFeature_SunsetUnset": "GameFeaturePlugin",
     "IllegalReference_CookedEditorDisabledPlugin": "Недопустимая ссылка для отключения в ресурсы редактора, сконвертированном в формат платформы",
     "IllegalReference_HardDependency": "Недопустимые жёсткие ссылки {0}",
     "IllegalReference_AssetFilterFail": "Недопустимая ссылка на ресурс {0}. {1}",
@@ -1335,6 +1386,9 @@
   "LocalContentWorkerTest": {
     "DuplicatingPlugin": "Дублирование подключаемого модуля {0}…"
   },
+  "LOCTEXT_NAMESPACE": {
+    "FortBuildingEditModeMetadataDefinition": "EditModePattern"
+  },
   "LSALiveLink": {
     "LiveLinkFrameTranslatorAssetActions_Name": "Транслятор кадров Live Link для прямой трансляции анимации",
     "LSA_DisplayName": "Роль Live Link для прямой трансляции анимации"
@@ -1429,13 +1483,17 @@
   },
   "PinTypeSelector": {
     "FloatCategory": "число с плавающей запятой",
+    "InputActionObject": "input_action",
     "IntCategory": "целочисленное значение",
     "LogicCategory": "логика",
     "MaterialObject": "материал",
     "TextCategory": "сообщение",
     "QuaternionObject": "вращение",
     "StringCategory": "строка",
-    "TextureObject": "текстура"
+    "TextureObject": "текстура",
+    "Vector2Object": "vector2",
+    "Vector2iObject": "vector2i",
+    "Vector3Object": "vector3"
   },
   "Project Explorer": {
     "Project Explorer": "Проводник по проекту"
@@ -1472,6 +1530,9 @@
     "VariableEditionTabLabel": "Редактор интерфейса свойства",
     "PropertyInterfaceEditor_ViewMenu_ToolTip": "Показать редактор интерфейса свойства",
     "DefaultPropertyInterfaceEditor_ViewMenu_ToolTip": "Показывать значения переменных по умолчанию"
+  },
+  "PropertyInterfaceEditorModes": {
+    "VariableEditionMode": "VariableEdition"
   },
   "PropertyInterfaceFieldDragDropHandler": {
     "ReorderProperties": "Порядок свойств изменён"
@@ -1514,16 +1575,68 @@
     "Description": "Описание"
   },
   "ProtoLem": {
+    "Space": " ",
+    "DoubleSpace": "  ",
+    "QMark": "  ?   ",
+    "ControlSoloElseIf": "  else if  ",
     "ControlIf": "  Если",
     "ControlSoloIf": "  Если  ",
     "Not": "  не",
+    "fn": "  ƒn",
+    "BinaryOp_eq": " = ",
+    "Hat": " ^   ",
+    "ControlElse": " else ",
+    "ControlElseIf": " else if",
+    "ControlThen": " then",
+    "InsertNotEq": "!=",
     "UnaryOp_escape": "И",
+    "LParen": "(",
+    "QualBegin": "(",
+    "RParen": ") ",
+    "Multiplication": "*",
+    "AssignmentMultiplication": "*=",
+    "MulAssign": "*=",
+    "+": "+",
+    "Addition": "+",
+    "BinaryOp_add": "+",
+    "AddAssign": "+=",
+    "AssignmentAddition": "+=",
+    "Comma": ",",
+    "BinaryOp_sub": "-",
+    "Subtraction": "-",
+    "EndOfScope": "--",
+    "AssignmentSubtraction": "-=",
+    "SubAssign": "-=",
+    "BinaryOp_arrow": "->",
+    "RArrow": "->",
+    "Dot": ".",
+    "BinaryOp_range": "..",
     "Placeholder": "…",
+    "Division": "/",
+    "AssignmentDivision": "/=",
+    "DivAssign": "/=",
     "1Error": "1 ошибка",
+    "TypeSpec": ":",
+    "QualEnd": ":)",
+    "DefineNoTypeSpec": ":=",
+    "BinaryOp_lt": "<",
+    "InsertLessThan": "<",
+    "BinaryOp_lteq": "<=",
+    "InsertLessThanEq": "<=",
+    "BinaryOp_noteq": "<>",
+    "Assign": "=",
+    "Define": "=",
+    "InsertEq": "=",
+    "RDoubleArrow": "=>",
+    "BinaryOp_gt": ">",
+    "InsertGreaterThan": ">",
+    "BinaryOp_gteq": ">=",
+    "InsertGreaterThanEq": ">=",
     "Add or Select Attributes": "Добавить или выбрать атрибуты",
     "AdditionTooltip": "Оператор сложения (+).",
     "AssignmentAdditionTooltip": "Оператор сложения (+=).",
     "AddThenTooltip": "Добавляет тело функции Then в FlowIf, в котором его нет.",
+    "And (&&)": "And (&&)",
     "And (&&) Tooltip": "Оператор \"и\" (&&)",
     "AddElseTooltip": "Добавляет оператор Else в текущий FlowIf.",
     "WrapAssign Tooltip": "Назначить для этого идентификатора",
@@ -1534,6 +1647,7 @@
     "Copy": "Копировать",
     "CutTooltip": "Скопировать и удалить выделение, на которое наведён курсор.",
     "CopyTooltip": "Скопировать выделение, на которое наведён курсор.",
+    "Ctrl": "Ctrl",
     "Cut": "Вырезать",
     "ErrorDescription": "Описание",
     "RightClickSubActionsTooltip": "Сведения о плитке, такие как происхождение, связанные узлы и т. д.",
@@ -1544,6 +1658,7 @@
     "AssignmentDivisionTooltip": "Оператор деления (/=).",
     "Edit": "Редактировать",
     "EditTooltip": "Редактировать выделение, на которое наведён курсор.",
+    "AddElse": "Else",
     "InsertEqTooltip": "Оператор \"равно\" (/=).",
     "FileOperationsLabel": "Операции с файлами",
     "FileOperationsSectionLabel": "Операции с файлами",
@@ -1576,6 +1691,7 @@
     "MultiplicationTooltip": "Оператор умножения (*).",
     "AssignmentMultiplicationTooltip": "Оператор умножения (*=).",
     "InsertNotEqTooltip": "Оператор \"не равно\" (!=).",
+    "Or (||)": "Or (||)",
     "Or (||) Tooltip": "Оператор \"или\" (||)",
     "ModuleOtherOperationsLabel": "Прочие операции",
     "Paste": "Вставить",
@@ -1640,6 +1756,7 @@
     "SetForegroundAstTooltip": "Задать цвет переднего плана плитки для выбранного типа узла.",
     "SetForegroundETypeKindTooltip": "Задать цвет переднего плана плитки для выбранного типа узла.",
     "SetForegroundVstTooltip": "Задать цвет переднего плана плитки для выбранного типа узла.",
+    "Shift": "Shift",
     "SubtractionTooltip": "Оператор вычитания (-).",
     "AssignmentSubtractionTooltip": "Оператор вычитания (-=).",
     "AST Tooltip": "Тип узла AST выбранной плитки.",
@@ -1647,6 +1764,7 @@
     "Inner ETypeKind Tooltip": "Тип внутреннего ETypeKind выбранной плитки (если имеется).",
     "VST Tooltip": "Тип узла VST выбранной плитки.",
     "Whence Tooltip": "Происхождение (начальная и конечная строка/столбец) выбранной плитки.",
+    "AddThen": "Then",
     "RightClickSubActionsLabel": "Сведения о плитке",
     "FilterSearchHint": "Введите текст, чтобы начать поиск (выберите результаты поиска с помощью клавиши \"Enter\")",
     "RenamingNotSupported": "Предупреждение: критическое изменение",
@@ -1654,6 +1772,8 @@
     "RenamingNotSupportedBody": "Когда вы переименовываете файл или модуль Verse, ссылки в устройстве Verse продолжают вести по пути Verse, который был прописан до этого. Это приводит к тому, что их поведение будет нарушено, пока не будет заменено устройство. Проверьте журнал на наличие информации о путях Verse.\n\nСохранение проекта в таком состоянии может привести к удалению затронутых устройств. \n\nПродолжить переименование, несмотря на это?",
     "ErrorWhere": "Где",
     "Wrap in Assignment": "Поместить в назначение",
+    "LBracket": "[",
+    "RBracket": "]",
     "BinaryOp_and": "и",
     "break": "Ломаная",
     "continue": "продолжить",
@@ -1665,10 +1785,20 @@
     "Set": "Задать",
     "to show less": "скрыть подробности",
     "to show more": "подробнее",
+    "Var": "var",
     "Where": "где",
+    "BinaryOp_mul": "x",
+    "BinaryOp_xor": "xor",
+    "LBrace": "{",
     "NErrors": "Ошибок: {0}",
     "InvalidFileNameBody": "{0} не является допустимым названием для файла.",
-    "InvalidModuleNameBody": "{0} не является допустимым именем для модуля."
+    "InvalidModuleNameBody": "{0} не является допустимым именем для модуля.",
+    "RBrace": "}",
+    "BinaryOp_div": "÷"
+  },
+  "QualityAssistEdNS": {
+    "HyperlinkText": "{0}",
+    "UserHint": "{0}"
   },
   "Quest Asset Creation Tool": {
     "QuestCreationFailed": "При создании задания возникла ошибка. См. подробнее в журнале выходных данных."
@@ -1740,6 +1870,9 @@
     "ExportSelectedButton": "Экспортировать выбранные ресурсы",
     "ExportingDadAssetsTask": "Экспортирование ресурсов DAD…",
     "ExportingSelectedDadAssetsSuccess": "Выбранные ресурсы DAD ({0}) успешно экспортированы."
+  },
+  "SDesignAssetCombo": {
+    "InvalidComboEntryText": "<<Invalid option>>"
   },
   "SDynamicUIDesignerWidget": {
     "TransactionAddAllowed": "Добавить разрешённый виджет",
@@ -1896,7 +2029,8 @@
     "Revision_Text_Extended": "Снимок состояния {0}",
     "Discard_Message": "Смена выбора приведёт к отмене локальных изменений, внесённых поверх предыдущего выбора. Продолжить?",
     "LoadLevel_Message": "Этот конфликт находится на другом уровне. Вы хотите загрузить этот уровень для предпросмотра?",
-    "LoadLevel_Confirm": "Да"
+    "LoadLevel_Confirm": "Да",
+    "Revision_Text": "{0}"
   },
   "SkeinSourceControlFocus": {
     "LoadLevel_Title": "Уровень загрузки",
@@ -1913,7 +2047,9 @@
     "DataChangedDialog_CheckBoxText": "Больше не показывать это окно",
     "DataChangedDialog_ConfirmText": "OK",
     "UnsupportedOperation": "Операция '{OperationName}' не поддерживается поставщиком контроля версий '{ProviderName}'",
+    "SkeinStatusText": "ProjectRoot: {ProjectRoot}",
     "SkeinStatusTextWithBranch": "Корень проекта: {ProjectRoot}\nВетка: {Branch}",
+    "SkeinStatusTextList": "ProjectRoots:\n",
     "ConflictWarningModal_Yes": "Просмотр конфликтов",
     "ConflictWarningModal_Message": "Обнаружен конфликт некоторых локальных изменений и последнего снимка состояния проекта.\n\nЧтобы продолжить, вам нужно проверить каждый конфликт и выбрать, сохранять ли ваши изменения или изменения вашего партнёра.",
     "SkeinBinaryMissing": "В вашей системе отсутствует исполняемый файл Unreal Revision Control.",
@@ -1963,7 +2099,8 @@
   },
   "SNamePlateWidget": {
     "UEFNCookedWatermark": "Сконвертировано в формат платформы",
-    "UEFNUncookedWatermark": "Не сконвертировано в формат платформы"
+    "UEFNUncookedWatermark": "Не сконвертировано в формат платформы",
+    "UEFNNamePlate": "Unreal Editor {0}{1}{2}{3}"
   },
   "SolarisEditor": {
     "StaleClassCheck_Message_StaleInstance": "'{Object}' — это экземпляр устаревшего класса {Class}, которого больше не существует. Этот экземпляр не будет работать, пока не будет переопределен класс и перезагружена карта.",
@@ -2012,6 +2149,9 @@
     "ToolsSectionText": "Инструменты",
     "VSCodeInstallRequest": "Если вы хотите редактировать код Verse с поддержкой функций языка Verse в Unreal Editor for Fortnite, необходимо установить Microsoft Visual Studio Code. Вы видите это сообщение, потому что у вас эта программа не установлена. Установить?",
     "VSCodeUpdateTitle": "Установить последнюю версию Visual Studio Code?",
+    "VerseButton": "Verse",
+    "VerseMenu": "Verse",
+    "VerseTypeName": "Verse",
     "VerseLogButton": "Журнал сообщений сборки Verse",
     "VerseMenu_ToolTip": "Команды Verse",
     "VerseExplorerButton": "Проводник Verse",
@@ -2037,6 +2177,8 @@
     "CheckoutFailureBody": "Возникла проблема при извлечении {0}, проверьте правильность настройки контроля версий"
   },
   "SolarisNotifications": {
+    "DiagnosticConcatFmt": ": {0}",
+    "RichDiagnostic_Format": "<a id=\"script_link\" href=\"{FilePath}?line={Line}&char={Character}\" style=\"Common.GotoBlueprintHyperlink\">{Locus}</>: {Description}",
     "ScriptErrorPrompt_ForceLink": "Принудительная компоновка",
     "ScriptErrors_IgnoreLinkErrs": "В дальнейшем игнорировать незавершённую компоновку сценария (для разрешения в среде выполнения во время игры в редакторе).",
     "ScriptErrors_ContinuePrompt": "В одном или более файлов сценариев имеются неразрешённые ошибки сборки. Продолжить?",
@@ -2048,8 +2190,24 @@
     "ErrorWarningFormat": "{ErrorCount} {DiagnosticPlurality} сборки Verse"
   },
   "SolDev": {
+    " ? ": " ? ",
+    " ^ ": " ^ ",
+    "( )": "( )",
+    "*": "*",
+    "+": "+",
+    "-": "-",
+    "->": "->",
+    "..": "..",
+    ".id": ".id",
+    "/": "/",
+    "[ ]": "[ ]",
+    "InvalidWhence": "[?,?]",
     "Whence": "[{0}, {1}]",
-    "if": "Если"
+    "else": "else",
+    "if": "Если",
+    "then": "then",
+    "xpr": "xpr",
+    "Tag": "{0} {1}"
   },
   "SourceControl": {
     "SourceControl_ResolvingConcluding": "Завершение разрешения файлов в системе контроля версий…",
@@ -2090,7 +2248,8 @@
     "TexturePackageSize": "Размер пакета текстуры",
     "UniqueCollisionMeshCount": "Количество уникальных сеток коллизии",
     "UnknownSession": "Неизвестный сеанс",
-    "DisconnectedClientSessionDisplayName": "{0} (Отключено)"
+    "DisconnectedClientSessionDisplayName": "{0} (Отключено)",
+    "ClientSessionDisplayNameFmt": "{0} ({1})"
   },
   "SpatialMetricsConnectorClient": {
     "NoValidMessageEndpointText": "Отсутствует действительная конечная точка сообщения.",
@@ -2126,7 +2285,8 @@
     "OpenFileTitle": "Открыть файл…",
     "LoadSampleFileFilter": "Файлы выборок (*.json)|*.json",
     "SaveSampleFileTitle": "Сохранить выборку…",
-    "LegacyPrefixLabel": "[Устарело] {0}"
+    "LegacyPrefixLabel": "[Устарело] {0}",
+    "ValueText": "{Value} {UnitDisplayString}"
   },
   "Splash Page": {
     "Splash PageSplash Page": "Страница-заставка"
@@ -2251,7 +2411,8 @@
     "Button.Continue": "Продолжить",
     "Title": "Создать сборку",
     "IncludeChangeTelemetryLabel": "Включить изменение телеметрии",
-    "PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут."
+    "PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут.",
+    "IncludeChangeTelemetryFmt": "{0}\n{1}"
   },
   "SValkyrieInitializeProjectSettingsDialog": {
     "Button.Cancel": "Отмена",
@@ -2259,9 +2420,11 @@
     "Message.CustomSettings": "Пользовательские настройки:",
     "Message.DefaultSettings": "Настройки по умолчанию:",
     "Title": "Инициализировать настройки проекта",
-    "Message": "Необходимые настройки проекта не инициализированы.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'."
+    "Message": "Необходимые настройки проекта не инициализированы.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'.",
+    "Message.DefaultEntry": "• {0}"
   },
   "SValkyrieProjectSize": {
+    "UnknownDownloadSizePlaceholder": "???",
     "MenuTooltip.Browse": "Переход к выбранному элементу",
     "MenuLabel.Browse": "Обзор…",
     "Settings.SizeBreakdownView.Label.ByPackage": "По пакету",
@@ -2298,9 +2461,14 @@
     "UploadSizeLabel": "Размер выгрузки:",
     "Settings.SizeBreakdownView.Label.UseRawSize": "Использовать размер без обработки",
     "Settings.SizeBreakdownView.ToolTip.UseRawSize": "Использовать размер без обработки, не используя подгонку, учитывающую различия между платформами?",
+    "VerseObjectName": "Verse",
     "Settings.SizeBreakdownView.ToolTip.ByPackage": "Просмотреть разбивку размера с группировкой по пакетам.",
     "Settings.SizeBreakdownView.ToolTip.ByType": "Просмотреть разбивку размера с группировкой по типу.",
-    "SizeInMBFmt": "{0} Мбайт"
+    "DependencyLabelWithVersionFmt": "{0} (v{1})",
+    "LastUploadedTimestampWithVersionFmt": "{0} (v{1})",
+    "SizeInMBFmt": "{0} Мбайт",
+    "DownloadSizeWithLimitFmt": "{CombinedDownloadSize} / {ProjectDownloadSizeLimit}",
+    "UploadSizeWithLimitFmt": "{ProjectUploadSize} / {ProjectUploadSizeLimit}"
   },
   "SValkyrieProjectVersePathDialog": {
     "CancelButton": "Отмена",
@@ -2344,9 +2512,11 @@
   "SVkWorkspaceSelector": {
     "WorkspaceCreationDate": "\nДата создания: {0}",
     "WorkspaceLastPublish": "\nПоследняя публикация: {0}",
+    "WorkspaceTooltipNotes": "\n{0}",
     "NoWorkspaceTooltip": "Не использовать рабочее пространство и определять/публиковать контент в онлайн-среде.",
     "WorkspaceLastPublishNever": "Никогда",
-    "NoWorkspaceName": "Без рабочего пространства (онлайн)"
+    "NoWorkspaceName": "Без рабочего пространства (онлайн)",
+    "WorkspaceTooltip": "{0}{1}{2}{3}"
   },
   "SVVDialog": {
     "ButtonLabelCancel": "Отмена",
@@ -2382,7 +2552,9 @@
     "MemoryProfilerTabTooltip": "Представление с разбивкой по использованию памяти клиента."
   },
   "UEFN": {
-    "ValkyriePIE": "Чтобы запустить игру в редакторе в UEFN, редактор нужно запускать с командой -nomcp."
+    "ValkyriePIE": "Чтобы запустить игру в редакторе в UEFN, редактор нужно запускать с командой -nomcp.",
+    "VerseFortniteUI": "UEFN",
+    "WindowTitleOverride": "Unreal Editor"
   },
   "UEFNSyncProject": {
     "UploadProjectsFailCancel": " Все выгрузки отменены",
@@ -2496,6 +2668,8 @@
     "Command_MakePointer_ToolTip": "Добавить указатель (^)",
     "Command_AutoFormatSelection": "Автоформатирование выбранного фрагмента",
     "Command_AutoFormatSelection_ToolTip": "Автоформатирование выбранного фрагмента.",
+    "Command_Home": "BeginLine",
+    "Command_CloseTileMenu": "CloseTileMenu",
     "Command_CloseTileMenu_ToolTip": "Закрывает меню текущей плитки и фиксирует изменения.",
     "Command_ToggleComment_ToolTip": "Преобразовать/отменить преобразование выбранного фрагмента в комментарий",
     "Command_Copy": "Копировать",
@@ -2507,8 +2681,10 @@
     "Command_Edit": "Редактировать",
     "Command_Edit_ToolTip": "Изменить плитку",
     "Command_ActivateInlineEditing_ToolTip": "Редактировать выбранный фрагмент",
+    "Command_End": "EndLine",
     "Command_FindFile": "Поиск по файлам",
     "Command_FindFile_ToolTip": "Поиск по файлам",
+    "Command_Find": "FindInFile",
     "Command_GoToDefinition": "Перейти к определению",
     "Command_ToggleNewlineAfter_ToolTip": "Вставляет/удаляет новую строку",
     "Command_MakeInverse_ToolTip": "Инвертировать результат",
@@ -2542,6 +2718,10 @@
     "Command_ShiftMoveLeft_ToolTip": "Смещение курсора влево",
     "Command_ShiftMoveRight_ToolTip": "Смещение курсора вправо",
     "Command_ShiftMoveDown_ToolTip": "Смещение курсора вверх",
+    "Command_ShiftMoveUp": "ShiftMoveDown",
+    "Command_ShiftMoveLeft": "ShiftMoveLeft",
+    "Command_ShiftMoveRight": "ShiftMoveRight",
+    "Command_ShiftMoveDown": "ShiftMoveUp",
     "Command_Find_ToolTip": "Поиск по символам",
     "Command_ToggleCodeOverview": "Включить/отключить обзор кода",
     "Command_ToggleComment": "Переключить комментарий",
@@ -2658,9 +2838,11 @@
   },
   "UIContextViewer": {
     "EmptyEntryValue": "(Пусто)",
+    "Quantity": "({0})",
     "PlayerContextTitle": "Игрок {0}"
   },
   "UIStateChartEditor": {
+    "Quantity": "({0})",
     "FinishAdding": "Добавить",
     "AddStateTransaction": "Добавить состояние",
     "AddTransitionTransaction": "Добавить переход",
@@ -2708,6 +2890,7 @@
     "PatchRequired": "Ошибка входа: требуется патч.",
     "LoginFailedFMT": "Ошибка входа: {0}",
     "UpdateCachedOwnershipsNotLoggedIn": "Пользователь не вошёл в систему",
+    "EulaFormat": "{0}\n\n{1}",
     "FailedOfflineMode": "Для запуска {0}\n\n{1} необходимо войти в систему. Отключение.",
     "ServicesUnavailable": "В настоящий момент сервисы {0} недоступны.\n\nПока подключение к сервисам не будет восстановлено, ряд функций не будет работать."
   },
@@ -2828,7 +3011,8 @@
     "NoProjectToArchive": "Проекты для архивации не найдены",
     "GatherProjects": "Сбор проектов…",
     "GatheringWorkspacePublishedContent": "Сбор опубликованного контента рабочего пространства…",
-    "GatheringWorkspaces": "Сбор рабочих пространств…"
+    "GatheringWorkspaces": "Сбор рабочих пространств…",
+    "ProjectArchivingListItem": "[{0}] {1}"
   },
   "ValkyrieConvertIslandProjectFlow": {
     "ConvertedBeforeWarning_Cancelled": "Отменено при получении предупреждения о выполненном ранее преобразовании острова.",
@@ -2849,7 +3033,10 @@
     "ConvertedBeforeMessage": "Проект содержит данные UEFN, сгенерированные ранее, но мы не можем найти их на этом устройстве. Эти данные можно сгенерировать ещё раз из острова, созданного в творческом режиме, но в них не будут включены изменения, которые вы внесли с помощью UEFN.\n\nВы уверены?"
   },
   "ValkyrieDiagnosticNotifications": {
-    "ValkyrieDiagnostics_LogCategoryName": "Диагностика Verse"
+    "RichDiagnostic_Format": "<a id=\"script_link\" href=\"{FilePath}?line={Line}&char={Character}\" style=\"Common.GotoBlueprintHyperlink\">{Locus}</>: [{Channel}] {Description}",
+    "ValkyrieDiagnostics_LogCategoryName": "Диагностика Verse",
+    "RichDiagnosticEmpty_Format": "[{Channel}] {Description}",
+    "DiagnosticConcatFmt": "{0}:[{1}] {2}"
   },
   "ValkyrieEarlyStartupModule": {
     "UEFN_AppName": "Unreal Editor для Fortnite (Beta)",
@@ -2903,6 +3090,7 @@
     "SectionText": "Настройки"
   },
   "ValkyrieEditorFlows": {
+    "CreateBuild.PreparePlatformData.ListDelimeter": ", ",
     "SaveDirtyAssets.Error.MustSaveAll": "Перед выгрузкой необходимо сохранить все ресурсы.\n Для отмены изменений откройте ещё раз карту или проект.",
     "UploadProject.Success": "Все проекты обновлены",
     "ResolveValidationSession Failed": "Минимум один модуль не прошёл проверку",
@@ -2911,15 +3099,16 @@
     "PrepareProjectSourceDataForUpload.FailRemovePublicApi": "Не удалось удалить публичный API проекта",
     "PrepareProjectSourceDataForUpload.FailSanitizePublicApi": "Не удалось зачистить публичный API проекта",
     "CreateBuild.TaskMessage": "Создание сборки…",
-    "UploadProject.CreateCandidateModuleVersions": "Создание версий модуля… ",
+    "UploadProject.ValidationSession_CreateModuleVersions": "Создание версий модуля…",
+    "UploadProject.ValidationSession_Create": "Создание удалённого сеанса валидации...",
     "SaveDirtyAssets.Error.FailedToSave": "Невозможно удалить ресурсы с внесенными изменениями",
     "LocalizeProject.Settings.Button.Continue": "Экспорт локализации",
     "Session Initialization Failed": "Не удалось инициализировать сеанс",
     "UploadProject.Error.InternalError": "Не удалось инициализировать сеанс",
-    "UploadProject.Error.ValidationFailure": "Не удалось подтвердить предложенный модуль",
+    "UploadProject.Error.ValidationFailure": "Не удалось подтвердить версии предложенного модуля",
     "LocalizeProject.Settings.Message": "Чтобы экспортировать данные локализации этого проекта, выберите соответствующие настройки для инициализации.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'.",
     "LocalizeProject.Settings.Title": "Инициализация настроек локализации",
-    "UploadProject.InitializeValidationSession": "Инициализация сеанса проверки…",
+    "UploadProject.ValidationSession_Initialize": "Инициализация…",
     "CreateBuild.Error.InternalError": "Внутренняя ошибка",
     "LocalizeProject.Error.InternalError": "Внутренняя ошибка",
     "UploadProject.FailedToRequestPrepareProjectSourceData": "Внутренняя ошибка: ошибка запроса подготовки исходных данных проекта",
@@ -2943,7 +3132,8 @@
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "LocalizeProject.Error.LocalizationSettingsUninitialized": "Настройки локализации не инициализированы.",
     "LocalizeProject.TaskTitle": "Обновление локализации...",
-    "UploadProject.UploadingContent": "Выгрузка контента…",
+    "UploadProject.UploadingProjects": "Выгрузка проектов…",
+    "UploadProject.ValidationSession_LocalValidation": "Валидация исходных локальных файлов…",
     "LocalizeProject.Message.WarnAboutDirtyPackages": "У вас есть несохранённые изменения, которые не попадут в экспорт локализации.\n\nПродолжить?",
     "CreateBuild.PreparePlatformData.MessageLog.CookFailure": "{0}: не удалось подготовить данные для {1}",
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: данные для {1} подготовлены"
@@ -2963,8 +3153,11 @@
     "ValkyrieCloseProject_ToolTip": "Закрывает текущий проект.",
     "Coming Soon": "Уже скоро!",
     "ContinueToLoad": "Продолжить загрузку",
-    "CopyVersePathLabel": "Скопировать путь Verse",
-    "CopyVersePathTooltip": "Скопировать пути выбранного модуля Verse в буфер обмена",
+    "CopyAssetVersePathTooltip": "Копирует пути в Verse к выбранным ресурсам в буфер обмена.",
+    "CopyFolderVersePathTooltip": "Копирует пути в Verse к выбранным папкам в буфер обмена.",
+    "CopyContentVersePathLabel": "Копировать путь в Verse к контенту",
+    "CopyVersePath": "Скопировать путь Verse",
+    "CopyVersePathTooltip": "Скопировать пути в Verse к выбранному контенту в буфер обмена",
     "ValkyrieOpenProject_ToolTip": "Создать новый проект или открыть существующий",
     "VkProjectSubMenuDebugSection": "Отладка",
     "ValkyrieRevisionControlToggle_ToolTip": "Включить/отключить {0} контроль версий для каждого конкретного проекта",
@@ -3079,6 +3272,7 @@
     "UEFNFolder.AI": "ИИ",
     "UEFNFolder.Audio": "Аудио",
     "UEFNFolder.Environment": "Среда",
+    "FortniteFolder": "Fortnite",
     "UEFNFolder.Gameplay": "Игровой процесс",
     "UEFNFolder.Vehicle.Gameplay": "Игровой процесс",
     "UEFNFolder.Environment.Hazard": "Опасность",
@@ -3086,6 +3280,7 @@
     "UEFNFolder.Logic": "Логика",
     "UEFNFolder.Mode": "Режим",
     "OtherFolder": "Другое",
+    "UEFNFolder.Audio.Patchwork": "Patchwork",
     "UEFNFolder.Physics": "Физика",
     "UEFNFolder.PowerUp": "Усиление",
     "PropsFolder": "Объекты",
@@ -3095,7 +3290,8 @@
     "UEFNFolder.Traversal": "Передвижение",
     "UEFNFolder.UI": "Интерфейс",
     "UnknownFolder": "Неизвестно",
-    "UEFNFolder.Vehicle": "Транспортное средство"
+    "UEFNFolder.Vehicle": "Транспортное средство",
+    "GenerateWeaponAliases.DisplayNameWithRarityFmt": "{0} L{1}"
   },
   "ValkyrieFortniteEditor": {
     "ValkyrieNoBuildIdOverride": "-BuildIdOverride=<Your Unique Number>  Для запуска и установки соединения локального клиента с сервером необходимо ввести это в командной строке или задать в виде консольной переменной!",
@@ -3141,7 +3337,10 @@
     "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "PrepareProjectSourceDataForUpload.FailCleanupIntermediateAssets": "Внутренняя ошибка: нет открытых проектов",
     "UploadProject.Error.NoProject": "Нет загруженных проектов",
+    "UploadProject.ValidationSession_VerseHotReload": "Перезагрузка кода Verse…",
+    "UploadProject.ValidationSession_StoreSnapshots": "Сохранение снимков состояния проекта…",
     "UploadProject.Error.UploadFailed": "Сбой выгрузки",
+    "UploadProject.ValidationSession_Upload": "Выгрузка…",
     "PrepareUploadProject.Error.ValidationFailed": "Проверка не пройдена",
     "UploadProject.Error.NoEditSession": "Сбой горячей перезагрузки Verse",
     "UploadProject.Error.VerseHotReloadFailed": "Сбой горячей перезагрузки Verse"
@@ -3424,9 +3623,11 @@
     "ValkyrieFortniteEditorMenuCommon_FailedToCreateSessionOverride": "{0}\n\nВаш сервер: {1}\nВаша сборка: {2}\nРегион: {3}\nПереопределение идентификатора сборки: {4}",
     "ValkyrieReloadEditorSettingsFromUncooked_MenuEntry": "{0} (Из неконвертированной в формат платформы корневой папки)",
     "PlayerNameNumber": "{0} (Игрок {1})",
-    "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз."
+    "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз.",
+    "MemorySamplingStateDialog.MemoryRatio": "{0}/{1}"
   },
   "ValkyrieFortniteTemplateItem": {
+    "FortniteGame": "Fortnite",
     "CreationAccessPrompt_CreateRestricted": "На островах, созданных с использованием шаблонов {0}, применяются особые требования к материалам и действуют другие правила расчёта потенциальных выплат за вовлечение.\n\nДля получения доступа к этим материалам вы должны участвовать в программе «Создатели островов» и согласиться с правилами и условиями, регулирующими использование этих шаблонов.",
     "CreationAccessPrompt_CreateGranted": "На островах, созданных с использованием шаблонов {0}, применяются особые требования к материалам и действуют другие правила расчёта потенциальных выплат за вовлечение. Обязательно ознакомьтесь с правилами, прежде чем продолжить.",
     "CreationAccessPromptFormat": "{CreationAccessPrompt}\n<a id=\"{CreationAccessHyperlinkId}\" href=\"{CreationAccessUrl}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>"
@@ -3435,15 +3636,18 @@
     "FeatureExamplesCustomViewName": "Все примеры",
     "IslandTemplatesCustomViewName": "Все шаблоны",
     "BrandTemplatesCategory": "Фирменные шаблоны",
+    "IslandTemplates.FN1Section": "FN1",
+    "BrandTemplates.BeanstalkSection": "Fall Guys",
     "FeatureExamplesCategory": "Демонстрация возможностей",
     "FeatureExamples.GameExamplesSection": "Примеры игр",
     "FeatureExamples.GettingStartedSection": "Начало работы",
     "IslandTemplatesCategory": "Шаблоны острова",
     "BrandTemplates.LimeSection": "Острова LEGO®",
     "BrandTemplatesCustomViewName": "Недавние",
-    "BrandTemplates.AkitaSection": "Звёздные войны",
+    "BrandTemplates.DelMarSection": "Rocket Racing",
     "IslandTemplates.StarterIslandsSection": "Начальные острова",
-    "BrandTemplates.MeltedIronSection": "Черепашки-ниндзя"
+    "BrandTemplates.MeltedIronSection": "Черепашки-ниндзя",
+    "BrandTemplates.DarkVortexSection": "The Walking Dead Universe"
   },
   "ValkyrieFortniteTexts": {
     "SkydomeDeprecationMessage": "Обратите внимание: ваш остров использует устаревшее устройство \"Смена дня и ночи\" и \"Небо\". Эта система является устаревшей. Вы можете перейти на новую систему во избежание проблем с публикацией.\n\n",
@@ -3551,6 +3755,7 @@
     "InvalidVKPluginDescriptor": "Недопустимый дескриптор плагина\n{0}\n{1}"
   },
   "ValkyrieProject": {
+    "ContentRemoval.Indent": "\t\t",
     "ContentRemoval.ReferencedAssets": "\tВнешние ресурсы:",
     "ContentRemoval.ReferencingAssets": "\tСсылающиеся ресурсы:",
     "ProjectVersePathUpdated": "Путь Verse '{0}' установлен на:",
@@ -3658,6 +3863,7 @@
     "PluginFriendlyNameTooltip": "Сохранено удобное название плагина в модуле сервиса управления контентом или нет (вместо замены на ГУИД модуля при выгрузке)"
   },
   "ValkyrieProjectCreationParams": {
+    "ProjectVersePathFailedValidation": "Путь к проекту в Verse не прошёл модерацию: {0}",
     "ProjectVersePathAlreadyTaken": "Путь проекта Verse уже используется: {0}",
     "ProjectUnderExternalBackupSystemValidationWarning": "Сохранение вашего проекта в {0} может вызвать конфликт или непредвиденное взаимодействие с другими системами контроля версий."
   },
@@ -3793,25 +3999,41 @@
     "CopyProjectFilePathContextMenuEntry": "Скопировать путь к проекту",
     "CopyProjectFilePathContextMenuEntry_ToolTip": "Скопировать путь к проекту на диске в буфер обмена.",
     "UpdateArchiveStatusProjectNotFound": "Не удалось найти проект '{0}' в сервисе управления контентом.",
+    "ErrorGettingLinkCodeInfoMessage": "Не удалось найти идентификатор проекта \"{0}\".",
+    "ErrorResolvingVersePathMessage": "Не удалось найти идентификатор проекта \"{0}\".",
+    "NoViewErrorMessage": "Не удалось найти вид для владельца '{0}'.",
+    "ErrorCreatingProjectInfoTitle": "Ошибка при создании информации о проекте",
+    "ErrorGettingLinkCodeInfoTitle": "Ошибка при получении информации о коде ссылки",
+    "ErrorLoadingProjectInfoTitle": "Ошибка при загрузке информации о проекте",
+    "ErrorResolvingVersePathTitle": "Ошибка перерасчёта пути Verse",
     "ProjectManagementSectionHeading": "Управление",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
     "OfflineDisplayNameText": "Локально",
     "OnlyArchivedProjectsToolTip": "Показывать только заархивированные проекты",
     "OpenProjectActionText": "Открыть",
+    "SelectProjectById_Hint": "ГУИД, путь в Verse или код ссылки проекта",
     "LoadingProjectDocumentMessage": "Получение информации о проекте...",
+    "SelectProjectByIdButtonText": "Выбор по идентификатору…",
+    "SelectProjectById_DialogTitle": "Выбор проекта",
     "BrowseForProjectOnDiskTitleText": "Выбор проекта, который нужно открыть",
+    "SelectProjectByIdButtonToolTip": "Выбор проекта по его ГУИД, пути в Verse или коду ссылки",
     "OpenProjectFolderContextMenuEntry": "Отображать проект в {FileManagerName}",
     "OpenProjectFolderContextMenuEntry_ToolTip": "Отображать папку проекта на диске.",
+    "SelectProjectById_SyntaxFeedbackMessage": "Введён недействительный ГУИД, путь в Verse или код ссылки.",
     "OnlineProjectWithNoLocalRepresentation": "Не удалось найти проект в ожидаемом месте. Если он есть на компьютере, нажмите кнопку Обзор, чтобы найти его. Если нет, может потребоваться синхронизация с системой контроля версий.",
     "LockedProject": "Проект заблокирован. Обратитесь в <a id=\"player_support\" href=\"{PlayerSupportURL}\" style=\"ValkyrieEditor.HyperlinkStyle\">службу поддержки игроков Epic</> и укажите проект {ProjectId}.",
     "UnarchiveProjectContextMenuEntry": "Распаковать",
     "UnarchiveProjectContextMenuEntry_ToolTip": "Разархивирует проект",
     "PromptAboutUnarchivingProjectUponActionTitle": "Распаковка проекта",
     "UnarchiveStatusMessage": "Распаковка проекта…",
+    "ErrorCreatingProjectInfoMessage": "Неизвестная ошибка.",
     "UpdateArchiveStatusErrorTitleText": "Ошибка обновления статуса архива",
     "ValidatingActionText": "Идёт проверка...",
     "WorkspaceLabel": "Рабочее пространство",
+    "CannotGetLinkCodeInfoMessage": "Чтобы выбрать проект по коду ссылки, нужно войти в систему.",
+    "CannotResolveVersePathMessage": "Чтобы выбрать проект, который расположен в удалённом расположении, по пути в Verse, нужно войти в систему.",
+    "CannotGetProjectInfoMessage": "Чтобы выбрать проект, который расположен в удалённом расположении, по идентификатору, нужно войти в систему.",
     "TeamViewDisplayNameFormatText": "Проекты {0}",
     "PromptAboutUnarchivingProjectUponActionMessage": "Если {0} этот проект, он автоматически распакуется.\n\nВсё равно продолжить?"
   },
@@ -4040,6 +4262,14 @@
     "RefreshToolTipText": "Обновить",
     "RefreshingToolTipText": "Обновление…"
   },
+  "ValkyrieUncookedRootDir": {
+    "UncookedRootDirCLZero": "Список изменений 0 в файле версии сборки в UncookedRootDir",
+    "FileFailedRead": "Не удалось прочитать файл версии сборки из UncookedRootDir",
+    "CurrentBuildChangelistZero": "Список изменений текущей сборки — 0",
+    "OutOfDate": "Необходимо синхронизировать UncookedRootDir, чтобы список изменений текущей сборки совпадал с ней",
+    "DifferentBranch": "Ветка UncookedRootDir отличается от сборки, которая запущена в данный момент",
+    "PathIsEmpty": "UncookedRootDirPath пуст"
+  },
   "ValkyrieUserFeedbackUtility": {
     "ReportIssueDialog.Message": "Нажмите \"OK\", чтобы сообщить о новой проблеме. Затем перейдите в свой браузер по умолчанию и заполните оставшиеся поля формы.\n",
     "ReportIssueDialog.OkButton": "OK",
@@ -4090,15 +4320,19 @@
     "Blueprints.Fixer.Transaction": "Вычищенная схема",
     "Blueprints.Fixer.SanitizedBlueprint": "Вычищенная схема: {0}",
     "Blueprints.Error.RestrictedContent": "Эта схема содержит запрещённый контент. Вычистите её, чтобы удалить следующий запрещённый контент: ({ValidatorClass})",
+    "MaterialCompilation.ErrorFmt": "[{0}] {1}",
     "VirtualizedData": "содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData",
     "WorldLimits.ActorCountError.TitleFmt": "{TitleMessage}. Уникальные акторы: ({ValidatorClass})",
     "Blueprints.ActorCountError.UniqueActorOverflow": "• … и ещё {0}",
-    "Blueprints.Error.RestrictedContent.RestrictedObjectOverflow": "• … и ещё {0}"
+    "Blueprints.Error.RestrictedContent.RestrictedObjectOverflow": "• … и ещё {0}",
+    "Blueprints.Error.RestrictedContent.RestrictedObject": "• {0}",
+    "WorldLimits.ActorCountError.UniqueActor": "• {0}"
   },
   "ValkyrieValidator.Textures": {
     "FinalText": "  {AllIssues} {FixText}({ValidatorName})",
+    "FinalTextWoFixText": "  {CombinedManualFixIssues} ({ValidatorName})",
     "TextureTooBigForUploadSuffixText": "Измените размеры исходного файла текстуры до {0}×{0} или меньше.",
     "NonUITextureTooBigSuffixText": "Измените свойство \"Предпочтительный уровень детализации\".",
     "UITextureTooBigSuffixText": "Измените свойство \"Предпочтительный уровень детализации\".",
@@ -4128,6 +4362,12 @@
     "Using Legacy Lighting": "Использование смены дня и ночи является устаревшим. Переключитесь на другой диспетчер времени суток мира в параметрах мира."
   },
   "VersaTilesIde": {
+    "Spinner5": "     .oO",
+    "Spinner4": "    .oO ",
+    "Spinner3": "   .oO  ",
+    "Spinner2": "  .oO   ",
+    "Spinner1": " .oO    ",
+    "Spinner0": ".oO     ",
     "CreateVerseFile": "Добавить новый файл Verse в проект",
     "MarkForAddToolTip": "Добавляет файл в систему контроля версий.",
     "FailedToDeleteDirectoryBody": "При попытке удалить этот каталог возникла ошибка. Убедитесь, что у вас есть права для записи",
@@ -4186,6 +4426,7 @@
     "CreateModuleFailedExists": "Модуль уже существует!",
     "No Revision Control Connected": "Система контроля версий не подключена",
     "No Revision Control connected, force delete of {0}?": "Система контроля версий не подключена. Удалить {0}?",
+    "Spinner6": "O     .o",
     "OpenContainingFolderEntry": "Открыть каталог",
     "OpenWithDefaultEditorEntry": "Открыть в редакторе по умолчанию",
     "OpenVSCodeWorkspace": "Открыть в Visual Studio Code",
@@ -4214,8 +4455,10 @@
     "UEFN not present!": "UEFN отсутствует!",
     "AddFileTooltip": "Используйте шаблон Verse, чтобы добавить новый файл Verse в каталог контента этого проекта.",
     "CreateFileTooltip": "Используйте шаблон Verse, чтобы создать новый файл Verse.",
+    "VisualVerseComposerMenuGroupName": "Visual Verse",
     "Checkout Issue": "Visual Verse не был инициализирован через UEFN, инициализация потока создания файла не выполнена. Нажмите OK, чтобы создать файл (NewFile.verse).",
     "WindowMenuLabel": "Окно",
+    "Spinner7": "oO     .",
     "CreateModuleFailedBodyExists": "{0} уже существует, переименуйте существующий модуль."
   },
   "VerseAssetCustomization": {
@@ -4265,7 +4508,8 @@
     "Details": "Сведения"
   },
   "VerseEditorSettings": {
-    "SectionDescription": "Настройка редактирования Verse"
+    "SectionDescription": "Настройка редактирования Verse",
+    "SectionText": "Verse"
   },
   "VerseGameplayTagContainerCustomization": {
     "GameplayTagContainerCustomization_Clear": "Сбросить всё",
@@ -4297,6 +4541,9 @@
   },
   "VersePropertyEditor": {
     "MultipleValues": "Несколько значений"
+  },
+  "VkAnimNodeDetails": {
+    "Category": "AnimToPlay"
   },
   "VkChoiceNodeDetails": {
     "Category": "Ответ",
@@ -4332,6 +4579,9 @@
     "MessageName": "Сообщение",
     "Category": "Речь"
   },
+  "VkTextCrawlNodeDetails": {
+    "Category": "CharactersPerSecond"
+  },
   "VkTextureNodeDetails": {
     "Category": "Текстура"
   },
@@ -4341,6 +4591,7 @@
   "VSCodeNotFound": {
     "CopyMessageTooltip": "Скопировать текст сообщения в буфер обмена (CTRL+C)",
     "WarningTitle": "Не найдено ни установленной копии, ни файла установки VS Code!",
+    "PrimaryButtonText": "OK",
     "WarningText": "Если вы хотите редактировать код Verse с поддержкой функций языка Verse в Unreal Editor for Fortnite, необходимо установить Microsoft Visual Studio Code. Вы видите это сообщение, потому что в имеющемся редакторе нет ни установленной копии, ни файла установки этой программы. Перейдите на сайт <a id=\"download_url\" href=\"{DownloadUrl}\" style=\"Common.GotoBlueprintHyperlink\">{DownloadUrl}</> и загрузите последнюю версию для вашей операционной системы, а затем перезапустите редактор, если хотите сменить язык."
   },
   "VVCommands": {
