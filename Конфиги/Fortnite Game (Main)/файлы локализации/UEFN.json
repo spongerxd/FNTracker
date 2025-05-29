@@ -1021,7 +1021,10 @@
     "CreateDataTablesButton": "Добавить карту",
     "CreateDataTablesTooltip": "Создаёт и подключает таблицы данных на основе предоставленного названия карты.",
     "MapNameHint": "Введите название карты (например, Helios_Terrain)",
-    "MapNameLabel": "Название карты"
+    "UnloadPackageFailedMsg": "Не удалось выгрузить пакет: {0}",
+    "MapNameLabel": "Название карты",
+    "RunFrontEndSetupButton": "Запустить консольную программу настройки интерфейса",
+    "UnloadPackageErrorTitle": "Ошибка выгрузки пакета"
   },
   "FortQuestObjectiveEditor": {
     "ComponentActions": "Действия с компонентом",
@@ -4238,6 +4241,7 @@
     "EmptyProjectId": "Идентификатор проекта пуст",
     "EmptyProjectName": "Пустое название проекта",
     "InvalidProjectLocation": "Недопустимое расположение проекта \"{0}\"",
+    "NoRevisionControlSettings": "В проекте отсутствуют настройки контроля версий",
     "SyncErrorTitleText": "Не удалось выполнить синхронизацию",
     "SyncedProjectIsInvalid": "Синхронизированный проект недействителен",
     "UnableToGenerateValidProjectFolderName": "Не удалось сгенерировать допустимое название папки проекта в \"{0}\", в которую можно установить проект.",
