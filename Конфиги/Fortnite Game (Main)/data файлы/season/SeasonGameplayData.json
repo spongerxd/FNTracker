@@ -1,7 +1,7 @@
 [
   {
     "Type": "BRSeasonGameplayData",
-    "Name": "SeasonGameplayData_S35",
+    "Name": "SeasonGameplayData_S36",
     "Class": "UScriptClass'BRSeasonGameplayData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -11,8 +11,8 @@
             "TagName": "Conversation.Table.NPC.Services"
           },
           "Value": {
-            "ObjectName": "DataTable'NPCServices_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/NPCServices_S35.0"
+            "ObjectName": "DataTable'NPCServices_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/NPCServices_S36.0"
           }
         },
         {
@@ -20,8 +20,8 @@
             "TagName": "Conversation.Table.NPC.Sales"
           },
           "Value": {
-            "ObjectName": "DataTable'NPCSales_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/NPCSales_S35.0"
+            "ObjectName": "DataTable'NPCSales_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/NPCSales_S36.0"
           }
         },
         {
@@ -30,7 +30,7 @@
           },
           "Value": {
             "ObjectName": "DataTable'Station_GiftItems'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/Station_GiftItems.0"
+            "ObjectPath": "/BattlePassS36_Services/DataTables/Station_GiftItems.0"
           }
         },
         {
@@ -39,7 +39,7 @@
           },
           "Value": {
             "ObjectName": "DataTable'Station_Gifts'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/Station_Gifts.0"
+            "ObjectPath": "/BattlePassS36_Services/DataTables/Station_Gifts.0"
           }
         },
         {
@@ -47,8 +47,8 @@
             "TagName": "Tandem.Data.VendingMachine.StationServices"
           },
           "Value": {
-            "ObjectName": "DataTable'StationServices_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/StationServices_S35.0"
+            "ObjectName": "DataTable'StationServices_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/StationServices_S36.0"
           }
         },
         {
@@ -56,8 +56,8 @@
             "TagName": "Tandem.Data.VendingMachine.StationSales"
           },
           "Value": {
-            "ObjectName": "DataTable'StationSales_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/StationSales_S35.0"
+            "ObjectName": "DataTable'StationSales_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/StationSales_S36.0"
           }
         },
         {
@@ -65,8 +65,8 @@
             "TagName": "Tandem.Data.PricingKeyRemapping"
           },
           "Value": {
-            "ObjectName": "DataTable'NPCPricingKeyRemaps_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/NPCPricingKeyRemaps_S35.0"
+            "ObjectName": "DataTable'NPCPricingKeyRemaps_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/NPCPricingKeyRemaps_S36.0"
           }
         }
       ],
@@ -77,7 +77,7 @@
           },
           "Value": {
             "ObjectName": "FortConversationGiftTypeDefinitions'Station_GiftTypeDefinitions'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/Station_GiftTypeDefinitions.1"
+            "ObjectPath": "/BattlePassS36_Services/DataTables/Station_GiftTypeDefinitions.1"
           }
         },
         {
@@ -85,8 +85,8 @@
             "TagName": "Tandem.Data.ConditionalBenefits"
           },
           "Value": {
-            "ObjectName": "FortConditionalBenefitsConfigCollection'NPCReputationBenefits_S35'",
-            "ObjectPath": "/BattlePassS35_Quests/DataTables/NPCReputationBenefits_S35.0"
+            "ObjectName": "FortConditionalBenefitsConfigCollection'NPCReputationBenefits_S36'",
+            "ObjectPath": "/BattlePassS36_Services/DataTables/NPCReputationBenefits_S36.0"
           }
         }
       ],

@@ -672,6 +672,7 @@
     "UnknownRHI": "<Unknown>",
     "FeatureLevelUnknown": "<unknown>",
     "RequiredDX11Feature_11_SM5": "Для работы движка игры требуется графический процессор с поддержкой D3D11 (уровень функций 11.0, шейдерная модель 5.0).",
+    "RequiredVulkan": "Для работы движка требуется совместимый драйвер Vulkan.",
     "D3D11": "DirectX 11",
     "D3D12": "DirectX 12",
     "RequiredDX12": "Ваша система не поддерживает DirectX 12. Попробуйте запустить игру без параметров -dx12 или -d3d12 в командной строке.",
@@ -683,7 +684,6 @@
     "FeatureLevelSM6": "SM6",
     "MissingTargetedShaderFormats": "Не удалось запустить RHI «{0}», поскольку проект его не поддерживает.",
     "Vulkan": "Vulkan",
-    "RequiredVulkan": "Для работы движка игры требуется драйвер Vulkan.",
     "RHINotSupported": "{0} не поддерживает: {1}."
   }
 }

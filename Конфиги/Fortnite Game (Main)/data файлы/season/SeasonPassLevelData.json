@@ -1,14 +1,13 @@
 [
   {
     "Type": "SeasonPassLevelData",
-    "Name": "SeasonPassLevelData_S35",
+    "Name": "SeasonPassLevelData_S36",
     "Class": "UScriptClass'SeasonPassLevelData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "TotalLevels": 70,
-      "SeasonLevelPurchaseLimit": 50,
-      "SeasonLevelPurchaseBundleLimit": 40,
-      "SeasonLevelOffer_MaxLevel": 70
+      "SeasonLevelPurchaseLimit": 100,
+      "SeasonLevelPurchaseBundleLimit": 100,
+      "SeasonLevelOffer_MaxLevel": 200
     }
   }
 ]

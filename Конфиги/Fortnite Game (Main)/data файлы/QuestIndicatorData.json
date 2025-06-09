@@ -33,6 +33,13 @@
             "ObjectName": "CompositeDataTable'DashBerryMapMarkersDataTable'",
             "ObjectPath": "/Game/Quests/QuestTagLocations/DashBerryMapMarkersDataTable.0"
           }
+        },
+        {
+          "Key": "Athena_Terrain_S04",
+          "Value": {
+            "ObjectName": "CompositeDataTable'Athena_Terrain_S04MapMarkersDataTable'",
+            "ObjectPath": "/Game/Quests/QuestTagLocations/Athena_Terrain_S04MapMarkersDataTable.0"
+          }
         }
       ],
       "FallbackLocationDataTable": {
@@ -599,7 +606,7 @@
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_GasStation_01",
                   "SourceString": "BURD To Go",
-                  "LocalizedString": "Мини-заправка BURD"
+                  "LocalizedString": "НЕКТАРНАЯ КОМНАТА"
                 },
                 "WorldLocation": {
                   "X": 36796.0,
@@ -1819,7 +1826,7 @@
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_52",
                   "SourceString": "eAT-eAT",
-                  "LocalizedString": "Кантина «КушАТь-КушАТь»"
+                  "LocalizedString": "Вход в шахту 1"
                 },
                 "WorldLocation": {
                   "X": 27642.873,
@@ -2046,7 +2053,7 @@
                   "Namespace": "DisplayNamesForPOIs_Hermes_Terrain",
                   "Key": "NameForLocation_Athena_Location_UnNamedPOI_Landmark_52",
                   "SourceString": "Mine Entrance 1",
-                  "LocalizedString": "Кантина «КушАТь-КушАТь»"
+                  "LocalizedString": "Вход в шахту 1"
                 },
                 "WorldLocation": {
                   "X": -96858.66,
@@ -4780,7 +4787,7 @@
           "Key": {
             "TagName": "Product.Figment"
           },
-          "Value": "Athena_Terrain_S03"
+          "Value": "Athena_Terrain_S04"
         },
         {
           "Key": {

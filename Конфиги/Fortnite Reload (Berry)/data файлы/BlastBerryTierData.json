@@ -281,7 +281,7 @@
       },
       "Loot_AthenaTreasure_18": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.00019,
+        "Weight": 0.00011,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -345,6 +345,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.ExoticBundle"
+      },
+      "Loot_AthenaTreasure_05": {
+        "TierGroup": "Loot_AthenaTreasure",
+        "Weight": 0.00011,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.ExoticLawBundle",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.ExoticLawBundle"
       },
       "Loot_ApolloTreasure_Rare_15": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
@@ -549,7 +616,7 @@
       },
       "Loot_ApolloTreasure_Rare_18": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.00238,
+        "Weight": 0.0015,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -613,6 +680,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.ExoticBundle"
+      },
+      "Loot_ApolloTreasure_Rare_05": {
+        "TierGroup": "Loot_ApolloTreasure_Rare",
+        "Weight": 0.0015,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.ExoticLawBundle",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_ApolloTreasure_Rare;LPKG:WorldPKG.ExoticLawBundle"
       },
       "Loot_AthenaSupplyDrop_14": {
         "TierGroup": "Loot_AthenaSupplyDrop",
@@ -884,7 +1018,7 @@
       },
       "Loot_AthenaSupplyDrop_18": {
         "TierGroup": "Loot_AthenaSupplyDrop",
-        "Weight": 0.0006,
+        "Weight": 0.0004,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -948,6 +1082,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.ExoticBundleSupply"
+      },
+      "Loot_AthenaSupplyDrop_06": {
+        "TierGroup": "Loot_AthenaSupplyDrop",
+        "Weight": 0.0004,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.ExoticLawBundle",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_AthenaSupplyDrop;LPKG:WorldPKG.ExoticLawBundle"
       },
       "Loot_BlastBerry_AthenaSupplyDrop_01": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
@@ -1219,7 +1420,7 @@
       },
       "Loot_BlastBerry_AthenaSupplyDrop_05": {
         "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
-        "Weight": 0.0006,
+        "Weight": 0.0004,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -1283,6 +1484,73 @@
         },
         "bAllowBonusLootDrops": true,
         "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.ExoticBundleSupply"
+      },
+      "Loot_BlastBerry_AthenaSupplyDrop_06": {
+        "TierGroup": "Loot_BlastBerry_AthenaSupplyDrop",
+        "Weight": 0.0004,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.ExoticLawBundle",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "Annotation": "TG:Loot_BlastBerry_AthenaSupplyDrop;LPKG:WorldPKG.ExoticLawBundle"
       },
       "Loot_AthenaLlama_02": {
         "TierGroup": "Loot_AthenaLlama",

@@ -99,6 +99,11 @@
   "AssetDefinition_FortTrapItemDefinition": {
     "AssetDisplayName": "FortTrapItemDefinition"
   },
+  "AssetDefinitionVerseTypeEditor": {
+    "FailedToOpenVerseTypeEditor": "Не удалось открыть редактор типов Verse {0}.",
+    "VerseAssetCategory": "Verse",
+    "VerseClass": "Класс Verse"
+  },
   "AssetFactory": {
     "AssetFactory_FortCustomizableObjectVersionBridgeAsset": "Вариант моста форта с возможностью настройки"
   },
@@ -106,7 +111,6 @@
     "AssetAction_GenerateCreativePlaysetPropsDataAssets": "(Повторно) генерировать таблицы подстановки предметов окружения сюжетной обстановки",
     "FortAssetTypeActions_CreativePlaysetPropsDataAsset": "CreativePlaysetPropsDataAsset",
     "UDynamicUISceneAssetDefinition": "Сцена динамического интерфейса",
-    "FailedToOpenVerseEditableSubclass": "Не удалось открыть редактируемый класс Verse {0}.",
     "AssetTypeActions_FortCustomizableObjectVersionBridge": "Вариант моста форта с возможностью настройки",
     "FFortAssetTypeActions_FortHomebaseNodeGameplayEffectDataTable": "Таблица данных эффектов игрового процесса узла главной базы Fortnite",
     "FortAssetTypeActions_FortConversation": "FortConversation",
@@ -125,8 +129,7 @@
     "Thumbnail_StopConversationToolTip": "Остановить выбранный диалог",
     "FortConversation_StopConversationTooltip": "Останавливает выбранный диалог.",
     "AssetVerseSubMenu": "Verse",
-    "AssetTypeActions_VerseClass": "Класс Verse",
-    "AssetTypeActions_VerseSubclass": "Подкласс Verse"
+    "AssetTypeActions_VerseClass": "Класс Verse"
   },
   "Athena": {
     "HiddenPlayerAnonymousNameFormat": "Анонимный[{0}]",
@@ -146,10 +149,15 @@
   "CatalogFulfillment": {
     "MissingTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} не содержит допустимых токенов для передачи. Убедитесь, что он передаёт хотя бы 1 токен типа {1}",
     "InvalidTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который не может быть преобразован в ресурс. Исправьте или удалите идентификатор этого шаблона.",
-    "ImproperTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который преобразовывается в ресурс {2}, используя неподходящий подкласс {3}. Убедитесь, что вместо этого передаётся токен типа {4}"
+    "ImproperTokenClassGrant": "EngagementEventPremiumTrackFulfillment {0} пытается передать шаблон токена {1}, который преобразовывается в ресурс {2}, используя неподходящий подкласс {3}. Убедитесь, что вместо этого передаётся токен типа {4}",
+    "MissingSeasonTemplateMetaInfo": "{0} {1} не содержит допустимых {2}, перечисленных в метаданных. Убедитесь, что он определён и указывает на действительный ресурс {3}",
+    "InvalidSeasonMetaInfo": "{0} {1} содержит недопустимые {2} {3}, которые не могут быть перерассчитаны обратно в ресурс. Проверьте наличие опечаток и несовместимых номеров версий",
+    "InvalidSeasonTemplateTypeMetaInfo": "{0} {1} содержит недопустимое {2} {3}, не соответствующее типу {4}. Этот тип выполнение должен определять допустимые {2}",
+    "MultipleSeasonMetaInfo": "{0} {1} содержит более 1 {2}. Это выполнение должно определять только 1 поле метаданных с этим ключом"
   },
   "CharacterModifier_CosmeticSpawn": {
     "MissingCharacterBlueprintDefinition": "Отсутствует схема персонажа в модификаторе появления!",
+    "MissingCharacterCosmeticAssetIdDataTable": "Отсутствует или не найдена таблица данных идентификаторов косметических предметов персонажа в модификаторе создания!",
     "MissingCharacterCosmeticDefinition": "Отсутствует или не найдено косметическое определение персонажа в модификаторе создания!"
   },
   "CharacterModifier_Emotes": {
@@ -508,6 +516,9 @@
   "FFortAILoadoutInfoCustomization": {
     "ForAILoadoutInfo_LoadoutElement": "Раскладка {0}"
   },
+  "FFortAssetDataUtilityPipeline": {
+    "RunPipelineLabel": "Выполнение операции структуры конвейера FADUT"
+  },
   "FFortAttributeInitializationKeyCustomization": {
     "CategoryToolTipText": "Категория, используемая для поиска по таблицам инициализации атрибутов",
     "CategoryText": "Категория инициализации",
@@ -570,6 +581,11 @@
   },
   "FortAISpawnGroupDetails": {
     "SpawnPointValueFmt": "Значение точки появления: {0}"
+  },
+  "FortAnimationSharingDataAssetDetails": {
+    "EnumIndexValue": "Индекс перечисления {EnumIndex}",
+    "None": "Нет",
+    "EnumStateSearchLabel": "Состояние"
   },
   "FortAssetDataUtilityToolPipeline": {
     "RunToolLabel": "Выполнение операции конвейера FADUT"
@@ -806,7 +822,9 @@
   "FortEditorValidator": {
     "ContentValidationFailed": "!!!!!!! В проверенном контенте найдены ошибки. Не отправляйте контент, пока не устраните их !!!!!!!\n\nСм. подробности в журнале сообщений и журнале выходных данных",
     "ContentValidationPassed": "Весь контент проверен, ошибок нет. Отличная работа!",
+    "FortValidator.LoadReferencingAssetErrors": "Обнаружены ошибки при ссылке на ресурс",
     "Failed": "ОШИБКА",
+    "FortValidator.LoadReferencingAssetFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
     "ContentValidationFailedWithNoMessages": "Ошибок и предупреждений не выявлено, но был код возврата из-за ошибки. См. подробности в журнале выходных данных и файле журнала. Возможно, вам понадобится техническая помощь.",
     "ValidateProjectSettings": "Проверка настройки проекта {Result}",
     "Succeeded": "УСПЕШНО",
@@ -1117,15 +1135,11 @@
     "RemoveInheritanceFix": "Отключить наследование",
     "PlaylistAthenaValidator_EnableDynamicBotBackfillTrue": "Enable Dynamic Bot Backfill не может иметь значение TRUE, если Use Player Rating имеет значение FALSE.",
     "FortValidator_Blueprints.ReferencerErrors": "Обнаружены ошибки при загрузке копии ресурса для проверки",
-    "FortValidator_MaterialFunction.ReferencerErrors": "Обнаружены ошибки при ссылке на ресурс",
-    "FortValidator_Skeleton.ReferencerErrors": "Обнаружены ошибки при ссылке на ресурс",
     "DataValidation.LoadErrors": "Ошибки при загрузке ресурса {0}",
     "FailedToCheckOutPlugins": "Не удалось получить файлы плагина",
     "FailedToDuplicate": "Не удалось дублировать систему Niagara {0}, см. причины ошибок в журналах очистки памяти.",
     "DataValidation.FailedToLoadAsset": "Не удалось загрузить ресурс",
     "FortValidator_Blueprints.LoadFailure": "Не удалось загрузить копию объекта для проверки: {0}",
-    "FortValidator_MaterialFunction.LoadFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
-    "FortValidator_Skeleton.LoadFailure": "Не удалось загрузить ссылающийся объект для проверки: {0}",
     "FortExposedContent.FailedToSpawnValidationActor": "Не удалось создать открытый актор проверки контента",
     "FailedToUpdateState": "Не удалось обновить состояние файлов плагина",
     "ItemDefinition_InvalidReleaseVersion": "Версии выпуска Fortnite '{0}' не существует. Вы можете использовать только значения, входящие в массив AllVersions в файле DefaultFortReleaseVersion.ini",
@@ -1203,6 +1217,7 @@
     "FortValidator_CreativeCost.NoGeneratedClass": "Не удаётся найти сгенерированный класс Blueprint. Он скомпилирован?",
     "PlaylistAthenaValidator_UnableToGetDepsForPlaylist": "Не удалось получить зависимости для плейлиста. Не удалось проверить зависимости плейлиста!",
     "PluginNotFound": "Не удалось открыть свойства плагина для {0}, поскольку плагин не найден.",
+    "Invalid_GameplayTag": "Неизвестный тег игрового процесса {0}",
     "PlaylistAthenaValidator_UseMultidivisionQueuesTrue": "Use Multidivision Queues не может иметь значение TRUE, если Is Tournament имеет значение FALSE.",
     "Particles_SkelVertSurface": "Использование каскадного модуля SkelVertSurface в Fortnite не допускается. Замените его на модуль BoneSocket. Генератор: {0}",
     "AthenaGlider_PhysicsNotRecommended": "Использование физики в дельтапланах и воздушных следах не рекомендуется. Ошибки:\n{0}",
@@ -1251,24 +1266,24 @@
   "FSceneOutlinerSCCHandler": {
     "SCCForceReleaseCancel": "Отмена",
     "SCCForceReleaseMessage": "Снятие блокировок извлечения из {0}, скорее всего, приведёт к конфликтам, которые придётся в дальнейшем устранять вручную. Продолжить?",
+    "SCCForceReleaseAllTitle": "Снять все блокировки извлечения",
     "SCCForceReleaseTitle": "Снять блокировки извлечения",
-    "SCCForceReleaseAllowedToolTip": "Снять блокировки извлечения, удерживаемые {0}.",
+    "SCCForceReleaseAllAllowedToolTip": "Снять блокировки извлечения, удерживаемые {0}, во всех файлах.",
+    "SCCForceReleaseAllowedToolTip": "Снять блокировки извлечения, поддерживаемые {0} выбранным файлом(-и).",
     "SCCForceReleaseNotAllowedToolTip": "Ограничивается владельцем проекта и администраторами.",
     "SCCForceRelease": "Разблокировать",
-    "SCCForceReleaseConfirm": "Разблокировать"
+    "SCCForceReleaseConfirm": "Разблокировать",
+    "SCCForceReleaseAllConfirm": "Разблокировать всё",
+    "SCCForceReleaseAll": "Разблокировать все ({0})"
   },
   "FValkyrieFortniteEditorSpatialMetrics": {
     "ServerSession": "Сервер"
   },
   "FVerseTransformStructCustomization": {
-    "ForwardDisplayName": "Вперёд (ранее X)",
-    "LeftDisplayName": "Влево (ранее –Y)",
-    "RightDisplayName": "Вправо (ранее Y)",
     "RotationFilter": "Вращение",
     "ScaleFilter": "Масштаб",
     "SetPropertyValue": "Задать {0}",
     "TranslationFilter": "Перенос",
-    "UpDisplayName": "Вверх (ранее Z)",
     "PreserveScaleToolTip": "Если блокировка включена, значения всех осей масштабируются равномерно, поэтому объект сохраняет свои пропорции во всех направлениях."
   },
   "GameplayEventCachedBindingDetails": {
@@ -1349,6 +1364,7 @@
     "EmptyValidation": "Данные элемента признаков '{0}' не содержат допустимых признаков!"
   },
   "ItemDefinitionBase": {
+    "DisplayNameLabel": "Отображаемое название",
     "SetItemData_MissingInputProperty": "Не удалось получить входной параметр для SetItemData.",
     "GetItemData_MissingOutputProperty": "Не удалось получить выходной параметр для GetItemData.",
     "SetItemData_InvalidInputProperty": "Структуры, полученные не из FItemComponentData, не являются допустимыми для SetItemData."
@@ -1926,8 +1942,8 @@
     "UndoneLockedByOtherConflictText": "Вы не можете редактировать следующие ресурсы, потому что они получены другим пользователем.\n\nВаши изменения будут автоматически откачены. Если вам требуется изменить эти ресурсы, скоординируйтесь с коллегами, чтобы снова зафиксировать их."
   },
   "SkeinSourceControl": {
+    "SkeinMigrationAborted": "При обновлении проекта до последней версии Unreal Revision Control произошла ошибка. Сообщите о проблеме через меню \"Справка\", чтобы мы могли помочь вам. Проект: {0}.",
     "SkeinMigrateClone": "Не удаётся клонировать репозиторий.",
-    "SkeinMigrateDisconnected": "Не удаётся подключиться к серверу системы контроля версий. Повторите попытку позже.",
     "SkeinCannotPromoteFileLockedByUnknownOther": "Не удаётся изменить файл '{File}', извлечённый другим пользователем.",
     "SkeinCannotPromoteFileLockedByOther": "Не удаётся изменить файл '{File}', извлечённый пользователем {Owner}.",
     "MessageCheckOut": "Получено {0} файла (-ов).",
@@ -1946,17 +1962,14 @@
     "SkeinCheckInWithPushSuccessWithSequence": "Созданный снимок состояния {0}.",
     "SkeinCheckInSuccess": "Созданный снимок состояния.",
     "SkeinCheckInWithPushSuccess": "Созданный снимок состояния.",
+    "SkeinMigrateDatabase": "Не удалось открыть базу данных.",
+    "SkeinMigrateDatabaseId": "В базе данных отсутствует 'ProjectId'.",
+    "SkeinMigrateDatabaseSequence": "В базе данных отсутствует 'SnapshotSequence'.",
     "MessageDelete": "Удалено {0} файла (-ов).",
     "SkeinCheckoutErrorNotCurrent": "Доступна более новая версия файла '{Filename}'.",
     "SkeinCheckoutErrorLocked": "Файл '{Filename}' получен другим пользователем.",
     "Tab_ConflictResolution_ToolTip": "Открывает вкладку для разрешения конфликтов в редакторе.",
     "Tab_SnapshotHistory_ToolTip": "Открывает вкладку для выбора версии в редакторе.",
-    "SkeinMigrateCloudProjectNotFound": "Не удаётся найти данные оригинального облачного проекта.",
-    "SkeinMigrateCloudMigrationNotFound": "Не удаётся найти перенос оригинального облачного проекта.",
-    "SkeinMigrateCloudMigrationFailed": "Не удалось выполнить перенос оригинального облачного проекта.",
-    "SkeinMigrateDatabase": "Не удалось открыть оригинальную базу данных.",
-    "SkeinMigrateDatabaseId": "В оригинальной базе данных отсутствует 'ProjectId'.",
-    "SkeinMigrateDatabaseSequence": "В оригинальной базе данных отсутствует 'SnapshotSequence'.",
     "MessageProjectInit": "Репозиторий '{0}' инициализирован.",
     "MessageRevert": "Возвращено {0} файла (-ов).",
     "Tab_SnapshotHistory_DisplayName": "История снимков состояния",
@@ -1980,11 +1993,14 @@
     "AutoSave_BranchOwned": "Проект Unreal Revision Control в данный момент нельзя использовать.\nОбнаружены локальные изменения '{0}', которые ещё не были зафиксированы.\nЧтобы исправить это, откройте проект в качестве '{0}' и используйте либо вариант \"ЗАФИКСИРОВАТЬ ИЗМЕНЕНИЯ\", либо \"ВЕРНУТЬ ВСЁ\".",
     "SkeinStatusError": "Не удалось определить статус проекта Unreal Revision Control.",
     "SkeinOutOfSyncError": "Каталог проекта содержит данные Unreal Revision Control для другого проекта.",
-    "SkeinMigrationAborted": "Каталог проекта содержит устаревшие данные Unreal Revision Control, которые не удалось перенести. Вы можете найти дополнительную информацию в журнале или обратиться в службу поддержки за дополнительной помощью.",
     "SkeinLegacyError": "Каталог проекта содержит устаревшие данные Unreal Revision Control.",
     "SkeinUnsupportedError": "Каталог проекта содержит неподдерживаемые данные Unreal Revision Control.",
     "SkeinNotEnabled": "Проект Unreal Revision Control не инициализирован.",
+    "MigrateProjectFailedCode": "Не удалось завершить обновление из облака: '{0}' {1}.",
+    "MigrateProjectFailed": "Не удалось завершить обновление из облака: '{0}'.",
     "SkeinMigrateLock": "Не удаётся заблокировать папку проекта. У вас открыт другой редактор?",
+    "SkeinMigrateDisconnected": "Не удалось запустить обновление из облака: 'NOT_CONNECTED'.",
+    "SkeinMigrateCloudProjectNotFound": "Не удалось запустить обновление из облака: 'NOT_FOUND'.",
     "MessageUnlock": "Разблокированные файлы: {0}.",
     "SkeinAutoSave": "[Автоматическое создание резервной копии]",
     "SkeinAutoSaveMerge": "[Объединить]",
@@ -2304,7 +2320,6 @@
     "ProjectLocation": "Расположение проекта",
     "ProjectName": "Название проекта",
     "FailedToSyncContentService": "Не удалось получить информацию об онлайн-проекте, невозможно создать новую ветку проекта",
-    "Version": "Версия",
     "NotLoggedInError": "Чтобы создать новую ветку проекта, вы должны войти в систему."
   },
   "SSkeinSourceControlSettings": {
@@ -2338,7 +2353,6 @@
   "SSpatialMetricsStats": {
     "MeanLabelToolTip": "Среднее значение",
     "MeanLabel": "Средн.:",
-    "AboveThresholdLabel": "Высокое:",
     "HistogramLabel": "Гистограмма",
     "MaxSampleLabel": "Maкс.:",
     "MaxSampleLabelToolTip": "Максимальное значение",
@@ -2346,7 +2360,8 @@
     "MedianSampleLabelToolTip": "Медианная величина",
     "MinSampleLabel": "Мин.:",
     "MinSampleLabelToolTip": "Минимальное значение",
-    "AboveThresholdLabelToolTip": "Количество значений выше порогового",
+    "OutsideThresholdLabelToolTip": "Количество значений, выходящих за пределы",
+    "OutsideThresholdLabel": "Выходят за пределы:",
     "NumValuesLabelTooltip": "Общее количество значений",
     "NumValuesLabel": "Значения:",
     "HistogramTooltip": "Масштабирование по горизонтали (Ctrl + колесо мыши)\nМасштабирование по вертикали (Shift + колесо мыши)"
@@ -2407,13 +2422,18 @@
     "DisconnectedProfilerSessionSource": "{0} (Отключено)"
   },
   "SValkyrieCreateBuildOptionsDialog": {
+    "ValidationError.NoNativeLanguage": "Параметр \"Локализация сборки\" включён, но для \"Язык оригинала\" задано значение \"Нет\"\nЛибо отключите \"Локализация сборки\", либо выберите \"Язык оригинала\"",
     "CommitMessageLabel": "Добавьте описание этой версии своего контента (не обязательно):",
     "IncludeChangeTelemetryToolTip": "Добавить эту информацию об изменении телеметрии в описание версии",
     "MemoryCheckWarning": "Перед публикацией на творческом портале вы должны запустить расчёт памяти.\nВернитесь на эту стадию после создания окончательной закрытой версии для проверки использования вашим проектом памяти.\nВаш результат расчёта памяти будет обновлён на творческом портале, что позволит вам опубликовать ваш проект.\n<a id=\"memory_management_docs\" href=\"{0}\" style=\"ValkyrieEditor.HyperlinkStyle\">Подробнее</>",
+    "BuildLocalizationLabel": "Локализация сборки",
     "Button.Cancel": "Отмена",
     "Button.Continue": "Продолжить",
     "Title": "Создать сборку",
+    "BuildLocalizationToolTip": "Экспорт данных локализации и запуск автоматической локализации для них перед выгрузкой контента проекта",
     "IncludeChangeTelemetryLabel": "Включить изменение телеметрии",
+    "NativeLanguageLabel": "Язык оригинала:",
+    "NativeLanguagePickerToolTip": "Язык, на котором создаётся исходный текст",
     "PreparePlatformDataNotice": "Контент проекта будет подготовлен для использования на всех поддерживаемых платформах. Это может занять несколько минут.",
     "IncludeChangeTelemetryFmt": "{0}\n{1}"
   },
@@ -2835,7 +2855,7 @@
     "ValkyriePlay_ToolTip": "Выгрузить проект на выделенный сервер и подключить к клиенту Fortnite.",
     "ValkyrieRefreshVerse": "Обновление Verse"
   },
-  "UICommands.VerseEditableSubclassCommands": {
+  "UICommands.VerseTypeEditorCommands": {
     "Compile": "Компилировать",
     "Compile_ToolTip": "Компилировать"
   },
@@ -2938,12 +2958,17 @@
     "Error.JobFailed": "Не удалось выполнить задачу по автоматической локализации. Повторите попытку позже.",
     "Error.UserCanceled": "Автоматическая локализации отменена",
     "Dialog.Settings.Button.Continue": "Собрать автоматическую локализацию",
+    "Notification.Progress.CancelResumable": "Отмена предыдущих задач локализации…",
     "Notification.Progress.Create": "Создание задач по локализации…",
     "SlowTask.Progress.Create": "Создание задач по локализации…",
     "Notification.Progress.Detached": "Задачи по локализации, удалённые из этого редактора. Их можно восстановить позже…",
     "Error.RefusedToAdopt": "Существующие задачи по локализации не были реализованы. Невозможно продолжить до завершения этих задач.",
     "Error.FailedToBuildJobInput": "Не удалось создать входные данные для задач по локализации. Проверить журнал на наличие информации.",
+    "Error.FailedToCreateJob": "Не удалось создать задачу автоматической локализации для модуля '{0}': {1}",
+    "Error.FailedToFinalizeJob": "Не удалось завершить задачу автоматической локализации '{0}' для модуля '{1}': {2}",
     "Error.FailedToImportJobResult": "Не удалось импортировать результат задачи по локализации. Проверить журнал на наличие информации.",
+    "Error.FailedToQueryJobStatus": "Не удалось запросить статус задачи автоматической локализации '{0}' для модуля '{1}': {2}",
+    "Error.FailedToGetExistingJobId": "Не удалось запросить идентификатор задачи автоматической локализации для модуля '{0}': {1}",
     "Error.NoCachedSupportedLanguages": "Кэш GetSupportedLanguages не установлен.",
     "Notification.Button.ImportPrompt": "Импорт",
     "Notification.Progress.Import": "Импорт данных локализации…",
@@ -2955,15 +2980,20 @@
     "Notification.Progress.Completed": "Данные локализации импортированы.",
     "Notification.Progress.ImportPrompt": "Данные локализации готовы к импорту.",
     "Notification.Progress.UpToDate": "Данные локализации актуализированы.",
+    "Error.ExportLocalizationFailed": "Ошибка экспорта локализации — более подробную информацию см. в журнале",
     "Notification.Progress.NoLanguages": "Для автоматической локализации нет настроенных языков.",
     "Dialog.Adopt.Message": "В одном или нескольких модулях есть текущие задачи автоматической локализации, которые были созданы другим экземпляром редактора.\n\nВы хотите реализовать эти задачи, чтобы затем импортировать их результат?",
     "Notification.Progress.Resume": "Восстановление задач по локализации…",
-    "Error.LocalizationSettingsUninitialized": "Настройки автоматической локализации не инициализированы.",
+    "Error.AutoLocalizationSettingsUninitialized": "Настройки автоматической локализации не инициализированы.",
     "Error.ContentServiceNotAvailable": "Сервис управления контентом недоступен.",
     "Error.LocalizationDataMissing": "Отсутствуют данные локализации для этого проекта. Запустить 'Создать -> Экспорт локализации' перед автоматической локализацией.",
-    "Error.LocalizationSettingsMissing": "Настройки локализации для этого проекта не инициализированы. Запустить 'Создать -> Экспорт локализации' перед автоматической локализацией.",
+    "Error.LocalizationSettingsUninitialized": "Настройки локализации для этого проекта не инициализированы. Запустить \"Создать -> Экспорт локализации\" перед автоматической локализацией.",
+    "Error.LocalizationSettingsRequired": "Настройки локализации для этого проекта не инициализированы. Они должны быть заданы до начала запуска автоматической локализации. Для этого нужно задать значение true для bRunExport.",
     "SlowTask.Progress.Ingest.POFileForLanguage": "Обновление '{0}' для '{1}'…",
     "SlowTask.Progress.Ingest": "Обновление данных локализации…",
+    "Notification.Progress.AwaitAdoptable": "Ожидание завершения текущих задач локализации (для другого пользователя)…",
+    "Notification.Progress.AwaitAdoptableWithCount": "Ожидание завершения {0} {0}|plural(one=текущей задачи, few=текущих задач, many=текущих задач, other=текущих задач) локализации (для другого пользователя)…",
+    "Notification.Progress.WaitHeadless": "Ожидание {0} {0}|plural(one=задачи, few=задач, many=задач, other=задач) локализации…",
     "Notification.Progress.Wait": "Ожидание {0} {0}|plural(one=задания, few=заданий, many=заданий, other=заданий) локализации…\n{0}|plural(one=Это задание продолжится, few=Эти задания продолжатся, many=Эти задания продолжатся, other=Эти задания продолжатся), если вы закроете проект."
   },
   "ValkyrieAutologinStatusSplash": {
@@ -2986,7 +3016,6 @@
     "PendingChangesSummary.MissingModifiedAssets": "  • {0} {0}|plural(one=ресурс изменён,few=ресурса изменено,many=ресурсов изменено,other=ресурса изменено)",
     "PendingChangesSummary.MissingReferencedAssets": "  • созданы новые ссылки на {0} {0}|plural(one=ресурс,few=ресурса,many=ресурсов,other=ресурса)",
     "PendingChangesSummary.MissingTransactions": "  • пропущено {0} {0}|plural(one=изменение,few=изменения,many=изменений,other=изменения)",
-    "MemoryTestResultsLink": "Сгенерирован файл CSV:",
     "MemoryTestResultsPage": "Подсчёт объёма памяти - {StartTime}",
     "PendingChangesSummary.NoChangesHeader": "В ходе сеанса редактирования изменения не сделаны.",
     "PlatformCook": "Платформа приготовления",
@@ -3254,6 +3283,17 @@
     "EulaDeclineText": "Отклонить",
     "ValkyrieEulaTitle": "ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ",
     "EulaScrollMessage": "Внимательно прочитайте следующее лицензионное соглашение и прокрутите вниз до конца."
+  },
+  "ValkyrieExperimentalSceneGraphFeaturesSetting": {
+    "ExperimentalSceneGraphFeaturesUpdate_Hyperlink": "Об экспериментальных функциях Scene Graph",
+    "ExperimentalSceneGraphFeaturesUpdate_Dismiss": "Игнорировать",
+    "ExperimentalSceneGraphFeaturesUpdate_ProjectSettings": "Настройки проекта",
+    "ExperimentalSceneGraphFeaturesUpdate_Title": "Вышла бета-версия Scene Graph!",
+    "ExperimentalSceneGraphFeaturesUpdate_Body": "Этот проект будет сконвертирован в бета-версию. Некоторые функции Scene Graph всё ещё находятся на этапе экспериментальной версии. Перед публикацией убедитесь, что все экспериментальные функции удалены из проекта."
+  },
+  "ValkyrieExperimentalSceneGraphSetting": {
+    "EnableSceneGraphCTA": "Включить Scene Graph",
+    "SceneGraphEnabled": "Scene Graph включён"
   },
   "ValkyrieExperimentalSettingsDetailCustomization": {
     "ProjectSettings.ExperimentalSettings": "Учтите, что использование экспериментальных функций в проекте не позволит вам опубликовать его. При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\nРекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов, поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
@@ -3974,6 +4014,7 @@
     "SubmitProjectTask": "Отправка проекта '{0}'…",
     "CreateProject.SyncWithContentService": "Синхронизация с сервисом управления контентом…",
     "OpenProject.SyncWithContentService": "Синхронизация с сервисом управления контентом…",
+    "CreatePlugin.TemplatePluginDoesntExist": "Шаблон плагина '{0}' не существует",
     "CreateProjectWithDisallowedFeatureSet": "В шаблоне {0} невозможно использовать набор функций {1}.",
     "Deprecated_VModules": "В проекте используется следующий устаревший файл vmodule{0}:{1}",
     "MissingTemplateProject": "Невозможно создать ветку проекта в {0}. Для ведения ветки необходим шаблон проекта",
@@ -4217,6 +4258,7 @@
     "NoPlugin": "Контроль версий недоступен, так как не включен плагин Perforce"
   },
   "ValkyrieSourceControlProviderSkein": {
+    "MigrateProjectFailed": "При обновлении проекта до последней версии Unreal Revision Control произошла ошибка. Сообщите о проблеме через меню \"Справка\", чтобы мы могли помочь вам.\nПроект: {0} ('{1}').",
     "PreviewSyncProjectFailed": "Не удалось определить размер загружаемых данных.",
     "PreviewSyncProjectLocally": "Определение размера загружаемых данных…",
     "DownloadProjectFailed": "Не удалось загрузить проект ({0} байт).",
@@ -4225,11 +4267,11 @@
     "VerifyProjectFailed": "При инициализации проекта произошла непредвиденная ошибка.",
     "InitProjectFailed": "Не удалось инициализировать проект",
     "InitProjectLocally": "Инициализация проекта...",
-    "LatestVersionAvailable": "Доступна новая версия",
-    "QueryProjectVersion": "Выполняется запрос версии проекта...",
+    "LatestVersionAvailable": "Доступен новый снимок состояния",
     "NoPlugin": "Контроль версий недоступен, так как не включён плагин Unreal Revision Control",
     "LoggedOut": "Контроль версий недоступен, так как пользователь не вошел в систему",
-    "SyncingProjectLocally": "Синхронизация проекта \"{0}\"…"
+    "SyncingProjectLocally": "Синхронизация проекта \"{0}\"…",
+    "MigrateProjectData": "Обновление проекта до последней версии Unreal Revision Control…"
   },
   "ValkyrieSourceControlSettings": {
     "FailedToParse": "Не удалось проанализировать строку. {0}"
@@ -4315,6 +4357,7 @@
     "WorldLimits.NoIslandSettingsAllowed": "Уровень помечен флагом как игровой набор и содержит следующее количество устройств настройки острова: {0}. Игровые наборы не должны содержать таких устройств",
     "MetaSoundValidationFail_NotPreset": "Ресурс MetaSound должен быть готовой настройкой",
     "MetaSoundValidationFail_NotPresetFromBuiltIn": "Готовую настройку MetaSound необходимо создать из встроенного графа MetaSound",
+    "CheckDevelopmentStatus.ExperimentalStruct": "Объект {0} — это экспериментальная функция. Сначала удалите его перед публикацией.",
     "VirtualizedDataNotify": "Один или более пакетных файлов содержат виртуальные данные и не работают в UEFN!",
     "GenericMessageLogPageTitle": "Проверка проекта",
     "Properties.Fixer.ResetToDefault": "Сбросить свойство к значению по умолчанию",
@@ -4357,6 +4400,10 @@
     "TextureTooBig": "{LeadText}\n  Её текущее размер в игре {SizeX}×{SizeY}.\n  {SuffixText}",
     "UITextureTooBig": "{LeadText}\n  Её текущее размер в игре {SizeX}×{SizeY}.\n  {SuffixText}",
     "UploadSizeTooBig": "{LeadText}\n  Её текущее размер {SizeX}×{SizeY}.\n  {SuffixText}"
+  },
+  "ValkyrieValidator_IDOs": {
+    "IDOValidation.LooseProps": "{0} содержит непривязанные свойства без перерасчёта, что не позволяет выполнить публикацию",
+    "IDOValidation.Placeholder": "{0} — это тип заполнителя, который не позволяет выполнить публикацию"
   },
   "ValkyrieValidator_Widget": {
     "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
@@ -4502,15 +4549,6 @@
     "RebuildToFixValidationErrors.Title": "Ошибки проверки в Verse",
     "RebuildToFixBuildErrors.Rebuild.DialogMessage": "Ошибки сборки Verse, обнаруженные при открытии уровня:\n{0}\n\nЕсли вы продолжите открывать этот уровень, не исправив ошибки, поведение, которое зависит от Verse, может не сработать. Сохранение уровня в этом состоянии может привести к потере данных.\n\nПо возможности, устраните эти ошибки в коде Verse и заново выполните сборку.\n"
   },
-  "VerseEditableSubclassCommands": {
-    "VerseSubclassEditor": "Редактор подкласса Verse"
-  },
-  "VerseEditableSubclassFactory": {
-    "CreateVerseSubclassOptions": "Выбрать родительский класс"
-  },
-  "VerseEditableSubclassToolkit": {
-    "Details": "Сведения"
-  },
   "VerseEditorSettings": {
     "SectionDescription": "Настройка редактирования Verse",
     "SectionText": "Verse"
@@ -4545,6 +4583,19 @@
   },
   "VersePropertyEditor": {
     "MultipleValues": "Несколько значений"
+  },
+  "VerseRotationStructCustomization": {
+    "RotationLabel": "Вращение"
+  },
+  "VerseTypeEditorCommands": {
+    "VerseTypeEditor": "Редактор типов Verse"
+  },
+  "VerseTypeEditorFactory": {
+    "CreateVerseSubclassOptions": "Выбрать родительский класс"
+  },
+  "VerseTypeEditorToolkit": {
+    "Outliner": "Структура",
+    "OutlinerTitle": "Структура"
   },
   "VkAnimNodeDetails": {
     "Category": "AnimToPlay"

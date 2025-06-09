@@ -1,7 +1,7 @@
 [
   {
     "Type": "FortCollectionsDataTable",
-    "Name": "CollectionsData_S35",
+    "Name": "CollectionsData_S36",
     "Class": "UScriptClass'FortCollectionsDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,7 +10,7 @@
           "CollectionType": "CollectableCharacter",
           "bEnsureAllTaggedItemsAreInTheCollection": false,
           "Collection": {
-            "AssetPathName": "/BattlePassS35_Quests/SeasonData/CollectionDataCharacter_S35.CollectionDataCharacter_S35",
+            "AssetPathName": "/BattlePassS36_Collections/SeasonData/CollectionDataCharacter_S36.CollectionDataCharacter_S36",
             "SubPathString": ""
           }
         },
@@ -18,12 +18,12 @@
           "CollectionType": "CollectableFish",
           "bEnsureAllTaggedItemsAreInTheCollection": false,
           "Collection": {
-            "AssetPathName": "/BattlePassS35_Quests/SeasonData/CollectionDataFishing_S35.CollectionDataFishing_S35",
+            "AssetPathName": "/BattlePassS36_Collections/SeasonData/CollectionDataFishing_S36.CollectionDataFishing_S36",
             "SubPathString": ""
           }
         }
       ],
-      "SeasonNum": 35
+      "SeasonNum": 36
     }
   }
 ]

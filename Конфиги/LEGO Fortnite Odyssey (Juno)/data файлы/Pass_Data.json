@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "S3Pass_Data",
+    "Name": "S04Pass_Data",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,19 +10,19 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "81C9F0304A6198782BA34881A60280AD",
-        "SourceString": "First Order LEGO® Pass",
-        "LocalizedString": "Пропуск LEGO® «Первый Орден»"
+        "Key": "51334FDD4BB6A6E288376AB59E698532",
+        "SourceString": "Supernova Academy",
+        "LocalizedString": "Академия «Супернова»"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "73078A53402E0355447A7EA449FDD379",
-        "SourceString": "First Order Pass is complete!",
-        "LocalizedString": "Пропуск Первого Ордена завершён!"
+        "Key": "5135DE4E41A09BFD16AA09B133596BEE",
+        "SourceString": "Pass is complete!",
+        "LocalizedString": "Пропуск завершён!"
       },
-      "SeasonStorefront": "JunoSeason3Pass",
-      "SeasonPassOfferId": "53178FBD47F5DBDB4C771F8C5E154B5D",
-      "SeasonPassLevelOfferId": "F7EDAA0942D66DFBBDC916BED664589F",
+      "SeasonStorefront": "JunoSeason04Pass",
+      "SeasonPassOfferId": "B946729B4348E845503CDFB0C282A59C",
+      "SeasonPassLevelOfferId": "2D8F5C314A14003AD1CBC586693F9C32",
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_JunoPass.MI_UI_NexusHeaderIcon_JunoPass",
         "SubPathString": ""
@@ -33,57 +33,40 @@
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "4113A4344EC6A1D1223E78B2CF604D47",
+        "Key": "4D9664C443A033CF4A4038B6FB74BFCD",
         "SourceString": "Get LEGO® Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
           "R": 1.0,
-          "G": 0.059511,
-          "B": 0.064803,
+          "G": 0.439611,
+          "B": 0.0,
           "A": 1.0,
-          "Hex": "FF4548"
+          "Hex": "FFB100"
         },
         "ProgressionColor": {
-          "R": 1.0,
-          "G": 0.059511,
-          "B": 0.064803,
+          "R": 0.0,
+          "G": 0.64909,
+          "B": 1.0,
           "A": 1.0,
-          "Hex": "FF4548"
+          "Hex": "00D3FF"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_BG_Nexus_BinGrassPass.MI_BG_Nexus_BinGrassPass",
+          "AssetPathName": "/S04Pass/UI/MaterialInstances/MI_BG_Nexus_S04Pass.MI_BG_Nexus_S04Pass",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_BG_Nexus_BinGrassPass_UI.MI_BG_Nexus_BinGrassPass_UI",
+          "AssetPathName": "/S04Pass/UI/MaterialInstances/MI_BG_Nexus_S04Pass_UI.MI_BG_Nexus_S04Pass_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_UI_Crew_Upsell_BinGrassPass.MI_UI_Crew_Upsell_BinGrassPass",
+          "AssetPathName": "/S04Pass/UI/MaterialInstances/MI_UI_Crew_Upsell_S04Pass.MI_UI_Crew_Upsell_S04Pass",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/S3Pass/UI/MaterialInstances/MI_UI_BinGrassPass_CategoryButton_Crew.MI_UI_BinGrassPass_CategoryButton_Crew",
+          "AssetPathName": "/S04Pass/UI/MaterialInstances/MI_UI_S04Pass_CategoryButton_Crew.MI_UI_S04Pass_CategoryButton_Crew",
           "SubPathString": ""
-        },
-        "CustomLogo": {
-          "AssetPathName": "/S3Pass/UI/Materials/M_UI_PassThemeLogo.M_UI_PassThemeLogo",
-          "SubPathString": ""
-        },
-        "CustomSeasonTitle": {
-          "Namespace": "",
-          "Key": "C952DD69450CECF25A239285F351728A",
-          "SourceString": "First Order LEGO® Pass",
-          "LocalizedString": "Пропуск LEGO® «Первый Орден»"
-        },
-        "CustomSeasonTitleColor": {
-          "R": 1.0,
-          "G": 0.059511,
-          "B": 0.064803,
-          "A": 1.0,
-          "Hex": "FF4548"
         }
       }
     }

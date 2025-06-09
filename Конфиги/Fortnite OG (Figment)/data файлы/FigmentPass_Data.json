@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "FigmentPass_S03_Data",
+    "Name": "Figment_S04_Data",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,20 +10,20 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "6A58835846A9C24092F515AF9F99AEAF",
-        "SourceString": "Chapter 1 - Season 3",
-        "LocalizedString": "Сезон 3 главы 1"
+        "Key": "1788E75F4E5F9523063E43BB96F61F1C",
+        "SourceString": "Chapter 1 - Season 4",
+        "LocalizedString": "Глава 1 сезон 4"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "088E648F4962CE41BF454DB86BEBFDF9",
+        "Key": "96FC711A4FC513328EBBFABDBC988AD9",
         "SourceString": "OG Pass end of season",
         "LocalizedString": "Пропуск «Как раньше»: конец сезона"
       },
-      "SeasonStorefront": "FigmentS03",
-      "SeasonPassOfferId": "0DFB3B8E44E6BE2C42E4F28320A129DF",
+      "SeasonStorefront": "FigmentS04",
+      "SeasonPassOfferId": "638AC8F94EE85F35140CE389D7F1659C",
       "SeasonPassBundleOfferId": "0",
-      "SeasonPassLevelOfferId": "EA9C3E2D4742085D179F5CBA55CEFBE7",
+      "SeasonPassLevelOfferId": "ED30C8A143C6E505FC624E9AE5FA1774",
       "SeasonPassLevelBundleOfferId": "0",
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_OGPass.MI_UI_NexusHeaderIcon_OGPass",
@@ -35,24 +35,24 @@
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "DCA0E98A4E6B0674E837018F649E3248",
+        "Key": "A6227AB642A36322A59ACD92A93AB5D5",
         "SourceString": "Get OG Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 0.341915,
-          "G": 0.48515,
-          "B": 0.982251,
+          "R": 0.47932,
+          "G": 0.982251,
+          "B": 0.679543,
           "A": 1.0,
-          "Hex": "9EB9FD"
+          "Hex": "B8FDD7"
         },
         "ProgressionColor": {
-          "R": 0.346704,
-          "G": 0.783538,
-          "B": 0.982251,
+          "R": 0.122139,
+          "G": 0.913099,
+          "B": 0.337164,
           "A": 1.0,
-          "Hex": "9FE5FD"
+          "Hex": "62F59D"
         },
         "OverlayColor": {
           "R": 0.006049,
@@ -62,19 +62,19 @@
           "Hex": "66120800"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/Figment_S03_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Surface.MI_UI_Figment_VaultWorld_Background_Surface",
+          "AssetPathName": "/Figment_S04_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Surface.MI_UI_Figment_VaultWorld_Background_Surface",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/Figment_S03_PassData/UI/MaterialInstances/MI_UI_Figment_Background.MI_UI_Figment_Background",
+          "AssetPathName": "/Figment_S04_PassData/UI/MaterialInstances/MI_UI_Figment_Background.MI_UI_Figment_Background",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/Figment_S03_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Upsell.MI_UI_Figment_VaultWorld_Background_Upsell",
+          "AssetPathName": "/Figment_S04_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Upsell.MI_UI_Figment_VaultWorld_Background_Upsell",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/Figment_S03_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
+          "AssetPathName": "/Figment_S04_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
           "SubPathString": ""
         }
       }

@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassItemDefinition",
-    "Name": "S3Pass_SeasonAsset",
+    "Name": "S04Pass_SeasonAsset",
     "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,37 +10,37 @@
         "SubPathString": ""
       },
       "PassData": {
-        "AssetPathName": "/S3Pass/SeasonPass/S3Pass_Data.S3Pass_Data",
+        "AssetPathName": "/S04Pass/SeasonPass/S04Pass_Data.S04Pass_Data",
         "SubPathString": ""
       },
       "LevelData": {
-        "AssetPathName": "/S3Pass/SeasonPass/S3Pass_LevelData.S3Pass_LevelData",
+        "AssetPathName": "/S04Pass/SeasonPass/S04Pass_LevelData.S04Pass_LevelData",
         "SubPathString": ""
       },
       "Categories": [
         {
-          "AssetPathName": "/S3Pass/PassData/JunoSeason3PassCategory1.JunoSeason3PassCategory1",
+          "AssetPathName": "/S04Pass/SeasonPass/Categories/JunoSeason04PassCategory1.JunoSeason04PassCategory1",
           "SubPathString": ""
         }
       ],
-      "SeasonNumber": 3,
+      "SeasonNumber": 4,
       "ItemName": {
         "Namespace": "",
-        "Key": "21D1FCA144AB43F03BAE869EF7F3B93F",
+        "Key": "F81729624BAB839589189AA252929771",
         "SourceString": "LEGO® Pass",
         "LocalizedString": "Пропуск LEGO®"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "7C5DB49B453FA4CCD22F3C93D50ECD23",
-        "SourceString": "First Order",
-        "LocalizedString": "Первый Орден"
+        "Key": "FEE08B9B4FB7F4D8430B71B3EF94E18E",
+        "SourceString": "LEGO® Pass Descrption",
+        "LocalizedString": "Пропуск LEGO® — описание"
       },
       "ItemShortDescription": {
         "Namespace": "",
-        "Key": "560916444CB91A21B97CC0A50176F819",
-        "SourceString": "First Order",
-        "LocalizedString": "Первый Орден"
+        "Key": "8F8DDA8F4A6A5D9862F35A8E4F67DEC5",
+        "SourceString": "LEGO® Pass Short Descrption",
+        "LocalizedString": "Пропуск LEGO® — краткое описание"
       },
       "DataList": [
         {
