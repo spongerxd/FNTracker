@@ -1,7 +1,7 @@
 [
   {
     "Type": "FortRepeatableDailiesCardItemDefinition",
-    "Name": "SparksSeason08_RepeatableDailiesCard",
+    "Name": "SparksSeason09_RepeatableDailiesCard",
     "Class": "UScriptClass'FortRepeatableDailiesCardItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -13,7 +13,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS08",
+          "CalendarEventName": "CalendarEvent_SparksS09_Daily",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -23,7 +23,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS08",
+          "CalendarEventName": "CalendarEvent_SparksS09_Daily",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -33,7 +33,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS08",
+          "CalendarEventName": "CalendarEvent_SparksS09_Daily",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -43,7 +43,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS08",
+          "CalendarEventName": "CalendarEvent_SparksS09_Daily",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -53,21 +53,21 @@
           "bShouldBackfill": false,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS08_JamDailyGap",
+          "CalendarEventName": "CalendarEvent_SparksS09",
           "EmptyQuestWeight": 0.0
         }
       ],
       "ItemName": {
         "Namespace": "",
-        "Key": "DEE367EA405778DA1B3EEC886DE27C5D",
-        "SourceString": "Sparks Season 08 Daily Repeatable Card",
-        "LocalizedString": "Карточка ежедневных повторяющихся заданий сезона 8 Sparks"
+        "Key": "DF0792204A54C029F1A14EACA5C0A416",
+        "SourceString": "Sparks Season 09 Daily Repeatable Card",
+        "LocalizedString": "Sparks Season 09 Daily Repeatable Card"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "9F9B8D114C7F34B92B9CCFB3FDC040AC",
+        "Key": "E8352EA84EFD2AB761679CAB7F4DDAE7",
         "SourceString": "This asset defines the pool of daily quests (make sure the group names match your quests)",
-        "LocalizedString": "Этот ресурс определяет фонд ежедневных заданий (убедитесь, что названия групп соответствуют вашим заданиям)"
+        "LocalizedString": "This asset defines the pool of daily quests (make sure the group names match your quests)"
       },
       "DataList": [
         {

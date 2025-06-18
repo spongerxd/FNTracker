@@ -1,15 +1,64 @@
 [
   {
     "Type": "DataTable",
-    "Name": "Athena_Terrain_S02ManualQuestTagToLocationDataRows",
+    "Name": "Athena_Terrain_S04ManualQuestTagToLocationDataRows",
     "Class": "UScriptClass'DataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortQuestTagToLocationDataRow'",
         "ObjectPath": "/Script/FortniteGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Athena.Location.POI.LootLake": {
+        "WorldLocation": {
+          "X": 60416.0,
+          "Y": -36864.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.RetailRow": {
+        "WorldLocation": {
+          "X": 24832.0,
+          "Y": 36864.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.AnarchyAcres": {
+        "WorldLocation": {
+          "X": 104960.0,
+          "Y": -19968.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.ShiftyShafts": {
+        "WorldLocation": {
+          "X": -1024.0,
+          "Y": -59904.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.GreasyGrove": {
+        "WorldLocation": {
+          "X": 1536.0,
+          "Y": -96256.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.JunkJunction": {
+        "WorldLocation": {
+          "X": 132864.0,
+          "Y": -106784.0,
+          "Z": -6536.0
+        },
+        "EventsWorldLocation": []
+      }
+    }
   }
 ]

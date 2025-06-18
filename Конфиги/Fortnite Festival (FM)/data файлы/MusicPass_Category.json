@@ -1,24 +1,24 @@
 [
   {
     "Type": "SeasonPassCategoryData",
-    "Name": "MusicPassS08_Category",
+    "Name": "MusicPassS09_Category",
     "Class": "UScriptClass'SeasonPassCategoryData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Title": {
         "Namespace": "",
-        "Key": "A0CD77B04107A8486C3DB3BDA1E5580F",
+        "Key": "F7BD358D4D79165EE4838EA4E9942919",
         "SourceString": "Music Pass",
-        "LocalizedString": "Награды"
+        "LocalizedString": "Fortnite\nFestival"
       },
       "Subtitle": {
         "Namespace": "",
-        "Key": "A61930DD46F360B0A57D55A96E69E0CA",
+        "Key": "6BC450D1465CF8CB4E872D87C2032E87",
         "SourceString": "Rewards",
-        "LocalizedString": "музыкального пропуска"
+        "LocalizedString": "Музыкальный пропуск"
       },
       "Image": {
-        "AssetPathName": "/MusicPassS08/UI/MaterialInstances/MI_UI_MusicPass_SO8_PassLandingTile.MI_UI_MusicPass_SO8_PassLandingTile",
+        "AssetPathName": "/MusicPassS09/UI/MaterialInstances/MI_UI_MusicPassS09_LandingPage.MI_UI_MusicPassS09_LandingPage",
         "SubPathString": ""
       },
       "PreviewData": [
@@ -41,7 +41,7 @@
             "PrimaryAssetType": {
               "Name": "CosmeticVariantToken"
             },
-            "PrimaryAssetName": "VTID_Character_DimeBlanketKnot_StyleB"
+            "PrimaryAssetName": "VTID_Character_DryEraseCod_StyleA"
           },
           "Variants": [],
           "Quantity": 1
@@ -65,28 +65,38 @@
             "PrimaryAssetType": {
               "Name": "CosmeticVariantToken"
             },
-            "PrimaryAssetName": "VTID_Character_DimeBlanketKnot_StyleA"
+            "PrimaryAssetName": "VTID_Character_DryEraseCod_StyleB"
           },
-          "Variants": [],
+          "Variants": [
+            {
+              "RichColor": null,
+              "VariantChannelTag": {
+                "TagName": "Cosmetics.Variant.Channel.Material"
+              },
+              "ActiveVariantTag": {
+                "TagName": "Cosmetics.Variant.Property.Mat2"
+              }
+            }
+          ],
           "Quantity": 1
         }
       ],
       "Pages": [
         {
-          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage1'",
-          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage1.8"
+          "ObjectName": "SeasonPassPageData'MusicPassS09_Page1'",
+          "ObjectPath": "/MusicPassS09/SeasonPass/Categories/Pages/MusicPassS09_Page1.8"
         },
         {
-          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage2'",
-          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage2.7"
+          "ObjectName": "SeasonPassPageData'MusicPassS09_Page2'",
+          "ObjectPath": "/MusicPassS09/SeasonPass/Categories/Pages/MusicPassS09_Page2.7"
         },
         {
-          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage3'",
-          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage3.7"
+          "ObjectName": "SeasonPassPageData'MusicPassS09_Page3'",
+          "ObjectPath": "/MusicPassS09/SeasonPass/Categories/Pages/MusicPassS09_Page3.7"
         },
         {
-          "ObjectName": "SeasonPassPageData'S08_MusicPassRewardsPage4'",
-          "ObjectPath": "/MusicPassS08/Pages/S08_MusicPassRewardsPage4.8"
+          "ObjectName": "SeasonPassPageData'MusicPassS09_Page4'",
+          "ObjectPath": "/MusicPassS09/SeasonPass/Categories/Pages/MusicPassS09_Page4.8"
         }
       ]
     }

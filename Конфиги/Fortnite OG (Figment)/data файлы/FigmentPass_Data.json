@@ -77,7 +77,35 @@
           "AssetPathName": "/Figment_S04_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
           "SubPathString": ""
         }
-      }
+      },
+      "PaidRewards": [
+        {
+          "OfferGuid": "00000000-00000000-00000000-00000000",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/Figment_S04_PassData/Items/Tokens/Figment_S04_PremiumToken.Figment_S04_PremiumToken",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": true
+            }
+          ]
+        },
+        {
+          "OfferGuid": "C1C37DDF-4858B644-D055C6A3-60C9B4CE",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_CarbideWeld_StyleA.VTID_Character_CarbideWeld_StyleA",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": false
+            }
+          ]
+        }
+      ]
     }
   }
 ]

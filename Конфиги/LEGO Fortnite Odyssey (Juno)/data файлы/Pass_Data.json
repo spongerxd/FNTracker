@@ -68,7 +68,43 @@
           "AssetPathName": "/S04Pass/UI/MaterialInstances/MI_UI_S04Pass_CategoryButton_Crew.MI_UI_S04Pass_CategoryButton_Crew",
           "SubPathString": ""
         }
-      }
+      },
+      "PaidRewards": [
+        {
+          "OfferGuid": "00000000-00000000-00000000-00000000",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/S04Pass/Items/Tokens/S04Pass_PremiumToken.S04Pass_PremiumToken",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": true
+            }
+          ]
+        },
+        {
+          "OfferGuid": "99178C6A-443ABAA5-B641EE99-94660C61",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_TrendyPunk_StyleA.VTID_Character_TrendyPunk_StyleA",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": false
+            },
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_TrendyPunk_StyleB.VTID_Character_TrendyPunk_StyleB",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": false
+            }
+          ]
+        }
+      ]
     }
   }
 ]
