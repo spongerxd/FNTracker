@@ -959,18 +959,14 @@
     "HeaderChangeAssetValidation": "{0} добавляет проверку {1} зависимых ресурсов"
   },
   "FortExposedAssetEditorUtils": {
-    "ExposedAssetsCheckoutFailed": "Не удалось извлечь следующие файлы:\n\n{Paths}"
+    "ExposedAssetsCheckoutFailed": "Не удалось извлечь следующие файлы:\n\n{Paths}\n\nLastError: {LastError}\n\nПоставщик: {Provider}"
   },
   "FortExposedAssets": {
     "UEFNDestructiveActionMessageTitle": "Следующие ресурсы размещены в открытом доступе в UEFN, и их изменение приведёт к сбою всех проектов, созданных пользователями с использованием этих ресурсов. Если вы:\n  1. Пытаетесь удалить опубликованный ресурс — оставьте его\n  2. Вносите изменения, несовместимые с API — создайте новый ресурс и оставьте исходный без изменений\n  3. Пытаетесь переместить/переименовать опубликованный ресурс — отмените публикацию предыдущей версии ресурса (если вам нужны пошаговая инструкция или подтверждение, спросите на канале), создайте резервную копию исходного ресурса, переместите его, исправьте указатели перенаправления, а затем восстановите исходный ресурс\n  4. Что-то ещё? Задайте вопрос на канале #fne-dev-help-ext.\n\nОперация заблокирована."
   },
   "FortExposedAssetSubsystem": {
-    "ExposeToFN1_ToolTip": "Открыть выбранные ресурсы для использования командами FN1.",
     "ExposeToFN1_Label": "Открыть для FN1",
-    "RemoveFromFN1_Label": "Удалить из FN1",
-    "RemoveFromFN1_ToolTip": "Удалить выбранные ресурсы из FN1. Это полезно, если ресурсы были открыты случайно или бесполезны для команд FN1.",
-    "ExposeToFN1_DisabledToolTip": "Выбранные ресурсы уже выведены для FN1.",
-    "RemoveFromFN1_DisabledToolTip": "Выбранные ресурсы больше не выведены для FN1."
+    "RemoveFromFN1_Label": "Удалить из FN1"
   },
   "FortExposedContentValidationDashboard": {
     "CurrentValidationActors.Column.Actions": "Действия",
@@ -2073,9 +2069,11 @@
     "SkeinCannotPromoteFileLockedByOther": "Не удаётся изменить файл '{File}', извлечённый пользователем {Owner}.",
     "MessageCheckOut": "Получено {0} файла (-ов).",
     "Tab_ConflictResolution_DisplayName": "Разрешение конфликта",
+    "MessageConclude": "Конфликт разрешён для файлов: {0}.",
     "MessageConnected": "Подключено к '{0}' ({1}).",
     "SkeinNoValidToken": "Не удаётся пройти аутентификацию на серверах Unreal Revision Control — не удалось проверить токен входа.",
     "SkeinNoAccessToken": "Невозможно пройти аутентификацию на серверах Unreal Revision Control. Вы вошли в редактор как зарегистрированный пользователь?",
+    "SkeinNoConclude": "Невозможно разрешить конфликт в текущем состоянии.\nЧтобы исправить ситуацию, воспользуйтесь командой 'Вернуть всё'.",
     "SkeinCannotDeleteExistingFile": "Не удалось удалить файл '{Filename}'.",
     "CreatedByUE": "Создано в Unreal Editor.",
     "SkeinCheckInWithoutPushSuccessWithId": "Созданный локальный снимок состояния '{0}'.",
@@ -3285,7 +3283,6 @@
     "PublicAssetChangeNoContentService": "Чтобы изменить общедоступные ресурсы, вам нужно синхронизировать проект с сервисом управления контентом\nУбедитесь, что вы вошли в систему",
     "UploadProjectAlreadyRunning": "Выгрузка проекта уже выполняется",
     "InvalidReferenceToAssetWithNoAlias": "Проект {1} не может ссылаться на ресурс, не имеющий псевдонима",
-    "RefSourceProjectsUploadFailed": "Не удалось загрузить исходные проекты с внешним контентом",
     "VerseVersion.RemindMeLater": "Позже",
     "SaveOutputPageLabel": "Сохранить выходные данные",
     "SaveDirtyAlreadyRunning": "Несохранённые файлы уже сохраняются",
@@ -3305,7 +3302,8 @@
     "SectionDescription": "Настройка функций {0}",
     "SetValkyrieRestrictiveModeOff": "Ограничение настроек выключено…",
     "SetValkyrieRestrictiveModeOn": "Ограничение настроек включено…",
-    "SectionText": "Настройки"
+    "SectionText": "Настройки",
+    "UserPrefPermissionsNotActive": "Разрешения пользовательских параметров начинают действовать после закрытия проекта"
   },
   "ValkyrieEditorFlows": {
     "CreateBuild.PreparePlatformData.ListDelimeter": ", ",
@@ -3323,15 +3321,17 @@
     "SaveDirtyAssets.Error.FailedToSave": "Невозможно удалить ресурсы с внесенными изменениями",
     "LocalizeProject.Settings.Button.Continue": "Экспорт локализации",
     "UploadProject.Error.ClearEditSessionWorkspace": "Не удалось очистить рабочее пространство {0}",
+    "UploadProject.Error.CreateValidationSession": "Не удалось создать сеанс проверки",
     "Session Initialization Failed": "Не удалось инициализировать сеанс",
     "UploadProject.Error.InitializeValidationSession": "Не удалось инициализировать сеанс проверки",
     "UploadProject.Error.ReparentEditSessionWorkspace": "Не удалось изменить родителя рабочего пространства {0}",
     "UploadProject.Error.ResolveValidationSession": "Не удалось рассчитать сеанс проверки",
-    "UploadProject.Error.InternalError": "Не удалось выгрузить проекты",
+    "UploadProject.Error.FailedToUploadSourceContent": "Не удалось выгрузить исходный контент",
     "UploadProject.Error.ValidationFailure": "Не удалось подтвердить версии предложенного модуля",
     "LocalizeProject.Settings.Message": "Чтобы экспортировать данные локализации этого проекта, выберите соответствующие настройки для инициализации.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'.",
     "LocalizeProject.Settings.Title": "Инициализация настроек локализации",
     "UploadProject.ValidationSession_Initialize": "Инициализация…",
+    "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "CreateBuild.Error.InternalError": "Внутренняя ошибка",
     "LocalizeProject.Error.InternalError": "Внутренняя ошибка",
     "UploadProject.FailedToRequestPrepareProjectSourceData": "Внутренняя ошибка: ошибка запроса подготовки исходных данных проекта",
@@ -3489,6 +3489,9 @@
   "ValkyrieExperimentalSettingsDetailCustomization": {
     "ProjectSettings.ExperimentalSettings": "Учтите, что использование экспериментальных функций в проекте не позволит вам опубликовать его. При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\nРекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов, поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
   },
+  "ValkyrieExperimentalSettingsManager": {
+    "ApplyingExperimentalSettings": "Применяются экспериментальные настройки…"
+  },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
     "EmptyProjectId": "Попытка получить остров с идентификатором пустого проекта",
@@ -3564,15 +3567,17 @@
     "InvalidPermissionsFound": "У {0}({1}) отсутствуют права доступа.\n\nИспользуются максимально допустимые права доступа.\n\nСвяжитесь со службой поддержки Epic, чтобы устранить ошибку."
   },
   "ValkyrieFortniteEditorFlows": {
+    "UploadProject.Error.UnexpectedSessionResult": "Неожиданный сбой сеанса проверки",
     "UploadProject.Error.FailPublishToEditSessionWorkspace": "Опубликовать в рабочем пространстве {0}",
     "UploadProject.Error.InvalidSessionResult": "Не удалось вычислить корректный результат проверки сеанса",
     "UploadProject.Error.SendContentUpdate_ValkyrieSource": "Не удалось отправить обновление контента ValkyrieSource",
+    "UploadProject.Error.FailedToUploadSourceFiles": "Не удалось выбрать исходные файлы",
     "UploadProject.Error.StoreProjectSnapshot": "Не удалось сохранить снимок состояния проекта",
+    "PrepareUploadProject.Error.InternalError": "Внутренняя ошибка",
+    "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "UploadProject.Error.MissingMainProject": "Внутренняя ошибка",
     "UploadProject.Error.MissingRequestManager": "Внутренняя ошибка. Отсутствует диспетчер запросов",
     "UploadProject.Error.MissingEditSessionWorkspace": "Внутренняя ошибка. Отсутствует рабочее пространство {0}",
-    "PrepareUploadProject.Error.InternalError": "Внутренняя ошибка",
-    "UploadProject.Error.InternalError": "Внутренняя ошибка",
     "PrepareProjectSourceDataForUpload.FailCleanupIntermediateAssets": "Внутренняя ошибка: нет открытых проектов",
     "UploadProject.Error.NoProject": "Нет загруженных проектов",
     "UploadProject.PublishToEditSessionWorkspaces": "Выполняется публикация в рабочем пространстве {0}...",
@@ -3598,7 +3603,6 @@
     "StopActionToolTipRefreshRequired": "Требуется обновление. Чтобы завершить игру, необходимо зафиксировать внесённые изменения.",
     "StartActionToolTipRefreshRequired": "Требуется обновление. Чтобы запустить игру, необходимо зафиксировать внесённые изменения.",
     "ShowMemorySamplingResultModal.AddVersionNotesCheckBox": "Добавить примечания к версии",
-    "GameFeatureDataSetup.AddMapDataButton": "Добавить в данные Map Data и начать игру",
     "ValkyriePlaySubMenuAutoPushVerseChanges_ToolTip": "После успешной компиляции Verse все соответствующие изменения будут автоматически отправлены.",
     "ValkyrieMemorySamplingContentFinishedLoading_ToolTip": "Для запуска подсчёта объёма памяти должна быть завершена загрузка всего контента на клиенте и сервере.",
     "AlreadyUploadingAnotherProject": "Сейчас выгружается другой проект",
@@ -3618,7 +3622,6 @@
     "MemorySamplingDialog.ConfirmButton": "Расчёт памяти",
     "OnMemoryTestResultsReceived.PendingMessage": "Расчёт памяти",
     "ValkyrieStatusBoxMemorySamplerInProgress": "Расчёт памяти…",
-    "GameFeatureDataSetup.CancelButton": "Отмена",
     "MemorySamplingDialog.CancelButton": "Отмена",
     "MemorySamplingStateDialog.CancelButton": "Отмена",
     "PlayStatusWidget_Cancel": "Отменить",
@@ -3652,13 +3655,11 @@
     "OnMemoryTestResultsReceived.ButtonDismiss": "Игнорировать",
     "CreateBuild.Done": "Готово",
     "ShowMemorySamplingResultModal.Done": "Готово",
-    "GameFeatureDataSetup.EditButton": "Изменить GameFeatureData",
     "ValkyrieLiveEdit_ToolTip_Base": "Включить или отключить внесение изменений по сети окрытом сеансе игры при редактировании.",
     "StopGameLabel": "Завершить игру",
     "StopGameToolTip": "Игра останавливается, но просмотр сеанса остается открытым.",
     "StopGameTooltip": "Завершите свою игру.",
     "CreateBuild.ErrorTitle": "Ошибка",
-    "Valkyrie_SetupSessionErrorTitle": "Ошибка запуска игры",
     "CreateBuild.ToolTip.Error.ExperimentalOn": "Ошибка: не удалось определить доступ проекта к экспериментальным функциям! Функция OnPublishingBlockedForMainProject не\tпривязана!",
     "PushChangesButtonToolTip_VerseErrorsNeedCook": "После компиляции кода Verse возникли ошибки. Исправить ошибки, чтобы отправить изменения на сервер.",
     "CreatorPortalNoTeamSubMenuExistingTeams": "Существующие команды…",
@@ -3666,11 +3667,8 @@
     "ExitSession.Confirm.Title": "Покинуть сеанс?",
     "ExitSessionButtonToolTip": "Покинуть текущий сеанс",
     "FailedToOpenClientFailedLaunch": "Не удалось запустить Fortnite. Убедитесь, что у вас установлена игра и все последние обновления.",
-    "Valkyrie_SetupSessionErrorMessage": "Не удалось настроить уровень для игры.\n\nОшибка: {0}",
     "ValkyrieStatusBoxGameInProgress": "Идёт игра",
-    "GameFeatureDataSetup.Title": "Настройка GameFeatureData",
     "NoRevisionControl": "Чтобы над проектом могли работать несколько пользователей UEFN, необходимо включить систему контроля версий и передать его команде на Творческом портале.\n\nВключить Unreal Revision Control для этого проекта?",
-    "GameFeatureDataSetup.Message": "Чтобы играть на текущей карте ({0}), ссылка на неё должна содержаться в данных GameFeatureData как карта по умолчанию, в которую пользователи будут автоматически попадать из лобби, или в данных Map Data.\n\n\"{1}\n\n\" Ссылки на данные карты увеличат размер вашего проекта. Что вы хотите сделать?",
     "FailedToStartMemorySampling_LaunchErrorTitle": "Недопустимое состояние сеанса",
     "ShowMemorySamplingResultModal.IslandVersion": "Версия острова: {0}",
     "StartActionToolTipNoPlayersConnected": "Войдите как игрок, чтобы запустить игру!",
@@ -3786,7 +3784,6 @@
     "StartActionToolTipUploading": "Сеанс загружается, подождите, пожалуйста.",
     "StartActionToolTipPushingChanges": "Сеанс обновляется, подождите, пожалуйста.",
     "PlayerListConnectedMembersSubMenuCameraSet": "Установить вид от лица игрока в окне просмотра камеры",
-    "GameFeatureDataSetup.SetDefaultLevelButton": "Задать как карту по умолчанию и начать игру",
     "ShareWithTeam": "Поделиться с командой",
     "ShareWithTeamTooltip": "Поделиться с командой",
     "CreatorPortalNoTeamSubMenuCreateNewTeamToolTip": "Поделиться проектом с новой командой",
@@ -3811,8 +3808,6 @@
     "TeleportLabel": "Телепортировать",
     "PlayerListConnectedMembersSubMenuTeleportUser": "Телепортировать игрока в окно просмотра камеры",
     "Teleport.Tooltip": "Подключившийся игрок телепортируется в место, где находился курсор при нажатии",
-    "GameFeatureDataSetup.NoDefaultMap": "Карта по умолчанию ещё не установлена.",
-    "GameFeatureDataSetup.DefaultMap": "Карта по умолчанию установлена на ({0}).",
     "MemorySamplingStateDialog.Success": "Последний подсчёт объёма памяти по этому проекту укладывается в выделенный объём.\n\n{0}\n\nС тех пор вы не внесли никаких изменений в свой проект, поэтому новый подсчёт не требуется.",
     "PushChangesButtonToolTip_VerseAssetsNeedCook": "Новый код Verse требует конвертации контента в формат платформы, чтобы были в наличии все ресурсы.",
     "UpToDateButtonToolTip": "Изменения в проекте, внесенные вами локально, применены на сервере.",
@@ -3864,6 +3859,19 @@
     "PlayerNameNumber": "{0} (Игрок {1})",
     "ValkyrieBrowseCSProjectNeedsUpload_ToolTip": "{0}/nВашего проекта еще нет на сервере, эта настройка становится доступна после того, как вы выгрузите его в первый раз.",
     "MemorySamplingStateDialog.MemoryRatio": "{0}/{1}"
+  },
+  "ValkyrieFortniteProjectUtils": {
+    "GameFeatureDataSetup.AddMapDataButton": "Добавить в данные Map Data и начать игру",
+    "GameFeatureDataSetup.CancelButton": "Отмена",
+    "GameFeatureDataSetup.EditButton": "Изменить GameFeatureData",
+    "GameFeatureDataSetup.ErrorSavingGameFeatureData": "Не удалось сохранить GameFeatureData проекта.",
+    "GameFeatureDataSetup.Title": "Настройка GameFeatureData",
+    "GameFeatureDataSetup.Message": "Чтобы играть на карте ({0}), ссылка на неё должна содержаться в данных GameFeatureData как карта по умолчанию, в которую пользователи будут автоматически попадать из лобби, или в данных Map Data.\n\n\"{1}\n\n\" Ссылки на данные карты увеличат размер вашего проекта. Что вы хотите сделать?",
+    "GameFeatureDataSetup.SetDefaultLevelButton": "Задать как карту по умолчанию и начать игру",
+    "GameFeatureDataSetup.NoDefaultMap": "Карта по умолчанию ещё не установлена.",
+    "GameFeatureDataSetup.DefaultMap": "Карта по умолчанию установлена на ({0}).",
+    "GameFeatureDataSetup.GameFeatureDataNotFound": "Не удалось найти GameFeatureData проекта.",
+    "GameFeatureDataSetup.ErrorUnsavedMap": "{0} необходимо сохранить на диск для воспроизведения."
   },
   "ValkyrieFortniteTemplateItem": {
     "FortniteGame": "Fortnite",
@@ -4041,7 +4049,7 @@
     "RefContentFailNotif.CacheSizePref": "Увеличить размер кэша в настройках редактора",
     "VerifyLivePublicAssetsPluginMissingModuleId": "Внутренняя ошибка: не удалось найти идентификатор модуля для плагина %s",
     "RemoveReferencedContentWarning": "Настоятельно рекомендуется сначала удалить эти ссылки (см. полный список в журналах).\n\nПри удалении этого контента проект перезагрузится, а некоторые из его ресурсов могут быть повреждены или не загружаться.\n\n",
-    "LoadProjectPlugins": "Идёт загрузка плагинов проекта...",
+    "LoadingPlugins": "Загрузка плагинов…",
     "DontRemoveContent": "Нет, оставить контент",
     "VKPluginDependencyCycle": "Обнаружен цикл зависимости плагина в {0}\n{1}",
     "CannotFindVKProjectPlugin": "Не удалось найти плагин {0}",
@@ -4087,10 +4095,6 @@
   "ValkyrieProjectBrowserBuilder": {
     "UserTemplatesCategoryDefaultCustomView": "Все шаблоны",
     "UserTemplatesCategory": "Мои шаблоны"
-  },
-  "ValkyrieProjectBrowserStartupFlow": {
-    "ProjectBrowserStartupFlow": "Инициализация каталога проектов",
-    "RefreshingLocalProjects": "Сканирование проектов на компьютере…"
   },
   "ValkyrieProjectCreationDefaults": {
     "BrandSelection": "Выбор бренда",
@@ -4167,6 +4171,7 @@
     "SeeErrorsHyperlink": "Нажмите сюда, чтобы узнать, как это исправить.",
     "CloseProjectTask": "Закрытие проекта {0}…",
     "CloseProjectsTask": "Закрытие проектов…",
+    "OpenProject.ConnectToRevisionControl": "Подключение к системе контроля версий…",
     "VkProjectIncompatible": "Невозможно открыть проект, так как его версия ({0}) несовместима с установленным движком ({1})",
     "CreatePluginTask": "Создание плагина {0}…",
     "CreateProjectTask": "Создание проекта {0}…",
@@ -4192,6 +4197,7 @@
     "FailRenameVKProject": "Не удалось переименовать проект\n{0}\n\n{1}",
     "InitialSnapshot": "Начальный снимок состояния",
     "LoadMapLogPage": "Загрузка проекта: {ProjectTitle}",
+    "OpenProject.LoadRedirectors": "Загрузка указателей перенаправления…",
     "ProjectTrustDialog.NoButton": "Нет, я не доверяю авторам",
     "ExternalContentLoadFail.OpenAnyway": "Открыть в любом случае",
     "OpenProjectTask": "Открытие проекта {0}…",
@@ -4347,6 +4353,7 @@
     "FixingProjectSlowTask": "Идёт исправление проекта...",
     "GatherVerseFiles": "Сбор файлов Verse…",
     "GatherNonContentFiles": "Сбор файлов плагина…",
+    "LoadingFeatureSet": "Загрузка набора функций…",
     "LoadPlugin.SlowTask": "Загрузка плагина {0}",
     "RemapLocalVsReferencedContent.NothingToRemap": "Нет ссылок для переназначения!",
     "VKProjectFolderNotEmpty": "Один или несколько файлов уже существуют по адресу:\n{0}\nУдалите эти файлы или выберите другое название или расположение.",
@@ -4378,6 +4385,7 @@
     "RemapLocalContentToReferencedContentTask": "Перепривязка локального контента к внешнему контенту…",
     "RemapReferencedContentToLocalContentTask": "Перепривязка внешнего контента к локальному контенту…",
     "RemapLocalVsReferencedContent.Cancelled": "Сохранение переназначенных ссылок ресурса отменено",
+    "SearchingProjects": "Поиск проектов на вашем компьютере…",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "OpenSourceProjects.InaccessibleProject": "Невозможно открыть исходный контент\nУ вас нет доступа к",
     "OpenSourceProjects.IncompatibleProject": "Исходный проект несовместим с опубликованным контентом",
@@ -4389,10 +4397,9 @@
     "RemapLocalVsReferencedContent.NoRefencedContent": "Нечего переназначать, так как внешнего контента нет",
     "RemapLocalVsReferencedContent.UnexpectedRemapPathError": "Непредвиденная ошибка переназначения {0}",
     "PublishToWorkspaceUnexpectedError": "Непредвиденная ошибка при попытке опубликовать проект(-ы) в рабочем пространстве (подробности см. в журналах)",
-    "VKUnloadPlugins": "Идёт выгрузка плагинов...",
-    "UploadRefSourceProject": "Выгрузка исходного проекта '{0}' со ссылками…",
-    "UploadRefSourceProjects": "Выгрузка исходных проектов со ссылками…",
-    "ValidateSourceProject": "Проверка внешнего исходного проекта '{0}'…",
+    "UnloadingFeatureSet": "Выгрузка набора функций…",
+    "UnloadingPlugins": "Выгрузка плагинов…",
+    "ValidatingProject": "Проверка проекта '{0}'…",
     "ValidateSourceProjects": "Проверка внешнего исходного проекта…",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "BrowseForProject.KeepBrowsing": "{0}\n\nПродолжить поиск?",
@@ -4601,6 +4608,9 @@
   "ValkyrieValidator_IDOs": {
     "IDOValidation.LooseProps": "{0} содержит непривязанные свойства без перерасчёта, что не позволяет выполнить публикацию",
     "IDOValidation.Placeholder": "{0} — это тип заполнителя, который не позволяет выполнить публикацию"
+  },
+  "ValkyrieValidator_Newton": {
+    "RecommendedFortPhysics_ExceededWarning": "Количество физически симулированных объектов превысило рекомендованный предел. Это может сказаться на производительности."
   },
   "ValkyrieValidator_Widget": {
     "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
