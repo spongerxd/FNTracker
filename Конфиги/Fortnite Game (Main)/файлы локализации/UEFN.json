@@ -1496,9 +1496,9 @@
   "Itemization": {
     "ItemAbilityEffectAssetHasNullClass": "Эффект способности предмета требует установки GameplayEffectClass",
     "ItemAbilityConfigurationAssetHasNullAbility": "Способность предмета требует установки GameplayAbilityClass",
-    "ItemDefinitionWarning_DuplicateComponent": "Определение предмета {0} содержит дублирующийся компонент в индексе {1}.",
-    "ItemDefinitionWarning_InvalidHiddenComponent": "Определение предмета {0} содержит недопустимый компонент в индексе {1}.",
-    "ItemDefinitionWarning_NullComponent": "Определение предмета {0} имеет нулевой компонент по индексу {1}. Это очень неудобно.",
+    "ItemDefinitionWarning_DuplicateComponent": "Определение предмета {0} содержит дублирующийся компонент DataList с индексом {1}.",
+    "ItemDefinitionWarning_InvalidHiddenComponent": "Определение предмета {0} содержит недопустимый скрытый компонент DataList с индексом {1}.",
+    "ItemDefinitionWarning_NullComponent": "Определение предмета {0} содержит нулевой (null) компонент DataList с индексом {1}. Это очень неудобно.",
     "ItemGameplayAbilitiesNeedInstancing": "Для схем Blueprint способностей предметов в игровом процессе необходимо задать вариант создания экземпляров"
   },
   "ItemSkeletalMeshAttachmentDefinition": {
@@ -1522,9 +1522,6 @@
     "LiveLinkSourceType": "Источник прямой трансляции анимации",
     "HandleSelector_Search": "Поиск…",
     "HandleSelector_Title": "Выбрать…"
-  },
-  "LocalContentWorkerTest": {
-    "DuplicatingPlugin": "Дублирование подключаемого модуля {0}…"
   },
   "LOCTEXT_NAMESPACE": {
     "FortBuildingEditModeMetadataDefinition": "EditModePattern"
@@ -3309,7 +3306,7 @@
     "CreateBuild.PreparePlatformData.ListDelimeter": ", ",
     "SaveDirtyAssets.Error.MustSaveAll": "Перед выгрузкой необходимо сохранить все ресурсы.\n Для отмены изменений откройте ещё раз карту или проект.",
     "UploadProject.Success": "Все проекты обновлены",
-    "ResolveValidationSession Failed": "Минимум один модуль не прошёл проверку",
+    "UploadProject.Error.FailedToValidateSourceContent_Remote": "Минимум один модуль не прошёл удалённую проверку",
     "StartMemorySamplingFlow.Cancel": "Отмена",
     "LocalizeProject.Title.WarnAboutDirtyPackages": "Продолжить с несохранёнными изменениями?",
     "UploadProject.Error.FindOrCreateEditSessionWorkspace": "Не удалось найти или создать рабочее пространство {0}",
@@ -3322,12 +3319,10 @@
     "LocalizeProject.Settings.Button.Continue": "Экспорт локализации",
     "UploadProject.Error.ClearEditSessionWorkspace": "Не удалось очистить рабочее пространство {0}",
     "UploadProject.Error.CreateValidationSession": "Не удалось создать сеанс проверки",
-    "Session Initialization Failed": "Не удалось инициализировать сеанс",
     "UploadProject.Error.InitializeValidationSession": "Не удалось инициализировать сеанс проверки",
     "UploadProject.Error.ReparentEditSessionWorkspace": "Не удалось изменить родителя рабочего пространства {0}",
     "UploadProject.Error.ResolveValidationSession": "Не удалось рассчитать сеанс проверки",
-    "UploadProject.Error.FailedToUploadSourceContent": "Не удалось выгрузить исходный контент",
-    "UploadProject.Error.ValidationFailure": "Не удалось подтвердить версии предложенного модуля",
+    "UploadProject.Error.FailedToValidateSourceContent_Local": "Не удалось провести проверку контента из локального источника",
     "LocalizeProject.Settings.Message": "Чтобы экспортировать данные локализации этого проекта, выберите соответствующие настройки для инициализации.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'.",
     "LocalizeProject.Settings.Title": "Инициализация настроек локализации",
     "UploadProject.ValidationSession_Initialize": "Инициализация…",
@@ -3433,7 +3428,10 @@
   },
   "ValkyrieEditorUtils": {
     "CopyFiles": "Копирование файлов…",
+    "FailCreatePerforceProvider": "Не удалось создать поставщик контроля версий Perforce",
     "FeatureSetNoAccess": "Отсутствует доступ к {0} набору функций",
+    "UnknownPerforceConnectionError": "Неизвестная ошибка при подключении к Perforce",
+    "UnknownGetWorkspaceError": "Неизвестная ошибка при получении рабочих пространств Perforce",
     "FeatureSetUnknown": "{0} набор функций неизвестен"
   },
   "ValkyrieEmporiumProjectGeneration": {
@@ -3483,14 +3481,13 @@
     "ExperimentalSceneGraphFeaturesUpdate_Body": "Этот проект будет сконвертирован в бета-версию. Некоторые функции Scene Graph всё ещё находятся на этапе экспериментальной версии. Перед публикацией убедитесь, что все экспериментальные функции удалены из проекта."
   },
   "ValkyrieExperimentalSceneGraphSetting": {
-    "EnableSceneGraphCTA": "Включить Scene Graph",
-    "SceneGraphEnabled": "Scene Graph включён"
+    "SceneGraphDisableWarning": "Если этот параметр включён, при отключении Scene Graph не удаляется никакой добавленный контент."
   },
   "ValkyrieExperimentalSettingsDetailCustomization": {
     "ProjectSettings.ExperimentalSettings": "Учтите, что использование экспериментальных функций в проекте не позволит вам опубликовать его. При включении этих функций будут отключены все ошибки и предупреждения Verse, относящиеся к использованию экспериментального API.\n\nРекомендуется проверять экспериментальные функции на новых проектах или копиях существующих проектов, поскольку полностью удалить все экспериментальные функции из проекта может оказаться невозможно, и в результате проект может оказаться неработоспособным."
   },
   "ValkyrieExperimentalSettingsManager": {
-    "ApplyingExperimentalSettings": "Применяются экспериментальные настройки…"
+    "ApplyingExperimentalSettings": "Применяются экспериментальные настройки и настройки бета-версии…"
   },
   "ValkyrieFetchIslandFileFlow": {
     "EngineExitRequested": "Попытка получить остров при незапущенном движке",
@@ -4823,7 +4820,7 @@
   },
   "VkExternalContentAliases": {
     "ContentFailedToLoad": "Не удалось загрузить контент",
-    "ContenWithoutPublicAsset": "Контент без публичного ресурса",
+    "ContenWithoutExposedAsset": "Контент без выводимого ресурса",
     "SomeContentFailedToLoad": "Не удалось загрузить часть контента"
   },
   "VKFN1EditorTools": {

@@ -151,33 +151,5 @@
     "8D8161A147B9DE653775969DA4A7C71A": "Правда?! Не знаю, как тебя благодарить… Следуй <b>чертежам</>, там всё просто. По крайней мере, для тебя.",
     "3DB5601B4CA9E6B102B8ED9C4687402A": "Всё верно, сейчас не время сидеть сложа руки.",
     "B4409E1F41BB1CF855F0899A0E05F306": "Всегда пожалуйста!"
-  },
-  "FJunoStateDrivenEvent_InsertItem": {
-    "InsertItem": "Разместить: {ItemName}"
-  },
-  "JunoConversationTask_GetResource": {
-    "Finished": "Готово",
-    "GetX": "Получить: {0}"
-  },
-  "JunoConversationTaskNode_GiftNPC": {
-    "GiftXToNPC": "Подарить: {ItemDisplayText}"
-  },
-  "JunoConversationTaskNode_GrantLostAndFoundItem": {
-    "LNFDropAll": "Давай мне что угодно!",
-    "LNFDropNOfX": "{WantItem} ({WantItemCount})"
-  },
-  "JunoConversationTaskNode_RemoteCampRecruitment": {
-    "JoinInCampX": "Присоединиться к лагерю: {0}"
-  },
-  "JunoConversationTaskNode_TradeWithMerchant": {
-    "NotEnoughForTrade": "Недостаточно для обмена. Чтобы получить {SellItem} ({SellItemCount} шт.), вы должны отдать {WantItem} ({WantItemCount} шт.). \n Осталось комплектов: {BundleCount}.",
-    "TradeXForX": "Обменять {WantItem} ({WantItemCount} шт.) на {SellItem} ({SellItemCount} шт.). \n Осталось комплектов: {BundleCount}."
-  },
-  "JunoSpeech": {
-    "JunoSpeech_UnknownParticipant": "???",
-    "JunoSpeech_ConsecutiveSpeechDefaultText": "Продолжить",
-    "JunoSpeech_NoAIRole": "Без работы",
-    "JunoSpeech_NoBoundCampName": "Безымянное поселение",
-    "JunoSpeech_NoLastUsedGatheringActor": "Нет рабочего места"
   }
 }

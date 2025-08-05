@@ -4,9 +4,30 @@
     "PointsOutsideVolumeDescriptionContext": "{0}: генерация вне {1}",
     "PointsOutsideVolumeDescriptionWithProjection": "{Description}, {ProjectionDescription}"
   },
+  "FJunoStateDrivenEvent_InsertItem": {
+    "InsertItem": "Разместить: {ItemName}"
+  },
   "JunoControllerComponent": {
     "OnPlayerDiedGameEvent": "Игрок {0} <Yellow>устранён</>",
     "OnPlayerSavedByTotemGameEvent": "<Yellow>Тотем спасает жизнь</> игроку {0}"
+  },
+  "JunoConversationTask_GetResource": {
+    "Finished": "Готово",
+    "GetX": "Получить: {0}"
+  },
+  "JunoConversationTaskNode_GiftNPC": {
+    "GiftXToNPC": "Подарить: {ItemDisplayText}"
+  },
+  "JunoConversationTaskNode_GrantLostAndFoundItem": {
+    "LNFDropAll": "Давай мне что угодно!",
+    "LNFDropNOfX": "{WantItem} ({WantItemCount})"
+  },
+  "JunoConversationTaskNode_RemoteCampRecruitment": {
+    "JoinInCampX": "Присоединиться к лагерю: {0}"
+  },
+  "JunoConversationTaskNode_TradeWithMerchant": {
+    "NotEnoughForTrade": "Недостаточно для обмена. Чтобы получить {SellItem} ({SellItemCount} шт.), вы должны отдать {WantItem} ({WantItemCount} шт.). \n Осталось комплектов: {BundleCount}.",
+    "TradeXForX": "Обменять {WantItem} ({WantItemCount} шт.) на {SellItem} ({SellItemCount} шт.). \n Осталось комплектов: {BundleCount}."
   },
   "JunoGameStateComponent_GameEventStream": {
     "GameMemberAdded": "{0} <Yellow>заходит в мир</>",
@@ -20,6 +41,7 @@
   },
   "JunoPlayerCheckpointHandler": {
     "FailedToGetAvailableCheckpointsErrorMessage": "Не удалось получить доступные контрольные точки",
+    "FailedToSetInitialCheckpointErrorMessage": "Не удалось установить изначальную контрольную точку",
     "InvalidJunoWorldErrorMessage": "Недопустимый мир Juno при попытке инициализировать обработчик контрольной точки",
     "InvalidJunoRootPlayspaceErrorMessage": "Недопустимое корневое игровое пространство при попытке инициализировать обработчик контрольной точки"
   },
@@ -35,6 +57,13 @@
     "StalePlayerPersistenceHandlerErrorMessage": "Устаревший обработчик состояния игрока после завершения инициализации",
     "UnableToCreatePlayerPersistenceErrorMessage": "Не удалось создать обработчик состояния игрока",
     "InvalidPlayerPersistenceStorageErrorMessage": "Не удалось извлечь корректное хранилище сохранений"
+  },
+  "JunoSpeech": {
+    "JunoSpeech_UnknownParticipant": "???",
+    "JunoSpeech_ConsecutiveSpeechDefaultText": "Продолжить",
+    "JunoSpeech_NoAIRole": "Без работы",
+    "JunoSpeech_NoBoundCampName": "Безымянное поселение",
+    "JunoSpeech_NoLastUsedGatheringActor": "Нет рабочего места"
   },
   "JunoStorageChest": {
     "Open": "Открыть",
