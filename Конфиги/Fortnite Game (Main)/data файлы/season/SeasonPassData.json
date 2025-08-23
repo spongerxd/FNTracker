@@ -1,30 +1,10 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "SeasonPassData_S36",
+    "Name": "SeasonPassData_S37",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Product": {
-        "TagName": "Product.BR"
-      },
-      "SeasonName": {
-        "Namespace": "",
-        "Key": "94C2B87C453F81BAD91E4BB69E1CBF89",
-        "SourceString": "Chapter 6 - Season 3",
-        "LocalizedString": "Сезон 3 главы 6"
-      },
-      "SeasonEndText": {
-        "Namespace": "",
-        "Key": "BCCC2B654B416862C2894BB33491F9CC",
-        "SourceString": "Battle Pass",
-        "LocalizedString": "Боевой пропуск"
-      },
-      "SeasonStorefront": "BRSeason36",
-      "SeasonPassOfferId": "882C81484E93BB7C24EAA0BA2838531D",
-      "SeasonPassBundleOfferId": "4CCE68A0451F5F27A804CC875A3B8BA6",
-      "SeasonPassLevelOfferId": "9CA9389A43E930FACA339F802B1D7AB5",
-      "SeasonPassLevelBundleOfferId": "5698A62F4AC312C7C669DF901B129056",
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_BattlePass.MI_UI_NexusHeaderIcon_BattlePass",
         "SubPathString": ""
@@ -33,44 +13,281 @@
         "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_BattlePass.MI_UI_SideNavIcon_BattlePass",
         "SubPathString": ""
       },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "DBA4D47C4BC4CCC79BC5D8B5D0A3B433",
+        "SourceString": "Chapter 6 - Season 4",
+        "LocalizedString": "Сезон 4 главы 6"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "C52E564044BC94376298168ECDCE7E9A",
+        "SourceString": "Battle Pass",
+        "LocalizedString": "Боевой пропуск"
+      },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "0F1CEC1B49A703447F1EBDBCD5FEA2B6",
+        "Key": "DD24619D46F3A6748FA950835009A214",
         "SourceString": "Get Battle Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
           "R": 1.0,
-          "G": 0.520996,
-          "B": 0.036889,
+          "G": 0.60794,
+          "B": 0.231652,
           "A": 1.0,
-          "Hex": "FFBF36"
+          "Hex": "FFCD84"
         },
         "ProgressionColor": {
           "R": 1.0,
-          "G": 0.545725,
-          "B": 0.205079,
+          "G": 0.337164,
+          "B": 0.0,
           "A": 1.0,
-          "Hex": "FFC37D"
+          "Hex": "FF9D00"
+        },
+        "OverlayColor": {
+          "R": 1.0,
+          "G": 0.337164,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF9D00"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS36/UI/MaterialInstances/MI_BG_Nexus_CH6S3.MI_BG_Nexus_CH6S3",
+          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6S4.MI_BG_Nexus_CH6S4",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS36/UI/MaterialInstances/MI_BG_Nexus_CH6S3_UI.MI_BG_Nexus_CH6S3_UI",
+          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6S4_UI.MI_BG_Nexus_CH6S4_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS36/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6S3.MI_UI_Crew_Upsell_CH6S3",
+          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6S4.MI_UI_Crew_Upsell_CH6S4",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS36/UI/MaterialInstances/MI_UI_S36_CategoryButton_Crew.MI_UI_S36_CategoryButton_Crew",
+          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_UI_S37_CategoryButton_Crew.MI_UI_S37_CategoryButton_Crew",
           "SubPathString": ""
+        },
+        "BenefitsByType": [
+          {
+            "UpsellType": "ENexusUpsellEntryType::Paid",
+            "BenefitGroups": [],
+            "ImageUrl": "",
+            "ThemeColors": [
+              {
+                "Name": "Offer Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.012983,
+                    "G": 0.090842,
+                    "B": 0.226966,
+                    "A": 1.0,
+                    "Hex": "1E5583"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.078187,
+                    "G": 0.266356,
+                    "B": 0.571125,
+                    "A": 1.0,
+                    "Hex": "4F8DC7"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color - Hover",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.005065,
+                    "G": 0.035438,
+                    "B": 0.088542,
+                    "A": 1.0,
+                    "Hex": "0F3554"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 1",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.078187,
+                    "G": 0.266356,
+                    "B": 0.571125,
+                    "A": 0.25,
+                    "Hex": "3F4F8DC7"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 2",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.003873,
+                    "G": 0.0271,
+                    "B": 0.067708,
+                    "A": 1.0,
+                    "Hex": "0C2D49"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              }
+            ],
+            "ThemeColor": {
+              "R": 0.508881,
+              "G": 0.545724,
+              "B": 0.571125,
+              "A": 1.0,
+              "Hex": "BDC3C7"
+            },
+            "Image": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "UpsellType": "ENexusUpsellEntryType::Bundle",
+            "BenefitGroups": [],
+            "ImageUrl": "",
+            "ThemeColors": [
+              {
+                "Name": "Offer Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 1.0,
+                    "G": 0.484439,
+                    "B": 0.166667,
+                    "A": 1.0,
+                    "Hex": "FFB971"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.953125,
+                    "G": 0.366523,
+                    "B": 0.004964,
+                    "A": 1.0,
+                    "Hex": "FAA30F"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color - Hover",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.165132,
+                    "G": 0.0185,
+                    "B": 0.001518,
+                    "A": 1.0,
+                    "Hex": "712505"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 1",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.871367,
+                    "G": 0.262251,
+                    "B": 0.0,
+                    "A": 0.25,
+                    "Hex": "3FF08C00"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 2",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.036458,
+                    "G": 0.004975,
+                    "B": 0.001329,
+                    "A": 1.0,
+                    "Hex": "350F04"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              }
+            ],
+            "ThemeColor": {
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
+              "A": 1.0,
+              "Hex": "BDC3C7"
+            },
+            "Image": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "Product": {
+        "TagName": "Product.BR"
+      },
+      "SeasonStorefront": "BRSeason37",
+      "SeasonPassOfferId": "CF3E23B84A5CC17AB554B3A74AE4EECA",
+      "SeasonPassBundleOfferId": "DF1BD8D546DC02FDB95BBBA073C72FCF",
+      "SeasonPassLevelOfferId": "62BF80A3452D48189CBD449387E7790F",
+      "SeasonPassLevelBundleOfferId": "82D30D764E251B753899A4BD2987DB07",
+      "PremiumTrackPurchasedToken": {
+        "ObjectName": "FortPremiumRewardsGateToken'Athena_S37_PremiumBPRewardsGate_Token'",
+        "ObjectPath": "/BattlePassS37_Quests/Items/Tokens/Athena_S37_PremiumBPRewardsGate_Token.0"
+      },
+      "PaidRewards": [
+        {
+          "OfferGuid": "00000000-00000000-00000000-00000000",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BattlePassS37_Quests/Items/Tokens/Athena_S37_PremiumBPRewardsGate_Token.Athena_S37_PremiumBPRewardsGate_Token",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": true
+            }
+          ]
+        },
+        {
+          "OfferGuid": "A0A39893-4B93EA94-437B4C80-4EAA6895",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_ClaimReflect_StyleA.VTID_Character_ClaimReflect_StyleA",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": false
+            }
+          ]
         }
-      }
+      ]
     }
   }
 ]

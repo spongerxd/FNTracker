@@ -448,7 +448,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
         }
       },
       "historianpickaxedesc": {
@@ -1408,7 +1408,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
+          "LocalizedString": "Маркус прибыл на остров."
         }
       },
       "promodesc16": {
@@ -1416,7 +1416,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль для Маркуса!"
+          "LocalizedString": "Маркус и Кейт прибыли на остров."
         }
       },
       "promodesc17": {
@@ -2952,7 +2952,7 @@
           "Namespace": "",
           "Key": "6927E4B447F9E020F73492BDAB998208",
           "SourceString": "TBD",
-          "LocalizedString": "Скоро появится альтернативный стиль инструмента!"
+          "LocalizedString": "TBD"
         }
       },
       "promodesc102": {
@@ -2968,7 +2968,7 @@
           "Namespace": "",
           "Key": "EB40BEAA44D3EA59BA1E61A8679F666A",
           "SourceString": "TBD",
-          "LocalizedString": "Альтернативные стили экипировки пока не доступны при покупке. Скоро станут доступны арктический стиль и стиль джунглей."
+          "LocalizedString": "TBD"
         }
       },
       "promodesc104": {
@@ -2976,7 +2976,7 @@
           "Namespace": "",
           "Key": "19299AC34108CAC1D11415A23839A473",
           "SourceString": "TBD",
-          "LocalizedString": "Декаль ФК «Бавария» не входит в комлпект Fennec ZR-F."
+          "LocalizedString": "TBD"
         }
       },
       "promodesc105": {
@@ -3768,7 +3768,7 @@
           "Namespace": "",
           "Key": "0649648649B4C5C7C02CACAE9A63C9EC",
           "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Ford Bronco Raptor RLE car body. This car will fill the SUV slot in relevant Fortnite experiences.",
-          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Ford Bronco Raptor. Эта машина будет занимать ячейку внедорожников в соответствующих режимах Fortnite."
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Ford Bronco Raptor RLE. Эта машина будет занимать ячейку внедорожников в соответствующих режимах Fortnite."
         }
       },
       "slick": {
@@ -3912,7 +3912,7 @@
           "Namespace": "",
           "Key": "9E40B2CA483B4BADAB1DAC996B86712A",
           "SourceString": "Rove glows and glitches when you take or deal damage — fully reactive on eliminations! Eva reacts to eliminations! Glitch effects intensify with each elimination!",
-          "LocalizedString": "Вид блестит и мерцает, когда вы получаете или наносите урон, а ещё реагирует на устранения! Экипировка Эвы меняется при устранении противников! Эффект мерцания усиливается с каждым устранением!"
+          "LocalizedString": "Вид блестит и мерцает, когда вы получаете или наносите урон, а ещё реагирует на устранения! Эва реагирует на устранения! Эффект мерцания усиливается с каждым устранением!"
         }
       },
       "pawjasminegravity": {
@@ -3953,6 +3953,46 @@
           "Key": "9F26BFB046E6F3393394FFA6B9C10A7E",
           "SourceString": "Propellers spin on eliminations!",
           "LocalizedString": "При устранениях вращаются пропеллеры!"
+        }
+      },
+      "rangerwrap": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2830AD4241DE41CA776A0DB15B4DC465",
+          "SourceString": "Wrap changes styles based on currently equipped Power Rangers outfit!",
+          "LocalizedString": "Обёртка меняет стили в зависимости от используемой экипировки могучего рейнджера!"
+        }
+      },
+      "armyflouroutfit": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F034BB8E4C9EEB328905D9A14DA116B9",
+          "SourceString": "Change styles with the built-in Bout emote!",
+          "LocalizedString": "Меняйте стили с помощью встроенной эмоции «Боеготовность Геноса»!"
+        }
+      },
+      "twinzer": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C2622456452C19ECB847169C0C5130BE",
+          "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the Twinzer car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Twinzer. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "chrisp": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CA27EFD5442018E2082C63B2279C6168",
+          "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the BMW E30 car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом BMW E30. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "tomahawk": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "BC79C86040DC98F20A401BB28B49B02F",
+          "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the Jackal car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Jackal. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
       }
     }

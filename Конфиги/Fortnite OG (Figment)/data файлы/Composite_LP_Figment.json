@@ -12794,7 +12794,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Rare.04": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Consumables.Rare",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -12848,14 +12848,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_TowerGrenade_Athena/Gameplay/Figment_TowerGrenade_Athena.Figment_TowerGrenade_Athena",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaTowerGrenade",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Gadget.GrapplingHook",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Epic.02": {
@@ -12864,8 +12864,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -12881,14 +12881,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_GasGrenade/Athena/Items/Consumables/GasGrenade/Figment_Athena_GasGrenade.Figment_Athena_GasGrenade",
+          "AssetPathName": "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade.Figment_Athena_ShockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaGasGrenade",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaShockGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Epic.03": {
@@ -12914,14 +12914,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_PurpleStuff/Gameplay/Figment_Athena_PurpleStuff.Figment_Athena_PurpleStuff",
+          "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item.Figment_Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaPurpleStuff",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaRiftShard",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Legendary.01": {
@@ -12947,14 +12947,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Jetpack_Athena/Items/Gadgets/Backpacks/AGID_Figment_Jetpack.AGID_Figment_Jetpack",
+          "AssetPathName": "/Figment_Athena_SuperTowerGrenade/Gameplay/Figment_Athena_SuperTowerGrenade_A.Figment_Athena_SuperTowerGrenade_A",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Legendary.C0;Item:Consumable.JetpackV2",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Legendary.C0;Item:Consumable.AthenaSuperTowerGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Legendary.02": {
@@ -13046,14 +13046,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_C.WID_Figment_Pistol_AutoHeavySuppressed_Athena_C",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_C_Ore_T03.Figment_SubmachineGun_Athena_C_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Light.C0;Item:WID.Pistol.AutoHeavySuppressed.Athena.C",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Light.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.C.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium.01": {
@@ -13244,14 +13244,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_UC.WID_Figment_Pistol_Scavenger_Athena_UC",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_UC_Ore_T03.Figment_SubmachineGun_Athena_UC_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Light.C0;Item:WID.Pistol.Scavenger.Athena.UC",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Light.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.UC.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Light.02": {
@@ -13508,14 +13508,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_R.WID_Figment_Pistol_Scavenger_Athena_R",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_R_Ore_T03.Figment_SubmachineGun_Athena_R_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Light.C0;Item:WID.Pistol.Scavenger.Athena.R",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Light.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.R.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Light.02": {
@@ -13574,14 +13574,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Assault_AutoDrum_Athena/Gameplay/WID_Figment_Assault_AutoDrum_Athena_R_Ore_T03.WID_Figment_Assault_AutoDrum_Athena_R_Ore_T03",
+          "AssetPathName": "/Figment_Assault_LMGSAW_Athena/Gameplay/Figment_WID_Assault_LMGSAW_Athena_R.Figment_WID_Assault_LMGSAW_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Medium.C0;Item:WID.Assault.AutoDrum.Athena.R.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Medium.C0;Item:WID.Assault.LMGSAW.Athena.R.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Medium.02": {
@@ -13706,14 +13706,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_R.WID_Figment_Launcher_Rocket_Athena_R",
+          "AssetPathName": "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_R.WID_Figment_Launcher_Grenade_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Rocket.C0;Item:WID.Launcher.Rocket.Athena.R",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Rocket.C0;Item:WID.Launcher.Grenade.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Gadget.01": {
@@ -13752,6 +13752,39 @@
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells",
         "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells.C0;Item:WID.Shotgun.BreakBarrel.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells.02": {
+        "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Shells",
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -13838,14 +13871,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_VR_Ore_T03.WID_Figment_Assault_LMG_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_VR.WID_Figment_CompactSMG_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Light.C0;Item:WID.Assault.LMG.Athena.VR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Light.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Medium.01": {
@@ -13970,14 +14003,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_VR.WID_Figment_Assault_AutoHigh_Athena_VR",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Medium.C0;Item:WID.Assault.AutoHigh.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Medium.C0;Item:WID.Assault.Suppressed.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Heavy.01": {
@@ -14003,14 +14036,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_VR.WID_Figment_Pistol_HandCannon_Athena_VR",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Heavy.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Heavy.C0;Item:WID.Sniper.Heavy.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Heavy.02": {
@@ -14168,7 +14201,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -14179,6 +14212,39 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.01": {
+        "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.C0;Item:WID.Shotgun.BreakBarrel.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.02": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -14213,7 +14279,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Light.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Light",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -14267,14 +14333,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_SR_Ore_T03.WID_Figment_Assault_LMG_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR.WID_Figment_CompactSMG_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Light.C0;Item:WID.Assault.LMG.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Light.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium.01": {
@@ -14399,6 +14465,39 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium.C0;Item:WID.Assault.Suppressed.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium.05": {
+        "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
           "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03.WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
@@ -14432,14 +14531,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_SR.WID_Figment_Pistol_HandCannon_Athena_SR",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Heavy.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Heavy.C0;Item:WID.Sniper.Heavy.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Heavy.02": {
@@ -15269,7 +15368,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.22": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15290,7 +15389,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -15302,7 +15401,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.23": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15323,7 +15422,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -16424,7 +16523,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16445,7 +16544,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -16457,7 +16556,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.22": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16478,7 +16577,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -16622,7 +16721,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.27": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.03,
+        "Weight": 0.015,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16655,7 +16754,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.28": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.01,
+        "Weight": 0.005,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17051,7 +17150,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17084,7 +17183,40 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.04": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.03,
+        "Weight": 0.07,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_R_Ore_T04.WID_Figment_DualPistol_SemiAuto_Athena_R_Ore_T04",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Handgun.05": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17115,42 +17247,9 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.05": {
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.02,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03.WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.SR.Ore.T03",
-        "DurabilityPercentageOverride": 1.0
-      },
       "WorldList.AthenaLoot.Weapon.Handgun.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17183,7 +17282,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.07": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17216,7 +17315,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17315,7 +17414,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17414,7 +17513,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17513,7 +17612,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17579,7 +17678,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.01,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17810,7 +17909,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.15": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17843,7 +17942,40 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.16": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.03,
+        "Weight": 0.07,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_R_Ore_T04.WID_Figment_DualPistol_SemiAuto_Athena_R_Ore_T04",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.DualPistol.SemiAuto.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.17": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17872,39 +18004,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.DualPistol.SemiAuto.Athena.VR.Ore.T03",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaLoot.Weapon.HighHandgun.17": {
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.02,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03.WID_Figment_DualPistol_SemiAuto_Athena_SR_Ore_T03",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.DualPistol.SemiAuto.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HandCannon.01": {
@@ -19163,7 +19262,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.04": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19196,7 +19295,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.2,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19229,7 +19328,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.05,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19262,7 +19361,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.07": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.15,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19295,7 +19394,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19361,7 +19460,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19382,7 +19481,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_C_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_C_Ore_T03",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_C_Ore_T03.Figment_SubmachineGun_Athena_C_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -19394,7 +19493,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19415,7 +19514,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_UC_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_UC_Ore_T03",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_UC_Ore_T03.Figment_SubmachineGun_Athena_UC_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -19427,7 +19526,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.12": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19448,7 +19547,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_R_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_R_Ore_T03",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_R_Ore_T03.Figment_SubmachineGun_Athena_R_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -19526,7 +19625,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.15": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19547,7 +19646,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_VR_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_VR.WID_Figment_CompactSMG_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -19559,7 +19658,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.16": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19580,7 +19679,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_SR_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR.WID_Figment_CompactSMG_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -20087,7 +20186,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.01": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20108,73 +20207,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_C_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_C_Ore_T03",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.C.Ore.T03",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaLoot.Weapon.HighSMG.02": {
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_UC_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_UC_Ore_T03",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.UC.Ore.T03",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaLoot.Weapon.HighSMG.03": {
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_R_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_R_Ore_T03",
+          "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_R_Ore_T03.Figment_SubmachineGun_Athena_R_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -20182,6 +20215,72 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighSMG.02": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
+        "Weight": 0.03,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_VR.WID_Figment_CompactSMG_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighSMG.03": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
+        "Weight": 0.01,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR.WID_Figment_CompactSMG_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.04": {
@@ -20483,7 +20582,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20516,7 +20615,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20549,7 +20648,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21770,7 +21869,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.22": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.015,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21791,7 +21890,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_VR_Ore_T03.WID_Assault_Suppressed_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -21803,7 +21902,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.23": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.005,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21824,7 +21923,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -23057,7 +23156,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.07": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.03,
+        "Weight": 0.015,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23090,7 +23189,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.02,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23783,7 +23882,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.29": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23804,7 +23903,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_VR_Ore_T03.WID_Assault_Suppressed_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -23816,7 +23915,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.30": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.015,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23837,7 +23936,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -24245,7 +24344,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.43": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.03,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24278,7 +24377,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.44": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.02,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24410,7 +24509,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.48": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.05,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24509,7 +24608,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 1.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24674,7 +24773,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 1.25,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24707,7 +24806,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 1.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24773,7 +24872,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24794,7 +24893,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_VR_Ore_T03.WID_Sniper_Heavy_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -24806,7 +24905,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.12": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24827,7 +24926,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_SR_Ore_T03.WID_Sniper_Heavy_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -25334,7 +25433,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25355,7 +25454,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_VR_Ore_T03.WID_Sniper_Heavy_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -25367,7 +25466,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25388,7 +25487,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_SR_Ore_T03.WID_Sniper_Heavy_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -25400,7 +25499,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.4,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25433,7 +25532,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.12": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.1,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26027,7 +26126,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Rocket.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Rocket",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26852,7 +26951,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28589,7 +28688,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_VR_Ore_T03.WID_Assault_Suppressed_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -28622,7 +28721,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -29084,7 +29183,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_VR_Ore_T03.WID_Sniper_Heavy_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -29117,7 +29216,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_SR_Ore_T03.WID_Sniper_Heavy_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -29810,7 +29909,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -31229,7 +31328,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "AssetPathName": "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade.Figment_Athena_ShockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -32264,7 +32363,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32297,7 +32396,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 1.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32318,7 +32417,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_SR_Ore_T03.WID_Sniper_Heavy_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -32417,7 +32516,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_Heavy_Athena_VR_Ore_T03.WID_Sniper_Heavy_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -32627,7 +32726,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.13": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.4,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32660,7 +32759,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32693,7 +32792,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32714,14 +32813,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Shotgun_Heavy_Athena/Gameplay/WID_Figment_Shotgun_SlugFire_Athena_VR.WID_Figment_Shotgun_SlugFire_Athena_VR",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.SlugFire.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.BreakBarrel.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.03": {
@@ -33320,7 +33419,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.5,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33386,7 +33485,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 1.2,
+        "Weight": 0.9,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33452,7 +33551,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.06": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.7,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33485,7 +33584,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.0,
+        "Weight": 1.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33506,7 +33605,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -33803,7 +33902,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_VR_Ore_T03.WID_Assault_Suppressed_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -33815,7 +33914,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.17": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33947,7 +34046,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34013,7 +34112,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34112,7 +34211,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34133,7 +34232,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_AutoHeavyPDW_Athena_SR_Ore_T03.WID_Pistol_AutoHeavyPDW_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR.WID_Figment_CompactSMG_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -34277,7 +34376,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.06": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.4,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35861,12 +35960,12 @@
       },
       "WorldList.AthenaHighConsumables.14": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.4,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 4,
-          "Y": 4
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -35894,7 +35993,7 @@
       },
       "WorldList.AthenaHighConsumables.15": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.4,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35927,7 +36026,7 @@
       },
       "WorldList.AthenaHighConsumables.16": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.3,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36059,7 +36158,7 @@
       },
       "WorldList.AthenaHighConsumables.20": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36080,7 +36179,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item.Figment_Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36092,7 +36191,7 @@
       },
       "WorldList.AthenaHighConsumables.21": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36113,7 +36212,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "AssetPathName": "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade.Figment_Athena_ShockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36125,7 +36224,7 @@
       },
       "WorldList.AthenaHighConsumables.22": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36146,7 +36245,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/PortAFort_A/Athena_SuperTowerGrenade_A.Athena_SuperTowerGrenade_A",
+          "AssetPathName": "/Figment_Athena_SuperTowerGrenade/Gameplay/Figment_Athena_SuperTowerGrenade_A.Figment_Athena_SuperTowerGrenade_A",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36224,7 +36323,7 @@
       },
       "WorldList.AthenaHighConsumables.25": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36245,7 +36344,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36851,7 +36950,7 @@
       },
       "WorldList.AthenaHighConsumables.44": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37346,7 +37445,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.05": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.7,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37643,7 +37742,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.14": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.8,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37676,12 +37775,12 @@
       },
       "WorldList.AthenaSupplyDropConsumables.15": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 4,
-          "Y": 4
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -37775,7 +37874,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.18": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37796,7 +37895,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item.Figment_Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -37808,7 +37907,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.19": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37829,7 +37928,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "AssetPathName": "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade.Figment_Athena_ShockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -37874,7 +37973,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.21": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37895,14 +37994,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/SpikeArena/Athena_SpikeArena_Grenade.Athena_SpikeArena_Grenade",
+          "AssetPathName": "/Figment_Athena_SuperTowerGrenade/Gameplay/Figment_Athena_SuperTowerGrenade_A.Figment_Athena_SuperTowerGrenade_A",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaSpikeArenaGrenade",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.AthenaSuperTowerGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.22": {
@@ -37940,7 +38039,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.23": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37961,7 +38060,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39165,8 +39264,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 4,
-          "Y": 4
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -39194,7 +39293,7 @@
       },
       "WorldList.AthenaConsumables.15": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.3,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39227,7 +39326,7 @@
       },
       "WorldList.AthenaConsumables.16": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.3,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39359,7 +39458,7 @@
       },
       "WorldList.AthenaConsumables.20": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39380,7 +39479,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
+          "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item.Figment_Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39392,7 +39491,7 @@
       },
       "WorldList.AthenaConsumables.21": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39413,7 +39512,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "AssetPathName": "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade.Figment_Athena_ShockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39425,7 +39524,7 @@
       },
       "WorldList.AthenaConsumables.22": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.05,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39446,7 +39545,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/PortAFort_A/Athena_SuperTowerGrenade_A.Athena_SuperTowerGrenade_A",
+          "AssetPathName": "/Figment_Athena_SuperTowerGrenade/Gameplay/Figment_Athena_SuperTowerGrenade_A.Figment_Athena_SuperTowerGrenade_A",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40118,7 +40217,7 @@
       },
       "WorldList.AthenaConsumables.43": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -40139,7 +40238,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",

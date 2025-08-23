@@ -74,8 +74,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -94,6 +97,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.15,
@@ -215,27 +219,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -401,8 +410,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 3.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 8.0,
         "AthenaRecoilMagnitudeMax": 8.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -421,6 +433,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 1.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.18,
@@ -502,17 +515,20 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 4.0,
             "Spread": 17.0,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -678,8 +694,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 4.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 9.0,
         "AthenaRecoilMagnitudeMax": 9.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -698,6 +717,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -746,12 +766,14 @@
           {
             "BulletNum": 1.0,
             "Spread": 3.75,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 4.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [
@@ -1098,8 +1120,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 4.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -1118,6 +1143,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -1166,17 +1192,20 @@
           {
             "BulletNum": 1.0,
             "Spread": 4.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 3.0,
             "Spread": 5.5,
-            "RecoveryTime": 0.33
+            "RecoveryTime": 0.33,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [
@@ -1523,8 +1552,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 4.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -1543,6 +1575,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.175,
@@ -1624,22 +1657,26 @@
           {
             "BulletNum": 1.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 4.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.75
+            "RecoveryTime": 0.75,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 10.0,
             "Spread": 6.0,
-            "RecoveryTime": 1.0
+            "RecoveryTime": 1.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 16.0,
             "Spread": 7.0,
-            "RecoveryTime": 1.5
+            "RecoveryTime": 1.5,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -1805,8 +1842,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 6.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -1825,6 +1865,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.1,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.175,
@@ -1906,42 +1947,50 @@
           {
             "BulletNum": 1.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 3.0,
             "Spread": 6.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 7.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.6
+            "RecoveryTime": 0.6,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 9.0,
             "Spread": 7.5,
-            "RecoveryTime": 0.7
+            "RecoveryTime": 0.7,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 11.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.8
+            "RecoveryTime": 0.8,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 13.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.8
+            "RecoveryTime": 0.8,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 16.0,
             "Spread": 8.5,
-            "RecoveryTime": 0.9
+            "RecoveryTime": 0.9,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 20.0,
             "Spread": 9.0,
-            "RecoveryTime": 1.1
+            "RecoveryTime": 1.1,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -2107,8 +2156,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 3.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -2127,6 +2179,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.1,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -2248,42 +2301,50 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 3.0,
             "Spread": 26.0,
-            "RecoveryTime": 0.15
+            "RecoveryTime": 0.15,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 22.0,
-            "RecoveryTime": 0.22
+            "RecoveryTime": 0.22,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 9.0,
             "Spread": 18.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 15.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.35
+            "RecoveryTime": 0.35,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 21.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.45
+            "RecoveryTime": 0.45,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 29.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.5
+            "RecoveryTime": 0.5,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 40.0,
             "Spread": 18.0,
-            "RecoveryTime": 0.6
+            "RecoveryTime": 0.6,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -2449,8 +2510,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -2469,6 +2533,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -2550,27 +2615,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 17.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 19.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 20.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -2736,8 +2806,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -2756,6 +2829,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -2861,27 +2935,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 17.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 19.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 20.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -3047,8 +3126,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -3067,6 +3149,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -3132,27 +3215,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 17.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 19.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 20.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -3318,8 +3406,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -3338,6 +3429,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -3435,27 +3527,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 17.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 19.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 20.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -3621,8 +3718,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 6.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 5.0,
         "AthenaRecoilMagnitudeMax": 5.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -3641,6 +3741,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.3,
         "ADSTransitionOutTime": 0.225,
@@ -3689,7 +3790,8 @@
           {
             "BulletNum": 1.0,
             "Spread": 20.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -3855,8 +3957,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 6.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 5.0,
         "AthenaRecoilMagnitudeMax": 5.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -3875,6 +3980,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.225,
         "ADSTransitionOutTime": 0.2,
@@ -3923,7 +4029,8 @@
           {
             "BulletNum": 1.0,
             "Spread": 16.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -4089,8 +4196,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 6.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 5.0,
         "AthenaRecoilMagnitudeMax": 5.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -4109,6 +4219,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.24,
         "ADSTransitionOutTime": 0.2,
@@ -4157,7 +4268,8 @@
           {
             "BulletNum": 1.0,
             "Spread": 15.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -4323,8 +4435,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -4343,6 +4458,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.15,
@@ -4464,27 +4580,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -4650,8 +4771,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -4670,6 +4794,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.15,
@@ -4791,27 +4916,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -4977,8 +5107,11 @@
         "RecoilInterpSpeed": 9.0,
         "RecoilRecoveryInterpSpeed": 7.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -4997,6 +5130,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.0,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.15,
@@ -5118,27 +5252,32 @@
           {
             "BulletNum": 1.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 2.0,
             "Spread": 5.0,
-            "RecoveryTime": 0.1
+            "RecoveryTime": 0.1,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 6.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 14.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.25
+            "RecoveryTime": 0.25,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 19.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.3
+            "RecoveryTime": 0.3,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],
@@ -5304,8 +5443,11 @@
         "RecoilInterpSpeed": 12.0,
         "RecoilRecoveryInterpSpeed": 6.0,
         "RecoilRecoveryDelay": 0.0,
+        "RecoilRecoveryEaseInTime": 0.0,
         "RecoilRecoveryFraction": 1.0,
         "RecoilDownsightsMultiplier": 1.0,
+        "RecoilStandingStillMultiplier": 1.0,
+        "RecoilMovingMultiplier": 1.0,
         "AthenaRecoilMagnitudeMin": 4.0,
         "AthenaRecoilMagnitudeMax": 4.0,
         "AthenaRecoilMagnitudeScale": 1.0,
@@ -5324,6 +5466,7 @@
         "OffsetRecoilFactor": 0.0,
         "RecoilBounceFactor": 0.1,
         "RecoilBounceOffsetFactor": 1.0,
+        "OffsetRecoilLimitOverride": -1.0,
         "AthenaAimAssistRange": 25000.0,
         "ADSTransitionInTime": 0.2,
         "ADSTransitionOutTime": 0.175,
@@ -5397,32 +5540,38 @@
           {
             "BulletNum": 1.0,
             "Spread": 6.0,
-            "RecoveryTime": 0.0
+            "RecoveryTime": 0.0,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 3.0,
             "Spread": 6.5,
-            "RecoveryTime": 0.2
+            "RecoveryTime": 0.2,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 7.0,
             "Spread": 7.0,
-            "RecoveryTime": 0.6
+            "RecoveryTime": 0.6,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 9.0,
             "Spread": 7.25,
-            "RecoveryTime": 0.7
+            "RecoveryTime": 0.7,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 11.0,
             "Spread": 7.5,
-            "RecoveryTime": 0.8
+            "RecoveryTime": 0.8,
+            "SpreadExponent": 1.0
           },
           {
             "BulletNum": 13.0,
             "Spread": 8.0,
-            "RecoveryTime": 0.8
+            "RecoveryTime": 0.8,
+            "SpreadExponent": 1.0
           }
         ],
         "OverrideBulletPattern": [],

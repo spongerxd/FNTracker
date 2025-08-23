@@ -2,7 +2,7 @@
 - [AES Ключи](https://github.com/spongerxd/FNTracker/tree/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8)
 - [Файлы локализации, data файлы, ini файлы, изображения карт режимов (КБ, Перезарядка и Как раньше)](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8)
 
-<h6 align="center">Текущая версия FNTracker: 36.30</h4>
+<h6 align="center">Текущая версия FNTracker: 37.00</h4>
 <h6 align="center">обновления трекера происходят в течении 1-2 дней после выхода патча в fortnite</h5>
 
 ## Огромное спасибо

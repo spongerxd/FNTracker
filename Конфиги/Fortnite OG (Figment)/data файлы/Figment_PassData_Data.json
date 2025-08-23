@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "SeasonPassData",
+    "Name": "Figment_S05_PassData_Data",
+    "Class": "UScriptClass'SeasonPassData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LargeIcon": {
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_OGPass.MI_UI_NexusHeaderIcon_OGPass",
+        "SubPathString": ""
+      },
+      "SmallIcon": {
+        "AssetPathName": "/SeasonPass/Materials/SideNavIcon/MI_UI_SideNavIcon_Figment.MI_UI_SideNavIcon_Figment",
+        "SubPathString": ""
+      },
+      "SeasonName": {
+        "Namespace": "",
+        "Key": "3530EEB24B52BCD186B3F4938F8F69E9",
+        "SourceString": "Chapter 1 - Season 5",
+        "LocalizedString": "Сезон 5 главы 1"
+      },
+      "SeasonEndText": {
+        "Namespace": "",
+        "Key": "4436D8054A1BC4AFE1A2E295195BFC2F",
+        "SourceString": "Season Pass Ended!",
+        "LocalizedString": "Сезонный пропуск закончился!"
+      },
+      "BuyPassButtonName": {
+        "Namespace": "",
+        "Key": "D4E322C1463164419FB923871374C559",
+        "SourceString": "Get OG Pass",
+        "LocalizedString": "Получить пропуск"
+      },
+      "ThemeData": {
+        "SeasonColor": {
+          "R": 0.791298,
+          "G": 0.590619,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "E6CAFF"
+        },
+        "ProgressionColor": {
+          "R": 0.510417,
+          "G": 0.516548,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BDBFFF"
+        },
+        "OverlayColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 0.4,
+          "Hex": "66000000"
+        },
+        "VaultBackgroundMaterial": {
+          "AssetPathName": "/Figment_S05_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Surface.MI_UI_Figment_VaultWorld_Background_Surface",
+          "SubPathString": ""
+        },
+        "UIBackgroundMaterial": {
+          "AssetPathName": "/Figment_S05_PassData/UI/MaterialInstances/MI_UI_Figment_Background.MI_UI_Figment_Background",
+          "SubPathString": ""
+        },
+        "UpsellBackgroundMaterial": {
+          "AssetPathName": "/Figment_S05_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Upsell.MI_UI_Figment_VaultWorld_Background_Upsell",
+          "SubPathString": ""
+        },
+        "CrewCategoryBackgroundMaterial": {
+          "AssetPathName": "/Figment_S05_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
+          "SubPathString": ""
+        },
+        "BenefitsByType": [
+          {
+            "UpsellType": "ENexusUpsellEntryType::Free",
+            "BenefitGroups": [],
+            "ImageUrl": "",
+            "ThemeColors": [
+              {
+                "Name": "Offer Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.184004,
+                    "G": 0.147461,
+                    "B": 0.1875,
+                    "A": 1.0,
+                    "Hex": "776B78"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.318547,
+                    "G": 0.270498,
+                    "B": 0.323143,
+                    "A": 1.0,
+                    "Hex": "998E9A"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color - Hover",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.014444,
+                    "G": 0.012983,
+                    "B": 0.015996,
+                    "A": 1.0,
+                    "Hex": "201E22"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 1",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.318547,
+                    "G": 0.270498,
+                    "B": 0.323143,
+                    "A": 0.75,
+                    "Hex": "BF998E9A"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 2",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.014444,
+                    "G": 0.012983,
+                    "B": 0.015996,
+                    "A": 1.0,
+                    "Hex": "201E22"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              }
+            ],
+            "ThemeColor": {
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
+              "A": 1.0,
+              "Hex": "BDC3C7"
+            },
+            "Image": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "UpsellType": "ENexusUpsellEntryType::Paid",
+            "BenefitGroups": [],
+            "ImageUrl": "",
+            "ThemeColors": [
+              {
+                "Name": "Offer Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.412543,
+                    "G": 0.012983,
+                    "B": 0.162029,
+                    "A": 1.0,
+                    "Hex": "AC1E70"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.739583,
+                    "G": 0.065484,
+                    "B": 0.316941,
+                    "A": 1.0,
+                    "Hex": "E04899"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Price Text Color - Hover",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.213542,
+                    "G": 0.00672,
+                    "B": 0.08387,
+                    "A": 1.0,
+                    "Hex": "7F1352"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 1",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.412543,
+                    "G": 0.012983,
+                    "B": 0.162029,
+                    "A": 0.75,
+                    "Hex": "BFAC1E70"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              },
+              {
+                "Name": "Tile Color 2",
+                "ColorString": "",
+                "Color": {
+                  "SpecifiedColor": {
+                    "R": 0.006995,
+                    "G": 0.022174,
+                    "B": 0.242281,
+                    "A": 1.0,
+                    "Hex": "142987"
+                  },
+                  "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                }
+              }
+            ],
+            "ThemeColor": {
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
+              "A": 1.0,
+              "Hex": "BDC3C7"
+            },
+            "Image": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "Product": {
+        "TagName": "Product.BR"
+      },
+      "SeasonStorefront": "FigmentS05",
+      "SeasonPassOfferId": "0D888798480E64FDC86112AA05E88B4D",
+      "SeasonPassBundleOfferId": "0",
+      "SeasonPassLevelOfferId": "DF37AA614292179613C038A5EA83509A",
+      "SeasonPassLevelBundleOfferId": "0",
+      "PaidRewards": [
+        {
+          "OfferGuid": "00000000-00000000-00000000-00000000",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/Figment_S05_PassData/Items/Tokens/Figment_S05_PassData_PremiumToken.Figment_S05_PassData_PremiumToken",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": true
+            }
+          ]
+        },
+        {
+          "OfferGuid": "C1C37DDF-4858B644-D055C6A3-60C9B4CE",
+          "Rewards": [
+            {
+              "ItemDefinition": {
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_KartRocket_StyleA.VTID_Character_KartRocket_StyleA",
+                "SubPathString": ""
+              },
+              "Quantity": 1,
+              "bHidden": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

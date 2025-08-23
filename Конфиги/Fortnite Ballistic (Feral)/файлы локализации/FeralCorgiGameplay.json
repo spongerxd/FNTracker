@@ -203,11 +203,18 @@
     "D16C551F4DB3A0C50B32FD98BC9FB097": "нет"
   },
   "UserOptionDefinition": {
+    "EFortPhysicsTickRate.OneTwenty.DisplayName": "120 Гц",
+    "EFortPhysicsTickRate.Twenty.DisplayName": "20 Гц",
     "EFortServerTickRate.Twenty.DisplayName": "20 Гц",
+    "EFortPhysicsTickRate.Thirty.DisplayName": "30 Гц",
     "EFortServerTickRate.Thirty.DisplayName": "30 Гц",
+    "EFortPhysicsTickRate.Sixty.DisplayName": "60 Гц",
     "EFortServerTickRate.Sixty.DisplayName": "60 Гц",
+    "EFortPhysicsTickRate.UseDefault.DisplayName": "По умолчанию (30 Гц)",
     "EFortServerTickRate.UseDefault.DisplayName": "По умолчанию (30 Гц)",
+    "BP_ServerConfig_Component_C.DesiredPhysicsTickRate.DisplayName": "Требуемая тактовая частота физики",
     "BP_ServerConfig_Component_C.DesiredTickRate.DisplayName": "Требуемая тактовая частота",
+    "BP_ServerConfig_Component_C.DesiredPhysicsTickRate.Description": "Требуемая тактовая частота сервера",
     "BP_ServerConfig_Component_C.DesiredTickRate.Description": "Требуемая тактовая частота сервера"
   }
 }

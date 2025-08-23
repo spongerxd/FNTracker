@@ -1,0 +1,27 @@
+{
+  "JunoPersistenceErrors": {
+    "ErrorCheckingOutPlayerData": "Ошибка при проверке данных игрока"
+  },
+  "JunoPersistenceFlushManager": {
+    "PersistenceFlushRetryExhaustedErrorMessage": "Не удалось сбросить состояние. Допустимые попытки повтора исчерпаны"
+  },
+  "JunoPlayerCheckpointHandler": {
+    "FailedToGetAvailableCheckpointsErrorMessage": "Не удалось получить доступные контрольные точки",
+    "FailedToSetInitialCheckpointErrorMessage": "Не удалось установить изначальную контрольную точку",
+    "InvalidJunoWorldErrorMessage": "Недопустимый мир Juno при попытке инициализировать обработчик контрольной точки",
+    "InvalidJunoRootPlayspaceErrorMessage": "Недопустимое корневое игровое пространство при попытке инициализировать обработчик контрольной точки"
+  },
+  "JunoPlayerPersistenceHandler": {
+    "PlayerCheckpointHandlerReinitializationNotAllowedErrorMessage": "Попытка инициализировать состояние игрока после завершённой инициализации",
+    "InvalidPlayerPersistenceStorageErrorMessage": "Некорректное хранилище сохранений игрока",
+    "PlayerCheckpointHandlerCreationFailedErrorMessage": "Не удалось создать обработчик контрольной точки"
+  },
+  "JunoPlayerPersistenceManager": {
+    "DeinitializePlayerPersistenceWithInvalidIdErrorMessage": "Попытка деинициализировать состояние игрока с неверным идентификатором игрока",
+    "DuplicatePlayerPersistenceInitializationErrorMessage": "Многократные попытки инициализации состояния игрока",
+    "InitializePlayerPersistenceWithInvalidIdErrorMessage": "Попытка инициализировать состояние игрока с неверным идентификатором игрока",
+    "StalePlayerPersistenceHandlerErrorMessage": "Устаревший обработчик состояния игрока после завершения инициализации",
+    "UnableToCreatePlayerPersistenceErrorMessage": "Не удалось создать обработчик состояния игрока",
+    "InvalidPlayerPersistenceStorageErrorMessage": "Не удалось извлечь корректное хранилище сохранений"
+  }
+}

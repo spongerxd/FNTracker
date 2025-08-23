@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "SeasonPassItemDefinition",
+    "Name": "JunoSeason05Pass_SeasonAsset",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CommonData": {
+        "AssetPathName": "/JunoPassSharedData/CommonData.CommonData",
+        "SubPathString": ""
+      },
+      "PassData": {
+        "AssetPathName": "/JunoSeason05Pass/SeasonPass/JunoSeason05Pass_Data.JunoSeason05Pass_Data",
+        "SubPathString": ""
+      },
+      "LevelData": {
+        "AssetPathName": "/JunoSeason05Pass/SeasonPass/JunoSeason05Pass_LevelData.JunoSeason05Pass_LevelData",
+        "SubPathString": ""
+      },
+      "Categories": [
+        {
+          "AssetPathName": "/JunoSeason05Pass/SeasonPass/Categories/JunoSeason05PassCategory1.JunoSeason05PassCategory1",
+          "SubPathString": ""
+        }
+      ],
+      "SeasonNumber": 5,
+      "ItemName": {
+        "Namespace": "",
+        "Key": "33A746E54DA2354FA6241B993FFC8481",
+        "SourceString": "LEGO® Pass",
+        "LocalizedString": "Пропуск\nLEGO®"
+      },
+      "ItemDescription": {
+        "Namespace": "",
+        "Key": "F32D40AC4D8BCA6F770EB79946143B24",
+        "SourceString": "LEGO® Pass Descrption",
+        "LocalizedString": "Пропуск LEGO® — описание"
+      },
+      "ItemShortDescription": {
+        "Namespace": "",
+        "Key": "FC25ED904521535528ABE09085FB38D3",
+        "SourceString": "LEGO® Pass Short Descrption",
+        "LocalizedString": "Пропуск LEGO® — краткое описание"
+      },
+      "DataList": [
+        {
+          "MinLevel": 1,
+          "MaxLevel": 59
+        },
+        {
+          "Traits": [
+            "Item.Trait.SingleStack"
+          ]
+        },
+        {}
+      ]
+    }
+  }
+]
