@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassItemDefinition",
-    "Name": "MusicPassS09_SeasonAsset",
+    "Name": "MusicPassS10_SeasonAsset",
     "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,53 +10,53 @@
         "SubPathString": ""
       },
       "PassData": {
-        "AssetPathName": "/MusicPassS09/SeasonPass/MusicPassS09_Data.MusicPassS09_Data",
+        "AssetPathName": "/MusicPassS10/SeasonPass/MusicPassS10_Data.MusicPassS10_Data",
         "SubPathString": ""
       },
       "LevelData": {
-        "AssetPathName": "/MusicPassS09/SeasonPass/MusicPassS09_LevelData.MusicPassS09_LevelData",
+        "AssetPathName": "/MusicPassS10/SeasonPass/MusicPassS10_LevelData.MusicPassS10_LevelData",
         "SubPathString": ""
       },
       "Categories": [
         {
-          "AssetPathName": "/MusicPassS09/SeasonPass/Categories/MusicPassS09_Category.MusicPassS09_Category",
+          "AssetPathName": "/MusicPassS10/SeasonPass/Categories/MusicPassS10_Category.MusicPassS10_Category",
           "SubPathString": ""
         }
       ],
       "RepeatableDailiesCard": {
-        "ObjectName": "FortRepeatableDailiesCardItemDefinition'SparksSeason09_RepeatableDailiesCard'",
-        "ObjectPath": "/MusicPassS09/SeasonPass/SparksSeason09_RepeatableDailiesCard.0"
+        "ObjectName": "FortRepeatableDailiesCardItemDefinition'SparksSeason10_RepeatableDailiesCard'",
+        "ObjectPath": "/MusicPassS10/SeasonPass/SparksSeason10_RepeatableDailiesCard.0"
       },
-      "SeasonNumber": 9,
+      "SeasonNumber": 10,
       "ItemName": {
         "Namespace": "",
-        "Key": "8943623C419A6018CCE0EB9B5674EF61",
+        "Key": "630B9F5E42C381FFD7120FBC04ADBE86",
         "SourceString": "Music Pass",
-        "LocalizedString": "Fortnite\nFestival"
+        "LocalizedString": "Music Pass"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "B716DF4F4D14233ADAA466BE9482D536",
+        "Key": "AC6F72F04340303316F4BAA57B1FC050",
         "SourceString": "Item Description",
-        "LocalizedString": "Описание предмета"
+        "LocalizedString": "Item Description"
       },
       "ItemShortDescription": {
         "Namespace": "",
-        "Key": "6F7EA9EA4DE1C3E5F9F9F2BA8C250EEB",
+        "Key": "E64E8E6941FB323793AB969D499AA741",
         "SourceString": "Item Short Description",
-        "LocalizedString": "Краткое описание предмета"
+        "LocalizedString": "Item Short Description"
       },
       "DataList": [
+        {
+          "MinLevel": 1,
+          "MaxLevel": 59
+        },
         {
           "Traits": [
             "Item.Trait.SingleStack"
           ]
         },
-        {},
-        {
-          "MinLevel": 1,
-          "MaxLevel": 59
-        }
+        {}
       ]
     }
   }
