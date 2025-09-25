@@ -1,1 +1,11 @@
-{}
+{
+  "ChickenFriedRiceGameManagerComponent": {
+    "QueueJoinFailureText": "Очередь на игру в салочки заполнена"
+  },
+  "ChickenFriedRicePlayerStateComponent": {
+    "ChickenFriedRice_OnTag_Killfeed": "<{KillerStyle}>{HunterName}</> осаливает игрока <{VictimStyle}>{PreyName}</>!"
+  },
+  "NetworkErrors": {
+    "KickedPlayerForInactivity": "Вы исключены за бездействие. Сервер прервал соединение, потому что вы бездействовали слишком долго."
+  }
+}
