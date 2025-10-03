@@ -1031,8 +1031,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "FF8D143B49BAE81C9F647F84C48E0D2A",
-          "SourceString": "Only <text color=\"FFFFFFFF\">ASH WILLIAMS</> can use the <text color=\"FFFFFFFF\">CHAINSAW HAND</> Pickaxe. The <text color=\"FFFFFFFF\">NECRONOMICON EX-MORTIS</> Back Bling opens with every elimination!",
-          "LocalizedString": "Только <text color=\"FFFFFFFF\">Эш Уильямс</> может пользоваться киркой <text color=\"FFFFFFFF\">«Ручная бензопила»</>. Украшение на спину <text color=\"FFFFFFFF\">«Некрономикон Экс-Мортис»</> открывается с каждым устранением!"
+          "SourceString": "The <text color=\"FFFFFFFF\">NECRONOMICON EX-MORTIS</> Back Bling opens with every elimination!",
+          "LocalizedString": "Украшение на спину <text color=\"FFFFFFFF\">«Некрономикон Экс-Мортис»</> открывается с каждым устранением!"
         }
       },
       "galaxybackpackinspect": {
@@ -3927,7 +3927,7 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "CB0A31D14BE7834F3F697A8B5E4565F5",
-          "SourceString": "Reactive to eliminations! Glitch effects intensify with each eliminations!",
+          "SourceString": "Reactive to eliminations! Glitch effects intensify with each elimination!",
           "LocalizedString": "Реагирует на устранения! Эффект мерцания усиливается с каждым устранением!"
         }
       },
@@ -3959,8 +3959,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "2830AD4241DE41CA776A0DB15B4DC465",
-          "SourceString": "Wrap changes styles based on currently equipped Power Rangers outfit!",
-          "LocalizedString": "Обёртка меняет стили в зависимости от используемой экипировки могучего рейнджера!"
+          "SourceString": "Wrap changes styles based on currently equipped Power Rangers Outfit! Styles maintain base ranger color.",
+          "LocalizedString": "Обёртка меняет стили, в зависимости от используемой экипировки «Могучих рейнджеров»! Стили сохраняют базовый цвет рейнджера."
         }
       },
       "armyflouroutfit": {
@@ -3993,6 +3993,94 @@
           "Key": "BC79C86040DC98F20A401BB28B49B02F",
           "SourceString": "Includes car, car variants, and customizable decals! Decals in this bundle are restricted to the Jackal car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
           "LocalizedString": "Включает автомобиль, варианты его внешнего вида и настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Jackal. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "reactivebackbling": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "199EDF4C4CBA9CE962526B96BFD4F73A",
+          "SourceString": "Reactive Back Bling!",
+          "LocalizedString": "Украшение с меняющимся видом!"
+        }
+      },
+      "reactdamagedown": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5F281B2A41769E9C4244B5B280DED2EC",
+          "SourceString": "Reacts when taking damage and when downed!",
+          "LocalizedString": "Реагирует на получение урона и тяжёлых ранений!"
+        }
+      },
+      "reactbasketsuburb": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "741F40BB47177B11528193ABC80FD235",
+          "SourceString": "Isaac cries when you receive damage and gets excited when you open chests!",
+          "LocalizedString": "Исаак плачет, когда вы получаете урон, и радуется, когда вы открываете сундуки!"
+        }
+      },
+      "macht": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0611225848A27F6AF987D0A0292CD4C3",
+          "SourceString": "Decals in this bundle are restricted to the Mercedes-AMG GT 63 S car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Декали из этого комплекта совместимы только с кузовом Mercedes-AMG GT 63 S. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "reactessayview": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "A0E0FD9B4EBB10B8FFD194B7D56C28ED",
+          "SourceString": "AMP KAI, Fire Hazard, and Lil' Cenat react to eliminations! AMP Zap reacts to weak points!",
+          "LocalizedString": "Kai из AMP, «Горящее кресло» и «Cenat-младший» реагируют на устранения! «Громовержец» реагирует на слабые места!"
+        }
+      },
+      "sprinting": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2C996B334092F0B4378D158CDB659DC1",
+          "SourceString": "Includes reactivity when sprinting!",
+          "LocalizedString": "Меняет внешний вид во время спринта!"
+        }
+      },
+      "sprintingjumping": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "166A161F424B3790667EE2AAB6EF1187",
+          "SourceString": "Includes reactivity when sprinting or jumping!",
+          "LocalizedString": "Меняет внешний вид во время прыжков и спринта!"
+        }
+      },
+      "legs": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "9C850F3845958F7B063C008A630CEC47",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Recoil AV car body. This car will fill the SUV slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Recoil AV. Эта машина будет занимать ячейку внедорожника в соответствующих режимах Fortnite."
+        }
+      },
+      "bawu": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "C459130F4F11F7B2495106A1BC703BEF",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Porsche 918 Spyder car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Porsche 918 Spyder. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "eggplant": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "EAE1F89D4ABC515292C6EFA9BA9A3BAB",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Batmobile (1989) car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Batmobile (1989). Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "ten": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "1CDAC29B422258788D58B687DBFB4277",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Bugatti Centodieci car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Bugatti Centodieci. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
       }
     }

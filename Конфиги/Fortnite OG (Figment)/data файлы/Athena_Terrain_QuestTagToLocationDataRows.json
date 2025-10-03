@@ -1,7 +1,7 @@
 [
   {
     "Type": "DataTable",
-    "Name": "Athena_Terrain_S05QuestTagToLocationDataRows",
+    "Name": "Athena_Terrain_S06QuestTagToLocationDataRows",
     "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -11,11 +11,123 @@
       }
     },
     "Rows": {
-      "Athena.Location.POI.JunkJunction": {
+      "Athena.Location.POI.RiskyReels": {
         "WorldLocation": {
-          "X": 132864.0,
-          "Y": -106784.0,
-          "Z": 2020.0
+          "X": 110592.0,
+          "Y": 35584.0,
+          "Z": -392.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.PleasantPark": {
+        "WorldLocation": {
+          "X": 86528.0,
+          "Y": -82432.0,
+          "Z": 2380.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.DustyDivot": {
+        "WorldLocation": {
+          "X": 26496.0,
+          "Y": 7520.0,
+          "Z": -744.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.ParadisePalms": {
+        "WorldLocation": {
+          "X": -28416.0,
+          "Y": 55296.0,
+          "Z": 1308.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.Meta.SevenSeals.06": {
+        "WorldLocation": {
+          "X": 22736.0,
+          "Y": -20403.0,
+          "Z": 3860.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.RetailRow": {
+        "WorldLocation": {
+          "X": 24832.0,
+          "Y": 36864.0,
+          "Z": 1104.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.HauntedHills": {
+        "WorldLocation": {
+          "X": 109568.0,
+          "Y": -115712.0,
+          "Z": 2324.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.Meta.SevenSeals.07": {
+        "WorldLocation": {
+          "X": -20053.0,
+          "Y": -11005.0,
+          "Z": 3860.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.SaltySprings": {
+        "WorldLocation": {
+          "X": 3328.0,
+          "Y": -8192.0,
+          "Z": 2344.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.LuckyLanding": {
+        "WorldLocation": {
+          "X": -71314.0,
+          "Y": -7243.0,
+          "Z": 84.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.Meta.SevenSeals.05": {
+        "WorldLocation": {
+          "X": 12559.0,
+          "Y": 45074.0,
+          "Z": 3860.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.GreasyGrove": {
+        "WorldLocation": {
+          "X": 1536.0,
+          "Y": -96256.0,
+          "Z": 852.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.LeakyLake": {
+        "WorldLocation": {
+          "X": 60416.0,
+          "Y": -36864.0,
+          "Z": -612.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.Meta.SevenSeals.01": {
+        "WorldLocation": {
+          "X": -4958.0,
+          "Y": -76196.0,
+          "Z": 6120.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.LonelyLodge": {
+        "WorldLocation": {
+          "X": 54016.0,
+          "Y": 72704.0,
+          "Z": 1672.0
         },
         "EventsWorldLocation": []
       },
@@ -43,35 +155,11 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.LonelyLodge": {
+      "Athena.Location.Meta.SevenSeals.04": {
         "WorldLocation": {
-          "X": 54016.0,
-          "Y": 72704.0,
-          "Z": 1672.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.RetailRow": {
-        "WorldLocation": {
-          "X": 24832.0,
-          "Y": 36864.0,
-          "Z": 1104.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.SaltySprings": {
-        "WorldLocation": {
-          "X": 3328.0,
-          "Y": -8192.0,
-          "Z": 2344.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.GreasyGrove": {
-        "WorldLocation": {
-          "X": 1536.0,
-          "Y": -96256.0,
-          "Z": 852.0
+          "X": 78740.0,
+          "Y": 46475.0,
+          "Z": 3860.0
         },
         "EventsWorldLocation": []
       },
@@ -83,51 +171,19 @@
         },
         "EventsWorldLocation": []
       },
+      "Athena.Location.Meta.SevenSeals.02": {
+        "WorldLocation": {
+          "X": 67286.0,
+          "Y": -98139.0,
+          "Z": 6120.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Location.POI.SnobbyShores": {
         "WorldLocation": {
           "X": 49664.0,
           "Y": -133120.0,
           "Z": 2072.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.WailingWoods": {
-        "WorldLocation": {
-          "X": 83456.0,
-          "Y": 64000.0,
-          "Z": 808.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.FlushFactory": {
-        "WorldLocation": {
-          "X": -62976.0,
-          "Y": -64000.0,
-          "Z": 752.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.PleasantPark": {
-        "WorldLocation": {
-          "X": 86528.0,
-          "Y": -82432.0,
-          "Z": 2380.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.TomatoTown": {
-        "WorldLocation": {
-          "X": 76544.0,
-          "Y": 13824.0,
-          "Z": 0.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.HauntedHills": {
-        "WorldLocation": {
-          "X": 109568.0,
-          "Y": -115712.0,
-          "Z": 2324.0
         },
         "EventsWorldLocation": []
       },
@@ -139,43 +195,35 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.LuckyLanding": {
+      "Athena.Location.POI.JunkJunction": {
         "WorldLocation": {
-          "X": -71314.0,
-          "Y": -7243.0,
-          "Z": 84.0
+          "X": 132864.0,
+          "Y": -106784.0,
+          "Z": 2020.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.DustyDivot": {
+      "Athena.Location.POI.FlushFactory": {
         "WorldLocation": {
-          "X": 26496.0,
-          "Y": 7520.0,
-          "Z": -744.0
+          "X": -62976.0,
+          "Y": -64000.0,
+          "Z": 752.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.ParadisePalms": {
+      "Athena.Location.Meta.SevenSeals.03": {
         "WorldLocation": {
-          "X": -28416.0,
-          "Y": 55296.0,
-          "Z": 1308.0
+          "X": 82543.0,
+          "Y": -19066.0,
+          "Z": 6120.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.RiskyReels": {
+      "Athena.Location.POI.WailingWoods": {
         "WorldLocation": {
-          "X": 110592.0,
-          "Y": 35584.0,
-          "Z": -392.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.Location.POI.LootLake": {
-        "WorldLocation": {
-          "X": 60416.0,
-          "Y": -36864.0,
-          "Z": -612.0
+          "X": 83456.0,
+          "Y": 64000.0,
+          "Z": 808.0
         },
         "EventsWorldLocation": []
       }

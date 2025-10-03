@@ -37,6 +37,22 @@
         },
         "EventsWorldLocation": []
       },
+      "AISpawnerData.Type.Specialist.Medic.EvokeFind": {
+        "WorldLocation": {
+          "X": -99220.0,
+          "Y": 12516.0,
+          "Z": 5312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.EvokeFind": {
+        "WorldLocation": {
+          "X": -99220.0,
+          "Y": 12516.0,
+          "Z": 5312.0
+        },
+        "EventsWorldLocation": []
+      },
       "AISpawnerData.Type.Tandem.IronLilac": {
         "WorldLocation": {
           "X": 18346.0,
@@ -61,43 +77,27 @@
         },
         "EventsWorldLocation": []
       },
-      "AISpawnerData.Type.Specialist.Medic.PinkBear": {
-        "WorldLocation": {
-          "X": -65492.0,
-          "Y": -49580.0,
-          "Z": 1264.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.PinkBear": {
-        "WorldLocation": {
-          "X": -65492.0,
-          "Y": -49580.0,
-          "Z": 1264.0
-        },
-        "EventsWorldLocation": []
-      },
-      "AISpawnerData.Type.Tandem.MistRaven": {
-        "WorldLocation": {
-          "X": 55803.203,
-          "Y": 5274.9385,
-          "Z": 1399.6857
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.MistRaven": {
-        "WorldLocation": {
-          "X": 55803.203,
-          "Y": 5274.9385,
-          "Z": 1399.6857
-        },
-        "EventsWorldLocation": []
-      },
       "Athena.Location.UnNamedPOI.Landmark.63": {
         "WorldLocation": {
           "X": 13827.324,
           "Y": -70150.81,
           "Z": 877.50543
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Supply.LoanFloat": {
+        "WorldLocation": {
+          "X": -95216.0,
+          "Y": 95120.0,
+          "Z": 9792.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.LoanFloat": {
+        "WorldLocation": {
+          "X": -95216.0,
+          "Y": 95120.0,
+          "Z": 9792.0
         },
         "EventsWorldLocation": []
       },
@@ -117,35 +117,11 @@
         },
         "EventsWorldLocation": []
       },
-      "AISpawnerData.Type.Specialist.Supply.Banana": {
+      "Athena.Location.POI.MystLoc": {
         "WorldLocation": {
-          "X": 53708.0,
-          "Y": -65268.0,
-          "Z": 3784.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.Banana": {
-        "WorldLocation": {
-          "X": 53708.0,
-          "Y": -65268.0,
-          "Z": 3784.0
-        },
-        "EventsWorldLocation": []
-      },
-      "AISpawnerData.Type.Tandem.AshenMagnus": {
-        "WorldLocation": {
-          "X": 64475.0,
-          "Y": 11588.0,
-          "Z": 817.0
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.AshenMagnus": {
-        "WorldLocation": {
-          "X": 64475.0,
-          "Y": 11588.0,
-          "Z": 817.0
+          "X": -5980.0,
+          "Y": 52356.0,
+          "Z": 10072.0
         },
         "EventsWorldLocation": []
       },
@@ -181,19 +157,19 @@
         },
         "EventsWorldLocation": []
       },
-      "AISpawnerData.Type.Specialist.Scout.TriggerFish": {
+      "AISpawnerData.Type.Specialist.Heavy.EctoCat": {
         "WorldLocation": {
-          "X": -7140.0,
-          "Y": -23632.0,
-          "Z": 916.0
+          "X": -1104.0,
+          "Y": 20852.0,
+          "Z": 5632.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.Tandem.Triggerfish": {
+      "Athena.AI.SpawnLocation.Tandem.EctoCat": {
         "WorldLocation": {
-          "X": -7140.0,
-          "Y": -23632.0,
-          "Z": 916.0
+          "X": -1104.0,
+          "Y": 20852.0,
+          "Z": 5632.0
         },
         "EventsWorldLocation": []
       },
@@ -245,19 +221,19 @@
         },
         "EventsWorldLocation": []
       },
-      "AISpawnerData.Type.Specialist.Heavy.Meowscles": {
+      "AISpawnerData.Type.Specialist.Scout.QuailWink": {
         "WorldLocation": {
-          "X": -38752.0,
-          "Y": -20540.0,
-          "Z": 2596.0
+          "X": -99656.0,
+          "Y": 15592.0,
+          "Z": 4936.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.Tandem.Meowscles": {
+      "Athena.AI.SpawnLocation.Tandem.QuailWink": {
         "WorldLocation": {
-          "X": -38752.0,
-          "Y": -20540.0,
-          "Z": 2596.0
+          "X": -99656.0,
+          "Y": 15592.0,
+          "Z": 4936.0
         },
         "EventsWorldLocation": []
       },
@@ -370,6 +346,14 @@
           "X": 39927.0,
           "Y": 88133.0,
           "Z": 3115.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.UnNamedPOI.Landmark.86": {
+        "WorldLocation": {
+          "X": -96026.0,
+          "Y": 18168.0,
+          "Z": 702.0
         },
         "EventsWorldLocation": []
       },
@@ -797,7 +781,15 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.27": {
+      "Athena.Location.UnNamedPOI.Landmark.85": {
+        "WorldLocation": {
+          "X": 26796.0,
+          "Y": -17764.0,
+          "Z": 702.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.POI.Generic.34": {
         "WorldLocation": {
           "X": 56067.0,
           "Y": 14084.0,
@@ -937,14 +929,14 @@
         "WorldLocation": {
           "X": 51886.0,
           "Y": -82484.0,
-          "Z": 2687.6326
+          "Z": 2694.8735
         },
         "EventsWorldLocation": []
       },
       "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_0": {
         "WorldLocation": {
-          "X": 13274.284,
-          "Y": -40308.996,
+          "X": 13356.658,
+          "Y": -40232.016,
           "Z": 2313.7993
         },
         "EventsWorldLocation": []
@@ -959,9 +951,9 @@
       },
       "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn": {
         "WorldLocation": {
-          "X": -88142.0,
-          "Y": 41750.0,
-          "Z": 2670.0
+          "X": -87125.53,
+          "Y": 41290.855,
+          "Z": 2686.259
         },
         "EventsWorldLocation": []
       },
@@ -991,9 +983,9 @@
       },
       "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_1": {
         "WorldLocation": {
-          "X": 52046.07,
-          "Y": 12419.084,
-          "Z": 782.63586
+          "X": 52396.58,
+          "Y": 11889.159,
+          "Z": 1166.0594
         },
         "EventsWorldLocation": []
       },
@@ -1069,14 +1061,6 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_7": {
-        "WorldLocation": {
-          "X": -34467.066,
-          "Y": -61056.03,
-          "Z": 2676.692
-        },
-        "EventsWorldLocation": []
-      },
       "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_2": {
         "WorldLocation": {
           "X": 77360.0,
@@ -1093,23 +1077,15 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_8": {
-        "WorldLocation": {
-          "X": 47964.0,
-          "Y": -65852.0,
-          "Z": 3084.0
-        },
-        "EventsWorldLocation": []
-      },
       "Athena.AI.SpawnLocation.JobBoard.Plunder_6": {
         "WorldLocation": {
-          "X": 47919.13,
-          "Y": -67976.984,
-          "Z": 2699.831
+          "X": 48726.477,
+          "Y": -69301.94,
+          "Z": 3081.1165
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_9": {
+      "Athena.AI.SpawnLocation.JobBoard.WeaponSpecialist.RandomSpawn_7": {
         "WorldLocation": {
           "X": -74312.0,
           "Y": -49484.0,
@@ -1125,67 +1101,35 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Quests.S37.SDA.Anomaly": {
+      "AISpawnerData.Type.Tandem.SatireCane": {
         "WorldLocation": {
-          "X": 24240.0,
-          "Y": 35352.0,
-          "Z": 5332.0
+          "X": 45640.0,
+          "Y": -41776.0,
+          "Z": 5752.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Boss.L": {
+      "Athena.AI.SpawnLocation.Tandem.SatireCane": {
         "WorldLocation": {
-          "X": -52736.0,
-          "Y": 14330.0,
-          "Z": 3852.0
+          "X": 45640.0,
+          "Y": -41776.0,
+          "Z": 5752.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Boss.U": {
+      "AISpawnerData.Type.Tandem.CrawlyTech": {
         "WorldLocation": {
-          "X": 15272.0,
-          "Y": 70320.0,
-          "Z": 3748.0
+          "X": 17878.0,
+          "Y": -72069.0,
+          "Z": 1801.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Boss.H": {
+      "Athena.AI.SpawnLocation.Tandem.CrawlyTech": {
         "WorldLocation": {
-          "X": -34139.17,
-          "Y": -53485.207,
-          "Z": 2248.3154
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters": {
-        "WorldLocation": {
-          "X": -59057.93,
-          "Y": 62223.1,
-          "Z": 7694.1387
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_0": {
-        "WorldLocation": {
-          "X": 73124.695,
-          "Y": 69130.74,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_1": {
-        "WorldLocation": {
-          "X": -53593.33,
-          "Y": 60631.0,
-          "Z": 7674.167
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_2": {
-        "WorldLocation": {
-          "X": 74207.0,
-          "Y": 68742.67,
-          "Z": 2319.506
+          "X": 17878.0,
+          "Y": -72069.0,
+          "Z": 1801.0
         },
         "EventsWorldLocation": []
       },
@@ -1205,438 +1149,6 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_3": {
-        "WorldLocation": {
-          "X": -54855.594,
-          "Y": 61792.65,
-          "Z": 8006.571
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_4": {
-        "WorldLocation": {
-          "X": -23545.62,
-          "Y": -84214.414,
-          "Z": 2376.3342
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_5": {
-        "WorldLocation": {
-          "X": 71538.5,
-          "Y": 71857.625,
-          "Z": 2322.6304
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_6": {
-        "WorldLocation": {
-          "X": -60909.33,
-          "Y": 62851.0,
-          "Z": 7934.092
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_7": {
-        "WorldLocation": {
-          "X": 72402.19,
-          "Y": 69276.2,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_8": {
-        "WorldLocation": {
-          "X": -22431.28,
-          "Y": -82882.5,
-          "Z": 2214.971
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_9": {
-        "WorldLocation": {
-          "X": 71816.19,
-          "Y": 72306.2,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_10": {
-        "WorldLocation": {
-          "X": -62440.89,
-          "Y": 62063.746,
-          "Z": 7854.72
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_11": {
-        "WorldLocation": {
-          "X": -61806.832,
-          "Y": 61621.527,
-          "Z": 7754.1406
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_12": {
-        "WorldLocation": {
-          "X": -25261.088,
-          "Y": -82888.734,
-          "Z": 2951.547
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_13": {
-        "WorldLocation": {
-          "X": -62447.1,
-          "Y": 63055.176,
-          "Z": 8063.9746
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_14": {
-        "WorldLocation": {
-          "X": 72606.414,
-          "Y": 72039.26,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_15": {
-        "WorldLocation": {
-          "X": 71761.29,
-          "Y": 71569.375,
-          "Z": 2300.8225
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_16": {
-        "WorldLocation": {
-          "X": -63237.684,
-          "Y": 61066.44,
-          "Z": 7579.85
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_17": {
-        "WorldLocation": {
-          "X": -53661.258,
-          "Y": 61709.305,
-          "Z": 8460.035
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.PolishedJade_0": {
-        "WorldLocation": {
-          "X": 68550.0,
-          "Y": 70618.0,
-          "Z": 3265.7632
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_18": {
-        "WorldLocation": {
-          "X": -23934.527,
-          "Y": -82409.26,
-          "Z": 2312.8857
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_19": {
-        "WorldLocation": {
-          "X": -23087.932,
-          "Y": -80796.9,
-          "Z": 2106.9778
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_20": {
-        "WorldLocation": {
-          "X": -24000.926,
-          "Y": -83110.67,
-          "Z": 2301.5386
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.CyberMitt": {
-        "WorldLocation": {
-          "X": 73504.0,
-          "Y": 70706.0,
-          "Z": 2484.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_21": {
-        "WorldLocation": {
-          "X": -23591.686,
-          "Y": -84949.56,
-          "Z": 2603.3083
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_22": {
-        "WorldLocation": {
-          "X": 72059.0,
-          "Y": 72400.67,
-          "Z": 2317.2827
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_23": {
-        "WorldLocation": {
-          "X": -55091.39,
-          "Y": 62316.38,
-          "Z": 7883.782
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_24": {
-        "WorldLocation": {
-          "X": -53289.33,
-          "Y": 60723.0,
-          "Z": 8460.035
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_25": {
-        "WorldLocation": {
-          "X": -63651.26,
-          "Y": 61154.41,
-          "Z": 7370.3843
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_26": {
-        "WorldLocation": {
-          "X": -54389.33,
-          "Y": 60975.0,
-          "Z": 7783.3345
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_27": {
-        "WorldLocation": {
-          "X": -53689.33,
-          "Y": 61303.0,
-          "Z": 8099.3047
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_28": {
-        "WorldLocation": {
-          "X": 69341.56,
-          "Y": 67703.58,
-          "Z": 3079.524
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_29": {
-        "WorldLocation": {
-          "X": -54743.957,
-          "Y": 62818.742,
-          "Z": 7856.0195
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_30": {
-        "WorldLocation": {
-          "X": -21146.242,
-          "Y": -82670.695,
-          "Z": 2394.1611
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_31": {
-        "WorldLocation": {
-          "X": 72267.0,
-          "Y": 70572.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_32": {
-        "WorldLocation": {
-          "X": -21907.705,
-          "Y": -82896.47,
-          "Z": 2262.4724
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_33": {
-        "WorldLocation": {
-          "X": -61309.55,
-          "Y": 62268.82,
-          "Z": 7859.288
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_34": {
-        "WorldLocation": {
-          "X": -63943.91,
-          "Y": 60754.01,
-          "Z": 7296.847
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_35": {
-        "WorldLocation": {
-          "X": 68910.44,
-          "Y": 67179.69,
-          "Z": 3078.112
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_36": {
-        "WorldLocation": {
-          "X": -55040.785,
-          "Y": 62496.492,
-          "Z": 7872.02
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_37": {
-        "WorldLocation": {
-          "X": 69064.016,
-          "Y": 68007.914,
-          "Z": 3087.886
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_38": {
-        "WorldLocation": {
-          "X": -22340.953,
-          "Y": -83282.8,
-          "Z": 2269.8274
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_39": {
-        "WorldLocation": {
-          "X": 73326.16,
-          "Y": 68384.42,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_40": {
-        "WorldLocation": {
-          "X": -58865.28,
-          "Y": 62699.5,
-          "Z": 7719.3438
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_41": {
-        "WorldLocation": {
-          "X": -60529.574,
-          "Y": 62023.562,
-          "Z": 7698.6123
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_42": {
-        "WorldLocation": {
-          "X": -24632.19,
-          "Y": -83197.13,
-          "Z": 2303.1042
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_43": {
-        "WorldLocation": {
-          "X": -22503.617,
-          "Y": -83326.05,
-          "Z": 2277.5679
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_44": {
-        "WorldLocation": {
-          "X": 72798.664,
-          "Y": 70552.96,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_45": {
-        "WorldLocation": {
-          "X": -60815.625,
-          "Y": 62568.504,
-          "Z": 7839.2534
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_46": {
-        "WorldLocation": {
-          "X": 72899.51,
-          "Y": 68393.21,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_47": {
-        "WorldLocation": {
-          "X": -22874.115,
-          "Y": -83690.67,
-          "Z": 2320.0312
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_48": {
-        "WorldLocation": {
-          "X": -54537.33,
-          "Y": 62887.0,
-          "Z": 7888.99
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_49": {
-        "WorldLocation": {
-          "X": -23491.957,
-          "Y": -80497.26,
-          "Z": 2111.243
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_50": {
-        "WorldLocation": {
-          "X": 71767.51,
-          "Y": 70763.21,
-          "Z": 2322.6304
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_51": {
-        "WorldLocation": {
-          "X": 72408.16,
-          "Y": 71056.42,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_52": {
-        "WorldLocation": {
-          "X": 73151.0,
-          "Y": 70918.67,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_53": {
-        "WorldLocation": {
-          "X": 73910.38,
-          "Y": 69240.49,
-          "Z": 2321.7566
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_54": {
-        "WorldLocation": {
-          "X": -63911.598,
-          "Y": 61492.863,
-          "Z": 7357.944
-        },
-        "EventsWorldLocation": []
-      },
       "AISpawnerData.Type.Tandem.HangSpec": {
         "WorldLocation": {
           "X": -57080.883,
@@ -1650,30 +1162,6 @@
           "X": -57080.883,
           "Y": 62281.65,
           "Z": 8096.0347
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_55": {
-        "WorldLocation": {
-          "X": -54537.33,
-          "Y": 62887.0,
-          "Z": 7888.99
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_56": {
-        "WorldLocation": {
-          "X": -54119.645,
-          "Y": 62757.59,
-          "Z": 7983.293
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_57": {
-        "WorldLocation": {
-          "X": -20465.576,
-          "Y": -83570.805,
-          "Z": 2719.4102
         },
         "EventsWorldLocation": []
       },
@@ -1693,70 +1181,6 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_58": {
-        "WorldLocation": {
-          "X": 69227.71,
-          "Y": 67070.11,
-          "Z": 3079.4656
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_59": {
-        "WorldLocation": {
-          "X": 72206.695,
-          "Y": 71802.74,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_60": {
-        "WorldLocation": {
-          "X": -20120.648,
-          "Y": -84500.32,
-          "Z": 2690.2935
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_61": {
-        "WorldLocation": {
-          "X": -61439.938,
-          "Y": 62303.652,
-          "Z": 7890.2573
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_62": {
-        "WorldLocation": {
-          "X": 73716.664,
-          "Y": 67880.96,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_63": {
-        "WorldLocation": {
-          "X": -23443.39,
-          "Y": -80999.625,
-          "Z": 2093.881
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_64": {
-        "WorldLocation": {
-          "X": -20514.98,
-          "Y": -82584.234,
-          "Z": 2541.054
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_65": {
-        "WorldLocation": {
-          "X": -62109.13,
-          "Y": 60985.117,
-          "Z": 7752.543
-        },
-        "EventsWorldLocation": []
-      },
       "AISpawnerData.Type.Tandem.RoseDepth": {
         "WorldLocation": {
           "X": -24050.723,
@@ -1770,158 +1194,6 @@
           "X": -24050.723,
           "Y": -82206.84,
           "Z": 2647.3062
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_66": {
-        "WorldLocation": {
-          "X": 73879.0,
-          "Y": 69442.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_67": {
-        "WorldLocation": {
-          "X": -19834.314,
-          "Y": -83484.34,
-          "Z": 2721.2764
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_68": {
-        "WorldLocation": {
-          "X": 73407.0,
-          "Y": 69870.67,
-          "Z": 2320.665
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_69": {
-        "WorldLocation": {
-          "X": -23732.81,
-          "Y": -84893.65,
-          "Z": 2562.0664
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_70": {
-        "WorldLocation": {
-          "X": -22908.934,
-          "Y": -84238.88,
-          "Z": 2420.8464
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_71": {
-        "WorldLocation": {
-          "X": -24748.695,
-          "Y": -83977.67,
-          "Z": 2313.0205
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_72": {
-        "WorldLocation": {
-          "X": 72489.0,
-          "Y": 72542.67,
-          "Z": 2317.8254
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_73": {
-        "WorldLocation": {
-          "X": -61056.785,
-          "Y": 62684.492,
-          "Z": 7753.4126
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_74": {
-        "WorldLocation": {
-          "X": -62731.89,
-          "Y": 61119.773,
-          "Z": 7705.6626
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_75": {
-        "WorldLocation": {
-          "X": 71323.53,
-          "Y": 69843.7,
-          "Z": 2343.662
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_76": {
-        "WorldLocation": {
-          "X": 71565.555,
-          "Y": 69052.27,
-          "Z": 2339.2063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_77": {
-        "WorldLocation": {
-          "X": -23253.861,
-          "Y": -83309.37,
-          "Z": 2305.2927
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_78": {
-        "WorldLocation": {
-          "X": -23339.262,
-          "Y": -84761.586,
-          "Z": 2549.062
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_79": {
-        "WorldLocation": {
-          "X": 71549.0,
-          "Y": 71266.67,
-          "Z": 2322.6304
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_80": {
-        "WorldLocation": {
-          "X": -22867.643,
-          "Y": -80232.41,
-          "Z": 2142.2383
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_81": {
-        "WorldLocation": {
-          "X": -18635.598,
-          "Y": -82943.14,
-          "Z": 2872.2017
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_82": {
-        "WorldLocation": {
-          "X": 71929.0,
-          "Y": 70440.67,
-          "Z": 2321.175
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_83": {
-        "WorldLocation": {
-          "X": -21843.904,
-          "Y": -83458.58,
-          "Z": 2345.1072
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_84": {
-        "WorldLocation": {
-          "X": -19615.371,
-          "Y": -82262.71,
-          "Z": 2732.7625
         },
         "EventsWorldLocation": []
       },
@@ -1941,134 +1213,6 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_85": {
-        "WorldLocation": {
-          "X": -19622.174,
-          "Y": -84208.414,
-          "Z": 2699.6345
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_86": {
-        "WorldLocation": {
-          "X": -18891.574,
-          "Y": -82192.44,
-          "Z": 2832.437
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_87": {
-        "WorldLocation": {
-          "X": -58461.617,
-          "Y": 62047.95,
-          "Z": 7701.571
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_88": {
-        "WorldLocation": {
-          "X": -23181.938,
-          "Y": -85282.34,
-          "Z": 2684.131
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_89": {
-        "WorldLocation": {
-          "X": -61857.184,
-          "Y": 62814.42,
-          "Z": 8217.413
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_90": {
-        "WorldLocation": {
-          "X": 75206.91,
-          "Y": 69105.03,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_91": {
-        "WorldLocation": {
-          "X": -21635.52,
-          "Y": -84834.41,
-          "Z": 2686.6753
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_92": {
-        "WorldLocation": {
-          "X": 72487.0,
-          "Y": 68826.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_93": {
-        "WorldLocation": {
-          "X": -19259.912,
-          "Y": -83207.984,
-          "Z": 2805.2256
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_94": {
-        "WorldLocation": {
-          "X": -23193.197,
-          "Y": -85203.5,
-          "Z": 2675.6423
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_95": {
-        "WorldLocation": {
-          "X": -63063.652,
-          "Y": 62198.402,
-          "Z": 7789.17
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_96": {
-        "WorldLocation": {
-          "X": -61184.07,
-          "Y": 61486.867,
-          "Z": 7743.999
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_97": {
-        "WorldLocation": {
-          "X": 73019.0,
-          "Y": 68796.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_98": {
-        "WorldLocation": {
-          "X": 74931.0,
-          "Y": 69414.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_99": {
-        "WorldLocation": {
-          "X": 70349.03,
-          "Y": 69155.74,
-          "Z": 2659.0583
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_100": {
-        "WorldLocation": {
-          "X": 74691.0,
-          "Y": 68508.67,
-          "Z": 2319.506
-        },
-        "EventsWorldLocation": []
-      },
       "AISpawnerData.Type.Tandem.CyberMitt": {
         "WorldLocation": {
           "X": 73502.0,
@@ -2077,7 +1221,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.Tandem.CyberMitt_0": {
+      "Athena.AI.SpawnLocation.Tandem.CyberMitt": {
         "WorldLocation": {
           "X": 73502.0,
           "Y": 70507.0,
@@ -2085,203 +1229,99 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_101": {
+      "AISpawnerData.Type.Specialist.Scout.FumeFleeceJig": {
         "WorldLocation": {
-          "X": -24406.24,
-          "Y": -82566.93,
-          "Z": 2301.2913
+          "X": -38750.0,
+          "Y": -20540.0,
+          "Z": 2596.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_102": {
+      "Athena.AI.SpawnLocation.Tandem.FumeFleeceJig": {
         "WorldLocation": {
-          "X": -60719.63,
-          "Y": 62028.066,
-          "Z": 7724.6636
+          "X": -38750.0,
+          "Y": -20540.0,
+          "Z": 2596.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_103": {
+      "AISpawnerData.Type.Specialist.Supply.FumeFleeceFade": {
         "WorldLocation": {
-          "X": 74640.875,
-          "Y": 69616.46,
-          "Z": 2346.806
+          "X": 88348.0,
+          "Y": 28808.0,
+          "Z": 3432.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_104": {
+      "Athena.AI.SpawnLocation.Tandem.FumeFleeceFade": {
         "WorldLocation": {
-          "X": -55251.04,
-          "Y": 61465.336,
-          "Z": 7907.4805
+          "X": 88348.0,
+          "Y": 28808.0,
+          "Z": 3432.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.Tandem.RoseDepth_0": {
+      "AISpawnerData.Type.Specialist.Heavy.FumeFleeceShack": {
         "WorldLocation": {
-          "X": -25680.729,
-          "Y": -84824.35,
-          "Z": 2509.1042
+          "X": -65486.0,
+          "Y": -49571.0,
+          "Z": 1264.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.Tandem.HangSpec_0": {
+      "Athena.AI.SpawnLocation.Tandem.FumeFleeceShack": {
         "WorldLocation": {
-          "X": -53109.05,
-          "Y": 60468.89,
-          "Z": 7860.2695
+          "X": -65486.0,
+          "Y": -49571.0,
+          "Z": 1264.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_105": {
+      "Athena.Quests.S37.SDA.Anomaly": {
         "WorldLocation": {
-          "X": -21679.594,
-          "Y": -82707.35,
-          "Z": 2287.4922
+          "X": 24240.0,
+          "Y": 35352.0,
+          "Z": 5332.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_106": {
+      "Athena.Quests.S37.SDA.Sensor.3": {
         "WorldLocation": {
-          "X": -21886.203,
-          "Y": -84405.81,
-          "Z": 2595.79
+          "X": -41668.0,
+          "Y": -44936.0,
+          "Z": 2272.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_107": {
+      "Athena.Quests.S37.SDA.Sensor.1": {
         "WorldLocation": {
-          "X": -54747.58,
-          "Y": 61855.844,
-          "Z": 8030.443
+          "X": -30512.0,
+          "Y": -55800.0,
+          "Z": 1896.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_108": {
+      "Athena.Quests.S37.SDA.Egg.1": {
         "WorldLocation": {
-          "X": -53261.33,
-          "Y": 61775.0,
-          "Z": 8460.035
+          "X": -27880.0,
+          "Y": -32580.0,
+          "Z": 1728.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_109": {
+      "Athena.Quests.S37.SDA.Sensor.2": {
         "WorldLocation": {
-          "X": -58457.703,
-          "Y": 62407.527,
-          "Z": 7700.68
+          "X": -31712.0,
+          "Y": -40468.0,
+          "Z": 3096.0
         },
         "EventsWorldLocation": []
       },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_110": {
+      "Athena.Quests.S37.SDA.Egg.2": {
         "WorldLocation": {
-          "X": -20523.238,
-          "Y": -84112.46,
-          "Z": 2955.6982
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_111": {
-        "WorldLocation": {
-          "X": -20505.088,
-          "Y": -83038.32,
-          "Z": 2525.8918
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_112": {
-        "WorldLocation": {
-          "X": 72176.86,
-          "Y": 72505.6,
-          "Z": 2316.382
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_113": {
-        "WorldLocation": {
-          "X": 71067.36,
-          "Y": 68790.27,
-          "Z": 2479.321
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.Mizuki_0": {
-        "WorldLocation": {
-          "X": -61024.0,
-          "Y": 60748.0,
-          "Z": 7841.902
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_114": {
-        "WorldLocation": {
-          "X": -23952.947,
-          "Y": -83613.45,
-          "Z": 2304.8445
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_115": {
-        "WorldLocation": {
-          "X": -53465.797,
-          "Y": 62231.812,
-          "Z": 8460.035
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_116": {
-        "WorldLocation": {
-          "X": 74436.7,
-          "Y": 68527.03,
-          "Z": 2314.5469
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.Tandem.MistMylar_0": {
-        "WorldLocation": {
-          "X": -21237.729,
-          "Y": -84593.74,
-          "Z": 2864.6753
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_117": {
-        "WorldLocation": {
-          "X": -54817.33,
-          "Y": 60503.0,
-          "Z": 7680.6904
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_118": {
-        "WorldLocation": {
-          "X": 72749.0,
-          "Y": 71010.67,
-          "Z": 2319.5063
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_119": {
-        "WorldLocation": {
-          "X": -22909.623,
-          "Y": -85093.5,
-          "Z": 2652.631
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_120": {
-        "WorldLocation": {
-          "X": 73541.0,
-          "Y": 72514.67,
-          "Z": 2319.1514
-        },
-        "EventsWorldLocation": []
-      },
-      "Athena.AI.SpawnLocation.TidalCrane.Swarm.Encounters_121": {
-        "WorldLocation": {
-          "X": -61391.37,
-          "Y": 61801.29,
-          "Z": 7718.852
+          "X": -22864.0,
+          "Y": -28278.0,
+          "Z": 1846.0
         },
         "EventsWorldLocation": []
       },
@@ -2418,6 +1458,118 @@
           "X": -113808.266,
           "Y": 26854.666,
           "Z": 459.24643
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Supply.Banana": {
+        "WorldLocation": {
+          "X": 54967.0,
+          "Y": -67176.0,
+          "Z": 2795.0217
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Medic.PinkBear": {
+        "WorldLocation": {
+          "X": -65908.0,
+          "Y": -50460.0,
+          "Z": 480.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Scout.TriggerFish": {
+        "WorldLocation": {
+          "X": -6190.0,
+          "Y": -23118.0,
+          "Z": 197.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Heavy.Meowscles": {
+        "WorldLocation": {
+          "X": -39328.0,
+          "Y": -20589.0,
+          "Z": 1905.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.01": {
+        "WorldLocation": {
+          "X": -90580.0,
+          "Y": 90120.0,
+          "Z": 7976.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.02": {
+        "WorldLocation": {
+          "X": -60162.035,
+          "Y": 61698.16,
+          "Z": 7676.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.03": {
+        "WorldLocation": {
+          "X": 13834.379,
+          "Y": -66438.72,
+          "Z": 2312.0237
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.04": {
+        "WorldLocation": {
+          "X": -23808.0,
+          "Y": -83568.0,
+          "Z": 2232.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.05": {
+        "WorldLocation": {
+          "X": -80888.0,
+          "Y": -79188.0,
+          "Z": 364.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.06": {
+        "WorldLocation": {
+          "X": 96780.0,
+          "Y": -82420.0,
+          "Z": 8796.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.07": {
+        "WorldLocation": {
+          "X": 60368.0,
+          "Y": 13564.0,
+          "Z": 768.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.08": {
+        "WorldLocation": {
+          "X": 72512.0,
+          "Y": 69356.0,
+          "Z": 2312.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.09": {
+        "WorldLocation": {
+          "X": 14464.0,
+          "Y": 70400.0,
+          "Z": 3840.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.CapturePoint.10": {
+        "WorldLocation": {
+          "X": -90580.0,
+          "Y": 90120.0,
+          "Z": 7976.0
         },
         "EventsWorldLocation": []
       }

@@ -1181,8 +1181,8 @@
         "LootPackage": "WorldPKG.BirthdayPresent.Weps",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 9.0,
+          "Y": 9.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -1192,8 +1192,8 @@
           1,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0
         ],
@@ -1205,8 +1205,8 @@
           1,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0
         ],
@@ -50127,6 +50127,278 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Market_X_Pistol_CherrySmoke;LPKG:PKG_Market_X_Pistol_CherrySmoke"
       },
+      "LTG_Market_UR_Wrecker_01": {
+        "TierGroup": "LTG_Market_UR_Wrecker",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_Market_UR_Wrecker",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_Market_UR_Wrecker;LPKG:PKG_Market_UR_Wrecker"
+      },
+      "LTG_Market_UR_Sweeper_01": {
+        "TierGroup": "LTG_Market_UR_Sweeper",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_Market_UR_Sweeper",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_Market_UR_Sweeper;LPKG:PKG_Market_UR_Sweeper"
+      },
+      "LTG_Market_UR_Minigun_01": {
+        "TierGroup": "LTG_Market_UR_Minigun",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_Market_UR_Minigun",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_Market_UR_Minigun;LPKG:PKG_Market_UR_Minigun"
+      },
+      "LTG_Market_UR_Assault_TidalCrane_01": {
+        "TierGroup": "LTG_Market_UR_Assault_TidalCrane",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_Market_UR_Assault_TidalCrane",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_Market_UR_Assault_TidalCrane;LPKG:PKG_Market_UR_Assault_TidalCrane"
+      },
       "LTG_NPC_FirePetal_BlizzardGrenade_01": {
         "TierGroup": "LTG_NPC_FirePetal_BlizzardGrenade",
         "Weight": 1.0,
@@ -53065,8 +53337,8 @@
         "LootPackage": "PKG_Boss_A_Solo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 8.0,
-          "Y": 8.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53088,8 +53360,8 @@
           1,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           0,
           0,
           0
@@ -53133,8 +53405,8 @@
         "LootPackage": "PKG_Boss_A_Duo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 10.0,
-          "Y": 10.0
+          "X": 7.0,
+          "Y": 7.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53156,8 +53428,8 @@
           1,
           2,
           1,
-          2,
-          1,
+          0,
+          0,
           0,
           0,
           0
@@ -53201,8 +53473,8 @@
         "LootPackage": "PKG_Boss_A_Trio",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53224,8 +53496,8 @@
           1,
           3,
           1,
-          3,
-          2,
+          0,
+          0,
           0,
           0,
           0
@@ -53269,8 +53541,8 @@
         "LootPackage": "PKG_Boss_A_Squad",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 15.0,
-          "Y": 15.0
+          "X": 9.0,
+          "Y": 9.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53292,8 +53564,8 @@
           1,
           4,
           1,
-          4,
-          2,
+          0,
+          0,
           0,
           0,
           0
@@ -53337,8 +53609,8 @@
         "LootPackage": "PKG_Boss_B_Solo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 8.0,
-          "Y": 8.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53360,8 +53632,8 @@
           1,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           0,
           0,
           0
@@ -53405,8 +53677,8 @@
         "LootPackage": "PKG_Boss_B_Duo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 10.0,
-          "Y": 10.0
+          "X": 7.0,
+          "Y": 7.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53428,8 +53700,8 @@
           1,
           2,
           1,
-          2,
-          1,
+          0,
+          0,
           0,
           0,
           0
@@ -53473,8 +53745,8 @@
         "LootPackage": "PKG_Boss_B_Trio",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53496,8 +53768,8 @@
           1,
           3,
           1,
-          3,
-          2,
+          0,
+          0,
           0,
           0,
           0
@@ -53541,8 +53813,8 @@
         "LootPackage": "PKG_Boss_B_Squad",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 15.0,
-          "Y": 15.0
+          "X": 9.0,
+          "Y": 9.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53564,8 +53836,8 @@
           1,
           4,
           1,
-          4,
-          2,
+          0,
+          0,
           0,
           0,
           0
@@ -53609,8 +53881,8 @@
         "LootPackage": "PKG_Boss_C_Solo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53620,7 +53892,7 @@
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0
@@ -53632,7 +53904,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -53677,8 +53949,8 @@
         "LootPackage": "PKG_Boss_C_Duo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 7.0,
+          "Y": 7.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53688,7 +53960,7 @@
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0
@@ -53700,7 +53972,7 @@
           1,
           2,
           1,
-          2,
+          0,
           0,
           0,
           0,
@@ -53745,8 +54017,8 @@
         "LootPackage": "PKG_Boss_C_Trio",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 11.0,
-          "Y": 11.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53756,7 +54028,7 @@
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0
@@ -53768,7 +54040,7 @@
           1,
           3,
           1,
-          3,
+          0,
           0,
           0,
           0,
@@ -53813,8 +54085,8 @@
         "LootPackage": "PKG_Boss_C_Squad",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 9.0,
+          "Y": 9.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53824,7 +54096,7 @@
           1,
           1,
           1,
-          0,
+          1,
           0,
           0,
           0
@@ -53836,7 +54108,7 @@
           1,
           4,
           1,
-          4,
+          0,
           0,
           0,
           0,
@@ -53881,8 +54153,8 @@
         "LootPackage": "PKG_Boss_D_Solo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53903,7 +54175,7 @@
           1,
           1,
           1,
-          2,
+          1,
           2,
           0,
           0,
@@ -53949,8 +54221,8 @@
         "LootPackage": "PKG_Boss_D_Duo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -53971,7 +54243,7 @@
           1,
           1,
           1,
-          2,
+          1,
           2,
           0,
           0,
@@ -54017,8 +54289,8 @@
         "LootPackage": "PKG_Boss_D_Trio",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -54039,7 +54311,7 @@
           1,
           1,
           1,
-          2,
+          1,
           2,
           0,
           0,
@@ -54085,8 +54357,8 @@
         "LootPackage": "PKG_Boss_D_Squad",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -54107,7 +54379,7 @@
           1,
           1,
           1,
-          2,
+          1,
           2,
           0,
           0,
@@ -56589,7 +56861,7 @@
       },
       "LTG_MapObjective_C_Solo_01": {
         "TierGroup": "LTG_MapObjective_C_Solo",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56657,7 +56929,7 @@
       },
       "LTG_MapObjective_C_Duo_01": {
         "TierGroup": "LTG_MapObjective_C_Duo",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56725,7 +56997,7 @@
       },
       "LTG_MapObjective_C_Trio_01": {
         "TierGroup": "LTG_MapObjective_C_Trio",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56793,7 +57065,7 @@
       },
       "LTG_MapObjective_C_Squad_01": {
         "TierGroup": "LTG_MapObjective_C_Squad",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56861,7 +57133,7 @@
       },
       "LTG_MapObjective_C_Solo_02": {
         "TierGroup": "LTG_MapObjective_C_Solo",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56929,7 +57201,7 @@
       },
       "LTG_MapObjective_C_Duo_02": {
         "TierGroup": "LTG_MapObjective_C_Duo",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -56997,7 +57269,7 @@
       },
       "LTG_MapObjective_C_Trio_02": {
         "TierGroup": "LTG_MapObjective_C_Trio",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -57065,7 +57337,7 @@
       },
       "LTG_MapObjective_C_Squad_02": {
         "TierGroup": "LTG_MapObjective_C_Squad",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -57145,8 +57417,8 @@
         "LootPackage": "PKG_Chest_Special",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 4.0,
+          "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -57164,12 +57436,12 @@
         "LootPackageCategoryMinArray": [
           1,
           1,
-          2,
           1,
-          2,
-          1,
-          2,
-          2,
+          0,
+          0,
+          0,
+          0,
+          0,
           1,
           0,
           0
@@ -58301,8 +58573,8 @@
         "LootPackage": "WorldPKG_Bomber",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 6.0,
-          "Y": 6.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -58319,10 +58591,10 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          0,
           1,
-          1,
-          1,
-          1,
+          0,
+          0,
           1,
           0,
           0,
@@ -58369,8 +58641,8 @@
         "LootPackage": "WorldPKG_Spawner_Small",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -58386,8 +58658,8 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
-          2,
+          0,
+          1,
           0,
           0,
           0,
@@ -58437,8 +58709,8 @@
         "LootPackage": "WorldPKG_Spawner_Large",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -58454,10 +58726,10 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
-          3,
+          0,
           1,
-          1,
+          0,
+          0,
           0,
           0,
           0,
@@ -58505,8 +58777,8 @@
         "LootPackage": "WorldPKG_OrbitalBombardment",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 2.0,
-          "Y": 2.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -58523,7 +58795,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -60329,7 +60601,7 @@
       },
       "LTG_Launcher_Shockwave_Athena_X_01": {
         "TierGroup": "LTG_Launcher_Shockwave_Athena_X",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -61701,8 +61973,8 @@
         "LootPackage": "PKG_MilitaryRank_B",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 10.0,
-          "Y": 10.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -61722,12 +61994,12 @@
           1,
           0,
           1,
-          1,
-          1,
+          0,
+          0,
           2,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0
         ],
         "LootPackageCategoryMaxArray": [
@@ -61769,8 +62041,8 @@
         "LootPackage": "PKG_MilitaryRank_A",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 11.0,
-          "Y": 11.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -61789,14 +62061,14 @@
           1,
           1,
           0,
-          2,
           1,
           0,
-          1,
+          0,
+          0,
           2,
-          1,
-          1,
-          1
+          0,
+          0,
+          0
         ],
         "LootPackageCategoryMaxArray": [
           -1,
@@ -61837,8 +62109,8 @@
         "LootPackage": "PKG_MilitaryRank_S",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 10.0,
-          "Y": 10.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -61858,12 +62130,12 @@
           1,
           0,
           1,
-          1,
-          1,
+          0,
+          0,
           2,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0
         ],
         "LootPackageCategoryMaxArray": [
@@ -61905,8 +62177,8 @@
         "LootPackage": "PKG_MilitaryRank_SPlus",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 11.0,
-          "Y": 11.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -61924,12 +62196,12 @@
         "LootPackageCategoryMinArray": [
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           4,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0
@@ -62505,7 +62777,7 @@
       },
       "LTG_Launcher_Shockwave_Athena_VR_01": {
         "TierGroup": "LTG_Launcher_Shockwave_Athena_VR",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -62573,7 +62845,7 @@
       },
       "LTG_Launcher_Shockwave_Athena_SR_01": {
         "TierGroup": "LTG_Launcher_Shockwave_Athena_SR",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -63047,8 +63319,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Revolver_TidalCrane_Athena_X;LPKG:PKG_Revolver_TidalCrane_Athena_X"
       },
-      "LTG_WasherDryer_Gold_01": {
-        "TierGroup": "LTG_WasherDryer_Gold",
+      "LTG_PiewPistol_Only_01": {
+        "TierGroup": "LTG_PiewPistol_Only",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -63058,7 +63330,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_WasherDryer_Gold",
+        "LootPackage": "PKG_PiewPistol_Only",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -63113,7 +63385,75 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_WasherDryer_Gold;LPKG:PKG_WasherDryer_Gold"
+        "Annotation": "TG:LTG_PiewPistol_Only;LPKG:PKG_PiewPistol_Only"
+      },
+      "LTG_GrappleGloves_01": {
+        "TierGroup": "LTG_GrappleGloves",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_GrappleGrloves",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_GrappleGloves;LPKG:PKG_GrappleGrloves"
       }
     }
   }

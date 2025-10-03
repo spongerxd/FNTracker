@@ -55,12 +55,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.07,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -130,6 +124,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -339,7 +334,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_DPS_Athena_UC_Ore_T00": {
         "Spread": 0.15,
@@ -385,12 +386,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.885,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -460,6 +455,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -669,7 +665,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_DPS_Athena_R_Ore_T00": {
         "Spread": 0.15,
@@ -715,12 +717,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.7,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -790,6 +786,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -999,7 +996,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_DPS_Athena_VR_Ore_T00": {
         "Spread": 0.15,
@@ -1045,12 +1048,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.515,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -1120,6 +1117,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -1329,7 +1327,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_DPS_Athena_SR_Ore_T00": {
         "Spread": 0.15,
@@ -1375,12 +1379,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.33,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -1450,6 +1448,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -1659,7 +1658,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_DPS_Athena_UR_Ore_T00": {
         "Spread": 0.15,
@@ -1705,12 +1710,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.145,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -1780,6 +1779,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -1989,7 +1989,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_C_Ore_T00": {
         "Spread": 0.15,
@@ -2035,12 +2041,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.85,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -2110,6 +2110,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -2301,7 +2302,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_UC_Ore_T00": {
         "Spread": 0.15,
@@ -2347,12 +2354,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.675,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -2422,6 +2423,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -2613,7 +2615,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_R_Ore_T00": {
         "Spread": 0.15,
@@ -2659,12 +2667,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.5,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -2734,6 +2736,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -2925,7 +2928,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_VR_Ore_T00": {
         "Spread": 0.15,
@@ -2971,12 +2980,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.325,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -3046,6 +3049,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -3237,7 +3241,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_SR_Ore_T00": {
         "Spread": 0.15,
@@ -3283,12 +3293,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.15,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -3358,6 +3362,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -3549,7 +3554,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Heavy_Athena_UR_Ore_T00": {
         "Spread": 0.15,
@@ -3595,12 +3606,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 2.975,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -3670,6 +3675,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -3861,7 +3867,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_C_Ore_T00": {
         "Spread": 0.45,
@@ -3907,12 +3919,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.4,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -3982,6 +3988,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -4179,7 +4186,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_UC_Ore_T00": {
         "Spread": 0.45,
@@ -4225,12 +4238,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.2,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -4300,6 +4307,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -4497,7 +4505,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_R_Ore_T00": {
         "Spread": 0.45,
@@ -4543,12 +4557,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.0,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -4618,6 +4626,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -4815,7 +4824,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_VR_Ore_T00": {
         "Spread": 0.45,
@@ -4861,12 +4876,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.8,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -4936,6 +4945,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -5133,7 +5143,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_SR_Ore_T00": {
         "Spread": 0.45,
@@ -5179,12 +5195,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.6,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -5254,6 +5264,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -5451,7 +5462,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "Assault_Paprika_Infantry_Athena_UR_Ore_T00": {
         "Spread": 0.45,
@@ -5497,12 +5514,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 10000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.4,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.6,
@@ -5572,6 +5583,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -5769,7 +5781,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 10000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.0
       },
       "SMG_Paprika_DPS_Athena_C_Ore_T03": {
         "Spread": 0.2,
@@ -5815,12 +5833,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 3.41,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -5890,6 +5902,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -6249,7 +6262,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_DPS_Athena_UC_Ore_T03": {
         "Spread": 0.2,
@@ -6295,12 +6314,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 3.255,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -6370,6 +6383,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -6729,7 +6743,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_DPS_Athena_R_Ore_T03": {
         "Spread": 0.2,
@@ -6775,12 +6795,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 3.1,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -6850,6 +6864,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -7209,7 +7224,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_DPS_Athena_VR_Ore_T03": {
         "Spread": 0.2,
@@ -7255,12 +7276,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.945,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -7330,6 +7345,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -7689,7 +7705,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_DPS_Athena_SR_Ore_T03": {
         "Spread": 0.2,
@@ -7735,12 +7757,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.79,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -7810,6 +7826,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -8169,7 +8186,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_DPS_Athena_UR_Ore_T03": {
         "Spread": 0.2,
@@ -8215,12 +8238,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.635,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -8290,6 +8307,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -8649,7 +8667,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_C_Ore_T03": {
         "Spread": 0.22,
@@ -8695,12 +8719,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.2,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -8770,6 +8788,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -9041,7 +9060,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_UC_Ore_T03": {
         "Spread": 0.22,
@@ -9087,12 +9112,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.1,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -9162,6 +9181,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -9433,7 +9453,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_R_Ore_T03": {
         "Spread": 0.22,
@@ -9479,12 +9505,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 2.0,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -9554,6 +9574,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -9825,7 +9846,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_VR_Ore_T03": {
         "Spread": 0.22,
@@ -9871,12 +9898,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 1.9,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -9946,6 +9967,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -10217,7 +10239,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_SR_Ore_T03": {
         "Spread": 0.22,
@@ -10263,12 +10291,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 1.8,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -10338,6 +10360,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -10609,7 +10632,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "SMG_Paprika_Burst_Athena_UR_Ore_T03": {
         "Spread": 0.22,
@@ -10655,12 +10684,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 4000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.3,
-        "AutofireCooldown": 0.1,
         "RecoilVert": 1.7,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -10730,6 +10753,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -11001,7 +11025,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 4000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.3,
+        "AutofireCooldown": 0.1
       },
       "Pistol_Paprika_Core_Athena_C_Ore_T03": {
         "Spread": 0.15,
@@ -11047,12 +11077,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.85,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -11122,6 +11146,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -11305,7 +11330,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_Core_Athena_UC_Ore_T03": {
         "Spread": 0.15,
@@ -11351,12 +11382,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.675,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -11426,6 +11451,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -11609,7 +11635,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_Core_Athena_R_Ore_T03": {
         "Spread": 0.15,
@@ -11655,12 +11687,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.5,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -11730,6 +11756,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -11913,7 +11940,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_Core_Athena_VR_Ore_T03": {
         "Spread": 0.15,
@@ -11959,12 +11992,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.325,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -12034,6 +12061,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -12217,7 +12245,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_Core_Athena_SR_Ore_T03": {
         "Spread": 0.15,
@@ -12263,12 +12297,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.15,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -12338,6 +12366,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -12521,7 +12550,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_Core_Athena_UR_Ore_T03": {
         "Spread": 0.15,
@@ -12567,12 +12602,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 2.975,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -12642,6 +12671,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -12825,7 +12855,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Pistol_Paprika_BallisticShield_Athena_R_Ore_T03": {
         "Spread": 0.15,
@@ -12871,12 +12907,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 12000.0,
-        "AutofireAcquisitionDelay": 0.175,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.5,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -12946,6 +12976,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -13129,7 +13160,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 12000.0,
+        "AutofireAcquisitionDelay": 0.175,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_C_Ore_T03": {
         "Spread": 1.0,
@@ -13175,12 +13212,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 9.9,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -13250,6 +13281,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -13361,7 +13393,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_UC_Ore_T03": {
         "Spread": 1.0,
@@ -13407,12 +13445,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 9.45,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -13482,6 +13514,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -13593,7 +13626,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_R_Ore_T03": {
         "Spread": 1.0,
@@ -13639,12 +13678,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 9.0,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -13714,6 +13747,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -13825,7 +13859,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_VR_Ore_T03": {
         "Spread": 1.0,
@@ -13871,12 +13911,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 8.55,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -13946,6 +13980,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -14057,7 +14092,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_SR_Ore_T03": {
         "Spread": 1.0,
@@ -14103,12 +14144,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 8.1,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -14178,6 +14213,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -14289,7 +14325,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Pump_Athena_UR_Ore_T03": {
         "Spread": 1.0,
@@ -14335,12 +14377,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 7.65,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -14410,6 +14446,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -14521,7 +14558,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_C_Ore_T03": {
         "Spread": 1.0,
@@ -14567,12 +14610,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.4,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -14642,6 +14679,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -14753,7 +14791,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_UC_Ore_T03": {
         "Spread": 1.0,
@@ -14799,12 +14843,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.2,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -14874,6 +14912,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -14985,7 +15024,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_R_Ore_T03": {
         "Spread": 1.0,
@@ -15031,12 +15076,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.0,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -15106,6 +15145,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -15217,7 +15257,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_VR_Ore_T03": {
         "Spread": 1.0,
@@ -15263,12 +15309,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.8,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -15338,6 +15378,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -15449,7 +15490,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_SR_Ore_T03": {
         "Spread": 1.0,
@@ -15495,12 +15542,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.6,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -15570,6 +15611,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -15681,7 +15723,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Shotgun_Paprika_Auto_Athena_UR_Ore_T03": {
         "Spread": 1.0,
@@ -15727,12 +15775,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 2600.0,
-        "AutofireAcquisitionDelay": 0.2,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 2.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 3.4,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.75,
@@ -15802,6 +15844,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -15913,7 +15956,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 2600.0,
+        "AutofireAcquisitionDelay": 0.2,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_C_Ore_T03": {
         "Spread": 1.25,
@@ -15959,12 +16008,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 5.5,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -16034,6 +16077,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -16145,7 +16189,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_UC_Ore_T03": {
         "Spread": 1.25,
@@ -16191,12 +16241,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 5.25,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -16266,6 +16310,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -16377,7 +16422,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_R_Ore_T03": {
         "Spread": 1.25,
@@ -16423,12 +16474,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 5.0,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -16498,6 +16543,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -16609,7 +16655,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_VR_Ore_T03": {
         "Spread": 1.25,
@@ -16655,12 +16707,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.75,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -16730,6 +16776,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -16841,7 +16888,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_SR_Ore_T03": {
         "Spread": 1.25,
@@ -16887,12 +16940,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.5,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -16962,6 +17009,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -17073,7 +17121,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       },
       "Sniper_Paprika_Athena_UR_Ore_T03": {
         "Spread": 1.25,
@@ -17119,12 +17173,6 @@
         "EarlyRefireSpreadPenalty": 0.0,
         "EarlyRefireSpreadMinimumMultiplier": 1.0,
         "EarlyRefireSpreadDownsightsMinimumMultiplier": 1.0,
-        "AutofireRange": 0.0,
-        "AutofireAcquisitionDelay": 0.15,
-        "AutofireDBNOAcquisitionDelay": 1.0,
-        "AutofireAcquisitionRechargeTime": 1.0,
-        "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0,
         "RecoilVert": 4.25,
         "RecoilVertScale": 1.0,
         "RecoilVertScaleGamepad": 0.5,
@@ -17194,6 +17242,7 @@
         "HeatingCooldownDelay": 0.0,
         "OverheatedCooldownDelay": 0.0,
         "bCoolOverheatWhileCharging": true,
+        "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
@@ -17305,7 +17354,13 @@
         "MeleeAimAssistRequiredTag": {
           "TagName": "None"
         },
-        "MaxUnderReticleDistance": 8192.0
+        "MaxUnderReticleDistance": 8192.0,
+        "AutofireRange": 0.0,
+        "AutofireAcquisitionDelay": 0.15,
+        "AutofireDBNOAcquisitionDelay": 1.0,
+        "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireReleaseTime": 0.0,
+        "AutofireCooldown": 0.0
       }
     }
   }
