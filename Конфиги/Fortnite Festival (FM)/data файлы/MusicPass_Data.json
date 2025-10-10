@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "MusicPassS10_Data",
+    "Name": "MusicPassS11_Data",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -15,51 +15,51 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "35B1A8A642A1AD10B86890B8E2101E23",
-        "SourceString": "Season 10",
-        "LocalizedString": "Season 10"
+        "Key": "5AB61781418FB3C1D66EAEBCAC1709A2",
+        "SourceString": "Mixtape",
+        "LocalizedString": "Сборник"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "E2F4E1ED4D559D8CA0E706A713235021",
+        "Key": "44E94CEA44CBDB345932C9A5778C27F3",
         "SourceString": "Music Pass end of season",
-        "LocalizedString": "Music Pass end of season"
+        "LocalizedString": "Музыкальный пропуск: конец сезона"
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "5756578440D67A9E2EE2A0AC598B4726",
+        "Key": "4919B62E4CF5F2DF9E31488F4702AB80",
         "SourceString": "Get Music Pass",
-        "LocalizedString": "Get Music Pass"
+        "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 1.0,
-          "G": 0.53948,
-          "B": 0.132868,
+          "R": 0.361307,
+          "G": 0.871367,
+          "B": 0.309469,
           "A": 1.0,
-          "Hex": "FFC266"
+          "Hex": "A2F097"
         },
         "ProgressionColor": {
-          "R": 0.955974,
-          "G": 0.304987,
+          "R": 0.89627,
+          "G": 0.23074,
           "B": 1.0,
           "A": 1.0,
-          "Hex": "FA96FF"
+          "Hex": "F384FF"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/MusicPassS10/UI/MaterialInstances/MI_UI_MusicPass_S10_Vault.MI_UI_MusicPass_S10_Vault",
+          "AssetPathName": "/MusicPassS11/UI/MaterialInstances/MI_UI_MusicPass_S11_Vault.MI_UI_MusicPass_S11_Vault",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/MusicPassS10/UI/MaterialInstances/MI_UI_MusicPass_S10_UI.MI_UI_MusicPass_S10_UI",
+          "AssetPathName": "/MusicPassS11/UI/MaterialInstances/MI_UI_MusicPass_S11_UI.MI_UI_MusicPass_S11_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/MusicPassS10/UI/MaterialInstances/MI_UI_MusicPass_S10_Upsell.MI_UI_MusicPass_S10_Upsell",
+          "AssetPathName": "/MusicPassS11/UI/MaterialInstances/MI_UI_MusicPass_S11_Upsell.MI_UI_MusicPass_S11_Upsell",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/MusicPassS10/UI/MaterialInstances/MI_UI_MusicPass_S10_CrewSecondaryTile.MI_UI_MusicPass_S10_CrewSecondaryTile",
+          "AssetPathName": "/MusicPassS11/UI/MaterialInstances/MI_UI_MusicPass_S11_CrewSecondaryTile.MI_UI_MusicPass_S11_CrewSecondaryTile",
           "SubPathString": ""
         },
         "BenefitsByType": [
@@ -73,9 +73,9 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.184004,
-                    "G": 0.147461,
-                    "B": 0.1875,
+                    "R": 0.184475,
+                    "G": 0.147027,
+                    "B": 0.187821,
                     "A": 1.0,
                     "Hex": "776B78"
                   },
@@ -140,9 +140,9 @@
               }
             ],
             "ThemeColor": {
-              "R": 0.508881,
-              "G": 0.545724,
-              "B": 0.571125,
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
               "A": 1.0,
               "Hex": "BDC3C7"
             },
@@ -161,11 +161,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.779059,
-                    "G": 0.361599,
-                    "B": 0.807292,
+                    "R": 0.571125,
+                    "G": 0.291771,
+                    "B": 1.0,
                     "A": 1.0,
-                    "Hex": "E5A2E8"
+                    "Hex": "C793FF"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -175,11 +175,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.396755,
-                    "G": 0.127438,
-                    "B": 0.783538,
+                    "R": 0.571125,
+                    "G": 0.291771,
+                    "B": 1.0,
                     "A": 1.0,
-                    "Hex": "A964E5"
+                    "Hex": "C793FF"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -189,11 +189,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.127438,
-                    "G": 0.022174,
-                    "B": 0.439657,
+                    "R": 0.061246,
+                    "G": 0.030713,
+                    "B": 0.64448,
                     "A": 1.0,
-                    "Hex": "6429B1"
+                    "Hex": "4631D2"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -203,11 +203,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 1.0,
-                    "G": 0.208637,
-                    "B": 0.061246,
-                    "A": 0.5,
-                    "Hex": "7FFF7E46"
+                    "R": 0.185929,
+                    "G": 0.583333,
+                    "B": 0.154948,
+                    "A": 0.501961,
+                    "Hex": "8077C96E"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -217,20 +217,20 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.212231,
-                    "G": 0.038204,
-                    "B": 0.029557,
+                    "R": 0.027375,
+                    "G": 0.09375,
+                    "B": 0.008789,
                     "A": 1.0,
-                    "Hex": "7F3730"
+                    "Hex": "2E5617"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
               }
             ],
             "ThemeColor": {
-              "R": 0.508881,
-              "G": 0.545724,
-              "B": 0.571125,
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
               "A": 1.0,
               "Hex": "BDC3C7"
             },
@@ -244,16 +244,18 @@
       "Product": {
         "TagName": "Product.Sparks"
       },
-      "SeasonStorefront": "MusicPassS10",
-      "SeasonPassOfferId": "BFC272674BB1AE26BE8BF58EE9B8D48F",
-      "SeasonPassLevelOfferId": "54C22382450AFF05332A5B8D92986544",
+      "SeasonStorefront": "MusicPassS11",
+      "SeasonPassOfferId": "1658A680448E369FDDC58186141B9951",
+      "SeasonPassBundleOfferId": "0",
+      "SeasonPassLevelOfferId": "D7265DB6484F3DB5E416DFABEF7B3835",
+      "SeasonPassLevelBundleOfferId": "0",
       "PaidRewards": [
         {
           "OfferGuid": "00000000-00000000-00000000-00000000",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/MusicPassS10/Items/Tokens/MusicPassS10_PremiumToken.MusicPassS10_PremiumToken",
+                "AssetPathName": "/MusicPassS11/Items/Tokens/MusicPassS11_PremiumToken.MusicPassS11_PremiumToken",
                 "SubPathString": ""
               },
               "Quantity": 1,
@@ -262,11 +264,11 @@
           ]
         },
         {
-          "OfferGuid": "FA06DB12-4289D9B2-225573AD-09A0E9AE",
+          "OfferGuid": "53999A4B-4FA22E06-D814049E-15202E5B",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_TerrierCure.Character_TerrierCure",
+                "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_GeminiLink.Character_GeminiLink",
                 "SubPathString": ""
               },
               "Quantity": 1,

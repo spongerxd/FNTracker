@@ -97,6 +97,7 @@
     "9FF7A11E4108A8ACF0D4779D41B21594": "Разворачиваемое поле",
     "B831954848FE68A8C4482386B90A97D4": "Исследуйте яркие улицы вселенной «Кейпоп-охотниц на демонов», раскрашенные в стилистике Fortnite! Сразитесь с демонами в мрачной парилке, а потом отпразднуйте победу на красивой площади!",
     "00C901C44B58481BEB3397B85C90C299": "Побывайте в знаменитой тюрьме из The Walking Dead Universe. Начните работу над новой игрой с хорошей стартовой позиции, где многое уже готово — с начального острова.",
+    "E53B4FCE45512E6371CB859895ADA2D0": "PvP-режим извлечения",
     "7BC1EF91495CE30F0A41BEA8E4D553CC": "Демонстрация возможностей",
     "F323D3324C1E2BF0E3D873853A57C7DA": "Демонстрация функциональных возможностей",
     "E9C4E4D04CE32EDEFB35F98B1579F659": "Основа Fortnite",
@@ -225,6 +226,7 @@
     "BA2C88DC4ED01C969B542A9A82AA6D51": "Время перемещения",
     "F2BD76264433D09FBDF3FABBE2280B46": "Время перемещения",
     "18F79DEE41BDDE21B1E29A92D4996380": "Меж двух огней",
+    "322DF95048022C1AA3A356B39DBBBB9F": "Обучающий материал и представление того, как создать PvP игру LEGO® с режимом извлечения. Также представляет, как создавать модули и уровни с помощью LEGO® Brick Editor!",
     "391405CC46B2F3A26F7747B2217E1705": "Введите текст, чтобы начать поиск по названию состояния…",
     "1E7511884D0E43850B0CD9920A1DA152": "Пользовательские интерфейсы",
     "33BB67A04898FBB5CC888DA9D468D58D": "Визуальные эффекты",
@@ -1394,6 +1396,7 @@
     "AnimSequence_DuplicateCurveEntries": "Последовательности анимации {0} содержат дублированные записи кривой с плавающей запятой с названием {1}. Исправьте неправильные данные и сохраните заново.",
     "AnimSequence_UnableToLoadMontage": "Последовательность анимации {0} имеет ссылку от монтажа {1}, который невозможно загрузить для проверки.",
     "Illegal_Location": "Ресурс найден в {0} — расположении, недопустимом для этого типа ресурсов.",
+    "AssetNotFortQuestItemDefinition": "Ресурс:{0} не является классом FortQuestItemDefinition",
     "SkeletalMeshes_RestPoseDiffersFromBase": "Базовая сетка отличается от уровня детализации её позы привязки {0} на {1}%",
     "ValidationError.MissingInLobbyPlugin": "BaseInstallRoot не зависит от {0}. {0} использует действие AddToFrontend, необходимое также для создания зависимости плагина BaseInstallRoot",
     "TextureValidator_UDIMBlockTooBig": "Блок {0} некинематографической текстуре UDIM слишком большой. Размер — {1}×{2}. Уменьшите размер блока до {3} или ниже",
@@ -1408,6 +1411,7 @@
     "PlaylistAthenaValidator_CompetitivePointClampLte0": "Competitive Point Clamp ({0}) не может быть <= 0, если Is Tournament имеет значение TRUE.",
     "RestrictedNames_NameFail": "Содержит недопустимое название '{0}'. Переименуйте или переместите этот ресурс, чтобы путь к нему не содержал этого названия.",
     "RemoveInheritanceFix": "Отключить наследование",
+    "DuplicateQuestBackendNameFound": "Дублирующееся название на стороне сервера {0} также присутствует в ресурсе:{1}. Названия на стороне сервера для сохраняемых заданий свыше 20,00 должны быть полностью уникальными",
     "PlaylistAthenaValidator_EnableDynamicBotBackfillTrue": "Enable Dynamic Bot Backfill не может иметь значение TRUE, если Use Player Rating имеет значение FALSE.",
     "FortValidator_Blueprints.ReferencerErrors": "Обнаружены ошибки при загрузке копии ресурса для проверки",
     "DataValidation.LoadErrors": "Ошибки при загрузке ресурса {0}",
@@ -1460,6 +1464,9 @@
     "StaticMesh_NonNaniteTooManyVerts": "В статичной сетке, созданной не в Nanite, превышено количество вершин[уровень детализации {0} на {1} вершин превышает допустимое количество {2}]. Это приведёт к недопустимому перерасходу ресурсов при отрисовке!!",
     "TextureValidator_TooBig": "Слишком большая некинематографическая текстура. Размер — {0}×{1}. Используйте LODBias, чтобы уменьшить её размер до {2} или ниже",
     "CreativeCostValidator": "OldCost({DoNotLocalizeOldCost}Кбайт) NewCost({DoNotLocalizeNewCost}Кбайт). Ресурс увеличился на {DoNotLocalizeChangePercent}%. Вопросы см. Eric.Knapik\nМожно сократить количество жестких ссылок, используя вместо них мягкие ссылки.\nИсправьте или отправьте на утверждение команде Творческого режима. Должно быть утверждено Заком Фелпсом или Карлосом Куэлло.\nПропустите проверку ресурса, добавив его в файл DefaultEngine.ini в [/Script/FortniteEditor.FortValidator_CreativeCost], — добавьте строку\n+ClassesToSkipValidator=(Class={DoNotLocalizeAssetName},PercentIncreased={DoNotLocalizeChangePercent})\n",
+    "UFortValidator_ShellMeshData.PartSkeletalMeshMissing": "У части есть данные части косметического предмета сетки оболочки, но отсутствует скелетная сетка: ",
+    "UFortValidator_ShellMeshData.PartShellMeshAssetMissing": "У части отсутствует ShellMeshAsset в данных части косметического предмета: ",
+    "UFortValidator_ShellMeshData.SkeletalMeshMismatch": "Скелетная сетка части не соответствует скелетной сетке данных сетки оболочки. См.: ",
     "PlaylistAthenaValidator_HardDepOnUploadedPlugin": "Плейлист содержит жёсткую ссылку на \"{package}\" в \"{plugin}\", но плагин отмечен для выгрузки на сервис дефектов. Жёсткая ссылка на плагин, который выгружается на сервис дефектов, не допускается!",
     "ValidationError.GameFeature_Encrypted_NoRedist": "Удалите эту зависимость, так как корневые плагины не могут зависеть от шифрованных плагинов.",
     "PlaylistAthenaValidator_HardDepOnModifiedPlugin": "Плагин \"{plugin}\" выгружается на сервис дефектов, но при этом выступает в качестве жёсткой зависимости для плейлиста \"{playlist}\" по причине ссылки на \"{package}\"! Жёсткую зависимость следует убрать, иначе плейлист не будет считаться действительным.",
@@ -1477,6 +1484,7 @@
     "ValidationError.GameFeature_EncryptedPlugin": "Корневой плагин",
     "UFortValidator_SkeletalMeshMorphDataBase.MorphDataMissing": "Отсутствует SKM {0} Требуемые целевые объекты морфинга: ('{1}'). См.",
     "UFortValidator_SkeletalMeshMorphDataBase.SkinWeightsMissing": "Отсутствует SKM {0} Требуемые профили веса оболочки: ('{1}'). См.",
+    "UFortValidator_ShellMeshData.ShellSkeletalMeshMissing": "У ресурса сетки оболочки отсутствует скелетная сетка. См.: ",
     "SkeletalMeshes_MissingBones": "Скелетная сетка содержит кости, не обнаруженные на её скелете ({0}): {1}",
     "SkeletalMeshes_AlternativeTagButProfileMissing": "Скелетная сетка требует использовать профиль {0}, но он не существует. Инструмент Cobbler сломан или не был повторно запущен?",
     "SkeletalMeshes_MissingAlternateInfluenceProfile": "В профиле оболочки {0} отсутствуют значения веса влияния на уровень детализации {1}",
@@ -1514,6 +1522,7 @@
     "ValidationError.GameFeature_EncryptedPlugin_Depends": "зависит от шифрованного плагина ",
     "UFortValidator_SkeletalMeshMorphDataBase.MorphDataMissingCP": "из CharacterPart: ",
     "UFortValidator_SkeletalMeshMorphDataBase.SkinWeightsMissingCP": "из CharacterPart: ",
+    "UFortValidator_ShellMeshData.ShellSkeletalMeshMissingCP": "из CharacterPart: ",
     "ValidationError.GameFeature_NoRootAssociation": "не связан ни с одним корневым GameFeaturePlugin. Добавьте {0} в соответствующие корневые элементы в качестве новой зависимости. Все плагины GameFeaturePlugin должны быть связаны как минимум с одним корневым элементом, если они не помечены как EditorOnly, NoRedist или Encrypted",
     "ValidationError.GameFeature_EditorOnly_Depends": "не предназначено только для редактора, но зависит от",
     "ValidationError.GameFeature_SunsetUnset_Depends": "не удаляется из проекта, но зависит от",
@@ -2838,6 +2847,19 @@
     "CreateEmptyButton": "Создать пустой",
     "Preview": "Предпросмотр"
   },
+  "SVkContentResolutionViewer": {
+    "ResolvedModuleDep": "\t{0}",
+    "VkContentResolutionViewerTabLabel": "Разрешение содержимого",
+    "ContentTextBoxHint": "Укажите путь Verse, идентификатор модуля или идентификатор проекта",
+    "ResolvedModuleLive": "Активно",
+    "RefreshButtonTooltip": "Применить разрешение содержимого повторно",
+    "ContentResolutionViewerTabTooltip": "Инструмент для визуализации и проверки разрешения содержимого в рабочей среде или в режиме реального времени",
+    "ResolvedModuleDeps": "зависимости:",
+    "ResolvedModuleId": "модуль: {0}",
+    "ResolvedModuleVersion": "версия: {0}",
+    "ResolvedModuleWorkspace": "рабочая пространство: {0}",
+    "ResolvedModuleShortDescription": "{0} v{1} ({2})"
+  },
   "SVkWorkspaceSelector": {
     "WorkspaceCreationDate": "\nДата создания: {0}",
     "WorkspaceLastPublish": "\nПоследняя публикация: {0}",
@@ -3992,8 +4014,15 @@
     "MemorySamplingStateDialog.MemoryRatio": "{0}/{1}"
   },
   "ValkyrieFortniteGFSSelectionDetailCustomization": {
+    "ValkyrieGFSSelectionWarningMessage": "Нажав кнопку «Подтвердить», вы подтверждаете, что ознакомились с условиями преобразования вашего острова UEFN. После изменения выбранного бренда вашего острова UEFN и публикации острова вы сможете публиковать его только под этим брендом в течение 30 дней. Когда вы измените выбранный бренд вашего острова UEFN, ваши выплаты за вовлечение будут скорректированы в соответствии со схемой выплат выбранного бренда.\n\nВ результате все активные сеансы редактирования по сети будут отключены. Удалите все ресурсы предыдущего бренда после преобразования, чтобы избежать ошибок при проверке.\n\nПродолжить?",
+    "ValkyrieGFSSelectionWarningCancelButton": "Отменить",
+    "ValkyrieGFSSelectionWarningTitle": "Изменить бренд",
+    "ValkyrieGFSSelectionWarningConfirmButton": "Подтвердить",
+    "ValkyrieFortniteGFSSelectionToast_Dismiss": "Отклонить",
     "FortniteGame": "Fortnite",
-    "ProjectSettings.GFSChangeSetting": "Обратите внимание, что при изменении бренда будут отключены все активные сеансы редактирования по сети. Вам понадобится повторно открыть проект, чтобы увидеть изменения.\n\nЗдесь может располагаться дополнительный текст, например, ссылка на страницу документации или предупреждение о 30-дневной блокировке или необходимости удалить из проекта ресурсы старого бренда."
+    "ProjectSettings.GFSChangeSetting": "Обратите внимание, что при изменении бренда будут отключены все активные сеансы редактирования по сети. Вам понадобится повторно открыть проект, чтобы увидеть изменения.\n\nЗдесь может располагаться дополнительный текст, например, ссылка на страницу документации или предупреждение о 30-дневной блокировке или необходимости удалить из проекта ресурсы старого бренда.",
+    "ValkyrieFortniteGFSSelectionToast_Title": "Бренд проекта успешно изменён!",
+    "ValkyrieFortniteGFSSelectionToast_Body": "Чтобы изменить бренд, нужно закрыть и снова открыть этот проект. После повторного открытия проекта удалите все ресурсы предыдущего бренда, чтобы избежать ошибок при проверке."
   },
   "ValkyrieFortniteProjectUtils": {
     "GameFeatureDataSetup.AddMapDataButton": "Добавить в данные Map Data и начать игру",
@@ -4021,15 +4050,6 @@
     "PlayerDataResetOnInitialPublishWarningMessage": "Публикация этого проекта из редактора или Творческого портала в первый раз не предусматривает передачи данных игрока, связанных со следующими устройствами:\n{DevicesWithoutDataMigrationSupport}\n\nВозвращающиеся игроки будут воспринимать ваш остров, как если бы играли здесь в первый раз.",
     "IslandDataAuthorityWarningMessage": "Данный проект был возвращён обратно к острову в творческом режиме.\n\n{PlayerDataResetMessage}\n\nКроме того, любые изменения, внесённые в остров в творческом режиме с момента его последнего возвращения из UEFN, передаваться не будут.",
     "DevicesWithoutDataMigrationSupport": "• Точка сохранения\n• Таймер\n• Трекер\n• Переключатель"
-  },
-  "ValkyrieGFSSelectionDetailCustomization": {
-    "ValkyrieGFSSelectionWarningMessage": "Нажав кнопку «Подтвердить», вы подтверждаете, что ознакомились с условиями преобразования вашего острова UEFN. После изменения выбранного бренда вашего острова UEFN и публикации острова вы сможете публиковать его только под этим брендом в течение 30 дней. Когда вы измените выбранный бренд вашего острова UEFN, ваши выплаты за вовлечение будут скорректированы в соответствии со схемой выплат выбранного бренда.\n\nВ результате все активные сеансы редактирования по сети будут отключены. Удалить все ресурсы предыдущего бренда после преобразования, чтобы избежать ошибок при проверке.\n\nПродолжить?",
-    "ValkyrieGFSSelectionWarningCancelButton": "Отменить",
-    "ValkyrieGFSSelectionWarningTitle": "Изменить бренд",
-    "ValkyrieGFSSelectionWarningConfirmButton": "Подтвердить",
-    "ValkyrieGFSSelectionToast_Dismiss": "Отклонить",
-    "ValkyrieGFSSelectionToast_Title": "Бренд проекта успешно изменён!",
-    "ValkyrieGFSSelectionToast_Body": "Чтобы изменить бренд, нужно закрыть и снова открыть этот проект. После повторного открытия проекта удалите все ресурсы предыдущего бренда, чтобы избежать ошибок при проверке."
   },
   "ValkyrieImportIslandDialog": {
     "CancelButtonText": "Отмена",

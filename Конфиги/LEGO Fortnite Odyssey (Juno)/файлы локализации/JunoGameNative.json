@@ -1,63 +1,68 @@
 {
   "EnvQueryGenerator": {
-    "PointsOutsideVolume": "ระยะห่างระหว่างกล่อง: {1}",
-    "PointsOutsideVolumeDescriptionContext": "{0}: สร้างข้างนอก {1}",
+    "PointsOutsideVolume": "расстояние между: {1}",
+    "PointsOutsideVolumeDescriptionContext": "{0}: генерация вне {1}",
     "PointsOutsideVolumeDescriptionWithProjection": "{Description}, {ProjectionDescription}"
   },
   "FJunoStateDrivenEvent_InsertItem": {
-    "InsertItem": "วาง{ItemName}"
+    "InsertItem": "Разместить: {ItemName}"
   },
   "JunoControllerComponent": {
-    "OnPlayerDiedGameEvent": "{0} <Yellow>ถูกกำจัดแล้ว</>",
-    "OnPlayerSavedByTotemGameEvent": "{0} <Yellow>ถูกช่วยโดยโทเทม</>"
+    "OnPlayerDiedGameEvent": "Игрок {0} <Yellow>устранён</>",
+    "OnPlayerSavedByTotemGameEvent": "<Yellow>Тотем спасает жизнь</> игроку {0}"
   },
   "JunoConversationTask_GetResource": {
-    "Finished": "เสร็จแล้ว!",
-    "GetX": "รับ {0}"
+    "Finished": "Готово",
+    "GetX": "Получить: {0}"
   },
   "JunoConversationTaskNode_GiftNPC": {
-    "GiftXToNPC": "ให้ {ItemDisplayText} เป็นของขวัญ"
+    "GiftXToNPC": "Подарить: {ItemDisplayText}"
   },
   "JunoConversationTaskNode_GrantLostAndFoundItem": {
-    "LNFDropAll": "เอาทุกอย่างมาให้ฉัน!",
-    "LNFDropNOfX": "{WantItemCount} {WantItem}"
+    "LNFDropAll": "Давай мне что угодно!",
+    "LNFDropNOfX": "{WantItem} ({WantItemCount})"
   },
   "JunoConversationTaskNode_RemoteCampRecruitment": {
-    "JoinInCampX": "เข้าร่วมค่าย {0}"
+    "JoinInCampX": "Присоединиться к лагерю: {0}"
   },
   "JunoConversationTaskNode_TradeWithMerchant": {
-    "NotEnoughForTrade": "ทรัพยากรไม่พอแลกเปลี่ยน ต้องการ x{WantItemCount} {WantItem} เพื่อแลกกับ x{SellItemCount} {SellItem}\n เหลือ {BundleCount} บันเดิล",
-    "TradeXForX": "แลก x{WantItemCount} {WantItem} กับ x{SellItemCount} {SellItem}\n เหลือ {BundleCount} บันเดิล"
+    "NotEnoughForTrade": "Недостаточно для обмена. Чтобы получить {SellItem} ({SellItemCount} шт.), вы должны отдать {WantItem} ({WantItemCount} шт.). \n Осталось комплектов: {BundleCount}.",
+    "TradeXForX": "Обменять {WantItem} ({WantItemCount} шт.) на {SellItem} ({SellItemCount} шт.). \n Осталось комплектов: {BundleCount}."
   },
   "JunoGameStateComponent_GameEventStream": {
-    "GameMemberAdded": "{0} <Yellow>เข้าสู่โลกแล้ว</>",
-    "GameMemberDisconnected": "{0} <Yellow>ออกจากโลกแล้ว</>"
+    "GameMemberAdded": "{0} <Yellow>заходит в мир</>",
+    "GameMemberDisconnected": "{0} <Yellow>покидает мир</>"
+  },
+  "JunoItemChargeCost": {
+    "AddChargeCostUnits": "доп. заряд",
+    "ChargeCostUnits": "заряд",
+    "CostFmtStr": "{CostValue} {ChargeType} {CostType}"
   },
   "JunoSpeech": {
     "JunoSpeech_UnknownParticipant": "???",
-    "JunoSpeech_ConsecutiveSpeechDefaultText": "ไปต่อ",
-    "JunoSpeech_NoAIRole": "ไม่มีงาน",
-    "JunoSpeech_NoBoundCampName": "หมู่บ้านไร้นาม",
-    "JunoSpeech_NoLastUsedGatheringActor": "ไม่มีสถานี"
+    "JunoSpeech_ConsecutiveSpeechDefaultText": "Продолжить",
+    "JunoSpeech_NoAIRole": "Без работы",
+    "JunoSpeech_NoBoundCampName": "Безымянное поселение",
+    "JunoSpeech_NoLastUsedGatheringActor": "Нет рабочего места"
   },
   "JunoStorageChest": {
-    "Open": "เปิด",
-    "Search": "ค้น"
+    "Open": "Открыть",
+    "Search": "Искать"
   },
   "JunoUI": {
-    "JunoUI_CampNameFormat": "หมู่บ้านของ {PlayerName}{VillageCount}"
+    "JunoUI_CampNameFormat": "Поселение {VillageCount} игрока {PlayerName}"
   },
   "NetworkErrors": {
-    "RecipeHashMismatch": "ข้อผิดพลาด: ไคลเอนต์นี้ไม่สามารถทำงานร่วมกับเซิร์ฟเวอร์ที่ใช้งานอยู่ในขณะนี้",
-    "KickedPlayerForInactivity": "ถูกเตะออกเนื่องจากนิ่งเฉย การเชื่อมต่อของคุณกับโฮสต์ถูกตัดขาด\nเนื่องจากคุณนิ่งเฉยนานเกินไป",
-    "SpawnedWhenPermanentlyDead": "ไคลเอนต์นี้ชีวิตหมดแล้ว"
+    "RecipeHashMismatch": "ОШИБКА: Этот клиент несовместим с действующим сервером.",
+    "KickedPlayerForInactivity": "Вы исключены за бездействие. Сервер прервал соединение, потому что вы бездействовали слишком долго.",
+    "SpawnedWhenPermanentlyDead": "У этого клиента не осталось жизней."
   },
   "UJunoGuidedBuildingInteractionComponent": {
-    "GetInteractionText": "เข้าคู่มือสร้าง"
+    "GetInteractionText": "В режим помощи со строительством"
   },
   "UJunoPlayerBuildingComponent": {
-    "MCPItemPlacedMessageDescription_ZeroLeft": "นี่คือโลกสุดท้ายของเพื่อนคุณที่คุณสามารถวางเนื้อหาที่คุณเป็นเจ้าของได้ในสัปดาห์นี้",
-    "MCPItemPlacedMessageTitleText": "คำเตือน! เนื้อหามีเจ้าของ",
-    "MCPItemPlacedMessageDescription_NLeft": "สัปดาห์นี้คุณสามารถวางเนื้อหาที่คุณเป็นเจ้าของในโลกของเพื่อนได้มากขึ้น {0}"
+    "MCPItemPlacedMessageDescription_ZeroLeft": "Это последний мир друга, в котором вы можете разместить чужие материалы на этой неделе.",
+    "MCPItemPlacedMessageTitleText": "Внимание! Чужие материалы",
+    "MCPItemPlacedMessageDescription_NLeft": "На этой неделе вы можете разместить чужие материалы ещё в {0} мирах своих друзей."
   }
 }

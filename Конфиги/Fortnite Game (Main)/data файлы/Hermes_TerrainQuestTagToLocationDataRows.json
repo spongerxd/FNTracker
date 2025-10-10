@@ -347,7 +347,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.25": {
+      "Athena.Location.POI.Generic.39": {
         "WorldLocation": {
           "X": -75674.0,
           "Y": -81656.0,
@@ -392,6 +392,14 @@
           "X": 99637.0,
           "Y": -34983.0,
           "Z": -812.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Location.Quest.Event.Limerock": {
+        "WorldLocation": {
+          "X": -94161.01,
+          "Y": -94903.46,
+          "Z": 2591.8962
         },
         "EventsWorldLocation": []
       },
@@ -467,7 +475,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.EE.02": {
+      "Athena.Location.POI.Generic.37": {
         "WorldLocation": {
           "X": 89518.0,
           "Y": 13637.0,
@@ -635,7 +643,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.24": {
+      "Athena.Location.POI.Generic.38": {
         "WorldLocation": {
           "X": 77004.0,
           "Y": 89407.0,
@@ -659,7 +667,7 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.07": {
+      "Athena.Location.POI.Generic.36": {
         "WorldLocation": {
           "X": -7058.0,
           "Y": 19150.0,
@@ -907,11 +915,35 @@
         },
         "EventsWorldLocation": []
       },
-      "Athena.Location.POI.Generic.21": {
+      "Athena.Location.POI.Generic.35": {
         "WorldLocation": {
           "X": -79387.0,
           "Y": -15064.0,
           "Z": 4432.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Boss.AxisThrow.Main": {
+        "WorldLocation": {
+          "X": -10758.5,
+          "Y": -66307.5,
+          "Z": 3150.7742
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Boss.AxisThrow.Main_0": {
+        "WorldLocation": {
+          "X": 78590.42,
+          "Y": 91897.94,
+          "Z": 913.15063
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Boss.AxisThrow.Main_1": {
+        "WorldLocation": {
+          "X": -8518.5,
+          "Y": 6984.5,
+          "Z": 437.0335
         },
         "EventsWorldLocation": []
       },
@@ -925,8 +957,8 @@
       },
       "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_0": {
         "WorldLocation": {
-          "X": 13356.658,
-          "Y": -40232.016,
+          "X": 13216.658,
+          "Y": -40340.016,
           "Z": 2313.7993
         },
         "EventsWorldLocation": []
@@ -1085,9 +1117,81 @@
       },
       "Athena.AI.SpawnLocation.JobBoard.SupplyDrop_3": {
         "WorldLocation": {
-          "X": -65932.99,
-          "Y": -70981.27,
-          "Z": 102.65171
+          "X": -64863.977,
+          "Y": -65391.23,
+          "Z": 764.6754
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.31.PumpkinBoss": {
+        "WorldLocation": {
+          "X": 87880.93,
+          "Y": 6375.9194,
+          "Z": 3571.4302
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.31.PumpkinBoss_0": {
+        "WorldLocation": {
+          "X": -55127.07,
+          "Y": 46007.918,
+          "Z": 13419.43
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.31.PumpkinBoss_1": {
+        "WorldLocation": {
+          "X": -72831.07,
+          "Y": -28580.08,
+          "Z": 6355.43
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Medic.FuzzyBearHalloween": {
+        "WorldLocation": {
+          "X": 78916.0,
+          "Y": 108668.0,
+          "Z": 232.0111
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.FuzzyBearHalloween": {
+        "WorldLocation": {
+          "X": 78916.0,
+          "Y": 108668.0,
+          "Z": 232.0111
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.OboeThorn": {
+        "WorldLocation": {
+          "X": -38512.0,
+          "Y": 25372.0,
+          "Z": 6273.466
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.OboeThorn": {
+        "WorldLocation": {
+          "X": -38512.0,
+          "Y": 25372.0,
+          "Z": 6273.466
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Supply.LycheeNickel": {
+        "WorldLocation": {
+          "X": -74380.0,
+          "Y": -50992.0,
+          "Z": 1366.9408
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.LycheeNickel": {
+        "WorldLocation": {
+          "X": -74380.0,
+          "Y": -50992.0,
+          "Z": 1366.9408
         },
         "EventsWorldLocation": []
       },
@@ -1107,6 +1211,54 @@
         },
         "EventsWorldLocation": []
       },
+      "AISpawnerData.Type.Tandem.DustyBun": {
+        "WorldLocation": {
+          "X": -93644.0,
+          "Y": -9544.0,
+          "Z": 7888.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.DustyBun": {
+        "WorldLocation": {
+          "X": -93644.0,
+          "Y": -9544.0,
+          "Z": 7888.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.FluteLamp": {
+        "WorldLocation": {
+          "X": -75040.0,
+          "Y": -50164.0,
+          "Z": 1470.9408
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.FluteLamp": {
+        "WorldLocation": {
+          "X": -75040.0,
+          "Y": -50164.0,
+          "Z": 1470.9408
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Scout.Swampfish": {
+        "WorldLocation": {
+          "X": -59568.0,
+          "Y": -88628.0,
+          "Z": 1212.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.SwampFish": {
+        "WorldLocation": {
+          "X": -59568.0,
+          "Y": -88628.0,
+          "Z": 1212.0
+        },
+        "EventsWorldLocation": []
+      },
       "AISpawnerData.Type.Tandem.CrawlyTech": {
         "WorldLocation": {
           "X": 17878.0,
@@ -1120,6 +1272,54 @@
           "X": 17878.0,
           "Y": -72069.0,
           "Z": 1801.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Specialist.Supply.NanaSplit": {
+        "WorldLocation": {
+          "X": 80460.0,
+          "Y": -41960.0,
+          "Z": 4508.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.NanaSplit": {
+        "WorldLocation": {
+          "X": 80460.0,
+          "Y": -41960.0,
+          "Z": 4508.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.ArcanaAgate": {
+        "WorldLocation": {
+          "X": -78468.0,
+          "Y": -23180.0,
+          "Z": 4088.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.ArcanaAgate": {
+        "WorldLocation": {
+          "X": -78468.0,
+          "Y": -23180.0,
+          "Z": 4088.0
+        },
+        "EventsWorldLocation": []
+      },
+      "AISpawnerData.Type.Tandem.BaskIsle": {
+        "WorldLocation": {
+          "X": 19284.0,
+          "Y": -11168.0,
+          "Z": 4472.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.Tandem.BaskIsle": {
+        "WorldLocation": {
+          "X": 19284.0,
+          "Y": -11168.0,
+          "Z": 4472.0
         },
         "EventsWorldLocation": []
       },
@@ -1267,6 +1467,262 @@
         },
         "EventsWorldLocation": []
       },
+      "Athena.AI.SpawnLocation.FNM.37.GnatGala": {
+        "WorldLocation": {
+          "X": 79612.0,
+          "Y": -34744.0,
+          "Z": 2360.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.37.GnatGala_0": {
+        "WorldLocation": {
+          "X": -41008.0,
+          "Y": 101512.0,
+          "Z": 5836.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.37.GnatGala_1": {
+        "WorldLocation": {
+          "X": 78896.0,
+          "Y": 87336.0,
+          "Z": 908.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.AI.SpawnLocation.FNM.37.GnatGalaMain": {
+        "WorldLocation": {
+          "X": -80228.0,
+          "Y": -75568.0,
+          "Z": 512.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01": {
+        "WorldLocation": {
+          "X": -74382.91,
+          "Y": -50833.043,
+          "Z": 1253.6624
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_0": {
+        "WorldLocation": {
+          "X": -74051.0,
+          "Y": -50854.0,
+          "Z": 1262.2051
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02": {
+        "WorldLocation": {
+          "X": -37927.5,
+          "Y": 25667.5,
+          "Z": 5985.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_1": {
+        "WorldLocation": {
+          "X": -75542.5,
+          "Y": -50387.5,
+          "Z": 1256.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.01": {
+        "WorldLocation": {
+          "X": -48046.0,
+          "Y": 20023.0,
+          "Z": 4224.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.P02.Q02.01": {
+        "WorldLocation": {
+          "X": -8742.5,
+          "Y": 14072.5,
+          "Z": 390.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_2": {
+        "WorldLocation": {
+          "X": -75967.5,
+          "Y": -50087.5,
+          "Z": 1258.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.P02.Q02.03": {
+        "WorldLocation": {
+          "X": -55927.5,
+          "Y": -38147.5,
+          "Z": 200.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.P02.Q02.04": {
+        "WorldLocation": {
+          "X": 86641.5,
+          "Y": -4969.5,
+          "Z": 3105.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.01_0": {
+        "WorldLocation": {
+          "X": -53878.0,
+          "Y": 21591.0,
+          "Z": 4241.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_3": {
+        "WorldLocation": {
+          "X": -74179.0,
+          "Y": -51271.0,
+          "Z": 1253.6898
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_0": {
+        "WorldLocation": {
+          "X": -38462.5,
+          "Y": 25657.5,
+          "Z": 5974.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.02": {
+        "WorldLocation": {
+          "X": -76017.5,
+          "Y": -50462.5,
+          "Z": 1165.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.03": {
+        "WorldLocation": {
+          "X": -75971.5,
+          "Y": -50441.5,
+          "Z": 1262.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.01_1": {
+        "WorldLocation": {
+          "X": -50783.0,
+          "Y": 20400.0,
+          "Z": 4220.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.02_0": {
+        "WorldLocation": {
+          "X": -75957.5,
+          "Y": -50462.5,
+          "Z": 1205.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_4": {
+        "WorldLocation": {
+          "X": -74874.0,
+          "Y": -50448.0,
+          "Z": 1293.8423
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_1": {
+        "WorldLocation": {
+          "X": -45347.5,
+          "Y": 23662.5,
+          "Z": 5400.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_2": {
+        "WorldLocation": {
+          "X": -38457.5,
+          "Y": 25472.5,
+          "Z": 5990.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_3": {
+        "WorldLocation": {
+          "X": -38292.5,
+          "Y": 25417.5,
+          "Z": 5965.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_5": {
+        "WorldLocation": {
+          "X": -74988.0,
+          "Y": -50730.0,
+          "Z": 1230.5376
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.P02.Q02.02": {
+        "WorldLocation": {
+          "X": 69742.5,
+          "Y": 94417.5,
+          "Z": 780.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_6": {
+        "WorldLocation": {
+          "X": -75289.0,
+          "Y": -51268.0,
+          "Z": 1254.9515
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_4": {
+        "WorldLocation": {
+          "X": -37977.5,
+          "Y": 25542.5,
+          "Z": 5970.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.FluteLamp.01_7": {
+        "WorldLocation": {
+          "X": -74545.62,
+          "Y": -50363.0,
+          "Z": 1239.7368
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.P02.Q02.05": {
+        "WorldLocation": {
+          "X": 41037.5,
+          "Y": -82757.5,
+          "Z": 1540.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_5": {
+        "WorldLocation": {
+          "X": -49492.5,
+          "Y": 23212.5,
+          "Z": 4570.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.VoiceFork.PermaFrost.OboeThorn.02_6": {
+        "WorldLocation": {
+          "X": -38087.5,
+          "Y": 25407.5,
+          "Z": 5970.0
+        },
+        "EventsWorldLocation": []
+      },
       "Athena.Quests.S37.SDA.Anomaly": {
         "WorldLocation": {
           "X": 24240.0,
@@ -1280,6 +1736,14 @@
           "X": -41668.0,
           "Y": -44936.0,
           "Z": 2272.0
+        },
+        "EventsWorldLocation": []
+      },
+      "Athena.Quests.S37.SDA.AccessPoint": {
+        "WorldLocation": {
+          "X": 24426.908,
+          "Y": 35298.062,
+          "Z": 5331.702
         },
         "EventsWorldLocation": []
       },
