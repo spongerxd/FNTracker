@@ -1465,6 +1465,7 @@
     "2E8B2A6E48BAA8B0689C11A7975503F6": "Кража щитов",
     "4F611C954A5378BFC1804C96BB3981FE": "Защитная синергия",
     "C5AEB7354F27A7CE2241EEBB01DBF3DC": "Бросить щит",
+    "6FE5EF624909BEBF19A4F7A143733F40": "Корабельная пушка",
     "D48B88DA4EC76F3203A964A55E4C04E7": "Корабельная пушка",
     "D25FABDC4DB9AA9FB1A157A2B8BE5E60": "Ударный гранатомёт",
     "93D0AAC643B7CCE0B45615ADBC124BFD": "Выстрелить/Притянуть",
@@ -2435,7 +2436,7 @@
     "MenuItem.PlayWithNewSquadButtonText": "Играть в новой команде",
     "AthenaMatchXPScreenWidget.MenuItem.Spectate.ReadyUp": "Приготовиться",
     "AthenaMatchXPScreenWidget.MenuItem.ReadyUpPending": "Ожидание готовности",
-    "AthenaMatchXPScreenWidget.MenuItem.Spectate.ReadyUpOngoingMatch": "Приготовьтесь к следующему матчу",
+    "AthenaMatchXPScreenWidget.MenuItem.Spectate.ReadyUpOngoingMatch": "Приготовиться",
     "AthenaMatchXPScreenWidget.MenuItem.ReadyUp": "Приготовиться!",
     "KeepPlayingTogether.ReadyUpNewTeamText": "Вас ждёт новая команда.",
     "AthenaMatchXPScreenWidget.MenuItem.ReportPlayer": "Пожаловаться на игрока",
@@ -2724,6 +2725,10 @@
   "ContentBeaconHostObjectV2": {
     "ThrottlingVerseLogs": "Регулировка копий записей в журнале Verse"
   },
+  "ContentbeaconV2": {
+    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
+    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
+  },
   "ContentBeaconV2": {
     "ClientCancelledDownload": "Клиент {Client} отменил загрузку.",
     "FailedToSetProjectId": "Клиенту {Client} не удалось установить проект: {VkProjectId}, модуль: {VkModuleId}",
@@ -2765,10 +2770,6 @@
     "TimeoutClientGenericShort": "Превышено время ожидания установки требуемого материала.\n{ShortErrorCode}",
     "UnauthorizedClient": "У вас нет разрешения на воспроизведение данного материала\n{ShortErrorCode}",
     "TimeoutClientGenericLong": "{Client}: время ожидания перехода от состояния «{StartState}» к состоянию «{DestinationState}» для требуемого материала ({VkProjectId}, {VkModuleId}) превышено."
-  },
-  "ContentbeaconV2": {
-    "ServerRestarted": "Работа сервера была завершена некорректно. Повторите попытку\n{InnerErrorMessage}",
-    "ServerRestartedShortErrCd": "Работа сервера была завершена некорректно. Повторите попытку\n{ShortErrorCode}"
   },
   "ContentOnDemand": {
     "WrongDataReceived": "Не удалось загрузить дополнительные данные игрока."
@@ -10626,7 +10627,7 @@
     "MatchmakingStatus_FindingServer": "Поиск сервера",
     "MatchmakingStatus_InvalidIsland": "Неподходящий остров",
     "MatchmakingStatus_MatchFound": "матч найден",
-    "MatchmakingRotation_TimerTitle": "Следующая трасса",
+    "MatchmakingRotation_TimerTitle": "Следующая карта",
     "MatchmakingStatus_Unready": "Не готов",
     "MatchmakingStatus_WaitingForPlayersReadyUp": "Ждём готовности игроков"
   },
@@ -10883,7 +10884,7 @@
     "LaunchDataLeaveMatch": "Покинуть матч?"
   },
   "UFortAsyncAction_SeasonPassOperation": {
-    "PassRewardsShortName": "Pass Rewards"
+    "PassRewardsShortName": "Награды пропуска"
   },
   "UFortCreativeMessageKnobsDialog": {
     "DestructiveActionCancelButtonText": "Отменить",
