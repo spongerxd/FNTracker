@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "DeluluGameplayData",
+    "Class": "UScriptClass'CurveTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "BoomBox.Ballons.LaunchVelocity.ByBalloonCount": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1300.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1400.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1600.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 1600.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "BoomBox.Ballons.LaunchVelocityZ.MaxClamp": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1400.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1200.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1000.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 1000.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "BoomBox.Ballons.LaunchVelocity.AddedZ": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 900.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 500.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 250.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 250.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "BoomBox.Ballons.Radius": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 500.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 500.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "BoomBox.Ballons.LaunchVelocityZ.MinClamp": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 600.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 600.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "BoomBox.Ballons.Cooldown": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

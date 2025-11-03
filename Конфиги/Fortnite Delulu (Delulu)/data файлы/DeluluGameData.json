@@ -1,0 +1,363 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "DeluluGameData",
+    "Class": "UScriptClass'CurveTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Default.Delulu.EnableUISplashScreen": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.ForceAllPlayersOntoIndividualTeams": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.FollowingPlayerAutomaticallyLeavesCurrentSquadWhenSquadingUp": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.SquadingUpMergesSquads": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.BreakUpSocialPartiesOnInit": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.VoiceChatSquaddingEnabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.MaxAdHocSquadSize": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.UseOriginalEmotes": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.WinConditionRemainingPlayers": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 4.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Delulu.SplashScreenShowDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 8.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 8.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Delulu.SplahsScreenShowDelayDuration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AllowSoloDBNO": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AllowLastManStanding": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AllowAnyoneToRevive": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AllowInterrogation": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.RespawnEnabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.ShouldWaitGamePhaseToGrantEmote": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.FocusOnDeluluEmoteWheel": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AlwaysShowSquadInfo": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.AdHoc.ShouldAllowRequestsBeforePlayerInitialAssignments": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.PlayersLeftNotification": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 10.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Delulu.ChangingBooths.Enabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

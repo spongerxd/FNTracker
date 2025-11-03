@@ -6,6 +6,7 @@ ___
 - [Основные файлы игры](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Game%20(Main))
 
 - [Fortnite «Линия огня»](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Ballistic%20(Feral))
+- [Fortnite Delulu](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Delulu%20(Delulu))
 - [Fortnite Fall Guys](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Fall%20Guys%20(Beanstalk))
 - [Fortnite Festival](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20Festival%20(FM))
 - [Fortnite «Как раньше»](https://github.com/spongerxd/FNTracker/tree/main/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B8/Fortnite%20OG%20(Figment))
