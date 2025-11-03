@@ -2,7 +2,7 @@
 
 Служат для разблокировки основных файлов Fortnite.
 
-### [Текущие AES Ключи - 37.51](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/37.51.md)
+### [Текущие AES Ключи - 38.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/38.00.md)
 
 ## Cert
 
@@ -403,14 +403,13 @@
 | [34.30](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.30.md) | 0x9FAC22D029C8BFEC51ACA2BF665F30558FA7D4CE366F4F1379B52C6FD4B10319 |
 | [34.40](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/34.40.md) | 0xC6C7EA84133F59CFA9327F7B8F0385224CDAA11C0EC4B21DC9B6337D98044BB2 |
 
-## Глава 6 Сезон 3 (Галактическая битва)
+## Глава 6 Мини-сезон 1 (Галактическая битва)
 
 |                                                                                       Версия игры                                                                                |                             AES Ключ                               |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
 | [35.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/35.00.md) | 0x17243B0E3E66DA90347F7C4787692505EC5E5285484633D71B09CD6ABB714E9B |
 | [35.10](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/35.10.md) | 0x163920F671322A7D00302EF00A4E046AF2C0B4B204BCC035A8CA8869472B2448 |
 | [35.20](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/35.20.md) | 0x67E992943B63878FEF3C02DE9E0100C127A6C34A569231ED153E03E6CDB0F5A2 |
-
 
 ## Глава 6 Сезон 4 (Время Героев)
 
@@ -433,3 +432,9 @@
 | [37.40](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/37.40.md) | 0x5802DC0E104F026A612F0E5AE6F69030B66C2432181E41B69131BF9C5CE93E1D |
 | [37.50](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/37.50.md) | 0xB310CD42889106B4988378760C7CFF537EE6896FF520A6410BA43266AA86E6CA |
 | [37.51](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/37.51.md) | 0x40F92B7D44B95E105F9E8CCCCAD2140B7019949B0E047C06D37342CB430E39CE |
+
+## Глава 6 Мини-сезон 2 (Симпсоны)
+
+|                                                                                       Версия игры                                                                                |                             AES Ключ                               |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|
+| [38.00](https://github.com/spongerxd/FNTracker/blob/main/AES%20%D0%9A%D0%BB%D1%8E%D1%87%D0%B8/%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5/35.00.md) | 0x1BC2DDCEC20348852EA75830E606B17EF4D5F7ADAE0AB2B97924B4D7CF124A2E |

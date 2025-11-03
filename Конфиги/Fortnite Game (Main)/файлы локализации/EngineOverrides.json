@@ -18,10 +18,6 @@
   "BlueprintEditor": {
     "DebugActorNothingSelected": "Объект отладки не выбран"
   },
-  "BuildPatchInstaller": {
-    "BuildPatchInstaller_GenericProgress": "Подождите...",
-    "BuildPatchInstaller_DownloadSpeedFormat": "{Current} из {Total} ({Speed}/сек.)"
-  },
   "BuildPatchInstallError": {
     "BuildPatchInstallShortError_MoveFileToInstall": "Ошибка доступа к файлу. Проверьте запущенные процессы.",
     "BuildPatchInstallShortError_FileConstructionFail": "Файл был повреждён. Повторите попытку позже.",
@@ -57,6 +53,10 @@
     "EBuildPatchProgress_Queued": "В очереди",
     "EBuildPatchProgress_Resuming": "Возобновление",
     "EBuildPatchProgress_BuildVerification": "Проверка"
+  },
+  "BuildPatchInstaller": {
+    "BuildPatchInstaller_GenericProgress": "Подождите...",
+    "BuildPatchInstaller_DownloadSpeedFormat": "{Current} из {Total} ({Speed}/сек.)"
   },
   "CommonBoundActionButton": {
     "OtherPlayerActionFormat": "[P{PlayerNum}] {ActionName}"
@@ -490,6 +490,9 @@
     "ValveIndex_Right_Trigger_Click": "Valve Index (П): триггер",
     "ValveIndex_Right_Trigger_Axis": "Valve Index (П): ось триггера",
     "ValveIndex_Right_Trigger_Touch": "Valve Index (П): касание триггера",
+    "VirtualSubCategory": "Вирт.",
+    "Virtual_Gamepad_Accept_Key": "Виртуальный геймпад: принять",
+    "Virtual_Gamepad_Back_Key": "Виртуальный геймпад: назад",
     "Vive_Left_Grip_Click": "Vive (Л): рукоятка",
     "Vive_Left_Menu_Click": "Vive (Л): кнопка «Меню»",
     "Vive_Left_Trackpad_2D": "Vive (Л): двухмерная ось сенсорной панели",
@@ -543,6 +546,7 @@
     "UpdateMacOSX_Title": "Обновить macOS",
     "TitleVideoCardDriverIssue": "ВНИМАНИЕ: данный драйвер видеоадаптера может вызывать проблемы.",
     "DriverDownloadLinkIntel": "https://downloadcenter.intel.com/ru/product/80939/Graphics",
+    "DriverDownloadLinkQualcomm": "https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver",
     "DriverDownloadLinkAMD": "https://www.amd.com/ru/support",
     "DriverDownloadLinkNVIDIA": "https://www.nvidia.com/download/index.aspx",
     "LatestDriver": "последняя доступная версия драйвера",

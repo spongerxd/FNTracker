@@ -1,6 +1,5 @@
 {
   "": {
-    "9C9D961E4805C1212C4029AF68A1C0DC": "(Зажать)",
     "EAAD64154559805C06FAB5A34ED05C03": "+",
     "6088664A43A2220469544A8FB38DD0DE": "-",
     "D53C0AFD41781274D60256874411534D": "<75_24_T1>{OptionName}</>",
@@ -11,6 +10,7 @@
     "88BD6C0A46AE5FA59DBB0693B164C7A5": "Добавить",
     "3FED3608447C5BB9C550DD93F739CB15": "Добавить несколько",
     "A05C87B1470F538EC6069BB6F075D28A": "Расширенные настройки: режим «{GameMode}»",
+    "FF879D164ED424D3066FF4B47B91A1D9": "Режим приключения",
     "F63561E54033BC17CD1FC2A2AE649E00": "Применение новых параметров…",
     "D2639632422FB5508F7DF4827777B19B": "Удалить этого игрока?",
     "F78084AB43644A61F2FF93B7DCF6EA93": "Удалить этого игрока?",
@@ -21,6 +21,8 @@
     "4DAE551A4389AFDAB989DC9AF586003B": "Назад",
     "67666F744456FF592ABC858C0FBF3A6D": "Назад",
     "9151409B42253C4F05E95AB22B5B8BC9": "Назад",
+    "CFAAC1A647DB8ADF197FF0A7BFCAAEA2": "Режим строительства",
+    "F76E9A3D4D7B5A47C82CC0A3E0D90AB5": "Режим строительства",
     "8E39EE06469DE0AFBD9F93B956C2B1A9": "Меню строительства",
     "681203C7452CC4278813CCB5952EA7D7": "ПОЛЬЗ.",
     "7896C18E49D13A22082FBDB4BC3A78BD": "Отменить",
@@ -108,9 +110,6 @@
     "E6707AF04391034D3207FDAF7D8E0651": "Сохранить изменения",
     "FFD5FD3B4BC46CD14A4DD4BCFCAD4F76": "Выбрать",
     "C6B70B774B1806C51813D9BB7F87741E": "Выбрать рецепт",
-    "FF879D164ED424D3066FF4B47B91A1D9": "Показать управление в режиме приключения",
-    "CFAAC1A647DB8ADF197FF0A7BFCAAEA2": "Показать управление в режиме строительства",
-    "DBFC75274EFB56F527B0129AC6C3C67C": "Показать управление в режиме строительства",
     "87607B044D7688D793BDEA83553DACDB": "Поспать",
     "40A543A4413988FB40DB68A44F46F071": "Умное размещение",
     "1F31A3E3430E82307FC062BFB0873E74": "Сортировать",
@@ -173,6 +172,13 @@
     "A989A5CF4C0499F047E6528187C64E28": "{button}",
     "59C56F9F4A9AC8291E06BAA40D85F068": "{option name} <75i_20_W>(по умолч.)</>"
   },
+  "JunoWorldDataViewModel": {
+    "CustomTag": "Польз.",
+    "RenameCooldownDesc": "Подождите несколько минут и попробуйте снова.",
+    "RenameCooldownTitle": "Переименование временно недоступно",
+    "TimePlayed": "В игре: {0} ч.",
+    "WorldName": "Мир игрока {0} — {1}"
+  },
   "Juno_UserGeneratedTextStringTable": {
     "Error_Generic_Description": "Произошла ошибка, повторите попытку.",
     "Error_CharacterLimitReached_Title": "Достигнут лимит символов",
@@ -195,13 +201,6 @@
     "Error_NameNotSupported_Description": "Это <ModalEmphasis>название</> <ModalEmphasis>не соответствует</> нашим <ModalEmphasis>правилам сообщества</>.\n\nПожалуйста, повторите попытку.",
     "Error_NameChanged_Description_CabinedAccount_WorldName": "Эта учётная запись <ModalEmphasis>не может</> использовать <ModalEmphasis>пользовательские названия</>.\n\nПоэтому <ModalEmphasis>все пользовательские названия</> были <ModalEmphasis>изменены</> на названия по умолчанию.",
     "Error_NameAlreadyUsed_Description": "Это название <ModalEmphasis>уже используется</> другим миром.\n\nПожалуйста, повторите попытку."
-  },
-  "JunoWorldDataViewModel": {
-    "CustomTag": "Польз.",
-    "RenameCooldownDesc": "Подождите несколько минут и попробуйте снова.",
-    "RenameCooldownTitle": "Переименование временно недоступно",
-    "TimePlayed": "В игре: {0} ч.",
-    "WorldName": "Мир игрока {0} — {1}"
   },
   "NetworkErrors": {
     "ArbitratedWorldOwnerKickedUser": "Сеанс пребывания в этом мире завершён."

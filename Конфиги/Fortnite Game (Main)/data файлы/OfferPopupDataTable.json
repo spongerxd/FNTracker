@@ -448,7 +448,7 @@
           "Namespace": "",
           "Key": "45B2D0C548992CF87F317FBE530975AA",
           "SourceString": "Drop in with the Master Chief and finish the fight.",
-          "LocalizedString": "Высаживайтесь на остров с Мастером Чифом и побеждайте."
+          "LocalizedString": "Мастер Чиф прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
         }
       },
       "historianpickaxedesc": {
@@ -1408,7 +1408,7 @@
           "Namespace": "",
           "Key": "CFC36DCB477F92E47248AEB5CC8A3CDE",
           "SourceString": "Marcus has arrived on the island.",
-          "LocalizedString": "Маркус прибыл на остров."
+          "LocalizedString": "Маркус прибыл на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль!"
         }
       },
       "promodesc16": {
@@ -1416,7 +1416,7 @@
           "Namespace": "",
           "Key": "922C91A44B2A1780F3B9FD9D22AD688E",
           "SourceString": "Marcus and Kait have arrived on the island.",
-          "LocalizedString": "Маркус и Кейт прибыли на остров."
+          "LocalizedString": "Маркус и Кейт прибыли на остров. Завершите матч в сервисе Xbox Cloud Gaming и получите матово-чёрный стиль для Маркуса!"
         }
       },
       "promodesc17": {
@@ -3768,7 +3768,7 @@
           "Namespace": "",
           "Key": "0649648649B4C5C7C02CACAE9A63C9EC",
           "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Ford Bronco Raptor RLE car body. This car will fill the SUV slot in relevant Fortnite experiences.",
-          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Ford Bronco Raptor RLE. Эта машина будет занимать ячейку внедорожников в соответствующих режимах Fortnite."
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Ford Bronco Raptor. Эта машина будет занимать ячейку внедорожников в соответствующих режимах Fortnite."
         }
       },
       "slick": {
@@ -4153,6 +4153,54 @@
           "Key": "067527734254E3214A6282914AE7C4D7",
           "SourceString": "Sandwich grows taller with each elimination!",
           "LocalizedString": "С каждым устранением сэндвич становится толще!"
+        }
+      },
+      "sprinkle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CEDC8FD24C3FE25F53BF1B9D7820CB7B",
+          "SourceString": "Decals in this bundle are restricted to the Homer's Car car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Декали из этого комплекта совместимы только с кузовом машины Гомера. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "zippy": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E227335F4AA514DB6149899C69219EA1",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Zippy car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Zippy. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "eagle": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "E47CC38C45AD024532A2C7B313CDF0BE",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Chevrolet Corvette ZR1 car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Chevrolet Corvette ZR1. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "sidekickquest": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "06592C314502C96CCB7D3A86162A6886",
+          "SourceString": "This Sidekick includes quests that unlock new items upon completion!",
+          "LocalizedString": "Этот спутник открывает доступ к заданиям, за которые можно получить новые предметы!"
+        }
+      },
+      "oakweld": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "67D80CFD464F5B5CC754E380C103F221",
+          "SourceString": "<text color=\"FFFFFFFF\">Leaves</>  fall from Outfit when running, walking, or jumping!",
+          "LocalizedString": "<text color=\"FFFFFFFF\">Листья</> опадают при беге, ходьбе или прыжках!"
+        }
+      },
+      "paint": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "960285034F638C90F98046B0EA1E10D2",
+          "SourceString": "Pickaxe randomly selects a <text color=\"FFFFFFFF\">paint color</> on equip - matching <text color=\"FFFFFFFF\">paint trail</> and <text color=\"FFFFFFFF\">splash</> on impact!\"",
+          "LocalizedString": "Кирка случайным образом меняет <text color=\"FFFFFFFF\">цвет краски</> и <text color=\"FFFFFFFF\">цвет следа</>, если взять ее в руки, и оставляет <text color=\"FFFFFFFF\">брызги</> при касании!"
         }
       }
     }

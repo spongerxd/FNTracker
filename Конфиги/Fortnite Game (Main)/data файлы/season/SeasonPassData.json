@@ -1,12 +1,12 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "SeasonPassData_S37",
+    "Name": "SeasonPassData_S38",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "LargeIcon": {
-        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_BattlePass.MI_UI_NexusHeaderIcon_BattlePass",
+        "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_BattlePass_Porridge.MI_UI_NexusHeaderIcon_BattlePass_Porridge",
         "SubPathString": ""
       },
       "SmallIcon": {
@@ -15,59 +15,62 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "DBA4D47C4BC4CCC79BC5D8B5D0A3B433",
-        "SourceString": "Chapter 6 - Season 4",
-        "LocalizedString": "Сезон 4 главы 6"
+        "Key": "26FB4C2442C19706099FBA843AA764BA",
+        "SourceString": "Springfield Battle Pass",
+        "LocalizedString": "Боевой пропуск Спрингфилда"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "C52E564044BC94376298168ECDCE7E9A",
+        "Key": "8D7998804CB0756E57F0329B85C7FAC6",
         "SourceString": "Battle Pass",
         "LocalizedString": "Боевой пропуск"
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "DD24619D46F3A6748FA950835009A214",
+        "Key": "E2A6F45747F0FEF4E45F70BF9BA9E11A",
         "SourceString": "Get Battle Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 1.0,
-          "G": 0.60794,
-          "B": 0.231652,
+          "R": 0.955974,
+          "G": 0.450786,
+          "B": 0.119538,
           "A": 1.0,
-          "Hex": "FFCD84"
+          "Hex": "FAB361"
         },
         "ProgressionColor": {
-          "R": 1.0,
-          "G": 0.337164,
-          "B": 0.0,
+          "R": 0.191202,
+          "G": 0.672443,
+          "B": 1.0,
           "A": 1.0,
-          "Hex": "FF9D00"
-        },
-        "OverlayColor": {
-          "R": 1.0,
-          "G": 0.337164,
-          "B": 0.0,
-          "A": 1.0,
-          "Hex": "FF9D00"
+          "Hex": "79D6FF"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6S4.MI_BG_Nexus_CH6S4",
+          "AssetPathName": "/BattlePassS38_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6MS2.MI_BG_Nexus_CH6MS2",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6S4_UI.MI_BG_Nexus_CH6S4_UI",
+          "AssetPathName": "/BattlePassS38_SeasonPass/UI/MaterialInstances/MI_BG_Nexus_CH6MS2_UI.MI_BG_Nexus_CH6MS2_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_UI_Crew_Upsell_CH6S4.MI_UI_Crew_Upsell_CH6S4",
+          "AssetPathName": "/BattlePassS38_SeasonPass/UI/MaterialInstances/MI_UI_Crew_Upsell_Ch6MS2.MI_UI_Crew_Upsell_Ch6MS2",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/BattlePassS37_SeasonPass/UI/MaterialInstances/MI_UI_S37_CategoryButton_Crew.MI_UI_S37_CategoryButton_Crew",
+          "AssetPathName": "/BattlePassS38_SeasonPass/UI/MaterialInstances/MI_UI_S38_CategoryButton_Crew.MI_UI_S38_CategoryButton_Crew",
           "SubPathString": ""
+        },
+        "CustomLogo": {
+          "AssetPathName": "/BattlePassS38_SeasonPass/UI/MaterialInstances/MI_UI_PassThemeLogoS38.MI_UI_PassThemeLogoS38",
+          "SubPathString": ""
+        },
+        "CustomSeasonTitle": {
+          "Namespace": "",
+          "Key": "3720044B43E20FDA5FA3AD942FE5FA34",
+          "SourceString": "Springfield Battle Pass",
+          "LocalizedString": "Боевой пропуск Спрингфилда"
         },
         "BenefitsByType": [
           {
@@ -80,11 +83,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.012983,
-                    "G": 0.090842,
-                    "B": 0.226966,
+                    "R": 0.061246,
+                    "G": 0.417885,
+                    "B": 0.799103,
                     "A": 1.0,
-                    "Hex": "1E5583"
+                    "Hex": "46ADE7"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -94,11 +97,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.078187,
-                    "G": 0.266356,
-                    "B": 0.571125,
+                    "R": 0.061246,
+                    "G": 0.417885,
+                    "B": 0.799103,
                     "A": 1.0,
-                    "Hex": "4F8DC7"
+                    "Hex": "46ADE7"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -108,11 +111,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.005065,
-                    "G": 0.035438,
-                    "B": 0.088542,
+                    "R": 0.002732,
+                    "G": 0.049707,
+                    "B": 0.283149,
                     "A": 1.0,
-                    "Hex": "0F3554"
+                    "Hex": "093F91"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -122,11 +125,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.078187,
-                    "G": 0.266356,
-                    "B": 0.571125,
-                    "A": 0.25,
-                    "Hex": "3F4F8DC7"
+                    "R": 0.0,
+                    "G": 0.673133,
+                    "B": 1.0,
+                    "A": 0.25098,
+                    "Hex": "4000D6FF"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -136,20 +139,20 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.003873,
-                    "G": 0.0271,
-                    "B": 0.067708,
+                    "R": 0.002732,
+                    "G": 0.049707,
+                    "B": 0.283149,
                     "A": 1.0,
-                    "Hex": "0C2D49"
+                    "Hex": "093F91"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
               }
             ],
             "ThemeColor": {
-              "R": 0.508881,
-              "G": 0.545724,
-              "B": 0.571125,
+              "R": 0.50888133,
+              "G": 0.54572445,
+              "B": 0.57112485,
               "A": 1.0,
               "Hex": "BDC3C7"
             },
@@ -169,10 +172,10 @@
                 "Color": {
                   "SpecifiedColor": {
                     "R": 1.0,
-                    "G": 0.484439,
-                    "B": 0.166667,
+                    "G": 0.270498,
+                    "B": 0.467784,
                     "A": 1.0,
-                    "Hex": "FFB971"
+                    "Hex": "FF8EB6"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -182,11 +185,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.953125,
-                    "G": 0.366523,
-                    "B": 0.004964,
+                    "R": 1.0,
+                    "G": 0.270498,
+                    "B": 0.467784,
                     "A": 1.0,
-                    "Hex": "FAA30F"
+                    "Hex": "FF8EB6"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -196,11 +199,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.165132,
-                    "G": 0.0185,
-                    "B": 0.001518,
+                    "R": 0.502887,
+                    "G": 0.038204,
+                    "B": 0.242281,
                     "A": 1.0,
-                    "Hex": "712505"
+                    "Hex": "BC3787"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -210,11 +213,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.871367,
-                    "G": 0.262251,
-                    "B": 0.0,
+                    "R": 1.0,
+                    "G": 0.270498,
+                    "B": 0.467784,
                     "A": 0.25,
-                    "Hex": "3FF08C00"
+                    "Hex": "3FFF8EB6"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -224,11 +227,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.036458,
-                    "G": 0.004975,
-                    "B": 0.001329,
+                    "R": 0.502887,
+                    "G": 0.038204,
+                    "B": 0.242281,
                     "A": 1.0,
-                    "Hex": "350F04"
+                    "Hex": "BC3787"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -251,22 +254,22 @@
       "Product": {
         "TagName": "Product.BR"
       },
-      "SeasonStorefront": "BRSeason37",
-      "SeasonPassOfferId": "CF3E23B84A5CC17AB554B3A74AE4EECA",
-      "SeasonPassBundleOfferId": "DF1BD8D546DC02FDB95BBBA073C72FCF",
-      "SeasonPassLevelOfferId": "62BF80A3452D48189CBD449387E7790F",
-      "SeasonPassLevelBundleOfferId": "82D30D764E251B753899A4BD2987DB07",
+      "SeasonStorefront": "BRSeason38",
+      "SeasonPassOfferId": "475B4BFD4C8C61BF39AF6C998936895D",
+      "SeasonPassBundleOfferId": "0A27960247B850F66504D2BF25EFC8FA",
+      "SeasonPassLevelOfferId": "4AD9A9F44134892D9FF7518CCDC2201D",
+      "SeasonPassLevelBundleOfferId": "C6FC76B84E01913A683CF7838561ED5A",
       "PremiumTrackPurchasedToken": {
-        "ObjectName": "FortPremiumRewardsGateToken'Athena_S37_PremiumBPRewardsGate_Token'",
-        "ObjectPath": "/BattlePassS37_ArrowTubeSpecial/Items/Tokens/Athena_S37_PremiumBPRewardsGate_Token.0"
+        "ObjectName": "FortPremiumRewardsGateToken'Athena_S38_PremiumBPRewardsGate_Token'",
+        "ObjectPath": "/BattlePassS38_MSBPC/Items/Tokens/Athena_S38_PremiumBPRewardsGate_Token.0"
       },
       "PaidRewards": [
         {
-          "OfferGuid": "00000000-00000000-00000000-00000000",
+          "OfferGuid": "32CD78B7-455373FC-03139E80-242BA1F6",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BattlePassS37_ArrowTubeSpecial/Items/Tokens/Athena_S37_PremiumBPRewardsGate_Token.Athena_S37_PremiumBPRewardsGate_Token",
+                "AssetPathName": "/BattlePassS38_MSBPC/Items/Tokens/Athena_S38_PremiumBPRewardsGate_Token.Athena_S38_PremiumBPRewardsGate_Token",
                 "SubPathString": ""
               },
               "Quantity": 1,
@@ -275,11 +278,11 @@
           ]
         },
         {
-          "OfferGuid": "A0A39893-4B93EA94-437B4C80-4EAA6895",
+          "OfferGuid": "1A5C5A45-46E15533-ACE08C9D-ED1BBAB1",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_ClaimReflect_StyleA.VTID_Character_ClaimReflect_StyleA",
+                "AssetPathName": "/CosmeticCompanions/Assets/Items/Companion_RipeQuiver.Companion_RipeQuiver",
                 "SubPathString": ""
               },
               "Quantity": 1,

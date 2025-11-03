@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Juno_CharacterAttributesPlayer",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortPlayerPawnStats'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Minifig_Base_Player": {
+        "MaxJumpTime": 0.0,
+        "MaxStamina": 100.0,
+        "StaminaRegenRate": 6.25,
+        "StaminaRegenDelay": 0.5,
+        "SprintingStaminaExpenditureRate": 0.0,
+        "PersonalVehicleFallingDamageTableRow": "None",
+        "PersonalVehicleFallingDamageCurve": {
+          "Value": 0.0,
+          "Curve": {
+            "CurveTable": null,
+            "RowName": "None"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "OverpoweredIndicatorThreshold": 0.0,
+        "MaximumHealth": 0.0,
+        "SpeedWalk": 100.0,
+        "SpeedRun": 450.0,
+        "SpeedSprint": 450.0,
+        "SpeedFly": 425.0,
+        "SpeedRidden": 600.0,
+        "SpeedCrouchedWalk": 0.0,
+        "SpeedCrouchedRun": 145.0,
+        "SpeedCrouchedSprint": 220.0,
+        "SpeedBackwardsMultiplier": 0.65,
+        "SpeedReloadingMultiplier": 0.7,
+        "SpeedShootingMultiplier": 0.7,
+        "SpeedDBNO": 55.0,
+        "SpeedClassicDBNO": 0.0,
+        "AccelerationStrafeMultiplierSprint": 1.0,
+        "MinAnalogWalkSpeed": 200.0,
+        "GroundFriction": 8.0,
+        "BrakingDecelerationWalking": 1000.0,
+        "BrakingDecelerationFalling": 0.0,
+        "BrakingDecelerationFlying": 1000.0,
+        "BrakingFrictionFactor": 2.0,
+        "MaxAcceleration": 900.0,
+        "SprintMaxAcceleration": 700.0,
+        "MaxAccelerationFlying": 1000.0,
+        "JumpZVelocity": 800.0,
+        "FallingDamageCurve": {
+          "Value": 1.0,
+          "Curve": {
+            "CurveTable": {
+              "ObjectName": "CurveTable'Juno_FallingDamage'",
+              "ObjectPath": "/JunoGame/DataTables/Juno_FallingDamage.0"
+            },
+            "RowName": "Player"
+          },
+          "RegistryType": {
+            "Name": "None"
+          }
+        },
+        "FallHeightScaleFactor": 1.0,
+        "VehicleEjectDamageTable": null,
+        "HealthRegenRate": 0.0,
+        "HealthRegenDelay": 8.0,
+        "HealthRegenThreshold": 0.3,
+        "MaxShield": 0.0,
+        "ShieldRegenRate": 0.0,
+        "ShieldRegenDelay": 8.0,
+        "ShieldRegenThreshold": 1.0,
+        "MaxOvershield": 0.0,
+        "MaxControlResistance": 200.0,
+        "ControlResistanceRegenRate": 100.0,
+        "ControlResistanceRegenDelay": 3.0,
+        "ControlResistanceRegenThreshold": 1.0,
+        "KnockbackMultiplier": 1.0,
+        "KnockbackThreshold": 699.0,
+        "Armor": 0.0,
+        "PawnDamagedTeamNotificationDistance": 500.0,
+        "bAllowChainStun": false,
+        "ControlRecoveryBehavior": "EFortControlRecoveryBehavior::DefaultControl",
+        "CurieMaterialIdentifier": {
+          "TagName": "Curie.Material.Flesh"
+        }
+      }
+    }
+  }
+]
