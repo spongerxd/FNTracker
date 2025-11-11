@@ -147,7 +147,14 @@
     "ED43238C42D623F335FE40B9728301E6": "{bpm} BPM"
   },
   "FMJam": {
-    "AllJamLoopCategory": "Джем-партии",
-    "LockerJamLoopCategory": "Джем-партии\nшкафчика"
+    "EnableJamQuantization_Bar_Desc": "<strong>Такт</>: начинать воспроизведение со следующей сильной доли (1-я доля такта) или затакта в зависимости от того, какое событие наступает раньше.",
+    "EnableJamQuantization_Beat_Desc": "<strong>Доля</>: начинать воспроизведение со следующей доли или затакта в зависимости от того, какое событие наступает раньше.",
+    "EnableJamQuantization_Off_Desc": "<strong>Выкл.</>: начинать воспроизведение по готовности песни.",
+    "EnableJamQuantization_Bar": "Такт",
+    "EnableJamQuantization_Beat": "Доля",
+    "JamLoopsDisplayName": "Джем-партии",
+    "EnableJamQuantization_Off": "Выкл.",
+    "EnableJamQuantization_Name": "Запускать джем-партии в наиболее подходящее время",
+    "EnableJamQuantization_Description": "Определяет, когда должна начаться новая джем-партия."
   }
 }

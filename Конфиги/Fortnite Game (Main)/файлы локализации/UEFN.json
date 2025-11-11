@@ -482,6 +482,9 @@
     "HiddenPlayerAnonymousNameFormat": "Анонимный[{0}]",
     "UnknownNPCName": "Неизвестно"
   },
+  "AuroraCore": {
+    "ShowOffersDialogFallbackTitle": "Просмотр предложений"
+  },
   "BuildingActorEditorSettings": {
     "Material0OverrideWarningMessage": "Назначить материал {0} к {1}.\n\nЭто может повлиять на производительность. Использование свойства TextureData приведёт к повышению производительности.",
     "Material0OverrideWarningCancel": "Отмена",
@@ -1070,12 +1073,16 @@
     "EncryptionManifestViewerTitle": "Манифест шифрования"
   },
   "FortContentValidationCommandlet": {
+    "BlueprintsDeriving": "{0} (производное от схем Blueprint)",
     "InPath": "Файлы на пути {0}",
+    "Inis": "Inis из командной строки",
     "P4Filter": "P4 фильтр {0}",
     "P4Opened": "P4 Открытые файлы",
     "P4Changelist": "P4 список изменений {0}",
+    "CollectionPackages": "Пакеты из коллекции {0}",
     "CommandLinePackages": "Пакеты из командной строки",
-    "OfType": "Пакеты типа {0}"
+    "OfType": "Пакеты типа {0}",
+    "UPlugins": "UPlugins из командной строки"
   },
   "FortCreateQuestAssetScreen": {
     "CreateQuestTemplate": "Шаблон задания",
@@ -1483,6 +1490,7 @@
     "BlueprintCompilation.Error.CompilationErrors": "В схеме присутствуют ошибки компиляции. (FortValidator_BlueprintCompilation)",
     "BlueprintCompilation.Warning.CompilationWarnings": "В схеме присутствуют предупреждения о компиляции. (FortValidator_BlueprintCompilation)",
     "BlueprintCompilation.Info.ValidationSkipped": "Схема пропустила проверку компиляции, так как её статус компиляции был нескомпилированным. (FortValidator_BlueprintCompilation)",
+    "SkeletalMeshes_RefPoseUnnormalizedRotation": "Кость {0} имеет вращение без нормализации",
     "SkeletalMeshes_BasePoseFailure": "Нельзя привязать сетку позы для уровня детализации {0}",
     "SkeletalMeshes_DefaultPoseFailure": "Не удаётся использовать сетку позы для уровня детализации {0} с весом образов по умолчанию",
     "StaticMesh_CannotAccessHiResMeshDescription": "Не удалось получить доступ к HiResMeshDescription для статичной сетки",
@@ -2487,6 +2495,27 @@
     "Message": "Необходимые настройки проекта не инициализированы.\nЭти настройки также доступны для редактирования в разделе 'Проект -> Настройки проекта'.",
     "Message.DefaultEntry": "• {0}"
   },
+  "SValkyrieProjectProductCatalog": {
+    "ProductEntriesList.Column.ConsumptionType": "Расходуемый предмет",
+    "ContextMenu_CopyTooltip": "Копирует значение столбца",
+    "ContextMenu_Copy": "Копировать",
+    "ProductEntriesList.Column.Description": "Описание",
+    "ProductEntriesList.Column.Disclosures": "Информация",
+    "ValkyrieProjectSubMenuMonetizationSection": "Транзакции на острове",
+    "ProductEntriesList.Column.MaxCount": "Макс. количество",
+    "ProductEntriesList.Column.Name": "Название",
+    "ConsumptionType_Durable": "Нет",
+    "Disclosures_PaidArea": "Платная область",
+    "Disclosures_PaidRandomItem": "Платный случайный элемент",
+    "ProductEntriesList.Column.Path": "Путь",
+    "ValkyrieProjectProductCatalog": "Каталог продуктов",
+    "RefreshText": "Обновить",
+    "ProductEntriesList.Column.ShortDescription": "Краткое описание",
+    "ValkyrieProjectProductCatalog_Tooltip": "Показать продукты, заданные для вашего проекта",
+    "ConsumptionType_Consumable": "Да",
+    "ProductsSource": "Вы можете добавлять, изменять или удалять продукты в коде Verse вашего проекта.",
+    "MaxCount_NA": "н/д"
+  },
   "SValkyrieProjectSize": {
     "UnknownDownloadSizePlaceholder": "???",
     "MenuTooltip.Browse": "Переход к выбранному элементу",
@@ -2576,11 +2605,12 @@
   },
   "SVkContentResolutionViewer": {
     "ResolvedModuleDep": "\t{0}",
-    "VkContentResolutionViewerTabLabel": "Разрешение содержимого",
-    "ContentTextBoxHint": "Укажите путь Verse, идентификатор модуля или идентификатор проекта",
+    "TabLabel": "Разрешение содержимого",
+    "ContentIdHint": "Укажите путь Verse, код острова или идентификатор модуля",
     "ResolvedModuleLive": "Активно",
     "RefreshButtonTooltip": "Применить разрешение содержимого повторно",
-    "ContentResolutionViewerTabTooltip": "Инструмент для визуализации и проверки разрешения содержимого в рабочей среде или в режиме реального времени",
+    "TabTooltip": "Инструмент для визуализации и проверки разрешения содержимого в рабочей среде или в режиме реального времени",
+    "NotLoggedIn": "Для использования этого инструмента требуется вход в учётную запись",
     "ResolvedModuleDeps": "зависимости:",
     "ResolvedModuleId": "модуль: {0}",
     "ResolvedModuleVersion": "версия: {0}",
@@ -2627,6 +2657,8 @@
     "MessageConnectedBranch": "Подключено к '{0}' ({1}) для '{2}'.",
     "MessageConnected": "Подключено к '{0}' ({1}).",
     "SkeinNoValidToken": "Не удаётся пройти аутентификацию на серверах Unreal Revision Control — не удалось проверить токен входа.",
+    "SkeinNoPatchLiveTesting": "Не удаётся выполнить аутентификацию на серверах Unreal Revision Control: не удалось обновить проект с 'Live' до 'LiveTesting'.",
+    "SkeinNoPatchLive": "Не удаётся выполнить аутентификацию на серверах Unreal Revision Control: проект не удалось обновить с 'LiveTesting' до 'Live'.",
     "SkeinNoEnvironment": "Не удалось пройти аутентификацию на серверах Unreal Revision Control, поскольку проект не настроен для вашей среды ('{0}').",
     "SkeinNoAccessToken": "Невозможно пройти аутентификацию на серверах Unreal Revision Control. Вы вошли в редактор как зарегистрированный пользователь?",
     "SkeinNoConclude": "Невозможно разрешить конфликт в текущем состоянии.\nЧтобы исправить ситуацию, воспользуйтесь командой 'Вернуть всё'.",
@@ -2680,6 +2712,8 @@
     "SkeinDirectoryNotFound": "Невозможно найти каталог проекта Unreal Revision Control.",
     "SkeinProjectIdError": "Не удалось определить идентификатор проекта Unreal Revision Control.",
     "SkeinNoProjectId": "Идентификатор проекта для Unreal Revision Control не задан.",
+    "SkeinProjectEncounteredLive": "Проект Unreal Revision Control настроен для 'Live'. Обновление до 'LiveTesting'…",
+    "SkeinProjectEncounteredLiveTesting": "Проект Unreal Revision Control настроен для 'LiveTesting'. Обновление до 'Live'…",
     "SkeinProjectVerifyFailed": "Проект Unreal Revision Control в данный момент нельзя использовать.",
     "AutoSave_BranchOwned": "Проект Unreal Revision Control в данный момент нельзя использовать.\nОбнаружены локальные изменения '{0}', которые ещё не были зафиксированы.\nЧтобы исправить это, откройте проект в качестве '{0}' и используйте либо вариант \"ЗАФИКСИРОВАТЬ ИЗМЕНЕНИЯ\", либо \"ВЕРНУТЬ ВСЁ\".",
     "SkeinStatusError": "Не удалось определить статус проекта Unreal Revision Control.",
@@ -2759,9 +2793,6 @@
     "ConflictWarningModal_CheckBoxText": "Больше не показывать это окно",
     "DataChangedDialog_CheckBoxText": "Больше не показывать это окно",
     "Waiting": "Завершается {0}|plural(one=операция,few=операции,many=операций) системы контроля версий {0} перед выполнением запроса…",
-    "SkeinMigratedNotification.Migrate": "Перенести",
-    "SkeinMigratedNotification.Migrate.Succeeded": "Перенос завершен",
-    "SkeinMigratedNotification.Migrate.Failed": "Не удалось выполнить перенос",
     "DataChangedDialog_ConfirmText": "OK",
     "UnsupportedOperation": "Операция '{OperationName}' не поддерживается поставщиком контроля версий '{ProviderName}'",
     "SkeinStatusText": "ProjectRoot: {ProjectRoot}",
@@ -2780,7 +2811,11 @@
     "SkeinServerDown": "Сервер Unreal Revision Control недоступен.",
     "SkeinServerMaintenance": "На сервере Unreal Revision Control проводятся технические работы.",
     "NoSCCThreads": "Для выполнения команды контроля версии нет доступных потоков.",
-    "SkeinMigratedNotification.Message": "Данный проект использует более новую версию Unreal Revision Control. Сохраните изменения и нажмите 'Перенос' для повторного подключения к системе контроля версий.",
+    "SkeinMigratedNotification.Message": "Данный проект использует более новую версию Unreal Revision Control. Сохраните изменения и нажмите 'Улучшение' для повторного подключения к системе контроля версий.",
+    "SkeinMigratedNotification.Migrate": "Улучшить",
+    "SkeinMigratedNotification.Migrate.Succeeded": "Улучшение завершено",
+    "SkeinMigratedNotification.Migrate.Failed": "Улучшение не выполнено",
+    "SkeinMigratedNotification.Migrating": "Улучшение…",
     "DataChangedDialogTitle": "Предупреждение: несовместимые данные",
     "AcquireConflictText": "Вы внесли изменения в следующие ресурсы, которые получены другим пользователем. Чтобы решить эту проблему:\n\n\t<RichTextBlock.BoldHighlight>1</>. Попросите коллег зафиксировать их изменения.\n\t<RichTextBlock.BoldHighlight>2</>. Выполните синхронизацию с последним снимком состояния. При этом возникнут конфликты между вашими локальными изменениями и изменениями, внесёнными коллегами.\n\t<RichTextBlock.BoldHighlight>3</>. Разрешите конфликты.\n\t<RichTextBlock.BoldHighlight>4</>. Зафиксируйте свои изменения.\n\n<RichTextBlock.BoldHighlight>Совет</>: Чтобы избежать конфликтов в будущем, всегда выполняйте синхронизацию с последней версией и извлекайте ресурсы, прежде чем вносить изменения.",
     "DataChangedDialogMessage": "Локальная версия проекта более не совместима с сервером Unreal Revision Control. Изменения, сделанные локально в промежутке между обновлением версии и настоящим моментом, будут утрачены.\n\nЧтобы возобновить работу над проектом:\n\n1. Закройте проект\n2. Создайте локальную копию проекта\n3. Удалите проект из папки Fortnite Projects в своей файловой системе\n4. Повторно синхронизируйте последнюю версию проекта в каталоге проектов UEFN"
@@ -3617,9 +3652,7 @@
     "VerseVersion.Update.Tooltip": "Обновите этот проект до последней стабильной версии Verse ({0})\n(Обратите внимание: вы можете вернуться к любой версии Verse в любой момент в настройках проекта)",
     "UploadProjectsParallelNotRunning": "Параллельный поток выгрузки проектов не выполняется",
     "VersePathsAssigned": "Пути Verse были назначены для следующих проектов:",
-    "WorkspaceFeatureNotAllowed": "Вам не разрешено использовать рабочие пространства",
-    "Error.LocalizationDataEditingDisabled": "У вас нет прав на ручное редактирование данных локализации. Используйте для перевода данных команду 'Сборка -> Собрать автоматическую локализацию'.",
-    "MustBeLoggedInToUseWorkspace": "Чтобы использовать рабочее пространство, вы должны войти в систему"
+    "Error.LocalizationDataEditingDisabled": "У вас нет прав на ручное редактирование данных локализации. Используйте для перевода данных команду 'Сборка -> Собрать автоматическую локализацию'."
   },
   "ValkyrieEditorConfig": {
     "SectionDescription": "Настройка функций {0}",
@@ -3638,8 +3671,8 @@
     "UploadProject.ValidationSession_CompileVerse": "Идёт компиляция Verse…",
     "UploadProjects.PauseForContentUpdate": "Идёт подключение к сеансу редактирования…",
     "LocalizeProject.Title.WarnAboutDirtyPackages": "Продолжить с несохранёнными изменениями?",
+    "CreateBuild.Warning.ValidateProductLocalizationFailedTitle": "Продолжить с недостающими переводами?",
     "CreateBuild.Warning.AutoLocalizationFailedTitle": "Продолжить без данных локализации?",
-    "UploadProject.Error.FindOrCreateEditSessionWorkspace": "Не удалось найти или создать рабочее пространство {0}",
     "PrepareProjectSourceDataForUpload.FailRemovePublicApi": "Не удалось удалить публичный API проекта",
     "PrepareProjectSourceDataForUpload.FailSanitizePublicApi": "Не удалось зачистить публичный API проекта",
     "CreateBuild.TaskMessage": "Создание сборки…",
@@ -3677,6 +3710,8 @@
     "CreateBuild.PreparePlatformData.MessageLog.Label": "Подготовленные данные платформы",
     "CreateBuild.PreparePlatformData.PreparingPlatformDataWithListFmt": "Подготовка данных платформы (ожидание {0})…",
     "CreateBuild.PreparePlatformData.PreparingPlatformData": "Подготовка данных платформы…",
+    "CreateBuild.Warning.ValidateProductLocalizationFailed": "Продукты/предложения перед публикацией должны быть переведены на все доступные языки.\n\n{0}\n\nПродолжить с недостающими переводами?",
+    "CreateBuild.Error.ValidateProductLocalizationFailed": "Продукты/предложения должны быть переведены на все доступные языки.\n\n{0}",
     "CreateBuild.PreparePlatformData.CookFailure": "Не удалось конвертировать проект в формат платформы (см. журнал сообщений)",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "LocalizeProject.Error.LocalizationSettingsUninitialized": "Настройки локализации не инициализированы.",
@@ -4370,7 +4405,8 @@
     "ContentRemoval.Indent": "\t\t",
     "ContentRemoval.ReferencedAssets": "\tВнешние ресурсы:",
     "ContentRemoval.ReferencingAssets": "\tСсылающиеся ресурсы:",
-    "ProjectVersePathUpdated": "Путь Verse '{0}' установлен на:",
+    "ProjectVersePathCleared": "Удалён путь к '{0}' в Verse",
+    "ProjectVersePathSetTo": "Установлен путь к '{0}' в Verse:",
     "ContentRemoval.MissingReferencedAsset": "(отсутствует в этой версии плагина)",
     "PluginWriteErrorsEllipsis": "…",
     "AddPluginsTask": "Добавление плагинов…",
@@ -4379,6 +4415,7 @@
     "ProjectVersePathConfirmation.PurgeAdditionalMessage": "Действительно удалить следующий дополнительный путь Verse из проекта {0}:\n\n'{1}'\n\nЛюбые ссылки, использующие этот путь Verse, перестанут функционировать.",
     "ProjectVersePathConfirmation.PurgePrimaryMessage": "Действительно удалить следующий основной путь Verse из проекта {0}:\n\n'{1}'\n\nЛюбые ссылки, использующие этот путь Verse, перестанут функционировать.",
     "PluginRemovalQuestion": "Удалить следующий контент из проекта?",
+    "ExternalContentRemovalFromProjectQuestion": "Удалить этот внешний контент из '{0}'?",
     "ExternalContentRemovalQuestion": "Удалить этот внешний контент?",
     "ProjectVersePathConfirmation.SetMessage": "Установить для проекта {0} основной путь в Verse:\n\n'{1}'?",
     "ProjectVersePathConfirmation.AssignAdditionalButton": "Назначить дополнительный путь в Verse",
@@ -4470,11 +4507,13 @@
     "BrandSelection": "Выбор бренда",
     "CreateTeamHyperlinkText": "Создать команду…",
     "NoSelectedTeamText": "Не выбрано",
-    "PluginFriendlyName": "Удобное название плагина",
+    "OnlinFriendlyName": "Удобное название (онлайн)",
     "ProjectDefaults": "Настройки проекта по умолчанию",
+    "SourceFriendlyName": "Удобное название источника",
     "TeamSelectionText": "Выбор команды",
     "DisabledTeamSelectionComboBox": "Назначение команды недоступно, так как пользователь не вошёл в систему",
-    "PluginFriendlyNameTooltip": "Сохранено удобное название плагина в модуле сервиса управления контентом или нет (вместо замены на ГУИД модуля при выгрузке)"
+    "OnlinFriendlyNameTooltip": "Наличие у плагина удобного названия, сохраняемого на сервисе управления контентом, а не изменяемого на ГУИД его модуля при выгрузке",
+    "SourceFriendlyNameTooltip": "Наличие у исходного плагина удобного названия (вместо получения названия по ГУИД его модуля)"
   },
   "ValkyrieProjectCreationParams": {
     "ProjectVersePathFailedValidation": "Путь к проекту в Verse не прошёл модерацию: {0}",
@@ -4550,7 +4589,11 @@
     "VersePath": "Путь Verse"
   },
   "ValkyrieProjectLocalization": {
-    "GatherTextTask": "Сбор локализованного текста..."
+    "ValidateProjectProductLocalization.Error.MissingLanguageEntry": "  • {0}",
+    "GatherTextTask": "Сбор локализованного текста...",
+    "ValidateProjectProductLocalization.Error.LoadFailed": "Не удалось загрузить данные локализации. Подробности см. в журнале выходных данных.",
+    "ValidateProjectProductLocalization.Error.MissingLanguages": "В данных локализации не хватает следующих языков:\n{0}\n\nСм. настройки локализации вашего проекта.",
+    "ValidateProjectProductLocalization.Error.MissingTranslations": "В данных локализации не хватает перевода для следующих языков:\n{0}\n\nПодробности см. в журнале выходных данных."
   },
   "ValkyrieProjectManager": {
     "ProjectDisconnectedFromUrc": "'{0}' отключён от Unreal Revision Control",
@@ -4569,6 +4612,7 @@
     "CloseProjectTask": "Закрытие проекта {0}…",
     "CloseProjectsTask": "Закрытие проектов…",
     "OpenProject.ConnectToRevisionControl": "Подключение к системе контроля версий…",
+    "OpenProjectWorkspaceFailure": "Не удалось открыть проект '{0}' при указанном рабочем пространстве",
     "VkProjectIncompatible": "Невозможно открыть проект, так как его версия ({0}) несовместима с установленным движком ({1})",
     "CreatePluginTask": "Создание плагина {0}…",
     "CreateProjectTask": "Создание проекта {0}…",
@@ -4589,7 +4633,6 @@
     "ExternalContentLoadFail.CacheOutOfSpaceMsg": "Не удалось загрузить внешний контент, так как в локальном кэше нет места.\n\nРассмотреть увеличение размера кэша в настройках редактора\n\nЕсли вы откроете проект, ресурсы проекта могут загрузиться неправильно, а при их сохранении ссылки на отсутствующий контент могут быть разорваны.",
     "FailedToAccessContentService": "Не удалось получить онлайн-информацию о проекте {0}. Невозможно создать ветку проекта в {1}",
     "FailOpenVKProject": "Не удалось открыть проект\n{0}\n\n{1}",
-    "OpenProjectWorkspaceFailure": "Не удалось открыть проект '{0}' в указанном рабочем пространстве",
     "ReloadProject.NotifError": "Не удалось перезагрузить '{0}'",
     "FailRenameVKProject": "Не удалось переименовать проект\n{0}\n\n{1}",
     "InitialSnapshot": "Начальный снимок состояния",
@@ -4599,6 +4642,7 @@
     "ExternalContentLoadFail.OpenAnyway": "Открыть в любом случае",
     "OpenProjectTask": "Открытие проекта {0}…",
     "ProjectTrustDialog.Message": "Открытие этого проекта может запустить файлы, которые могут быть опасны для вашего компьютера.\n\nДоверяете ли вы авторам файлов в проекте '{0}'?",
+    "ConfirmOnlinePluginWithFriendlyName": "Подтвердите, что вы хотите создать проект, который сгенерирует онлайн-плагин с названием '{0}' (в отличие от уникального идентификатора UUID, предотвращающего конфликты названий плагинов).",
     "CreatePlugin.DestinationDirectoryNotUnderProject": "Целевой каталог плагина должен находиться в каталоге проекта",
     "VKProjectAlreadyExists": "В этом месте уже есть проект",
     "ReloadProject.FailCloseProject": "Не удалось закрыть проект",
@@ -4632,6 +4676,9 @@
     "IsOnRevisionControl": "присутствует в {0}",
     "OpenProjectReferenceFileError": "{0}\n\nРесурсы проекта могут загрузиться неправильно, а при их сохранении ссылки на отсутствующие ресурсы могут быть удалены\n\nВсё равно открыть проект '{1}'?",
     "VkProjectRequiresEpicApp": "Для работы над проектом '{1}' необходимо использовать {0} (сейчас на {2})\n\nВсё равно открыть проект?"
+  },
+  "ValkyrieProjectProductCatalog": {
+    "ProductDataBuildError": "Ошибка сборки Verse."
   },
   "ValkyrieProjectSettingsEditor": {
     "AssignVersePathTitle": "Назначить путь Verse",
@@ -4712,8 +4759,8 @@
     "PreOpenReferencedContentSourceProjects.ErrorOpeningProject": "Ошибка при открытии исходного проекта с внешним контентом '{0}'",
     "VKFailFindLoadedPlugin": "Не удалось найти предположительно загруженный плагин\n{0}",
     "FailFixMissingGameFeatureData": "Невозможно исправить отсутствие GameFeatureData (подробнее см. в журнале)",
-    "OpenedProjectsFailToGetWorkspaceId": "Не удалось получить рабочее пространство для публикации",
     "PublishModulesFailToGetWorkspaceId": "Не удалось получить рабочее пространство для публикации",
+    "PublishProjectsFailToGetWorkspaceId": "Не удалось получить рабочее пространство для публикации",
     "VKFailLoadPluginWithExistingName": "Не удалось загрузить плагин\n{0}\n\nПлагин с именем {1} уже зарегистрирован здесь:\n{2}",
     "VKFailLoadGameFeaturePlugin": "Не удалось загрузить плагин\n{0}\n\n{1}",
     "VKFailLoadPlugin": "Не удалось загрузить плагин\n{0}\n{1}",
@@ -4737,6 +4784,8 @@
     "PreOpenMultiProjectIncompatible.LoadSource": "Загрузить исходный контент",
     "LoadingFeatureSet": "Загрузка набора функций…",
     "LoadPlugin.SlowTask": "Загрузка плагина {0}",
+    "PublishModulesNoActiveWorkspace": "Отсутствует активное рабочее пространство для публикации",
+    "PublishProjectsNoActiveWorkspace": "Отсутствует активное рабочее пространство для публикации",
     "NoOpenedProjectToPublish": "Нет открытых проектов для публикации",
     "RemapLocalVsReferencedContent.NothingToRemap": "Нет ссылок для переназначения!",
     "VKProjectFolderNotEmpty": "Один или несколько файлов уже существуют по адресу:\n{0}\nУдалите эти файлы или выберите другое название или расположение.",
@@ -4798,6 +4847,7 @@
     "ValidateSourceProjects": "Проверка внешнего исходного проекта…",
     "OpenMultiProjectIncompatible.Title": "Предупреждение",
     "PreOpenMultiProjectIncompatible.Title": "Предупреждение",
+    "PublishModulesNotLoggedIn": "Для публикации модулей необходимо войти в учётную запись",
     "CheckProjectUnderExternalBackupSystemWarning": "У вашего проекта есть резервная копия в {0}. Это может вызвать конфликт или непредвиденное взаимодействие с другими системами.",
     "OpenMultiProjectIncompatible.UnsetModuleId": "не задано",
     "PreOpenMultiProjectIncompatible.UnsetModuleId": "не задано",
@@ -5080,7 +5130,7 @@
     "PackageNameNotAllowed": "Ресурс {0} имеет недопустимое имя пакета {1}: {2}"
   },
   "ValkyrieValidator_ExperimentalSettings": {
-    "ExperimentalSettings_Validation": "В настройках проекта включены экспериментальные настройки, которые не допускают публикацию."
+    "ExperimentalSettings_Validation": "В настройках проекта включены следующие экспериментальные настройки [{0}], которые делают публикацию невозможной."
   },
   "ValkyrieValidator_IDOs": {
     "IDOValidation.LooseProps": "{0} содержит непривязанные свойства без перерасчёта, что не позволяет выполнить публикацию в последующих версиях",
@@ -5226,7 +5276,8 @@
     "AddNewLabel": "Добавить",
     "AddNewToolTip": "Добавить новое свойство.",
     "DefaultCategory": "По умолчанию",
-    "DisabledMessage_Tooltip": "Инициализировать типы сообщения в Verse."
+    "DisabledMessage_Tooltip": "Инициализировать типы сообщения в Verse.",
+    "AddNewField": "Поля Verse отображаются в дайджесте ресурсов.\nДобавьте новое поле и привяжите его к выбранному виджету на панели \"Сведения\" или \"Просмотр привязок\"."
   },
   "VerseClassSettingsDetails": {
     "VariableNameCollision": "Не удалось добавить для интерфейса '{0}' переменную '{1}'. Унаследованный интерфейс '{2}' уже содержит переменную с именем '{1}'",
@@ -5325,6 +5376,11 @@
     "LogicType": "Значения true и false",
     "Mutability_Variable": "Переменная"
   },
+  "VersePropertyEditDropDown": {
+    "Cancel": "Отмена",
+    "Delete": "Удалить",
+    "Duplicate": "Дублировать"
+  },
   "VersePropertyEditor": {
     "MultipleValues": "Несколько значений"
   },
@@ -5401,6 +5457,9 @@
   },
   "VkTitleNodeDetails": {
     "Category": "Имя говорящего"
+  },
+  "VkWorkspaceManager": {
+    "NotLoggedIn": "Для доступа к рабочим пространствам необходимо войти в учётную запись"
   },
   "WeaponAssetForm": {
     "SubmitForm": "Создать ресурсы оружия…",
