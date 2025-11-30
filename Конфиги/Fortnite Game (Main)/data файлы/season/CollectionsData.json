@@ -1,7 +1,7 @@
 [
   {
     "Type": "FortCollectionsDataTable",
-    "Name": "CollectionsData_S38",
+    "Name": "CollectionsData_S39",
     "Class": "UScriptClass'FortCollectionsDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,7 +10,7 @@
           "CollectionType": "CollectableCharacter",
           "bEnsureAllTaggedItemsAreInTheCollection": false,
           "Collection": {
-            "AssetPathName": "/BattlePassS38_Collections/SeasonData/CollectionDataCharacter_S38.CollectionDataCharacter_S38",
+            "AssetPathName": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.CollectionDataCharacter_S39",
             "SubPathString": ""
           }
         },
@@ -18,12 +18,12 @@
           "CollectionType": "CollectableFish",
           "bEnsureAllTaggedItemsAreInTheCollection": false,
           "Collection": {
-            "AssetPathName": "/BattlePassS38_Collections/SeasonData/CollectionDataFishing_S38.CollectionDataFishing_S38",
+            "AssetPathName": "/BattlePassS39_Collections/SeasonData/CollectionDataFishing_S39.CollectionDataFishing_S39",
             "SubPathString": ""
           }
         }
       ],
-      "SeasonNum": 38
+      "SeasonNum": 39
     }
   }
 ]

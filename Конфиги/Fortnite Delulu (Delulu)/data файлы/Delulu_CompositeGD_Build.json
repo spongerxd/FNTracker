@@ -894,6 +894,82 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.SafeZone.ApplyScreenFXInGameplayCue": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.SafeZone.PlayerCap.NetDamage.Enabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.SafeZone.PlayerCap.NetDamage.DamageDealtMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.SafeZone.PlayerCap.NetDamage.DamageTakenMultiplier": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.SupplyDrop.MinPlacementHeight": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
@@ -11643,7 +11719,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 69375.0
+            "Value": 88800.0
           },
           {
             "Time": 1.0,
@@ -11663,7 +11739,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 60625.0
+            "Value": 88800.0
           },
           {
             "Time": 1.0,
@@ -16883,7 +16959,7 @@
           },
           {
             "Time": 21.0,
-            "Value": 0.0
+            "Value": 2.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -16899,7 +16975,7 @@
           },
           {
             "Time": 21.0,
-            "Value": 0.0
+            "Value": 0.25
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -32294,6 +32370,26 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.Petrol.SpreadFire": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.Petrol.Curie.FireballsToSpawn": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
@@ -41663,7 +41759,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 5000.0
+            "Value": 1000000.0
           },
           {
             "Time": 3.0,
@@ -65398,6 +65494,22 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
+      "Default.Vehicle.GolfCart.MaxTotalSpawn": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
       "Default.Vehicle.GolfCart.RearVectorThreshold": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
@@ -70171,7 +70283,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.8
+            "Value": 1.8
           },
           {
             "Time": 1.0,
@@ -70191,7 +70303,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.4
+            "Value": 0.8
           },
           {
             "Time": 1.0,
@@ -71543,22 +71655,6 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.RebootCards.AutoCollect.OceanKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 0.0
-          },
-          {
-            "Time": 21.0,
-            "Value": 0.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Default.SafeZone.UseGameplayCueForScreenEffects": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {

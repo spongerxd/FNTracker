@@ -15,6 +15,7 @@
         "Spread": 0.0,
         "OverrideBaseSpread": -1.0,
         "SpreadDownsights": 0.0,
+        "JumpingFallingSpreadDownsights": 1.0,
         "OverrideSpreadDownsights": -1.0,
         "StandingStillSpreadMultiplier": 0.0,
         "AthenaCrouchingSpreadMultiplier": 1.0,
@@ -126,22 +127,32 @@
         "bCoolOverheatWhileCharging": true,
         "bCoolOverheatWhileUnequipped": true,
         "ManualVentingMinOverheatValueRequirement": 0.0,
-        "bForceSyncOverheatValuesOnStateChange": false,
-        "ForceSyncOverheatValuesCorrectionBias": 0.75,
         "FortHomingTurnSpeedMin": 0.0,
         "FortHomingTurnSpeedMax": 0.0,
         "FortHomingTimeUntilMaxTurnSpeed": 0.0,
         "ProjectileVelocity": -1.0,
         "BulletsPerBulletFireFX": 1,
         "MaxDamagePerCartridge": -1.0,
-        "bReduceCameraAndReticleOffsetsOneToOne": false,
+        "bUseConstantLerpForRecoil": false,
+        "bStartRecoilDelayAfterRecoilPeaks": false,
         "bUseAccumulatedRecoilToSelectShotIndex": false,
-        "RecoilErrorAddedPerShot": 0.1,
-        "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilFractionToBulletCountCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
+        "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilErrorAddedPerShot": 0.1,
+        "RecoilOffsetConsideredMaxFraction": 1.0,
+        "RecoilDelay": -1.0,
+        "bDelaySpreadWithRecoil": false,
+        "bDisableOneFrameFiringAnimationDelay": false,
+        "bUseScopedPerBulletRecoilOverridesForBasicADS": false,
+        "bLerpSprintingSpreadMultiplierWithMovementSpeed": false,
+        "SpreadMultiplierCap": 0.0,
         "PerBulletRecoil": [],
         "ScopedPerBulletRecoilOverride": [],
         "PerBulletSpread": [],
@@ -249,11 +260,19 @@
         "MaxUnderReticleDistance": 8192.0,
         "AutofireRange": 0.0,
         "AutofireMinRange": 0.0,
+        "AutofireZoomTargetMinSizePercent": 100.0,
         "AutofireAcquisitionDelay": 0.0,
         "AutofireDBNOAcquisitionDelay": 0.0,
         "AutofireAcquisitionRechargeTime": 0.0,
         "AutofireReleaseTime": 0.0,
-        "AutofireCooldown": 0.0
+        "AutofireCooldown": 0.0,
+        "PerWeaponHotfixes": {
+          "bDisableTargetingDuringReload": false,
+          "bDisableTargetingInAir": false,
+          "bDisableCheckpointReload": false,
+          "bDisableSecondaryRecoilLayers": false,
+          "bDisablePrimaryRecoilOverride": false
+        }
       }
     }
   }

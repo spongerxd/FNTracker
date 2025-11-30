@@ -1,13 +1,18 @@
 [
   {
     "Type": "SeasonPassLevelData",
-    "Name": "SeasonPassLevelData_S38",
+    "Name": "BattlePassS39_SeasonPass_LevelData",
     "Class": "UScriptClass'SeasonPassLevelData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "SeasonLevelPurchaseLimit": 50,
-      "SeasonLevelPurchaseBundleLimit": 50,
-      "SeasonLevelOffer_MaxLevel": 70
+      "LevelPurchaseType": "ESeasonPassLevelPurchaseType::PurchaseLevels",
+      "SeasonLevelPurchaseLimit": 100,
+      "SeasonLevelPurchaseBundleLimit": 200,
+      "SeasonLevelOffer_MaxLevel": 200,
+      "SeasonLevelRewards": {
+        "ObjectName": "DataTable'BattlePassS39_SeasonPass_LevelRewards'",
+        "ObjectPath": "/BattlePassS39_SeasonPass/SeasonPass/BattlePassS39_SeasonPass_LevelRewards.0"
+      }
     }
   }
 ]

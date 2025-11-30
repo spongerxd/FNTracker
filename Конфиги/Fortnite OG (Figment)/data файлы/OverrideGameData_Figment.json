@@ -3055,7 +3055,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 12.5
+            "Value": 10.0
           },
           {
             "Time": 1.0,
@@ -3075,7 +3075,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 12.5
+            "Value": 10.0
           },
           {
             "Time": 1.0,
@@ -3155,7 +3155,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 20.0
+            "Value": 16.0
           },
           {
             "Time": 1.0,
@@ -3175,7 +3175,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 20.0
+            "Value": 16.0
           },
           {
             "Time": 1.0,
@@ -3255,7 +3255,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 35.0
+            "Value": 28.0
           },
           {
             "Time": 1.0,
@@ -3275,7 +3275,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1200.0
+            "Value": 1100.0
           },
           {
             "Time": 1.0,
@@ -3335,7 +3335,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 18.5
+            "Value": 15.0
           },
           {
             "Time": 1.0,
@@ -3971,7 +3971,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 18.75
+            "Value": 15.0
           },
           {
             "Time": 1.0,
@@ -3991,7 +3991,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 47.5
+            "Value": 38.0
           },
           {
             "Time": 1.0,
@@ -4011,7 +4011,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 52.5
+            "Value": 42.0
           },
           {
             "Time": 1.0,
@@ -4031,7 +4031,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 18.75
+            "Value": 15.0
           },
           {
             "Time": 1.0,
@@ -4051,7 +4051,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 47.5
+            "Value": 38.0
           },
           {
             "Time": 1.0,
@@ -4251,7 +4251,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 31.25
+            "Value": 25.0
           },
           {
             "Time": 1.0,
@@ -4439,7 +4439,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 650.0
+            "Value": 400.0
           },
           {
             "Time": 1.0,
@@ -4519,7 +4519,7 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 550.0
+            "Value": 400.0
           },
           {
             "Time": 1.0,
@@ -6215,6 +6215,22 @@
           },
           {
             "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.IceShell.Destroyed": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
             "Value": 0.0
           },
           {

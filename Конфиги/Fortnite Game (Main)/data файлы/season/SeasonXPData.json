@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassUniversalXpData",
-    "Name": "SeasonXPData_S38",
+    "Name": "SeasonXPData_S39",
     "Class": "UScriptClass'SeasonPassUniversalXpData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -11,7 +11,7 @@
       },
       "RestedXpCatchupProgression": {
         "ObjectName": "DataTable'DynamicRest_Mults'",
-        "ObjectPath": "/BattlePassS38_SeasonPass/SeasonData/DynamicRest_Mults.0"
+        "ObjectPath": "/BattlePassS39_SeasonPass/SeasonPass/DynamicRest_Mults.0"
       },
       "LogFireRestXPCap": {
         "CurveTable": {

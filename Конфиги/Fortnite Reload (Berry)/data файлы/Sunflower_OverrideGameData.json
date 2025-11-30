@@ -30,12 +30,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.SurfaceEffect.Lava.BaseVerticalBounceVelocity": {
+      "Default.SurfaceEffect.Lava.MaxBounceMultiplier": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1000.0
+            "Value": 2.0
           },
           {
             "Time": 1.0,
@@ -50,32 +50,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.SurfaceEffect.Lava.BaseLateralBounceVelocity": {
+      "Default.SurfaceEffect.Lava.PeriodicDamage.Enabled": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1000.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.0
-          },
-          {
-            "Time": 21.0,
-            "Value": 0.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Default.SurfaceEffect.Lava.FacingAngleVelocityComponent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 0.5
+            "Value": 1.0
           },
           {
             "Time": 1.0,
@@ -110,12 +90,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.SurfaceEffect.Lava.BounceMultiplierStepAmount": {
+      "Default.SurfaceEffect.Lava.BaseLateralBounceVelocity": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.25
+            "Value": 1000.0
           },
           {
             "Time": 1.0,
@@ -130,12 +110,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.SurfaceEffect.Lava.MaxBounceMultiplier": {
+      "Default.SurfaceEffect.Lava.BounceMultiplierStepAmount": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 2.0
+            "Value": 0.25
           },
           {
             "Time": 1.0,
@@ -170,12 +150,48 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Default.SurfaceEffect.Lava.PeriodicDamage.Enabled": {
+      "Default.SurfaceEffect.Lava.FacingAngleVelocityComponent": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
+            "Value": 0.5
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Curve_0": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 21.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.SurfaceEffect.Lava.BaseVerticalBounceVelocity": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1000.0
           },
           {
             "Time": 1.0,
