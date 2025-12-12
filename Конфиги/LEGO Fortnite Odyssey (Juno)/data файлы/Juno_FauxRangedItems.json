@@ -6,12 +6,15 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "Class'FortRangedWeaponStats'",
-        "ObjectPath": "/Script/FortniteGame"
+        "ObjectName": "Class'JunoRangedWeaponStats'",
+        "ObjectPath": "/Script/JunoGameNative"
       }
     },
     "Rows": {
       "Spyglass": {
+        "ArmorPenetration": 0.0,
+        "AfflictionMultiplier": 1.0,
+        "ChargeAmount": -1.0,
         "Spread": 0.0,
         "OverrideBaseSpread": -1.0,
         "SpreadDownsights": 0.0,

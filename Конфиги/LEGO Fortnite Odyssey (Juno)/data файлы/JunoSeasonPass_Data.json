@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "JunoSeason05Pass_Data",
+    "Name": "JunoSeason06Pass_Data",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -15,57 +15,58 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "A75694DB4550B1163AC88D950544941C",
-        "SourceString": "Palm Paradise",
-        "LocalizedString": "Рай под пальмами"
+        "Key": "BEAF06744D1339EAFF1636BBE8497041",
+        "SourceString": "Ninjago",
+        "LocalizedString": "Ninjago"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "30CE3B094A8DA18742795E95327EBA87",
+        "Key": "D59E180D4C576DE01227B09E757EF3CA",
         "SourceString": "Season Pass Ended!",
         "LocalizedString": "Сезонный пропуск закончился!"
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "882171C14B9475E2D9AB7DB43FB4284B",
+        "Key": "B7638EEB4D83F75A5E7260A9CC0143B9",
         "SourceString": "Get LEGO® Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
           "R": 1.0,
-          "G": 0.294271,
-          "B": 0.544934,
+          "G": 0.081213,
+          "B": 0.078261,
           "A": 1.0,
-          "Hex": "FF94C3"
+          "Hex": "FF504F"
         },
         "ProgressionColor": {
-          "R": 0.0,
-          "G": 0.584079,
-          "B": 0.964687,
+          "R": 0.846873,
+          "G": 0.234551,
+          "B": 0.023153,
           "A": 1.0,
-          "Hex": "00C9FB"
+          "Hex": "ED852A"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/JunoSeason05Pass/UI/MaterialInstances/MI_BG_Nexus_S05Pass.MI_BG_Nexus_S05Pass",
+          "AssetPathName": "/JunoSeason06Pass/UI/MaterialInstances/MI_UI_Tabasco_Background_3D.MI_UI_Tabasco_Background_3D",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/JunoSeason05Pass/UI/MaterialInstances/MI_BG_Nexus_S05Pass_UI.MI_BG_Nexus_S05Pass_UI",
+          "AssetPathName": "/JunoSeason06Pass/UI/MaterialInstances/MI_UI_Tabasco_Background_UI.MI_UI_Tabasco_Background_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/JunoSeason05Pass/UI/MaterialInstances/MI_UI_Crew_Upsell_S05Pass.MI_UI_Crew_Upsell_S05Pass",
+          "AssetPathName": "/JunoSeason06Pass/UI/MaterialInstances/MI_UI_Tabasco_Crew_Upsell.MI_UI_Tabasco_Crew_Upsell",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/JunoSeason05Pass/UI/MaterialInstances/MI_UI_S05Pass_CategoryButton_Crew.MI_UI_S05Pass_CategoryButton_Crew",
+          "AssetPathName": "/JunoSeason06Pass/UI/MaterialInstances/MI_UI_Tabasco_CategoryButton_Crew.MI_UI_Tabasco_CategoryButton_Crew",
           "SubPathString": ""
         },
         "BenefitsByType": [
           {
             "UpsellType": "ENexusUpsellEntryType::Free",
             "BenefitGroups": [],
+            "BenefitName": "",
             "ImageUrl": "",
             "ThemeColors": [
               {
@@ -154,6 +155,7 @@
           {
             "UpsellType": "ENexusUpsellEntryType::Paid",
             "BenefitGroups": [],
+            "BenefitName": "",
             "ImageUrl": "",
             "ThemeColors": [
               {
@@ -161,11 +163,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.0,
-                    "G": 0.584079,
-                    "B": 0.964687,
+                    "R": 0.665387,
+                    "G": 0.099899,
+                    "B": 0.0,
                     "A": 1.0,
-                    "Hex": "00C9FB"
+                    "Hex": "D55900"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -175,11 +177,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.175854,
-                    "G": 0.65346,
-                    "B": 0.964687,
+                    "R": 0.619792,
+                    "G": 0.010584,
+                    "B": 0.00444,
                     "A": 1.0,
-                    "Hex": "74D4FB"
+                    "Hex": "CF1A0E"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -189,11 +191,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.000304,
-                    "G": 0.039546,
-                    "B": 0.208637,
+                    "R": 0.014444,
+                    "G": 0.000304,
+                    "B": 0.002125,
                     "A": 1.0,
-                    "Hex": "01387E"
+                    "Hex": "200107"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -203,11 +205,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.0,
-                    "G": 0.47932,
-                    "B": 0.955974,
+                    "R": 0.617207,
+                    "G": 0.01033,
+                    "B": 0.004391,
                     "A": 1.0,
-                    "Hex": "00B8FA"
+                    "Hex": "CE1A0E"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -217,11 +219,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.000304,
-                    "G": 0.039546,
-                    "B": 0.208637,
+                    "R": 0.014444,
+                    "G": 0.000304,
+                    "B": 0.002125,
                     "A": 1.0,
-                    "Hex": "01387E"
+                    "Hex": "200107"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -244,16 +246,16 @@
       "Product": {
         "TagName": "Product.Juno"
       },
-      "SeasonStorefront": "JunoSeason05Pass",
-      "SeasonPassOfferId": "0A1C087E4AE33C2E620FC5A328992A66",
-      "SeasonPassLevelOfferId": "7EB0BF3D4080C5DE9C5F81B6DA170430",
+      "SeasonStorefront": "JunoSeason06Pass",
+      "SeasonPassOfferId": "0AD9985B4EC27994DDD0BABCBA274CE4",
+      "SeasonPassLevelOfferId": "D9D8822942EEA714BBFDE3AA4ECF1B09",
       "PaidRewards": [
         {
           "OfferGuid": "00000000-00000000-00000000-00000000",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/JunoSeason05Pass/Items/Tokens/JunoSeason05Pass_PremiumToken.JunoSeason05Pass_PremiumToken",
+                "AssetPathName": "/JunoSeason06Pass/Items/Tokens/JunoSeason06Pass_PremiumToken.JunoSeason06Pass_PremiumToken",
                 "SubPathString": ""
               },
               "Quantity": 1,
@@ -262,11 +264,11 @@
           ]
         },
         {
-          "OfferGuid": "2CB14236-41ECB846-72FE9891-424DB7C4",
+          "OfferGuid": "4D6CF894-4FF71871-2D9DB4AF-A54A3F72",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_CandyCharm.Character_CandyCharm",
+                "AssetPathName": "/BRCosmetics/Athena/Items/Cosmetics/Characters/Character_BlessFlan.Character_BlessFlan",
                 "SubPathString": ""
               },
               "Quantity": 1,

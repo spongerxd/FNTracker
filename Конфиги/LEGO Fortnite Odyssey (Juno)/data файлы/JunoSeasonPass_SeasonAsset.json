@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassItemDefinition",
-    "Name": "JunoSeason05Pass_SeasonAsset",
+    "Name": "JunoSeason06Pass_SeasonAsset",
     "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,35 +10,36 @@
         "SubPathString": ""
       },
       "PassData": {
-        "AssetPathName": "/JunoSeason05Pass/SeasonPass/JunoSeason05Pass_Data.JunoSeason05Pass_Data",
+        "AssetPathName": "/JunoSeason06Pass/SeasonPass/JunoSeason06Pass_Data.JunoSeason06Pass_Data",
         "SubPathString": ""
       },
       "LevelData": {
-        "AssetPathName": "/JunoSeason05Pass/SeasonPass/JunoSeason05Pass_LevelData.JunoSeason05Pass_LevelData",
+        "AssetPathName": "/JunoSeason06Pass/SeasonPass/JunoSeason06Pass_LevelData.JunoSeason06Pass_LevelData",
         "SubPathString": ""
       },
       "Categories": [
         {
-          "AssetPathName": "/JunoSeason05Pass/SeasonPass/Categories/JunoSeason05PassCategory1.JunoSeason05PassCategory1",
+          "AssetPathName": "/JunoSeason06Pass/SeasonPass/Categories/JunoSeason06PassCategory1.JunoSeason06PassCategory1",
           "SubPathString": ""
         }
       ],
-      "SeasonNumber": 5,
+      "PRMPassId": "JunoPass",
+      "SeasonNumber": 6,
       "ItemName": {
         "Namespace": "",
-        "Key": "33A746E54DA2354FA6241B993FFC8481",
+        "Key": "71AEF5F2425EA4EFEEEAC4B3C9FEA5F5",
         "SourceString": "LEGO® Pass",
         "LocalizedString": "Пропуск\nLEGO®"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "F32D40AC4D8BCA6F770EB79946143B24",
+        "Key": "343C5A7048894CFCB7997C9D3F33B035",
         "SourceString": "LEGO® Pass Descrption",
         "LocalizedString": "Пропуск LEGO® — описание"
       },
       "ItemShortDescription": {
         "Namespace": "",
-        "Key": "FC25ED904521535528ABE09085FB38D3",
+        "Key": "BFDDA77E4555FC608E7487942F92B479",
         "SourceString": "LEGO® Pass Short Descrption",
         "LocalizedString": "Пропуск LEGO® — краткое описание"
       },

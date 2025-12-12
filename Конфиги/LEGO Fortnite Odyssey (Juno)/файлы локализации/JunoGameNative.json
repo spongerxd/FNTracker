@@ -11,10 +11,6 @@
     "OnPlayerDiedGameEvent": "Игрок {0} <Yellow>устранён</>",
     "OnPlayerSavedByTotemGameEvent": "<Yellow>Тотем спасает жизнь</> игроку {0}"
   },
-  "JunoConversationTask_GetResource": {
-    "Finished": "Готово",
-    "GetX": "Получить: {0}"
-  },
   "JunoConversationTaskNode_GiftNPC": {
     "GiftXToNPC": "Подарить: {ItemDisplayText}"
   },
@@ -28,6 +24,10 @@
   "JunoConversationTaskNode_TradeWithMerchant": {
     "NotEnoughForTrade": "Недостаточно для обмена. Чтобы получить {SellItem} ({SellItemCount} шт.), вы должны отдать {WantItem} ({WantItemCount} шт.). \n Осталось комплектов: {BundleCount}.",
     "TradeXForX": "Обменять {WantItem} ({WantItemCount} шт.) на {SellItem} ({SellItemCount} шт.). \n Осталось комплектов: {BundleCount}."
+  },
+  "JunoConversationTask_GetResource": {
+    "Finished": "Готово",
+    "GetX": "Получить: {0}"
   },
   "JunoGameStateComponent_GameEventStream": {
     "GameMemberAdded": "{0} <Yellow>заходит в мир</>",
@@ -53,7 +53,6 @@
     "JunoUI_CampNameFormat": "Поселение {VillageCount} игрока {PlayerName}"
   },
   "NetworkErrors": {
-    "RecipeHashMismatch": "ОШИБКА: Этот клиент несовместим с действующим сервером.",
     "KickedPlayerForInactivity": "Вы исключены за бездействие. Сервер прервал соединение, потому что вы бездействовали слишком долго.",
     "SpawnedWhenPermanentlyDead": "У этого клиента не осталось жизней."
   },

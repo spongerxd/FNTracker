@@ -1,0 +1,5185 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Juno_GameplayItemCraftingFormulas",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CraftingFormula'",
+        "ObjectPath": "/Script/CraftingRuntime"
+      }
+    },
+    "Rows": {
+      "Bread": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Bread_DisplayName",
+          "SourceString": "Energizing Cornbread",
+          "LocalizedString": "Бодрящий кукурузный хлеб"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 7,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Corn"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Milk"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Bread",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "ButterCake": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "ButterCake_DisplayName",
+          "SourceString": "Butter Cake of the Immortal",
+          "LocalizedString": "Бисквит бессмертия"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 8,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Milk"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_ButterCake",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CookedMeat": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CookedMeat_DisplayName",
+          "SourceString": "Robust Grilled Meat",
+          "LocalizedString": "Сытное жареное мясо"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Meat"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CookedMeat",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CopperBars": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CopperBars_DisplayName",
+          "SourceString": "Copper Bar",
+          "LocalizedString": "Медный слиток"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.MetalProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.MetalBars"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Copper"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.AnyWood"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CopperBars",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 6.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Cord": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Cord_DisplayName",
+          "SourceString": "Cord",
+          "LocalizedString": "Шнурок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.ThreadProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.PlantFiber"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Cord",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CornKernel": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CornKernel_DisplayName",
+          "SourceString": "Corn Kernel",
+          "LocalizedString": "Зерно кукурузы"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Corn"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CornKernel",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CornOnTheCob": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CornOnTheCob_DisplayName",
+          "SourceString": "Zesty Grilled Corn",
+          "LocalizedString": "Острая жареная кукуруза"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 2,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Corn"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CornOnTheCob",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CutAmber": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CutAmber_DisplayName",
+          "SourceString": "Cut Amber",
+          "LocalizedString": "Огранённый янтарь"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T2"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.CutStone"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Amber"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CutAmber",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 8.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CutRuby": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CutRuby_DisplayName",
+          "SourceString": "Cut Ruby",
+          "LocalizedString": "Огранённый рубин"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T2"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.CutStone"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Ruby"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CutRuby",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 8.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "CutSapphire": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "CutSapphire_DisplayName",
+          "SourceString": "Cut Sapphire",
+          "LocalizedString": "Огранённый сапфир"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T2"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.CutStone"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Sapphire"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_CutSapphire",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 8.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Drawstring": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Drawstring_DisplayName",
+          "SourceString": "Drawstring",
+          "LocalizedString": "Бечева"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.ThreadProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Drawstring",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FlexwoodRod": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FlexwoodRod_DisplayName",
+          "SourceString": "Flexwood Rod",
+          "LocalizedString": "Палка из кактуса"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.WoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.WoodenRod"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Flexwood"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FlexwoodRod",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Flour": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Flour_DisplayName",
+          "SourceString": "Flour",
+          "LocalizedString": "Мука"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.FoodIngredients"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Seed.Wheat"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Flour",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FriedEgg": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FriedEgg_DisplayName",
+          "SourceString": "Fervent Fried Eggs",
+          "LocalizedString": "Будоражащая яичница-глазунья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 3,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 4
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FriedEgg",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FrostpineRod": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FrostpineRod_DisplayName",
+          "SourceString": "Frostpine Rod",
+          "LocalizedString": "Палка из морозной сосны"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.WoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.WoodenRod"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Frostpine"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FrostpineRod",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FruitPie": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FruitPie_DisplayName",
+          "SourceString": "Industrious Fruit Pie",
+          "LocalizedString": "Воодушевляющий фруктовый пирог"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 3,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Raspberry"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.SnowBerry"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.SlapBerry"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FruitPie",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Glass": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Glass_DisplayName",
+          "SourceString": "Glass",
+          "LocalizedString": "Стекло"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.MetalProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.RockSlab"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Special.Sand"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.AnyWood"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Glass",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "GraniteSlab": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "GraniteSlab_DisplayName",
+          "SourceString": "Granite Slab",
+          "LocalizedString": "Гранитный блок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.RockSlab"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Granite"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_GraniteSlab",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "HardwoodRod": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "HardwoodRod_DisplayName",
+          "SourceString": "Wooden Rod",
+          "LocalizedString": "Деревянная палка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.WoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.WoodenRod"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_HardwoodRod",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "HeavyWoolThread": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "HeavyWoolThread_DisplayName",
+          "SourceString": "Heavy Wool Thread",
+          "LocalizedString": "Нить из плотной шерсти"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.ThreadProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.HeavyWool"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_HeavyWoolThread",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "IronBars": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "IronBars_DisplayName",
+          "SourceString": "Iron Bar",
+          "LocalizedString": "Железный слиток"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.MetalProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.MetalBars"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Iron"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.AnyWood"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_IronBars",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 6.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "KnotrootRod": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "KnotrootRod_DisplayName",
+          "SourceString": "Knotroot Rod",
+          "LocalizedString": "Палка из корневяза"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.WoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.WoodenRod"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Knotroot"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_KnotrootRod",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "MalachiteSlab": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "MalachiteSlab_DisplayName",
+          "SourceString": "Malachite Slab",
+          "LocalizedString": "Малахитовый блок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.RockSlab"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Malachite"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_MalachiteSlab",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "MarbleSlab": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "MarbleSlab_DisplayName",
+          "SourceString": "Marble Slab",
+          "LocalizedString": "Мраморный блок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.RockSlab"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Marble"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_MarbleSlab",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "MeatPie": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "MeatPie_DisplayName",
+          "SourceString": "Fortifying Meat Pie",
+          "LocalizedString": "Укрепляющий мясной пирог"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 2,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Meat"
+            ],
+            "Count": 6
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 4
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_MeatPie",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "ObsidianSlab": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "ObsidianSlab_DisplayName",
+          "SourceString": "Obsidian Slab",
+          "LocalizedString": "Обсидиановый блок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.StoneProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.RockSlab"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Obsidian"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_ObsidianSlab",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "PepperSeed": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "PepperSeed_DisplayName",
+          "SourceString": "Pepper Seed",
+          "LocalizedString": "Семечко перца"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Pepper"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_PepperSeed",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Pizza": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Pizza_DisplayName",
+          "SourceString": "Mighty Pizza",
+          "LocalizedString": "Поднимающая дух пицца"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 4,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Meat"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Pepper"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Cheese"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Pizza",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Planks": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Planks_DisplayName",
+          "SourceString": "Plank",
+          "LocalizedString": "Доска"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.WoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.WoodenRod"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.AnyWood"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Planks",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "PumpkinPie": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "PumpkinPie_DisplayName",
+          "SourceString": "Robust Pumpkin Pie",
+          "LocalizedString": "Сытный тыквенный пирог"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T3"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Pumpkin"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Milk"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_PumpkinPie",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "PumpkinSeed": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "PumpkinSeed_DisplayName",
+          "SourceString": "Pumpkin Seed",
+          "LocalizedString": "Тыквенное семечко"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Pumpkin"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_PumpkinSeed",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "RaspberrySeed": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "RaspberrySeed_DisplayName",
+          "SourceString": "Raspberry Seed",
+          "LocalizedString": "Малиновое семечко"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Raspberry"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_RaspberrySeed",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SilkFabric": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SilkFabric_DisplayName",
+          "SourceString": "Silk Fabric",
+          "LocalizedString": "Шёлковая ткань"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FabricProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SilkFabric",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SilkThread": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SilkThread_DisplayName",
+          "SourceString": "Silk Thread",
+          "LocalizedString": "Шёлковая нить"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.ThreadProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Silk"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SilkThread",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SlapberrySeed": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SlapberrySeed_DisplayName",
+          "SourceString": "Slapberry Seed",
+          "LocalizedString": "Косточка бодрящей ягоды"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.SlapBerry"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SlapberrySeed",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SnowberrySeed": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SnowberrySeed_DisplayName",
+          "SourceString": "Chillberry Seed",
+          "LocalizedString": "Семя морозной ягоды"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.SnowBerry"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SnowberrySeed",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SpicyBurger": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SpicyBurger_DisplayName",
+          "SourceString": "Robust Glow Burger",
+          "LocalizedString": "Сытный светящийся бургер"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 14,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FoodProcessor.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Food"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Flour"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Meat"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Pepper"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SpicyBurger",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WorkBenchT2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WorkBenchT2_DisplayName",
+          "SourceString": "Crafting Bench",
+          "LocalizedString": "Верстак"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 2,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Shell"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WorkBenchT2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WorkBenchT3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WorkBenchT3_DisplayName",
+          "SourceString": "Crafting Bench",
+          "LocalizedString": "Верстак"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 3,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T2"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.KnotrootRod"
+            ],
+            "Count": 12
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.MarbleSlab"
+            ],
+            "Count": 15
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.SandClaw"
+            ],
+            "Count": 6
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.SandRollerShell"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WorkBenchT3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WorkBenchT4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WorkBenchT4_DisplayName",
+          "SourceString": "Crafting Bench",
+          "LocalizedString": "Верстак"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 4,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T3"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.CopperBars"
+            ],
+            "Count": 15
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.ObsidianSlab"
+            ],
+            "Count": 25
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.GrasslandsBruteScale"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WorkBenchT4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "EssenceOfDamage": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "EssenceOfDamage_DisplayName",
+          "SourceString": "Essence of Damage",
+          "LocalizedString": "Субстанция урона"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": false,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.EssenceTable"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Essence"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Ruby"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BoomerCore"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_EssenceOfDamage",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "EssenceOfDurability": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "EssenceOfDurability_DisplayName",
+          "SourceString": "Essence of Durability",
+          "LocalizedString": "Субстанция прочности"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": false,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.EssenceTable"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Essence"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Amber"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 10
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_EssenceOfDurability",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "EssenceOfHealth": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "EssenceOfHealth_DisplayName",
+          "SourceString": "Essence of Health",
+          "LocalizedString": "Субстанция здоровья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": false,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.EssenceTable"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Essence"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Amber"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Milk"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.Eggs"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_EssenceOfHealth",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "EssenceOfLuck": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "EssenceOfLuck_DisplayName",
+          "SourceString": "Essence of Luck",
+          "LocalizedString": "Субстанция удачи"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": false,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.EssenceTable"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables",
+          "Juno.Crafting.Type.Essence"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Sapphire"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Ruby"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Amber"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_EssenceOfLuck",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Arrow": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Arrow_DisplayName",
+          "SourceString": "Arrow",
+          "LocalizedString": "Стрела"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Feather"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Arrow",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Dynamite": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Dynamite_DisplayName",
+          "SourceString": "Dynamite",
+          "LocalizedString": "Динамит"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Consumables"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BlastPowder"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Dynamite",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketBasic_T1": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketBasic_T1_DisplayName",
+          "SourceString": "Health Charm",
+          "LocalizedString": "Амулет здоровья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Bone"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Claw"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketBasic_T1",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketBasic_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketBasic_T2_DisplayName",
+          "SourceString": "Health Charm",
+          "LocalizedString": "Амулет здоровья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Trait.Shell"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketBasic_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketBasic_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketBasic_T3_DisplayName",
+          "SourceString": "Health Charm",
+          "LocalizedString": "Амулет здоровья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.MetalPlate"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.AnyPelt"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketBasic_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketBasic_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketBasic_T4_DisplayName",
+          "SourceString": "Health Charm",
+          "LocalizedString": "Амулет здоровья"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.CutAmber"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.GrasslandsBruteScale"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketBasic_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketColdResist_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketColdResist_T3_DisplayName",
+          "SourceString": "Inner Fire Charm",
+          "LocalizedString": "Амулет внутреннего огня"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.ObsidianSlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.SandRollerShell"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketColdResist_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketColdResist_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketColdResist_T4_DisplayName",
+          "SourceString": "Inner Fire Charm",
+          "LocalizedString": "Амулет внутреннего огня"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.CutRuby"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BoomerCore"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.DesertBruteScale"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketColdResist_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketDamageReflection_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketDamageReflection_T2_DisplayName",
+          "SourceString": "Reflection Charm",
+          "LocalizedString": "Амулет отражения"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Glass"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.VendettaFlopper.Regular"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketDamageReflection_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketDamageReflection_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketDamageReflection_T3_DisplayName",
+          "SourceString": "Reflection Charm",
+          "LocalizedString": "Амулет отражения"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Glass"
+            ],
+            "Count": 30
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.VendettaFlopper.Regular"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BoomerCore"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketDamageReflection_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketDigFind_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketDigFind_T3_DisplayName",
+          "SourceString": "Good Luck Charm",
+          "LocalizedString": "Амулет удачи"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.GoldBars"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Special.Intermediary.Sandstone"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.UnrefinedRiftCrystal"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketDigFind_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketDmgReductionOnHit_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketDmgReductionOnHit_T3_DisplayName",
+          "SourceString": "Charm of Resilience",
+          "LocalizedString": "Амулет стойкости"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.MahoganyRod"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.StinkSac"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Bone"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketDmgReductionOnHit_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketDmgReductionOnHit_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketDmgReductionOnHit_T4_DisplayName",
+          "SourceString": "Charm of Resilience",
+          "LocalizedString": "Амулет стойкости"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.HeavyWoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.IronBars"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.FrostBearPelt"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BoomerCore"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketDmgReductionOnHit_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketHeatResist_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketHeatResist_T2_DisplayName",
+          "SourceString": "Cool-Headed Charm",
+          "LocalizedString": "Амулет хладнокровия"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.HeavyWoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.MalachiteSlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.FrostyShell"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketHeatResist_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketHeatResist_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketHeatResist_T3_DisplayName",
+          "SourceString": "Cool-Headed Charm",
+          "LocalizedString": "Амулет хладнокровия"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.HeavyWoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.CutSapphire"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.AlpineBruteScale"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.FrostBearPelt"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketHeatResist_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketIlluminated_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketIlluminated_T3_DisplayName",
+          "SourceString": "Illuminator",
+          "LocalizedString": "Осветитель"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Glass"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.PurpleThermal.Regular"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Brightcore"
+            ],
+            "Count": 10
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketIlluminated_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketOvershield_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketOvershield_T2_DisplayName",
+          "SourceString": "Hearty Totem",
+          "LocalizedString": "Бодрящий тотем"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.MarbleSlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Shell"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Bone"
+            ],
+            "Count": 8
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketOvershield_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketOvershield_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketOvershield_T3_DisplayName",
+          "SourceString": "Hearty Totem",
+          "LocalizedString": "Бодрящий тотем"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.CursedBone"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.CopperBars"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BearPelt"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketOvershield_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketRegeneration_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketRegeneration_T3_DisplayName",
+          "SourceString": "Regeneration Charm",
+          "LocalizedString": "Амулет регенерации"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.RedRockSlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BearPelt"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.SlurpMushroom"
+            ],
+            "Count": 10
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketRegeneration_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketRegeneration_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketRegeneration_T4_DisplayName",
+          "SourceString": "Regeneration Charm",
+          "LocalizedString": "Амулет регенерации"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.CutEmerald"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Food.SlurpJuice"
+            ],
+            "Count": 15
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.UnrefinedRiftCrystal"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketRegeneration_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketRevival_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketRevival_T3_DisplayName",
+          "SourceString": "Totem of the Immortal",
+          "LocalizedString": "Тотем бессмертия"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkThread"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.CopperBars"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BoomerCore"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.CursedBone"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketRevival_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketSwimSpeed_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketSwimSpeed_T2_DisplayName",
+          "SourceString": "Wavebreak Charm",
+          "LocalizedString": "Амулет цунами"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.Flopper.Flopper.Regular"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketSwimSpeed_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "TrinketSwimSpeed_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "TrinketSwimSpeed_T3_DisplayName",
+          "SourceString": "Wavebreak Charm",
+          "LocalizedString": "Амулет цунами"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Gear",
+          "Juno.Crafting.Type.Trinket"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.FrostpineRod"
+            ],
+            "Count": 20
+          },
+          {
+            "IngredientTags": [
+              "Juno.Flopper.Flopper.Legendary"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_TrinketSwimSpeed_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shovel_T1": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shovel_T1_DisplayName",
+          "SourceString": "Wooden Shovel",
+          "LocalizedString": "Деревянная лопата"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Tools",
+          "Juno.Crafting.Type.Shovel"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shovel_T1",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shovel_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shovel_T2_DisplayName",
+          "SourceString": "Stone Shovel",
+          "LocalizedString": "Каменная лопата"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Tools",
+          "Juno.Crafting.Type.Shovel"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.AnySlab"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shovel_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shovel_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shovel_T3_DisplayName",
+          "SourceString": "Metal Shovel",
+          "LocalizedString": "Металлическая лопата"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Tools",
+          "Juno.Crafting.Type.Shovel"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.MetalPlate"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.AnyBar"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shovel_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shovel_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shovel_T4_DisplayName",
+          "SourceString": "Gem Shovel",
+          "LocalizedString": "Самоцветная лопата"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Tools",
+          "Juno.Crafting.Type.Shovel"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.AnyCutGem"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.AnyBar"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shovel_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Glider": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Glider_DisplayName",
+          "SourceString": "Glider",
+          "LocalizedString": "Дельтаплан"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Toys",
+          "Juno.Crafting.Type.Device"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolFabric"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkFabric"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Glider",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Hookgun": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Hookgun_DisplayName",
+          "SourceString": "Grappler",
+          "LocalizedString": "Присоска"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Toys",
+          "Juno.Crafting.Type.Device"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BlastPowder"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Hookgun",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "BasicTorch": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "BasicTorch_DisplayName",
+          "SourceString": "Torch",
+          "LocalizedString": "Факел"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Toys"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.AnyWood"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.PlantFiber"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_BasicTorch",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Spyglass": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Spyglass_DisplayName",
+          "SourceString": "Spyglass",
+          "LocalizedString": "Подзорная труба"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Toys"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Glass"
+            ],
+            "Count": 4
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.AnyRod"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Spyglass",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shield_T1": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shield_T1_DisplayName",
+          "SourceString": "Wooden Shield",
+          "LocalizedString": "Деревянный щит"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Weapons",
+          "Juno.Crafting.Type.Shield"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Trait.Shell"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shield_T1",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shield_T2": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shield_T2_DisplayName",
+          "SourceString": "Stone Shield",
+          "LocalizedString": "Каменный щит"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Weapons",
+          "Juno.Crafting.Type.Shield"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.AnySlab"
+            ],
+            "Count": 5
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Trait.Shell"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shield_T2",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shield_T3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shield_T3_DisplayName",
+          "SourceString": "Metal Shield",
+          "LocalizedString": "Металлический щит"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Weapons",
+          "Juno.Crafting.Type.Shield"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.AnyBar"
+            ],
+            "Count": 7
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.AnyPelt"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shield_T3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Shield_T4": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Shield_T4_DisplayName",
+          "SourceString": "Gem Shield",
+          "LocalizedString": "Самоцветный щит"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Bench.T1"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Weapons",
+          "Juno.Crafting.Type.Shield"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Crystal.Intermediary.AnyCutGem"
+            ],
+            "Count": 6
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.AnyBar"
+            ],
+            "Count": 3
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.AnyPelt"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.Cord"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Shield_T4",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "ActivationSwitch": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "ActivationSwitch_DisplayName",
+          "SourceString": "Activation Switch",
+          "LocalizedString": "Переключатель"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Toys",
+          "Juno.BuildingMenu.SubCategory.Controls",
+          "Juno.BuildingMenu.Header.Switches",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 1
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BlastPowder"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_ActivationSwitch",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "DynamicPlatform": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "DynamicPlatform_DisplayName",
+          "SourceString": "Dynamic Foundation",
+          "LocalizedString": "Динамическое основание"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 3,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Toys",
+          "Juno.BuildingMenu.SubCategory.Other",
+          "Juno.BuildingMenu.Header.Other",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 4
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_DynamicPlatform",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "ExplosiveBarrel": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "ExplosiveBarrel_DisplayName",
+          "SourceString": "Boom Barrel",
+          "LocalizedString": "Взрывная бочка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 4,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Toys",
+          "Juno.BuildingMenu.SubCategory.Other",
+          "Juno.BuildingMenu.Header.Other",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 6
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.BlastPowder"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_ExplosiveBarrel",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "LaunchPad": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "LaunchPad_DisplayName",
+          "SourceString": "Launch Pad",
+          "LocalizedString": "Пусковая установка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 10,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Toys",
+          "Juno.BuildingMenu.SubCategory.Other",
+          "Juno.BuildingMenu.Header.Other",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Flexwood"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.CopperBars"
+            ],
+            "Count": 4
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.SilkFabric"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_LaunchPad",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "PhysicsCrate": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "PhysicsCrate_DisplayName",
+          "SourceString": "Wooden Crate",
+          "LocalizedString": "Деревянный ящик"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 9,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Toys",
+          "Juno.BuildingMenu.SubCategory.Other",
+          "Juno.BuildingMenu.Header.Other",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 6
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_PhysicsCrate",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "EssenceTable": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "EssenceTable_DisplayName",
+          "SourceString": "Essence Table",
+          "LocalizedString": "Стол для субстанций"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 14,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 10
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_EssenceTable",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FabricProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FabricProcessor_DisplayName",
+          "SourceString": "Loom",
+          "LocalizedString": "Ткацкий станок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 13,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 9
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.HardwoodRod"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 4
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 4
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FabricProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FoodProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FoodProcessor_DisplayName",
+          "SourceString": "Grill",
+          "LocalizedString": "Гриль"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 6,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 6
+          },
+          {
+            "IngredientTags": [
+              "Juno.Item.Utility.BasicTorch"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FoodProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "FoodProcessorT3": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "FoodProcessorT3_DisplayName",
+          "SourceString": "Oven",
+          "LocalizedString": "Печь"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 16,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Brightcore"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.MetalPlate"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 20
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_FoodProcessorT3",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "GemProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "GemProcessor_DisplayName",
+          "SourceString": "Gem Cutter",
+          "LocalizedString": "Ограночный станок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 12,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Metal.Intermediary.MetalPlate"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Brightcore"
+            ],
+            "Count": 8
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_GemProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Grinder": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Grinder_DisplayName",
+          "SourceString": "Grain Mill",
+          "LocalizedString": "Зернодробилка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 10,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.HardwoodRod"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Special.Intermediary.Sandstone"
+            ],
+            "Count": 3
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Grinder",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "MetalProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "MetalProcessor_DisplayName",
+          "SourceString": "Metal Smelter",
+          "LocalizedString": "Плавильня"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 15,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Intermediary.GraniteSlab"
+            ],
+            "Count": 35
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_MetalProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "StoneProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "StoneProcessor_DisplayName",
+          "SourceString": "Stone Breaker",
+          "LocalizedString": "Камнедробилка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 9,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 10
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Stone.Granite"
+            ],
+            "Count": 20
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_StoneProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "ThreadProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "ThreadProcessor_DisplayName",
+          "SourceString": "Spinning Wheel",
+          "LocalizedString": "Прялка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 7,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.Planks"
+            ],
+            "Count": 8
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Intermediary.HardwoodRod"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 10
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_ThreadProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WoodProcessor": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WoodProcessor_DisplayName",
+          "SourceString": "Lumber Mill",
+          "LocalizedString": "Лесопилка"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 5,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 20
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WoodProcessor",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WorkBench": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WorkBench_DisplayName",
+          "SourceString": "Crafting Bench",
+          "LocalizedString": "Верстак"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Stations",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 6
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WorkBench",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "Campfire": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "Campfire_DisplayName",
+          "SourceString": "Campfire",
+          "LocalizedString": "Костёр"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Village",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.Item.Utility.BasicTorch"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_Campfire",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "MapMarker": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "MapMarker_DisplayName",
+          "SourceString": "Map Marker",
+          "LocalizedString": "Метка на карте"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 2,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Village",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 2
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_MapMarker",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "SoilPlot": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "SoilPlot_DisplayName",
+          "SourceString": "Garden Plot",
+          "LocalizedString": "Садовый участок"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 7,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Village",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Special.Soil"
+            ],
+            "Count": 2
+          },
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Poop"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_SoilPlot",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "VillageSquare": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "VillageSquare_DisplayName",
+          "SourceString": "Village Square",
+          "LocalizedString": "Главная площадь"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": true,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": 3,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Player"
+        },
+        "AttributeTags": [
+          "Juno.BuildingMenu.Category.Village",
+          "Juno.BuildingMenu.Header.Village",
+          "Juno.BuildingMenu.Theme.Utility"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Wood.Hardwood"
+            ],
+            "Count": 12
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_VillageSquare",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": -1.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WheatGrain": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WheatGrain_DisplayName",
+          "SourceString": "Wheat Grain",
+          "LocalizedString": "Пшеничное зерно"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.Grinder"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Seeds"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Wheat"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WheatGrain",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 2.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WoolFabric": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WoolFabric_DisplayName",
+          "SourceString": "Wool Fabric",
+          "LocalizedString": "Шерстяная ткань"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.FabricProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.Misc.Intermediary.WoolThread"
+            ],
+            "Count": 5
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WoolFabric",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 4.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      },
+      "WoolThread": {
+        "DisplayName": {
+          "Namespace": "Juno_GameplayItemCraftingFormulas",
+          "Key": "WoolThread_DisplayName",
+          "SourceString": "Wool Thread",
+          "LocalizedString": "Шерстяная нить"
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bEnabled": true,
+        "bAlwaysKnownFormula": false,
+        "bInstantlyConsumeIngredients": false,
+        "SortingPriority": -1,
+        "SourceObjectTag": {
+          "TagName": "Crafting.Object.ThreadProcessor"
+        },
+        "AttributeTags": [
+          "Juno.Crafting.Category.Materials",
+          "Juno.Crafting.Type.Thread"
+        ],
+        "RequiredIngredients": [
+          {
+            "IngredientTags": [
+              "Juno.CraftingResource.CreatureDrop.Wool"
+            ],
+            "Count": 1
+          }
+        ],
+        "ResultLootTierKey": "Loot_CraftInstructions_WoolThread",
+        "WhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UpgradeRules": [],
+        "OverrideCraftingTime": 3.0,
+        "InstigatorWhileCraftingAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExtraData": []
+      }
+    }
+  }
+]

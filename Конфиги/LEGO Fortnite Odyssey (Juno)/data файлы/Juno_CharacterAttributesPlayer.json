@@ -6,12 +6,16 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "Class'FortPlayerPawnStats'",
-        "ObjectPath": "/Script/FortniteGame"
+        "ObjectName": "Class'JunoPlayerPawnStats'",
+        "ObjectPath": "/Script/JunoGameNative"
       }
     },
     "Rows": {
       "Minifig_Base_Player": {
+        "MaxAfflictionAmount": -1.0,
+        "InitialShieldAmount": 0.0,
+        "EffectMagnitudes": [],
+        "JunoTierValue": 1.0,
         "MaxJumpTime": 0.0,
         "MaxStamina": 100.0,
         "StaminaRegenRate": 6.25,

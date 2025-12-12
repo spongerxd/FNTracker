@@ -1,0 +1,326 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Juno_WeaponDurabilityStats",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortWeaponDurabilityByRarityStats'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Melee_HarvestingTool": {
+        "Common": 12,
+        "Uncommon": 12,
+        "Rare": 12,
+        "Epic": 12,
+        "Legendary": 12,
+        "Mythic": 12,
+        "Transcendent": 12,
+        "Unattainable": 12
+      },
+      "Melee_HarvestingTool_Machete": {
+        "Common": 8,
+        "Uncommon": 8,
+        "Rare": 8,
+        "Epic": 8,
+        "Legendary": 8,
+        "Mythic": 8,
+        "Transcendent": 8,
+        "Unattainable": 8
+      },
+      "Melee_HarvestingTool_Pickaxe": {
+        "Common": 10,
+        "Uncommon": 10,
+        "Rare": 10,
+        "Epic": 10,
+        "Legendary": 10,
+        "Mythic": 10,
+        "Transcendent": 10,
+        "Unattainable": 10
+      },
+      "Melee_HarvestingTool_Shoddy": {
+        "Common": 5,
+        "Uncommon": 5,
+        "Rare": 5,
+        "Epic": 5,
+        "Legendary": 5,
+        "Mythic": 5,
+        "Transcendent": 5,
+        "Unattainable": 5
+      },
+      "Melee_Weapon": {
+        "Common": 6,
+        "Uncommon": 6,
+        "Rare": 6,
+        "Epic": 6,
+        "Legendary": 6,
+        "Mythic": 6,
+        "Transcendent": 6,
+        "Unattainable": 6
+      },
+      "Melee_Weapon_Spear": {
+        "Common": 6,
+        "Uncommon": 6,
+        "Rare": 6,
+        "Epic": 6,
+        "Legendary": 6,
+        "Mythic": 6,
+        "Transcendent": 6,
+        "Unattainable": 6
+      },
+      "Melee_Weapon_Hammer": {
+        "Common": 3,
+        "Uncommon": 3,
+        "Rare": 3,
+        "Epic": 3,
+        "Legendary": 3,
+        "Mythic": 3,
+        "Transcendent": 3,
+        "Unattainable": 3
+      },
+      "Range_Weapon": {
+        "Common": 4,
+        "Uncommon": 4,
+        "Rare": 4,
+        "Epic": 4,
+        "Legendary": 4,
+        "Mythic": 4,
+        "Transcendent": 4,
+        "Unattainable": 4
+      },
+      "Gravity": {
+        "Common": 30,
+        "Uncommon": 81,
+        "Rare": 138,
+        "Epic": 234,
+        "Legendary": 399,
+        "Mythic": 399,
+        "Transcendent": 399,
+        "Unattainable": 399
+      },
+      "Shovel": {
+        "Common": 25,
+        "Uncommon": 68,
+        "Rare": 118,
+        "Epic": 198,
+        "Legendary": 333,
+        "Mythic": 333,
+        "Transcendent": 333,
+        "Unattainable": 333
+      },
+      "Melee_Dagger": {
+        "Common": 9,
+        "Uncommon": 9,
+        "Rare": 9,
+        "Epic": 9,
+        "Legendary": 9,
+        "Mythic": 9,
+        "Transcendent": 9,
+        "Unattainable": 9
+      },
+      "FishingRod": {
+        "Common": 40,
+        "Uncommon": 60,
+        "Rare": 90,
+        "Epic": 135,
+        "Legendary": 204,
+        "Mythic": 204,
+        "Transcendent": 204,
+        "Unattainable": 204
+      },
+      "Osiris_Melee_Weapon": {
+        "Common": 200,
+        "Uncommon": 200,
+        "Rare": 200,
+        "Epic": 200,
+        "Legendary": 200,
+        "Mythic": 200,
+        "Transcendent": 200,
+        "Unattainable": 200
+      },
+      "Osiris_Range_Bowcaster": {
+        "Common": 15,
+        "Uncommon": 15,
+        "Rare": 15,
+        "Epic": 15,
+        "Legendary": 15,
+        "Mythic": 15,
+        "Transcendent": 15,
+        "Unattainable": 15
+      },
+      "Osiris_Range_Pistol": {
+        "Common": 35,
+        "Uncommon": 35,
+        "Rare": 35,
+        "Epic": 35,
+        "Legendary": 35,
+        "Mythic": 35,
+        "Transcendent": 35,
+        "Unattainable": 35
+      },
+      "Osiris_Range_Rifle": {
+        "Common": 100,
+        "Uncommon": 100,
+        "Rare": 100,
+        "Epic": 100,
+        "Legendary": 100,
+        "Mythic": 100,
+        "Transcendent": 100,
+        "Unattainable": 100
+      },
+      "Klombo_Blast_Shield": {
+        "Common": 20,
+        "Uncommon": 20,
+        "Rare": 20,
+        "Epic": 20,
+        "Legendary": 20,
+        "Mythic": 20,
+        "Transcendent": 20,
+        "Unattainable": 20
+      },
+      "Klombo_Knockback_Shield": {
+        "Common": 175,
+        "Uncommon": 175,
+        "Rare": 175,
+        "Epic": 175,
+        "Legendary": 175,
+        "Mythic": 175,
+        "Transcendent": 175,
+        "Unattainable": 175
+      },
+      "Klombo_Range_Pistol": {
+        "Common": 30,
+        "Uncommon": 42,
+        "Rare": 51,
+        "Epic": 61,
+        "Legendary": 74,
+        "Mythic": 74,
+        "Transcendent": 74,
+        "Unattainable": 74
+      },
+      "Klombo_Range_Rifle": {
+        "Common": 20,
+        "Uncommon": 28,
+        "Rare": 34,
+        "Epic": 41,
+        "Legendary": 49,
+        "Mythic": 49,
+        "Transcendent": 49,
+        "Unattainable": 49
+      },
+      "Neptune_Slurp_Launcher": {
+        "Common": 30,
+        "Uncommon": 30,
+        "Rare": 30,
+        "Epic": 30,
+        "Legendary": 30,
+        "Mythic": 30,
+        "Transcendent": 30,
+        "Unattainable": 30
+      },
+      "Neptune_Vortex_Pickaxe": {
+        "Common": 540,
+        "Uncommon": 540,
+        "Rare": 540,
+        "Epic": 540,
+        "Legendary": 540,
+        "Mythic": 540,
+        "Transcendent": 540,
+        "Unattainable": 540
+      },
+      "Neptune_Shattered_Horn": {
+        "Common": 600,
+        "Uncommon": 600,
+        "Rare": 600,
+        "Epic": 600,
+        "Legendary": 600,
+        "Mythic": 600,
+        "Transcendent": 600,
+        "Unattainable": 600
+      },
+      "Melee_MarsWeapon_TwoHandedHammer": {
+        "Common": 6,
+        "Uncommon": 6,
+        "Rare": 6,
+        "Epic": 6,
+        "Legendary": 6,
+        "Mythic": 6,
+        "Transcendent": 6,
+        "Unattainable": 6
+      },
+      "Melee_MarsWeapon_DualDaggers": {
+        "Common": 6,
+        "Uncommon": 6,
+        "Rare": 6,
+        "Epic": 6,
+        "Legendary": 6,
+        "Mythic": 6,
+        "Transcendent": 6,
+        "Unattainable": 6
+      },
+      "Range_MarsWeapon_PlasmaPistols": {
+        "Common": 60,
+        "Uncommon": 60,
+        "Rare": 60,
+        "Epic": 60,
+        "Legendary": 60,
+        "Mythic": 60,
+        "Transcendent": 60,
+        "Unattainable": 60
+      },
+      "Range_MarsWeapon_HunterBlade": {
+        "Common": 80,
+        "Uncommon": 120,
+        "Rare": 180,
+        "Epic": 270,
+        "Legendary": 408,
+        "Mythic": 408,
+        "Transcendent": 408,
+        "Unattainable": 408
+      },
+      "Range_MarsWeapon_RiftRipperWand": {
+        "Common": 120,
+        "Uncommon": 180,
+        "Rare": 270,
+        "Epic": 404,
+        "Legendary": 612,
+        "Mythic": 612,
+        "Transcendent": 612,
+        "Unattainable": 612
+      },
+      "Range_MarsWeapon_ShadowCallerEnergy": {
+        "Common": 80,
+        "Uncommon": 120,
+        "Rare": 180,
+        "Epic": 270,
+        "Legendary": 408,
+        "Mythic": 408,
+        "Transcendent": 408,
+        "Unattainable": 408
+      },
+      "Melee_Tabasco_Nunchucks": {
+        "Common": 9,
+        "Uncommon": 9,
+        "Rare": 9,
+        "Epic": 9,
+        "Legendary": 9,
+        "Mythic": 9,
+        "Transcendent": 9,
+        "Unattainable": 9
+      },
+      "Range_Tabasco_Shurikens": {
+        "Common": 6,
+        "Uncommon": 6,
+        "Rare": 6,
+        "Epic": 6,
+        "Legendary": 6,
+        "Mythic": 6,
+        "Transcendent": 6,
+        "Unattainable": 6
+      }
+    }
+  }
+]

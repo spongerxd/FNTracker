@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "Figment_S06_PassData_Data",
+    "Name": "Figment_S07_PassData_Data",
     "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -15,64 +15,58 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "0B6059F44424D7CD79B084B66E465D79",
-        "SourceString": "Chapter 1 - Season 6",
-        "LocalizedString": "Сезон 6 главы 1"
+        "Key": "C1CD1D1247444A5FF424AE9D43EEB4DC",
+        "SourceString": "Chapter 1 - Season 7",
+        "LocalizedString": "Сезон 7 главы 1"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "FAF820B44203166725B379A019EC0177",
+        "Key": "F259C69E45D7A18BBBBB2DA5F0D020BB",
         "SourceString": "Season Pass Ended!",
         "LocalizedString": "Сезонный пропуск закончился!"
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "FF4550774279BB352B7F0B99FA3294A4",
+        "Key": "EF3583EB4A95C8A32630E6AFB2D35BA7",
         "SourceString": "Get OG Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 0.846873,
-          "G": 0.428691,
-          "B": 0.89627,
+          "R": 0.412543,
+          "G": 1.0,
+          "B": 0.964687,
           "A": 1.0,
-          "Hex": "EDAFF3"
+          "Hex": "ACFFFB"
         },
         "ProgressionColor": {
-          "R": 0.904661,
-          "G": 0.070677,
-          "B": 0.785568,
+          "R": 0.130136,
+          "G": 0.871367,
+          "B": 1.0,
           "A": 1.0,
-          "Hex": "F44BE6"
-        },
-        "OverlayColor": {
-          "R": 0.0,
-          "G": 0.0,
-          "B": 0.0,
-          "A": 0.4,
-          "Hex": "66000000"
+          "Hex": "65F0FF"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/Figment_S06_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Surface.MI_UI_Figment_VaultWorld_Background_Surface",
+          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Background_3D.MI_UI_Figment_07_Background_3D",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/Figment_S06_PassData/UI/MaterialInstances/MI_UI_Figment_Background.MI_UI_Figment_Background",
+          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Background_UI.MI_UI_Figment_07_Background_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/Figment_S06_PassData/UI/MaterialInstances/MI_UI_Figment_VaultWorld_Background_Upsell.MI_UI_Figment_VaultWorld_Background_Upsell",
+          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Crew_Upsell.MI_UI_Figment_07_Crew_Upsell",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/Figment_S06_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
+          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
           "SubPathString": ""
         },
         "BenefitsByType": [
           {
             "UpsellType": "ENexusUpsellEntryType::Free",
             "BenefitGroups": [],
+            "BenefitName": "",
             "ImageUrl": "",
             "ThemeColors": [
               {
@@ -161,6 +155,7 @@
           {
             "UpsellType": "ENexusUpsellEntryType::Paid",
             "BenefitGroups": [],
+            "BenefitName": "",
             "ImageUrl": "",
             "ThemeColors": [
               {
@@ -168,11 +163,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.558341,
-                    "G": 0.027321,
-                    "B": 0.904661,
+                    "R": 0.003347,
+                    "G": 0.651406,
+                    "B": 0.760525,
                     "A": 1.0,
-                    "Hex": "C52EF4"
+                    "Hex": "0BD3E2"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -182,11 +177,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.558341,
-                    "G": 0.027321,
-                    "B": 0.904661,
+                    "R": 0.003347,
+                    "G": 0.651406,
+                    "B": 0.760525,
                     "A": 1.0,
-                    "Hex": "C52EF4"
+                    "Hex": "0BD3E2"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -196,11 +191,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.03434,
-                    "G": 0.000607,
-                    "B": 0.158961,
+                    "R": 0.008568,
+                    "G": 0.028426,
+                    "B": 0.201556,
                     "A": 1.0,
-                    "Hex": "34026F"
+                    "Hex": "172F7C"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -210,11 +205,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.558342,
-                    "G": 0.027321,
-                    "B": 0.905,
-                    "A": 1.0,
-                    "Hex": "C52EF4"
+                    "R": 0.003347,
+                    "G": 0.651406,
+                    "B": 0.760525,
+                    "A": 0.501961,
+                    "Hex": "800BD3E2"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -224,11 +219,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.03434,
-                    "G": 0.000607,
-                    "B": 0.158961,
+                    "R": 0.008568,
+                    "G": 0.028426,
+                    "B": 0.201556,
                     "A": 1.0,
-                    "Hex": "34026F"
+                    "Hex": "172F7C"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -251,10 +246,10 @@
       "Product": {
         "TagName": "Product.BR"
       },
-      "SeasonStorefront": "Figment_S06_PassData",
-      "SeasonPassOfferId": "8428CB014BA402FC242FD1B1A3066BC4",
+      "SeasonStorefront": "Figment_S07_PassData",
+      "SeasonPassOfferId": "6884BDC044853E6AAF37D4A44D0E3385",
       "SeasonPassBundleOfferId": "0",
-      "SeasonPassLevelOfferId": "1C919D094F29234477BF8AA66594F27F",
+      "SeasonPassLevelOfferId": "D1DB8AC74A58DF0514452EAB90590160",
       "SeasonPassLevelBundleOfferId": "0",
       "PaidRewards": [
         {
@@ -262,7 +257,7 @@
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/Figment_S06_PassData/Items/Tokens/Figment_S06_PassData_PremiumToken.Figment_S06_PassData_PremiumToken",
+                "AssetPathName": "/Figment_S07_PassData/Items/Tokens/Figment_S07_PassData_PremiumToken.Figment_S07_PassData_PremiumToken",
                 "SubPathString": ""
               },
               "Quantity": 1,
@@ -271,11 +266,11 @@
           ]
         },
         {
-          "OfferGuid": "A0B29C4A-422C2ADA-25E787BB-DAC97CEA",
+          "OfferGuid": "206D1C3C-4589775A-DA914989-36BFBC34",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_HomeRange_StyleA.VTID_Character_HomeRange_StyleA",
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_MincePounce_StyleA.VTID_Character_MincePounce_StyleA",
                 "SubPathString": ""
               },
               "Quantity": 1,

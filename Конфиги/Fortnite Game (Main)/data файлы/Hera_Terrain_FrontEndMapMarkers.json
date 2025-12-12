@@ -138,31 +138,6 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.25": {
-        "Text": {
-          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "FF216B8547E9A163390798BB2F718434",
-          "SourceString": "COLLIDER CORRIDOR ALPHA",
-          "LocalizedString": "КОРИДОР КОЛЛАЙДЕРА «АЛЬФА»"
-        },
-        "WorldLocation": {
-          "X": 33560.957,
-          "Y": 50393.02,
-          "Z": 5477.1
-        },
-        "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.25"
-        },
-        "CalendarEventsRequired": [],
-        "DiscoveryQuestPrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "None"
-          },
-          "PrimaryAssetName": "None"
-        },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
-      },
       "Athena.Location.UnNamedPOI.Landmark.22": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -650,6 +625,31 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
+      "Athena.Location.UnNamedPOI.Landmark.25": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "56A85A4B4BBF2A283167C797ADDAFB31",
+          "SourceString": "COLLIDER CORRIDOR ALPHA",
+          "LocalizedString": "КОРИДОР КОЛЛАЙДЕРА «АЛЬФА»"
+        },
+        "WorldLocation": {
+          "X": 33428.0,
+          "Y": 50380.0,
+          "Z": 5292.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.25"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
       "Athena.Location.UnNamedPOI.Landmark.18": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -1060,12 +1060,12 @@
           120
         ]
       },
-      "Athena.Location.POI.Generic.12": {
+      "Athena.Location.POI.Generic.14": {
         "Text": {
-          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "FF5EAFF04D4E5703D459199D0C7DAEE6",
-          "SourceString": "InnoLoop Labs",
-          "LocalizedString": "Лаборатория «Петля Про»"
+          "Namespace": "",
+          "Key": "19338B404FD0B541A92840A9BAE1D40B",
+          "SourceString": "LETHAL LABS",
+          "LocalizedString": "ЛЕТАЛЬНАЯ ЛАБОРАТОРИЯ"
         },
         "WorldLocation": {
           "X": -11186.869,
@@ -1073,7 +1073,7 @@
           "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.12"
+          "TagName": "Athena.Location.POI.Generic.14"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -1082,7 +1082,7 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj11",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj13",
         "ActiveDiscoverableBlobIds": [
           70
         ]
@@ -1092,7 +1092,7 @@
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
           "Key": "906753C64F76672C2A2F4DBAABB97ABB",
           "SourceString": "THE ORCHARD HOUSE",
-          "LocalizedString": "ДОМ С ФРУКТОВЫМ САДОМ"
+          "LocalizedString": "САДОВЫЙ ДОМ"
         },
         "WorldLocation": {
           "X": -1440.0,
