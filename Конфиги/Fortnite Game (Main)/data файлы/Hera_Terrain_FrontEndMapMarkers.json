@@ -188,30 +188,32 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.30": {
+      "Athena.Location.POI.Generic.15": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "5B1F5372487C91E60C931D9AC66214DB",
-          "SourceString": "PAWS INN",
-          "LocalizedString": "ГОСТИНИЦА «ЛАПКИ»"
+          "Key": "A340DCC84FFE5FBE216F07B35576EF3A",
+          "SourceString": "CLAWSY LODGE",
+          "LocalizedString": "ПРАЗДНИЧНОЕ ПОСЕЛЕНИЕ"
         },
         "WorldLocation": {
           "X": -2136.0,
-          "Y": -57876.0,
+          "Y": -64876.0,
           "Z": 6860.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.30"
+          "TagName": "Athena.Location.POI.Generic.15"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
           "PrimaryAssetType": {
-            "Name": "None"
+            "Name": "Quest"
           },
-          "PrimaryAssetName": "None"
+          "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj14",
+        "ActiveDiscoverableBlobIds": [
+          130
+        ]
       },
       "Athena.Location.POI.Generic.05": {
         "Text": {
