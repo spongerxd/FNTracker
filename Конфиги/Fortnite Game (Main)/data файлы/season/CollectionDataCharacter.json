@@ -23,16 +23,16 @@
           "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.1"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_1'",
-          "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.2"
-        },
-        {
           "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_7'",
           "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.9"
         },
         {
           "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_8'",
           "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.10"
+        },
+        {
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_3'",
+          "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.6"
         },
         {
           "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_2'",
@@ -47,8 +47,8 @@
           "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.4"
         },
         {
-          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_3'",
-          "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.6"
+          "ObjectName": "FortCollectionDataEntryCharacter'CollectionDataCharacter_S39:FortCollectionDataEntryCharacter_10'",
+          "ObjectPath": "/BattlePassS39_Collections/SeasonData/CollectionDataCharacter_S39.2"
         }
       ]
     }
@@ -68,13 +68,13 @@
   },
   {
     "Type": "FortCollectionDataEntryCharacter",
-    "Name": "FortCollectionDataEntryCharacter_1",
+    "Name": "FortCollectionDataEntryCharacter_10",
     "Outer": "CollectionDataCharacter_S39",
     "Class": "UScriptClass'FortCollectionDataEntryCharacter'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/Dummy/Dummy/NPCCharacterData_Dummy.NPCCharacterData_Dummy",
+        "AssetPathName": "/NPCLibrary/NPCs/UndergroundRebel/NPCCharacterData_UndergroundRebel.NPCCharacterData_UndergroundRebel",
         "SubPathString": ""
       }
     }
@@ -126,9 +126,10 @@
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CharacterData": {
-        "AssetPathName": "/NPCLibrary/NPCs/UndergroundRebel/NPCCharacterData_UndergroundRebel.NPCCharacterData_UndergroundRebel",
+        "AssetPathName": "/NPCLibrary/NPCs/CreamSkull/NPCCharacterData_CreamSkull.NPCCharacterData_CreamSkull",
         "SubPathString": ""
-      }
+      },
+      "bHideInCollectionsScreen": true
     }
   },
   {
