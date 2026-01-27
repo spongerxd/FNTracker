@@ -1509,6 +1509,30 @@
         "DefaultValue": 3.4028235E+38,
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.VendingMachines.InteractionSpeed": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       }
     }
   }

@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestXPReward_Pimlico",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortTableRow_ResourceReward'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "ChallengeReward_Daily": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 1000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "ChallengeReward_Daily_2": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 1000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "PunchcardReward_Daily": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 20000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "ChallengeReward_Event_1": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 15000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "ChallengeReward_Event_2": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 24000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "ChallengeReward_Ranked": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 2000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      },
+      "ChallengeReward_Ranked_2": {
+        "ResourceDefinition": {
+          "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+          "SubPathString": ""
+        },
+        "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+        "Quantity": 10000,
+        "RewardRestedXpUsage": {
+          "RestedXpUsage": "EXpRewardRestedXpUsage::NoRestedXp",
+          "FixedRestedXpAmount": 0
+        },
+        "bIsVisibleToPlayer": true
+      }
+    }
+  }
+]

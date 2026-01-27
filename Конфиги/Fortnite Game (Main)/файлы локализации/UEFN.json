@@ -939,7 +939,8 @@
     "DynamicUIInspectorTab_DisplayName": "Динамический инспектор интерфейса"
   },
   "DynamicUIMaxAspectRatioCustomization": {
-    "Equals": "="
+    "Equals": "=",
+    "GlobalAspectRatio": "Использовать глобальное макс. соотношение сторон"
   },
   "DynamicUISceneCustomization": {
     "SelectedAllowedNameContent": "Допустимо: {0}",
@@ -1019,7 +1020,8 @@
   },
   "FADUT_Pause": {
     "Continue": "Игнорируйте, чтобы продолжить.",
-    "Title": "На паузе"
+    "Title": "На паузе",
+    "Message": "Процесс приостановлен"
   },
   "FDynamicUIEditorToolkit": {
     "FDynamicUIEditorToolkit_ToolTipText_NoScene": "Редактор, используемый для модификации сцены динамического интерфейса",
@@ -1299,7 +1301,9 @@
     "Audio": "Аудио",
     "AvatarExportSuccess": "Аватары экспортированы Прекрасно!",
     "DynamicBRLevels": "Уровни Королевской битвы",
-    "BudgetCosmetics": "Не хватает выделенного объёма памяти для косметических предметов [Занято…]",
+    "BudgetOutCosmetics": "Расчёт памяти для частей косметических предметов",
+    "BudgetOuCosmeticsBusy": "Не хватает выделенного объёма памяти для косметических предметов [Занято…]",
+    "BudgetingCosmetics": "Расчёт памяти для частей косметических предметов…",
     "AssetsStillScanningError_ExportAvatars": "Невозможно экспортировать аватары, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
     "AssetsStillScanningError_Synchronous": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов.",
     "AssetsStillScanningError_ExportKeyChain": "Невозможно экспортировать шаблоны, пока выполняется поиск ресурсов. Не торопитесь вы так :).",
@@ -1348,7 +1352,6 @@
     "FinalOptions": "Финальные настройки",
     "FindGameplayCueReferences": "Найти ссылки GameplayCue",
     "FlashlightButton": "Фонарик",
-    "ForceMobileAndTouchInputMenuLabel": "Применить мобильный и сенсорный ввод",
     "Fortnite": "Fortnite",
     "WorkspaceMenu_FortniteGroup": "Инструменты Fortnite",
     "AssetsStillScanningError_AttemptToCreateForm": "Ресурсы Fortnite всё ещё загружаются. Подождите немного и попробуйте снова.",
@@ -1372,6 +1375,7 @@
     "FortGameFeaturePluginProfileNone": "Никакие",
     "FortReleaseVersionSelectorOlderVersions": "Предыдущие версии",
     "McpBackendSelectorOpenAdminPage": "Открыть страницу администратора",
+    "MakeBRLevelsMenuTooltip": "Открывает таблицу данных, используемую для создания этого меню",
     "FinalOptionsTooltip": "Настройки, которые будут отправлены на сервер при запуске игры в редакторе",
     "McpBackendSelectorAvailableBackends": "Другие серверы",
     "OutpostItem": "Идентификатор предмета форпоста",
@@ -1379,8 +1383,9 @@
     "PersistDADAssetsTitle": "Сохраненные ресурсы DAD…",
     "PersistingDADAssets": "Сохраненные ресурсы DAD…",
     "PersistDADAssetsTooltip": "Сохраняет изменения ресурсов из DAD и записывает их в P4.",
-    "PickZoneDescription": "Выбрать зону СсБ Fortnite, в которую выполняется загрузка",
-    "PickZoneButton": "Выбрать зону СсБ",
+    "PickSTWZoneDescription": "Выбрать зону СсБ Fortnite, в которую выполняется загрузка",
+    "PickZoneDescription": "Выбрать зону Fortnite, в которую выполняется загрузка",
+    "PickSTWZoneButton": "Выбрать зону СсБ",
     "Playlist": "Плейлист",
     "QuestBundleCreator": "Автор пакета задания",
     "QuestCopier": "Копировщик заданий",
@@ -1398,7 +1403,6 @@
     "DynamicBRLevels_ToolTip": "Выбрать загружаемый уровень",
     "FortReleaseVersionSelectorOlderVersions_Tooltip": "Выберите предыдущую версию, которая будет использоваться как версия выпуска Fortnite",
     "SetParentActorToAttachTo": "Задайте родительский актор, к которому нужно присоединиться",
-    "ForceMobileAndTouchInputToolTip": "Задаёт консольные переменные:\n\nforcefortnitemobile\nEnableUITextScaling\nIsUsingCompactUI\nUseMouseForTouch\nForceHUDLayoutToolButtonVisible",
     "LetoButton": "Разделение экрана",
     "TemplateExportSuccess": "Шаблоны экспортированы. Отлично!",
     "AttemptToDestructivelyModifyStwAsset": "На следующие ресурсы ссылаются сохранённые данные \"Сражения с бурей\", и их изменение может привести к нарушению сохранённых данных \"Сражения с бурей\" пользователей.\nОперация заблокирована.",
@@ -1521,6 +1525,7 @@
   },
   "FortLevelEditorDragDropHandler": {
     "PlaceIllegalReference": "Невозможно поместить этого актора в {0}\n{1}",
+    "PlaceIllegalReferenceWithExternalDataLayer": "Невозможно поместить этого актора в {0} с текущим внешним слоем данных {1}\n{2}",
     "ContentBundleInLevelInstance": "Не удалось перенести контент из {0} в экземпляр уровня {1}. Вместо этого поместите его в {2}. Акторы плагинов невозможно разместить в экземпляре уровня.",
     "ActivateContentBundleSucceded": "Пакет контента \"{0}\" редактируется",
     "ChangedCurrentLevel": "Текущий уровень изменен {0}",
@@ -1537,9 +1542,7 @@
     "PlaceIllegalReferenceAnyway": "Вы не можете разместить этот актор в {0}\n{1}\n\nВсе равно разместить этот недопустимый актор? Если да, то не отправляйте уровень с этой недопустимой ссылкой."
   },
   "FortPlayerMannequinDetails": {
-    "PreviousCharacterPartColor": "< Предыдущий",
     "PreviousColor": "< Предыдущий",
-    "NextCharacterPartColor": "Следующий >",
     "NextColor": "Следующий >"
   },
   "FortQuestDefinitionComponent_MapMarkers": {
@@ -1574,6 +1577,7 @@
     "CreateDataTablesButton": "Создать данные карты",
     "CreateDataTablesLabel": "Создать таблицы данных карты",
     "CreateDataTablesTooltip": "Создаёт и подключает таблицы данных и данные камеры на основе предоставленного названия карты.",
+    "DataSetup": "Настройка данных",
     "SetupDataTables_NewObjects": "Настройка таблицы данных (новые объекты)\nСоздаёт таблицы ассоциированных данных и ресурс основной камеры.",
     "ConfluenceCommandletLink": "Документация",
     "ConfluenceInstructionsLink": "Документация",
@@ -1583,7 +1587,7 @@
     "OpenCommandletDoc": "Открыть документацию к консольной программе",
     "OpenInstructionsDoc": "Открыть инструкции по настройке",
     "PickMapOptions": "Выбрать карту",
-    "DataSetup": "Ход выполнения",
+    "DataSetupProgress": "Прогресс",
     "Pick Map": "Выбрать карту",
     "SelectUEFNProject": "Выбрать проект UEFN",
     "UEFNProjectNameKey": "Выбрать проект UEFN",
@@ -1685,6 +1689,7 @@
     "SkeletalMeshes_SkeletonRefPoseNaN": "Кость {0} в опорном скелете содержит нечисловые символы.",
     "SkeletalMeshes_SkeletonRefPoseUnnormalizedRotation": "Кость {0} в опорном скелете содержит ненормализованное вращение.",
     "SkeletalMeshes_BasePoseFailure": "Нельзя привязать сетку позы для уровня детализации {0}",
+    "SkeletalMeshes_ProfilePoseFailure": "Не удаётся использовать сетку позы для уровня детализации {0} с профилем веса образа {1}",
     "SkeletalMeshes_DefaultPoseFailure": "Не удаётся использовать сетку позы для уровня детализации {0} с весом образов по умолчанию",
     "StaticMesh_CannotAccessHiResMeshDescription": "Не удалось получить доступ к HiResMeshDescription для статичной сетки",
     "StaticMesh_CannotAccessMeshDescription": "Не удалось получить доступ к HiResMeshDescription для статичной сетки",
@@ -1772,7 +1777,7 @@
     "SkeletalMeshes_MissingBones": "Скелетная сетка содержит кости, не обнаруженные на её скелете ({0}): {1}",
     "SkeletalMeshes_AlternativeTagButProfileMissing": "Скелетная сетка требует использовать профиль {0}, но он не существует. Инструмент Cobbler сломан или не был повторно запущен?",
     "SkeletalMeshes_MissingAlternateInfluenceProfile": "В профиле оболочки {0} отсутствуют значения веса влияния на уровень детализации {1}",
-    "SkeletalMeshes_ProfilePoseFailure": "Профиль веса образа '{1}' на уровне детализации {0} привязан к несуществующей кости.",
+    "SkeletalMeshes_SkinWeightFailure": "Профиль веса образа {1} на уровне детализации {0} привязан к несуществующей кости.",
     "SourceControlDisabled": "Контроль исходного кода отключен",
     "Invalid_GameplayTag_NoSourceControl": "Контроль версий отключен, невозможно проверить файл .ini на изменения!",
     "StaticMesh_TooManySections": "Статичная сетка содержит [{0}] фрагментов сетки, что превышает допустимое количество фрагментов на каждую сетку [{1}]. Вероятная причина: для указанной сетки имеется больше [{1}] материалов. Разделите сетку на более мелкие, с количеством материалов, не превышающим [{1}] на каждую сетку",
@@ -1791,6 +1796,7 @@
     "PlaylistAthenaValidator_UnableToGetDepsForPlaylist": "Не удалось получить зависимости для плейлиста. Не удалось проверить зависимости плейлиста!",
     "PluginNotFound": "Не удалось открыть свойства плагина для {0}, поскольку плагин не найден.",
     "Invalid_GameplayTag": "Неизвестный тег игрового процесса {0}",
+    "Invalid_GameplayTagInAsset": "Неизвестный тег игрового процесса в {0} ресурсе {1}.",
     "PlaylistAthenaValidator_UseMultidivisionQueuesTrue": "Use Multidivision Queues не может иметь значение TRUE, если Is Tournament имеет значение FALSE.",
     "Particles_SkelVertSurface": "Использование каскадного модуля SkelVertSurface в Fortnite не допускается. Замените его на модуль BoneSocket. Генератор: {0}",
     "PaperSprite_CollisionDomain": "Использование физики в бумажных спрайтах в Fortnite не допускается. Ресурс: {0}",
@@ -1858,6 +1864,7 @@
     "TokenMessage_Fort_WorldPartition_RemoveReferenceOrChangeStreaming": "Либо удалите ссылку на подгруженный контент, либо пометьте внешний контент как неподгружаемый",
     "FortDataTable_ExportHotfixDialogTitle": "Экспорт данных исправления…",
     "FailedToFindBaseMaterial": "Не удалось найти базовый материал: {0}",
+    "ForceBuildHLODButtonText": "Применить создание уровня HLOD",
     "MaterialInstanceConstantFromBaseMaterialFactoryDescription": "Константа экземпляра материала из базового материала",
     "MoveAssetsToPluginTitle": "Переместить ресурсы в /Game/",
     "MoveAssetsToPluginTooltipText": "Перемещает выбранные ресурсы в /Game/, сохраняя структуру каталогов.",
@@ -2101,8 +2108,10 @@
   },
   "NPCCharacterDefinition": {
     "MissingType": "Отсутствует тип!",
+    "InvalidSkeletalMeshComponent": "{0}: схема персонажа {1} должна иметь компонент скелетной сетки!",
     "MissingCharacterModifier": "{0}: отсутствует модификатор персонажа",
     "DuplicatedModifier": "{0}: несколько модификаторов типа {1}",
+    "InvalidSkeletalMeshAsset": "{0}: ресурс скелетной сетки не может оставаться пустым в компоненте скелетной сетки {1}!",
     "UnsupportedModifier": "{0}: неподдерживаемые модификаторы типа {0} для идентификатора {1}!"
   },
   "NPCCharacterDefinitionComponent": {
@@ -2145,22 +2154,6 @@
     "SubmitForm": "Создать ресурсы умения…",
     "PerkDirectoryPicker": "Каталог умений",
     "Instructions": "Заполните форму информации об умении, представленную ниже. Убедитесь, что все поля заполнены верно, а затем нажмите 'Создать ресурсы…' ниже."
-  },
-  "PinTypeSelector": {
-    "VerseTypeSelectorArrayDescription": "[]{CategoryText}",
-    "VerseTypeSelectorMapDescription": "[{KeyCategoryText}]{ValueCategoryText}",
-    "FloatCategory": "число с плавающей запятой",
-    "InputActionObject": "input_action",
-    "IntCategory": "целочисленное значение",
-    "LogicCategory": "логика",
-    "MaterialObject": "материал",
-    "TextCategory": "сообщение",
-    "QuaternionObject": "вращение",
-    "StringCategory": "строка",
-    "TextureObject": "текстура",
-    "Vector2Object": "vector2",
-    "Vector2iObject": "vector2i",
-    "Vector3Object": "vector3"
   },
   "PriorityColumnEditor": {
     "Edit Float Value": "Изменить значение с плавающей запятой",
@@ -2226,6 +2219,9 @@
     "DescriptionToolTip": "Необязательное описание данного интерфейса свойства. Появится и в UMG, и в хэш-сумме ресурсов Verse.",
     "ChangeDoc": "Документация по изменению интерфейса свойства",
     "Description": "Описание"
+  },
+  "PropertyView": {
+    "PropertyActionsHeading": "Действия со свойством"
   },
   "ProtoLem": {
     "QMark": "  ?   ",
@@ -2491,7 +2487,9 @@
     "ViewGameplayTags": "Посмотреть теги игрового процесса"
   },
   "QuestEditorBulkEditViewModel": {
-    "BulkEdit": "Массовое редактирование"
+    "BulkAdd": "Пакетное добавление компонентов заданий",
+    "BulkEdit": "Массовое редактирование",
+    "BulkRemove": "Пакетное удаление компонентов заданий"
   },
   "QuestEditorHeader": {
     "CreateNewQuestAsset": "Создать новое задание",
@@ -2619,7 +2617,7 @@
     "HistogramTooltip": "Масштабирование по горизонтали (Ctrl + колесо мыши)\nМасштабирование по вертикали (Shift + колесо мыши)"
   },
   "SSpatialMetricsToolBar": {
-    "CellSizeNumericEntryBoxToolTip": "Откорректировать значение размера ячейки.",
+    "CellSizeNumericEntryBox_SpinBox_ToolTip": "Откорректировать значение размера ячейки.",
     "ThresholdNumericEntryBoxToolTip": "Настройте пороговое значение.",
     "ReductionMethod": "Метод ячейки",
     "CellSizeNumericEntryBoxWidget": "Размер ячейки",
@@ -2643,6 +2641,7 @@
     "MaxAlphaNumericEntryBoxToolTip": "Значение альфа-канала для высоких значений карты ресурсов памяти",
     "MinAlphaNumericEntryBoxToolTip": "Значение альфа-канала для низких значений карты ресурсов памяти",
     "ReductionMethodTooltip": "Метод подсчёта значения ячейки для данного показателя",
+    "CellSizeNumericEntryBoxToolTip": "Размер ячейки карты ресурсов памяти.",
     "DisplayUnitTooltip": "Предпочтительная отображаемая единица для значений показателей",
     "ThresholdNumericEntryBoxWidget": "Порог"
   },
@@ -3663,7 +3662,6 @@
     "AllowAssetsButton": "Да, разрешить эти ресурсы"
   },
   "UnrealEd": {
-    "CycleAccessoryColorSwatch": "Периодическое взятие образца дополнительного цвета",
     "CycleCharacterColorSwatch": "Периодическое взятие образца цвета персонажа"
   },
   "UnrealRevisionControlHandlers": {
@@ -4223,6 +4221,7 @@
     "UploadProject.Error.SendContentUpdateMissingRootProject": "Не удалось определить ожидаемый корневой проект",
     "UploadProject.Error.SendContentUpdateMissingRootProjectUProject": "Не удалось определить ожидаемый корневой проект",
     "UploadProject.Error.FailPublishToEditSessionWorkspace": "Опубликовать в рабочем пространстве {0}",
+    "UploadProject.Error.FailedResolveMainProject": "Не удалось выполнить повторный расчёт для основного проекта.",
     "UploadProject.Error.InvalidSessionResult": "Не удалось вычислить корректный результат проверки сеанса",
     "UploadProject.ValidationSession_SendContentUpdate.SendFailure": "Не удалось отправить обновление контента в сеанс",
     "UploadProject.Error.FailedToStoreProjectSnapshot": "Не удалось сохранить снимок состояния проекта",
@@ -4644,6 +4643,7 @@
     "OpenProjectActionText": "Открыть",
     "ProjectNotFoundOnContentServiceAnnotationText": "Не удалось найти этот проект в сервисе управления контентом. Вероятно, он был создан локально. При открытии этого проекта произойдёт подключение к сервису управления контентом.",
     "LocalSkeinProjectAnnotationText": "У этого проекта имеется резервная копия в системе контроля версий Unreal Revision Control.",
+    "RequiredProjectPermissions": "Для редактирования в этом проекте требуются разрешения {0}.",
     "IncompatibleProjectVersionText": "Версия этого проекта ({0}) несовместима с установленным движком ({1})."
   },
   "ValkyrieModuleStagingContext": {
@@ -4883,7 +4883,8 @@
   "ValkyrieProjectListDialog": {
     "APIAccess": "Доступ к API",
     "Name": "Название",
-    "Title": "Проекты",
+    "DialogTitle": "Проекты",
+    "Title": "Заголовок",
     "VersePath": "Путь Verse"
   },
   "ValkyrieProjectLocalization": {
@@ -5015,7 +5016,8 @@
     "FailedAssignProjectToTeam": "Не удалось выполнить назначение проекта '{0}' команде {1}",
     "FailJoinTeam": "Не удалось присоединиться к команде '{0}'",
     "FailLoadBindings": "Не удалось загрузить привязки для проекта '{0}'",
-    "FailSyncWithContentService": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом, так как пользователь не вошёл в систему",
+    "FailSyncWithContentService": "Не удалось синхронизировать проект '{0}' с сервисом управления контентом",
+    "FailSyncWithContentServiceNoLogin": "Не удалось синхронизировать проект {0} с сервисом управления контентом, так как пользователь не вошёл в систему",
     "UnauthorizedAccessDialog.JoinTeamMessage": "Для доступа к проекту '{0}' необходимо присоединиться к команде проекта.\n\nКроме того, вы можете оставить проект \"как есть\" или связать локальный проект с другим новым проектом на творческом портале.",
     "UnauthorizedAccessDialog.JoinTeam": "Присоединиться к команде",
     "UnauthorizedAccessDialog.No": "Оставить проект как есть",
@@ -5170,8 +5172,9 @@
     "ErrorGettingProjectOwnerTitle": "Ошибка получения сведений о владельце проекта",
     "ErrorLoadingProjectInfoTitle": "Ошибка при загрузке информации о проекте",
     "ErrorResolvingVersePathTitle": "Ошибка перерасчёта пути Verse",
+    "ExploreSection": "Подробнее",
     "AcceptTeamMembershipInvitationPrompt": "Для доступа к проекту '{0}' необходимо присоединиться к команде проекта.",
-    "ProjectManagementSectionHeading": "Управление",
+    "ManageSection": "Управление",
     "DisplayNameText": "Мои проекты",
     "PersonalProjectsViewText": "Мои проекты",
     "OfflineDisplayNameText": "Локально",
@@ -5447,7 +5450,8 @@
     "Inventory": "Модуль '{0}' содержит классы системы предметов [{1}], которые недопустимы при отключённой экспериментальной настройке 'Пользовательские предметы и инвентарь'."
   },
   "ValkyrieValidator_Newton": {
-    "RecommendedFortPhysics_ExceededWarning": "Количество физически симулированных объектов превысило рекомендованный предел. Это может сказаться на производительности."
+    "RecommendedFortPhysics_ExceededWarning": "Количество физически симулированных объектов превысило рекомендованный предел. Это может сказаться на производительности.",
+    "RecommendedFortPhysics_ApproachingWarning": "Количество физически симулированных объектов приближается к рекомендованному пределу. Советуем уменьшить их количество, чтобы избежать проблем с производительностью."
   },
   "ValkyrieValidator_Widget": {
     "ConversionFunctionTransient": "Схема '{0}' содержит граф, который должен быть прозрачным",
@@ -5580,20 +5584,14 @@
     "AddNewLabel": "Добавить",
     "AddNewToolTip": "Добавить новое свойство.",
     "DefaultCategory": "По умолчанию",
+    "OverrideText": "Переопределение",
     "AddNewField": "Поля Verse отображаются в дайджесте ресурсов.\nДобавьте новое поле и привяжите его к выбранному виджету на панели \"Сведения\" или \"Просмотр привязок\"."
   },
   "VerseClassSettingsDetails": {
-    "VariableNameCollision": "Не удалось добавить для интерфейса '{0}' переменную '{1}'. Унаследованный интерфейс '{2}' уже содержит переменную с именем '{1}'",
     "ConstructorAccess": "Если не указать, доступ к конструктору будет таким же, как для основного доступа",
     "Inheritance": "Наследование",
     "VerseClassSettingsNameTooltip": "При переименовании класса этот ресурс будет переименован",
-    "SuperClass": "Суперкласс",
-    "UnsupportedArrayPropertyType": "Тип свойства '{0}' не поддерживается",
-    "UnsupportedMapPropertyType": "Тип свойства '{0}' не поддерживается",
-    "UnsupportedPropertyType": "Тип свойства '{0}' не поддерживается",
-    "MapKeyIsContainerType": "Тип свойства '{0}' не поддерживается — контейнеры не поддерживаются как тип ключа карты",
-    "MapValueIsContainerType": "Тип свойства '{0}' не поддерживается — контейнеры не поддерживаются как значение карты",
-    "KeyTypeMustBeHashable": "Тип свойства '{0}' не поддерживается — тип ключа карты должен поддерживать хэширование"
+    "SuperClass": "Суперкласс"
   },
   "VerseClassSettingsInterfaceCustomization": {
     "FunctionsNotSupported": "Не удалось добавить интерфейс '{0}'. Интерфейсы, содержащие функции, пока не поддерживаются",
@@ -5722,7 +5720,47 @@
     "Outliner": "Структура",
     "OutlinerTitle": "Структура",
     "VersePropertyDetails": "Сведения о свойстве",
-    "CenterBlockDefaultText": "Данное пространство зарезервировано для отображения окна просмотра редактора готовых элементов, кода, графа узла или любого другого визуального решения"
+    "CenterBlockDefaultText": "Данное пространство зарезервировано для отображения окна просмотра редактора готовых элементов, кода, графа узла или любого другого визуального решения",
+    "VerseVariables": "Переменные"
+  },
+  "VerseTypeSelector": {
+    "Array": "Массив",
+    "ArrayTooltip": "Массив",
+    "ContainerTypeTooltip_Array": "Массив",
+    "PinTypeSelector_Disabled": "Невозможно изменить тип переменной, если он унаследован от родительского объекта.\n",
+    "ArrayCheckBox_Disabled": "Невозможно изменить тип переменной, если она помещена в граф или тип унаследован от родительского объекта.",
+    "ContainerType_Disabled": "Невозможно изменить тип переменной, если она помещена в граф или тип унаследован от родительского объекта.",
+    "ChangeParam": "Изменить тип параметра",
+    "PinTypeSelector_ChangeReferenceTypeHeading": "Изменить на:",
+    "ArrayCheckBox": "Сделать эту переменную массивом выбранного типа.",
+    "ContainerType": "Сделать эту переменную массивом выбранного типа.",
+    "ClassAssetTooltip": "Путь к классу, наследующему от типа \"{TypeName}\", который невозможно загрузить. Можно использовать для асинхронной загрузки класса.",
+    "ClassAssetBPTooltip": "Путь к классу, наследующему от типа \"{TypeName}\", который невозможно загрузить. Сам тип схемы будет всегда загружаться, что влечёт дополнительный расход памяти.",
+    "AssetTooltip": "Путь к экземпляру объекта типа \"{TypeName}\", который нельзя загрузить. Можно использовать для асинхронной загрузки ресурса.",
+    "AssetBPTooltip": "Путь к экземпляру объекта типа \"{TypeName}\", который нельзя загрузить. Сам тип схемы будет всегда загружаться, что влечёт дополнительный расход памяти.",
+    "ClassTooltip": "Ссылка на класс, наследующий от типа \"{TypeName}\"",
+    "ObjectTooltip": "Ссылка на экземпляр объекта типа \"{TypeName}\"",
+    "PinTypeSelector": "Выбрать тип переменной.\n",
+    "SingleVariable": "Одиночная",
+    "SingleVariableTooltip": "Одна переменная",
+    "VerseTypeSelectorArrayDescription": "[]{CategoryText}",
+    "VerseTypeSelectorMapDescription": "[{KeyCategoryText}]{ValueCategoryText}",
+    "FloatCategory": "float",
+    "InputActionObject": "input_action",
+    "IntCategory": "int",
+    "LogicCategory": "logic",
+    "MaterialObject": "material",
+    "TextCategory": "message",
+    "QuaternionObject": "rotation",
+    "StringCategory": "string",
+    "TextureObject": "texture",
+    "Vector2Object": "vector2",
+    "Vector2iObject": "vector2i",
+    "Vector3Object": "vector3",
+    "ContainerTypeTwoLines": "{0}\nТип контейнера: {1}",
+    "PinTypeItemCount_Single": "{0} элемент",
+    "PinTypeItemCount_Plural": "Элементов: {0}",
+    "PrimaryTypeTwoLines": "{0}Текущий: тип {1}"
   },
   "VerseVectorStructCustomization": {
     "SetPropertyValue": "Задать {0}"

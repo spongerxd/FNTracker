@@ -2919,8 +2919,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "1788BA184D71FD264DC938901AE5D568",
-          "SourceString": "Use Jam Tracks in new ways! Equip Jam Tracks as Moments in your Locker to make them your personal in-match anthems from Battle Bus drop to Victory Royale.",
-          "LocalizedString": "Используйте джем-треки по-новому! Добавьте джем-треки в качестве моментов в шкафчике и получите собственные гимны, которые будут звучать во время различных ситуаций: от высадки из боевого автобуса до королевской победы."
+          "SourceString": "Listen and Jam with Friends or Perform on the Main Stage",
+          "LocalizedString": "Устройте джем-сессию с друзьями или выступите на Главной сцене"
         }
       },
       "brightion": {
@@ -3459,7 +3459,7 @@
           "LocalizedString": "При использовании эмоции «Перчатка B.E.A.S.T.» с экипировками Мехагодзиллы и Годзиллы (продаются отдельно) раздаются разные звуки. Для ознакомления со звуками выберите экипировку и вернитесь на эту страницу."
         }
       },
-      "promodesc121": {
+      "melonpan": {
         "FormatedText": {
           "Namespace": "",
           "Key": "18AFF9DD4DE97349CE2C97999041162B",
@@ -4247,7 +4247,7 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "6B1131F1475F5E55F37AB181D6F86CA7",
-          "SourceString": "Includes customizable decal! Decals in this bundle are restricted to the Back To The Future Time Machine car body. This car will fill the Sportscar slot in relevant Fortnite experiences.",
+          "SourceString": "Includes a speed-reactive animated Decal, Time Stream! Decals in this bundle are restricted to the Back To The Future Time Machine car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
           "LocalizedString": "Включает декаль, которая меняет внешний вид при ускорении! Декали из этого комплекта совместимы только с машиной времени из «Назад в будущее». Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
       },
@@ -4307,28 +4307,60 @@
           "LocalizedString": "Включает автомобиль и варианты его внешнего вида! Декали из этого комплекта совместимы только с кузовом «Сендвичемобиля». Эта машина будет занимать ячейку внедорожника в соответствующих режимах Fortnite."
         }
       },
+      "drof": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "DD6F622D48ED7AB98DFF65BEC80CBC55",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Ford F-150 RLE car body. This car will fill the Ford SUV slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Ford F-150 RLE. Эта машина будет занимать ячейку внедорожников Ford в соответствующих режимах Fortnite."
+        }
+      },
       "transformoutfitpickaxe": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "8DB6EB0E49B95D5952BED68ACF44FA51",
+          "Key": "709D0EFE445D87074A570AA4E9EB2F03",
           "SourceString": "Transform with the built-in emote! Pickaxe also transforms when equipped!",
           "LocalizedString": "Преобразитесь с помощью встроенной эмоции! Если вы держите в руках кирку, она тоже изменится!"
         }
       },
-      "fillbandit": {
+      "reactivedamageuni": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "C109F43B4B4892CF91788F8027C09691",
-          "SourceString": "Towelie reactions & emote available in English only.",
-          "LocalizedString": "Реакции и эмоция Полотенчика доступны только на английском языке."
+          "Key": "6CBB30BE46B4888641405AB5D13B3A34",
+          "SourceString": "Reactive: Animates when dealing damage!",
+          "LocalizedString": "Меняет внешний вид: реагирует на нанесение урона!"
+        }
+      },
+      "animatedwrap": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "3C728E8B4BD9EED177A0D5BC2876E363",
+          "SourceString": "Animated Wrap!",
+          "LocalizedString": "Анимированная обёртка!"
+        }
+      },
+      "badgeagave": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "B73C4D5E46B1CC3D43FA3889CC3E98FA",
+          "SourceString": "Snow falls from Backbling when running or jumping!",
+          "LocalizedString": "При беге и прыжках с украшения на спину падает снег!"
         }
       },
       "fillbanditquest": {
         "FormatedText": {
           "Namespace": "",
-          "Key": "BA4E4BB748E7DDE0E02D83BC346ECF09",
+          "Key": "B5D609414A32F61CB3C14FB1CF53CE3E",
           "SourceString": "This Sidekick includes quests that unlock new items upon completion! Towelie reactions & emote available in English only.",
           "LocalizedString": "Этот спутник открывает доступ к заданиям, за которые можно получить новые предметы! Реакции и эмоция Полотенчика доступны только на английском языке."
+        }
+      },
+      "rainbows": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "8D99E569416B6B30ECD256AAB4EF6FC3",
+          "SourceString": "Rainbow Trail when running!",
+          "LocalizedString": "Радужный шлейф при беге!"
         }
       }
     }

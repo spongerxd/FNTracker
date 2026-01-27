@@ -1,0 +1,703 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AcknowledgementsTable_Pimlico",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortAccoladesTableRow'",
+        "ObjectPath": "/Script/AccoladesRuntime"
+      }
+    },
+    "Rows": {
+      "ActivateHype": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.ActivateAbility"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "ActivateHype",
+                "ResourceCount": 500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A7C41C954FD5D3491FA79DB6B35E1BD7",
+          "SourceString": "Hyped Up",
+          "LocalizedString": "Крутая раскрутка"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "AssisttoScore": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.Assist"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "AssisttoScore",
+                "ResourceCount": 600,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9801C2A842E5614CA05D2E92D9EFFF91",
+          "SourceString": "Assisted",
+          "LocalizedString": "Ассист"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "Dunk": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.ScoreAGoalWithDunk"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "Dunk",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "094684884FAB6E65EAA7A1A1338CC65E",
+          "SourceString": "Dunk",
+          "LocalizedString": "Бросок сверху"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "GameEndWin": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.WinGame"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "GameEndWin",
+                "ResourceCount": 2500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "493930FA45DD502988E47EBF8CE60D57",
+          "SourceString": "Win",
+          "LocalizedString": "Победа"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "GameEndLose": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.LoseGame"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "GameEndLose",
+                "ResourceCount": 1500,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "34411EF34BB1782D7AB1E2BFBEA3628D",
+          "SourceString": "Loss",
+          "LocalizedString": "Поражение"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "ScorewithShot": {
+        "EventConditional": {
+          "VerbFilters": [
+            {
+              "Verb": {
+                "TagName": "CustomVerb.Pimlico.ScoreAGoalWithShot"
+              },
+              "Subjects": [],
+              "Values": [],
+              "bIncrementByNamedValue": false,
+              "NameOfValueToIncrementBy": "None",
+              "Author": {
+                "bCanGainProgressForThisObjective": true,
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              },
+              "Context": {
+                "TagQuery": {
+                  "TokenStreamVersion": 0,
+                  "TagDictionary": [],
+                  "QueryTokenStream": [],
+                  "UserDescription": "",
+                  "AutoDescription": ""
+                }
+              }
+            }
+          ],
+          "Amount": 1,
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "ScorewithShot",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "5E3466754C858709CA6CF1B281DC5890",
+          "SourceString": "Score",
+          "LocalizedString": "Очко"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      },
+      "TimePlayed": {
+        "EventConditional": {
+          "Quest": {
+            "AssetPathName": "/PimlicoAccolades/Items/Acknowledgements/Acc_Pimlico_Playtime.Acc_Pimlico_Playtime",
+            "SubPathString": ""
+          },
+          "Attributes": []
+        },
+        "EventRewards": [
+          {
+            "ResourceRewards": [
+              {
+                "ResourceDefinition": {
+                  "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+                  "SubPathString": ""
+                },
+                "CalibrationUsage": "ERewardCalibrationUsage::NoCalibration",
+                "DynamicResourceSize": "EFortSimulatedXPSize::None",
+                "DynamicResourceGuid": "00000000-00000000-00000000-00000000",
+                "AccoladeId": "TimePlayed",
+                "ResourceCount": 1000,
+                "RewardRestedXpUsage": {
+                  "RestedXpUsage": "EXpRewardRestedXpUsage::BaseRewardMultiplier",
+                  "FixedRestedXpAmount": 0
+                },
+                "bHideFromUI": false
+              }
+            ]
+          }
+        ],
+        "OneTimeEventRewards": [],
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1B1CCC70425F1FF5D648E69F3BF84868",
+          "SourceString": "Crown Jam Playtime",
+          "LocalizedString": "Время в Crown Jam"
+        },
+        "DisplayDescription": {
+          "CultureInvariantString": null
+        },
+        "DisplayOrder": 1,
+        "AccoladeType": "EFortAccoladeType::Acknowledgement",
+        "Priority": "EXPEventPriorityType::NearReticle",
+        "AccoladeTier": "EFortAccoladeTierType::None",
+        "AwardedSoundCue": {
+          "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/XP/Fort_XP_Popup_Cue.Fort_XP_Popup_Cue",
+          "SubPathString": ""
+        },
+        "PreviewImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaxMatchCount": -1,
+        "MaxPlayerCount": -1,
+        "Tags": [
+          "Quest.Acknowledgement"
+        ],
+        "ProductCompatibilityQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Product.Pimlico"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Product.Pimlico )"
+        }
+      }
+    }
+  }
+]
