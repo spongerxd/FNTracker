@@ -1,7 +1,7 @@
 [
   {
     "Type": "SeasonPassItemDefinition",
-    "Name": "MusicPassS12_SeasonAsset",
+    "Name": "MusicPassS13_SeasonAsset",
     "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -10,36 +10,36 @@
         "SubPathString": ""
       },
       "PassData": {
-        "AssetPathName": "/MusicPassS12/SeasonPass/MusicPassS12_Data.MusicPassS12_Data",
+        "AssetPathName": "/MusicPassS13/SeasonPass/MusicPassS13_Data.MusicPassS13_Data",
         "SubPathString": ""
       },
       "LevelData": {
-        "AssetPathName": "/MusicPassS12/SeasonPass/MusicPassS12_LevelData.MusicPassS12_LevelData",
+        "AssetPathName": "/MusicPassS13/SeasonPass/MusicPassS13_LevelData.MusicPassS13_LevelData",
         "SubPathString": ""
       },
       "Categories": [
         {
-          "AssetPathName": "/MusicPassS12/SeasonPass/Categories/MusicPassS12_Category.MusicPassS12_Category",
+          "AssetPathName": "/MusicPassS13/SeasonPass/Categories/MusicPassS13_Category.MusicPassS13_Category",
           "SubPathString": ""
         }
       ],
       "PRMPassId": "SparksPass",
-      "SeasonNumber": 12,
+      "SeasonNumber": 13,
       "ItemName": {
         "Namespace": "",
-        "Key": "09AC327F49893984B58EF79AD61C3E56",
+        "Key": "A38740684045ACEACAACA98A79B6BBBA",
         "SourceString": "Music Pass",
-        "LocalizedString": "Музыкальный пропуск"
+        "LocalizedString": "Музык. пропуск"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "D25E083E49552938A53FA8AAC04E9C0C",
+        "Key": "93835EB64AC480452F770FA42CB7E22C",
         "SourceString": "Item Description",
         "LocalizedString": "Описание предмета"
       },
       "ItemShortDescription": {
         "Namespace": "",
-        "Key": "2AA6938F4073EA52C111649879ACBE0F",
+        "Key": "CC9FEC9D4C1A762EC4DEE586BB0DEBFC",
         "SourceString": "Item Short Description",
         "LocalizedString": "Краткое описание предмета"
       },

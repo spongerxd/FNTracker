@@ -1,7 +1,7 @@
 [
   {
     "Type": "FortRepeatableDailiesCardItemDefinition",
-    "Name": "SparksSeason12_RepeatableDailiesCard",
+    "Name": "SparksSeason13_RepeatableDailiesCard",
     "Class": "UScriptClass'FortRepeatableDailiesCardItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -13,7 +13,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_Daily",
+          "CalendarEventName": "CalendarEvent_SparksS13",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -23,7 +23,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_Daily",
+          "CalendarEventName": "CalendarEvent_SparksS13",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -33,7 +33,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_Daily",
+          "CalendarEventName": "CalendarEvent_SparksS13",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -43,7 +43,7 @@
           "bShouldBackfill": true,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_Daily",
+          "CalendarEventName": "CalendarEvent_SparksS13",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -53,7 +53,7 @@
           "bShouldBackfill": false,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_Daily",
+          "CalendarEventName": "CalendarEvent_SparksS13",
           "EmptyQuestWeight": 0.0
         },
         {
@@ -63,19 +63,19 @@
           "bShouldBackfill": false,
           "bQuestsDontExpire": false,
           "bDeleteTokensOnReset": true,
-          "CalendarEventName": "CalendarEvent_SparksS12_JamDaily",
+          "CalendarEventName": "CalendarEvent_SparksS13_JamDaily",
           "EmptyQuestWeight": 0.0
         }
       ],
       "ItemName": {
         "Namespace": "",
-        "Key": "04CE693B4562B8A232F86F989BD35007",
-        "SourceString": "Sparks Season 12 Daily Repeatable Card",
-        "LocalizedString": "Карточка ежедневных повторяющихся заданий сезона 12 Sparks"
+        "Key": "CC24BE334FF46899BE4333B6B5995A08",
+        "SourceString": "Sparks Season 13 Daily Repeatable Card",
+        "LocalizedString": "Карточка ежедневных повторяющихся заданий сезона 13 Sparks"
       },
       "ItemDescription": {
         "Namespace": "",
-        "Key": "3147949B43AE18062AC21FA9574B7694",
+        "Key": "EE51748F4201094DA0F8048390407CE6",
         "SourceString": "This asset defines the pool of daily quests (make sure the group names match your quests)",
         "LocalizedString": "Этот ресурс определяет фонд ежедневных заданий (убедитесь, что названия групп соответствуют вашим заданиям)"
       },
