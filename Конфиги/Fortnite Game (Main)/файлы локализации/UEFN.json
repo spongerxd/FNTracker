@@ -1553,9 +1553,6 @@
   },
   "FortQuestItemDefComponentsWidget": {
     "OnItemComponentStateChanged": "Изменить {0}",
-    "ComponentActions": "Действия с компонентом",
-    "PasteComponentLabel": "Вставить компонент",
-    "PasteComponentTooltip": "Вставить компонент из буфера обмена",
     "ActiveComponentText": "{0}  | "
   },
   "FortQuestLog": {
@@ -1594,17 +1591,12 @@
     "UpdateMapUIData": "Обновить данные интерфейса карты"
   },
   "FortQuestObjectiveEditor": {
-    "ComponentActions": "Действия с компонентом",
-    "CopyComponentTooltip": "Копирует компонент в буфер обмена",
     "CopyObjectiveTooltip": "Копирует цель в буфер обмена",
-    "CopyComponentLabel": "Копировать компонент",
     "CopyObjectiveLabel": "Копировать цель",
     "ObjectiveActions": "Действия с целью",
     "ObjectiveComponentMissing": "Цель вставлена без расширения данных для компонента задания: {0}; для сохранения целостности данных компонент был добавлен автоматически.",
     "ObjectiveIndex": "Цель {0}",
-    "PasteComponentLabel": "Вставить компонент",
     "PasteObjectiveLabel": "Вставить цель",
-    "PasteComponentTooltip": "Вставить компонент из буфера обмена",
     "ObjectiveFilterPasteTooltip": "Вставить цель из буфера обмена"
   },
   "FortQuestObjectiveFiltersEditor": {
@@ -2547,6 +2539,9 @@
   },
   "SFortConnectivityGridWidget": {
     "DefaultTitle": "Заголовок"
+  },
+  "SFortCopyQuestComponentDialog": {
+    "CopyQuestComponent": "Компонент задания скопирован"
   },
   "SGameplayEventDescriptorPicker": {
     "EditEventDescriptor": "Редактировать дескриптор события",

@@ -102962,12 +102962,12 @@
       },
       "WorldList.AGSupply4.01": {
         "LootPackageID": "WorldList.AGSupply4",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 0,
+          "Y": 0
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -102983,14 +102983,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/Hitscan/WID_Shotgun_Pump_Paprika_HS_Athena_UR_Boss.WID_Shotgun_Pump_Paprika_HS_Athena_UR_Boss",
+          "AssetPathName": "/TidalCraneWeaponGameplay/Gameplay/Weapons/TerminatorAR/WID_Assault_TidalCrane_Athena_X.WID_Assault_TidalCrane_Athena_X",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AGSupply4.C0;Item:WID.Shotgun.Pump.Paprika.HS.Athena.UR",
+        "Annotation": ";List:WorldList.AGSupply4.C0;Item:WID_Assault_TidalCrane_Athena_X",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AGSupply5.01": {
@@ -105503,39 +105503,6 @@
       },
       "WorldList.MythicRandom.43": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_UR_Boss.WID_Pistol_Paprika_Auto_Athena_HS_UR_Boss",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Pistol.Paprika.Auto.Athena.HS.UR",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MythicRandom.44": {
-        "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -105567,7 +105534,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.SunRose.Pistol.HandCannon.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.45": {
+      "WorldList.MythicRandom.44": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -105600,40 +105567,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Shotgun.Auto.Paprika.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.46": {
-        "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_Pump/Hitscan/WID_Shotgun_Pump_Paprika_HS_Athena_UR_Boss.WID_Shotgun_Pump_Paprika_HS_Athena_UR_Boss",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Shotgun.Pump.Paprika.HS.Athena.UR",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.MythicRandom.47": {
+      "WorldList.MythicRandom.45": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105666,7 +105600,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.48": {
+      "WorldList.MythicRandom.46": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -105699,7 +105633,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.SMG.Paprika.DPS.Athena.HS.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.49": {
+      "WorldList.MythicRandom.47": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105732,7 +105666,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.SMG.SunRose.DPS.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.50": {
+      "WorldList.MythicRandom.48": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -105765,7 +105699,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.SunRose.DrumGun.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.51": {
+      "WorldList.MythicRandom.49": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -105798,7 +105732,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Assault.Paprika.DPS.Athena.HS.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.52": {
+      "WorldList.MythicRandom.50": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105831,7 +105765,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Assault.Paprika.Infantry.Athena.HS.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.53": {
+      "WorldList.MythicRandom.51": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -105864,7 +105798,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Assault.Paprika.Heavy.Athena.HS.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.54": {
+      "WorldList.MythicRandom.52": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105897,7 +105831,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Assault.SunRose.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.55": {
+      "WorldList.MythicRandom.53": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105930,7 +105864,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Assault.MoonFlax.CombatAR.HS.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.56": {
+      "WorldList.MythicRandom.54": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -105963,7 +105897,7 @@
         "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.SunRose.ModularDMR.UM.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.MythicRandom.57": {
+      "WorldList.MythicRandom.55": {
         "LootPackageID": "WorldList.MythicRandom",
         "Weight": 0.0,
         "NamedWeightMult": "None",
