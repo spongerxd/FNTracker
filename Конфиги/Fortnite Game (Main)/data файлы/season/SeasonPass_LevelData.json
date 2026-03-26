@@ -1,18 +1,184 @@
 [
   {
     "Type": "SeasonPassLevelData",
-    "Name": "BattlePassS39_SeasonPass_LevelData",
-    "Class": "UScriptClass'SeasonPassLevelData'",
+    "Name": "BattlePassS40_SeasonPass_LevelData",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SeasonPassLevelData'",
     "Properties": {
       "LevelPurchaseType": "ESeasonPassLevelPurchaseType::PurchaseLevels",
       "SeasonLevelPurchaseLimit": 100,
       "SeasonLevelPurchaseBundleLimit": 200,
       "SeasonLevelOffer_MaxLevel": 200,
-      "SeasonLevelRewards": {
-        "ObjectName": "DataTable'BattlePassS39_SeasonPass_LevelRewards'",
-        "ObjectPath": "/BattlePassS39_SeasonPass/SeasonPass/BattlePassS39_SeasonPass_LevelRewards.0"
-      }
+      "CachedSortedSeasonLevelRewards": [
+        {
+          "Level": 5,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 20,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 35,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 50,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 65,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 75,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 85,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 102,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 108,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 122,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 136,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "Level": 150,
+          "RewardEntries": [
+            {
+              "ItemPrimaryAssetId": {
+                "PrimaryAssetType": {
+                  "Name": "AccountResource"
+                },
+                "PrimaryAssetName": "AthenaCategoryStar"
+              },
+              "Quantity": 1
+            }
+          ]
+        }
+      ]
     }
   }
 ]

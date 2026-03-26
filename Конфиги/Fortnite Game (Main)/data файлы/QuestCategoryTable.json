@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "QuestCategoryTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortCategoryTableRow'",
@@ -377,6 +377,15 @@
           "Key": "LTE_Brainstorm_Name",
           "SourceString": "Event: Eye of the Brainstorm",
           "LocalizedString": "Событие «Гиперталамус»"
+        },
+        "SortPriority": 52
+      },
+      "LTE_Welcome": {
+        "Name": {
+          "Namespace": "QuestCategoryTable",
+          "Key": "LTE_Welcome_Name",
+          "SourceString": "[PH] Event: Guide to Saving the World",
+          "LocalizedString": "[PH] Event: Guide to Saving the World"
         },
         "SortPriority": 52
       },

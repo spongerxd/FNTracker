@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "FeralCorgiItemDamage",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortRangedWeaponStats'",
@@ -145,6 +145,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -264,6 +280,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 0.0,
         "AutofireAcquisitionRechargeTime": 0.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -408,6 +425,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -527,6 +560,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 0.0,
         "AutofireAcquisitionRechargeTime": 0.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -671,6 +705,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -790,6 +840,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 0.0,
         "AutofireAcquisitionRechargeTime": 0.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -934,6 +985,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -1053,6 +1120,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 0.0,
         "AutofireAcquisitionRechargeTime": 0.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {

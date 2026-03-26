@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "AthenaRangedWeapons_FeralCorgi",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortRangedWeaponStats'",
@@ -145,6 +145,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -371,6 +387,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -512,6 +529,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -686,6 +719,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.1,
         "PerWeaponHotfixes": {
@@ -827,6 +861,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -1143,6 +1193,7 @@
         "AutofireAcquisitionDelay": 0.2,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -1284,6 +1335,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -1606,6 +1673,7 @@
         "AutofireAcquisitionDelay": 0.2,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -1747,6 +1815,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -1927,6 +2011,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.1,
         "PerWeaponHotfixes": {
@@ -2068,6 +2153,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -2272,6 +2373,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.1,
         "PerWeaponHotfixes": {
@@ -2413,6 +2515,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -2657,6 +2775,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -2798,6 +2917,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -2984,6 +3119,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -3125,6 +3261,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -3335,6 +3487,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -3476,6 +3629,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -3646,6 +3815,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -3787,6 +3957,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -3989,6 +4175,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -4133,6 +4320,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -4259,6 +4462,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -4403,6 +4607,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -4529,6 +4749,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -4673,6 +4894,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -4799,6 +5036,7 @@
         "AutofireAcquisitionDelay": 0.15,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 1.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.0,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -4943,6 +5181,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -5166,6 +5420,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -5310,6 +5565,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -5533,6 +5804,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -5674,6 +5946,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -5900,6 +6188,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {
@@ -6041,6 +6330,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -6225,6 +6530,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.1,
         "PerWeaponHotfixes": {
@@ -6366,6 +6672,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -6600,6 +6922,7 @@
         "AutofireAcquisitionDelay": 0.175,
         "AutofireDBNOAcquisitionDelay": 1.0,
         "AutofireAcquisitionRechargeTime": 2.0,
+        "AutofireMinChargingTime": 0.0,
         "AutofireReleaseTime": 0.3,
         "AutofireCooldown": 0.0,
         "PerWeaponHotfixes": {

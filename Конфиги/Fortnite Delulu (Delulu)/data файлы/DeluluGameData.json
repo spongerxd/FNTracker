@@ -2,8 +2,8 @@
   {
     "Type": "CurveTable",
     "Name": "DeluluGameData",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Default.Delulu.EnableUISplashScreen": {
@@ -118,12 +118,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Delulu.AdHoc.UseOriginalEmotes": {
+      "Delulu.AllBp.BusGrant.AllowWeaponSorting": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.0
+            "Value": 1.0
           },
           {
             "Time": 1.0,
@@ -262,7 +262,7 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Delulu.ShouldWaitGamePhaseToGrantEmote": {
+      "Delulu.PostMatch.AddKeepTogetherOption": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
@@ -278,7 +278,7 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Delulu.FocusOnDeluluEmoteWheel": {
+      "Delulu.AllBp.BusGrant.SelectWeapon": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
@@ -496,54 +496,6 @@
           {
             "Time": 1.0,
             "Value": 0.2
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Delulu.AllBp.BusGrant.SelectWeapon": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 1.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Delulu.PostMatch.AddKeepTogetherOption": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 0.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.0
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Delulu.AllBp.BusGrant.AllowWeaponSorting": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,

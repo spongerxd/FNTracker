@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "PunchBerryLootPackages",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortLootPackageData'",
@@ -5192,9 +5192,42 @@
         "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Rocket.C0;Item:WID.Crossbow.MoonFlax.UM.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.100": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.08,
+      "WorldList.AthenaPH.Resources.01": {
+        "LootPackageID": "WorldList.AthenaPH.Resources",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaPH.Resources.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.Utility.100": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Utility",
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5225,9 +5258,9 @@
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.101": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+      "WorldList.AthenaHighConsumables.Utility.101": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Utility",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5248,7 +5281,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "AssetPathName": "/TeaCakeConsumables/Gameplay/Dynamite/WID_TeaCake_Dynamite_R.WID_TeaCake_Dynamite_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -5258,8 +5291,8 @@
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.102": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
+      "WorldList.AthenaHighConsumables.Utility.102": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Utility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5291,8 +5324,8 @@
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.103": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
+      "WorldList.AthenaHighConsumables.Utility.103": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Utility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5324,9 +5357,9 @@
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumablesRare.100": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.12,
+      "WorldList.AthenaHighConsumablesRare.Utility.100": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Utility",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5357,9 +5390,9 @@
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumablesRare.101": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
+      "WorldList.AthenaHighConsumablesRare.Utility.101": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Utility",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5380,7 +5413,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "AssetPathName": "/TeaCakeConsumables/Gameplay/Dynamite/WID_TeaCake_Dynamite_R.WID_TeaCake_Dynamite_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -5390,8 +5423,8 @@
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumablesRare.102": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+      "WorldList.AthenaHighConsumablesRare.Utility.102": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Utility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5421,44 +5454,11 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DeployedCover",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumablesRare.103": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.100": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.05,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5722,7 +5722,7 @@
       },
       "WorldList.AthenaSupplyDropUtility.100": {
         "LootPackageID": "WorldList.AthenaSupplyDropUtility",
-        "Weight": 0.05,
+        "Weight": 0.03,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5755,7 +5755,7 @@
       },
       "WorldList.AthenaSupplyDropUtility.101": {
         "LootPackageID": "WorldList.AthenaSupplyDropUtility",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5776,7 +5776,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "AssetPathName": "/TeaCakeConsumables/Gameplay/Dynamite/WID_TeaCake_Dynamite_R.WID_TeaCake_Dynamite_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -5852,9 +5852,42 @@
         "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.100": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.02,
+      "WorldList.AthenaHighConsumablesRare.Utility.103": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Utility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.Utility.100": {
+        "LootPackageID": "WorldList.AthenaConsumables.Utility",
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5885,9 +5918,9 @@
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.101": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+      "WorldList.AthenaConsumables.Utility.101": {
+        "LootPackageID": "WorldList.AthenaConsumables.Utility",
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5908,7 +5941,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "AssetPathName": "/TeaCakeConsumables/Gameplay/Dynamite/WID_TeaCake_Dynamite_R.WID_TeaCake_Dynamite_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -5918,8 +5951,8 @@
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.102": {
-        "LootPackageID": "WorldList.AthenaConsumables",
+      "WorldList.AthenaConsumables.Utility.102": {
+        "LootPackageID": "WorldList.AthenaConsumables.Utility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5949,39 +5982,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DeployedCover",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaConsumables.103": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaPH.Consumables.01": {
@@ -6017,14 +6017,14 @@
         "Annotation": ";List:WorldList.AthenaPH.Consumables.C0;Item:Consumable.ShieldSmallV2",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaPH.Resources.01": {
-        "LootPackageID": "WorldList.AthenaPH.Resources",
+      "WorldList.AthenaConsumables.Utility.103": {
+        "LootPackageID": "WorldList.AthenaConsumables.Utility",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -6040,14 +6040,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaPH.Resources.C0;Item:Consumable.ShieldSmallV2",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       }
     }

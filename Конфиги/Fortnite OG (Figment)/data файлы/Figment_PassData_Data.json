@@ -2,8 +2,8 @@
   {
     "Type": "SeasonPassData",
     "Name": "Figment_S07_PassData_Data",
-    "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SeasonPassData'",
     "Properties": {
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_OGPass.MI_UI_NexusHeaderIcon_OGPass",
@@ -74,11 +74,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.184004,
-                    "G": 0.147461,
-                    "B": 0.1875,
+                    "R": 0.396755,
+                    "G": 0.318547,
+                    "B": 0.40724,
                     "A": 1.0,
-                    "Hex": "776B78"
+                    "Hex": "A999AB"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -251,6 +251,7 @@
       "SeasonPassBundleOfferId": "0",
       "SeasonPassLevelOfferId": "D1DB8AC74A58DF0514452EAB90590160",
       "SeasonPassLevelBundleOfferId": "0",
+      "RefundAmountForGiftToken": 1000,
       "PaidRewards": [
         {
           "OfferGuid": "00000000-00000000-00000000-00000000",

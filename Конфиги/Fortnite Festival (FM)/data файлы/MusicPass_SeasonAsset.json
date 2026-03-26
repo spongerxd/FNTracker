@@ -2,8 +2,8 @@
   {
     "Type": "SeasonPassItemDefinition",
     "Name": "MusicPassS13_SeasonAsset",
-    "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SeasonPassItemDefinition'",
     "Properties": {
       "CommonData": {
         "AssetPathName": "/MusicPassCommonData/MusicPassCommonData.MusicPassCommonData",
@@ -24,6 +24,350 @@
         }
       ],
       "PRMPassId": "SparksPass",
+      "SeasonPassOfferItemRewards": [
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_ForestJeanWink"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_ForestJeanWink_DrumStick"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_ForestJeanWink_Keytar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_ForestJeanWink_Mic"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_LoveSpin_Guitar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaBackpack"
+          },
+          "PrimaryAssetName": "Backpack_WackyGuy_Bass"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaCharacter"
+          },
+          "PrimaryAssetName": "Character_ForestJeanWink"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "EID_GirlyJazz"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "EID_Palpitation"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Emoticon_ForestJean"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Emoticon_S39MusicPass"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Emoticon_S39MusicPass2"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Spray_ForestJean"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Spray_S39MusicPass"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Spray_S39MusicPass2"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaDance"
+          },
+          "PrimaryAssetName": "Spray_S39MusicPass3"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaLoadingScreen"
+          },
+          "PrimaryAssetName": "LoadingScreen_ForestJean"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "Pickaxe_ForestJeanWink_DrumStick"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "Pickaxe_ForestJeanWink_Keytar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "Pickaxe_ForestJeanWink_Mic"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "Pickaxe_LoveSpin_Guitar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "AthenaPickaxe"
+          },
+          "PrimaryAssetName": "Pickaxe_WackyGuy_Bass"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Drum_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Drum_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Keytar_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Keytar_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Mic_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Backpack_ForestJeanWink_Mic_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Character_ForestJeanWink_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Drum_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Drum_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Keytar_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Keytar_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Mic_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Pickaxe_ForestJeanWink_Mic_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Drum_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Drum_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Keytar_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Keytar_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Mic_StyleA"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "CosmeticVariantToken"
+          },
+          "PrimaryAssetName": "VTID_Sparks_ForestJeanWink_Mic_StyleB"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "SparksAura_FantasyPlant"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "SparksAura_FantasySparkle"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksAura"
+          },
+          "PrimaryAssetName": "SparksAura_FantasySunburst"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksBass"
+          },
+          "PrimaryAssetName": "Sparks_WackyGuy_Bass"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksDrums"
+          },
+          "PrimaryAssetName": "Sparks_ForestJeanWink_DrumKit"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksGuitar"
+          },
+          "PrimaryAssetName": "Sparks_LoveSpin_Guitar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksKeyboard"
+          },
+          "PrimaryAssetName": "Sparks_ForestJeanWink_Keytar"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksMicrophone"
+          },
+          "PrimaryAssetName": "Sparks_ForestJeanWink_Mic"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_736"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_738"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_739"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_740"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_741"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_746"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_747"
+        },
+        {
+          "PrimaryAssetType": {
+            "Name": "SparksSong"
+          },
+          "PrimaryAssetName": "SID_Placeholder_749"
+        }
+      ],
       "SeasonNumber": 13,
       "ItemName": {
         "Namespace": "",

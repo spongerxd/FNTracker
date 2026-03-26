@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "Hera_Terrain_FrontEndMapMarkers",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortChallengeMapPoiData'",
@@ -86,32 +86,30 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.POI.Generic.10": {
+      "Athena.Location.UnNamedPOI.Landmark.34": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "C1BB1D2A445E49964E927694D28CCDFD",
-          "SourceString": "TIPTOP TERRACE",
-          "LocalizedString": "ТИХИЕ ТЕРРАСЫ"
+          "Key": "233F97C1487F98F234265ABE83858955",
+          "SourceString": "ANTI-GRAV SHARD",
+          "LocalizedString": "АНТИГРАВИТАЦИОННЫЙ ОСКОЛОК"
         },
         "WorldLocation": {
-          "X": -77919.97,
-          "Y": -52192.34,
-          "Z": 2416.0
+          "X": -66803.11,
+          "Y": -169.24258,
+          "Z": 6792.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.10"
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.34"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
           "PrimaryAssetType": {
-            "Name": "Quest"
+            "Name": "None"
           },
-          "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
+          "PrimaryAssetName": "None"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj9",
-        "ActiveDiscoverableBlobIds": [
-          40
-        ]
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
       },
       "Athena.Location.UnNamedPOI.Landmark.06": {
         "Text": {
@@ -188,20 +186,20 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.POI.Generic.15": {
+      "Athena.Location.POI.Generic.17": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
           "Key": "A340DCC84FFE5FBE216F07B35576EF3A",
-          "SourceString": "CLAWSY LODGE",
-          "LocalizedString": "ПРАЗДНИЧНОЕ ПОСЕЛЕНИЕ"
+          "SourceString": "FRIGID FORTRESS",
+          "LocalizedString": "ЗАСТЫВШИЙ ЗАМОК"
         },
         "WorldLocation": {
-          "X": -2136.0,
-          "Y": -64876.0,
+          "X": 5756.0,
+          "Y": -57484.0,
           "Z": 6860.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.15"
+          "TagName": "Athena.Location.POI.Generic.17"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -210,7 +208,7 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj14",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj16",
         "ActiveDiscoverableBlobIds": [
           130
         ]
@@ -319,30 +317,32 @@
           110
         ]
       },
-      "Athena.Location.UnNamedPOI.Landmark.23": {
+      "Athena.Location.POI.Generic.10": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "59543D9748EF3CA4E292E28F989AAE24",
-          "SourceString": "PUMPING STATION",
-          "LocalizedString": "НАСОСНАЯ СТАНЦИЯ"
+          "Key": "6881301D483D4141141B83A5F96A31BF",
+          "SourceString": "TIPTOP TERRACE",
+          "LocalizedString": "ТИХИЕ ТЕРРАСЫ"
         },
         "WorldLocation": {
-          "X": 23527.395,
-          "Y": -45946.355,
-          "Z": 6860.0
+          "X": -78275.836,
+          "Y": -41450.938,
+          "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.23"
+          "TagName": "Athena.Location.POI.Generic.10"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
           "PrimaryAssetType": {
-            "Name": "None"
+            "Name": "Quest"
           },
-          "PrimaryAssetName": "None"
+          "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj9",
+        "ActiveDiscoverableBlobIds": [
+          40
+        ]
       },
       "Athena.Location.UnNamedPOI.Landmark.27": {
         "Text": {
@@ -369,31 +369,6 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.21": {
-        "Text": {
-          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "20DA496B4A9167AA5F8CED8F31EBCE3E",
-          "SourceString": "ESPRESSO EXPERIMENTS",
-          "LocalizedString": "КОФЕЙНЫЕ КАБИНЕТЫ"
-        },
-        "WorldLocation": {
-          "X": 15740.888,
-          "Y": -70365.24,
-          "Z": 6860.0
-        },
-        "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.21"
-        },
-        "CalendarEventsRequired": [],
-        "DiscoveryQuestPrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "None"
-          },
-          "PrimaryAssetName": "None"
-        },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
-      },
       "Athena.Location.POI.Generic.16": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -403,7 +378,7 @@
         },
         "WorldLocation": {
           "X": -41761.05,
-          "Y": -55345.75,
+          "Y": -51345.75,
           "Z": 2416.0
         },
         "LocationTag": {
@@ -446,20 +421,45 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.POI.Generic.02": {
+      "Athena.Location.UnNamedPOI.Landmark.31": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "9ABC41924A0798F267B661B2DCC52CAC",
+          "SourceString": "FROZEN SHARD",
+          "LocalizedString": "ЛЕДЯНОЙ ОСКОЛОК"
+        },
+        "WorldLocation": {
+          "X": -9227.112,
+          "Y": -49469.242,
+          "Z": 15336.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.31"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
+      "Athena.Location.POI.Generic.20": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
           "Key": "75F8C9F54CDC9B78EF6C13AB4594B571",
-          "SourceString": "BUMPY BAY",
-          "LocalizedString": "ГУЛКАЯ ГАВАНЬ"
+          "SourceString": "SQUIBBLY SHORES",
+          "LocalizedString": "ПРОМЫСЛОВЫЙ ПОРТ"
         },
         "WorldLocation": {
-          "X": -66463.836,
-          "Y": -1874.9381,
+          "X": -60103.836,
+          "Y": -6118.938,
           "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.02"
+          "TagName": "Athena.Location.POI.Generic.20"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -468,10 +468,35 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj1",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj19",
         "ActiveDiscoverableBlobIds": [
           90
         ]
+      },
+      "Athena.Location.UnNamedPOI.Landmark.33": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "07023B144611EC9B63B9449BBC62F003",
+          "SourceString": "SWIFT SHARD",
+          "LocalizedString": "ОСКОЛОК СТРЕМИТЕЛЬНОСТИ"
+        },
+        "WorldLocation": {
+          "X": 60716.887,
+          "Y": 34162.758,
+          "Z": 6792.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.33"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
       },
       "Athena.Location.POI.Generic.09": {
         "Text": {
@@ -677,31 +702,6 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.16": {
-        "Text": {
-          "Namespace": "",
-          "Key": "2B8DB52E44DF94330C7A30B18F251794",
-          "SourceString": "SERENITY POOLS",
-          "LocalizedString": "БЕЗМЯТЕЖНЫЕ ВОДЫ"
-        },
-        "WorldLocation": {
-          "X": 23171.73,
-          "Y": -19156.014,
-          "Z": 2792.0
-        },
-        "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.16"
-        },
-        "CalendarEventsRequired": [],
-        "DiscoveryQuestPrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "None"
-          },
-          "PrimaryAssetName": "None"
-        },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
-      },
       "Athena.Location.UnNamedPOI.Landmark.14": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -806,20 +806,45 @@
           80
         ]
       },
-      "Athena.Location.UnNamedPOI.Landmark.24": {
+      "Athena.Location.UnNamedPOI.Landmark.37": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "21208E824E556BD3F181A0AB4963E599",
+          "SourceString": "THE SHAPE",
+          "LocalizedString": "ФИГУРА"
+        },
+        "WorldLocation": {
+          "X": 55628.0,
+          "Y": -15244.0,
+          "Z": 5044.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.37"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
+      "Athena.Location.UnNamedPOI.Landmark.35": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
           "Key": "473DF1594FD2AFD200E79BB496BB2B8B",
-          "SourceString": "BAYSIDE MANSION",
-          "LocalizedString": "ПРИБРЕЖНЫЙ ОСОБНЯК"
+          "SourceString": "Sticks",
+          "LocalizedString": "Ресторан «У Карася»"
         },
         "WorldLocation": {
-          "X": -85336.0,
-          "Y": 15516.0,
+          "X": -86580.0,
+          "Y": 18248.0,
           "Z": 3100.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.24"
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.35"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -858,6 +883,31 @@
           95
         ]
       },
+      "Athena.Location.UnNamedPOI.Landmark.40": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "3626422B473EDF69D29948A70CDF6C9D",
+          "SourceString": "UNCLE PETE'S PIZZA PIT",
+          "LocalizedString": "ПИЦЦЕРИЯ ДЯДЮШКИ ПИТА"
+        },
+        "WorldLocation": {
+          "X": 20156.0,
+          "Y": 42340.0,
+          "Z": 5044.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.40"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
       "Athena.Location.UnNamedPOI.Landmark.15": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -872,6 +922,31 @@
         },
         "LocationTag": {
           "TagName": "Athena.Location.UnNamedPOI.Landmark.15"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
+      "Athena.Location.UnNamedPOI.Landmark.39": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "E4017FA7492DF10454E547900A947357",
+          "SourceString": "ICE KING VAULT",
+          "LocalizedString": "АРСЕНАЛ ВЛАДЫКИ ЛЬДА"
+        },
+        "WorldLocation": {
+          "X": 5948.887,
+          "Y": -29857.242,
+          "Z": 13732.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.39"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -935,31 +1010,6 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.04": {
-        "Text": {
-          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "313C38674FD571CF3019D2818FCB2467",
-          "SourceString": "THE BASEMENT",
-          "LocalizedString": "ПОДВАЛ"
-        },
-        "WorldLocation": {
-          "X": 6692.0,
-          "Y": -26644.0,
-          "Z": 6860.0
-        },
-        "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.04"
-        },
-        "CalendarEventsRequired": [],
-        "DiscoveryQuestPrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "None"
-          },
-          "PrimaryAssetName": "None"
-        },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
-      },
       "Athena.Location.UnNamedPOI.Landmark.08": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -1010,6 +1060,31 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
+      "Athena.Location.UnNamedPOI.Landmark.38": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "9C79F7D44E8A83E68DF4BB90A7148172",
+          "SourceString": "LLAMA LANDING",
+          "LocalizedString": "ЛАГЕРЬ ЛАМЫ"
+        },
+        "WorldLocation": {
+          "X": -22080.0,
+          "Y": 46596.0,
+          "Z": 2200.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.38"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
       "Athena.Location.UnNamedPOI.Landmark.20": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -1035,12 +1110,12 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.POI.Generic.11": {
+      "Athena.Location.POI.Generic.19": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
           "Key": "43F127214BB09BCB4A482F8A3129849A",
-          "SourceString": "CLASSIFIED CANYON",
-          "LocalizedString": "КАНЬОН КОНСПИРАЦИИ"
+          "SourceString": "NEW SANCTUARY",
+          "LocalizedString": "НОВОЕ УБЕЖИЩЕ"
         },
         "WorldLocation": {
           "X": 46613.773,
@@ -1048,7 +1123,7 @@
           "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.11"
+          "TagName": "Athena.Location.POI.Generic.19"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -1057,25 +1132,25 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj10",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj18",
         "ActiveDiscoverableBlobIds": [
           120
         ]
       },
-      "Athena.Location.POI.Generic.14": {
+      "Athena.Location.POI.Generic.18": {
         "Text": {
           "Namespace": "",
           "Key": "19338B404FD0B541A92840A9BAE1D40B",
-          "SourceString": "LETHAL LABS",
-          "LocalizedString": "ЛЕТАЛЬНАЯ ЛАБОРАТОРИЯ"
+          "SourceString": "DARK DOMINION",
+          "LocalizedString": "СТАНЦИЯ СТРАННИКА"
         },
         "WorldLocation": {
           "X": -11186.869,
-          "Y": -38.44726,
+          "Y": 4961.5527,
           "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.14"
+          "TagName": "Athena.Location.POI.Generic.18"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -1084,10 +1159,35 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj13",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj17",
         "ActiveDiscoverableBlobIds": [
           70
         ]
+      },
+      "Athena.Location.UnNamedPOI.Landmark.36": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "21B60E3D49446AC681F1628E56E04453",
+          "SourceString": "SQUIBBLY'S POINT LIGHTHOUSE",
+          "LocalizedString": "МАЯК У ПИРСА"
+        },
+        "WorldLocation": {
+          "X": -80768.0,
+          "Y": 5768.0,
+          "Z": 3100.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.36"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
       },
       "Athena.Location.UnNamedPOI.Landmark.03": {
         "Text": {

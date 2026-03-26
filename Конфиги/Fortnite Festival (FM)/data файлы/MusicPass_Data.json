@@ -2,8 +2,8 @@
   {
     "Type": "SeasonPassData",
     "Name": "MusicPassS13_Data",
-    "Class": "UScriptClass'SeasonPassData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SeasonPassData'",
     "Properties": {
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_FestivalPass.MI_UI_NexusHeaderIcon_FestivalPass",
@@ -74,11 +74,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.184475,
-                    "G": 0.147027,
-                    "B": 0.187821,
+                    "R": 0.396755,
+                    "G": 0.318547,
+                    "B": 0.40724,
                     "A": 1.0,
-                    "Hex": "776B78"
+                    "Hex": "A999AB"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -251,6 +251,7 @@
       "SeasonPassBundleOfferId": "0",
       "SeasonPassLevelOfferId": "0A12CC9C48BF3244A7795C9C65FA8341",
       "SeasonPassLevelBundleOfferId": "0",
+      "RefundAmountForGiftToken": 1400,
       "PaidRewards": [
         {
           "OfferGuid": "00000000-00000000-00000000-00000000",

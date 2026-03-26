@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "AthenaRangedWeapons_HS",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortRangedWeaponStats'",
@@ -142,6 +142,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -507,6 +523,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -866,6 +898,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -1231,6 +1279,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -1590,6 +1654,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -1955,6 +2035,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -2317,6 +2413,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -2658,6 +2770,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -3005,6 +3133,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -3346,6 +3490,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -3693,6 +3853,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -4037,6 +4213,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -4378,6 +4570,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -4731,6 +4939,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -5078,6 +5302,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -5431,6 +5671,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -5778,6 +6034,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -6131,6 +6403,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -6478,6 +6766,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -6993,6 +7297,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -7502,6 +7822,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -8017,6 +8353,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -8526,6 +8878,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -9041,6 +9409,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -9553,6 +9937,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -9974,6 +10374,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -10401,6 +10817,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -10822,6 +11254,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -11249,6 +11697,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -11670,6 +12134,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -12097,6 +12577,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -12430,6 +12926,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -12769,6 +13281,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -13102,6 +13630,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -13441,6 +13985,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -13774,6 +14334,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -14113,6 +14689,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -14449,6 +15041,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -14710,6 +15318,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -14977,6 +15601,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -15238,6 +15878,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -15505,6 +16161,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -15766,6 +16438,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -16033,6 +16721,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -16294,6 +16998,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -16561,6 +17281,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -16822,6 +17558,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -17089,6 +17841,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -17350,6 +18118,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -17617,6 +18401,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -17878,6 +18678,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -18145,6 +18961,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -18406,6 +19238,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },
@@ -18673,6 +19521,22 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "RecoilErrorAddedPerShot": 0.1,
         "RecoilOffsetConsideredMaxFraction": 1.0,
         "RecoilDelay": -1.0,
@@ -18934,6 +19798,22 @@
         },
         "bUseAccumulatedRecoilToLerpMinToMaxPerBulletRecoilValues": false,
         "RecoilMinToMaxCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxVerticalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMinHorizontalCurve": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RecoilMaxHorizontalCurve": {
           "AssetPathName": "",
           "SubPathString": ""
         },

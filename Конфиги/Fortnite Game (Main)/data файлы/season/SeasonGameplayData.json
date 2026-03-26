@@ -1,9 +1,9 @@
 [
   {
     "Type": "BRSeasonGameplayData",
-    "Name": "SeasonGameplayData_S39",
-    "Class": "UScriptClass'BRSeasonGameplayData'",
+    "Name": "SeasonGameplayData_S40",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BRSeasonGameplayData'",
     "Properties": {
       "SeasonDataTables": [
         {
@@ -11,8 +11,8 @@
             "TagName": "Conversation.Table.NPC.Services"
           },
           "Value": {
-            "ObjectName": "CompositeDataTable'NPCServices_S39_Composite'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/NPCServices_S39_Composite.0"
+            "ObjectName": "CompositeDataTable'NPCServices_S40_Composite'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/NPCServices_S40_Composite.0"
           }
         },
         {
@@ -20,8 +20,8 @@
             "TagName": "Conversation.Table.NPC.Sales"
           },
           "Value": {
-            "ObjectName": "DataTable'NPCSales_S39'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/NPCSales_S39.0"
+            "ObjectName": "DataTable'NPCSales_S40'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/NPCSales_S40.0"
           }
         },
         {
@@ -30,7 +30,7 @@
           },
           "Value": {
             "ObjectName": "DataTable'Station_GiftItems'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/Station_GiftItems.0"
+            "ObjectPath": "/BattlePassS40_Services/DataTables/Station_GiftItems.0"
           }
         },
         {
@@ -39,7 +39,7 @@
           },
           "Value": {
             "ObjectName": "DataTable'Station_Gifts'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/Station_Gifts.0"
+            "ObjectPath": "/BattlePassS40_Services/DataTables/Station_Gifts.0"
           }
         },
         {
@@ -47,8 +47,8 @@
             "TagName": "Tandem.Data.VendingMachine.StationServices"
           },
           "Value": {
-            "ObjectName": "DataTable'StationServices_S39'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/StationServices_S39.0"
+            "ObjectName": "DataTable'StationServices_S40'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/StationServices_S40.0"
           }
         },
         {
@@ -56,8 +56,8 @@
             "TagName": "Tandem.Data.VendingMachine.StationSales"
           },
           "Value": {
-            "ObjectName": "DataTable'StationSales_S39'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/StationSales_S39.0"
+            "ObjectName": "DataTable'StationSales_S40'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/StationSales_S40.0"
           }
         },
         {
@@ -65,8 +65,8 @@
             "TagName": "Tandem.Data.PricingKeyRemapping"
           },
           "Value": {
-            "ObjectName": "DataTable'NPCPricingKeyRemaps_S39'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/NPCPricingKeyRemaps_S39.0"
+            "ObjectName": "DataTable'NPCPricingKeyRemaps_S40'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/NPCPricingKeyRemaps_S40.0"
           }
         }
       ],
@@ -77,7 +77,7 @@
           },
           "Value": {
             "ObjectName": "FortConversationGiftTypeDefinitions'Station_GiftTypeDefinitions'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/Station_GiftTypeDefinitions.1"
+            "ObjectPath": "/BattlePassS40_Services/DataTables/Station_GiftTypeDefinitions.1"
           }
         },
         {
@@ -85,8 +85,8 @@
             "TagName": "Tandem.Data.ConditionalBenefits"
           },
           "Value": {
-            "ObjectName": "FortConditionalBenefitsConfigCollection'NPCReputationBenefits_S39'",
-            "ObjectPath": "/BattlePassS39_Services/DataTables/NPCReputationBenefits_S39.0"
+            "ObjectName": "FortConditionalBenefitsConfigCollection'NPCReputationBenefits_S40'",
+            "ObjectPath": "/BattlePassS40_Services/DataTables/NPCReputationBenefits_S40.0"
           }
         }
       ],

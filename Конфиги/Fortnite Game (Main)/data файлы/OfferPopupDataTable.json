@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "OfferPopupDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'OfferPopUpData'",
@@ -3471,8 +3471,8 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "F9E7AF594D21DFCF1C07429D9B5C8613",
-          "SourceString": "TBC",
-          "LocalizedString": "TBC"
+          "SourceString": "Scent reaction is random each time",
+          "LocalizedString": "Каждый раз случайная реакция на запах"
         }
       },
       "promodesc123": {
@@ -4248,7 +4248,7 @@
           "Namespace": "",
           "Key": "6B1131F1475F5E55F37AB181D6F86CA7",
           "SourceString": "Includes a speed-reactive animated Decal, Time Stream! Decals in this bundle are restricted to the Back To The Future Time Machine car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
-          "LocalizedString": "Включает декаль, которая меняет внешний вид при ускорении! Декали из этого комплекта совместимы только с машиной времени из «Назад в будущее». Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+          "LocalizedString": "Включает декаль, которая меняет внешний вид при ускорении! Декали из этого комплекта совместимы только с машиной времени из «Назад в будущее». Этот автомобиль будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
         }
       },
       "reactivestyle": {
@@ -4401,6 +4401,54 @@
           "Key": "F319F9E74015086C87A683BC29E82B19",
           "SourceString": "Decals in this bundle are restricted to the Mercedes-Benz CLA car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
           "LocalizedString": "Декали из этого комплекта совместимы только с кузовом Mercedes-Benz CLA. Эта машина будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "sheepbolt": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "88EFC4C0460B73E4CB9201A22AFFE0C3",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the TBD car body. This car will fill the SUV slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Rivian R1S. Эта машина будет занимать ячейку внедорожника в соответствующих режимах Fortnite."
+        }
+      },
+      "quartz": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "6674031E4E12AA50C6F3C0B8B7DD98BF",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the 007's Aston Martin DBS car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Aston Martin DBS агента 007. Этот автомобиль будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "spike": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "0F3FBBEE42437F4F760173BE1A73534B",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Havoc car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Havoc. Этот автомобиль будет занимать ячейку спортивных автомобилей в соответствующих режимах Fortnite."
+        }
+      },
+      "reactelimweak": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "5E9D21734892C4E8CD7F7EB833094C25",
+          "SourceString": "Reactive to eliminations and weak points!",
+          "LocalizedString": "Реагирует на устранения и слабые места!"
+        }
+      },
+      "timesnow": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "7B9540C54E8F54007A1007B4027B5E31",
+          "SourceString": "Outfit accumulates snow over time!",
+          "LocalizedString": "Экипировка постепенно покрывается снегом!"
+        }
+      },
+      "outfitcustomize": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "F224F37B4EA757D0A08F13BB4F02044D",
+          "SourceString": "Outfit is customizable!",
+          "LocalizedString": "Экипировку можно менять!"
         }
       }
     }

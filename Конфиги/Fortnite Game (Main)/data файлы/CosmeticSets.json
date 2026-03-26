@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "CosmeticSets",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CosmeticSetDataRow'",
@@ -20179,7 +20179,7 @@
           "Namespace": "",
           "Key": "44EB584240913D39D461149FB1B5E572",
           "SourceString": "Shadow Claw",
-          "LocalizedString": "Элитные войска"
+          "LocalizedString": "Власть тьмы"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21172,8 +21172,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "26AB8BA0406F0D678723D1A49F5A4E78",
-          "SourceString": "Ford F-150",
-          "LocalizedString": "Ford F-150"
+          "SourceString": "Ford F-150 RLE",
+          "LocalizedString": "Ford F-150 RLE"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21312,8 +21312,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "0941C4544E9FF9AD64D019BB03143739",
-          "SourceString": "Set_07",
-          "LocalizedString": "Набор_07"
+          "SourceString": "Mercedes-Benz CLA",
+          "LocalizedString": "Mercedes-Benz CLA"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21326,22 +21326,22 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "44F043E3489F15CC1A1012816B666504",
-          "SourceString": "Set_02",
+          "SourceString": "Solo Leveling:ARISE",
           "LocalizedString": "Solo Leveling:ARISE"
         },
         "Description": {
           "CultureInvariantString": null
         }
       },
-      "Cosmetics.Set.BlueGlass": {
+      "Cosmetics.Set.BlueGrass": {
         "Tag": {
-          "TagName": "Cosmetics.Set.BlueGlass"
+          "TagName": "Cosmetics.Set.BlueGrass"
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "B8A2064C4D27F5672579D98B1E55A3EF",
-          "SourceString": "Set_01",
-          "LocalizedString": "Набор_01"
+          "Key": "CC8247324B2BA5C361570E9B2AE9341C",
+          "SourceString": "Looney Tunes",
+          "LocalizedString": "Луни Тюнз"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21353,7 +21353,7 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "096704B0495CA6820D480AB645ACA457",
+          "Key": "79F19980418375DFF7F61AA1858BFEF7",
           "SourceString": "The Burning Sea",
           "LocalizedString": "Море огня"
         },
@@ -21367,7 +21367,7 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "7A1562D94BF66431417CE080360C2441",
+          "Key": "B54554744C89CB594EA9029185429B27",
           "SourceString": "Gold Blooded",
           "LocalizedString": "Блеск золота"
         },
@@ -21381,7 +21381,7 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "44DDDA50456DCD5B7FC4E8BA1BF59622",
+          "Key": "960A69154FD7A3359E2BB195274EA87B",
           "SourceString": "Ruff Stuff",
           "LocalizedString": "Деревянное сердце"
         },
@@ -21395,8 +21395,8 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "E3A8EA3348566F6F22C3B5A67332D78D",
-          "SourceString": "Set_05",
+          "Key": "A754CA5C44FB9DD341C691BA623F4300",
+          "SourceString": "Dino Thunder",
           "LocalizedString": "Дино Гром"
         },
         "Description": {
@@ -21409,9 +21409,9 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "65B6E0A74F55EDDF4FD5278F939FD5D4",
-          "SourceString": "Set_03",
-          "LocalizedString": "Набор_03"
+          "Key": "AFBD702C41F27D811D17ECBE9DB79FDF",
+          "SourceString": "Honkai: Star Rail",
+          "LocalizedString": "Honkai: Star Rail"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21423,9 +21423,9 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "2DC0FC5F43EF65DE9409FE8D6D345B47",
-          "SourceString": "Set_04",
-          "LocalizedString": "Набор_04"
+          "Key": "82FCE89F444791302BC072A44E88004A",
+          "SourceString": "TSUM TSUM",
+          "LocalizedString": "TSUM TSUM"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21437,7 +21437,7 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "B3C354504D5C06E63DF156BDF6CA2B1C",
+          "Key": "897948554534C67402FF2F85A797BF62",
           "SourceString": "Dread Skull",
           "LocalizedString": "Беспощадный враг"
         },
@@ -21451,9 +21451,373 @@
         },
         "DisplayName": {
           "Namespace": "",
-          "Key": "A4633D3B4D79968339DBF29D65FA6A46",
+          "Key": "90D1FCEF409183C6B5A728AD8B04A95E",
+          "SourceString": "Requiem for the Past",
+          "LocalizedString": "Реквием по прошлому"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GreenBeer": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GreenBeer"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2D3666674E96E1279FB47BA24B79D7C5",
+          "SourceString": "BMW M2",
+          "LocalizedString": "BMW M2"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FeverGoat": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FeverGoat"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FCD1C72A4CA2366E262DCCB595E5C9C1",
+          "SourceString": "Hoshimachi Suisei",
+          "LocalizedString": "Суисэй Хосимати"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.SilentGreen": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.SilentGreen"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "73D537134D01760B1225598130808DFC",
+          "SourceString": "Solenya the Pickle Man",
+          "LocalizedString": "Соленье, Человек-огурец"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.PopWind": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.PopWind"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E97BA00649715FFC6B22CE8C0B7E3849",
+          "SourceString": "Ooh wee! Squanchy!",
+          "LocalizedString": "Е-е-е, Сквончи!"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BigJump": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BigJump"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "33BF06CB45B2735822FBA5A13AEB7E41",
+          "SourceString": "Hoppers",
+          "LocalizedString": "Прыгуны"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.MoonSpleen": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.MoonSpleen"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F1E356354AA99755E695F486B7E7034F",
+          "SourceString": "Nights of Magic",
+          "LocalizedString": "Волшебные ночи"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CourseMind": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CourseMind"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0B422F914F4C0205D9B699B779492CF5",
+          "SourceString": "The Real Deal",
+          "LocalizedString": "Круче не бывает"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BarstoolNap": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BarstoolNap"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "CD2E85BD429FDE87CE9C159D6BD1934E",
+          "SourceString": "007's Aston Martin DBS",
+          "LocalizedString": "Aston Martin DBS агента 007"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ClockTower": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ClockTower"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0BF6C5734E881F998AA651816C70398C",
+          "SourceString": "Set_08",
+          "LocalizedString": "Set_08"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AngryDoor": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AngryDoor"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "32FB45A348EE97C467F1518D7104A5D7",
+          "SourceString": "Brutal Defender",
+          "LocalizedString": "Последний оплот"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.HiddenBeef": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.HiddenBeef"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "D98CFC244003CCE941C968AA64FF7934",
+          "SourceString": "Underground Rivalry",
+          "LocalizedString": "Дух свободы"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AllBall": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AllBall"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E093C14E4AC5FBE1768109A4A4A894DF",
+          "SourceString": "Elemental Court",
+          "LocalizedString": "Вечная зима"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.JusticeWall": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.JusticeWall"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F00313C54817450DB30E86B9DDDE933C",
+          "SourceString": "The New Seven",
+          "LocalizedString": "Новые Семеро"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.UnderFigure": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.UnderFigure"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "BFAF7748417F457C4CCB36B205012AFA",
+          "SourceString": "Dangerous Depths",
+          "LocalizedString": "Омут забвения"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TentacleGale": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TentacleGale"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3E3AC1BB4531EA213557A1B1E0BE5EF3",
+          "SourceString": "Squibbly Society",
+          "LocalizedString": "Осьминожий гнев"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.FlagMellow": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.FlagMellow"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "20F5A03B49E737CCC2EA5282C57D477D",
+          "SourceString": "Set_04",
+          "LocalizedString": "PEAK"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CatPolka": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CatPolka"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FC6E6069401EA66460361A9259FAEE29",
+          "SourceString": "Set_01",
+          "LocalizedString": "Лёд и пламя"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BrickBranch": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BrickBranch"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4FF792C24C1A9E3AFBDEA6AB00656591",
+          "SourceString": "Set_05",
+          "LocalizedString": "Set_05"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RopeSlide": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.RopeSlide"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "783BEA3E4A60E2D9D75169998538CD81",
+          "SourceString": "Rowdy Reputation",
+          "LocalizedString": "Дерзкий характер"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GhostMug": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GhostMug"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3CA9AB314BC6B1361BFA9FA7B39169F1",
+          "SourceString": "Set_07",
+          "LocalizedString": "Обувь Balenciaga"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ColorSpray": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ColorSpray"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6075FA7548A86397A152EBB2343D7770",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.RoyalFur": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.RoyalFur"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "5FB8185C44813677017BCDB3398D7762",
+          "SourceString": "Queen of Felines",
+          "LocalizedString": "Мяуледи"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ChimneyDog": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ChimneyDog"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F8A9259244CFDA1B5DE626979BC0AF73",
+          "SourceString": "Kliff the Greymane",
+          "LocalizedString": "Клифф из Серых Грив"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BookMonocle": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BookMonocle"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1704DB3A4758BBB69DB9CA9DD59CEBD5",
+          "SourceString": "Set_03",
+          "LocalizedString": "Мстители из киновселенной Marvel"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TrickDeck": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TrickDeck"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "265FF6B24645C3381EA125AA3A103202",
           "SourceString": "Set_06",
-          "LocalizedString": "Набор_06"
+          "LocalizedString": "Обувь Heelys"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.GlassRange": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.GlassRange"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "CFBF60AF4EBA3538A3A90BBB41D7E4E0",
+          "SourceString": "Roses & Ruin",
+          "LocalizedString": "Розы и руины"
         },
         "Description": {
           "CultureInvariantString": null

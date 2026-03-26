@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "Composite_LP_Figment",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -38996,7 +38996,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39128,7 +39128,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.06": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DashBerryLootPackages",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortLootPackageData'",
@@ -5192,9 +5192,42 @@
         "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Rocket.C0;Item:WID.Crossbow.MoonFlax.UM.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.100": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.05,
+      "WorldList.AthenaPH.Resources.01": {
+        "LootPackageID": "WorldList.AthenaPH.Resources",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaPH.Resources.C0;Item:Consumable.ShieldSmallV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.Healing.100": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
+        "Weight": 0.02,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5225,111 +5258,111 @@
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumables.101": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.15,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/VeryRare/Athena_PurpleStuff_VR.Athena_PurpleStuff_VR",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumables.102": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.2,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DeployedCover",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumables.103": {
-        "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumablesRare.100": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+      "WorldList.AthenaHighConsumables.Healing.101": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
         "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/VeryRare/Athena_PurpleStuff_VR.Athena_PurpleStuff_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.Healing.102": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
+        "Weight": 0.1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DeployedCover",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumables.Healing.103": {
+        "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumablesRare.Healing.100": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
+        "Weight": 0.02,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
           "X": 1,
           "Y": 1
         },
@@ -5357,9 +5390,9 @@
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumablesRare.101": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.15,
+      "WorldList.AthenaHighConsumablesRare.Healing.101": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5390,9 +5423,9 @@
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaHighConsumablesRare.102": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.2,
+      "WorldList.AthenaHighConsumablesRare.Healing.102": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5421,39 +5454,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DeployedCover",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaHighConsumablesRare.103": {
-        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.100": {
@@ -5590,7 +5590,7 @@
       },
       "WorldList.AthenaSupplyDropHeals.100": {
         "LootPackageID": "WorldList.AthenaSupplyDropHeals",
-        "Weight": 0.1,
+        "Weight": 0.02,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5623,7 +5623,7 @@
       },
       "WorldList.AthenaSupplyDropHeals.101": {
         "LootPackageID": "WorldList.AthenaSupplyDropHeals",
-        "Weight": 0.15,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5656,7 +5656,7 @@
       },
       "WorldList.AthenaSupplyDropHeals.102": {
         "LootPackageID": "WorldList.AthenaSupplyDropHeals",
-        "Weight": 0.2,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5852,8 +5852,41 @@
         "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.100": {
-        "LootPackageID": "WorldList.AthenaConsumables",
+      "WorldList.AthenaHighConsumablesRare.Healing.103": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaConsumables.Healing.100": {
+        "LootPackageID": "WorldList.AthenaConsumables.Healing",
         "Weight": 0.02,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5885,8 +5918,8 @@
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DeployedCover",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.101": {
-        "LootPackageID": "WorldList.AthenaConsumables",
+      "WorldList.AthenaConsumables.Healing.101": {
+        "LootPackageID": "WorldList.AthenaConsumables.Healing",
         "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -5918,9 +5951,9 @@
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaConsumables.102": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.15,
+      "WorldList.AthenaConsumables.Healing.102": {
+        "LootPackageID": "WorldList.AthenaConsumables.Healing",
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -5949,39 +5982,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DeployedCover",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaConsumables.103": {
-        "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaPH.Consumables.01": {
@@ -6017,14 +6017,14 @@
         "Annotation": ";List:WorldList.AthenaPH.Consumables.C0;Item:Consumable.ShieldSmallV2",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaPH.Resources.01": {
-        "LootPackageID": "WorldList.AthenaPH.Resources",
+      "WorldList.AthenaConsumables.Healing.103": {
+        "LootPackageID": "WorldList.AthenaConsumables.Healing",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -6040,14 +6040,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaPH.Resources.C0;Item:Consumable.ShieldSmallV2",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       }
     }
