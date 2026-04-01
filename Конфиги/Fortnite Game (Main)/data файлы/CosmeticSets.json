@@ -4,6 +4,7 @@
     "Name": "CosmeticSets",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/Items/Cosmetics/Metadata/CosmeticSets",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CosmeticSetDataRow'",
@@ -2035,7 +2036,7 @@
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.DevilRock_DisplayName",
           "SourceString": "Diabolical",
-          "LocalizedString": "Инферно"
+          "LocalizedString": "Адская сила"
         },
         "Description": {
           "CultureInvariantString": null
@@ -3337,7 +3338,7 @@
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.Fisherman_DisplayName",
           "SourceString": "Open Water",
-          "LocalizedString": "Крупная рыба"
+          "LocalizedString": "Клёвая компания"
         },
         "Description": {
           "CultureInvariantString": null
@@ -5017,7 +5018,7 @@
           "Namespace": "CosmeticSets",
           "Key": "Cosmetics.Set.Slam_DisplayName",
           "SourceString": "Impact",
-          "LocalizedString": "Противостояние"
+          "LocalizedString": "Яркая индивидуальность"
         },
         "Description": {
           "CultureInvariantString": null
@@ -17953,7 +17954,7 @@
           "Namespace": "",
           "Key": "006F597240A879A4C20D6B820DD3F568",
           "SourceString": "New Tekniques",
-          "LocalizedString": "Новые технологии"
+          "LocalizedString": "Новое искусство"
         },
         "Description": {
           "CultureInvariantString": null
@@ -20571,7 +20572,7 @@
           "Namespace": "",
           "Key": "ECE75F3A491632DFCB8E0EB5DB9DE583",
           "SourceString": "Fangs of Poison",
-          "LocalizedString": "Ядовитые клыки"
+          "LocalizedString": "Сладкий яд"
         },
         "Description": {
           "CultureInvariantString": null
@@ -20598,7 +20599,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "5A563B204710C6E5CB4786AEAD88B583",
-          "SourceString": "Set_02",
+          "SourceString": "CouRage",
           "LocalizedString": "CouRage"
         },
         "Description": {
@@ -21578,8 +21579,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "0BF6C5734E881F998AA651816C70398C",
-          "SourceString": "Set_08",
-          "LocalizedString": "Set_08"
+          "SourceString": "Rivian R1S",
+          "LocalizedString": "Rivian R1S"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21676,7 +21677,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "20F5A03B49E737CCC2EA5282C57D477D",
-          "SourceString": "Set_04",
+          "SourceString": "PEAK",
           "LocalizedString": "PEAK"
         },
         "Description": {
@@ -21690,7 +21691,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "FC6E6069401EA66460361A9259FAEE29",
-          "SourceString": "Set_01",
+          "SourceString": "Ice and Fire",
           "LocalizedString": "Лёд и пламя"
         },
         "Description": {
@@ -21704,8 +21705,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "4FF792C24C1A9E3AFBDEA6AB00656591",
-          "SourceString": "Set_05",
-          "LocalizedString": "Set_05"
+          "SourceString": "Super Meat Boy 3D",
+          "LocalizedString": "Super Meat Boy 3D"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21732,7 +21733,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "3CA9AB314BC6B1361BFA9FA7B39169F1",
-          "SourceString": "Set_07",
+          "SourceString": "Balenciaga Shoes",
           "LocalizedString": "Обувь Balenciaga"
         },
         "Description": {
@@ -21746,8 +21747,8 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "6075FA7548A86397A152EBB2343D7770",
-          "SourceString": "Set_02",
-          "LocalizedString": "Set_02"
+          "SourceString": "Disney's Hercules",
+          "LocalizedString": "Диснеевский Геркулес"
         },
         "Description": {
           "CultureInvariantString": null
@@ -21788,7 +21789,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "1704DB3A4758BBB69DB9CA9DD59CEBD5",
-          "SourceString": "Set_03",
+          "SourceString": "MCU Avengers",
           "LocalizedString": "Мстители из киновселенной Marvel"
         },
         "Description": {
@@ -21802,7 +21803,7 @@
         "DisplayName": {
           "Namespace": "",
           "Key": "265FF6B24645C3381EA125AA3A103202",
-          "SourceString": "Set_06",
+          "SourceString": "Heelys Shoes",
           "LocalizedString": "Обувь Heelys"
         },
         "Description": {
@@ -21818,6 +21819,118 @@
           "Key": "CFBF60AF4EBA3538A3A90BBB41D7E4E0",
           "SourceString": "Roses & Ruin",
           "LocalizedString": "Розы и руины"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.BlueInk": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.BlueInk"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2C340C23485AA5EC2B57B8A921DE1FC0",
+          "SourceString": "Set_02",
+          "LocalizedString": "Set_02"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.TopCloud": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.TopCloud"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A6DD84294AB9F264491ADAA55FFDA7BF",
+          "SourceString": "Set_01",
+          "LocalizedString": "Set_01"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.OrangePane": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.OrangePane"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A578101D4D337744C1DB88B08010F57E",
+          "SourceString": "Everburning Sea",
+          "LocalizedString": "Жар глубин"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.ScratchPen": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.ScratchPen"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F1D82EA1446EE2DF33B7D495E3193EC1",
+          "SourceString": "Brainrot",
+          "LocalizedString": "Брейнрот"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.DirtyCamera": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.DirtyCamera"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "ED803A9E480E015853EEAB92552A79C5",
+          "SourceString": "Retrowave Style",
+          "LocalizedString": "Ретровейв"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.CardHold": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.CardHold"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "AA7D9BCE4A50B39C4CEBC5857CC931FF",
+          "SourceString": "Oathbound Frenzy",
+          "LocalizedString": "Сила клятвы"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AngryWheel": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AngryWheel"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7D60762C49D8A416F860F68870F3D090",
+          "SourceString": "T.Rux",
+          "LocalizedString": "Костяной ящер"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "Cosmetics.Set.AllTree": {
+        "Tag": {
+          "TagName": "Cosmetics.Set.AllTree"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "333B06CC45D9F2DC161AC98A9E9B92E2",
+          "SourceString": "Perfected Nature",
+          "LocalizedString": "Совершенство от природы"
         },
         "Description": {
           "CultureInvariantString": null

@@ -2,12 +2,13 @@
   {
     "Type": "CurveTable",
     "Name": "OverrideGameData_Figment",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Figment_LootTables/DataTables/OverrideGameData_Figment",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Default.ApolloChest.SpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -23,7 +24,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Llamas.QuantityMin": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -34,7 +35,15 @@
             "Value": 2.0
           },
           {
+            "Time": 2.0,
+            "Value": 2.0
+          },
+          {
             "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 5.0,
             "Value": 1.0
           },
           {
@@ -51,7 +60,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Llamas.QuantityMax": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -62,7 +71,15 @@
             "Value": 2.0
           },
           {
+            "Time": 2.0,
+            "Value": 2.0
+          },
+          {
             "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 5.0,
             "Value": 1.0
           },
           {
@@ -79,7 +96,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Phoebe.Enable": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -99,7 +116,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Lager.Enable": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -115,10 +132,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SCMachine.HotfixOn": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -135,10 +156,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SCMachine.EnabledInWorld": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -155,27 +180,31 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.RarityWeights": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.0
+            "Value": 2.0
           },
           {
             "Time": 1.0,
-            "Value": 10.0
+            "Value": 0.0
           },
           {
             "Time": 2.0,
-            "Value": 20.0
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.75
           },
           {
             "Time": 4.0,
-            "Value": 7.5
+            "Value": 0.7
           },
           {
             "Time": 5.0,
-            "Value": 5.0
+            "Value": 0.3
           },
           {
             "Time": 6.0,
@@ -191,30 +220,10 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.Cost.Wood": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -227,30 +236,10 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.Cost.Stone": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -263,30 +252,10 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.Cost.Metal": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -299,7 +268,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.ItemCycleTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -319,7 +288,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.DropLootOnGroundBool": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -339,10 +308,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.ItemsAreFree": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -355,7 +328,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.MaxItemsToDrop": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -375,7 +348,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.TeleportHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -395,7 +368,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.Hangtime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -415,7 +388,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.ActiveDuration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -435,7 +408,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.MaxSpawnHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -455,7 +428,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.EjectPlayerFromVehicle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -471,11 +444,11 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.Item.TeleportHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 17000.0
+            "Value": 20000.0
           },
           {
             "Time": 1.0,
@@ -491,7 +464,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.Item.Hangtime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -511,7 +484,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rift.Item.ActiveDuration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -531,7 +504,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SuperDingo.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -547,7 +520,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.AthenaCashRegisters.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -563,7 +536,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Currency.GenerateOnDeath": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -579,7 +552,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Currency.GenerateOnDeath.IO.Guards": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -595,7 +568,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Currency.NumDeathsThatDrop": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -611,7 +584,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ZipLine.AttachLinesToPoles.Build": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -635,10 +608,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ZipLine.AttachLinesToPoles.ZeroBuild": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -655,10 +632,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.1": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -675,7 +656,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.05": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -691,7 +672,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.01": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -707,7 +688,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.001": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -723,7 +704,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.-1": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -739,7 +720,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.1000": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -755,7 +736,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TestPlaceHolder.10000": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -771,7 +752,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Foraged.Cake.Min": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -787,7 +768,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Foraged.Cake.Max": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -803,10 +784,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Ostrich.DestroyOnDrop": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -823,7 +808,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Foraged.SpookyMist.Min": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -839,7 +824,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Foraged.SpookyMist.Max": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -855,7 +840,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PermaRift.ShouldSpawn.Build": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -879,10 +864,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PermaRift.ShouldSpawn.ZeroBuild": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -899,7 +888,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.AmmoBox.ToolBox.SpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -915,7 +904,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.AmmoBox.ToolBox.Enable": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -931,10 +920,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ForagedItem.Corn.SmallBundle.DropEnabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -951,7 +944,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.SupplyDropMinCount": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -959,6 +952,10 @@
           },
           {
             "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 8.0,
             "Value": 1.0
           },
           {
@@ -975,14 +972,22 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.SupplyDropMaxCount": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
             "Value": 2.0
           },
           {
+            "Time": 4.0,
+            "Value": 2.0
+          },
+          {
             "Time": 5.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 8.0,
             "Value": 1.0
           },
           {
@@ -999,10 +1004,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.SupplyDropCap": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 11.0,
             "Value": -1.0
           },
           {
@@ -1019,7 +1028,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MinPlacementHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1039,7 +1048,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MaxPlacementHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1059,7 +1068,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MinSpawnHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1079,7 +1088,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MaxSpawnHeight": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1099,7 +1108,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.TimeInterval": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1119,7 +1128,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.TimeDeviation": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1139,7 +1148,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1159,7 +1168,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.MaxSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1179,7 +1188,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.SpawnMinWaitTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1199,7 +1208,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.SpawnMaxWaitTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1219,7 +1228,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.Balloon.DamageResistance.Sniper.Heavy": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1239,7 +1248,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SupplyDrop.Balloon.DamageResistance.BoomBox": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1259,7 +1268,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Ammo.SupplyDrop": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1267,6 +1276,10 @@
           },
           {
             "Time": 1.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 3.0,
             "Value": 6.0
           },
           {
@@ -1283,7 +1296,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1303,7 +1316,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1323,7 +1336,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1339,7 +1352,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1359,7 +1372,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1379,7 +1392,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1399,7 +1412,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1419,7 +1432,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1439,7 +1452,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1459,7 +1472,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1479,7 +1492,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1499,7 +1512,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1519,7 +1532,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1539,7 +1552,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear1.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1559,7 +1572,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1579,7 +1592,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1599,7 +1612,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1619,7 +1632,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1639,7 +1652,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1659,7 +1672,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1679,7 +1692,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.Gear2.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1699,7 +1712,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1719,7 +1732,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1739,7 +1752,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1755,7 +1768,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1775,7 +1788,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1795,7 +1808,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1815,7 +1828,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1835,7 +1848,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1855,7 +1868,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1875,7 +1888,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1895,7 +1908,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1915,7 +1928,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1935,7 +1948,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1955,7 +1968,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear1.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1975,7 +1988,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -1995,7 +2008,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2015,7 +2028,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2035,7 +2048,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2055,7 +2068,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2075,7 +2088,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2095,7 +2108,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.SprintGear2.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2115,7 +2128,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.AutoBrake": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2135,7 +2148,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.IgnoreGravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2155,7 +2168,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2171,7 +2184,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2191,7 +2204,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2211,7 +2224,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2231,7 +2244,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.ReverseGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2251,7 +2264,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2271,7 +2284,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2291,7 +2304,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2307,7 +2320,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.ShoppingCart.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2323,7 +2336,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2339,7 +2352,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2355,7 +2368,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2371,7 +2384,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2387,7 +2400,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2403,7 +2416,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2419,10 +2432,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.PirateCannon.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -2435,10 +2452,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.PirateCannon.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -2451,7 +2472,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.Count": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2471,7 +2492,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.StartDelay": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2491,7 +2512,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.StartingRadius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2511,7 +2532,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.Radius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2563,7 +2584,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.RejectRadius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2579,7 +2600,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.RejectOuterDistance": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2595,7 +2616,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.WaitTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2639,7 +2660,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.ShrinkTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2663,6 +2684,10 @@
           },
           {
             "Time": 5.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 6.0,
             "Value": 60.0
           },
           {
@@ -2691,10 +2716,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.Damage": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.01
+          },
+          {
+            "Time": 2.0,
             "Value": 0.01
           },
           {
@@ -2714,6 +2743,10 @@
             "Value": 0.1
           },
           {
+            "Time": 9.0,
+            "Value": 0.1
+          },
+          {
             "Time": 10.0,
             "Value": 0.0
           },
@@ -2727,10 +2760,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.ForceDistanceMin": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 4.0,
             "Value": 0.0
           },
           {
@@ -2767,10 +2804,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.ForceDistanceMax": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 4.0,
             "Value": 0.0
           },
           {
@@ -2807,10 +2848,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.DynamicStorm.PlayerCap": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": -1.0
+          },
+          {
+            "Time": 9.0,
             "Value": -1.0
           },
           {
@@ -2827,7 +2872,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.DynamicStorm.MinWaitTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2842,11 +2887,19 @@
             "Value": 45.0
           },
           {
+            "Time": 3.0,
+            "Value": 45.0
+          },
+          {
             "Time": 4.0,
             "Value": 40.0
           },
           {
             "Time": 5.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 7.0,
             "Value": 20.0
           },
           {
@@ -2863,7 +2916,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.DynamicStorm.MinShrinkTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2882,11 +2935,23 @@
             "Value": 100.0
           },
           {
+            "Time": 4.0,
+            "Value": 100.0
+          },
+          {
             "Time": 5.0,
             "Value": 70.0
           },
           {
+            "Time": 7.0,
+            "Value": 70.0
+          },
+          {
             "Time": 8.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 9.0,
             "Value": 50.0
           },
           {
@@ -2903,7 +2968,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SafeZone.DynamicStorm.MinRadius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2938,10 +3003,6 @@
             "Value": 2500.0
           },
           {
-            "Time": 8.0,
-            "Value": 1250.0
-          },
-          {
             "Time": 9.0,
             "Value": 0.0
           },
@@ -2955,7 +3016,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TreasureChest.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2975,7 +3036,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TreasureChest.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -2995,7 +3056,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3015,7 +3076,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3035,7 +3096,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3055,7 +3116,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3075,7 +3136,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear1.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3095,7 +3156,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear1.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3115,7 +3176,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear1.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3135,7 +3196,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear1.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3155,7 +3216,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear1.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3175,7 +3236,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear2.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3195,7 +3256,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear2.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3215,7 +3276,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear2.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3235,7 +3296,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear2.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3255,7 +3316,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.Gear2.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3275,7 +3336,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.ReverseGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3295,7 +3356,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.ReverseGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3315,7 +3376,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.ReverseGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3335,7 +3396,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Jackal.ReverseGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3355,7 +3416,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.Gear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3375,7 +3436,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.Gear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3395,7 +3456,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.Gear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3415,7 +3476,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.Gear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3435,7 +3496,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.ReverseGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3455,7 +3516,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.ReverseGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3475,7 +3536,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.ReverseGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3495,7 +3556,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.ReverseGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3515,7 +3576,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.FuelPerSecondIdle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3535,7 +3596,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3555,7 +3616,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3575,7 +3636,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3595,7 +3656,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3615,7 +3676,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear1.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3635,7 +3696,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear1.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3655,7 +3716,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear1.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3675,7 +3736,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear1.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3695,7 +3756,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear1.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3715,7 +3776,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear2.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3735,7 +3796,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear2.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3755,7 +3816,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear2.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3775,7 +3836,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear2.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3795,7 +3856,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.Gear2.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3815,7 +3876,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.ReverseGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3835,7 +3896,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.ReverseGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3855,7 +3916,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.ReverseGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3875,7 +3936,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.ReverseGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3895,7 +3956,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.HitPlayer.LateralImpulseMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3915,7 +3976,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.HitPlayer.ZImpulseMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3935,7 +3996,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.UsesFuelSystem": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3951,7 +4012,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.InfiniteFuel": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3971,7 +4032,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -3991,7 +4052,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear1.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4011,7 +4072,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear2.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4031,7 +4092,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear1.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4051,7 +4112,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear2.MinSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4071,7 +4132,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4091,7 +4152,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear1.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4111,7 +4172,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear2.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4131,7 +4192,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4151,7 +4212,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear1.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4171,7 +4232,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear2.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4191,7 +4252,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4211,7 +4272,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear1.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4231,7 +4292,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.Gear2.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4251,7 +4312,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.ReverseGear0.TopSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4271,7 +4332,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.ReverseGear0.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4291,7 +4352,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.ReverseGear0.RampTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4311,7 +4372,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.GolfCart.ReverseGear0.SteeringAngleMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4331,7 +4392,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ZipLine.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4347,10 +4408,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.HookGun.ProjectileLifespan": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.7
+          },
+          {
+            "Time": 1.0,
             "Value": 0.7
           },
           {
@@ -4367,7 +4432,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.AmmoBox.MinSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4387,7 +4452,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.AmmoBox.MaxSpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4407,7 +4472,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.IsCurieEnabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4423,7 +4488,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Valet.Explode.CurieEnabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4439,7 +4504,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.GolfCart.HealthOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4459,7 +4524,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.Biplane.HealthOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4479,7 +4544,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.QuadCrasher.HealthOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4499,7 +4564,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.DriftBoard.HealthOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4519,7 +4584,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.ShoppingCart.HealthOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4539,7 +4604,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Vehicle.AllowVehicleOverride": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4559,7 +4624,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Launchpad.LaunchStrength": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4579,7 +4644,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Launchpad.LaunchStrengthVehicle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4599,7 +4664,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Safezone.Frosty.RejectionChance": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4619,7 +4684,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GoldenPOI.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4635,7 +4700,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.ShoppingCart.PushForce": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4655,7 +4720,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.Rift.SecretVFXChance": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4675,7 +4740,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Water.Friction.Deep": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4695,7 +4760,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Water.Friction.Shallow": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4715,7 +4780,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.FuelPerSecondBoosting": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4735,7 +4800,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.FuelPerSecondDriving": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4755,7 +4820,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Antelope.MinFuelAtSpawn": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4775,7 +4840,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.RebootCards.AutoCollect.OceanKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4795,7 +4860,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.HidingProp.HidingEnabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4811,7 +4876,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Rufus.MapIndex": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4827,7 +4892,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Rufus.ScorchMark.State": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4847,7 +4912,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ResourceWadPickupThresholdMedium": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4863,7 +4928,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ResourceWadCap": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4879,7 +4944,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ResourceWadPickupThresholdHigh": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4895,7 +4960,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.PassengerImpulseWeapon.ImpulsePower": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4911,7 +4976,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Aircraft.DeviationAngle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4931,7 +4996,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Aircraft.Height": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4951,7 +5016,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Aircraft.Speed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4971,7 +5036,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Parachute.DeployTraceForGroundDistance": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -4991,7 +5056,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Parachute.DeployVelocityBlend": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5011,7 +5076,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Skydiving.ScanForImpactWorldZ": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5031,7 +5096,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Skydiving.ForceDeployParachuteWorldZ": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5047,7 +5112,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DBNO.InitialHealth": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5067,7 +5132,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DBNO.ReviveHealth": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5087,7 +5152,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DBNO.BleedTick": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5107,7 +5172,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DBNO.BleedDamage": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5127,7 +5192,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlPassive.MaxAcceleration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5147,7 +5212,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlPassive.LateralFriction": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5167,7 +5232,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlPassive.MaxLateralSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5187,7 +5252,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlPassive.TerminalVelocity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5207,7 +5272,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlPassive.GravityScalar": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5227,7 +5292,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlActive.MaxAcceleration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5247,7 +5312,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlActive.LateralFriction": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5267,7 +5332,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlActive.MaxLateralSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5287,7 +5352,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlActive.TerminalVelocity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5307,7 +5372,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SkydivingControlActive.GravityScalar": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5327,7 +5392,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlSkydive.MaxAcceleration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5347,7 +5412,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlSkydive.LateralFriction": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5367,7 +5432,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlSkydive.MaxLateralSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5387,7 +5452,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlSkydive.TerminalVelocity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5407,7 +5472,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlSkydive.GravityScalar": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5427,7 +5492,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlJump.MaxAcceleration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5447,7 +5512,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlJump.LateralFriction": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5467,7 +5532,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlJump.MaxLateralSpeed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5487,7 +5552,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlJump.TerminalVelocity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5507,7 +5572,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ParachuteControlJump.GravityScalar": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5527,7 +5592,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.MaxStack.Resources.Wood": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5547,7 +5612,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.MaxStack.Resources.Stone": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5567,7 +5632,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.MaxStack.Resources.Metal": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5587,7 +5652,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "RebootVans.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5607,10 +5672,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GrenadeLauncher.Projectile.Gravity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.4
+          },
+          {
+            "Time": 1.0,
             "Value": 0.4
           },
           {
@@ -5627,10 +5696,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GrenadeLauncher.Projectile.Speed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 4500.0
+          },
+          {
+            "Time": 1.0,
             "Value": 4500.0
           },
           {
@@ -5647,10 +5720,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GrenadeLauncher.Projectile.FuseTimer": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 2.75
+          },
+          {
+            "Time": 1.0,
             "Value": 2.75
           },
           {
@@ -5667,10 +5744,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GrenadeLauncher.Projectile.Delay": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 2.75
+          },
+          {
+            "Time": 1.0,
             "Value": 2.75
           },
           {
@@ -5687,10 +5768,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GrenadeLauncher.Explosion.Radius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 512.0
+          },
+          {
+            "Time": 1.0,
             "Value": 512.0
           },
           {
@@ -5707,10 +5792,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SnowballLauncher.Explosion.Radius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 512.0
+          },
+          {
+            "Time": 1.0,
             "Value": 512.0
           },
           {
@@ -5727,10 +5816,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.LauncherProjectile.Explosion.Radius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 512.0
+          },
+          {
+            "Time": 1.0,
             "Value": 512.0
           },
           {
@@ -5747,10 +5840,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.EffectiveHealthPerTick_VR": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -5767,10 +5864,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.EffectiveHealthPerTick": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -5787,10 +5888,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.TotalEffectiveHealthGain": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 75.0
+          },
+          {
+            "Time": 1.0,
             "Value": 75.0
           },
           {
@@ -5807,10 +5912,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.TickRate": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 1.0,
             "Value": 0.5
           },
           {
@@ -5827,10 +5936,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.MaxDuration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 37.6
+          },
+          {
+            "Time": 1.0,
             "Value": 37.6
           },
           {
@@ -5847,10 +5960,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.PurpleStuff.IsEffectiveHealth": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -5867,10 +5984,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Sliding.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -5887,7 +6008,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ApolloAmmo.SpawnPercent": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5903,7 +6024,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ApolloAmmo.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5919,10 +6040,18 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.GrantWoodOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -5935,10 +6064,18 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.GrantStoneOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -5951,10 +6088,18 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.GrantMetalOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 2.0,
             "Value": 0.0
           },
           {
@@ -5967,7 +6112,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.GrantGoldOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5983,7 +6128,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.DropWoodOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -5999,7 +6144,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.DropStoneOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6015,7 +6160,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Siphon.DropMetalOnKill": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6031,7 +6176,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DanceGrenade.Duration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6051,7 +6196,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DanceGrenade.SpeedMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6071,7 +6216,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.DanceGrenade.JumpMultiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6091,7 +6236,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.AddToZBeforeLaunch": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6111,7 +6256,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.AddToZBeforeLaunch.Vehicle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6131,7 +6276,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.LaunchVelocity": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6151,7 +6296,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.LaunchVelocity.Vehicle": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6171,7 +6316,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.PhysicsPawnObjectImpulseMult": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6191,7 +6336,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.OnHitExplodeDelay": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6211,7 +6356,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.Radius": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6231,7 +6376,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.KnockGrenade.FriendlyFire": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6251,7 +6396,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.IceShell.Destroyed": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6267,7 +6412,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.FireworksMortar.SparkChance": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6283,10 +6428,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Boombox.MaxDuration": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 18.0
+          },
+          {
+            "Time": 1.0,
             "Value": 18.0
           },
           {
@@ -6303,7 +6452,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Biplane.GliderRedeployOnExit": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6323,7 +6472,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Ferret.UsesFuelSystem": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6339,7 +6488,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Biplane.Explode.Damage.Players": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6359,7 +6508,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.ForagedItemsGather.Enabled": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6375,10 +6524,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.SCMachine.InteractTime": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 1.0,
             "Value": 15.0
           },
           {
@@ -6395,10 +6548,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Heavy.Damage.Multiplier": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -6415,10 +6572,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Vehicle.Heavy.Damage.Impulse": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 1.0
           },
           {
@@ -6435,10 +6596,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Consumables.MaxStackAmount.Grenade": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 10.0
+          },
+          {
+            "Time": 1.0,
             "Value": 10.0
           },
           {
@@ -6455,7 +6620,7 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.IceShell.NoDamage": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
@@ -6471,10 +6636,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.TNT.GravityScale": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.9
+          },
+          {
+            "Time": 1.0,
             "Value": 0.9
           },
           {
@@ -6491,10 +6660,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.GravityScale.TnT": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.9
+          },
+          {
+            "Time": 1.0,
             "Value": 0.9
           },
           {
@@ -6511,10 +6684,14 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Projectile.Speed.TnT": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 3000.0
+          },
+          {
+            "Time": 1.0,
             "Value": 3000.0
           },
           {
@@ -6531,11 +6708,191 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.Projectile.MaxSpeed.TnT": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
             "Value": 3000.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 3000.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.ZipLine.AllowGliderRedeployOnExit": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.Heal.InstantEnabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.Heal.OverTimeEnabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.Instant.HealthFactor": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.Instant.ShieldFactor": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.Instant.HealAmount": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Siphon.GrantMats.Enabled": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.SD.Fun.OverTime.Duration": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 1.0
           },
           {
             "Time": 2.0,

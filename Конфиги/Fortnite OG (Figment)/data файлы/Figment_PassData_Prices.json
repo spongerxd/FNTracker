@@ -1,9 +1,10 @@
 [
   {
     "Type": "DataTable",
-    "Name": "Figment_S07_PassData_Prices",
-    "Class": "UScriptClass'DataTable'",
+    "Name": "Figment_S08_PassData_Prices",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Figment_S08_PassData/SeasonPass/Figment_S08_PassData_Prices",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AthenaBattlePassOfferPriceRow'",

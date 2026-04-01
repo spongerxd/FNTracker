@@ -2,8 +2,9 @@
   {
     "Type": "CurveTable",
     "Name": "FigmentGameData",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Figment_LootTables/DataTables/FigmentGameData",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Default.ZiplinesAndAscenders.Enabled": {
@@ -543,23 +544,23 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 0.0
+            "Value": 2.0
           },
           {
             "Time": 1.0,
-            "Value": 10.0
+            "Value": 0.0
           },
           {
-            "Time": 2.0,
-            "Value": 20.0
+            "Time": 3.0,
+            "Value": 0.75
           },
           {
             "Time": 4.0,
-            "Value": 7.5
+            "Value": 0.7
           },
           {
             "Time": 5.0,
-            "Value": 5.0
+            "Value": 0.3
           },
           {
             "Time": 6.0,
@@ -579,26 +580,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -615,26 +596,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -651,26 +612,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 50.0
-          },
-          {
-            "Time": 1.0,
-            "Value": 100.0
-          },
-          {
-            "Time": 2.0,
-            "Value": 150.0
-          },
-          {
-            "Time": 3.0,
-            "Value": 200.0
-          },
-          {
-            "Time": 4.0,
-            "Value": 250.0
-          },
-          {
-            "Time": 5.0,
             "Value": 0.0
           },
           {
@@ -703,6 +644,46 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Default.VendingMachine.DropLootOnGroundBool": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.VendingMachine.ItemsAreFree": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.VendingMachine.MaxItemsToDrop": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
@@ -1071,10 +1052,6 @@
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
-          },
-          {
-            "Time": 1.0,
             "Value": 0.0
           },
           {
@@ -1575,6 +1552,42 @@
         "Keys": [
           {
             "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.Baller.Enable": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Default.PushCannon.Enable": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 1.0,
             "Value": 0.0
           },
           {

@@ -4,6 +4,7 @@
     "Name": "OfferPopupDataTable",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Athena/UI/Frontend/Data/OfferPopupDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'OfferPopUpData'",
@@ -4407,7 +4408,7 @@
         "FormatedText": {
           "Namespace": "",
           "Key": "88EFC4C0460B73E4CB9201A22AFFE0C3",
-          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the TBD car body. This car will fill the SUV slot in relevant Fortnite experiences.",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Rivian R1S car body. This car will fill the SUV slot in relevant Fortnite experiences.",
           "LocalizedString": "Включает настраиваемые декали! Декали из этого комплекта совместимы только с кузовом Rivian R1S. Эта машина будет занимать ячейку внедорожника в соответствующих режимах Fortnite."
         }
       },
@@ -4449,6 +4450,54 @@
           "Key": "F224F37B4EA757D0A08F13BB4F02044D",
           "SourceString": "Outfit is customizable!",
           "LocalizedString": "Экипировку можно менять!"
+        }
+      },
+      "taperslinkbackpack": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "52F3F6BC4F2C7916CFD0899ED925E80F",
+          "SourceString": "Fuse lights while running until it fizzles out",
+          "LocalizedString": "Фитиль горит, пока вы бежите, а потом затухает"
+        }
+      },
+      "dandyflarebackpack": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "D24E9DEB4D785F1D94485FAE61A2B233",
+          "SourceString": "Button glows with eliminations",
+          "LocalizedString": "Кнопка светится при устранениях"
+        }
+      },
+      "taperslinkoutfit": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "402AFB13495D83F398DB28BF80AF4577",
+          "SourceString": "Suit glows in the dark at night. Reactivity can be turned on or off",
+          "LocalizedString": "Костюм светится в темноте ночью. Функцию смены внешнего вида можно включить или отключить"
+        }
+      },
+      "taperslinkacreshoes": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "AC26FE0F4B45F4E20F7E5892965EBC8F",
+          "SourceString": "Reactive when landing",
+          "LocalizedString": "Меняет внешний вид при приземлении"
+        }
+      },
+      "greenclaw": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "2E7F22424814A1E0F4F97C95E48D62BA",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Pizza Planet Delivery Truck body. This car will fill the SUV slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали в этом наборе доступны только для кузова «Внедорожник „Планеты пицца“». Эта машина будет занимать ячейку внедорожника в соответствующих форматах Fortnite."
+        }
+      },
+      "fuego": {
+        "FormatedText": {
+          "Namespace": "",
+          "Key": "CC3200FE467EB64B994481BECBF76EFF",
+          "SourceString": "Includes customizable decals! Decals in this bundle are restricted to the Fast & Furious Pontiac Fiero car body. This car will fill the Sports Car slot in relevant Fortnite experiences.",
+          "LocalizedString": "Включает настраиваемые декали! Декали в этом комплекте можно использовать только с автомобильным кузовом Fast & Furious Pontiac Fiero. Этот автомобиль будет занимать ячейку спортивных автомобилей в соответствующих форматах Fortnite."
         }
       }
     }

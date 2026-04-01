@@ -4,6 +4,7 @@
     "Name": "DeluluGameData",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CurveTable'",
+    "Package": "/Delulu/DataTables/DeluluGameData",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Default.Delulu.EnableUISplashScreen": {
@@ -294,16 +295,16 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Delulu.AlwaysShowSquadInfo": {
+      "Delulu.AllBp.BusGrant.RecheckDelay": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
         "Keys": [
           {
             "Time": 0.0,
-            "Value": 1.0
+            "Value": 0.2
           },
           {
             "Time": 1.0,
-            "Value": 1.0
+            "Value": 0.2
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -480,22 +481,6 @@
           {
             "Time": 1.0,
             "Value": 1.5
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Delulu.AllBp.BusGrant.RecheckDelay": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
-        "Keys": [
-          {
-            "Time": 0.0,
-            "Value": 0.2
-          },
-          {
-            "Time": 1.0,
-            "Value": 0.2
           }
         ],
         "DefaultValue": 3.4028235E+38,

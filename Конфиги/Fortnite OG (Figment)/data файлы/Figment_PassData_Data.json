@@ -1,9 +1,10 @@
 [
   {
     "Type": "SeasonPassData",
-    "Name": "Figment_S07_PassData_Data",
+    "Name": "Figment_S08_PassData_Data",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SeasonPassData'",
+    "Package": "/Figment_S08_PassData/SeasonPass/Figment_S08_PassData_Data",
     "Properties": {
       "LargeIcon": {
         "AssetPathName": "/SeasonPass/Materials/HeaderIcon/MI_UI_NexusHeaderIcon_OGPass.MI_UI_NexusHeaderIcon_OGPass",
@@ -15,51 +16,51 @@
       },
       "SeasonName": {
         "Namespace": "",
-        "Key": "C1CD1D1247444A5FF424AE9D43EEB4DC",
-        "SourceString": "Chapter 1 - Season 7",
-        "LocalizedString": "Сезон 7 главы 1"
+        "Key": "985CB47D4172D58A5A836A9C23231EFB",
+        "SourceString": "Chapter 1 - Season 8",
+        "LocalizedString": "Глава 1, сезон 8"
       },
       "SeasonEndText": {
         "Namespace": "",
-        "Key": "F259C69E45D7A18BBBBB2DA5F0D020BB",
+        "Key": "A1D5F51D412BF5F7DB7282BB6573E7B2",
         "SourceString": "Season Pass Ended!",
         "LocalizedString": "Сезонный пропуск закончился!"
       },
       "BuyPassButtonName": {
         "Namespace": "",
-        "Key": "EF3583EB4A95C8A32630E6AFB2D35BA7",
+        "Key": "C4A6A8A946532C191584C3AF4C444268",
         "SourceString": "Get OG Pass",
         "LocalizedString": "Получить пропуск"
       },
       "ThemeData": {
         "SeasonColor": {
-          "R": 0.412543,
+          "R": 0.012832,
           "G": 1.0,
-          "B": 0.964687,
+          "B": 0.778329,
           "A": 1.0,
-          "Hex": "ACFFFB"
+          "Hex": "1DFFE5"
         },
         "ProgressionColor": {
-          "R": 0.130136,
-          "G": 0.871367,
-          "B": 1.0,
+          "R": 0.028426,
+          "G": 0.89627,
+          "B": 0.715694,
           "A": 1.0,
-          "Hex": "65F0FF"
+          "Hex": "2FF3DC"
         },
         "VaultBackgroundMaterial": {
-          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Background_3D.MI_UI_Figment_07_Background_3D",
+          "AssetPathName": "/Figment_S08_PassData/UI/MaterialInstances/MI_UI_Figment_08_Background_3D.MI_UI_Figment_08_Background_3D",
           "SubPathString": ""
         },
         "UIBackgroundMaterial": {
-          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Background_UI.MI_UI_Figment_07_Background_UI",
+          "AssetPathName": "/Figment_S08_PassData/UI/MaterialInstances/MI_UI_Figment_08_Background_UI.MI_UI_Figment_08_Background_UI",
           "SubPathString": ""
         },
         "UpsellBackgroundMaterial": {
-          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_07_Crew_Upsell.MI_UI_Figment_07_Crew_Upsell",
+          "AssetPathName": "/Figment_S08_PassData/UI/MaterialInstances/MI_UI_Figment_08_Crew_Upsell.MI_UI_Figment_08_Crew_Upsell",
           "SubPathString": ""
         },
         "CrewCategoryBackgroundMaterial": {
-          "AssetPathName": "/Figment_S07_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
+          "AssetPathName": "/Figment_S08_PassData/UI/MaterialInstances/MI_UI_Figment_CategoryButton_Crew_Background.MI_UI_Figment_CategoryButton_Crew_Background",
           "SubPathString": ""
         },
         "BenefitsByType": [
@@ -163,11 +164,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.003347,
-                    "G": 0.651406,
-                    "B": 0.760525,
+                    "R": 0.138432,
+                    "G": 0.737911,
+                    "B": 0.637597,
                     "A": 1.0,
-                    "Hex": "0BD3E2"
+                    "Hex": "68DFD1"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -177,11 +178,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.003347,
-                    "G": 0.651406,
-                    "B": 0.760525,
+                    "R": 0.138432,
+                    "G": 0.737911,
+                    "B": 0.637597,
                     "A": 1.0,
-                    "Hex": "0BD3E2"
+                    "Hex": "68DFD1"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -191,11 +192,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.008568,
-                    "G": 0.028426,
-                    "B": 0.201556,
+                    "R": 0.012286,
+                    "G": 0.177888,
+                    "B": 0.246201,
                     "A": 1.0,
-                    "Hex": "172F7C"
+                    "Hex": "1D7588"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -205,11 +206,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.003347,
-                    "G": 0.651406,
-                    "B": 0.760525,
+                    "R": 0.138432,
+                    "G": 0.737911,
+                    "B": 0.637597,
                     "A": 0.501961,
-                    "Hex": "800BD3E2"
+                    "Hex": "8068DFD1"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -219,11 +220,11 @@
                 "ColorString": "",
                 "Color": {
                   "SpecifiedColor": {
-                    "R": 0.008568,
-                    "G": 0.028426,
-                    "B": 0.201556,
+                    "R": 0.012286,
+                    "G": 0.177888,
+                    "B": 0.246201,
                     "A": 1.0,
-                    "Hex": "172F7C"
+                    "Hex": "1D7588"
                   },
                   "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                 }
@@ -246,19 +247,17 @@
       "Product": {
         "TagName": "Product.BR"
       },
-      "SeasonStorefront": "Figment_S07_PassData",
-      "SeasonPassOfferId": "6884BDC044853E6AAF37D4A44D0E3385",
-      "SeasonPassBundleOfferId": "0",
-      "SeasonPassLevelOfferId": "D1DB8AC74A58DF0514452EAB90590160",
-      "SeasonPassLevelBundleOfferId": "0",
-      "RefundAmountForGiftToken": 1000,
+      "SeasonStorefront": "Figment_S08_PassData",
+      "SeasonPassOfferId": "4F4DF135491DED254E34058F61B059B5",
+      "SeasonPassLevelOfferId": "FD6F7CEB4DE59BEE255E67980BF81EB4",
+      "RefundAmountForGiftToken": 800,
       "PaidRewards": [
         {
           "OfferGuid": "00000000-00000000-00000000-00000000",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/Figment_S07_PassData/Items/Tokens/Figment_S07_PassData_PremiumToken.Figment_S07_PassData_PremiumToken",
+                "AssetPathName": "/Figment_S08_PassData/Items/Tokens/Figment_S08_PassData_PremiumToken.Figment_S08_PassData_PremiumToken",
                 "SubPathString": ""
               },
               "Quantity": 1,
@@ -267,11 +266,11 @@
           ]
         },
         {
-          "OfferGuid": "206D1C3C-4589775A-DA914989-36BFBC34",
+          "OfferGuid": "1EF09485-418E55CC-FB0C1FAF-728075B4",
           "Rewards": [
             {
               "ItemDefinition": {
-                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_MincePounce_StyleA.VTID_Character_MincePounce_StyleA",
+                "AssetPathName": "/BRCosmetics/Athena/Items/CosmeticVariantTokens/VTID_Character_DragonPry_StyleA.VTID_Character_DragonPry_StyleA",
                 "SubPathString": ""
               },
               "Quantity": 1,

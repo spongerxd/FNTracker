@@ -994,7 +994,8 @@
   "EmporiumActorFactory": {
     "CanCreateActorFrom.Error.NoStaticMesh": "Должна быть указана допустимая статичная сетка.",
     "PlaceObjects": "Расстановка объектов",
-    "CanCreateActorFrom.Error.NoVersePath": "Для этой фабрики не задан путь Verse, и она не может создавать акторов."
+    "CanCreateActorFrom.Error.NoVersePath": "Для этой фабрики не задан путь Verse или URL-адрес: создание акторов невозможно.",
+    "CanCreateActorFrom.Error.NoUrl": "Для этой фабрики не задан URL-адрес: создание акторов невозможно."
   },
   "Errors": {
     "Errors": "Ошибки"
@@ -1575,6 +1576,10 @@
     "PreviousColor": "< Предыдущий",
     "NextColor": "Следующий >"
   },
+  "FortPlaylistUserOptions": {
+    "ValidationError.DefaultValueOutOfBounds": "В параметре пользователя для свойства '{0}' класса '{1}' присутствует 'значение по умолчанию' {2}, находящееся за пределами указанного диапазона от {3} до {4}",
+    "ValidationError.DefaultValueMissingFromValueEntries": "В параметре пользователя для свойства '{0}' класса '{1}' присутствует 'значение по умолчанию' {2}, которое отсутствует в 'записях значений'"
+  },
   "FortQuestDefinitionComponent_MapMarkers": {
     "ObjectiveIconOverrideChanged": "Переопределение значка цели изменено"
   },
@@ -2003,6 +2008,11 @@
   },
   "IngestingPlugin": {
     "IngestingPlugin": "Идёт дублирование плагина {0}…"
+  },
+  "Inventory": {
+    "SetItemData_MissingInputProperty": "Не удалось получить входной параметр для SetItemData.",
+    "GetItemData_MissingOutputProperty": "Не удалось получить выходной параметр для GetItemData.",
+    "SetItemData_InvalidInputProperty": "Структуры, полученные не из FItemComponentData, не являются допустимыми для SetItemData."
   },
   "ItemAssetDefinition": {
     "Inventory": "Инвентарь",
@@ -2803,16 +2813,23 @@
     "ContextMenu_Copy": "Копировать",
     "AuroraEntitlementEntriesList.Column.Description": "Описание",
     "AuroraEntitlementEntriesList.Column.Disclosures": "Информация",
+    "Toast_Dismiss": "Игнорировать",
     "ValkyrieProjectAuroraEntitlementCatalog": "Каталог позиций",
+    "Toast_Title": "Проверка права доступа",
+    "AuroraEntitlementsValidation": "Сообщения о проверке прав доступа будут отображаться здесь.",
+    "AuroraEntitlementValidationLog": "Проверка права доступа для системы транзакций на острове",
     "ValkyrieProjectSubMenuMonetizationSection": "Транзакции на острове",
     "AuroraEntitlementEntriesList.Column.MaxCount": "Макс. количество",
     "AuroraEntitlementEntriesList.Column.Name": "Название",
     "ConsumptionType_Durable": "Нет",
+    "NoValidationErrors": "Проблем с проверкой прав доступа не обнаружено.",
     "Disclosures_PaidArea": "Платная область",
     "Disclosures_PaidRandomItem": "Платный случайный предмет",
     "AuroraEntitlementEntriesList.Column.Path": "Путь",
     "RefreshText": "Обновить",
     "AuroraEntitlementEntriesList.Column.ShortDescription": "Краткое описание",
+    "Toast_Subtext": "В проекте обнаружено одно или несколько нарушений прав доступа. Для публикации требуется исправление.",
+    "Toast_View": "Вид",
     "ValkyrieProjectAuroraEntitlementCatalog_Tooltip": "Просматривайте позиции, определённые для вашего проекта",
     "ConsumptionType_Consumable": "Да",
     "AuroraEntitlementsSource": "Вы можете добавлять, изменять или удалять позиции в коде Verse своего проекта.",
@@ -2888,38 +2905,39 @@
   },
   "SValkyrieSessionInspector": {
     "SessionStatus_NewContentFinishedLoadingAll": "Вся работа сервиса управления контентом выполнена. Сервер и клиент запущены.",
-    "ArtifactIconLabel": "C",
     "SessionBaseEntriesTree.Column.EndDate": "Режим завершения",
     "SessionStatus_ConnectingToSession": "Подключение к сеанса.",
     "SessionStatus_ContentError": "Получена ошибка контента. Подробности приведены в журнале выходных данных.",
     "CookFailedStatusTooltip": "Сбой задачи конвертации.",
-    "CookSuccess2StatusTooltip": "Задача конвертации выполнена успешно.",
+    "CookSuccessStatusTooltip": "Задача конвертации выполнена успешно.",
     "CookUnknownStatusTooltip": "Статус конвертации недоступен.",
+    "CookFromCache_ToolTip": "Данные конвертации были получены из кэша.",
     "ContextMenu_CopyTooltip": "Копирует значение столбца",
     "ContextMenu_Copy": "Копировать",
     "SessionStatus_Failed": "Получено сообщение о сбое.",
+    "IndirectDependencies": "Непрямые зависимости",
     "ValkyrieProjectSubMenuSessionSection": "Инструменты редактирования по сети",
-    "ModuleIconLabel": "M",
     "ModuleVersionMultiple": "Несколько",
-    "ProjectVersionMultiple": "Несколько",
     "SessionBaseEntriesTree.Column.Name": "Название",
     "SessionStatus_NotConnected": "Не подключены к сеансу.",
     "OpenProject": "Открыть проект:",
     "Settings.GeneralSettings.Label.OpenOnLaunchSession": "Открыть при запуске сеанса",
     "ViewSessionDSPortal_ToolTip": "Открывает страницу портала выделенного сервера с последними сеансами",
-    "ProjectIconLabel": "P",
+    "ReferencingProjects": "Ссылающиеся проекты",
     "CookJobsLabel": "Задачи конвертации для сеанса",
     "StatisticsHeading": "Сведения о сеансе",
     "ValkyrieSessionInspector": "Инспектор сеанса",
     "Unavailable": "Инспектор сеанса временно недоступен. Повторите попытку позже.",
     "SessionStatus": "Статус сеанса:",
+    "SessionWallTime": "Время стены сеанса:",
     "Settings.GeneralSettings": "Настройки",
     "SettingsText": "Настройки",
     "Settings.GeneralSettings.ToolTip.OpenOnLaunchSession": "Должен инспектор сеанса автоматически открываться при выборе запуска сеанса?",
     "SessionBaseEntriesTree.Column.Status": "Статус",
+    "SessionWallTimeTooltip": "Время, прошедшее с момента нажатия кнопки «Запуск сеанса» или «Применить изменения» и до конвертации и загрузки всех модулей.",
     "SessionBaseEntriesTree.Column.Version": "Версия",
-    "ViewInContentService": "Просмотреть статус конвертации",
-    "SessionBaseEntriesTree.Column.ViewInContentService": "Просмотреть в сервисе управления контентом (только для EpicDev)",
+    "ViewCookStatus": "Просмотреть статус конвертации",
+    "SessionBaseEntriesTree.Column.ViewInJobDashboard": "Отобразить на рабочей панели управления (только для разработчиков Epic)",
     "ViewModuleStatus": "Просмотреть статус модуля",
     "ViewSessionDSPortal": "Посмотреть сеанс на портале выделенного сервера (только для разработчиков Epic)",
     "ValkyrieSessionInspector_Tooltip": "Просмотр состояния вашего сеанса редактирования по сети",
@@ -2928,7 +2946,8 @@
     "SessionStatus_NewContentFinishedLoadingClients": "Ожидание финальной инициализации контента.",
     "SessionStatus_DistributingToConnectedSession": "Ожидание сервера сеанса.",
     "SessionBaseEntriesTree.Column.WallTime": "Реальное время выполнения",
-    "ViewSessionDSPortal_ToolTipEx": "{0}\nПоследний сеанс начался {1}"
+    "ViewSessionDSPortal_ToolTipEx": "{0}\nПоследний сеанс начался {1}",
+    "ModuleDisplayName": "{0} ({1})"
   },
   "SVerbDebugger": {
     "AdditionalFilters": "Дополнительные фильтры",
@@ -3583,7 +3602,9 @@
   },
   "UEFNSyncProject": {
     "CleanModules": "Удаление временных файлов…",
+    "CompileVerse": "Идёт компиляция Verse…",
     "ContactPlayerSupport": "Обратиться в службу поддержки игрока",
+    "HasVerseBuildFailures": "Обнаружены ошибки при компиляции Verse. См. диагностические сообщения сборки Verse.",
     "BuildMetadataFailed": "Не удалось создать метаданные для модуля [{1}]({2}) проекта {0}",
     "UploadProject.Error.TargetVersionDocUnset": "Не удалось определить корневой плагин опыта для обновления сеанса редактирования",
     "FindProjectPluginsFailed": "Не удалось найти плагины проекта {0}.",
@@ -3613,7 +3634,6 @@
     "UploadPaused": "Выгрузка приостановлена для проверки промежуточных файлов. Путь:\n\n{0}\n\nОткрыть это путь в Проводнике? (Чтобы продолжить, нажмите «Нет»)",
     "UploadCanceled": "Выгрузка отменена",
     "UploadStart": "Выгрузка проекта '{0}'",
-    "SyncWithContentService": "Проверка проекта '{0}'…",
     "InitializingUpload": "Проверка внешнего исходного проекта…",
     "ValidatingProjectFiles": "Проверка {NumFiles} {NumFiles}|plural(one=файла,few=файлов,many=файлов,other=файлов) в проекте {ProjectTitle}…",
     "ValidationAutoFixup.Body": "В ходе проверки выявлены проблемы.\nИсправить автоматически любые найденные недопустимые переопределения и недействительные ссылки?",
@@ -4018,6 +4038,19 @@
     "AssetMigrationDocumentation_ToolTip": "Открыть документацию по переносу ресурсов из Unreal Engine",
     "UnsupportedAssetSectionLabel": "Неподдерживаемые ресурсы"
   },
+  "ValkyrieAuroraValidationUtils": {
+    "DescriptionTooShort": "Описание права доступа должно содержать не менее {bound} {bound}|plural(one=символа,few=символов,many=символов,other=символов).",
+    "NameTooShort": "Название права доступа должно содержать не менее {bound} {bound}|plural(one=символа,few=символов,many=символов,other=символов).",
+    "ShortDescriptionTooShort": "Краткое описание права доступа должно содержать не менее {bound} {bound}|plural(one=символа,few=символов,many=символов,other=символов).",
+    "TransactionsWithRestrictedIp": "Транзакции на островах пока не разрешены владельцем ИС.",
+    "DescriptionTooLong": "Длина описания права доступа не должна превышать {bound} {bound}|plural(one=символ,few=символа,many=символов,other=символов).",
+    "NameTooLong": "Длина названия права доступа не должна превышать {bound} {bound}|plural(one=символ,few=символа,many=символов,other=символов).",
+    "ShortDescriptionTooLong": "Длина краткого описания права доступа не должна превышать {bound} {bound}|plural(one=символ,few=символа,many=символов,other=символов).",
+    "MaxCountTooLow": "Макс. число не должно быть ниже {bound}.",
+    "NonConsumableMaxCountInvalid": "Для нерасходуемых прав доступа макс. число быть {expect}.",
+    "ConsumableMaxCountTooHigh": "Макс. число для расходуемых прав доступа не должно превышать {bound}.",
+    "PaidAccessWithLicensedMusic": "Данный проект освобождён от требований о модерации музыкального контента, что несовместимо с функцией Verse, касающейся платного доступа."
+  },
   "ValkyrieAutoLocalization": {
     "Dialog.Adopt.Title": "Реализовать задачи по автоматической локализации?",
     "Notification.Progress.Adopt": "Реализация задач по локализации…",
@@ -4149,7 +4182,6 @@
   "ValkyrieEditor": {
     "ApplyingPermissions": "Идёт применение разрешений…",
     "ApplyingPermissionsUncooked": "Применяются разрешения… (из папки, не конвертированной в формат платформы)",
-    "AssigningVersePaths": "Идёт назначение путей Verse для проекта…",
     "BlankTemplateMapDisplayNameText": "Пустой",
     "VerseVersion.Dismiss": "Игнорировать",
     "VerseVersion.Dismiss.Tooltip": "Игнорировать дальнейшие уведомления об обновлении этого проекта до версии Verse {0}",
@@ -4201,7 +4233,6 @@
     "UploadProject.Error.FailedToValidateSourceContent_Remote": "Минимум один модуль не прошёл удалённую проверку",
     "StartMemorySamplingFlow.Cancel": "Отмена",
     "CancelValkyrieProjectUploads": "Отменить запущенную выгрузку проекта Valkyrie?",
-    "UploadProject.ValidationSession_CompileVerse": "Идёт компиляция Verse…",
     "UploadProjects.PauseForContentUpdate": "Идёт подключение к сеансу редактирования…",
     "LocalizeProject.Title.WarnAboutDirtyPackages": "Продолжить с несохранёнными изменениями?",
     "CreateBuild.Warning.ValidateAuroraEntitlementLocalizationFailedTitle": "Продолжить с недостающими переводами?",
@@ -4212,9 +4243,9 @@
     "UploadProject.Error.ClearEditSessionWorkspace": "Не удалось очистить рабочее пространство {0}",
     "UploadProject.Error.CreateValidationSession": "Не удалось создать сеанс проверки",
     "UploadProject.Error.InitializeValidationSession": "Не удалось инициализировать сеанс проверки",
+    "UploadProject.Error.FailedToPrepareProjectSourceDataForUpload": "Не удалось подготовить контент из локального источника",
     "UploadProject.Error.ReparentEditSessionWorkspace": "Не удалось изменить родителя рабочего пространства {0}",
     "UploadProject.Error.ResolveValidationSession": "Не удалось рассчитать сеанс проверки",
-    "UploadProject.Error.FailedToSyncWithContentService": "Не удалось синхронизировать метаданные с серверной службой",
     "UploadProject.Error.FailedToUploadSourceFiles": "Не удалось выгрузить исходные файлы",
     "UploadProject.Error.FailedToValidateSourceContent_Local": "Не удалось провести проверку контента из локального источника",
     "LocalizeProject.Settings.Message": "Для экспорта данных локализации для {0} выберите соответствующие настройки для инициализации.\nЭти настройки также доступны для редактирования в разделе \"Проект -> Настройки проекта\".",
@@ -4229,8 +4260,7 @@
     "PrepareProjectSourceDataForUpload.FailedToRequestSavePackages": "Внутренняя ошибка: ошибка запроса сохранения пакетов с внесенными изменениями",
     "SanitizePublicApi.FailedToRequestSavePackages": "Внутренняя ошибка: не удалось запросить сохранение частных версий ресурсов",
     "FixMissingGameFeatureData.NoProjectOpened": "Внутренняя ошибка: нет открытых проектов",
-    "PrepareProjectSourceDataForUpload.AssignProjectVersePath": "Внутренняя ошибка: нет открытых проектов",
-    "PrepareProjectSourceDataForUpload.SanitizeBlueprintAssets": "Внутренняя ошибка: нет открытых проектов",
+    "PrepareProjectSourceDataForUpload.FailedSanitizeBlueprintAssets": "Внутренняя ошибка: нет открытых проектов",
     "LocalizeProject.Settings.Default.LanguagesToGenerate": "Языки для генерации: {0}",
     "StartMemorySamplingFlow.Message": "Запуск подсчёта объёма памяти…",
     "SanitizePublicApi.LoadingPackages": "Загрузка пакетов, для которых создаётся частная версия…",
@@ -4241,10 +4271,14 @@
     "FixMissingGameFeatureData.Canceled": "Отсутствуют GameFeatureData. Необходимо исправить до начала выгрузки проекта {0}",
     "LocalizeProject.Settings.Default.NativeLanguage": "Родной язык: {0}",
     "CreateBuild.PreparePlatformData.MessageLog.Label": "Подготовленные данные платформы",
+    "PrepareProjectSourceDataForUpload.CheckPackagesNeedResave": "Идёт подготовка ресурсов…",
+    "UploadProject.FlowStep_PrepareProjectSourceDataForUpload": "Идёт подготовка локального контента…",
     "CreateBuild.PreparePlatformData.PreparingPlatformDataWithListFmt": "Подготовка данных платформы (ожидание {0})…",
     "CreateBuild.PreparePlatformData.PreparingPlatformData": "Подготовка данных платформы…",
     "SanitizePublicApi.SaveMessage": "Необходимо сохранить частные версии ресурсов",
     "CreateBuild.PreparePlatformData.CookFailure": "Не удалось конвертировать проект в формат платформы (см. журнал сообщений)",
+    "PrepareProjectSourceDataForUpload.SanitizeBlueprintAssets": "Зачистка схем…",
+    "PrepareProjectSourceDataForUpload.SanitizePublicApi": "Обезличивание общедоступного API…",
     "ShowMessageLogHyperlink": "Показать журнал выходных данных",
     "SaveAssets.Error.MustSaveAllAdditional": "Перед выгрузкой необходимо повторно сохранить некоторые ресурсы.",
     "SanitizePublicApi.RemovePublicApiFailedToLoadAssets": "Не удалось загрузить некоторые общедоступные ресурсы. Возможно, их нужно удалить (см. подробности в журнале)",
@@ -4257,7 +4291,6 @@
     "UploadProject.ValidationSession_LocalValidation": "Идёт проверка локального контента…",
     "UploadProject.ValidationSession_ContentSentryValidation": "Идёт проверка выгруженного контента…",
     "LocalizeProject.Message.WarnAboutDirtyPackages": "У вас есть несохранённые изменения, которые не попадут в экспорт локализации.\n\nПродолжить?",
-    "UploadProject.Error.VeresCompile": "обнаружены ошибки при компиляции Verse. См. диагностические сообщения сборки Verse.",
     "CreateBuild.Warning.AutoLocalizationFailed": "{0}\n\nДействительно продолжить без данных локализации?",
     "CreateBuild.PreparePlatformData.MessageLog.CookFailure": "{0}: не удалось подготовить данные для {1}",
     "CreateBuild.PreparePlatformData.MessageLog.CookSuccess": "{0}: данные для {1} подготовлены"
@@ -4494,6 +4527,7 @@
     "InvalidPermissionsFound": "У {0}({1}) отсутствуют права доступа.\n\nИспользуются максимально допустимые права доступа.\n\nСвяжитесь со службой поддержки Epic, чтобы устранить ошибку."
   },
   "ValkyrieFortniteEditorFlows": {
+    "PrepareProjectSourceDataForUpload.BuildNavigation": "Построение навигации…",
     "FixupStaticMeshActorsForLiveEdit": "Изменить настройку \"Включить для инструмента \"Телефон\"\"",
     "UploadProject.Error.SendContentUpdateBeaconDisconnected": "Обнаружен неожиданный сбой соединения с маячком контента",
     "UploadProject.Error.UnexpectedSessionResult": "Неожиданный сбой сеанса проверки",
@@ -4512,8 +4546,10 @@
     "UploadProject.Error.MissingEditSessionWorkspace": "Внутренняя ошибка. Отсутствует рабочее пространство {0}",
     "PrepareProjectSourceDataForUpload.FailCleanupIntermediateAssets": "Внутренняя ошибка: нет открытых проектов",
     "PrepareUploadProject.FailValidateProject": "Внутренняя ошибка: нет открытых проектов",
+    "PrepareProjectSourceDataForUpload.CleanupLevel": "Идёт подготовка уровня…",
     "UploadProject.PublishToEditSessionWorkspaces": "Выполняется публикация в рабочем пространстве {0}...",
     "UploadProject.ValidationSession_VerseHotReload": "Перезагрузка кода Verse…",
+    "PrepareProjectSourceDataForUpload.CleanupIntermediateAssets": "Удаляются промежуточные ресурсы…",
     "UploadProject.ValidationSession_SendContentUpdate": "Отправка обновления контента",
     "UploadProject.ValidationSession_StoreSnapshot": "Выполняется сохранение снимка состояния проекта...",
     "UploadProjectsStart": "Выгрузка проектов",
@@ -5005,6 +5041,7 @@
     "ProjectVersePathConfirmation.SetMessage": "Установить для проекта {0} основной путь в Verse:\n\n'{1}'?",
     "ProjectVersePathConfirmation.AssignAdditionalButton": "Назначить дополнительный путь в Verse",
     "AssigningVersePath": "Идёт назначение пути Verse {0}…",
+    "AssigningVersePaths": "Идёт назначение путей Verse для проекта…",
     "AddReferencedContent.InvalidVersePath": "Не удалось добавить внешний контент\nНедопустимый путь Verse.",
     "AddReferencedContent.ProjectNotOpened": "Невозможно добавить внешний контент\n{0}\nПроект '{1}' не открыт",
     "AddReferencedContent.UserNotLoggedIn": "Невозможно добавить внешний контент\n{0}\nПользователь не вошёл в систему",
@@ -5069,6 +5106,7 @@
     "RemovePublicApiConfirmation": "После выполнения этой операции начнут действовать права на все подключаемые модули, ресурсы и файлы Verse\n\nПродолжить?",
     "ExternalContentUnknownError": "Неизвестная ошибка",
     "ValidatingVersePath": "Идёт проверка пути в Verse для {0}…",
+    "ValidatingVersePaths": "Идёт проверка путей к проекту в Verse…",
     "InputVersePathInvalid": "Путь Verse имеет синтаксические ошибки: {0}",
     "RemoveContent": "Да, удалить контент",
     "RemoveContentAndReload": "Да, удалить контент и перезагрузить",
@@ -5077,6 +5115,10 @@
     "ProjectVersePathPrompter.ErrorMessage": "{0}\n\nВведите путь к проекту в Verse:"
   },
   "ValkyrieProjectAuroraEntitlementCatalog": {
+    "InternalError": "Внутренняя ошибка",
+    "Error.NoEntitlements": "Права доступа на проверку отсутствуют.",
+    "Error.RootModuleVersionNotAvailable": "В сервисе управления контентом отсутствует версия модуля. Обновлялась ли версия хотя бы единожды?",
+    "Error.ContentServiceNotAvailable": "Сервис управления контентом недоступен.",
     "AuroraEntitlementDataBuildError": "Ошибка сборки Verse."
   },
   "ValkyrieProjectBrowser": {
@@ -5722,16 +5764,15 @@
     "MetaSoundValidationFail_NotPresetFromBuiltIn": "Готовую настройку MetaSound необходимо создать из встроенного графа MetaSound",
     "CheckDevelopmentStatus.ExperimentalStruct": "Объект {0} — это экспериментальная функция. Сначала удалите его перед публикацией.",
     "VirtualizedDataNotify": "Один или более пакетных файлов содержат виртуальные данные и не работают в UEFN!",
-    "PersonaDeviceSettingValidatorMessage": "На уровне обнаружено устройство персонажа-собеседника, но оно не включено в настройках проекта.",
     "GenericMessageLogPageTitle": "Проверка проекта",
     "Properties.Fixer.ResetToDefault": "Сбросить свойство к значению по умолчанию",
     "Properties.Fixer.Transaction": "Сброс настроек",
     "Properties.Fixer.ResetValue": "Сбросить значение {0} на {1}",
+    "PersonaDeviceSettingValidatorMessage": "ИИ среды выполнения обнаружен, хотя он не включён в настройках проекта.",
     "Blueprints.Fixer.SanitizeBlueprint": "Вычистить схему",
     "Blueprints.Fixer.Transaction": "Вычищенная схема",
     "Blueprints.Fixer.SanitizedBlueprint": "Вычищенная схема: {0}",
     "Blueprints.Error.RestrictedContent": "Эта схема содержит запрещённый контент. Вычистите её, чтобы удалить следующий запрещённый контент: ({ValidatorClass})",
-    "MaterialCompilation.ErrorFmt": "[{0}] {1}",
     "VirtualizedData": "содержит виртуальные данные и не работает в UEFN! Необходимо восстановить пакетный файл в физической памяти.",
     "ValkyrieVerseValidationError": "При компиляции Verse возникла ошибка(-и) в {0}. См. диагностические сообщения сборки Verse.",
     "MissingGameFeatureData": "В {0} отсутствует ресурс GameFeatureData",
@@ -5940,10 +5981,18 @@
     "SuperClass": "Суперкласс"
   },
   "VerseClassSettingsInterfaceCustomization": {
+    "FloatType": "Все нецелочисленные значения",
+    "CommonCategory": "Обычные",
+    "CommonCategoryToolTip": "Обычные",
     "FunctionsNotSupported": "Не удалось добавить интерфейс '{0}'. Интерфейсы, содержащие функции, пока не поддерживаются",
+    "IntType": "Целочисленное значение (недробное число)",
     "InterfaceContext": "Интерфейсы",
     "None": "Нет",
-    "TedsTypeInfoNotAvailable": "Информация о типе TEDS недоступна"
+    "DefaulParam": "Параметр",
+    "ParameterWithIndex": "Параметр {0}",
+    "TedsTypeInfoNotAvailable": "Информация о типе TEDS недоступна",
+    "VariableTypeToolTip": "Тип данных, которые будет сохранять эта переменная.",
+    "LogicType": "Значения true и false"
   },
   "VerseDeviceCustomization": {
     "SetDeviceTransaction": "Редактировать ресурс",
@@ -5998,6 +6047,7 @@
     "Mutability_Constant": "Константа",
     "Documentation": "Документация",
     "DefaultValueHandle": "Включение/отключение значения Verse по умолчанию",
+    "TooManyParams": "Не удалось добавить новый параметр.\nМакс. число: {0}",
     "WriteAccess": "Если не указать, доступ для записи будет таким же, как для основного доступа",
     "IntType": "Целочисленное значение (недробное число)",
     "Mutability": "Изменяемость",
