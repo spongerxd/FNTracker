@@ -4,6 +4,7 @@
     "Name": "QuestRewards",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Quests/QuestRewards",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortQuestRewardTableRow'",
@@ -5363,6 +5364,16 @@
       },
       "CannyValley_Reactive_DemoTape_004": {
         "QuestTemplateId": "Quest:cannyvalley_reactive_demotape",
+        "TemplateId": "SparksSong:sid_placeholder_745",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "CannyValley_Reactive_DemoTape_005": {
+        "QuestTemplateId": "Quest:cannyvalley_reactive_demotape",
         "TemplateId": "AthenaMusicPack:musicpack_stw001_cannyvalley",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -8862,16 +8873,6 @@
         "Exportable": true
       },
       "CannyValleyQuest_Outpost_L5_004": {
-        "QuestTemplateId": "Quest:cannyvalleyquest_outpost_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender4",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "CannyValleyQuest_Outpost_L5_005": {
         "QuestTemplateId": "Quest:cannyvalleyquest_outpost_l5",
         "TemplateId": "Quest:cannyvalley_landmark_deploytheprobe",
         "Quantity": 1,
@@ -21066,7 +21067,7 @@
         "TemplateId": "CardPack:cardpack_worker_c",
         "Quantity": 2,
         "ItemLevel": 1,
-        "Hidden": false,
+        "Hidden": true,
         "Feature": false,
         "Selectable": false,
         "Exportable": true
@@ -21076,7 +21077,7 @@
         "TemplateId": "AccountResource:currency_mtxswap",
         "Quantity": 100,
         "ItemLevel": 0,
-        "Hidden": false,
+        "Hidden": true,
         "Feature": false,
         "Selectable": false,
         "Exportable": true
@@ -21086,13 +21087,13 @@
         "TemplateId": "Hero:hid_constructor_rushbase_uc_t01",
         "Quantity": 1,
         "ItemLevel": 1,
-        "Hidden": false,
+        "Hidden": true,
         "Feature": false,
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T1_L1_004": {
-        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+      "StonewoodQuest_CloseGate_D1_001": {
+        "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "HomebaseNode:questreward_stonewood_squad_ssd1",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -21101,7 +21102,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T1_L1_005": {
+      "OutpostQuest_T1_L1_004": {
         "QuestTemplateId": "Quest:outpostquest_t1_l1",
         "TemplateId": "Quest:stonewoodquest_closegate_d1",
         "Quantity": 1,
@@ -21111,8 +21112,8 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T1_L1_006": {
-        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+      "StonewoodQuest_CloseGate_D1_002": {
+        "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "Quest:stonewoodquest_tutorial_survivorsquads",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -21121,9 +21122,19 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T1_L1_007": {
+      "OutpostQuest_T1_L1_005": {
         "QuestTemplateId": "Quest:outpostquest_t1_l1",
         "TemplateId": "Token:campaigntutorialcomplete",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "StonewoodQuest_CloseGate_D1_003": {
+        "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
+        "TemplateId": "Quest:stonewoodquest_tutorial_schematics",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,
@@ -21241,6 +21252,16 @@
         "Selectable": false,
         "Exportable": true
       },
+      "OutpostQuest_T1_L2_007": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l2",
+        "TemplateId": "Quest:stonewoodquest_tutorial_survivorsquadleader",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
       "OutpostQuest_T1_L3_001": {
         "QuestTemplateId": "Quest:outpostquest_t1_l3",
         "TemplateId": "AccountResource:currency_mtxswap",
@@ -21333,7 +21354,7 @@
       },
       "OutpostQuest_T1_L3_010": {
         "QuestTemplateId": "Quest:outpostquest_t1_l3",
-        "TemplateId": "Quest:tutorial_loadout_gadgets",
+        "TemplateId": "Quest:stonewoodquest_tutorial_gadgets",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,
@@ -21584,6 +21605,16 @@
       "OutpostQuest_T1_L5_006": {
         "QuestTemplateId": "Quest:outpostquest_t1_l5",
         "TemplateId": "Quest:stonewoodquest_reactive_fetch_hoverboard",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L5_007": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l5",
+        "TemplateId": "Quest:stonewoodquest_tutorial_seasonalcontent_exchange",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,
@@ -22073,7 +22104,7 @@
       },
       "OutpostQuest_T2_L5_002": {
         "QuestTemplateId": "Quest:outpostquest_t2_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender3",
+        "TemplateId": "HomebaseNode:questreward_plankerton_squad_ssd5",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": false,
@@ -22083,16 +22114,6 @@
       },
       "OutpostQuest_T2_L5_003": {
         "QuestTemplateId": "Quest:outpostquest_t2_l5",
-        "TemplateId": "HomebaseNode:questreward_plankerton_squad_ssd5",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "OutpostQuest_T2_L5_004": {
-        "QuestTemplateId": "Quest:outpostquest_t2_l5",
         "TemplateId": "Quest:outpostquest_t2_l6",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -22101,7 +22122,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T2_L5_005": {
+      "OutpostQuest_T2_L5_004": {
         "QuestTemplateId": "Quest:outpostquest_t2_l5",
         "TemplateId": "Quest:stonewoodquest_joelkarolina_savesurvivors",
         "Quantity": 1,
@@ -22603,16 +22624,6 @@
       },
       "OutpostQuest_T3_L5_004": {
         "QuestTemplateId": "Quest:outpostquest_t3_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender4",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "OutpostQuest_T3_L5_005": {
-        "QuestTemplateId": "Quest:outpostquest_t3_l5",
         "TemplateId": "Quest:cannyvalleyquest_filler_1_d5",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -22621,7 +22632,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T3_L5_006": {
+      "OutpostQuest_T3_L5_005": {
         "QuestTemplateId": "Quest:outpostquest_t3_l5",
         "TemplateId": "Quest:cannyvalleyquest_side_3_d4",
         "Quantity": 1,
@@ -22631,7 +22642,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T3_L5_007": {
+      "OutpostQuest_T3_L5_006": {
         "QuestTemplateId": "Quest:outpostquest_t3_l5",
         "TemplateId": "Quest:outpostquest_t3_l6",
         "Quantity": 1,
@@ -23023,7 +23034,7 @@
       },
       "OutpostQuest_T4_L5_003": {
         "QuestTemplateId": "Quest:outpostquest_t4_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender5",
+        "TemplateId": "HomebaseNode:questreward_twinepeaks_squad_ssd5",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": false,
@@ -23033,16 +23044,6 @@
       },
       "OutpostQuest_T4_L5_004": {
         "QuestTemplateId": "Quest:outpostquest_t4_l5",
-        "TemplateId": "HomebaseNode:questreward_twinepeaks_squad_ssd5",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "OutpostQuest_T4_L5_005": {
-        "QuestTemplateId": "Quest:outpostquest_t4_l5",
         "TemplateId": "Quest:outpostquest_t4_l6",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -23051,7 +23052,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "OutpostQuest_T4_L5_006": {
+      "OutpostQuest_T4_L5_005": {
         "QuestTemplateId": "Quest:outpostquest_t4_l5",
         "TemplateId": "Quest:stw_stormkinghard_kingme",
         "Quantity": 1,
@@ -26823,7 +26824,7 @@
       },
       "PlankertonQuest_Outpost_L5_003": {
         "QuestTemplateId": "Quest:plankertonquest_outpost_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender3",
+        "TemplateId": "HomebaseNode:questreward_plankerton_squad_ssd5",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": false,
@@ -26833,16 +26834,6 @@
       },
       "PlankertonQuest_Outpost_L5_004": {
         "QuestTemplateId": "Quest:plankertonquest_outpost_l5",
-        "TemplateId": "HomebaseNode:questreward_plankerton_squad_ssd5",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "PlankertonQuest_Outpost_L5_005": {
-        "QuestTemplateId": "Quest:plankertonquest_outpost_l5",
         "TemplateId": "Quest:plankertonquest_filler_1_d5",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -26851,7 +26842,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "PlankertonQuest_Outpost_L5_006": {
+      "PlankertonQuest_Outpost_L5_005": {
         "QuestTemplateId": "Quest:plankertonquest_outpost_l5",
         "TemplateId": "Quest:plankertonquest_landmark_plankharbor",
         "Quantity": 1,
@@ -33461,7 +33452,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_001": {
+      "StonewoodQuest_CloseGate_D1_004": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "Ammo:ammodatabulletsmedium",
         "Quantity": 200,
@@ -33471,7 +33462,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_002": {
+      "StonewoodQuest_CloseGate_D1_005": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "CardPack:cardpack_trapwalldarts_uc",
         "Quantity": 1,
@@ -33481,7 +33472,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_003": {
+      "StonewoodQuest_CloseGate_D1_006": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "HomebaseNode:questreward_pickaxe",
         "Quantity": 1,
@@ -33491,7 +33482,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_004": {
+      "StonewoodQuest_CloseGate_D1_007": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "Quest:stonewoodquest_launchballoon_d1",
         "Quantity": 1,
@@ -33501,7 +33492,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_005": {
+      "StonewoodQuest_CloseGate_D1_008": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "Weapon:wid_sniper_auto_uc_ore_t01",
         "Quantity": 1,
@@ -33511,7 +33502,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_006": {
+      "StonewoodQuest_CloseGate_D1_009": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "CardPack:cardpack_ranged_r",
         "Quantity": 1,
@@ -33521,7 +33512,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_007": {
+      "StonewoodQuest_CloseGate_D1_010": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "Ammo:ammodatabulletslight",
         "Quantity": 200,
@@ -33531,7 +33522,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_CloseGate_D1_008": {
+      "StonewoodQuest_CloseGate_D1_011": {
         "QuestTemplateId": "Quest:stonewoodquest_closegate_d1",
         "TemplateId": "WorldItem:stoneitemdata",
         "Quantity": 100,
@@ -33637,16 +33628,6 @@
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,
-        "Feature": false,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "STWStarterBundle24_GetRewards_006": {
-        "QuestTemplateId": "Quest:stwstarterbundle24_getrewards",
-        "TemplateId": "Token:quests_stwstarterbundle24",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
         "Feature": false,
         "Selectable": false,
         "Exportable": true
@@ -33893,7 +33874,7 @@
       },
       "StonewoodQuest_Filler_1_D3_006": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender",
+        "TemplateId": "HomebaseNode:questreward_mission_defender",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": false,
@@ -33903,16 +33884,6 @@
       },
       "StonewoodQuest_Filler_1_D3_007": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
-        "TemplateId": "HomebaseNode:questreward_mission_defender",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "StonewoodQuest_Filler_1_D3_008": {
-        "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
         "TemplateId": "Quest:challenge_defendertraining_1",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -33921,7 +33892,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_Filler_1_D3_009": {
+      "StonewoodQuest_Filler_1_D3_008": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
         "TemplateId": "Quest:outpostquest_t1_l4",
         "Quantity": 1,
@@ -33931,7 +33902,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_Filler_1_D3_010": {
+      "StonewoodQuest_Filler_1_D3_009": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
         "TemplateId": "Quest:stonewoodquest_side_1_d3",
         "Quantity": 1,
@@ -33941,7 +33912,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_Filler_1_D3_011": {
+      "StonewoodQuest_Filler_1_D3_010": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
         "TemplateId": "Quest:stonewoodquest_tutorial_levelup_defender",
         "Quantity": 1,
@@ -33951,8 +33922,8 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_Filler_1_D3_012": {
-        "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
+      "StonewoodQuest_Tutorial_LevelUp_Defender_001": {
+        "QuestTemplateId": "Quest:stonewoodquest_tutorial_levelup_defender",
         "TemplateId": "Quest:tutorial_loadout_preset1",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -33961,17 +33932,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_Filler_1_D3_013": {
-        "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
-        "TemplateId": "Schematic:sid_floor_defender",
-        "Quantity": 1,
-        "ItemLevel": 5,
-        "Hidden": false,
-        "Feature": false,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "StonewoodQuest_Filler_1_D3_014": {
+      "StonewoodQuest_Filler_1_D3_011": {
         "QuestTemplateId": "Quest:stonewoodquest_filler_1_d3",
         "TemplateId": "Weapon:wid_edged_sword_heavy_r_ore_t01",
         "Quantity": 1,
@@ -34363,6 +34324,16 @@
       },
       "StonewoodQuest_LaunchBalloon_D1_003": {
         "QuestTemplateId": "Quest:stonewoodquest_launchballoon_d1",
+        "TemplateId": "Quest:welcome_quest_a01_destroy",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "StonewoodQuest_LaunchBalloon_D1_004": {
+        "QuestTemplateId": "Quest:stonewoodquest_launchballoon_d1",
         "TemplateId": "Schematic:sid_floor_health_c_t00",
         "Quantity": 1,
         "ItemLevel": 1,
@@ -34393,16 +34364,6 @@
       },
       "StonewoodQuest_LaunchRocket_D5_003": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender2",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "StonewoodQuest_LaunchRocket_D5_004": {
-        "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Quest:homebasequest_completeexpedition",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -34411,7 +34372,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_005": {
+      "StonewoodQuest_LaunchRocket_D5_004": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Quest:outpostquest_t1_l7",
         "Quantity": 1,
@@ -34421,7 +34382,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_006": {
+      "StonewoodQuest_LaunchRocket_D5_005": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Quest:outpostquest_t2_l1",
         "Quantity": 1,
@@ -34431,7 +34392,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_007": {
+      "StonewoodQuest_LaunchRocket_D5_006": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Quest:stonewoodquest_side_1_d5",
         "Quantity": 1,
@@ -34441,7 +34402,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_008": {
+      "StonewoodQuest_LaunchRocket_D5_007": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Quest:stonewoodquest_tutorial_expeditions",
         "Quantity": 1,
@@ -34451,7 +34412,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_009": {
+      "StonewoodQuest_LaunchRocket_D5_008": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Schematic:sid_floor_player_jump_pad",
         "Quantity": 1,
@@ -34461,7 +34422,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "StonewoodQuest_LaunchRocket_D5_010": {
+      "StonewoodQuest_LaunchRocket_D5_009": {
         "QuestTemplateId": "Quest:stonewoodquest_launchrocket_d5",
         "TemplateId": "Schematic:sid_floor_player_jump_pad_free_direction",
         "Quantity": 1,
@@ -40253,7 +40214,7 @@
       },
       "TwinePeaksQuest_Outpost_L5_003": {
         "QuestTemplateId": "Quest:twinepeaksquest_outpost_l5",
-        "TemplateId": "HomebaseNode:questreward_homebase_defender5",
+        "TemplateId": "HomebaseNode:questreward_twinepeaks_squad_ssd5",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": false,
@@ -40263,16 +40224,6 @@
       },
       "TwinePeaksQuest_Outpost_L5_004": {
         "QuestTemplateId": "Quest:twinepeaksquest_outpost_l5",
-        "TemplateId": "HomebaseNode:questreward_twinepeaks_squad_ssd5",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": true,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "TwinePeaksQuest_Outpost_L5_005": {
-        "QuestTemplateId": "Quest:twinepeaksquest_outpost_l5",
         "TemplateId": "Quest:twinepeaksquest_filler_1_d5",
         "Quantity": 1,
         "ItemLevel": 0,
@@ -40281,7 +40232,7 @@
         "Selectable": false,
         "Exportable": true
       },
-      "TwinePeaksQuest_Outpost_L5_006": {
+      "TwinePeaksQuest_Outpost_L5_005": {
         "QuestTemplateId": "Quest:twinepeaksquest_outpost_l5",
         "TemplateId": "Quest:twinepeaksquest_side_3_d4",
         "Quantity": 1,
@@ -52121,6 +52072,16 @@
         "Selectable": false,
         "Exportable": true
       },
+      "StonewoodQuest_Fetch_ResearchCrates_005": {
+        "QuestTemplateId": "Quest:stonewoodquest_fetch_researchcrates",
+        "TemplateId": "AccountResource:currency_xrayllama",
+        "Quantity": 100,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
       "StonewoodQuest_Fetch_TrashCans_008": {
         "QuestTemplateId": "Quest:stonewoodquest_fetch_trashcans",
         "TemplateId": "AccountResource:currency_xrayllama",
@@ -56684,6 +56645,496 @@
       "STWStarterBundle24_GetRewards_005": {
         "QuestTemplateId": "Quest:stwstarterbundle24_getrewards",
         "TemplateId": "Quest:stwstarterbundle24_05",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWStarterBundle24_GetRewards_006": {
+        "QuestTemplateId": "Quest:stwstarterbundle24_getrewards",
+        "TemplateId": "Token:quests_stwstarterbundle24",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A01_Destroy_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a01_destroy",
+        "TemplateId": "Ammo:ammodatabulletslight",
+        "Quantity": 1000,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A01_Destroy_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a01_destroy",
+        "TemplateId": "CardPack:cardpack_ranged_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A01_Destroy_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a01_destroy",
+        "TemplateId": "Quest:welcome_quest_a02_eliminate",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A02_eliminate_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a02_eliminate",
+        "TemplateId": "Hero:hid_ninja_starsassassin_uc_t01",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A02_eliminate_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a02_eliminate",
+        "TemplateId": "CardPack:cardpack_melee_sword_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A02_eliminate_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a02_eliminate",
+        "TemplateId": "Quest:welcome_quest_a03_eliminate",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A03_Eliminate_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a03_eliminate",
+        "TemplateId": "Hero:hid_outlander_007_uc_t01",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A03_Eliminate_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a03_eliminate",
+        "TemplateId": "CardPack:cardpack_ranged_pistol_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A03_Eliminate_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a03_eliminate",
+        "TemplateId": "Quest:welcome_quest_a04_destroy",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A04_Destroy_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a04_destroy",
+        "TemplateId": "Hero:hid_constructor_013_uc_t01",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A04_Destroy_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a04_destroy",
+        "TemplateId": "CardPack:cardpack_melee_tool_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A04_Destroy_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a04_destroy",
+        "TemplateId": "Quest:welcome_quest_a05_eliminate",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A05_Eliminate_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a05_eliminate",
+        "TemplateId": "CardPack:cardpack_trap_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A05_Eliminate_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a05_eliminate",
+        "TemplateId": "CardPack:cardpack_trap_uc",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A05_Eliminate_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a05_eliminate",
+        "TemplateId": "Quest:welcome_quest_a06_complete",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A06_Complete_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a06_complete",
+        "TemplateId": "AccountResource:peoplexp",
+        "Quantity": 1000,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A06_Complete_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a06_complete",
+        "TemplateId": "AccountResource:schematicxp",
+        "Quantity": 1000,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A06_Complete_003": {
+        "QuestTemplateId": "Quest:welcome_quest_a06_complete",
+        "TemplateId": "AccountResource:reagent_c_t01",
+        "Quantity": 7,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A06_Complete_004": {
+        "QuestTemplateId": "Quest:welcome_quest_a06_complete",
+        "TemplateId": "Quest:welcome_quest_a07_collect",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A07_Collect_001": {
+        "QuestTemplateId": "Quest:welcome_quest_a07_collect",
+        "TemplateId": "AthenaLoadingScreen:loadingscreen_stw_f2pkeyart",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "Welcome_Quest_A07_Collect_002": {
+        "QuestTemplateId": "Quest:welcome_quest_a07_collect",
+        "TemplateId": "AccountResource:voucher_herobuyback",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "DVI_Quest_A01_Interact_001": {
+        "QuestTemplateId": "Quest:dvi_quest_a01_interact",
+        "TemplateId": "AccountResource:peoplexp",
+        "Quantity": 5000,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "DVI_Quest_A01_Interact_002": {
+        "QuestTemplateId": "Quest:dvi_quest_a01_interact",
+        "TemplateId": "Quest:dvi_quest_a02_interact",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "DVI_Quest_A02_Interact_001": {
+        "QuestTemplateId": "Quest:dvi_quest_a02_interact",
+        "TemplateId": "AccountResource:schematicxp",
+        "Quantity": 5000,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "DVI_Quest_A02_Interact_002": {
+        "QuestTemplateId": "Quest:dvi_quest_a02_interact",
+        "TemplateId": "Quest:dvi_quest_a03_destroy",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "DVI_Quest_A03_Destroy_001": {
+        "QuestTemplateId": "Quest:dvi_quest_a03_destroy",
+        "TemplateId": "AccountResource:voucher_cardpack_bronze",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_006": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Weapon:wid_edged_sword_medium_c_ore_t00",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_007": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Trap:tid_ceiling_electric_aoe_r_t01",
+        "Quantity": 2,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_008": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Trap:tid_wall_darts_r_t01",
+        "Quantity": 2,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_009": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Trap:tid_floor_spikes_wood_c_t01",
+        "Quantity": 3,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_010": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ingredient:ingredient_twine_t01",
+        "Quantity": 4,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_011": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ingredient:ingredient_ore_alloy",
+        "Quantity": 6,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_012": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ammo:ammodataexplosive",
+        "Quantity": 48,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_013": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Weapon:wid_pistol_semiauto_c_ore_t00",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_014": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Weapon:wid_assault_auto_c_ore_t00",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_015": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ammo:ammodatabulletsheavy",
+        "Quantity": 60,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_016": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ammo:ammodatashells",
+        "Quantity": 52,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_017": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Weapon:wid_launcher_rocket_r_ore_t01",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_018": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ingredient:ingredient_mechanical_parts_t01",
+        "Quantity": 4,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_019": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ingredient:ingredient_nuts_bolts",
+        "Quantity": 10,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_020": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Ammo:ammodatabulletslight",
+        "Quantity": 1100,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_021": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "WorldItem:wooditemdata",
+        "Quantity": 250,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_022": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "WorldItem:stoneitemdata",
+        "Quantity": 250,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_023": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "WorldItem:metalitemdata",
+        "Quantity": 250,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_024": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Schematic:sid_pistol_semiauto_c_ore_t00",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_025": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Schematic:sid_assault_semiauto_c_ore_t00",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_026": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "Schematic:sid_floor_spikes_wood_c_t01",
+        "Quantity": 1,
+        "ItemLevel": 0,
+        "Hidden": true,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "OutpostQuest_T1_L1_027": {
+        "QuestTemplateId": "Quest:outpostquest_t1_l1",
+        "TemplateId": "AccountResource:voucher_basicpack",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,

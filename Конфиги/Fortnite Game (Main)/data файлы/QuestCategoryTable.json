@@ -4,6 +4,7 @@
     "Name": "QuestCategoryTable",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Quests/QuestCategoryTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortCategoryTableRow'",
@@ -384,10 +385,19 @@
         "Name": {
           "Namespace": "QuestCategoryTable",
           "Key": "LTE_Welcome_Name",
-          "SourceString": "[PH] Event: Guide to Saving the World",
-          "LocalizedString": "[PH] Event: Guide to Saving the World"
+          "SourceString": "Event: Guide to Saving the World",
+          "LocalizedString": "Событие «Руководство по сражению с Бурей»"
         },
         "SortPriority": 52
+      },
+      "LTE_Spring2026": {
+        "Name": {
+          "Namespace": "QuestCategoryTable",
+          "Key": "LTE_Spring2026_Name",
+          "SourceString": "Event: A Voyager's Arrival",
+          "LocalizedString": "Событие «Прибытие Странника»"
+        },
+        "SortPriority": 40
       },
       "LTE_HuntMonster": {
         "Name": {
