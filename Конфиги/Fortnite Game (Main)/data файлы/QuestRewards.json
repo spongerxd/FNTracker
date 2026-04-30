@@ -51824,7 +51824,7 @@
       },
       "STWIrwinIntro_ReactiveKill_Quest_A1_001": {
         "QuestTemplateId": "Quest:stwirwinintro_reactivekill_quest_a1",
-        "TemplateId": "Quest:stwirwinintro_feed_quest_a2",
+        "TemplateId": "Quest:stwirwinintro_fetch_quest_a3",
         "Quantity": 1,
         "ItemLevel": 0,
         "Hidden": true,
@@ -51836,26 +51836,6 @@
         "QuestTemplateId": "Quest:stwirwinintro_reactivekill_quest_a1",
         "TemplateId": "AccountResource:eventcurrency_scaling",
         "Quantity": 50,
-        "ItemLevel": 0,
-        "Hidden": false,
-        "Feature": false,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "STWIrwinIntro_Feed_Quest_A2_001": {
-        "QuestTemplateId": "Quest:stwirwinintro_feed_quest_a2",
-        "TemplateId": "Quest:stwirwinintro_fetch_quest_a3",
-        "Quantity": 1,
-        "ItemLevel": 0,
-        "Hidden": true,
-        "Feature": false,
-        "Selectable": false,
-        "Exportable": true
-      },
-      "STWIrwinIntro_Feed_Quest_A2_002": {
-        "QuestTemplateId": "Quest:stwirwinintro_feed_quest_a2",
-        "TemplateId": "AccountResource:campaign_event_currency",
-        "Quantity": 250,
         "ItemLevel": 0,
         "Hidden": false,
         "Feature": false,
@@ -51943,6 +51923,16 @@
         "Exportable": true
       },
       "STWIrwinIntro_Build_Quest_A7_001": {
+        "QuestTemplateId": "Quest:stwirwinintro_build_quest_a7",
+        "TemplateId": "AccountResource:campaign_event_currency",
+        "Quantity": 250,
+        "ItemLevel": 0,
+        "Hidden": false,
+        "Feature": false,
+        "Selectable": false,
+        "Exportable": true
+      },
+      "STWIrwinIntro_Build_Quest_A7_002": {
         "QuestTemplateId": "Quest:stwirwinintro_build_quest_a7",
         "TemplateId": "Hero:hid_outlander_041_dinocollector_sr_t01",
         "Quantity": 1,

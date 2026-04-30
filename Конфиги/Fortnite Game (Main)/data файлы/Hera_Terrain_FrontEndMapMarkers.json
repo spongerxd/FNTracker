@@ -4,6 +4,7 @@
     "Name": "Hera_Terrain_FrontEndMapMarkers",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/UI/IngameMap/Hera_Terrain_FrontEndMapMarkers",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortChallengeMapPoiData'",
@@ -150,6 +151,31 @@
         },
         "LocationTag": {
           "TagName": "Athena.Location.UnNamedPOI.Landmark.22"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
+      },
+      "Athena.Location.UnNamedPOI.Landmark.46": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "5249AFDC45979CB2CEFC0FB18B0CE9E5",
+          "SourceString": "ELITES OUTPOST",
+          "LocalizedString": "АВАНПОСТ ЭЛИТЫ"
+        },
+        "WorldLocation": {
+          "X": -68860.0,
+          "Y": -42048.0,
+          "Z": 2044.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.46"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -317,20 +343,20 @@
           110
         ]
       },
-      "Athena.Location.POI.Generic.10": {
+      "Athena.Location.POI.Generic.21": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "6881301D483D4141141B83A5F96A31BF",
-          "SourceString": "TIPTOP TERRACE",
-          "LocalizedString": "ТИХИЕ ТЕРРАСЫ"
+          "Key": "54B65E0C476E7E67D74DF88F667C9C70",
+          "SourceString": "BUILDER'S BARRACKS",
+          "LocalizedString": "СТРОИТЕЛЬНЫЕ СООРУЖЕНИЯ"
         },
         "WorldLocation": {
-          "X": -78275.836,
-          "Y": -41450.938,
+          "X": 81125.05,
+          "Y": 35242.445,
           "Z": 2416.0
         },
         "LocationTag": {
-          "TagName": "Athena.Location.POI.Generic.10"
+          "TagName": "Athena.Location.POI.Generic.21"
         },
         "CalendarEventsRequired": [],
         "DiscoveryQuestPrimaryAssetId": {
@@ -339,9 +365,9 @@
           },
           "PrimaryAssetName": "Quest_Ch7_Discover_NamedLocations"
         },
-        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj9",
+        "DiscoverObjectiveBackendName": "Quest_Ch7_Discover_NamedLocations_obj20",
         "ActiveDiscoverableBlobIds": [
-          40
+          60
         ]
       },
       "Athena.Location.UnNamedPOI.Landmark.27": {
@@ -627,31 +653,6 @@
         "DiscoverObjectiveBackendName": "None",
         "ActiveDiscoverableBlobIds": []
       },
-      "Athena.Location.UnNamedPOI.Landmark.11": {
-        "Text": {
-          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
-          "Key": "26F526094A8C0992210A46B8A22AC0D6",
-          "SourceString": "SLICE O' SHORE",
-          "LocalizedString": "ПЛЯЖНЫЙ ПРОМЕНАД"
-        },
-        "WorldLocation": {
-          "X": 89972.0,
-          "Y": 32716.0,
-          "Z": 2792.0
-        },
-        "LocationTag": {
-          "TagName": "Athena.Location.UnNamedPOI.Landmark.11"
-        },
-        "CalendarEventsRequired": [],
-        "DiscoveryQuestPrimaryAssetId": {
-          "PrimaryAssetType": {
-            "Name": "None"
-          },
-          "PrimaryAssetName": "None"
-        },
-        "DiscoverObjectiveBackendName": "None",
-        "ActiveDiscoverableBlobIds": []
-      },
       "Athena.Location.UnNamedPOI.Landmark.25": {
         "Text": {
           "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
@@ -805,6 +806,31 @@
         "ActiveDiscoverableBlobIds": [
           80
         ]
+      },
+      "Athena.Location.UnNamedPOI.Landmark.45": {
+        "Text": {
+          "Namespace": "DisplayNamesForPOIs_Hera_Terrain",
+          "Key": "2D64FA854F111275EC5780BA42092ED3",
+          "SourceString": "TREECHOPPED TIMBERMILL",
+          "LocalizedString": "ЛИНЯЛАЯ ЛЕСОПИЛКА"
+        },
+        "WorldLocation": {
+          "X": -77313.76,
+          "Y": -50124.6,
+          "Z": 6860.0
+        },
+        "LocationTag": {
+          "TagName": "Athena.Location.UnNamedPOI.Landmark.45"
+        },
+        "CalendarEventsRequired": [],
+        "DiscoveryQuestPrimaryAssetId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "DiscoverObjectiveBackendName": "None",
+        "ActiveDiscoverableBlobIds": []
       },
       "Athena.Location.UnNamedPOI.Landmark.37": {
         "Text": {
