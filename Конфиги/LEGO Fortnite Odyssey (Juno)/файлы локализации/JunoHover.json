@@ -1,0 +1,23 @@
+{
+  "": {
+    "7DAA7C6648C0B3529C6E57B2CBB1EC3A": "({Display Name}) Error:{Error} Dist:{Distance} FilteredZVel:{FilteredZVel} XYVel:{XYVel} Drag:{Drag}",
+    "3CC94F8F45297974E1C35D9685815A54": "({Display Name}) Error:{Error} Dist:{Distance} ZVel:{ZVell} FilteredZVel:{FilteredZVel} XYVel:{XYVel} Drag:{Drag}\n\nSpringTerm:{SpringTerm} DampingTerm:{DampingTerm} GravityComp:{GravityComp} StrengthMult@ratio:{NonLinearMult} AntiGravMult@Ratio:{AntiGravMult} MVCWeight:{MVCWeight} BaseStrength:{BaseStrength} BaseDamp:{BaseDamp} Force:{Force}",
+    "206C90534C20352AFDBD7D9F0B750EEB": "Активно",
+    "324DE0984B2B296AF61C8FA4C0FE0809": "Парящий кирпичик",
+    "6E55EE474066CA53B893919614ED8813": "Выкл.",
+    "AB741086499C6245881F09941E804BD4": "Включено",
+    "C82F1F784841D92DC159CDA539241DB8": "Борьба",
+    "80B6F1A241AB20F40B747F877293A2B0": "Поворотный круг",
+    "9AD17A8F487AF67CC7EA62A5CC10CF56": "{Display Name}\nСкорость: {Velocity}\nМасса: {Mass} Угловая скорость:{AngularVelocity}"
+  },
+  "Juno_GameplayItemToTagMapping": {
+    "D095B3FA4C165F12EECB24A19641961E": "Манёвренный парящий кирпичик, способный выдерживать вес транспорта. По умолчанию выключен, парящие кирпичики должны быть включены с помощью управления по каналу с водительского сиденья или переключателя.",
+    "971BEFAB4DCB2CDB90DF5098102214F9": "Парящий кирпичик",
+    "ABA3E2A648E1A5C18FB78789D3528719": "Крепкий парящий кирпичик",
+    "7CD80ADD46BF61A165E1449DF3D87D60": "Благодаря большой грузоподъёмности и низкой манёвренности этот кирпичик идеально подходит для строительства парящих платформ."
+  },
+  "PP_CraftingFormulas_GravityBeam": {
+    "BDC31F6444C73AE8E2B6769EF31D2BD6": "Тяжёлый парящий кирпичик",
+    "DB3DC89C4644243EC713729E5F432047": "Лёгкий парящий кирпичик"
+  }
+}
